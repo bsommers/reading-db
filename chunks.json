@@ -1,0 +1,1408 @@
+{
+  "arxiv-2610.08739v2": [
+    {
+      "chunk_id": "arxiv-2610.08739v2#chunk-01",
+      "concept_ids": [
+        "concept:ai-accelerator",
+        "concept:apc",
+        "concept:bare-ai",
+        "concept:bit-flip-attack",
+        "concept:dnn"
+      ],
+      "doc_id": "arxiv-2610.08739v2",
+      "heading": "Problem Statement: Bit-Flip Vulnerability in DNNs",
+      "key_terms": [
+        {
+          "count": 3,
+          "term": "bit-flip"
+        },
+        {
+          "count": 2,
+          "term": "hardware"
+        },
+        {
+          "count": 2,
+          "term": "dnns"
+        },
+        {
+          "count": 1,
+          "term": "bare-ai"
+        },
+        {
+          "count": 1,
+          "term": "attack"
+        },
+        {
+          "count": 1,
+          "term": "resilience"
+        },
+        {
+          "count": 1,
+          "term": "ai"
+        },
+        {
+          "count": 1,
+          "term": "built-in"
+        },
+        {
+          "count": 1,
+          "term": "performance"
+        },
+        {
+          "count": 1,
+          "term": "monitors"
+        },
+        {
+          "count": 1,
+          "term": "problem"
+        },
+        {
+          "count": 1,
+          "term": "statement"
+        }
+      ],
+      "section_index": 1,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > AI Accelerators",
+        "Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors",
+        "Hardware & Semiconductor Systems > Memory & Interconnects",
+        "Security & Resilience",
+        "Security & Resilience > Hardware Fault Attacks > Bit-Flip Attacks"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "AI Hardware Accelerators",
+        "Adversarial Fault Injection",
+        "Deep Learning Architectures",
+        "Hardware & AI Security",
+        "Memory Subsystems & Chiplets",
+        "On-Chip Telemetry & Runtime Monitoring",
+        "Semiconductor Engineering"
+      ],
+      "text": "Deep Neural Networks (DNNs) are integral to many safety critical systems, yet they remain highly vulnerable to bit-flip attacks (BFAs), where a few memory level perturbations can drastically degrade accuracy. Existing defenses incur significant hardware overhead, depend on retraining, or fail against targeted flips.",
+      "token_count": 44
+    },
+    {
+      "chunk_id": "arxiv-2610.08739v2#chunk-02",
+      "concept_ids": [
+        "concept:activation-statistics",
+        "concept:ai-accelerator",
+        "concept:apc",
+        "concept:bare-ai",
+        "concept:bit-flip-attack",
+        "concept:pulse"
+      ],
+      "doc_id": "arxiv-2610.08739v2",
+      "heading": "BARE-AI Architecture: APCs and PULSE",
+      "key_terms": [
+        {
+          "count": 3,
+          "term": "bare-ai"
+        },
+        {
+          "count": 2,
+          "term": "apcs"
+        },
+        {
+          "count": 2,
+          "term": "pulse"
+        },
+        {
+          "count": 1,
+          "term": "architecture"
+        },
+        {
+          "count": 1,
+          "term": "propose"
+        },
+        {
+          "count": 1,
+          "term": "runtime"
+        },
+        {
+          "count": 1,
+          "term": "framework"
+        },
+        {
+          "count": 1,
+          "term": "detects"
+        },
+        {
+          "count": 1,
+          "term": "localizes"
+        },
+        {
+          "count": 1,
+          "term": "mitigates"
+        },
+        {
+          "count": 1,
+          "term": "bfas"
+        },
+        {
+          "count": 1,
+          "term": "during"
+        }
+      ],
+      "section_index": 2,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > AI Accelerators",
+        "Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors",
+        "Security & Resilience",
+        "Security & Resilience > Hardware Fault Attacks > Bit-Flip Attacks",
+        "Security & Resilience > Runtime Fault Localization & Recovery"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "AI Hardware Accelerators",
+        "Adversarial Fault Injection",
+        "Deep Learning Architectures",
+        "Hardware & AI Security",
+        "On-Chip Telemetry & Runtime Monitoring",
+        "Self-Healing & Fault-Tolerant AI",
+        "Semiconductor Engineering"
+      ],
+      "text": "We propose BARE-AI, a runtime framework that detects, localizes, and mitigates BFAs during inference. BARE-AI introduces AI Performance Counters (APCs), lightweight hardware monitors in the accelerator datapath that capture per-layer activation statistics such as sparsity, entropy, kurtosis, and spectral shift. These are analyzed by the Predictive Unit for Layer Security Evaluation (PULSE), a compact detector trained offline as an ensemble of classifiers and realized on-chip as a small neural engine.",
+      "token_count": 70
+    },
+    {
+      "chunk_id": "arxiv-2610.08739v2#chunk-03",
+      "concept_ids": [
+        "concept:asi",
+        "concept:bare-ai"
+      ],
+      "doc_id": "arxiv-2610.08739v2",
+      "heading": "Fault Localization and Weight Recovery",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "fault"
+        },
+        {
+          "count": 2,
+          "term": "localization"
+        },
+        {
+          "count": 2,
+          "term": "recovery"
+        },
+        {
+          "count": 2,
+          "term": "layer"
+        },
+        {
+          "count": 1,
+          "term": "weight"
+        },
+        {
+          "count": 1,
+          "term": "explainability"
+        },
+        {
+          "count": 1,
+          "term": "bare-ai"
+        },
+        {
+          "count": 1,
+          "term": "introduces"
+        },
+        {
+          "count": 1,
+          "term": "activation"
+        },
+        {
+          "count": 1,
+          "term": "shift"
+        },
+        {
+          "count": 1,
+          "term": "index"
+        },
+        {
+          "count": 1,
+          "term": "asi"
+        }
+      ],
+      "section_index": 3,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > AI Accelerators",
+        "Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors",
+        "Security & Resilience",
+        "Security & Resilience > Runtime Fault Localization & Recovery"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "AI Hardware Accelerators",
+        "Deep Learning Architectures",
+        "Hardware & AI Security",
+        "On-Chip Telemetry & Runtime Monitoring",
+        "Self-Healing & Fault-Tolerant AI",
+        "Semiconductor Engineering"
+      ],
+      "text": "For explainability and recovery, BARE-AI introduces an Activation Shift Index (ASI) for layer level fault localization and a z-score based repair that resets anomalous weights toward clean layer statistics.",
+      "token_count": 29
+    },
+    {
+      "chunk_id": "arxiv-2610.08739v2#chunk-04",
+      "concept_ids": [
+        "concept:bare-ai",
+        "concept:bit-flip-attack",
+        "concept:dnn"
+      ],
+      "doc_id": "arxiv-2610.08739v2",
+      "heading": "Evaluation Across CNNs, ViTs, and LLMs",
+      "key_terms": [
+        {
+          "count": 3,
+          "term": "cnns"
+        },
+        {
+          "count": 3,
+          "term": "models"
+        },
+        {
+          "count": 2,
+          "term": "vits"
+        },
+        {
+          "count": 2,
+          "term": "llms"
+        },
+        {
+          "count": 2,
+          "term": "vision"
+        },
+        {
+          "count": 2,
+          "term": "language"
+        },
+        {
+          "count": 2,
+          "term": "accuracy"
+        },
+        {
+          "count": 1,
+          "term": "evaluation"
+        },
+        {
+          "count": 1,
+          "term": "transformers"
+        },
+        {
+          "count": 1,
+          "term": "large"
+        },
+        {
+          "count": 1,
+          "term": "random"
+        },
+        {
+          "count": 1,
+          "term": "targeted"
+        }
+      ],
+      "section_index": 4,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > AI Accelerators",
+        "Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors",
+        "Security & Resilience",
+        "Security & Resilience > Hardware Fault Attacks > Bit-Flip Attacks",
+        "Security & Resilience > Runtime Fault Localization & Recovery"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "AI Hardware Accelerators",
+        "Adversarial Fault Injection",
+        "Deep Learning Architectures",
+        "Hardware & AI Security",
+        "On-Chip Telemetry & Runtime Monitoring",
+        "Self-Healing & Fault-Tolerant AI",
+        "Semiconductor Engineering"
+      ],
+      "text": "Across CNNs, Vision Transformers, and Large Language Models under random, targeted, adaptive, and magnitude based BFAs, BARE-AI achieves up to 98% detection accuracy on vision models and 74% to 95% on language models, restores near clean accuracy for CNNs and ViTs, and provides partial recovery for LLMs.",
+      "token_count": 47
+    },
+    {
+      "chunk_id": "arxiv-2610.08739v2#chunk-05",
+      "concept_ids": [
+        "concept:ai-accelerator",
+        "concept:bare-ai",
+        "concept:ecc"
+      ],
+      "doc_id": "arxiv-2610.08739v2",
+      "heading": "Hardware Overhead at 28nm",
+      "key_terms": [
+        {
+          "count": 4,
+          "term": "overhead"
+        },
+        {
+          "count": 2,
+          "term": "28nm"
+        },
+        {
+          "count": 2,
+          "term": "energy"
+        },
+        {
+          "count": 2,
+          "term": "latency"
+        },
+        {
+          "count": 1,
+          "term": "hardware"
+        },
+        {
+          "count": 1,
+          "term": "synthesized"
+        },
+        {
+          "count": 1,
+          "term": "monitoring"
+        },
+        {
+          "count": 1,
+          "term": "infrastructure"
+        },
+        {
+          "count": 1,
+          "term": "incurs"
+        },
+        {
+          "count": 1,
+          "term": "area"
+        },
+        {
+          "count": 1,
+          "term": "configurable"
+        },
+        {
+          "count": 1,
+          "term": "operating"
+        }
+      ],
+      "section_index": 5,
+      "taxonomy_paths": [
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > AI Accelerators",
+        "Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification",
+        "Security & Resilience",
+        "Security & Resilience > Runtime Fault Localization & Recovery"
+      ],
+      "technology_areas": [
+        "AI Hardware Accelerators",
+        "Electronic Design Automation",
+        "Hardware & AI Security",
+        "On-Chip Telemetry & Runtime Monitoring",
+        "Self-Healing & Fault-Tolerant AI",
+        "Semiconductor Engineering"
+      ],
+      "text": "Synthesized at 28nm, the monitoring infrastructure incurs under 3% energy, under 4% area, and about 10% latency overhead, with a configurable operating point that reduces latency overhead to about 6%. Unlike error correcting codes, whose redundancy grows with the number of tolerated flips, BARE-AI's overhead remains constant regardless of attack strength, making it attractive for resource constrained, safety critical edge applications such as autonomous systems, energy, and healthcare.",
+      "token_count": 68
+    }
+  ],
+  "arxiv-2610.33748": [
+    {
+      "chunk_id": "arxiv-2610.33748#chunk-01",
+      "concept_ids": [
+        "concept:bit-flip-attack",
+        "concept:fil-c",
+        "concept:rowhammer"
+      ],
+      "doc_id": "arxiv-2610.33748",
+      "heading": "Fil-C Software Capabilities & Hardware Assumptions",
+      "key_terms": [
+        {
+          "count": 5,
+          "term": "fil-c"
+        },
+        {
+          "count": 3,
+          "term": "software"
+        },
+        {
+          "count": 3,
+          "term": "capabilities"
+        },
+        {
+          "count": 3,
+          "term": "hardware"
+        },
+        {
+          "count": 2,
+          "term": "pointer"
+        },
+        {
+          "count": 2,
+          "term": "dram"
+        },
+        {
+          "count": 1,
+          "term": "rowhammer"
+        },
+        {
+          "count": 1,
+          "term": "attack"
+        },
+        {
+          "count": 1,
+          "term": "assumptions"
+        },
+        {
+          "count": 1,
+          "term": "retrofits"
+        },
+        {
+          "count": 1,
+          "term": "spatial"
+        },
+        {
+          "count": 1,
+          "term": "temporal"
+        }
+      ],
+      "section_index": 1,
+      "taxonomy_paths": [
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > Memory & Interconnects",
+        "Security & Resilience",
+        "Security & Resilience > Hardware Fault Attacks > Bit-Flip Attacks",
+        "Security & Resilience > Memory Safety & Software Capabilities"
+      ],
+      "technology_areas": [
+        "Adversarial Fault Injection",
+        "Hardware & AI Security",
+        "Language & Runtime Memory Safety",
+        "Memory Subsystems & Chiplets",
+        "Semiconductor Engineering"
+      ],
+      "text": "Fil-C retrofits spatial and temporal memory safety onto C and C++ programs using software capabilities (InvisiCaps) checked on every pointer dereference. However, Fil-C relies on an unstated hardware assumption that DRAM reliably preserves capability metadata. In Fil-C, each heap pointer's upper-bound word is stored inline in ordinary DRAM without hardware integrity protection.",
+      "token_count": 52
+    },
+    {
+      "chunk_id": "arxiv-2610.33748#chunk-02",
+      "concept_ids": [
+        "concept:bit-flip-attack",
+        "concept:rowhammer"
+      ],
+      "doc_id": "arxiv-2610.33748",
+      "heading": "Rowhammer Bit-Flip Attack Mechanism",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "rowhammer"
+        },
+        {
+          "count": 2,
+          "term": "bit-flip"
+        },
+        {
+          "count": 2,
+          "term": "pointer"
+        },
+        {
+          "count": 1,
+          "term": "attack"
+        },
+        {
+          "count": 1,
+          "term": "mechanism"
+        },
+        {
+          "count": 1,
+          "term": "single"
+        },
+        {
+          "count": 1,
+          "term": "0-to-1"
+        },
+        {
+          "count": 1,
+          "term": "induced"
+        },
+        {
+          "count": 1,
+          "term": "upper-bound"
+        },
+        {
+          "count": 1,
+          "term": "metadata"
+        },
+        {
+          "count": 1,
+          "term": "expands"
+        },
+        {
+          "count": 1,
+          "term": "permitted"
+        }
+      ],
+      "section_index": 2,
+      "taxonomy_paths": [
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > Memory & Interconnects",
+        "Security & Resilience",
+        "Security & Resilience > Hardware Fault Attacks > Bit-Flip Attacks",
+        "Security & Resilience > Memory Safety & Software Capabilities"
+      ],
+      "technology_areas": [
+        "Adversarial Fault Injection",
+        "Hardware & AI Security",
+        "Language & Runtime Memory Safety",
+        "Memory Subsystems & Chiplets",
+        "Semiconductor Engineering"
+      ],
+      "text": "A single 0-to-1 bit-flip induced by Rowhammer in a pointer's upper-bound metadata expands the pointer's permitted memory range by 2^k bytes. Because the runtime treats the corrupted upper bound as authoritative, it silently permits out-of-bounds reads and writes without raising any panic, signal, or exception.",
+      "token_count": 45
+    },
+    {
+      "chunk_id": "arxiv-2610.33748#chunk-03",
+      "concept_ids": [
+        "concept:bit-flip-attack",
+        "concept:rowhammer"
+      ],
+      "doc_id": "arxiv-2610.33748",
+      "heading": "End-to-End Evaluation on DDR3 and DDR4 with TRR",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "end-to-end"
+        },
+        {
+          "count": 2,
+          "term": "ddr3"
+        },
+        {
+          "count": 2,
+          "term": "ddr4"
+        },
+        {
+          "count": 2,
+          "term": "trr"
+        },
+        {
+          "count": 2,
+          "term": "memory"
+        },
+        {
+          "count": 1,
+          "term": "evaluation"
+        },
+        {
+          "count": 1,
+          "term": "using"
+        },
+        {
+          "count": 1,
+          "term": "both"
+        },
+        {
+          "count": 1,
+          "term": "deterministic"
+        },
+        {
+          "count": 1,
+          "term": "fault-injection"
+        },
+        {
+          "count": 1,
+          "term": "model"
+        },
+        {
+          "count": 1,
+          "term": "physical"
+        }
+      ],
+      "section_index": 3,
+      "taxonomy_paths": [
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification",
+        "Hardware & Semiconductor Systems > Memory & Interconnects",
+        "Security & Resilience",
+        "Security & Resilience > Hardware Fault Attacks > Bit-Flip Attacks"
+      ],
+      "technology_areas": [
+        "Adversarial Fault Injection",
+        "Electronic Design Automation",
+        "Hardware & AI Security",
+        "Memory Subsystems & Chiplets",
+        "Semiconductor Engineering"
+      ],
+      "text": "Using both a deterministic fault-injection model and physical end-to-end Rowhammer reproduction on DDR3 and DDR4 memory equipped with Target Row Refresh (TRR), the authors demonstrate bounded read/write windows, secret disclosure, privilege escalation, and multi-tenant SQLite API key leakage, along with a probabilistic small-step operational semantics for memory fault reasoning.",
+      "token_count": 49
+    }
+  ],
+  "note-2026-cross-layer-bitflip-synthesis": [
+    {
+      "chunk_id": "note-2026-cross-layer-bitflip-synthesis#chunk-01",
+      "concept_ids": [
+        "concept:ai-accelerator",
+        "concept:bare-ai",
+        "concept:bit-flip-attack",
+        "concept:fil-c",
+        "concept:rowhammer"
+      ],
+      "doc_id": "note-2026-cross-layer-bitflip-synthesis",
+      "heading": "Unifying Hardware Datapath Telemetry and Software Capability Integrity",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "cross-layer"
+        },
+        {
+          "count": 2,
+          "term": "bit-flip"
+        },
+        {
+          "count": 2,
+          "term": "capability"
+        },
+        {
+          "count": 2,
+          "term": "software"
+        },
+        {
+          "count": 2,
+          "term": "arxiv"
+        },
+        {
+          "count": 1,
+          "term": "synthesis"
+        },
+        {
+          "count": 1,
+          "term": "note"
+        },
+        {
+          "count": 1,
+          "term": "resilience"
+        },
+        {
+          "count": 1,
+          "term": "ai"
+        },
+        {
+          "count": 1,
+          "term": "accelerators"
+        },
+        {
+          "count": 1,
+          "term": "runtimes"
+        },
+        {
+          "count": 1,
+          "term": "unifying"
+        }
+      ],
+      "section_index": 1,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > AI Accelerators",
+        "Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification",
+        "Hardware & Semiconductor Systems > Memory & Interconnects",
+        "Security & Resilience",
+        "Security & Resilience > Hardware Fault Attacks > Bit-Flip Attacks",
+        "Security & Resilience > Memory Safety & Software Capabilities"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "AI Hardware Accelerators",
+        "Adversarial Fault Injection",
+        "Deep Learning Architectures",
+        "Electronic Design Automation",
+        "Hardware & AI Security",
+        "Language & Runtime Memory Safety",
+        "Memory Subsystems & Chiplets",
+        "On-Chip Telemetry & Runtime Monitoring",
+        "Semiconductor Engineering"
+      ],
+      "text": "Both BARE-AI (arXiv:2610.08739v2) and the Fil-C Rowhammer study (arXiv:2610.33748) expose a critical cross-layer insight: neither Deep Neural Network weights nor language-level software capabilities (InvisiCaps) can assume uncorrupted DRAM when subjected to targeted bit-flip attacks.",
+      "token_count": 34
+    },
+    {
+      "chunk_id": "note-2026-cross-layer-bitflip-synthesis#chunk-02",
+      "concept_ids": [
+        "concept:ai-accelerator",
+        "concept:apc",
+        "concept:asi",
+        "concept:bit-flip-attack",
+        "concept:ecc",
+        "concept:fil-c",
+        "concept:pulse",
+        "concept:rowhammer"
+      ],
+      "doc_id": "note-2026-cross-layer-bitflip-synthesis",
+      "heading": "OntoLogic Knowledge Graph Synthesis",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "memory"
+        },
+        {
+          "count": 1,
+          "term": "ontologic"
+        },
+        {
+          "count": 1,
+          "term": "knowledge"
+        },
+        {
+          "count": 1,
+          "term": "graph"
+        },
+        {
+          "count": 1,
+          "term": "synthesis"
+        },
+        {
+          "count": 1,
+          "term": "conceptual"
+        },
+        {
+          "count": 1,
+          "term": "taxonomy"
+        },
+        {
+          "count": 1,
+          "term": "bit-flip"
+        },
+        {
+          "count": 1,
+          "term": "attacks"
+        },
+        {
+          "count": 1,
+          "term": "bridge"
+        },
+        {
+          "count": 1,
+          "term": "hardware"
+        },
+        {
+          "count": 1,
+          "term": "semiconductor"
+        }
+      ],
+      "section_index": 2,
+      "taxonomy_paths": [
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > AI Accelerators",
+        "Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification",
+        "Hardware & Semiconductor Systems > Memory & Interconnects",
+        "Security & Resilience",
+        "Security & Resilience > Hardware Fault Attacks > Bit-Flip Attacks",
+        "Security & Resilience > Memory Safety & Software Capabilities",
+        "Security & Resilience > Runtime Fault Localization & Recovery"
+      ],
+      "technology_areas": [
+        "AI Hardware Accelerators",
+        "Adversarial Fault Injection",
+        "Electronic Design Automation",
+        "Hardware & AI Security",
+        "Language & Runtime Memory Safety",
+        "Memory Subsystems & Chiplets",
+        "On-Chip Telemetry & Runtime Monitoring",
+        "Self-Healing & Fault-Tolerant AI",
+        "Semiconductor Engineering"
+      ],
+      "text": "In our conceptual taxonomy, Bit-Flip Attacks bridge Hardware & Semiconductor Systems (AI Accelerators, Memory & Interconnects) and Security & Resilience (Memory Safety & Software Capabilities, Runtime Fault Localization & Recovery). Lightweight on-chip monitors (APCs, PULSE, ASI) and z-score statistical repair provide constant-overhead mitigation where traditional ECC or DDR4 Target Row Refresh (TRR) fall short.",
+      "token_count": 54
+    }
+  ],
+  "semieng-2026-bare-ai-monitors": [
+    {
+      "chunk_id": "semieng-2026-bare-ai-monitors#chunk-01",
+      "concept_ids": [
+        "concept:ai-accelerator",
+        "concept:apc",
+        "concept:bare-ai",
+        "concept:bit-flip-attack"
+      ],
+      "doc_id": "semieng-2026-bare-ai-monitors",
+      "heading": "Research Brief Overview",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "monitors"
+        },
+        {
+          "count": 2,
+          "term": "bit-flip"
+        },
+        {
+          "count": 2,
+          "term": "ai"
+        },
+        {
+          "count": 2,
+          "term": "dallas"
+        },
+        {
+          "count": 2,
+          "term": "university"
+        },
+        {
+          "count": 1,
+          "term": "on-chip"
+        },
+        {
+          "count": 1,
+          "term": "detect"
+        },
+        {
+          "count": 1,
+          "term": "attacks"
+        },
+        {
+          "count": 1,
+          "term": "accelerators"
+        },
+        {
+          "count": 1,
+          "term": "uf"
+        },
+        {
+          "count": 1,
+          "term": "ut"
+        },
+        {
+          "count": 1,
+          "term": "rpi"
+        }
+      ],
+      "section_index": 1,
+      "taxonomy_paths": [
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > AI Accelerators",
+        "Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors",
+        "Security & Resilience",
+        "Security & Resilience > Hardware Fault Attacks > Bit-Flip Attacks"
+      ],
+      "technology_areas": [
+        "AI Hardware Accelerators",
+        "Adversarial Fault Injection",
+        "Hardware & AI Security",
+        "On-Chip Telemetry & Runtime Monitoring",
+        "Semiconductor Engineering"
+      ],
+      "text": "Researchers at the University of Florida, University of Texas at Dallas, and Rensselaer Polytechnic Institute published a technical paper titled \"BARE-AI: Bit-Flip Attack Resilience in AI Hardware through Built-in Performance Monitors.\"",
+      "token_count": 31
+    },
+    {
+      "chunk_id": "semieng-2026-bare-ai-monitors#chunk-02",
+      "concept_ids": [
+        "concept:bare-ai",
+        "concept:bit-flip-attack",
+        "concept:dnn"
+      ],
+      "doc_id": "semieng-2026-bare-ai-monitors",
+      "heading": "Abstract Excerpt",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "bfas"
+        },
+        {
+          "count": 1,
+          "term": "abstract"
+        },
+        {
+          "count": 1,
+          "term": "excerpt"
+        },
+        {
+          "count": 1,
+          "term": "deep"
+        },
+        {
+          "count": 1,
+          "term": "neural"
+        },
+        {
+          "count": 1,
+          "term": "networks"
+        },
+        {
+          "count": 1,
+          "term": "dnns"
+        },
+        {
+          "count": 1,
+          "term": "integral"
+        },
+        {
+          "count": 1,
+          "term": "safety"
+        },
+        {
+          "count": 1,
+          "term": "critical"
+        },
+        {
+          "count": 1,
+          "term": "systems"
+        },
+        {
+          "count": 1,
+          "term": "they"
+        }
+      ],
+      "section_index": 2,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > AI Accelerators",
+        "Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors",
+        "Hardware & Semiconductor Systems > Memory & Interconnects",
+        "Security & Resilience",
+        "Security & Resilience > Hardware Fault Attacks > Bit-Flip Attacks",
+        "Security & Resilience > Runtime Fault Localization & Recovery"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "AI Hardware Accelerators",
+        "Adversarial Fault Injection",
+        "Deep Learning Architectures",
+        "Hardware & AI Security",
+        "Memory Subsystems & Chiplets",
+        "On-Chip Telemetry & Runtime Monitoring",
+        "Self-Healing & Fault-Tolerant AI",
+        "Semiconductor Engineering"
+      ],
+      "text": "Deep Neural Networks (DNNs) are integral to many safety critical systems, yet they remain highly vulnerable to bit-flip attacks (BFAs), where a few memory level perturbations can drastically degrade accuracy. Existing defenses incur significant hardware overhead, depend on retraining, or fail against targeted flips. We propose BARE-AI, a runtime framework that detects, localizes, and mitigates BFAs during AI inference.",
+      "token_count": 59
+    },
+    {
+      "chunk_id": "semieng-2026-bare-ai-monitors#chunk-03",
+      "concept_ids": [
+        "concept:ai-accelerator",
+        "concept:apc",
+        "concept:bare-ai",
+        "concept:bit-flip-attack"
+      ],
+      "doc_id": "semieng-2026-bare-ai-monitors",
+      "heading": "Citation & Source Link",
+      "key_terms": [
+        {
+          "count": 3,
+          "term": "arxiv"
+        },
+        {
+          "count": 1,
+          "term": "citation"
+        },
+        {
+          "count": 1,
+          "term": "source"
+        },
+        {
+          "count": 1,
+          "term": "link"
+        },
+        {
+          "count": 1,
+          "term": "rahaman"
+        },
+        {
+          "count": 1,
+          "term": "habibur"
+        },
+        {
+          "count": 1,
+          "term": "swastik"
+        },
+        {
+          "count": 1,
+          "term": "bhattacharya"
+        },
+        {
+          "count": 1,
+          "term": "sanjay"
+        },
+        {
+          "count": 1,
+          "term": "das"
+        },
+        {
+          "count": 1,
+          "term": "kanad"
+        },
+        {
+          "count": 1,
+          "term": "basu"
+        }
+      ],
+      "section_index": 3,
+      "taxonomy_paths": [
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > AI Accelerators",
+        "Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors",
+        "Security & Resilience",
+        "Security & Resilience > Hardware Fault Attacks > Bit-Flip Attacks"
+      ],
+      "technology_areas": [
+        "AI Hardware Accelerators",
+        "Adversarial Fault Injection",
+        "Hardware & AI Security",
+        "On-Chip Telemetry & Runtime Monitoring",
+        "Semiconductor Engineering"
+      ],
+      "text": "Rahaman, Habibur, Swastik Bhattacharya, Sanjay Das, Kanad Basu, and Swarup Bhunia. \"BARE-AI: Bit-Flip Attack Resilience in AI Hardware through Built-in Performance Monitors.\" arXiv preprint arXiv:2610.08739 (2026). https://arxiv.org/abs/2610.08739",
+      "token_count": 27
+    }
+  ],
+  "techpaper-2026-eda-formal-monitors": [
+    {
+      "chunk_id": "techpaper-2026-eda-formal-monitors#chunk-01",
+      "concept_ids": [
+        "concept:apc",
+        "concept:pulse"
+      ],
+      "doc_id": "techpaper-2026-eda-formal-monitors",
+      "heading": "Formal Verification of Runtime Security Monitors",
+      "key_terms": [
+        {
+          "count": 3,
+          "term": "monitors"
+        },
+        {
+          "count": 2,
+          "term": "formal"
+        },
+        {
+          "count": 2,
+          "term": "verification"
+        },
+        {
+          "count": 2,
+          "term": "on-chip"
+        },
+        {
+          "count": 2,
+          "term": "against"
+        },
+        {
+          "count": 2,
+          "term": "fault"
+        },
+        {
+          "count": 2,
+          "term": "injection"
+        },
+        {
+          "count": 2,
+          "term": "performance"
+        },
+        {
+          "count": 1,
+          "term": "pre-silicon"
+        },
+        {
+          "count": 1,
+          "term": "telemetry"
+        },
+        {
+          "count": 1,
+          "term": "runtime"
+        },
+        {
+          "count": 1,
+          "term": "security"
+        }
+      ],
+      "section_index": 1,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > AI Accelerators",
+        "Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification",
+        "Security & Resilience",
+        "Security & Resilience > Hardware Fault Attacks > Bit-Flip Attacks"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "AI Hardware Accelerators",
+        "Adversarial Fault Injection",
+        "Electronic Design Automation",
+        "Hardware & AI Security",
+        "On-Chip Telemetry & Runtime Monitoring",
+        "Semiconductor Engineering"
+      ],
+      "text": "Hardware performance monitors such as AI Performance Counters (APCs) and on-chip neural detectors like PULSE must themselves be verified against fault injection and timing side channels during RTL synthesis and place and route.",
+      "token_count": 33
+    },
+    {
+      "chunk_id": "techpaper-2026-eda-formal-monitors#chunk-02",
+      "concept_ids": [
+        "concept:ai-accelerator",
+        "concept:asi",
+        "concept:bit-flip-attack"
+      ],
+      "doc_id": "techpaper-2026-eda-formal-monitors",
+      "heading": "Operational Semantics and Pre-Silicon Fault Simulation",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "operational"
+        },
+        {
+          "count": 2,
+          "term": "semantics"
+        },
+        {
+          "count": 2,
+          "term": "fault"
+        },
+        {
+          "count": 1,
+          "term": "pre-silicon"
+        },
+        {
+          "count": 1,
+          "term": "simulation"
+        },
+        {
+          "count": 1,
+          "term": "combining"
+        },
+        {
+          "count": 1,
+          "term": "formal"
+        },
+        {
+          "count": 1,
+          "term": "verification"
+        },
+        {
+          "count": 1,
+          "term": "28nm"
+        },
+        {
+          "count": 1,
+          "term": "rtl"
+        },
+        {
+          "count": 1,
+          "term": "boundary"
+        },
+        {
+          "count": 1,
+          "term": "probabilistic"
+        }
+      ],
+      "section_index": 2,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > AI Accelerators",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification",
+        "Hardware & Semiconductor Systems > Memory & Interconnects",
+        "Security & Resilience",
+        "Security & Resilience > Hardware Fault Attacks > Bit-Flip Attacks",
+        "Security & Resilience > Runtime Fault Localization & Recovery"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "AI Hardware Accelerators",
+        "Adversarial Fault Injection",
+        "Deep Learning Architectures",
+        "Electronic Design Automation",
+        "Hardware & AI Security",
+        "Memory Subsystems & Chiplets",
+        "Self-Healing & Fault-Tolerant AI",
+        "Semiconductor Engineering"
+      ],
+      "text": "By combining formal verification at the 28nm RTL boundary with probabilistic operational semantics for memory-level bit-flip perturbations, EDA toolflows can certify layer-level fault localization bounds prior to tapeout.",
+      "token_count": 28
+    }
+  ],
+  "techpaper-2026-hbm-chiplet-resilience": [
+    {
+      "chunk_id": "techpaper-2026-hbm-chiplet-resilience#chunk-01",
+      "concept_ids": [
+        "concept:ai-accelerator",
+        "concept:asi",
+        "concept:bit-flip-attack",
+        "concept:dnn",
+        "concept:ecc",
+        "concept:rowhammer"
+      ],
+      "doc_id": "techpaper-2026-hbm-chiplet-resilience",
+      "heading": "High-Bandwidth Memory & Chiplet Interconnect Threat Surface",
+      "key_terms": [
+        {
+          "count": 3,
+          "term": "chiplet"
+        },
+        {
+          "count": 3,
+          "term": "memory"
+        },
+        {
+          "count": 2,
+          "term": "ucie"
+        },
+        {
+          "count": 2,
+          "term": "ai"
+        },
+        {
+          "count": 2,
+          "term": "accelerators"
+        },
+        {
+          "count": 2,
+          "term": "targeted"
+        },
+        {
+          "count": 2,
+          "term": "bit-flip"
+        },
+        {
+          "count": 2,
+          "term": "faults"
+        },
+        {
+          "count": 1,
+          "term": "cross-layer"
+        },
+        {
+          "count": 1,
+          "term": "resilience"
+        },
+        {
+          "count": 1,
+          "term": "hbm"
+        },
+        {
+          "count": 1,
+          "term": "high-bandwidth"
+        }
+      ],
+      "section_index": 1,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > AI Accelerators",
+        "Hardware & Semiconductor Systems > Memory & Interconnects",
+        "Security & Resilience",
+        "Security & Resilience > Hardware Fault Attacks > Bit-Flip Attacks",
+        "Security & Resilience > Runtime Fault Localization & Recovery"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "AI Hardware Accelerators",
+        "Adversarial Fault Injection",
+        "Deep Learning Architectures",
+        "Hardware & AI Security",
+        "Memory Subsystems & Chiplets",
+        "Self-Healing & Fault-Tolerant AI",
+        "Semiconductor Engineering"
+      ],
+      "text": "Modern AI accelerators increasingly pair HBM3 and CXL memory subsystems with multi-die UCIe chiplet architectures. While error correcting codes (ECC) and Target Row Refresh (TRR) mitigate single-bit random faults, concentrated Rowhammer and targeted bit-flip attacks across shared memory channels threaten both Vision Transformers and Large Language Models.",
+      "token_count": 47
+    },
+    {
+      "chunk_id": "techpaper-2026-hbm-chiplet-resilience#chunk-02",
+      "concept_ids": [
+        "concept:apc"
+      ],
+      "doc_id": "techpaper-2026-hbm-chiplet-resilience",
+      "heading": "Co-Design of Memory Telemetry and Datapath Monitors",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "memory"
+        },
+        {
+          "count": 2,
+          "term": "telemetry"
+        },
+        {
+          "count": 2,
+          "term": "datapath"
+        },
+        {
+          "count": 1,
+          "term": "co-design"
+        },
+        {
+          "count": 1,
+          "term": "monitors"
+        },
+        {
+          "count": 1,
+          "term": "combining"
+        },
+        {
+          "count": 1,
+          "term": "inline"
+        },
+        {
+          "count": 1,
+          "term": "controller"
+        },
+        {
+          "count": 1,
+          "term": "ai"
+        },
+        {
+          "count": 1,
+          "term": "performance"
+        },
+        {
+          "count": 1,
+          "term": "counters"
+        },
+        {
+          "count": 1,
+          "term": "apcs"
+        }
+      ],
+      "section_index": 2,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > AI Accelerators",
+        "Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors",
+        "Hardware & Semiconductor Systems > Memory & Interconnects",
+        "Security & Resilience",
+        "Security & Resilience > Memory Safety & Software Capabilities"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "AI Hardware Accelerators",
+        "Deep Learning Architectures",
+        "Hardware & AI Security",
+        "Language & Runtime Memory Safety",
+        "Memory Subsystems & Chiplets",
+        "On-Chip Telemetry & Runtime Monitoring",
+        "Semiconductor Engineering"
+      ],
+      "text": "Combining inline memory controller telemetry with datapath AI Performance Counters (APCs) enables early anomaly detection before corrupted weights or pointer capability metadata propagate across UCIe die-to-die links.",
+      "token_count": 27
+    }
+  ]
+}

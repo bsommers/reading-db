@@ -1,0 +1,3406 @@
+{
+  "@context": {
+    "Concept": "skos:Concept",
+    "Document": "ontologic:Document",
+    "SemanticChunk": "ontologic:SemanticChunk",
+    "TaxonomyCategory": "ontologic:TaxonomyCategory",
+    "TechnologyArea": "ontologic:TechnologyArea",
+    "dcterms": "http://purl.org/dc/terms/",
+    "ontologic": "https://ontologic.dev/schema/v1#",
+    "skos": "http://www.w3.org/2004/02/skos/core#"
+  },
+  "edges": [
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2610.08739v2#chunk-01",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2610.08739v2#chunk-01",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2610.08739v2#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2610.08739v2#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2610.08739v2#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators--built-in-performance-monitors"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2610.08739v2#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems--memory-and-interconnects"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2610.08739v2#chunk-01",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2610.08739v2#chunk-01",
+      "target": "taxonomy:security-and-resilience--hardware-fault-attacks--bit-flip-attacks"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2610.08739v2#chunk-01",
+      "target": "concept:ai-accelerator"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2610.08739v2#chunk-01",
+      "target": "concept:apc"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2610.08739v2#chunk-01",
+      "target": "concept:bare-ai"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2610.08739v2#chunk-01",
+      "target": "concept:bit-flip-attack"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2610.08739v2#chunk-01",
+      "target": "concept:dnn"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2610.08739v2#chunk-02",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2610.08739v2#chunk-02",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2610.08739v2#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2610.08739v2#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2610.08739v2#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators--built-in-performance-monitors"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2610.08739v2#chunk-02",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2610.08739v2#chunk-02",
+      "target": "taxonomy:security-and-resilience--hardware-fault-attacks--bit-flip-attacks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2610.08739v2#chunk-02",
+      "target": "taxonomy:security-and-resilience--runtime-fault-localization-and-recovery"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2610.08739v2#chunk-02",
+      "target": "concept:activation-statistics"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2610.08739v2#chunk-02",
+      "target": "concept:ai-accelerator"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2610.08739v2#chunk-02",
+      "target": "concept:apc"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2610.08739v2#chunk-02",
+      "target": "concept:bare-ai"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2610.08739v2#chunk-02",
+      "target": "concept:bit-flip-attack"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2610.08739v2#chunk-02",
+      "target": "concept:pulse"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2610.08739v2#chunk-03",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2610.08739v2#chunk-03",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2610.08739v2#chunk-03",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2610.08739v2#chunk-03",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2610.08739v2#chunk-03",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators--built-in-performance-monitors"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2610.08739v2#chunk-03",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2610.08739v2#chunk-03",
+      "target": "taxonomy:security-and-resilience--runtime-fault-localization-and-recovery"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2610.08739v2#chunk-03",
+      "target": "concept:asi"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2610.08739v2#chunk-03",
+      "target": "concept:bare-ai"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2610.08739v2#chunk-04",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2610.08739v2#chunk-04",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2610.08739v2#chunk-04",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2610.08739v2#chunk-04",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2610.08739v2#chunk-04",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators--built-in-performance-monitors"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2610.08739v2#chunk-04",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2610.08739v2#chunk-04",
+      "target": "taxonomy:security-and-resilience--hardware-fault-attacks--bit-flip-attacks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2610.08739v2#chunk-04",
+      "target": "taxonomy:security-and-resilience--runtime-fault-localization-and-recovery"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2610.08739v2#chunk-04",
+      "target": "concept:bare-ai"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2610.08739v2#chunk-04",
+      "target": "concept:bit-flip-attack"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2610.08739v2#chunk-04",
+      "target": "concept:dnn"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2610.08739v2#chunk-05",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2610.08739v2#chunk-05",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2610.08739v2#chunk-05",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators--built-in-performance-monitors"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2610.08739v2#chunk-05",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2610.08739v2#chunk-05",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2610.08739v2#chunk-05",
+      "target": "taxonomy:security-and-resilience--runtime-fault-localization-and-recovery"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2610.08739v2#chunk-05",
+      "target": "concept:ai-accelerator"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2610.08739v2#chunk-05",
+      "target": "concept:bare-ai"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2610.08739v2#chunk-05",
+      "target": "concept:ecc"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2610.33748#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2610.33748#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems--memory-and-interconnects"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2610.33748#chunk-01",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2610.33748#chunk-01",
+      "target": "taxonomy:security-and-resilience--hardware-fault-attacks--bit-flip-attacks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2610.33748#chunk-01",
+      "target": "taxonomy:security-and-resilience--memory-safety-and-software-capabilities"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2610.33748#chunk-01",
+      "target": "concept:bit-flip-attack"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2610.33748#chunk-01",
+      "target": "concept:fil-c"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2610.33748#chunk-01",
+      "target": "concept:rowhammer"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2610.33748#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2610.33748#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems--memory-and-interconnects"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2610.33748#chunk-02",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2610.33748#chunk-02",
+      "target": "taxonomy:security-and-resilience--hardware-fault-attacks--bit-flip-attacks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2610.33748#chunk-02",
+      "target": "taxonomy:security-and-resilience--memory-safety-and-software-capabilities"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2610.33748#chunk-02",
+      "target": "concept:bit-flip-attack"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2610.33748#chunk-02",
+      "target": "concept:rowhammer"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2610.33748#chunk-03",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2610.33748#chunk-03",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2610.33748#chunk-03",
+      "target": "taxonomy:hardware-and-semiconductor-systems--memory-and-interconnects"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2610.33748#chunk-03",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2610.33748#chunk-03",
+      "target": "taxonomy:security-and-resilience--hardware-fault-attacks--bit-flip-attacks"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2610.33748#chunk-03",
+      "target": "concept:bit-flip-attack"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2610.33748#chunk-03",
+      "target": "concept:rowhammer"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:note-2026-cross-layer-bitflip-synthesis#chunk-01",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:note-2026-cross-layer-bitflip-synthesis#chunk-01",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:note-2026-cross-layer-bitflip-synthesis#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:note-2026-cross-layer-bitflip-synthesis#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:note-2026-cross-layer-bitflip-synthesis#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators--built-in-performance-monitors"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:note-2026-cross-layer-bitflip-synthesis#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:note-2026-cross-layer-bitflip-synthesis#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems--memory-and-interconnects"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:note-2026-cross-layer-bitflip-synthesis#chunk-01",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:note-2026-cross-layer-bitflip-synthesis#chunk-01",
+      "target": "taxonomy:security-and-resilience--hardware-fault-attacks--bit-flip-attacks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:note-2026-cross-layer-bitflip-synthesis#chunk-01",
+      "target": "taxonomy:security-and-resilience--memory-safety-and-software-capabilities"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:note-2026-cross-layer-bitflip-synthesis#chunk-01",
+      "target": "concept:ai-accelerator"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:note-2026-cross-layer-bitflip-synthesis#chunk-01",
+      "target": "concept:bare-ai"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:note-2026-cross-layer-bitflip-synthesis#chunk-01",
+      "target": "concept:bit-flip-attack"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:note-2026-cross-layer-bitflip-synthesis#chunk-01",
+      "target": "concept:fil-c"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:note-2026-cross-layer-bitflip-synthesis#chunk-01",
+      "target": "concept:rowhammer"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:note-2026-cross-layer-bitflip-synthesis#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:note-2026-cross-layer-bitflip-synthesis#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:note-2026-cross-layer-bitflip-synthesis#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators--built-in-performance-monitors"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:note-2026-cross-layer-bitflip-synthesis#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:note-2026-cross-layer-bitflip-synthesis#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems--memory-and-interconnects"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:note-2026-cross-layer-bitflip-synthesis#chunk-02",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:note-2026-cross-layer-bitflip-synthesis#chunk-02",
+      "target": "taxonomy:security-and-resilience--hardware-fault-attacks--bit-flip-attacks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:note-2026-cross-layer-bitflip-synthesis#chunk-02",
+      "target": "taxonomy:security-and-resilience--memory-safety-and-software-capabilities"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:note-2026-cross-layer-bitflip-synthesis#chunk-02",
+      "target": "taxonomy:security-and-resilience--runtime-fault-localization-and-recovery"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:note-2026-cross-layer-bitflip-synthesis#chunk-02",
+      "target": "concept:ai-accelerator"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:note-2026-cross-layer-bitflip-synthesis#chunk-02",
+      "target": "concept:apc"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:note-2026-cross-layer-bitflip-synthesis#chunk-02",
+      "target": "concept:asi"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:note-2026-cross-layer-bitflip-synthesis#chunk-02",
+      "target": "concept:bit-flip-attack"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:note-2026-cross-layer-bitflip-synthesis#chunk-02",
+      "target": "concept:ecc"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:note-2026-cross-layer-bitflip-synthesis#chunk-02",
+      "target": "concept:fil-c"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:note-2026-cross-layer-bitflip-synthesis#chunk-02",
+      "target": "concept:pulse"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:note-2026-cross-layer-bitflip-synthesis#chunk-02",
+      "target": "concept:rowhammer"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:semieng-2026-bare-ai-monitors#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:semieng-2026-bare-ai-monitors#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:semieng-2026-bare-ai-monitors#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators--built-in-performance-monitors"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:semieng-2026-bare-ai-monitors#chunk-01",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:semieng-2026-bare-ai-monitors#chunk-01",
+      "target": "taxonomy:security-and-resilience--hardware-fault-attacks--bit-flip-attacks"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:semieng-2026-bare-ai-monitors#chunk-01",
+      "target": "concept:ai-accelerator"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:semieng-2026-bare-ai-monitors#chunk-01",
+      "target": "concept:apc"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:semieng-2026-bare-ai-monitors#chunk-01",
+      "target": "concept:bare-ai"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:semieng-2026-bare-ai-monitors#chunk-01",
+      "target": "concept:bit-flip-attack"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:semieng-2026-bare-ai-monitors#chunk-02",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:semieng-2026-bare-ai-monitors#chunk-02",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:semieng-2026-bare-ai-monitors#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:semieng-2026-bare-ai-monitors#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:semieng-2026-bare-ai-monitors#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators--built-in-performance-monitors"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:semieng-2026-bare-ai-monitors#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems--memory-and-interconnects"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:semieng-2026-bare-ai-monitors#chunk-02",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:semieng-2026-bare-ai-monitors#chunk-02",
+      "target": "taxonomy:security-and-resilience--hardware-fault-attacks--bit-flip-attacks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:semieng-2026-bare-ai-monitors#chunk-02",
+      "target": "taxonomy:security-and-resilience--runtime-fault-localization-and-recovery"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:semieng-2026-bare-ai-monitors#chunk-02",
+      "target": "concept:bare-ai"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:semieng-2026-bare-ai-monitors#chunk-02",
+      "target": "concept:bit-flip-attack"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:semieng-2026-bare-ai-monitors#chunk-02",
+      "target": "concept:dnn"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:semieng-2026-bare-ai-monitors#chunk-03",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:semieng-2026-bare-ai-monitors#chunk-03",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:semieng-2026-bare-ai-monitors#chunk-03",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators--built-in-performance-monitors"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:semieng-2026-bare-ai-monitors#chunk-03",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:semieng-2026-bare-ai-monitors#chunk-03",
+      "target": "taxonomy:security-and-resilience--hardware-fault-attacks--bit-flip-attacks"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:semieng-2026-bare-ai-monitors#chunk-03",
+      "target": "concept:ai-accelerator"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:semieng-2026-bare-ai-monitors#chunk-03",
+      "target": "concept:apc"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:semieng-2026-bare-ai-monitors#chunk-03",
+      "target": "concept:bare-ai"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:semieng-2026-bare-ai-monitors#chunk-03",
+      "target": "concept:bit-flip-attack"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:techpaper-2026-eda-formal-monitors#chunk-01",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:techpaper-2026-eda-formal-monitors#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:techpaper-2026-eda-formal-monitors#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:techpaper-2026-eda-formal-monitors#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators--built-in-performance-monitors"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:techpaper-2026-eda-formal-monitors#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:techpaper-2026-eda-formal-monitors#chunk-01",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:techpaper-2026-eda-formal-monitors#chunk-01",
+      "target": "taxonomy:security-and-resilience--hardware-fault-attacks--bit-flip-attacks"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:techpaper-2026-eda-formal-monitors#chunk-01",
+      "target": "concept:apc"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:techpaper-2026-eda-formal-monitors#chunk-01",
+      "target": "concept:pulse"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:techpaper-2026-eda-formal-monitors#chunk-02",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:techpaper-2026-eda-formal-monitors#chunk-02",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:techpaper-2026-eda-formal-monitors#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:techpaper-2026-eda-formal-monitors#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:techpaper-2026-eda-formal-monitors#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:techpaper-2026-eda-formal-monitors#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems--memory-and-interconnects"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:techpaper-2026-eda-formal-monitors#chunk-02",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:techpaper-2026-eda-formal-monitors#chunk-02",
+      "target": "taxonomy:security-and-resilience--hardware-fault-attacks--bit-flip-attacks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:techpaper-2026-eda-formal-monitors#chunk-02",
+      "target": "taxonomy:security-and-resilience--runtime-fault-localization-and-recovery"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:techpaper-2026-eda-formal-monitors#chunk-02",
+      "target": "concept:ai-accelerator"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:techpaper-2026-eda-formal-monitors#chunk-02",
+      "target": "concept:asi"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:techpaper-2026-eda-formal-monitors#chunk-02",
+      "target": "concept:bit-flip-attack"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:techpaper-2026-hbm-chiplet-resilience#chunk-01",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:techpaper-2026-hbm-chiplet-resilience#chunk-01",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:techpaper-2026-hbm-chiplet-resilience#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:techpaper-2026-hbm-chiplet-resilience#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:techpaper-2026-hbm-chiplet-resilience#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems--memory-and-interconnects"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:techpaper-2026-hbm-chiplet-resilience#chunk-01",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:techpaper-2026-hbm-chiplet-resilience#chunk-01",
+      "target": "taxonomy:security-and-resilience--hardware-fault-attacks--bit-flip-attacks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:techpaper-2026-hbm-chiplet-resilience#chunk-01",
+      "target": "taxonomy:security-and-resilience--runtime-fault-localization-and-recovery"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:techpaper-2026-hbm-chiplet-resilience#chunk-01",
+      "target": "concept:ai-accelerator"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:techpaper-2026-hbm-chiplet-resilience#chunk-01",
+      "target": "concept:asi"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:techpaper-2026-hbm-chiplet-resilience#chunk-01",
+      "target": "concept:bit-flip-attack"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:techpaper-2026-hbm-chiplet-resilience#chunk-01",
+      "target": "concept:dnn"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:techpaper-2026-hbm-chiplet-resilience#chunk-01",
+      "target": "concept:ecc"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:techpaper-2026-hbm-chiplet-resilience#chunk-01",
+      "target": "concept:rowhammer"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:techpaper-2026-hbm-chiplet-resilience#chunk-02",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:techpaper-2026-hbm-chiplet-resilience#chunk-02",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:techpaper-2026-hbm-chiplet-resilience#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:techpaper-2026-hbm-chiplet-resilience#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:techpaper-2026-hbm-chiplet-resilience#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators--built-in-performance-monitors"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:techpaper-2026-hbm-chiplet-resilience#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems--memory-and-interconnects"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:techpaper-2026-hbm-chiplet-resilience#chunk-02",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:techpaper-2026-hbm-chiplet-resilience#chunk-02",
+      "target": "taxonomy:security-and-resilience--memory-safety-and-software-capabilities"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:techpaper-2026-hbm-chiplet-resilience#chunk-02",
+      "target": "concept:apc"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "concept:activation-statistics",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators--built-in-performance-monitors"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:activation-statistics",
+      "target": "concept:apc"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:activation-statistics",
+      "target": "concept:asi"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "concept:ai-accelerator",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:ai-accelerator",
+      "target": "concept:apc"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:ai-accelerator",
+      "target": "concept:bare-ai"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:ai-accelerator",
+      "target": "concept:dnn"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "concept:apc",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators--built-in-performance-monitors"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:apc",
+      "target": "concept:activation-statistics"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:apc",
+      "target": "concept:bare-ai"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:apc",
+      "target": "concept:pulse"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "concept:asi",
+      "target": "taxonomy:security-and-resilience--runtime-fault-localization-and-recovery"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:asi",
+      "target": "concept:activation-statistics"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:asi",
+      "target": "concept:bare-ai"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "concept:bare-ai",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators--built-in-performance-monitors"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:bare-ai",
+      "target": "concept:apc"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:bare-ai",
+      "target": "concept:asi"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:bare-ai",
+      "target": "concept:bit-flip-attack"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:bare-ai",
+      "target": "concept:pulse"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "concept:bit-flip-attack",
+      "target": "taxonomy:security-and-resilience--hardware-fault-attacks--bit-flip-attacks"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:bit-flip-attack",
+      "target": "concept:bare-ai"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:bit-flip-attack",
+      "target": "concept:dnn"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:bit-flip-attack",
+      "target": "concept:rowhammer"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "concept:dnn",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:dnn",
+      "target": "concept:ai-accelerator"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:dnn",
+      "target": "concept:bit-flip-attack"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "concept:ecc",
+      "target": "taxonomy:security-and-resilience--runtime-fault-localization-and-recovery"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:ecc",
+      "target": "concept:bare-ai"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:ecc",
+      "target": "concept:bit-flip-attack"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:ecc",
+      "target": "concept:rowhammer"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "concept:fil-c",
+      "target": "taxonomy:security-and-resilience--memory-safety-and-software-capabilities"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:fil-c",
+      "target": "concept:bit-flip-attack"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:fil-c",
+      "target": "concept:rowhammer"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "concept:pulse",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators--built-in-performance-monitors"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:pulse",
+      "target": "concept:apc"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:pulse",
+      "target": "concept:bare-ai"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "concept:rowhammer",
+      "target": "taxonomy:security-and-resilience--hardware-fault-attacks--bit-flip-attacks"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:rowhammer",
+      "target": "concept:bit-flip-attack"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:rowhammer",
+      "target": "concept:ecc"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:rowhammer",
+      "target": "concept:fil-c"
+    },
+    {
+      "predicate": "AFFILIATED_WITH",
+      "properties": {},
+      "source": "doc:arxiv-2610.08739v2",
+      "target": "institution:rensselaer-polytechnic-institute"
+    },
+    {
+      "predicate": "AFFILIATED_WITH",
+      "properties": {},
+      "source": "doc:arxiv-2610.08739v2",
+      "target": "institution:university-of-florida"
+    },
+    {
+      "predicate": "AFFILIATED_WITH",
+      "properties": {},
+      "source": "doc:arxiv-2610.08739v2",
+      "target": "institution:university-of-texas-at-dallas"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-2610.08739v2",
+      "target": "author:habibur-rahaman"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-2610.08739v2",
+      "target": "author:kanad-basu"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-2610.08739v2",
+      "target": "author:sanjay-das"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-2610.08739v2",
+      "target": "author:swarup-bhunia"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-2610.08739v2",
+      "target": "author:swastik-bhattacharya"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:arxiv-2610.08739v2",
+      "target": "chunk:arxiv-2610.08739v2#chunk-01"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:arxiv-2610.08739v2",
+      "target": "chunk:arxiv-2610.08739v2#chunk-02"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:arxiv-2610.08739v2",
+      "target": "chunk:arxiv-2610.08739v2#chunk-03"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:arxiv-2610.08739v2",
+      "target": "chunk:arxiv-2610.08739v2#chunk-04"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:arxiv-2610.08739v2",
+      "target": "chunk:arxiv-2610.08739v2#chunk-05"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2610.08739v2",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2610.08739v2",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2610.08739v2",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2610.08739v2",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2610.08739v2",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators--built-in-performance-monitors"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2610.08739v2",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2610.08739v2",
+      "target": "taxonomy:hardware-and-semiconductor-systems--memory-and-interconnects"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2610.08739v2",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2610.08739v2",
+      "target": "taxonomy:security-and-resilience--hardware-fault-attacks--bit-flip-attacks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2610.08739v2",
+      "target": "taxonomy:security-and-resilience--runtime-fault-localization-and-recovery"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2610.08739v2",
+      "target": "tech_area:adversarial-fault-injection"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2610.08739v2",
+      "target": "tech_area:ai-and-machine-learning"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2610.08739v2",
+      "target": "tech_area:ai-hardware-accelerators"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2610.08739v2",
+      "target": "tech_area:deep-learning-architectures"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2610.08739v2",
+      "target": "tech_area:electronic-design-automation"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2610.08739v2",
+      "target": "tech_area:hardware-and-ai-security"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2610.08739v2",
+      "target": "tech_area:memory-subsystems-and-chiplets"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2610.08739v2",
+      "target": "tech_area:on-chip-telemetry-and-runtime-monitoring"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2610.08739v2",
+      "target": "tech_area:self-healing-and-fault-tolerant-ai"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2610.08739v2",
+      "target": "tech_area:semiconductor-engineering"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:arxiv-2610.08739v2",
+      "target": "concept:activation-statistics"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:arxiv-2610.08739v2",
+      "target": "concept:ai-accelerator"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:arxiv-2610.08739v2",
+      "target": "concept:apc"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:arxiv-2610.08739v2",
+      "target": "concept:asi"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:arxiv-2610.08739v2",
+      "target": "concept:bare-ai"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:arxiv-2610.08739v2",
+      "target": "concept:bit-flip-attack"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:arxiv-2610.08739v2",
+      "target": "concept:dnn"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:arxiv-2610.08739v2",
+      "target": "concept:ecc"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:arxiv-2610.08739v2",
+      "target": "concept:pulse"
+    },
+    {
+      "predicate": "AFFILIATED_WITH",
+      "properties": {},
+      "source": "doc:arxiv-2610.33748",
+      "target": "institution:montanus"
+    },
+    {
+      "predicate": "AFFILIATED_WITH",
+      "properties": {},
+      "source": "doc:arxiv-2610.33748",
+      "target": "institution:university-of-sussex"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-2610.33748",
+      "target": "author:amir-naseredini"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-2610.33748",
+      "target": "author:martin-berger"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-2610.33748",
+      "target": "author:suhas-viswanath"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:arxiv-2610.33748",
+      "target": "chunk:arxiv-2610.33748#chunk-01"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:arxiv-2610.33748",
+      "target": "chunk:arxiv-2610.33748#chunk-02"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:arxiv-2610.33748",
+      "target": "chunk:arxiv-2610.33748#chunk-03"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2610.33748",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2610.33748",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2610.33748",
+      "target": "taxonomy:hardware-and-semiconductor-systems--memory-and-interconnects"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2610.33748",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2610.33748",
+      "target": "taxonomy:security-and-resilience--hardware-fault-attacks--bit-flip-attacks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2610.33748",
+      "target": "taxonomy:security-and-resilience--memory-safety-and-software-capabilities"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2610.33748",
+      "target": "tech_area:adversarial-fault-injection"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2610.33748",
+      "target": "tech_area:electronic-design-automation"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2610.33748",
+      "target": "tech_area:hardware-and-ai-security"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2610.33748",
+      "target": "tech_area:language-and-runtime-memory-safety"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2610.33748",
+      "target": "tech_area:memory-subsystems-and-chiplets"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2610.33748",
+      "target": "tech_area:semiconductor-engineering"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:arxiv-2610.33748",
+      "target": "concept:bit-flip-attack"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:arxiv-2610.33748",
+      "target": "concept:fil-c"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:arxiv-2610.33748",
+      "target": "concept:rowhammer"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:note-2026-cross-layer-bitflip-synthesis",
+      "target": "author:bill-sommers"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:note-2026-cross-layer-bitflip-synthesis",
+      "target": "doc:arxiv-2610.08739v2"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:note-2026-cross-layer-bitflip-synthesis",
+      "target": "doc:arxiv-2610.33748"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:note-2026-cross-layer-bitflip-synthesis",
+      "target": "doc:semieng-2026-bare-ai-monitors"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:note-2026-cross-layer-bitflip-synthesis",
+      "target": "chunk:note-2026-cross-layer-bitflip-synthesis#chunk-01"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:note-2026-cross-layer-bitflip-synthesis",
+      "target": "chunk:note-2026-cross-layer-bitflip-synthesis#chunk-02"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:note-2026-cross-layer-bitflip-synthesis",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:note-2026-cross-layer-bitflip-synthesis",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:note-2026-cross-layer-bitflip-synthesis",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:note-2026-cross-layer-bitflip-synthesis",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:note-2026-cross-layer-bitflip-synthesis",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators--built-in-performance-monitors"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:note-2026-cross-layer-bitflip-synthesis",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:note-2026-cross-layer-bitflip-synthesis",
+      "target": "taxonomy:hardware-and-semiconductor-systems--memory-and-interconnects"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:note-2026-cross-layer-bitflip-synthesis",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:note-2026-cross-layer-bitflip-synthesis",
+      "target": "taxonomy:security-and-resilience--hardware-fault-attacks--bit-flip-attacks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:note-2026-cross-layer-bitflip-synthesis",
+      "target": "taxonomy:security-and-resilience--memory-safety-and-software-capabilities"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:note-2026-cross-layer-bitflip-synthesis",
+      "target": "taxonomy:security-and-resilience--runtime-fault-localization-and-recovery"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:note-2026-cross-layer-bitflip-synthesis",
+      "target": "tech_area:adversarial-fault-injection"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:note-2026-cross-layer-bitflip-synthesis",
+      "target": "tech_area:ai-and-machine-learning"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:note-2026-cross-layer-bitflip-synthesis",
+      "target": "tech_area:ai-hardware-accelerators"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:note-2026-cross-layer-bitflip-synthesis",
+      "target": "tech_area:deep-learning-architectures"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:note-2026-cross-layer-bitflip-synthesis",
+      "target": "tech_area:electronic-design-automation"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:note-2026-cross-layer-bitflip-synthesis",
+      "target": "tech_area:hardware-and-ai-security"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:note-2026-cross-layer-bitflip-synthesis",
+      "target": "tech_area:language-and-runtime-memory-safety"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:note-2026-cross-layer-bitflip-synthesis",
+      "target": "tech_area:memory-subsystems-and-chiplets"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:note-2026-cross-layer-bitflip-synthesis",
+      "target": "tech_area:on-chip-telemetry-and-runtime-monitoring"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:note-2026-cross-layer-bitflip-synthesis",
+      "target": "tech_area:self-healing-and-fault-tolerant-ai"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:note-2026-cross-layer-bitflip-synthesis",
+      "target": "tech_area:semiconductor-engineering"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:note-2026-cross-layer-bitflip-synthesis",
+      "target": "concept:ai-accelerator"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:note-2026-cross-layer-bitflip-synthesis",
+      "target": "concept:apc"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:note-2026-cross-layer-bitflip-synthesis",
+      "target": "concept:asi"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:note-2026-cross-layer-bitflip-synthesis",
+      "target": "concept:bare-ai"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:note-2026-cross-layer-bitflip-synthesis",
+      "target": "concept:bit-flip-attack"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:note-2026-cross-layer-bitflip-synthesis",
+      "target": "concept:ecc"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:note-2026-cross-layer-bitflip-synthesis",
+      "target": "concept:fil-c"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:note-2026-cross-layer-bitflip-synthesis",
+      "target": "concept:pulse"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:note-2026-cross-layer-bitflip-synthesis",
+      "target": "concept:rowhammer"
+    },
+    {
+      "predicate": "AFFILIATED_WITH",
+      "properties": {},
+      "source": "doc:semieng-2026-bare-ai-monitors",
+      "target": "institution:rensselaer-polytechnic-institute"
+    },
+    {
+      "predicate": "AFFILIATED_WITH",
+      "properties": {},
+      "source": "doc:semieng-2026-bare-ai-monitors",
+      "target": "institution:university-of-florida"
+    },
+    {
+      "predicate": "AFFILIATED_WITH",
+      "properties": {},
+      "source": "doc:semieng-2026-bare-ai-monitors",
+      "target": "institution:university-of-texas-at-dallas"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:semieng-2026-bare-ai-monitors",
+      "target": "author:semiconductor-engineering-staff"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:semieng-2026-bare-ai-monitors",
+      "target": "chunk:semieng-2026-bare-ai-monitors#chunk-01"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:semieng-2026-bare-ai-monitors",
+      "target": "chunk:semieng-2026-bare-ai-monitors#chunk-02"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:semieng-2026-bare-ai-monitors",
+      "target": "chunk:semieng-2026-bare-ai-monitors#chunk-03"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:semieng-2026-bare-ai-monitors",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:semieng-2026-bare-ai-monitors",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:semieng-2026-bare-ai-monitors",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:semieng-2026-bare-ai-monitors",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:semieng-2026-bare-ai-monitors",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators--built-in-performance-monitors"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:semieng-2026-bare-ai-monitors",
+      "target": "taxonomy:hardware-and-semiconductor-systems--memory-and-interconnects"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:semieng-2026-bare-ai-monitors",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:semieng-2026-bare-ai-monitors",
+      "target": "taxonomy:security-and-resilience--hardware-fault-attacks--bit-flip-attacks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:semieng-2026-bare-ai-monitors",
+      "target": "taxonomy:security-and-resilience--runtime-fault-localization-and-recovery"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:semieng-2026-bare-ai-monitors",
+      "target": "tech_area:adversarial-fault-injection"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:semieng-2026-bare-ai-monitors",
+      "target": "tech_area:ai-and-machine-learning"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:semieng-2026-bare-ai-monitors",
+      "target": "tech_area:ai-hardware-accelerators"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:semieng-2026-bare-ai-monitors",
+      "target": "tech_area:deep-learning-architectures"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:semieng-2026-bare-ai-monitors",
+      "target": "tech_area:hardware-and-ai-security"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:semieng-2026-bare-ai-monitors",
+      "target": "tech_area:memory-subsystems-and-chiplets"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:semieng-2026-bare-ai-monitors",
+      "target": "tech_area:on-chip-telemetry-and-runtime-monitoring"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:semieng-2026-bare-ai-monitors",
+      "target": "tech_area:self-healing-and-fault-tolerant-ai"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:semieng-2026-bare-ai-monitors",
+      "target": "tech_area:semiconductor-engineering"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:semieng-2026-bare-ai-monitors",
+      "target": "concept:ai-accelerator"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:semieng-2026-bare-ai-monitors",
+      "target": "concept:apc"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:semieng-2026-bare-ai-monitors",
+      "target": "concept:bare-ai"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:semieng-2026-bare-ai-monitors",
+      "target": "concept:bit-flip-attack"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:semieng-2026-bare-ai-monitors",
+      "target": "concept:dnn"
+    },
+    {
+      "predicate": "REPORTS_ON",
+      "properties": {},
+      "source": "doc:semieng-2026-bare-ai-monitors",
+      "target": "doc:arxiv-2610.08739v2"
+    },
+    {
+      "predicate": "AFFILIATED_WITH",
+      "properties": {},
+      "source": "doc:techpaper-2026-eda-formal-monitors",
+      "target": "institution:rensselaer-polytechnic-institute"
+    },
+    {
+      "predicate": "AFFILIATED_WITH",
+      "properties": {},
+      "source": "doc:techpaper-2026-eda-formal-monitors",
+      "target": "institution:university-of-texas-at-dallas"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:techpaper-2026-eda-formal-monitors",
+      "target": "author:david-k.-lindstrom"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:techpaper-2026-eda-formal-monitors",
+      "target": "author:priya-nair"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:techpaper-2026-eda-formal-monitors",
+      "target": "doc:arxiv-2610.08739v2"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:techpaper-2026-eda-formal-monitors",
+      "target": "doc:arxiv-2610.33748"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:techpaper-2026-eda-formal-monitors",
+      "target": "chunk:techpaper-2026-eda-formal-monitors#chunk-01"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:techpaper-2026-eda-formal-monitors",
+      "target": "chunk:techpaper-2026-eda-formal-monitors#chunk-02"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:techpaper-2026-eda-formal-monitors",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:techpaper-2026-eda-formal-monitors",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:techpaper-2026-eda-formal-monitors",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:techpaper-2026-eda-formal-monitors",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:techpaper-2026-eda-formal-monitors",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators--built-in-performance-monitors"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:techpaper-2026-eda-formal-monitors",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:techpaper-2026-eda-formal-monitors",
+      "target": "taxonomy:hardware-and-semiconductor-systems--memory-and-interconnects"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:techpaper-2026-eda-formal-monitors",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:techpaper-2026-eda-formal-monitors",
+      "target": "taxonomy:security-and-resilience--hardware-fault-attacks--bit-flip-attacks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:techpaper-2026-eda-formal-monitors",
+      "target": "taxonomy:security-and-resilience--runtime-fault-localization-and-recovery"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:techpaper-2026-eda-formal-monitors",
+      "target": "tech_area:adversarial-fault-injection"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:techpaper-2026-eda-formal-monitors",
+      "target": "tech_area:ai-and-machine-learning"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:techpaper-2026-eda-formal-monitors",
+      "target": "tech_area:ai-hardware-accelerators"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:techpaper-2026-eda-formal-monitors",
+      "target": "tech_area:deep-learning-architectures"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:techpaper-2026-eda-formal-monitors",
+      "target": "tech_area:electronic-design-automation"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:techpaper-2026-eda-formal-monitors",
+      "target": "tech_area:hardware-and-ai-security"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:techpaper-2026-eda-formal-monitors",
+      "target": "tech_area:memory-subsystems-and-chiplets"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:techpaper-2026-eda-formal-monitors",
+      "target": "tech_area:on-chip-telemetry-and-runtime-monitoring"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:techpaper-2026-eda-formal-monitors",
+      "target": "tech_area:self-healing-and-fault-tolerant-ai"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:techpaper-2026-eda-formal-monitors",
+      "target": "tech_area:semiconductor-engineering"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:techpaper-2026-eda-formal-monitors",
+      "target": "concept:ai-accelerator"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:techpaper-2026-eda-formal-monitors",
+      "target": "concept:apc"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:techpaper-2026-eda-formal-monitors",
+      "target": "concept:asi"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:techpaper-2026-eda-formal-monitors",
+      "target": "concept:bit-flip-attack"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:techpaper-2026-eda-formal-monitors",
+      "target": "concept:pulse"
+    },
+    {
+      "predicate": "AFFILIATED_WITH",
+      "properties": {},
+      "source": "doc:techpaper-2026-hbm-chiplet-resilience",
+      "target": "institution:semiconductor-security-consortium"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:techpaper-2026-hbm-chiplet-resilience",
+      "target": "author:elena-vance"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:techpaper-2026-hbm-chiplet-resilience",
+      "target": "author:marcus-chen"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:techpaper-2026-hbm-chiplet-resilience",
+      "target": "doc:arxiv-2610.08739v2"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:techpaper-2026-hbm-chiplet-resilience",
+      "target": "doc:arxiv-2610.33748"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:techpaper-2026-hbm-chiplet-resilience",
+      "target": "chunk:techpaper-2026-hbm-chiplet-resilience#chunk-01"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:techpaper-2026-hbm-chiplet-resilience",
+      "target": "chunk:techpaper-2026-hbm-chiplet-resilience#chunk-02"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:techpaper-2026-hbm-chiplet-resilience",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:techpaper-2026-hbm-chiplet-resilience",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:techpaper-2026-hbm-chiplet-resilience",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:techpaper-2026-hbm-chiplet-resilience",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:techpaper-2026-hbm-chiplet-resilience",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators--built-in-performance-monitors"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:techpaper-2026-hbm-chiplet-resilience",
+      "target": "taxonomy:hardware-and-semiconductor-systems--memory-and-interconnects"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:techpaper-2026-hbm-chiplet-resilience",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:techpaper-2026-hbm-chiplet-resilience",
+      "target": "taxonomy:security-and-resilience--hardware-fault-attacks--bit-flip-attacks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:techpaper-2026-hbm-chiplet-resilience",
+      "target": "taxonomy:security-and-resilience--memory-safety-and-software-capabilities"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:techpaper-2026-hbm-chiplet-resilience",
+      "target": "taxonomy:security-and-resilience--runtime-fault-localization-and-recovery"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:techpaper-2026-hbm-chiplet-resilience",
+      "target": "tech_area:adversarial-fault-injection"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:techpaper-2026-hbm-chiplet-resilience",
+      "target": "tech_area:ai-and-machine-learning"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:techpaper-2026-hbm-chiplet-resilience",
+      "target": "tech_area:ai-hardware-accelerators"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:techpaper-2026-hbm-chiplet-resilience",
+      "target": "tech_area:deep-learning-architectures"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:techpaper-2026-hbm-chiplet-resilience",
+      "target": "tech_area:hardware-and-ai-security"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:techpaper-2026-hbm-chiplet-resilience",
+      "target": "tech_area:language-and-runtime-memory-safety"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:techpaper-2026-hbm-chiplet-resilience",
+      "target": "tech_area:memory-subsystems-and-chiplets"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:techpaper-2026-hbm-chiplet-resilience",
+      "target": "tech_area:on-chip-telemetry-and-runtime-monitoring"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:techpaper-2026-hbm-chiplet-resilience",
+      "target": "tech_area:self-healing-and-fault-tolerant-ai"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:techpaper-2026-hbm-chiplet-resilience",
+      "target": "tech_area:semiconductor-engineering"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:techpaper-2026-hbm-chiplet-resilience",
+      "target": "concept:ai-accelerator"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:techpaper-2026-hbm-chiplet-resilience",
+      "target": "concept:apc"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:techpaper-2026-hbm-chiplet-resilience",
+      "target": "concept:asi"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:techpaper-2026-hbm-chiplet-resilience",
+      "target": "concept:bit-flip-attack"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:techpaper-2026-hbm-chiplet-resilience",
+      "target": "concept:dnn"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:techpaper-2026-hbm-chiplet-resilience",
+      "target": "concept:ecc"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:techpaper-2026-hbm-chiplet-resilience",
+      "target": "concept:rowhammer"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "taxonomy:artificial-intelligence-and-machine-learning",
+      "target": "tech_area:ai-and-machine-learning"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks",
+      "target": "tech_area:deep-learning-architectures"
+    },
+    {
+      "predicate": "SUBCATEGORY_OF",
+      "properties": {},
+      "source": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "taxonomy:hardware-and-semiconductor-systems",
+      "target": "tech_area:semiconductor-engineering"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators",
+      "target": "tech_area:ai-hardware-accelerators"
+    },
+    {
+      "predicate": "SUBCATEGORY_OF",
+      "properties": {},
+      "source": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators--built-in-performance-monitors",
+      "target": "tech_area:on-chip-telemetry-and-runtime-monitoring"
+    },
+    {
+      "predicate": "SUBCATEGORY_OF",
+      "properties": {},
+      "source": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators--built-in-performance-monitors",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification",
+      "target": "tech_area:electronic-design-automation"
+    },
+    {
+      "predicate": "SUBCATEGORY_OF",
+      "properties": {},
+      "source": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "taxonomy:hardware-and-semiconductor-systems--memory-and-interconnects",
+      "target": "tech_area:memory-subsystems-and-chiplets"
+    },
+    {
+      "predicate": "SUBCATEGORY_OF",
+      "properties": {},
+      "source": "taxonomy:hardware-and-semiconductor-systems--memory-and-interconnects",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "taxonomy:security-and-resilience",
+      "target": "tech_area:hardware-and-ai-security"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "taxonomy:security-and-resilience--hardware-fault-attacks--bit-flip-attacks",
+      "target": "tech_area:adversarial-fault-injection"
+    },
+    {
+      "predicate": "SUBCATEGORY_OF",
+      "properties": {},
+      "source": "taxonomy:security-and-resilience--hardware-fault-attacks--bit-flip-attacks",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "taxonomy:security-and-resilience--memory-safety-and-software-capabilities",
+      "target": "tech_area:language-and-runtime-memory-safety"
+    },
+    {
+      "predicate": "SUBCATEGORY_OF",
+      "properties": {},
+      "source": "taxonomy:security-and-resilience--memory-safety-and-software-capabilities",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "taxonomy:security-and-resilience--runtime-fault-localization-and-recovery",
+      "target": "tech_area:self-healing-and-fault-tolerant-ai"
+    },
+    {
+      "predicate": "SUBCATEGORY_OF",
+      "properties": {},
+      "source": "taxonomy:security-and-resilience--runtime-fault-localization-and-recovery",
+      "target": "taxonomy:security-and-resilience"
+    }
+  ],
+  "nodes": [
+    {
+      "label": "Amir Naseredini",
+      "node_id": "author:amir-naseredini",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Bill Sommers",
+      "node_id": "author:bill-sommers",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "David K. Lindstrom",
+      "node_id": "author:david-k.-lindstrom",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Elena Vance",
+      "node_id": "author:elena-vance",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Habibur Rahaman",
+      "node_id": "author:habibur-rahaman",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Kanad Basu",
+      "node_id": "author:kanad-basu",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Marcus Chen",
+      "node_id": "author:marcus-chen",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Martin Berger",
+      "node_id": "author:martin-berger",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Priya Nair",
+      "node_id": "author:priya-nair",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Sanjay Das",
+      "node_id": "author:sanjay-das",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Semiconductor Engineering Staff",
+      "node_id": "author:semiconductor-engineering-staff",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Suhas Viswanath",
+      "node_id": "author:suhas-viswanath",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Swarup Bhunia",
+      "node_id": "author:swarup-bhunia",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Swastik Bhattacharya",
+      "node_id": "author:swastik-bhattacharya",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "arxiv-2610.08739v2: Problem Statement: Bit-Flip Vulnerability in DNNs",
+      "node_id": "chunk:arxiv-2610.08739v2#chunk-01",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "arxiv-2610.08739v2#chunk-01",
+        "heading": "Problem Statement: Bit-Flip Vulnerability in DNNs",
+        "token_count": 44
+      }
+    },
+    {
+      "label": "arxiv-2610.08739v2: BARE-AI Architecture: APCs and PULSE",
+      "node_id": "chunk:arxiv-2610.08739v2#chunk-02",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "arxiv-2610.08739v2#chunk-02",
+        "heading": "BARE-AI Architecture: APCs and PULSE",
+        "token_count": 70
+      }
+    },
+    {
+      "label": "arxiv-2610.08739v2: Fault Localization and Weight Recovery",
+      "node_id": "chunk:arxiv-2610.08739v2#chunk-03",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "arxiv-2610.08739v2#chunk-03",
+        "heading": "Fault Localization and Weight Recovery",
+        "token_count": 29
+      }
+    },
+    {
+      "label": "arxiv-2610.08739v2: Evaluation Across CNNs, ViTs, and LLMs",
+      "node_id": "chunk:arxiv-2610.08739v2#chunk-04",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "arxiv-2610.08739v2#chunk-04",
+        "heading": "Evaluation Across CNNs, ViTs, and LLMs",
+        "token_count": 47
+      }
+    },
+    {
+      "label": "arxiv-2610.08739v2: Hardware Overhead at 28nm",
+      "node_id": "chunk:arxiv-2610.08739v2#chunk-05",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "arxiv-2610.08739v2#chunk-05",
+        "heading": "Hardware Overhead at 28nm",
+        "token_count": 68
+      }
+    },
+    {
+      "label": "arxiv-2610.33748: Fil-C Software Capabilities & Hardware Assumptions",
+      "node_id": "chunk:arxiv-2610.33748#chunk-01",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "arxiv-2610.33748#chunk-01",
+        "heading": "Fil-C Software Capabilities & Hardware Assumptions",
+        "token_count": 52
+      }
+    },
+    {
+      "label": "arxiv-2610.33748: Rowhammer Bit-Flip Attack Mechanism",
+      "node_id": "chunk:arxiv-2610.33748#chunk-02",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "arxiv-2610.33748#chunk-02",
+        "heading": "Rowhammer Bit-Flip Attack Mechanism",
+        "token_count": 45
+      }
+    },
+    {
+      "label": "arxiv-2610.33748: End-to-End Evaluation on DDR3 and DDR4 with TRR",
+      "node_id": "chunk:arxiv-2610.33748#chunk-03",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "arxiv-2610.33748#chunk-03",
+        "heading": "End-to-End Evaluation on DDR3 and DDR4 with TRR",
+        "token_count": 49
+      }
+    },
+    {
+      "label": "note-2026-cross-layer-bitflip-synthesis: Unifying Hardware Datapath Telemetry and Software Capability Integrity",
+      "node_id": "chunk:note-2026-cross-layer-bitflip-synthesis#chunk-01",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "note-2026-cross-layer-bitflip-synthesis#chunk-01",
+        "heading": "Unifying Hardware Datapath Telemetry and Software Capability Integrity",
+        "token_count": 34
+      }
+    },
+    {
+      "label": "note-2026-cross-layer-bitflip-synthesis: OntoLogic Knowledge Graph Synthesis",
+      "node_id": "chunk:note-2026-cross-layer-bitflip-synthesis#chunk-02",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "note-2026-cross-layer-bitflip-synthesis#chunk-02",
+        "heading": "OntoLogic Knowledge Graph Synthesis",
+        "token_count": 54
+      }
+    },
+    {
+      "label": "semieng-2026-bare-ai-monitors: Research Brief Overview",
+      "node_id": "chunk:semieng-2026-bare-ai-monitors#chunk-01",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "semieng-2026-bare-ai-monitors#chunk-01",
+        "heading": "Research Brief Overview",
+        "token_count": 31
+      }
+    },
+    {
+      "label": "semieng-2026-bare-ai-monitors: Abstract Excerpt",
+      "node_id": "chunk:semieng-2026-bare-ai-monitors#chunk-02",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "semieng-2026-bare-ai-monitors#chunk-02",
+        "heading": "Abstract Excerpt",
+        "token_count": 59
+      }
+    },
+    {
+      "label": "semieng-2026-bare-ai-monitors: Citation & Source Link",
+      "node_id": "chunk:semieng-2026-bare-ai-monitors#chunk-03",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "semieng-2026-bare-ai-monitors#chunk-03",
+        "heading": "Citation & Source Link",
+        "token_count": 27
+      }
+    },
+    {
+      "label": "techpaper-2026-eda-formal-monitors: Formal Verification of Runtime Security Monitors",
+      "node_id": "chunk:techpaper-2026-eda-formal-monitors#chunk-01",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "techpaper-2026-eda-formal-monitors#chunk-01",
+        "heading": "Formal Verification of Runtime Security Monitors",
+        "token_count": 33
+      }
+    },
+    {
+      "label": "techpaper-2026-eda-formal-monitors: Operational Semantics and Pre-Silicon Fault Simulation",
+      "node_id": "chunk:techpaper-2026-eda-formal-monitors#chunk-02",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "techpaper-2026-eda-formal-monitors#chunk-02",
+        "heading": "Operational Semantics and Pre-Silicon Fault Simulation",
+        "token_count": 28
+      }
+    },
+    {
+      "label": "techpaper-2026-hbm-chiplet-resilience: High-Bandwidth Memory & Chiplet Interconnect Threat Surface",
+      "node_id": "chunk:techpaper-2026-hbm-chiplet-resilience#chunk-01",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "techpaper-2026-hbm-chiplet-resilience#chunk-01",
+        "heading": "High-Bandwidth Memory & Chiplet Interconnect Threat Surface",
+        "token_count": 47
+      }
+    },
+    {
+      "label": "techpaper-2026-hbm-chiplet-resilience: Co-Design of Memory Telemetry and Datapath Monitors",
+      "node_id": "chunk:techpaper-2026-hbm-chiplet-resilience#chunk-02",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "techpaper-2026-hbm-chiplet-resilience#chunk-02",
+        "heading": "Co-Design of Memory Telemetry and Datapath Monitors",
+        "token_count": 27
+      }
+    },
+    {
+      "label": "Layer Activation Statistics",
+      "node_id": "concept:activation-statistics",
+      "node_type": "Concept",
+      "properties": {
+        "description": "Statistical moments and spectral properties of per-layer neural activations captured at runtime.",
+        "taxonomy_path": "Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors",
+        "technology_area": "On-Chip Telemetry & Runtime Monitoring"
+      }
+    },
+    {
+      "label": "AI Hardware Accelerator",
+      "node_id": "concept:ai-accelerator",
+      "node_type": "Concept",
+      "properties": {
+        "description": "Integrated circuit accelerators synthesized for neural network inference.",
+        "taxonomy_path": "Hardware & Semiconductor Systems > AI Accelerators",
+        "technology_area": "AI Hardware Accelerators"
+      }
+    },
+    {
+      "label": "AI Performance Counters (APCs)",
+      "node_id": "concept:apc",
+      "node_type": "Concept",
+      "properties": {
+        "description": "Lightweight hardware monitors in the accelerator datapath capturing per-layer activation statistics.",
+        "taxonomy_path": "Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors",
+        "technology_area": "On-Chip Telemetry & Runtime Monitoring"
+      }
+    },
+    {
+      "label": "Activation Shift Index (ASI)",
+      "node_id": "concept:asi",
+      "node_type": "Concept",
+      "properties": {
+        "description": "Metric for layer-level fault localization paired with z-score weight repair.",
+        "taxonomy_path": "Security & Resilience > Runtime Fault Localization & Recovery",
+        "technology_area": "Self-Healing & Fault-Tolerant AI"
+      }
+    },
+    {
+      "label": "BARE-AI Framework",
+      "node_id": "concept:bare-ai",
+      "node_type": "Concept",
+      "properties": {
+        "description": "Runtime framework that detects, localizes, and mitigates bit-flip attacks during AI inference.",
+        "taxonomy_path": "Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors",
+        "technology_area": "On-Chip Telemetry & Runtime Monitoring"
+      }
+    },
+    {
+      "label": "Bit-Flip Attack (BFA)",
+      "node_id": "concept:bit-flip-attack",
+      "node_type": "Concept",
+      "properties": {
+        "description": "Adversarial or fault-induced memory perturbations that flip bits in neural network weights or runtime metadata.",
+        "taxonomy_path": "Security & Resilience > Hardware Fault Attacks > Bit-Flip Attacks",
+        "technology_area": "Adversarial Fault Injection"
+      }
+    },
+    {
+      "label": "Deep Neural Networks (DNNs, ViTs, LLMs)",
+      "node_id": "concept:dnn",
+      "node_type": "Concept",
+      "properties": {
+        "description": "Neural network families evaluated for resilience against bit-flip perturbations.",
+        "taxonomy_path": "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "technology_area": "Deep Learning Architectures"
+      }
+    },
+    {
+      "label": "Error Correcting Codes (ECC)",
+      "node_id": "concept:ecc",
+      "node_type": "Concept",
+      "properties": {
+        "description": "Hardware memory redundancy codes whose overhead scales with the number of tolerated bit flips.",
+        "taxonomy_path": "Security & Resilience > Runtime Fault Localization & Recovery",
+        "technology_area": "Self-Healing & Fault-Tolerant AI"
+      }
+    },
+    {
+      "label": "Fil-C Software Capabilities (InvisiCaps)",
+      "node_id": "concept:fil-c",
+      "node_type": "Concept",
+      "properties": {
+        "description": "Memory-safe C/C++ implementation using DRAM-backed software capabilities (InvisiCaps) checked on pointer dereferences.",
+        "taxonomy_path": "Security & Resilience > Memory Safety & Software Capabilities",
+        "technology_area": "Language & Runtime Memory Safety"
+      }
+    },
+    {
+      "label": "PULSE Detector",
+      "node_id": "concept:pulse",
+      "node_type": "Concept",
+      "properties": {
+        "description": "Compact on-chip neural detector trained as an ensemble of classifiers to evaluate APC layer telemetry.",
+        "taxonomy_path": "Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors",
+        "technology_area": "On-Chip Telemetry & Runtime Monitoring"
+      }
+    },
+    {
+      "label": "Rowhammer DRAM Disturbance Attack",
+      "node_id": "concept:rowhammer",
+      "node_type": "Concept",
+      "properties": {
+        "description": "Physical DRAM disturbance errors induced by rapid row activations that flip bits in adjacent rows.",
+        "taxonomy_path": "Security & Resilience > Hardware Fault Attacks > Bit-Flip Attacks",
+        "technology_area": "Adversarial Fault Injection"
+      }
+    },
+    {
+      "label": "BARE-AI: Bit-Flip Attack Resilience in AI Hardware through Built-in Performance Monitors",
+      "node_id": "doc:arxiv-2610.08739v2",
+      "node_type": "Document",
+      "properties": {
+        "doc_id": "arxiv-2610.08739v2",
+        "doc_type": "academic_paper",
+        "identifiers": {
+          "arxiv": "2610.08739v2",
+          "pdf_url": "https://arxiv.org/pdf/2610.08739v2",
+          "primary_category": "cs.CR"
+        },
+        "notes": "Core baseline for constant-overhead on-chip telemetry (APCs + PULSE) and ASI z-score weight recovery at 28nm.",
+        "priority": "high",
+        "published_date": "2026-10-06",
+        "reading_status": "reading",
+        "tags": [
+          "bare-ai",
+          "apc",
+          "pulse",
+          "asi",
+          "28nm",
+          "dnn-security"
+        ],
+        "url": "https://arxiv.org/abs/2610.08739v2"
+      }
+    },
+    {
+      "label": "A Rowhammer attack on Fil-C's software capabilities",
+      "node_id": "doc:arxiv-2610.33748",
+      "node_type": "Document",
+      "properties": {
+        "doc_id": "arxiv-2610.33748",
+        "doc_type": "academic_paper",
+        "identifiers": {
+          "arxiv": "2610.33748",
+          "pdf_url": "https://arxiv.org/pdf/2610.33748",
+          "primary_category": "cs.CR"
+        },
+        "notes": "Demonstrates how physical DRAM bit-flips subvert language-level software capabilities (InvisiCaps) even on DDR4 with TRR.",
+        "priority": "high",
+        "published_date": "2026-10",
+        "reading_status": "reading",
+        "tags": [
+          "rowhammer",
+          "fil-c",
+          "invisicaps",
+          "dram",
+          "memory-safety",
+          "trr"
+        ],
+        "url": "https://arxiv.org/abs/2610.33748"
+      }
+    },
+    {
+      "label": "Synthesis Note: Cross-Layer Bit-Flip Resilience Across AI Accelerators and Capability Runtimes",
+      "node_id": "doc:note-2026-cross-layer-bitflip-synthesis",
+      "node_type": "Document",
+      "properties": {
+        "doc_id": "note-2026-cross-layer-bitflip-synthesis",
+        "doc_type": "note",
+        "identifiers": {
+          "note_type": "Architecture Synthesis"
+        },
+        "notes": "Synthesis note linking AI accelerator weight resilience (BARE-AI) and C/C++ capability pointer integrity (Fil-C) for OntoLogic.",
+        "priority": "high",
+        "published_date": "2026-11-05",
+        "reading_status": "read",
+        "tags": [
+          "synthesis",
+          "ontologic",
+          "bare-ai",
+          "fil-c",
+          "bit-flip"
+        ],
+        "url": "https://github.com/bsommers/reading-db"
+      }
+    },
+    {
+      "label": "On-Chip Monitors Detect Bit-Flip Attacks in AI Accelerators (UF, UT Dallas, RPI)",
+      "node_id": "doc:semieng-2026-bare-ai-monitors",
+      "node_type": "Document",
+      "properties": {
+        "doc_id": "semieng-2026-bare-ai-monitors",
+        "doc_type": "technical_article",
+        "identifiers": {
+          "cites_arxiv": "2610.08739",
+          "source": "Semiconductor Engineering"
+        },
+        "notes": "Entry point coverage of UF/UTD/RPI built-in performance monitors for AI accelerators.",
+        "priority": "high",
+        "published_date": "2026-10",
+        "reading_status": "read",
+        "tags": [
+          "ai-accelerators",
+          "bit-flip",
+          "on-chip-monitors",
+          "bare-ai"
+        ],
+        "url": "https://semiengineering.com/on-chip-monitors-detect-bit-flip-attacks-in-ai-accelerators-uf-ut-dallas-rpi/"
+      }
+    },
+    {
+      "label": "Pre-Silicon Formal Verification of On-Chip Telemetry Monitors Against Fault Injection",
+      "node_id": "doc:techpaper-2026-eda-formal-monitors",
+      "node_type": "Document",
+      "properties": {
+        "doc_id": "techpaper-2026-eda-formal-monitors",
+        "doc_type": "technical_paper",
+        "identifiers": {
+          "arxiv": "2610.08739v2",
+          "pdf_url": "https://arxiv.org/pdf/2610.08739v2",
+          "topic": "EDA & Formal Verification"
+        },
+        "notes": "Bridges RTL formal verification and operational semantics for hardware fault monitors.",
+        "priority": "medium",
+        "published_date": "2026-11",
+        "reading_status": "to-read",
+        "tags": [
+          "eda",
+          "formal-verification",
+          "rtl",
+          "operational-semantics"
+        ],
+        "url": "https://arxiv.org/abs/2610.08739v2"
+      }
+    },
+    {
+      "label": "Cross-Layer Resilience for HBM and UCIe Chiplet AI Accelerators Under Targeted Bit-Flip Faults",
+      "node_id": "doc:techpaper-2026-hbm-chiplet-resilience",
+      "node_type": "Document",
+      "properties": {
+        "doc_id": "techpaper-2026-hbm-chiplet-resilience",
+        "doc_type": "technical_paper",
+        "identifiers": {
+          "topic": "HBM3 / UCIe Chiplet Security"
+        },
+        "notes": "Connects HBM/CXL memory subsystem defenses with on-chip datapath telemetry.",
+        "priority": "medium",
+        "published_date": "2026-10",
+        "reading_status": "to-read",
+        "tags": [
+          "hbm",
+          "ucie",
+          "cxl",
+          "chiplet",
+          "ecc",
+          "rowhammer"
+        ],
+        "url": "https://semiengineering.com/"
+      }
+    },
+    {
+      "label": "Montanus",
+      "node_id": "institution:montanus",
+      "node_type": "Institution",
+      "properties": {}
+    },
+    {
+      "label": "Rensselaer Polytechnic Institute",
+      "node_id": "institution:rensselaer-polytechnic-institute",
+      "node_type": "Institution",
+      "properties": {}
+    },
+    {
+      "label": "Semiconductor Security Consortium",
+      "node_id": "institution:semiconductor-security-consortium",
+      "node_type": "Institution",
+      "properties": {}
+    },
+    {
+      "label": "University of Florida",
+      "node_id": "institution:university-of-florida",
+      "node_type": "Institution",
+      "properties": {}
+    },
+    {
+      "label": "University of Sussex",
+      "node_id": "institution:university-of-sussex",
+      "node_type": "Institution",
+      "properties": {}
+    },
+    {
+      "label": "University of Texas at Dallas",
+      "node_id": "institution:university-of-texas-at-dallas",
+      "node_type": "Institution",
+      "properties": {}
+    },
+    {
+      "label": "Artificial Intelligence & Machine Learning",
+      "node_id": "taxonomy:artificial-intelligence-and-machine-learning",
+      "node_type": "TaxonomyCategory",
+      "properties": {
+        "description": "Machine learning models, training/inference pipelines, and statistical algorithms.",
+        "ontologic_class_uri": "ontologic:ArtificialIntelligenceMachineLearning",
+        "path": "Artificial Intelligence & Machine Learning"
+      }
+    },
+    {
+      "label": "Deep Neural Networks",
+      "node_id": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks",
+      "node_type": "TaxonomyCategory",
+      "properties": {
+        "description": "Deep neural network architectures including CNNs, Vision Transformers, and Large Language Models.",
+        "ontologic_class_uri": "ontologic:DeepNeuralNetworks",
+        "path": "Artificial Intelligence & Machine Learning > Deep Neural Networks"
+      }
+    },
+    {
+      "label": "Hardware & Semiconductor Systems",
+      "node_id": "taxonomy:hardware-and-semiconductor-systems",
+      "node_type": "TaxonomyCategory",
+      "properties": {
+        "description": "Integrated circuits, semiconductor manufacturing nodes, and hardware architectures.",
+        "ontologic_class_uri": "ontologic:HardwareSemiconductorSystems",
+        "path": "Hardware & Semiconductor Systems"
+      }
+    },
+    {
+      "label": "AI Accelerators",
+      "node_id": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators",
+      "node_type": "TaxonomyCategory",
+      "properties": {
+        "description": "Specialized hardware datapaths and neural engines for executing AI workloads.",
+        "ontologic_class_uri": "ontologic:AIAccelerators",
+        "path": "Hardware & Semiconductor Systems > AI Accelerators"
+      }
+    },
+    {
+      "label": "Built-in Performance Monitors",
+      "node_id": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators--built-in-performance-monitors",
+      "node_type": "TaxonomyCategory",
+      "properties": {
+        "description": "Lightweight on-chip telemetry counters and runtime monitors integrated into accelerator datapaths.",
+        "ontologic_class_uri": "ontologic:BuiltInPerformanceMonitors",
+        "path": "Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors"
+      }
+    },
+    {
+      "label": "EDA & Hardware Verification",
+      "node_id": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification",
+      "node_type": "TaxonomyCategory",
+      "properties": {
+        "description": "Electronic design automation, logic synthesis, formal semantics, and verification.",
+        "ontologic_class_uri": "ontologic:EDAAndVerification",
+        "path": "Hardware & Semiconductor Systems > EDA & Hardware Verification"
+      }
+    },
+    {
+      "label": "Memory & Interconnects",
+      "node_id": "taxonomy:hardware-and-semiconductor-systems--memory-and-interconnects",
+      "node_type": "TaxonomyCategory",
+      "properties": {
+        "description": "On-package memory, DRAM/SRAM subsystems, and die-to-die interconnects.",
+        "ontologic_class_uri": "ontologic:MemoryAndInterconnects",
+        "path": "Hardware & Semiconductor Systems > Memory & Interconnects"
+      }
+    },
+    {
+      "label": "Security & Resilience",
+      "node_id": "taxonomy:security-and-resilience",
+      "node_type": "TaxonomyCategory",
+      "properties": {
+        "description": "System security, adversarial threat modeling, and fault resilience.",
+        "ontologic_class_uri": "ontologic:SecurityAndResilience",
+        "path": "Security & Resilience"
+      }
+    },
+    {
+      "label": "Bit-Flip Attacks",
+      "node_id": "taxonomy:security-and-resilience--hardware-fault-attacks--bit-flip-attacks",
+      "node_type": "TaxonomyCategory",
+      "properties": {
+        "description": "Memory-level bit-flip perturbations (including Rowhammer) that corrupt weights or pointer metadata.",
+        "ontologic_class_uri": "ontologic:BitFlipAttacks",
+        "path": "Security & Resilience > Hardware Fault Attacks > Bit-Flip Attacks"
+      }
+    },
+    {
+      "label": "Memory Safety & Software Capabilities",
+      "node_id": "taxonomy:security-and-resilience--memory-safety-and-software-capabilities",
+      "node_type": "TaxonomyCategory",
+      "properties": {
+        "description": "Compiler and runtime memory-safety mechanisms, capability pointers, and bounds metadata.",
+        "ontologic_class_uri": "ontologic:MemorySafetySoftwareCapabilities",
+        "path": "Security & Resilience > Memory Safety & Software Capabilities"
+      }
+    },
+    {
+      "label": "Runtime Fault Localization & Recovery",
+      "node_id": "taxonomy:security-and-resilience--runtime-fault-localization-and-recovery",
+      "node_type": "TaxonomyCategory",
+      "properties": {
+        "description": "Online anomaly localization and statistical weight repair without full model retraining.",
+        "ontologic_class_uri": "ontologic:RuntimeFaultLocalizationRecovery",
+        "path": "Security & Resilience > Runtime Fault Localization & Recovery"
+      }
+    },
+    {
+      "label": "Adversarial Fault Injection",
+      "node_id": "tech_area:adversarial-fault-injection",
+      "node_type": "TechnologyArea",
+      "properties": {}
+    },
+    {
+      "label": "AI & Machine Learning",
+      "node_id": "tech_area:ai-and-machine-learning",
+      "node_type": "TechnologyArea",
+      "properties": {}
+    },
+    {
+      "label": "AI Hardware Accelerators",
+      "node_id": "tech_area:ai-hardware-accelerators",
+      "node_type": "TechnologyArea",
+      "properties": {}
+    },
+    {
+      "label": "Deep Learning Architectures",
+      "node_id": "tech_area:deep-learning-architectures",
+      "node_type": "TechnologyArea",
+      "properties": {}
+    },
+    {
+      "label": "Electronic Design Automation",
+      "node_id": "tech_area:electronic-design-automation",
+      "node_type": "TechnologyArea",
+      "properties": {}
+    },
+    {
+      "label": "Hardware & AI Security",
+      "node_id": "tech_area:hardware-and-ai-security",
+      "node_type": "TechnologyArea",
+      "properties": {}
+    },
+    {
+      "label": "Language & Runtime Memory Safety",
+      "node_id": "tech_area:language-and-runtime-memory-safety",
+      "node_type": "TechnologyArea",
+      "properties": {}
+    },
+    {
+      "label": "Memory Subsystems & Chiplets",
+      "node_id": "tech_area:memory-subsystems-and-chiplets",
+      "node_type": "TechnologyArea",
+      "properties": {}
+    },
+    {
+      "label": "On-Chip Telemetry & Runtime Monitoring",
+      "node_id": "tech_area:on-chip-telemetry-and-runtime-monitoring",
+      "node_type": "TechnologyArea",
+      "properties": {}
+    },
+    {
+      "label": "Self-Healing & Fault-Tolerant AI",
+      "node_id": "tech_area:self-healing-and-fault-tolerant-ai",
+      "node_type": "TechnologyArea",
+      "properties": {}
+    },
+    {
+      "label": "Semiconductor Engineering",
+      "node_id": "tech_area:semiconductor-engineering",
+      "node_type": "TechnologyArea",
+      "properties": {}
+    }
+  ],
+  "summary": {
+    "edge_count": 443,
+    "node_count": 76
+  }
+}

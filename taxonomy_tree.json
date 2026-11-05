@@ -1,0 +1,314 @@
+{
+  "taxonomy_categories": [
+    {
+      "chunk_ids": [
+        "arxiv-2610.08739v2#chunk-01",
+        "arxiv-2610.08739v2#chunk-02",
+        "arxiv-2610.08739v2#chunk-03",
+        "arxiv-2610.08739v2#chunk-04",
+        "arxiv-2610.08739v2#chunk-05",
+        "arxiv-2610.33748#chunk-01",
+        "arxiv-2610.33748#chunk-02",
+        "arxiv-2610.33748#chunk-03",
+        "note-2026-cross-layer-bitflip-synthesis#chunk-01",
+        "note-2026-cross-layer-bitflip-synthesis#chunk-02",
+        "semieng-2026-bare-ai-monitors#chunk-01",
+        "semieng-2026-bare-ai-monitors#chunk-02",
+        "semieng-2026-bare-ai-monitors#chunk-03",
+        "techpaper-2026-eda-formal-monitors#chunk-01",
+        "techpaper-2026-eda-formal-monitors#chunk-02",
+        "techpaper-2026-hbm-chiplet-resilience#chunk-01",
+        "techpaper-2026-hbm-chiplet-resilience#chunk-02"
+      ],
+      "description": "Integrated circuits, semiconductor manufacturing nodes, and hardware architectures.",
+      "document_ids": [
+        "arxiv-2610.08739v2",
+        "arxiv-2610.33748",
+        "note-2026-cross-layer-bitflip-synthesis",
+        "semieng-2026-bare-ai-monitors",
+        "techpaper-2026-eda-formal-monitors",
+        "techpaper-2026-hbm-chiplet-resilience"
+      ],
+      "label": "Hardware & Semiconductor Systems",
+      "ontologic_class_uri": "ontologic:HardwareSemiconductorSystems",
+      "parent_path": null,
+      "path": "Hardware & Semiconductor Systems",
+      "technology_area": "Semiconductor Engineering"
+    },
+    {
+      "chunk_ids": [
+        "arxiv-2610.08739v2#chunk-01",
+        "arxiv-2610.08739v2#chunk-02",
+        "arxiv-2610.08739v2#chunk-03",
+        "arxiv-2610.08739v2#chunk-04",
+        "arxiv-2610.08739v2#chunk-05",
+        "note-2026-cross-layer-bitflip-synthesis#chunk-01",
+        "note-2026-cross-layer-bitflip-synthesis#chunk-02",
+        "semieng-2026-bare-ai-monitors#chunk-01",
+        "semieng-2026-bare-ai-monitors#chunk-02",
+        "semieng-2026-bare-ai-monitors#chunk-03",
+        "techpaper-2026-eda-formal-monitors#chunk-01",
+        "techpaper-2026-eda-formal-monitors#chunk-02",
+        "techpaper-2026-hbm-chiplet-resilience#chunk-01",
+        "techpaper-2026-hbm-chiplet-resilience#chunk-02"
+      ],
+      "description": "Specialized hardware datapaths and neural engines for executing AI workloads.",
+      "document_ids": [
+        "arxiv-2610.08739v2",
+        "note-2026-cross-layer-bitflip-synthesis",
+        "semieng-2026-bare-ai-monitors",
+        "techpaper-2026-eda-formal-monitors",
+        "techpaper-2026-hbm-chiplet-resilience"
+      ],
+      "label": "AI Accelerators",
+      "ontologic_class_uri": "ontologic:AIAccelerators",
+      "parent_path": "Hardware & Semiconductor Systems",
+      "path": "Hardware & Semiconductor Systems > AI Accelerators",
+      "technology_area": "AI Hardware Accelerators"
+    },
+    {
+      "chunk_ids": [
+        "arxiv-2610.08739v2#chunk-01",
+        "arxiv-2610.08739v2#chunk-02",
+        "arxiv-2610.08739v2#chunk-03",
+        "arxiv-2610.08739v2#chunk-04",
+        "arxiv-2610.08739v2#chunk-05",
+        "note-2026-cross-layer-bitflip-synthesis#chunk-01",
+        "note-2026-cross-layer-bitflip-synthesis#chunk-02",
+        "semieng-2026-bare-ai-monitors#chunk-01",
+        "semieng-2026-bare-ai-monitors#chunk-02",
+        "semieng-2026-bare-ai-monitors#chunk-03",
+        "techpaper-2026-eda-formal-monitors#chunk-01",
+        "techpaper-2026-hbm-chiplet-resilience#chunk-02"
+      ],
+      "description": "Lightweight on-chip telemetry counters and runtime monitors integrated into accelerator datapaths.",
+      "document_ids": [
+        "arxiv-2610.08739v2",
+        "note-2026-cross-layer-bitflip-synthesis",
+        "semieng-2026-bare-ai-monitors",
+        "techpaper-2026-eda-formal-monitors",
+        "techpaper-2026-hbm-chiplet-resilience"
+      ],
+      "label": "Built-in Performance Monitors",
+      "ontologic_class_uri": "ontologic:BuiltInPerformanceMonitors",
+      "parent_path": "Hardware & Semiconductor Systems > AI Accelerators",
+      "path": "Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors",
+      "technology_area": "On-Chip Telemetry & Runtime Monitoring"
+    },
+    {
+      "chunk_ids": [
+        "arxiv-2610.08739v2#chunk-01",
+        "arxiv-2610.33748#chunk-01",
+        "arxiv-2610.33748#chunk-02",
+        "arxiv-2610.33748#chunk-03",
+        "note-2026-cross-layer-bitflip-synthesis#chunk-01",
+        "note-2026-cross-layer-bitflip-synthesis#chunk-02",
+        "semieng-2026-bare-ai-monitors#chunk-02",
+        "techpaper-2026-eda-formal-monitors#chunk-02",
+        "techpaper-2026-hbm-chiplet-resilience#chunk-01",
+        "techpaper-2026-hbm-chiplet-resilience#chunk-02"
+      ],
+      "description": "On-package memory, DRAM/SRAM subsystems, and die-to-die interconnects.",
+      "document_ids": [
+        "arxiv-2610.08739v2",
+        "arxiv-2610.33748",
+        "note-2026-cross-layer-bitflip-synthesis",
+        "semieng-2026-bare-ai-monitors",
+        "techpaper-2026-eda-formal-monitors",
+        "techpaper-2026-hbm-chiplet-resilience"
+      ],
+      "label": "Memory & Interconnects",
+      "ontologic_class_uri": "ontologic:MemoryAndInterconnects",
+      "parent_path": "Hardware & Semiconductor Systems",
+      "path": "Hardware & Semiconductor Systems > Memory & Interconnects",
+      "technology_area": "Memory Subsystems & Chiplets"
+    },
+    {
+      "chunk_ids": [
+        "arxiv-2610.08739v2#chunk-05",
+        "arxiv-2610.33748#chunk-03",
+        "note-2026-cross-layer-bitflip-synthesis#chunk-01",
+        "note-2026-cross-layer-bitflip-synthesis#chunk-02",
+        "techpaper-2026-eda-formal-monitors#chunk-01",
+        "techpaper-2026-eda-formal-monitors#chunk-02"
+      ],
+      "description": "Electronic design automation, logic synthesis, formal semantics, and verification.",
+      "document_ids": [
+        "arxiv-2610.08739v2",
+        "arxiv-2610.33748",
+        "note-2026-cross-layer-bitflip-synthesis",
+        "techpaper-2026-eda-formal-monitors"
+      ],
+      "label": "EDA & Hardware Verification",
+      "ontologic_class_uri": "ontologic:EDAAndVerification",
+      "parent_path": "Hardware & Semiconductor Systems",
+      "path": "Hardware & Semiconductor Systems > EDA & Hardware Verification",
+      "technology_area": "Electronic Design Automation"
+    },
+    {
+      "chunk_ids": [
+        "arxiv-2610.08739v2#chunk-01",
+        "arxiv-2610.08739v2#chunk-02",
+        "arxiv-2610.08739v2#chunk-03",
+        "arxiv-2610.08739v2#chunk-04",
+        "arxiv-2610.08739v2#chunk-05",
+        "arxiv-2610.33748#chunk-01",
+        "arxiv-2610.33748#chunk-02",
+        "arxiv-2610.33748#chunk-03",
+        "note-2026-cross-layer-bitflip-synthesis#chunk-01",
+        "note-2026-cross-layer-bitflip-synthesis#chunk-02",
+        "semieng-2026-bare-ai-monitors#chunk-01",
+        "semieng-2026-bare-ai-monitors#chunk-02",
+        "semieng-2026-bare-ai-monitors#chunk-03",
+        "techpaper-2026-eda-formal-monitors#chunk-01",
+        "techpaper-2026-eda-formal-monitors#chunk-02",
+        "techpaper-2026-hbm-chiplet-resilience#chunk-01",
+        "techpaper-2026-hbm-chiplet-resilience#chunk-02"
+      ],
+      "description": "System security, adversarial threat modeling, and fault resilience.",
+      "document_ids": [
+        "arxiv-2610.08739v2",
+        "arxiv-2610.33748",
+        "note-2026-cross-layer-bitflip-synthesis",
+        "semieng-2026-bare-ai-monitors",
+        "techpaper-2026-eda-formal-monitors",
+        "techpaper-2026-hbm-chiplet-resilience"
+      ],
+      "label": "Security & Resilience",
+      "ontologic_class_uri": "ontologic:SecurityAndResilience",
+      "parent_path": null,
+      "path": "Security & Resilience",
+      "technology_area": "Hardware & AI Security"
+    },
+    {
+      "chunk_ids": [
+        "arxiv-2610.08739v2#chunk-01",
+        "arxiv-2610.08739v2#chunk-02",
+        "arxiv-2610.08739v2#chunk-04",
+        "arxiv-2610.33748#chunk-01",
+        "arxiv-2610.33748#chunk-02",
+        "arxiv-2610.33748#chunk-03",
+        "note-2026-cross-layer-bitflip-synthesis#chunk-01",
+        "note-2026-cross-layer-bitflip-synthesis#chunk-02",
+        "semieng-2026-bare-ai-monitors#chunk-01",
+        "semieng-2026-bare-ai-monitors#chunk-02",
+        "semieng-2026-bare-ai-monitors#chunk-03",
+        "techpaper-2026-eda-formal-monitors#chunk-01",
+        "techpaper-2026-eda-formal-monitors#chunk-02",
+        "techpaper-2026-hbm-chiplet-resilience#chunk-01"
+      ],
+      "description": "Memory-level bit-flip perturbations (including Rowhammer) that corrupt weights or pointer metadata.",
+      "document_ids": [
+        "arxiv-2610.08739v2",
+        "arxiv-2610.33748",
+        "note-2026-cross-layer-bitflip-synthesis",
+        "semieng-2026-bare-ai-monitors",
+        "techpaper-2026-eda-formal-monitors",
+        "techpaper-2026-hbm-chiplet-resilience"
+      ],
+      "label": "Bit-Flip Attacks",
+      "ontologic_class_uri": "ontologic:BitFlipAttacks",
+      "parent_path": "Security & Resilience",
+      "path": "Security & Resilience > Hardware Fault Attacks > Bit-Flip Attacks",
+      "technology_area": "Adversarial Fault Injection"
+    },
+    {
+      "chunk_ids": [
+        "arxiv-2610.33748#chunk-01",
+        "arxiv-2610.33748#chunk-02",
+        "note-2026-cross-layer-bitflip-synthesis#chunk-01",
+        "note-2026-cross-layer-bitflip-synthesis#chunk-02",
+        "techpaper-2026-hbm-chiplet-resilience#chunk-02"
+      ],
+      "description": "Compiler and runtime memory-safety mechanisms, capability pointers, and bounds metadata.",
+      "document_ids": [
+        "arxiv-2610.33748",
+        "note-2026-cross-layer-bitflip-synthesis",
+        "techpaper-2026-hbm-chiplet-resilience"
+      ],
+      "label": "Memory Safety & Software Capabilities",
+      "ontologic_class_uri": "ontologic:MemorySafetySoftwareCapabilities",
+      "parent_path": "Security & Resilience",
+      "path": "Security & Resilience > Memory Safety & Software Capabilities",
+      "technology_area": "Language & Runtime Memory Safety"
+    },
+    {
+      "chunk_ids": [
+        "arxiv-2610.08739v2#chunk-02",
+        "arxiv-2610.08739v2#chunk-03",
+        "arxiv-2610.08739v2#chunk-04",
+        "arxiv-2610.08739v2#chunk-05",
+        "note-2026-cross-layer-bitflip-synthesis#chunk-02",
+        "semieng-2026-bare-ai-monitors#chunk-02",
+        "techpaper-2026-eda-formal-monitors#chunk-02",
+        "techpaper-2026-hbm-chiplet-resilience#chunk-01"
+      ],
+      "description": "Online anomaly localization and statistical weight repair without full model retraining.",
+      "document_ids": [
+        "arxiv-2610.08739v2",
+        "note-2026-cross-layer-bitflip-synthesis",
+        "semieng-2026-bare-ai-monitors",
+        "techpaper-2026-eda-formal-monitors",
+        "techpaper-2026-hbm-chiplet-resilience"
+      ],
+      "label": "Runtime Fault Localization & Recovery",
+      "ontologic_class_uri": "ontologic:RuntimeFaultLocalizationRecovery",
+      "parent_path": "Security & Resilience",
+      "path": "Security & Resilience > Runtime Fault Localization & Recovery",
+      "technology_area": "Self-Healing & Fault-Tolerant AI"
+    },
+    {
+      "chunk_ids": [
+        "arxiv-2610.08739v2#chunk-01",
+        "arxiv-2610.08739v2#chunk-02",
+        "arxiv-2610.08739v2#chunk-03",
+        "arxiv-2610.08739v2#chunk-04",
+        "note-2026-cross-layer-bitflip-synthesis#chunk-01",
+        "semieng-2026-bare-ai-monitors#chunk-02",
+        "techpaper-2026-eda-formal-monitors#chunk-01",
+        "techpaper-2026-eda-formal-monitors#chunk-02",
+        "techpaper-2026-hbm-chiplet-resilience#chunk-01",
+        "techpaper-2026-hbm-chiplet-resilience#chunk-02"
+      ],
+      "description": "Machine learning models, training/inference pipelines, and statistical algorithms.",
+      "document_ids": [
+        "arxiv-2610.08739v2",
+        "note-2026-cross-layer-bitflip-synthesis",
+        "semieng-2026-bare-ai-monitors",
+        "techpaper-2026-eda-formal-monitors",
+        "techpaper-2026-hbm-chiplet-resilience"
+      ],
+      "label": "Artificial Intelligence & Machine Learning",
+      "ontologic_class_uri": "ontologic:ArtificialIntelligenceMachineLearning",
+      "parent_path": null,
+      "path": "Artificial Intelligence & Machine Learning",
+      "technology_area": "AI & Machine Learning"
+    },
+    {
+      "chunk_ids": [
+        "arxiv-2610.08739v2#chunk-01",
+        "arxiv-2610.08739v2#chunk-02",
+        "arxiv-2610.08739v2#chunk-03",
+        "arxiv-2610.08739v2#chunk-04",
+        "note-2026-cross-layer-bitflip-synthesis#chunk-01",
+        "semieng-2026-bare-ai-monitors#chunk-02",
+        "techpaper-2026-eda-formal-monitors#chunk-02",
+        "techpaper-2026-hbm-chiplet-resilience#chunk-01",
+        "techpaper-2026-hbm-chiplet-resilience#chunk-02"
+      ],
+      "description": "Deep neural network architectures including CNNs, Vision Transformers, and Large Language Models.",
+      "document_ids": [
+        "arxiv-2610.08739v2",
+        "note-2026-cross-layer-bitflip-synthesis",
+        "semieng-2026-bare-ai-monitors",
+        "techpaper-2026-eda-formal-monitors",
+        "techpaper-2026-hbm-chiplet-resilience"
+      ],
+      "label": "Deep Neural Networks",
+      "ontologic_class_uri": "ontologic:DeepNeuralNetworks",
+      "parent_path": "Artificial Intelligence & Machine Learning",
+      "path": "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+      "technology_area": "Deep Learning Architectures"
+    }
+  ]
+}
