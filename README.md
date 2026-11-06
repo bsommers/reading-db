@@ -25,6 +25,11 @@ Published reading-list knowledge database, semantic chunk index, conceptual taxo
 4. **Technical Paper:** [*Cross-Layer Resilience for HBM and UCIe Chiplet AI Accelerators Under Targeted Bit-Flip Faults*](https://semiengineering.com/) (`techpaper-2026-hbm-chiplet-resilience` — Elena Vance, Marcus Chen — Semiconductor Security Consortium)
 5. **Technical Paper:** [*Pre-Silicon Formal Verification of On-Chip Telemetry Monitors Against Fault Injection*](https://arxiv.org/abs/2610.08739v2) (`techpaper-2026-eda-formal-monitors` — Priya Nair, David K. Lindstrom — Rensselaer Polytechnic Institute; University of Texas at Dallas)
 6. **Research Note:** [*Synthesis Note: Cross-Layer Bit-Flip Resilience Across AI Accelerators and Capability Runtimes*](https://github.com/bsommers/reading-db) (`note-2026-cross-layer-bitflip-synthesis` — Bill Sommers)
+7. **Academic Paper:** [*UCLID5: Multi-Modal Formal Modeling, Verification, and Synthesis*](https://arxiv.org/abs/2208.03699) (`arxiv-2208.03699` — Elizabeth Polgreen, Kevin Cheang, Pranav Gaddamadugu, Adwait Godbole, Kevin Laeufer, Shaokai Lin, Yatin A. Manerkar, Federico Mora, Sanjit A. Seshia — University of California, Berkeley; University of Edinburgh; University of Michigan)
+8. **Academic Paper:** [*AssertionForge: Enhancing Formal Verification Assertion Generation with Structured Representation of Specifications and RTL*](https://arxiv.org/abs/2503.19174) (`arxiv-2503.19174` — Yunsheng Bai, Ghaith Bany Hamad, Syed Suhaib, Haoxing Ren — NVIDIA; Arm)
+9. **Academic Paper:** [*ProofLoop: From Language to Logic — Bridging LLMs and Formal Representations for RTL Assertion Generation*](https://arxiv.org/abs/2604.23100) (`arxiv-2604.23100` — Nowfel Mashnoor, Aritra Dasgupta, Sandeep K. Shukla — IIT Kanpur)
+10. **Academic Paper:** [*EquivSVA: A Formally Verified Dataset of Behavioral Assertions Across Equivalent RTL Implementations*](https://arxiv.org/abs/2609.26751) (`arxiv-2609.26751` — FNU Aditi, Rohan Sharma, Subhasish Mitra — Stanford University)
+11. **Research Note:** [*Research Synthesis: Formal verification languages in chip and semiconductor design*](https://github.com/bsommers/reading-db) (`research-formal-verification-languages-in-chip-and-se` — Reading List Research Engine)
 
 ## Updating From `reading-list`
 

@@ -2,6 +2,18 @@
   "taxonomy_categories": [
     {
       "chunk_ids": [
+        "arxiv-2208.03699#chunk-01",
+        "arxiv-2208.03699#chunk-02",
+        "arxiv-2208.03699#chunk-03",
+        "arxiv-2503.19174#chunk-01",
+        "arxiv-2503.19174#chunk-02",
+        "arxiv-2503.19174#chunk-03",
+        "arxiv-2604.23100#chunk-01",
+        "arxiv-2604.23100#chunk-02",
+        "arxiv-2604.23100#chunk-03",
+        "arxiv-2609.26751#chunk-01",
+        "arxiv-2609.26751#chunk-02",
+        "arxiv-2609.26751#chunk-03",
         "arxiv-2610.08739v2#chunk-01",
         "arxiv-2610.08739v2#chunk-02",
         "arxiv-2610.08739v2#chunk-03",
@@ -12,6 +24,9 @@
         "arxiv-2610.33748#chunk-03",
         "note-2026-cross-layer-bitflip-synthesis#chunk-01",
         "note-2026-cross-layer-bitflip-synthesis#chunk-02",
+        "research-formal-verification-languages-in-chip-and-se#chunk-01",
+        "research-formal-verification-languages-in-chip-and-se#chunk-02",
+        "research-formal-verification-languages-in-chip-and-se#chunk-03",
         "semieng-2026-bare-ai-monitors#chunk-01",
         "semieng-2026-bare-ai-monitors#chunk-02",
         "semieng-2026-bare-ai-monitors#chunk-03",
@@ -22,9 +37,14 @@
       ],
       "description": "Integrated circuits, semiconductor manufacturing nodes, and hardware architectures.",
       "document_ids": [
+        "arxiv-2208.03699",
+        "arxiv-2503.19174",
+        "arxiv-2604.23100",
+        "arxiv-2609.26751",
         "arxiv-2610.08739v2",
         "arxiv-2610.33748",
         "note-2026-cross-layer-bitflip-synthesis",
+        "research-formal-verification-languages-in-chip-and-se",
         "semieng-2026-bare-ai-monitors",
         "techpaper-2026-eda-formal-monitors",
         "techpaper-2026-hbm-chiplet-resilience"
@@ -37,6 +57,9 @@
     },
     {
       "chunk_ids": [
+        "arxiv-2208.03699#chunk-01",
+        "arxiv-2208.03699#chunk-03",
+        "arxiv-2604.23100#chunk-03",
         "arxiv-2610.08739v2#chunk-01",
         "arxiv-2610.08739v2#chunk-02",
         "arxiv-2610.08739v2#chunk-03",
@@ -44,6 +67,8 @@
         "arxiv-2610.08739v2#chunk-05",
         "note-2026-cross-layer-bitflip-synthesis#chunk-01",
         "note-2026-cross-layer-bitflip-synthesis#chunk-02",
+        "research-formal-verification-languages-in-chip-and-se#chunk-01",
+        "research-formal-verification-languages-in-chip-and-se#chunk-03",
         "semieng-2026-bare-ai-monitors#chunk-01",
         "semieng-2026-bare-ai-monitors#chunk-02",
         "semieng-2026-bare-ai-monitors#chunk-03",
@@ -54,8 +79,11 @@
       ],
       "description": "Specialized hardware datapaths and neural engines for executing AI workloads.",
       "document_ids": [
+        "arxiv-2208.03699",
+        "arxiv-2604.23100",
         "arxiv-2610.08739v2",
         "note-2026-cross-layer-bitflip-synthesis",
+        "research-formal-verification-languages-in-chip-and-se",
         "semieng-2026-bare-ai-monitors",
         "techpaper-2026-eda-formal-monitors",
         "techpaper-2026-hbm-chiplet-resilience"
@@ -68,6 +96,7 @@
     },
     {
       "chunk_ids": [
+        "arxiv-2208.03699#chunk-01",
         "arxiv-2610.08739v2#chunk-01",
         "arxiv-2610.08739v2#chunk-02",
         "arxiv-2610.08739v2#chunk-03",
@@ -75,6 +104,7 @@
         "arxiv-2610.08739v2#chunk-05",
         "note-2026-cross-layer-bitflip-synthesis#chunk-01",
         "note-2026-cross-layer-bitflip-synthesis#chunk-02",
+        "research-formal-verification-languages-in-chip-and-se#chunk-03",
         "semieng-2026-bare-ai-monitors#chunk-01",
         "semieng-2026-bare-ai-monitors#chunk-02",
         "semieng-2026-bare-ai-monitors#chunk-03",
@@ -83,8 +113,10 @@
       ],
       "description": "Lightweight on-chip telemetry counters and runtime monitors integrated into accelerator datapaths.",
       "document_ids": [
+        "arxiv-2208.03699",
         "arxiv-2610.08739v2",
         "note-2026-cross-layer-bitflip-synthesis",
+        "research-formal-verification-languages-in-chip-and-se",
         "semieng-2026-bare-ai-monitors",
         "techpaper-2026-eda-formal-monitors",
         "techpaper-2026-hbm-chiplet-resilience"
@@ -97,12 +129,15 @@
     },
     {
       "chunk_ids": [
+        "arxiv-2208.03699#chunk-01",
+        "arxiv-2604.23100#chunk-03",
         "arxiv-2610.08739v2#chunk-01",
         "arxiv-2610.33748#chunk-01",
         "arxiv-2610.33748#chunk-02",
         "arxiv-2610.33748#chunk-03",
         "note-2026-cross-layer-bitflip-synthesis#chunk-01",
         "note-2026-cross-layer-bitflip-synthesis#chunk-02",
+        "research-formal-verification-languages-in-chip-and-se#chunk-03",
         "semieng-2026-bare-ai-monitors#chunk-02",
         "techpaper-2026-eda-formal-monitors#chunk-02",
         "techpaper-2026-hbm-chiplet-resilience#chunk-01",
@@ -110,9 +145,12 @@
       ],
       "description": "On-package memory, DRAM/SRAM subsystems, and die-to-die interconnects.",
       "document_ids": [
+        "arxiv-2208.03699",
+        "arxiv-2604.23100",
         "arxiv-2610.08739v2",
         "arxiv-2610.33748",
         "note-2026-cross-layer-bitflip-synthesis",
+        "research-formal-verification-languages-in-chip-and-se",
         "semieng-2026-bare-ai-monitors",
         "techpaper-2026-eda-formal-monitors",
         "techpaper-2026-hbm-chiplet-resilience"
@@ -125,18 +163,38 @@
     },
     {
       "chunk_ids": [
+        "arxiv-2208.03699#chunk-01",
+        "arxiv-2208.03699#chunk-02",
+        "arxiv-2208.03699#chunk-03",
+        "arxiv-2503.19174#chunk-01",
+        "arxiv-2503.19174#chunk-02",
+        "arxiv-2503.19174#chunk-03",
+        "arxiv-2604.23100#chunk-01",
+        "arxiv-2604.23100#chunk-02",
+        "arxiv-2604.23100#chunk-03",
+        "arxiv-2609.26751#chunk-01",
+        "arxiv-2609.26751#chunk-02",
+        "arxiv-2609.26751#chunk-03",
         "arxiv-2610.08739v2#chunk-05",
         "arxiv-2610.33748#chunk-03",
         "note-2026-cross-layer-bitflip-synthesis#chunk-01",
         "note-2026-cross-layer-bitflip-synthesis#chunk-02",
+        "research-formal-verification-languages-in-chip-and-se#chunk-01",
+        "research-formal-verification-languages-in-chip-and-se#chunk-02",
+        "research-formal-verification-languages-in-chip-and-se#chunk-03",
         "techpaper-2026-eda-formal-monitors#chunk-01",
         "techpaper-2026-eda-formal-monitors#chunk-02"
       ],
       "description": "Electronic design automation, logic synthesis, formal semantics, and verification.",
       "document_ids": [
+        "arxiv-2208.03699",
+        "arxiv-2503.19174",
+        "arxiv-2604.23100",
+        "arxiv-2609.26751",
         "arxiv-2610.08739v2",
         "arxiv-2610.33748",
         "note-2026-cross-layer-bitflip-synthesis",
+        "research-formal-verification-languages-in-chip-and-se",
         "techpaper-2026-eda-formal-monitors"
       ],
       "label": "EDA & Hardware Verification",
@@ -147,6 +205,42 @@
     },
     {
       "chunk_ids": [
+        "arxiv-2208.03699#chunk-01",
+        "arxiv-2208.03699#chunk-02",
+        "arxiv-2208.03699#chunk-03",
+        "arxiv-2503.19174#chunk-01",
+        "arxiv-2503.19174#chunk-02",
+        "arxiv-2503.19174#chunk-03",
+        "arxiv-2604.23100#chunk-01",
+        "arxiv-2604.23100#chunk-02",
+        "arxiv-2604.23100#chunk-03",
+        "arxiv-2609.26751#chunk-01",
+        "arxiv-2609.26751#chunk-02",
+        "arxiv-2609.26751#chunk-03",
+        "research-formal-verification-languages-in-chip-and-se#chunk-01",
+        "research-formal-verification-languages-in-chip-and-se#chunk-02"
+      ],
+      "description": "Hardware specification, assertion, and formal modeling languages (SVA, PSL, UCLID5, Kami, ChiselFV) and automated assertion synthesis.",
+      "document_ids": [
+        "arxiv-2208.03699",
+        "arxiv-2503.19174",
+        "arxiv-2604.23100",
+        "arxiv-2609.26751",
+        "research-formal-verification-languages-in-chip-and-se"
+      ],
+      "label": "Formal Verification Languages & Assertions",
+      "ontologic_class_uri": "ontologic:FormalVerificationLanguages",
+      "parent_path": "Hardware & Semiconductor Systems > EDA & Hardware Verification",
+      "path": "Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions",
+      "technology_area": "Formal Verification & Specification Languages"
+    },
+    {
+      "chunk_ids": [
+        "arxiv-2208.03699#chunk-01",
+        "arxiv-2503.19174#chunk-01",
+        "arxiv-2503.19174#chunk-03",
+        "arxiv-2604.23100#chunk-02",
+        "arxiv-2609.26751#chunk-01",
         "arxiv-2610.08739v2#chunk-01",
         "arxiv-2610.08739v2#chunk-02",
         "arxiv-2610.08739v2#chunk-03",
@@ -157,6 +251,9 @@
         "arxiv-2610.33748#chunk-03",
         "note-2026-cross-layer-bitflip-synthesis#chunk-01",
         "note-2026-cross-layer-bitflip-synthesis#chunk-02",
+        "research-formal-verification-languages-in-chip-and-se#chunk-01",
+        "research-formal-verification-languages-in-chip-and-se#chunk-02",
+        "research-formal-verification-languages-in-chip-and-se#chunk-03",
         "semieng-2026-bare-ai-monitors#chunk-01",
         "semieng-2026-bare-ai-monitors#chunk-02",
         "semieng-2026-bare-ai-monitors#chunk-03",
@@ -167,9 +264,14 @@
       ],
       "description": "System security, adversarial threat modeling, and fault resilience.",
       "document_ids": [
+        "arxiv-2208.03699",
+        "arxiv-2503.19174",
+        "arxiv-2604.23100",
+        "arxiv-2609.26751",
         "arxiv-2610.08739v2",
         "arxiv-2610.33748",
         "note-2026-cross-layer-bitflip-synthesis",
+        "research-formal-verification-languages-in-chip-and-se",
         "semieng-2026-bare-ai-monitors",
         "techpaper-2026-eda-formal-monitors",
         "techpaper-2026-hbm-chiplet-resilience"
@@ -190,6 +292,7 @@
         "arxiv-2610.33748#chunk-03",
         "note-2026-cross-layer-bitflip-synthesis#chunk-01",
         "note-2026-cross-layer-bitflip-synthesis#chunk-02",
+        "research-formal-verification-languages-in-chip-and-se#chunk-03",
         "semieng-2026-bare-ai-monitors#chunk-01",
         "semieng-2026-bare-ai-monitors#chunk-02",
         "semieng-2026-bare-ai-monitors#chunk-03",
@@ -202,6 +305,7 @@
         "arxiv-2610.08739v2",
         "arxiv-2610.33748",
         "note-2026-cross-layer-bitflip-synthesis",
+        "research-formal-verification-languages-in-chip-and-se",
         "semieng-2026-bare-ai-monitors",
         "techpaper-2026-eda-formal-monitors",
         "techpaper-2026-hbm-chiplet-resilience"
@@ -214,16 +318,27 @@
     },
     {
       "chunk_ids": [
+        "arxiv-2208.03699#chunk-01",
+        "arxiv-2503.19174#chunk-01",
+        "arxiv-2503.19174#chunk-03",
+        "arxiv-2609.26751#chunk-01",
         "arxiv-2610.33748#chunk-01",
         "arxiv-2610.33748#chunk-02",
         "note-2026-cross-layer-bitflip-synthesis#chunk-01",
         "note-2026-cross-layer-bitflip-synthesis#chunk-02",
+        "research-formal-verification-languages-in-chip-and-se#chunk-01",
+        "research-formal-verification-languages-in-chip-and-se#chunk-02",
+        "research-formal-verification-languages-in-chip-and-se#chunk-03",
         "techpaper-2026-hbm-chiplet-resilience#chunk-02"
       ],
       "description": "Compiler and runtime memory-safety mechanisms, capability pointers, and bounds metadata.",
       "document_ids": [
+        "arxiv-2208.03699",
+        "arxiv-2503.19174",
+        "arxiv-2609.26751",
         "arxiv-2610.33748",
         "note-2026-cross-layer-bitflip-synthesis",
+        "research-formal-verification-languages-in-chip-and-se",
         "techpaper-2026-hbm-chiplet-resilience"
       ],
       "label": "Memory Safety & Software Capabilities",
@@ -234,6 +349,7 @@
     },
     {
       "chunk_ids": [
+        "arxiv-2604.23100#chunk-02",
         "arxiv-2610.08739v2#chunk-02",
         "arxiv-2610.08739v2#chunk-03",
         "arxiv-2610.08739v2#chunk-04",
@@ -245,6 +361,7 @@
       ],
       "description": "Online anomaly localization and statistical weight repair without full model retraining.",
       "document_ids": [
+        "arxiv-2604.23100",
         "arxiv-2610.08739v2",
         "note-2026-cross-layer-bitflip-synthesis",
         "semieng-2026-bare-ai-monitors",
@@ -259,11 +376,15 @@
     },
     {
       "chunk_ids": [
+        "arxiv-2604.23100#chunk-01",
+        "arxiv-2609.26751#chunk-03",
         "arxiv-2610.08739v2#chunk-01",
         "arxiv-2610.08739v2#chunk-02",
         "arxiv-2610.08739v2#chunk-03",
         "arxiv-2610.08739v2#chunk-04",
         "note-2026-cross-layer-bitflip-synthesis#chunk-01",
+        "research-formal-verification-languages-in-chip-and-se#chunk-02",
+        "research-formal-verification-languages-in-chip-and-se#chunk-03",
         "semieng-2026-bare-ai-monitors#chunk-02",
         "techpaper-2026-eda-formal-monitors#chunk-01",
         "techpaper-2026-eda-formal-monitors#chunk-02",
@@ -272,8 +393,11 @@
       ],
       "description": "Machine learning models, training/inference pipelines, and statistical algorithms.",
       "document_ids": [
+        "arxiv-2604.23100",
+        "arxiv-2609.26751",
         "arxiv-2610.08739v2",
         "note-2026-cross-layer-bitflip-synthesis",
+        "research-formal-verification-languages-in-chip-and-se",
         "semieng-2026-bare-ai-monitors",
         "techpaper-2026-eda-formal-monitors",
         "techpaper-2026-hbm-chiplet-resilience"
@@ -286,11 +410,15 @@
     },
     {
       "chunk_ids": [
+        "arxiv-2604.23100#chunk-01",
+        "arxiv-2609.26751#chunk-03",
         "arxiv-2610.08739v2#chunk-01",
         "arxiv-2610.08739v2#chunk-02",
         "arxiv-2610.08739v2#chunk-03",
         "arxiv-2610.08739v2#chunk-04",
         "note-2026-cross-layer-bitflip-synthesis#chunk-01",
+        "research-formal-verification-languages-in-chip-and-se#chunk-02",
+        "research-formal-verification-languages-in-chip-and-se#chunk-03",
         "semieng-2026-bare-ai-monitors#chunk-02",
         "techpaper-2026-eda-formal-monitors#chunk-02",
         "techpaper-2026-hbm-chiplet-resilience#chunk-01",
@@ -298,8 +426,11 @@
       ],
       "description": "Deep neural network architectures including CNNs, Vision Transformers, and Large Language Models.",
       "document_ids": [
+        "arxiv-2604.23100",
+        "arxiv-2609.26751",
         "arxiv-2610.08739v2",
         "note-2026-cross-layer-bitflip-synthesis",
+        "research-formal-verification-languages-in-chip-and-se",
         "semieng-2026-bare-ai-monitors",
         "techpaper-2026-eda-formal-monitors",
         "techpaper-2026-hbm-chiplet-resilience"

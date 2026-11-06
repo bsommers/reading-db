@@ -224,6 +224,231 @@
       ],
       "title": "Synthesis Note: Cross-Layer Bit-Flip Resilience Across AI Accelerators and Capability Runtimes",
       "url": "https://github.com/bsommers/reading-db"
+    },
+    {
+      "authors": [
+        "Elizabeth Polgreen",
+        "Kevin Cheang",
+        "Pranav Gaddamadugu",
+        "Adwait Godbole",
+        "Kevin Laeufer",
+        "Shaokai Lin",
+        "Yatin A. Manerkar",
+        "Federico Mora",
+        "Sanjit A. Seshia"
+      ],
+      "content": "## Multi-Modal Formal Modeling Language for Hardware & Systems\nUCLID5 is a formal modeling, verification, and synthesis framework and specification language designed for heterogeneous hardware and software systems. It enables compositional specification of Register-Transfer Level (RTL) datapaths, control logic, memory subsystems, and security monitors using first-order and temporal logic assertions.\n\n## Bridging Chisel, FIRRTL, and SMT Solvers\nIn semiconductor design workflows, UCLID5 integrates with modern hardware construction languages such as Chisel and FIRRTL as well as SystemVerilog Assertions (SVA). Models are lowered to Satisfiability Modulo Theories (SMT) solvers and syntax-guided synthesis (SyGuS) engines for bounded model checking, inductive invariant synthesis, and hyperproperty verification.\n\n## Verification of Secure Architectures and Accelerators\nUCLID5 has been deployed to formally verify speculative execution mitigations, cryptographic accelerators, enclave isolation, and hardware fault-tolerance protocols prior to silicon tapeout.",
+      "doc_id": "arxiv-2208.03699",
+      "doc_type": "academic_paper",
+      "identifiers": {
+        "arxiv": "2208.03699",
+        "pdf_url": "https://arxiv.org/pdf/2208.03699",
+        "primary_category": "cs.LO"
+      },
+      "institutions": [
+        "University of California, Berkeley",
+        "University of Edinburgh",
+        "University of Michigan"
+      ],
+      "notes": "Foundational formal modeling and verification language for hardware datapaths, Chisel/FIRRTL RTL, and security invariants.",
+      "priority": "high",
+      "published_date": "2022-08-06",
+      "reading_status": "read",
+      "relations": [],
+      "tags": [
+        "uclid5",
+        "formal-verification",
+        "smt",
+        "rtl",
+        "chisel",
+        "firrtl"
+      ],
+      "title": "UCLID5: Multi-Modal Formal Modeling, Verification, and Synthesis",
+      "url": "https://arxiv.org/abs/2208.03699"
+    },
+    {
+      "authors": [
+        "Yunsheng Bai",
+        "Ghaith Bany Hamad",
+        "Syed Suhaib",
+        "Haoxing Ren"
+      ],
+      "content": "## Bottlenecks in Writing SystemVerilog Assertions (SVAs)\nFormal Property Verification (FPV) in chip and semiconductor design relies heavily on SystemVerilog Assertions (SVAs) and Property Specification Language (PSL) to mathematically prove that Register-Transfer Level (RTL) implementations satisfy architectural specifications. Writing temporal logic assertions manually is error-prone and requires deep verification expertise.\n\n## Unified Specification-and-RTL Knowledge Graph\nAssertionForge constructs a unified hardware Knowledge Graph (KG) that fuses natural-language specification requirements with structural RTL signal interactions, finite-state machines, and clock/reset domains. Multi-resolution context retrieval over this graph prevents signal hallucination during automated SVA synthesis.\n\n## Formal Property Verification Closure\nEvaluated across industrial semiconductor IP blocks using commercial EDA formal verification engines, AssertionForge substantially increases syntax validity, temporal accuracy, and cone-of-influence coverage compared to baseline Large Language Model assertion generators.",
+      "doc_id": "arxiv-2503.19174",
+      "doc_type": "academic_paper",
+      "identifiers": {
+        "arxiv": "2503.19174",
+        "pdf_url": "https://arxiv.org/pdf/2503.19174",
+        "primary_category": "cs.AR"
+      },
+      "institutions": [
+        "NVIDIA",
+        "Arm"
+      ],
+      "notes": "Constructs a unified Knowledge Graph across natural-language specs and RTL to synthesize SystemVerilog Assertions (SVAs).",
+      "priority": "high",
+      "published_date": "2025-03-24",
+      "reading_status": "reading",
+      "relations": [
+        {
+          "relation_type": "CITES",
+          "target_doc_id": "arxiv-2208.03699"
+        }
+      ],
+      "tags": [
+        "assertionforge",
+        "sva",
+        "systemverilog-assertions",
+        "knowledge-graph",
+        "rtl",
+        "formal-verification"
+      ],
+      "title": "AssertionForge: Enhancing Formal Verification Assertion Generation with Structured Representation of Specifications and RTL",
+      "url": "https://arxiv.org/abs/2503.19174"
+    },
+    {
+      "authors": [
+        "Nowfel Mashnoor",
+        "Aritra Dasgupta",
+        "Sandeep K. Shukla"
+      ],
+      "content": "## Solver-in-the-Loop Formal Assertion Synthesis\nProofLoop introduces a two-phase agentic framework that bridges natural-language hardware specifications, Register-Transfer Level (RTL) abstract syntax trees (ASTs), and formal verification languages such as SystemVerilog Assertions (SVA).\n\n## Iterative Refinement with EDA Proof Engines\nIn Phase A, ProofLoop queries an AST-indexed structural representation of the Verilog/SystemVerilog design to ground clock, reset, and handshake signals. In Phase B, a solver-in-the-loop agent invokes commercial formal verification engines such as Cadence JasperGold, parses counterexample traces and vacuity reports, and iteratively repairs candidate SVA properties until mathematical proof closure is achieved.\n\n## Implications for Semiconductor Verification Flows\nCoupling deterministic formal solvers with automated assertion synthesis eliminates vacuous properties and accelerates pre-silicon verification of complex SoC interconnects and AI accelerator datapaths.",
+      "doc_id": "arxiv-2604.23100",
+      "doc_type": "academic_paper",
+      "identifiers": {
+        "arxiv": "2604.23100",
+        "pdf_url": "https://arxiv.org/pdf/2604.23100",
+        "primary_category": "cs.AR"
+      },
+      "institutions": [
+        "IIT Kanpur"
+      ],
+      "notes": "Solver-in-the-loop ReAct agent coupling AST-indexed RTL analysis with JasperGold formal proof feedback to refine SVA assertions.",
+      "priority": "high",
+      "published_date": "2026-04-28",
+      "reading_status": "to-read",
+      "relations": [
+        {
+          "relation_type": "CITES",
+          "target_doc_id": "arxiv-2503.19174"
+        }
+      ],
+      "tags": [
+        "proofloop",
+        "sva",
+        "jaspergold",
+        "solver-in-the-loop",
+        "rtl",
+        "formal-verification"
+      ],
+      "title": "ProofLoop: From Language to Logic \u2014 Bridging LLMs and Formal Representations for RTL Assertion Generation",
+      "url": "https://arxiv.org/abs/2604.23100"
+    },
+    {
+      "authors": [
+        "FNU Aditi",
+        "Rohan Sharma",
+        "Subhasish Mitra"
+      ],
+      "content": "## Behavioral Equivalence in Hardware Verification Languages\nEvaluating automated SystemVerilog Assertion (SVA) generators requires distinguishing true behavioral temporal properties from brittle assertions tied to incidental RTL coding style. EquivSVA provides a formally verified benchmark organized around behavior families of structurally distinct RTL implementations sharing identical interface specifications.\n\n## Formal Equivalence & Metamorphic Verification\nEvery gold SVA assertion in EquivSVA is mechanically verified using formal property verification (FPV) and SMT-based equivalence checking across pipelined, FSM-encoded, and Chisel/FIRRTL-generated RTL variants.\n\n## Advancing Robust Semiconductor Verification\nEquivSVA enables rigorous benchmarking of formal verification language translators, theorem-proving hardware frameworks (Kami, Coq), and LLM-assisted assertion synthesis pipelines.",
+      "doc_id": "arxiv-2609.26751",
+      "doc_type": "academic_paper",
+      "identifiers": {
+        "arxiv": "2609.26751",
+        "pdf_url": "https://arxiv.org/pdf/2609.26751",
+        "primary_category": "cs.AR"
+      },
+      "institutions": [
+        "Stanford University"
+      ],
+      "notes": "Formally verified dataset of behavioral SVA assertions across structurally distinct but functionally equivalent RTL designs.",
+      "priority": "medium",
+      "published_date": "2026-09-29",
+      "reading_status": "to-read",
+      "relations": [
+        {
+          "relation_type": "CITES",
+          "target_doc_id": "arxiv-2503.19174"
+        },
+        {
+          "relation_type": "CITES",
+          "target_doc_id": "arxiv-2604.23100"
+        }
+      ],
+      "tags": [
+        "equivsva",
+        "sva",
+        "rtl",
+        "formal-verification",
+        "benchmark"
+      ],
+      "title": "EquivSVA: A Formally Verified Dataset of Behavioral Assertions Across Equivalent RTL Implementations",
+      "url": "https://arxiv.org/abs/2609.26751"
+    },
+    {
+      "authors": [
+        "Reading List Research Engine"
+      ],
+      "content": "## Research Scope & Core Languages: Formal verification languages in chip and semiconductor design\nIn chip and semiconductor design, Formal Verification Languages provide the mathematical foundation for specifying and proving Register-Transfer Level (RTL) and architectural invariants before silicon fabrication. The industrial backbone comprises IEEE 1800 SystemVerilog Assertions (SVA) and IEEE 1850 Property Specification Language (PSL) for linear temporal logic (LTL) Formal Property Verification (FPV), complemented by multi-modal verification and hardware construction languages including UCLID5 (SMT-backed datapath/control modeling), Chisel/FIRRTL (ChiselFV), and Coq-embedded theorem-proving frameworks such as Kami.\n\n## Knowledge-Graph & Solver-in-the-Loop Assertion Synthesis\nRecent research synthesized in this collection \u2014 UCLID5: Multi-Modal Formal Modeling, Verification, and Synthesis (arxiv-2208.03699); AssertionForge: Enhancing Formal Verification Assertion Generation with Structured Representation of Specifications and RTL (arxiv-2503.19174); ProofLoop: From Language to Logic \u2014 Bridging LLMs and Formal Representations for RTL Assertion Generation (arxiv-2604.23100); EquivSVA: A Formally Verified Dataset of Behavioral Assertions Across Equivalent RTL Implementations (arxiv-2609.26751) \u2014 addresses the manual bottleneck of authoring temporal logic assertions. Frameworks like AssertionForge construct unified Knowledge Graphs fusing natural-language specs and RTL structure, while agentic solver-in-the-loop systems like ProofLoop interact directly with commercial EDA formal engines (Cadence JasperGold and SMT solvers) to iteratively refine SVA assertions until formal proof closure.\n\n## Cross-Layer Integration with Hardware Telemetry & Security\nWithin our OntoLogic-ready knowledge graph, formal verification languages connect pre-silicon EDA verification with runtime hardware security monitors (such as BARE-AI's 28nm AI Performance Counters and PULSE neural detectors) and probabilistic operational semantics for memory-level bit-flip resilience (such as Rowhammer analysis on Fil-C software capabilities).",
+      "doc_id": "research-formal-verification-languages-in-chip-and-se",
+      "doc_type": "note",
+      "identifiers": {
+        "research_topic": "Formal verification languages in chip and semiconductor design"
+      },
+      "institutions": [],
+      "notes": "Automated multi-paper synthesis and taxonomy bridge for topic: 'Formal verification languages in chip and semiconductor design'.",
+      "priority": "high",
+      "published_date": "2026-11-05",
+      "reading_status": "read",
+      "relations": [
+        {
+          "relation_type": "CITES",
+          "target_doc_id": "arxiv-2208.03699"
+        },
+        {
+          "relation_type": "CITES",
+          "target_doc_id": "arxiv-2503.19174"
+        },
+        {
+          "relation_type": "CITES",
+          "target_doc_id": "arxiv-2604.23100"
+        },
+        {
+          "relation_type": "CITES",
+          "target_doc_id": "arxiv-2609.26751"
+        },
+        {
+          "relation_type": "CITES",
+          "target_doc_id": "semieng-2026-bare-ai-monitors"
+        },
+        {
+          "relation_type": "CITES",
+          "target_doc_id": "arxiv-2610.08739v2"
+        },
+        {
+          "relation_type": "CITES",
+          "target_doc_id": "arxiv-2610.33748"
+        },
+        {
+          "relation_type": "CITES",
+          "target_doc_id": "techpaper-2026-eda-formal-monitors"
+        },
+        {
+          "relation_type": "CITES",
+          "target_doc_id": "note-2026-cross-layer-bitflip-synthesis"
+        }
+      ],
+      "tags": [
+        "research-synthesis",
+        "formal-verification",
+        "sva",
+        "psl",
+        "uclid5",
+        "eda",
+        "rtl"
+      ],
+      "title": "Research Synthesis: Formal verification languages in chip and semiconductor design",
+      "url": "https://github.com/bsommers/reading-db"
     }
   ]
 }

@@ -1,5 +1,613 @@
 {
   "by_document": {
+    "arxiv-2208.03699": [
+      {
+        "count": 4,
+        "term": "hardware",
+        "weight": 1.0
+      },
+      {
+        "count": 3,
+        "term": "synthesis",
+        "weight": 0.75
+      },
+      {
+        "count": 3,
+        "term": "uclid5",
+        "weight": 0.75
+      },
+      {
+        "count": 3,
+        "term": "verification",
+        "weight": 0.75
+      },
+      {
+        "count": 2,
+        "term": "accelerators",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "assertions",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "chisel",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "firrtl",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "formal",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "language",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "logic",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "modeling",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "smt",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "solvers",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "specification",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "systems",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "architectures",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "been",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "bounded",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "bridging",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "checking",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "compositional",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "construction",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "control",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "cryptographic",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "datapaths",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "deployed",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "design",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "designed",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "enables",
+        "weight": 0.25
+      }
+    ],
+    "arxiv-2503.19174": [
+      {
+        "count": 4,
+        "term": "verification",
+        "weight": 1.0
+      },
+      {
+        "count": 3,
+        "term": "assertions",
+        "weight": 0.75
+      },
+      {
+        "count": 3,
+        "term": "formal",
+        "weight": 0.75
+      },
+      {
+        "count": 3,
+        "term": "graph",
+        "weight": 0.75
+      },
+      {
+        "count": 3,
+        "term": "property",
+        "weight": 0.75
+      },
+      {
+        "count": 2,
+        "term": "assertionforge",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "knowledge",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "language",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "rtl",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "semiconductor",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "signal",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "specification",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "svas",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "systemverilog",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "temporal",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "unified",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "writing",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "accuracy",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "architectural",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "assertion",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "automated",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "baseline",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "blocks",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "bottlenecks",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "chip",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "clock",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "closure",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "commercial",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "compared",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "cone-of-influence",
+        "weight": 0.25
+      }
+    ],
+    "arxiv-2604.23100": [
+      {
+        "count": 4,
+        "term": "formal",
+        "weight": 1.0
+      },
+      {
+        "count": 4,
+        "term": "verification",
+        "weight": 1.0
+      },
+      {
+        "count": 2,
+        "term": "assertion",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "engines",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "phase",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "proof",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "proofloop",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "properties",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "solver-in-the-loop",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "sva",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "synthesis",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "systemverilog",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "abstract",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "accelerates",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "accelerator",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "achieved",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "agent",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "agentic",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "ai",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "assertions",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "ast-indexed",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "asts",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "automated",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "bridges",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "cadence",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "candidate",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "clock",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "closure",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "commercial",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "complex",
+        "weight": 0.25
+      }
+    ],
+    "arxiv-2609.26751": [
+      {
+        "count": 5,
+        "term": "verification",
+        "weight": 1.0
+      },
+      {
+        "count": 3,
+        "term": "assertion",
+        "weight": 0.6
+      },
+      {
+        "count": 3,
+        "term": "equivalence",
+        "weight": 0.6
+      },
+      {
+        "count": 3,
+        "term": "equivsva",
+        "weight": 0.6
+      },
+      {
+        "count": 3,
+        "term": "formal",
+        "weight": 0.6
+      },
+      {
+        "count": 3,
+        "term": "rtl",
+        "weight": 0.6
+      },
+      {
+        "count": 2,
+        "term": "behavioral",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "hardware",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "sva",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "verified",
+        "weight": 0.4
+      },
+      {
+        "count": 1,
+        "term": "advancing",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "around",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "assertions",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "automated",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "behavior",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "benchmark",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "benchmarking",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "brittle",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "checking",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "chisel",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "coding",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "coq",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "distinct",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "distinguishing",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "enables",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "evaluating",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "every",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "families",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "firrtl-generated",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "formally",
+        "weight": 0.2
+      }
+    ],
     "arxiv-2610.08739v2": [
       {
         "count": 6,
@@ -454,6 +1062,158 @@
         "count": 1,
         "term": "fil-c",
         "weight": 0.3333
+      }
+    ],
+    "research-formal-verification-languages-in-chip-and-se": [
+      {
+        "count": 9,
+        "term": "formal",
+        "weight": 1.0
+      },
+      {
+        "count": 8,
+        "term": "verification",
+        "weight": 0.8889
+      },
+      {
+        "count": 5,
+        "term": "languages",
+        "weight": 0.5556
+      },
+      {
+        "count": 5,
+        "term": "rtl",
+        "weight": 0.5556
+      },
+      {
+        "count": 4,
+        "term": "assertions",
+        "weight": 0.4444
+      },
+      {
+        "count": 3,
+        "term": "assertion",
+        "weight": 0.3333
+      },
+      {
+        "count": 3,
+        "term": "hardware",
+        "weight": 0.3333
+      },
+      {
+        "count": 3,
+        "term": "logic",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "assertionforge",
+        "weight": 0.2222
+      },
+      {
+        "count": 2,
+        "term": "chip",
+        "weight": 0.2222
+      },
+      {
+        "count": 2,
+        "term": "design",
+        "weight": 0.2222
+      },
+      {
+        "count": 2,
+        "term": "eda",
+        "weight": 0.2222
+      },
+      {
+        "count": 2,
+        "term": "frameworks",
+        "weight": 0.2222
+      },
+      {
+        "count": 2,
+        "term": "generation",
+        "weight": 0.2222
+      },
+      {
+        "count": 2,
+        "term": "ieee",
+        "weight": 0.2222
+      },
+      {
+        "count": 2,
+        "term": "knowledge",
+        "weight": 0.2222
+      },
+      {
+        "count": 2,
+        "term": "language",
+        "weight": 0.2222
+      },
+      {
+        "count": 2,
+        "term": "like",
+        "weight": 0.2222
+      },
+      {
+        "count": 2,
+        "term": "modeling",
+        "weight": 0.2222
+      },
+      {
+        "count": 2,
+        "term": "multi-modal",
+        "weight": 0.2222
+      },
+      {
+        "count": 2,
+        "term": "proofloop",
+        "weight": 0.2222
+      },
+      {
+        "count": 2,
+        "term": "property",
+        "weight": 0.2222
+      },
+      {
+        "count": 2,
+        "term": "research",
+        "weight": 0.2222
+      },
+      {
+        "count": 2,
+        "term": "security",
+        "weight": 0.2222
+      },
+      {
+        "count": 2,
+        "term": "semiconductor",
+        "weight": 0.2222
+      },
+      {
+        "count": 2,
+        "term": "solver-in-the-loop",
+        "weight": 0.2222
+      },
+      {
+        "count": 2,
+        "term": "sva",
+        "weight": 0.2222
+      },
+      {
+        "count": 2,
+        "term": "synthesis",
+        "weight": 0.2222
+      },
+      {
+        "count": 2,
+        "term": "temporal",
+        "weight": 0.2222
+      },
+      {
+        "count": 2,
+        "term": "uclid5",
+        "weight": 0.2222
       }
     ],
     "semieng-2026-bare-ai-monitors": [
@@ -915,154 +1675,154 @@
   },
   "global_word_cloud": [
     {
-      "count": 13,
-      "term": "memory",
+      "count": 26,
+      "term": "verification",
       "weight": 1.0
     },
     {
-      "count": 12,
+      "count": 23,
+      "term": "formal",
+      "weight": 0.8846
+    },
+    {
+      "count": 23,
       "term": "hardware",
-      "weight": 0.9231
+      "weight": 0.8846
+    },
+    {
+      "count": 14,
+      "term": "memory",
+      "weight": 0.5385
+    },
+    {
+      "count": 14,
+      "term": "rtl",
+      "weight": 0.5385
+    },
+    {
+      "count": 12,
+      "term": "bit-flip",
+      "weight": 0.4615
     },
     {
       "count": 11,
-      "term": "bit-flip",
-      "weight": 0.8462
+      "term": "assertions",
+      "weight": 0.4231
+    },
+    {
+      "count": 11,
+      "term": "bare-ai",
+      "weight": 0.4231
+    },
+    {
+      "count": 11,
+      "term": "synthesis",
+      "weight": 0.4231
     },
     {
       "count": 10,
-      "term": "bare-ai",
-      "weight": 0.7692
+      "term": "ai",
+      "weight": 0.3846
+    },
+    {
+      "count": 10,
+      "term": "language",
+      "weight": 0.3846
+    },
+    {
+      "count": 9,
+      "term": "assertion",
+      "weight": 0.3462
+    },
+    {
+      "count": 9,
+      "term": "monitors",
+      "weight": 0.3462
     },
     {
       "count": 8,
-      "term": "ai",
-      "weight": 0.6154
+      "term": "languages",
+      "weight": 0.3077
+    },
+    {
+      "count": 8,
+      "term": "semiconductor",
+      "weight": 0.3077
+    },
+    {
+      "count": 8,
+      "term": "sva",
+      "weight": 0.3077
     },
     {
       "count": 7,
       "term": "fault",
-      "weight": 0.5385
+      "weight": 0.2692
     },
     {
       "count": 7,
-      "term": "monitors",
-      "weight": 0.5385
+      "term": "level",
+      "weight": 0.2692
+    },
+    {
+      "count": 7,
+      "term": "performance",
+      "weight": 0.2692
+    },
+    {
+      "count": 7,
+      "term": "software",
+      "weight": 0.2692
+    },
+    {
+      "count": 7,
+      "term": "systems",
+      "weight": 0.2692
+    },
+    {
+      "count": 7,
+      "term": "systemverilog",
+      "weight": 0.2692
+    },
+    {
+      "count": 7,
+      "term": "temporal",
+      "weight": 0.2692
+    },
+    {
+      "count": 6,
+      "term": "fil-c",
+      "weight": 0.2308
+    },
+    {
+      "count": 6,
+      "term": "logic",
+      "weight": 0.2308
+    },
+    {
+      "count": 6,
+      "term": "neural",
+      "weight": 0.2308
     },
     {
       "count": 6,
       "term": "overhead",
-      "weight": 0.4615
+      "weight": 0.2308
     },
     {
       "count": 6,
-      "term": "performance",
-      "weight": 0.4615
+      "term": "property",
+      "weight": 0.2308
     },
     {
-      "count": 5,
-      "term": "apcs",
-      "weight": 0.3846
-    },
-    {
-      "count": 5,
-      "term": "arxiv",
-      "weight": 0.3846
-    },
-    {
-      "count": 5,
-      "term": "attacks",
-      "weight": 0.3846
-    },
-    {
-      "count": 5,
-      "term": "bfas",
-      "weight": 0.3846
-    },
-    {
-      "count": 5,
-      "term": "fil-c",
-      "weight": 0.3846
-    },
-    {
-      "count": 5,
-      "term": "neural",
-      "weight": 0.3846
-    },
-    {
-      "count": 5,
-      "term": "pointer",
-      "weight": 0.3846
-    },
-    {
-      "count": 5,
+      "count": 6,
       "term": "rowhammer",
-      "weight": 0.3846
+      "weight": 0.2308
     },
     {
-      "count": 5,
+      "count": 6,
       "term": "runtime",
-      "weight": 0.3846
-    },
-    {
-      "count": 5,
-      "term": "safety",
-      "weight": 0.3846
-    },
-    {
-      "count": 5,
-      "term": "software",
-      "weight": 0.3846
-    },
-    {
-      "count": 5,
-      "term": "targeted",
-      "weight": 0.3846
-    },
-    {
-      "count": 4,
-      "term": "accuracy",
-      "weight": 0.3077
-    },
-    {
-      "count": 4,
-      "term": "attack",
-      "weight": 0.3077
-    },
-    {
-      "count": 4,
-      "term": "capabilities",
-      "weight": 0.3077
-    },
-    {
-      "count": 4,
-      "term": "critical",
-      "weight": 0.3077
-    },
-    {
-      "count": 4,
-      "term": "datapath",
-      "weight": 0.3077
-    },
-    {
-      "count": 4,
-      "term": "localization",
-      "weight": 0.3077
-    },
-    {
-      "count": 4,
-      "term": "models",
-      "weight": 0.3077
-    },
-    {
-      "count": 4,
-      "term": "pulse",
-      "weight": 0.3077
-    },
-    {
-      "count": 4,
-      "term": "recovery",
-      "weight": 0.3077
+      "weight": 0.2308
     }
   ]
 }

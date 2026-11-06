@@ -1,9 +1,9 @@
 # Reading List Knowledge Graph & Taxonomy Index
 
-- **Documents Indexed:** 6
-- **Semantic Chunks:** 17
-- **Knowledge Graph Nodes:** 76
-- **Knowledge Graph Edges:** 443
+- **Documents Indexed:** 11
+- **Semantic Chunks:** 32
+- **Knowledge Graph Nodes:** 128
+- **Knowledge Graph Edges:** 730
 
 ## 1. Indexed Documents & Tracking Status
 
@@ -15,6 +15,11 @@
 | `techpaper-2026-hbm-chiplet-resilience` | `to-read` | `medium` | `technical_paper` | [Cross-Layer Resilience for HBM and UCIe Chiplet AI Accelerators Under Targeted Bit-Flip Faults](https://semiengineering.com/) | 2026-10 | `CITES` -> `arxiv-2610.08739v2`, `CITES` -> `arxiv-2610.33748` |
 | `techpaper-2026-eda-formal-monitors` | `to-read` | `medium` | `technical_paper` | [Pre-Silicon Formal Verification of On-Chip Telemetry Monitors Against Fault Injection](https://arxiv.org/abs/2610.08739v2) | 2026-11 | `CITES` -> `arxiv-2610.08739v2`, `CITES` -> `arxiv-2610.33748` |
 | `note-2026-cross-layer-bitflip-synthesis` | `read` | `high` | `note` | [Synthesis Note: Cross-Layer Bit-Flip Resilience Across AI Accelerators and Capability Runtimes](https://github.com/bsommers/reading-db) | 2026-11-05 | `CITES` -> `arxiv-2610.08739v2`, `CITES` -> `arxiv-2610.33748`, `CITES` -> `semieng-2026-bare-ai-monitors` |
+| `arxiv-2208.03699` | `read` | `high` | `academic_paper` | [UCLID5: Multi-Modal Formal Modeling, Verification, and Synthesis](https://arxiv.org/abs/2208.03699) | 2022-08-06 | — |
+| `arxiv-2503.19174` | `reading` | `high` | `academic_paper` | [AssertionForge: Enhancing Formal Verification Assertion Generation with Structured Representation of Specifications and RTL](https://arxiv.org/abs/2503.19174) | 2025-03-24 | `CITES` -> `arxiv-2208.03699` |
+| `arxiv-2604.23100` | `to-read` | `high` | `academic_paper` | [ProofLoop: From Language to Logic — Bridging LLMs and Formal Representations for RTL Assertion Generation](https://arxiv.org/abs/2604.23100) | 2026-04-28 | `CITES` -> `arxiv-2503.19174` |
+| `arxiv-2609.26751` | `to-read` | `medium` | `academic_paper` | [EquivSVA: A Formally Verified Dataset of Behavioral Assertions Across Equivalent RTL Implementations](https://arxiv.org/abs/2609.26751) | 2026-09-29 | `CITES` -> `arxiv-2503.19174`, `CITES` -> `arxiv-2604.23100` |
+| `research-formal-verification-languages-in-chip-and-se` | `read` | `high` | `note` | [Research Synthesis: Formal verification languages in chip and semiconductor design](https://github.com/bsommers/reading-db) | 2026-11-05 | `CITES` -> `arxiv-2208.03699`, `CITES` -> `arxiv-2503.19174`, `CITES` -> `arxiv-2604.23100`, `CITES` -> `arxiv-2609.26751`, `CITES` -> `semieng-2026-bare-ai-monitors`, `CITES` -> `arxiv-2610.08739v2`, `CITES` -> `arxiv-2610.33748`, `CITES` -> `techpaper-2026-eda-formal-monitors`, `CITES` -> `note-2026-cross-layer-bitflip-synthesis` |
 
 ## 2. Conceptual Taxonomy & Document Graph
 
@@ -25,89 +30,129 @@ flowchart TD
     TAX2["Built-in Performance Monitors"]
     TAX3["Memory & Interconnects"]
     TAX4["EDA & Hardware Verification"]
-    TAX5["Security & Resilience"]
-    TAX6["Bit-Flip Attacks"]
-    TAX7["Memory Safety & Software Capabilities"]
-    TAX8["Runtime Fault Localization & Recovery"]
-    TAX9["Artificial Intelligence & Machine Learning"]
-    TAX10["Deep Neural Networks"]
+    TAX5["Formal Verification Languages & Assertions"]
+    TAX6["Security & Resilience"]
+    TAX7["Bit-Flip Attacks"]
+    TAX8["Memory Safety & Software Capabilities"]
+    TAX9["Runtime Fault Localization & Recovery"]
+    TAX10["Artificial Intelligence & Machine Learning"]
+    TAX11["Deep Neural Networks"]
     TAX0 --> TAX1
     TAX1 --> TAX2
     TAX0 --> TAX3
     TAX0 --> TAX4
-    TAX5 --> TAX6
-    TAX5 --> TAX7
-    TAX5 --> TAX8
-    TAX9 --> TAX10
+    TAX4 --> TAX5
+    TAX6 --> TAX7
+    TAX6 --> TAX8
+    TAX6 --> TAX9
+    TAX10 --> TAX11
     DOC0["semieng-2026-bare-ai-monitors"]
     DOC0 -->|REPORTS_ON| DOC1
-    DOC0 -->|IN_CATEGORY| TAX10
+    DOC0 -->|IN_CATEGORY| TAX11
     DOC0 -->|IN_CATEGORY| TAX2
     DOC0 -->|IN_CATEGORY| TAX3
-    DOC0 -->|IN_CATEGORY| TAX6
-    DOC0 -->|IN_CATEGORY| TAX8
+    DOC0 -->|IN_CATEGORY| TAX7
+    DOC0 -->|IN_CATEGORY| TAX9
     DOC1["arxiv-2610.08739v2"]
-    DOC1 -->|IN_CATEGORY| TAX10
+    DOC1 -->|IN_CATEGORY| TAX11
     DOC1 -->|IN_CATEGORY| TAX2
     DOC1 -->|IN_CATEGORY| TAX4
     DOC1 -->|IN_CATEGORY| TAX3
-    DOC1 -->|IN_CATEGORY| TAX6
-    DOC1 -->|IN_CATEGORY| TAX8
+    DOC1 -->|IN_CATEGORY| TAX7
+    DOC1 -->|IN_CATEGORY| TAX9
     DOC2["arxiv-2610.33748"]
     DOC2 -->|IN_CATEGORY| TAX4
     DOC2 -->|IN_CATEGORY| TAX3
-    DOC2 -->|IN_CATEGORY| TAX6
     DOC2 -->|IN_CATEGORY| TAX7
+    DOC2 -->|IN_CATEGORY| TAX8
     DOC3["techpaper-2026-hbm-chiplet-resilience"]
     DOC3 -->|CITES| DOC1
     DOC3 -->|CITES| DOC2
-    DOC3 -->|IN_CATEGORY| TAX10
+    DOC3 -->|IN_CATEGORY| TAX11
     DOC3 -->|IN_CATEGORY| TAX2
     DOC3 -->|IN_CATEGORY| TAX3
-    DOC3 -->|IN_CATEGORY| TAX6
     DOC3 -->|IN_CATEGORY| TAX7
     DOC3 -->|IN_CATEGORY| TAX8
+    DOC3 -->|IN_CATEGORY| TAX9
     DOC4["techpaper-2026-eda-formal-monitors"]
     DOC4 -->|CITES| DOC1
     DOC4 -->|CITES| DOC2
-    DOC4 -->|IN_CATEGORY| TAX10
+    DOC4 -->|IN_CATEGORY| TAX11
     DOC4 -->|IN_CATEGORY| TAX2
     DOC4 -->|IN_CATEGORY| TAX4
     DOC4 -->|IN_CATEGORY| TAX3
-    DOC4 -->|IN_CATEGORY| TAX6
-    DOC4 -->|IN_CATEGORY| TAX8
+    DOC4 -->|IN_CATEGORY| TAX7
+    DOC4 -->|IN_CATEGORY| TAX9
     DOC5["note-2026-cross-layer-bitflip-synthesis"]
     DOC5 -->|CITES| DOC1
     DOC5 -->|CITES| DOC2
     DOC5 -->|CITES| DOC0
-    DOC5 -->|IN_CATEGORY| TAX10
+    DOC5 -->|IN_CATEGORY| TAX11
     DOC5 -->|IN_CATEGORY| TAX2
     DOC5 -->|IN_CATEGORY| TAX4
     DOC5 -->|IN_CATEGORY| TAX3
-    DOC5 -->|IN_CATEGORY| TAX6
     DOC5 -->|IN_CATEGORY| TAX7
     DOC5 -->|IN_CATEGORY| TAX8
+    DOC5 -->|IN_CATEGORY| TAX9
+    DOC6["arxiv-2208.03699"]
+    DOC6 -->|IN_CATEGORY| TAX2
+    DOC6 -->|IN_CATEGORY| TAX5
+    DOC6 -->|IN_CATEGORY| TAX3
+    DOC6 -->|IN_CATEGORY| TAX8
+    DOC7["arxiv-2503.19174"]
+    DOC7 -->|CITES| DOC6
+    DOC7 -->|IN_CATEGORY| TAX5
+    DOC7 -->|IN_CATEGORY| TAX8
+    DOC8["arxiv-2604.23100"]
+    DOC8 -->|CITES| DOC7
+    DOC8 -->|IN_CATEGORY| TAX11
+    DOC8 -->|IN_CATEGORY| TAX1
+    DOC8 -->|IN_CATEGORY| TAX5
+    DOC8 -->|IN_CATEGORY| TAX3
+    DOC8 -->|IN_CATEGORY| TAX9
+    DOC9["arxiv-2609.26751"]
+    DOC9 -->|CITES| DOC7
+    DOC9 -->|CITES| DOC8
+    DOC9 -->|IN_CATEGORY| TAX11
+    DOC9 -->|IN_CATEGORY| TAX5
+    DOC9 -->|IN_CATEGORY| TAX8
+    DOC10["research-formal-verification-languages-in-chip-and-se"]
+    DOC10 -->|CITES| DOC6
+    DOC10 -->|CITES| DOC7
+    DOC10 -->|CITES| DOC8
+    DOC10 -->|CITES| DOC9
+    DOC10 -->|CITES| DOC0
+    DOC10 -->|CITES| DOC1
+    DOC10 -->|CITES| DOC2
+    DOC10 -->|CITES| DOC4
+    DOC10 -->|CITES| DOC5
+    DOC10 -->|IN_CATEGORY| TAX11
+    DOC10 -->|IN_CATEGORY| TAX2
+    DOC10 -->|IN_CATEGORY| TAX5
+    DOC10 -->|IN_CATEGORY| TAX3
+    DOC10 -->|IN_CATEGORY| TAX7
+    DOC10 -->|IN_CATEGORY| TAX8
 ```
 
 ## 3. Global Word Cloud (Top 15 Terms)
 
 | Term | Frequency | Normalized Weight |
 |---|---|---|
-| `memory` | 13 | 1.00 |
-| `hardware` | 12 | 0.92 |
-| `bit-flip` | 11 | 0.85 |
-| `bare-ai` | 10 | 0.77 |
-| `ai` | 8 | 0.62 |
-| `fault` | 7 | 0.54 |
-| `monitors` | 7 | 0.54 |
-| `overhead` | 6 | 0.46 |
-| `performance` | 6 | 0.46 |
-| `apcs` | 5 | 0.38 |
-| `arxiv` | 5 | 0.38 |
-| `attacks` | 5 | 0.38 |
-| `bfas` | 5 | 0.38 |
-| `fil-c` | 5 | 0.38 |
-| `neural` | 5 | 0.38 |
+| `verification` | 26 | 1.00 |
+| `formal` | 23 | 0.88 |
+| `hardware` | 23 | 0.88 |
+| `memory` | 14 | 0.54 |
+| `rtl` | 14 | 0.54 |
+| `bit-flip` | 12 | 0.46 |
+| `assertions` | 11 | 0.42 |
+| `bare-ai` | 11 | 0.42 |
+| `synthesis` | 11 | 0.42 |
+| `ai` | 10 | 0.38 |
+| `language` | 10 | 0.38 |
+| `assertion` | 9 | 0.35 |
+| `monitors` | 9 | 0.35 |
+| `languages` | 8 | 0.31 |
+| `semiconductor` | 8 | 0.31 |
 
 ## 4. Semantic Chunks by Document
 
@@ -179,3 +224,63 @@ flowchart TD
 - **`note-2026-cross-layer-bitflip-synthesis#chunk-02` (OntoLogic Knowledge Graph Synthesis)** [54 words]
   - **Concepts:** `concept:ai-accelerator`, `concept:apc`, `concept:asi`, `concept:bit-flip-attack`, `concept:ecc`, `concept:fil-c`, `concept:pulse`, `concept:rowhammer`
   - **Taxonomy:** `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > AI Accelerators`; `Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > Memory & Interconnects`; `Security & Resilience`; `Security & Resilience > Hardware Fault Attacks > Bit-Flip Attacks`; `Security & Resilience > Memory Safety & Software Capabilities`; `Security & Resilience > Runtime Fault Localization & Recovery`
+
+### `arxiv-2208.03699` — UCLID5: Multi-Modal Formal Modeling, Verification, and Synthesis
+
+- **`arxiv-2208.03699#chunk-01` (Multi-Modal Formal Modeling Language for Hardware & Systems)** [41 words]
+  - **Concepts:** `concept:sva`, `concept:uclid5`
+  - **Taxonomy:** `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > AI Accelerators`; `Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`; `Hardware & Semiconductor Systems > Memory & Interconnects`; `Security & Resilience`; `Security & Resilience > Memory Safety & Software Capabilities`
+- **`arxiv-2208.03699#chunk-02` (Bridging Chisel, FIRRTL, and SMT Solvers)** [46 words]
+  - **Concepts:** `concept:sva`, `concept:uclid5`
+  - **Taxonomy:** `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`
+- **`arxiv-2208.03699#chunk-03` (Verification of Secure Architectures and Accelerators)** [22 words]
+  - **Concepts:** `concept:uclid5`
+  - **Taxonomy:** `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > AI Accelerators`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`
+
+### `arxiv-2503.19174` — AssertionForge: Enhancing Formal Verification Assertion Generation with Structured Representation of Specifications and RTL
+
+- **`arxiv-2503.19174#chunk-01` (Bottlenecks in Writing SystemVerilog Assertions (SVAs))** [43 words]
+  - **Concepts:** `concept:llm-formal-verification`, `concept:sva`
+  - **Taxonomy:** `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`; `Security & Resilience`; `Security & Resilience > Memory Safety & Software Capabilities`
+- **`arxiv-2503.19174#chunk-02` (Unified Specification-and-RTL Knowledge Graph)** [36 words]
+  - **Concepts:** `concept:llm-formal-verification`, `concept:sva`
+  - **Taxonomy:** `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`
+- **`arxiv-2503.19174#chunk-03` (Formal Property Verification Closure)** [30 words]
+  - **Concepts:** `concept:llm-formal-verification`, `concept:sva`
+  - **Taxonomy:** `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`; `Security & Resilience`; `Security & Resilience > Memory Safety & Software Capabilities`
+
+### `arxiv-2604.23100` — ProofLoop: From Language to Logic — Bridging LLMs and Formal Representations for RTL Assertion Generation
+
+- **`arxiv-2604.23100#chunk-01` (Solver-in-the-Loop Formal Assertion Synthesis)** [27 words]
+  - **Concepts:** `concept:dnn`, `concept:llm-formal-verification`, `concept:sva`
+  - **Taxonomy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`
+- **`arxiv-2604.23100#chunk-02` (Iterative Refinement with EDA Proof Engines)** [53 words]
+  - **Concepts:** `concept:llm-formal-verification`, `concept:sva`
+  - **Taxonomy:** `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`; `Security & Resilience`; `Security & Resilience > Runtime Fault Localization & Recovery`
+- **`arxiv-2604.23100#chunk-03` (Implications for Semiconductor Verification Flows)** [23 words]
+  - **Concepts:** `concept:ai-accelerator`
+  - **Taxonomy:** `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > AI Accelerators`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`; `Hardware & Semiconductor Systems > Memory & Interconnects`
+
+### `arxiv-2609.26751` — EquivSVA: A Formally Verified Dataset of Behavioral Assertions Across Equivalent RTL Implementations
+
+- **`arxiv-2609.26751#chunk-01` (Behavioral Equivalence in Hardware Verification Languages)** [40 words]
+  - **Concepts:** `concept:llm-formal-verification`, `concept:sva`
+  - **Taxonomy:** `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`; `Security & Resilience`; `Security & Resilience > Memory Safety & Software Capabilities`
+- **`arxiv-2609.26751#chunk-02` (Formal Equivalence & Metamorphic Verification)** [25 words]
+  - **Concepts:** `concept:llm-formal-verification`, `concept:sva`, `concept:uclid5`
+  - **Taxonomy:** `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`
+- **`arxiv-2609.26751#chunk-03` (Advancing Robust Semiconductor Verification)** [19 words]
+  - **Concepts:** `concept:llm-formal-verification`, `concept:sva`, `concept:uclid5`
+  - **Taxonomy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`
+
+### `research-formal-verification-languages-in-chip-and-se` — Research Synthesis: Formal verification languages in chip and semiconductor design
+
+- **`research-formal-verification-languages-in-chip-and-se#chunk-01` (Research Scope & Core Languages: Formal verification languages in chip and semiconductor design)** [72 words]
+  - **Concepts:** `concept:sva`, `concept:uclid5`
+  - **Taxonomy:** `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > AI Accelerators`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`; `Security & Resilience`; `Security & Resilience > Memory Safety & Software Capabilities`
+- **`research-formal-verification-languages-in-chip-and-se#chunk-02` (Knowledge-Graph & Solver-in-the-Loop Assertion Synthesis)** [108 words]
+  - **Concepts:** `concept:dnn`, `concept:llm-formal-verification`, `concept:sva`, `concept:uclid5`
+  - **Taxonomy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`; `Security & Resilience`; `Security & Resilience > Memory Safety & Software Capabilities`
+- **`research-formal-verification-languages-in-chip-and-se#chunk-03` (Cross-Layer Integration with Hardware Telemetry & Security)** [44 words]
+  - **Concepts:** `concept:ai-accelerator`, `concept:apc`, `concept:bare-ai`, `concept:bit-flip-attack`, `concept:fil-c`, `concept:pulse`, `concept:rowhammer`
+  - **Taxonomy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > AI Accelerators`; `Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > Memory & Interconnects`; `Security & Resilience`; `Security & Resilience > Hardware Fault Attacks > Bit-Flip Attacks`; `Security & Resilience > Memory Safety & Software Capabilities`

@@ -1,4 +1,917 @@
 {
+  "arxiv-2208.03699": [
+    {
+      "chunk_id": "arxiv-2208.03699#chunk-01",
+      "concept_ids": [
+        "concept:sva",
+        "concept:uclid5"
+      ],
+      "doc_id": "arxiv-2208.03699",
+      "heading": "Multi-Modal Formal Modeling Language for Hardware & Systems",
+      "key_terms": [
+        {
+          "count": 3,
+          "term": "formal"
+        },
+        {
+          "count": 3,
+          "term": "modeling"
+        },
+        {
+          "count": 2,
+          "term": "uclid5"
+        },
+        {
+          "count": 2,
+          "term": "multi-modal"
+        },
+        {
+          "count": 2,
+          "term": "verification"
+        },
+        {
+          "count": 2,
+          "term": "synthesis"
+        },
+        {
+          "count": 2,
+          "term": "language"
+        },
+        {
+          "count": 2,
+          "term": "hardware"
+        },
+        {
+          "count": 2,
+          "term": "systems"
+        },
+        {
+          "count": 2,
+          "term": "specification"
+        },
+        {
+          "count": 2,
+          "term": "logic"
+        },
+        {
+          "count": 1,
+          "term": "framework"
+        }
+      ],
+      "section_index": 1,
+      "taxonomy_paths": [
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > AI Accelerators",
+        "Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions",
+        "Hardware & Semiconductor Systems > Memory & Interconnects",
+        "Security & Resilience",
+        "Security & Resilience > Memory Safety & Software Capabilities"
+      ],
+      "technology_areas": [
+        "AI Hardware Accelerators",
+        "Electronic Design Automation",
+        "Formal Verification & Specification Languages",
+        "Hardware & AI Security",
+        "Language & Runtime Memory Safety",
+        "Memory Subsystems & Chiplets",
+        "On-Chip Telemetry & Runtime Monitoring",
+        "Semiconductor Engineering"
+      ],
+      "text": "UCLID5 is a formal modeling, verification, and synthesis framework and specification language designed for heterogeneous hardware and software systems. It enables compositional specification of Register-Transfer Level (RTL) datapaths, control logic, memory subsystems, and security monitors using first-order and temporal logic assertions.",
+      "token_count": 41
+    },
+    {
+      "chunk_id": "arxiv-2208.03699#chunk-02",
+      "concept_ids": [
+        "concept:sva",
+        "concept:uclid5"
+      ],
+      "doc_id": "arxiv-2208.03699",
+      "heading": "Bridging Chisel, FIRRTL, and SMT Solvers",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "chisel"
+        },
+        {
+          "count": 2,
+          "term": "firrtl"
+        },
+        {
+          "count": 2,
+          "term": "smt"
+        },
+        {
+          "count": 2,
+          "term": "solvers"
+        },
+        {
+          "count": 2,
+          "term": "synthesis"
+        },
+        {
+          "count": 1,
+          "term": "bridging"
+        },
+        {
+          "count": 1,
+          "term": "semiconductor"
+        },
+        {
+          "count": 1,
+          "term": "design"
+        },
+        {
+          "count": 1,
+          "term": "workflows"
+        },
+        {
+          "count": 1,
+          "term": "uclid5"
+        },
+        {
+          "count": 1,
+          "term": "integrates"
+        },
+        {
+          "count": 1,
+          "term": "modern"
+        }
+      ],
+      "section_index": 2,
+      "taxonomy_paths": [
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions"
+      ],
+      "technology_areas": [
+        "Electronic Design Automation",
+        "Formal Verification & Specification Languages",
+        "Semiconductor Engineering"
+      ],
+      "text": "In semiconductor design workflows, UCLID5 integrates with modern hardware construction languages such as Chisel and FIRRTL as well as SystemVerilog Assertions (SVA). Models are lowered to Satisfiability Modulo Theories (SMT) solvers and syntax-guided synthesis (SyGuS) engines for bounded model checking, inductive invariant synthesis, and hyperproperty verification.",
+      "token_count": 46
+    },
+    {
+      "chunk_id": "arxiv-2208.03699#chunk-03",
+      "concept_ids": [
+        "concept:uclid5"
+      ],
+      "doc_id": "arxiv-2208.03699",
+      "heading": "Verification of Secure Architectures and Accelerators",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "accelerators"
+        },
+        {
+          "count": 1,
+          "term": "verification"
+        },
+        {
+          "count": 1,
+          "term": "secure"
+        },
+        {
+          "count": 1,
+          "term": "architectures"
+        },
+        {
+          "count": 1,
+          "term": "uclid5"
+        },
+        {
+          "count": 1,
+          "term": "has"
+        },
+        {
+          "count": 1,
+          "term": "been"
+        },
+        {
+          "count": 1,
+          "term": "deployed"
+        },
+        {
+          "count": 1,
+          "term": "formally"
+        },
+        {
+          "count": 1,
+          "term": "verify"
+        },
+        {
+          "count": 1,
+          "term": "speculative"
+        },
+        {
+          "count": 1,
+          "term": "execution"
+        }
+      ],
+      "section_index": 3,
+      "taxonomy_paths": [
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > AI Accelerators",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions"
+      ],
+      "technology_areas": [
+        "AI Hardware Accelerators",
+        "Electronic Design Automation",
+        "Formal Verification & Specification Languages",
+        "Semiconductor Engineering"
+      ],
+      "text": "UCLID5 has been deployed to formally verify speculative execution mitigations, cryptographic accelerators, enclave isolation, and hardware fault-tolerance protocols prior to silicon tapeout.",
+      "token_count": 22
+    }
+  ],
+  "arxiv-2503.19174": [
+    {
+      "chunk_id": "arxiv-2503.19174#chunk-01",
+      "concept_ids": [
+        "concept:llm-formal-verification",
+        "concept:sva"
+      ],
+      "doc_id": "arxiv-2503.19174",
+      "heading": "Bottlenecks in Writing SystemVerilog Assertions (SVAs)",
+      "key_terms": [
+        {
+          "count": 3,
+          "term": "verification"
+        },
+        {
+          "count": 3,
+          "term": "assertions"
+        },
+        {
+          "count": 2,
+          "term": "formal"
+        },
+        {
+          "count": 2,
+          "term": "specifications"
+        },
+        {
+          "count": 2,
+          "term": "rtl"
+        },
+        {
+          "count": 2,
+          "term": "writing"
+        },
+        {
+          "count": 2,
+          "term": "systemverilog"
+        },
+        {
+          "count": 2,
+          "term": "svas"
+        },
+        {
+          "count": 2,
+          "term": "property"
+        },
+        {
+          "count": 1,
+          "term": "assertionforge"
+        },
+        {
+          "count": 1,
+          "term": "enhancing"
+        },
+        {
+          "count": 1,
+          "term": "assertion"
+        }
+      ],
+      "section_index": 1,
+      "taxonomy_paths": [
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions",
+        "Security & Resilience",
+        "Security & Resilience > Memory Safety & Software Capabilities"
+      ],
+      "technology_areas": [
+        "Electronic Design Automation",
+        "Formal Verification & Specification Languages",
+        "Hardware & AI Security",
+        "Language & Runtime Memory Safety",
+        "Semiconductor Engineering"
+      ],
+      "text": "Formal Property Verification (FPV) in chip and semiconductor design relies heavily on SystemVerilog Assertions (SVAs) and Property Specification Language (PSL) to mathematically prove that Register-Transfer Level (RTL) implementations satisfy architectural specifications. Writing temporal logic assertions manually is error-prone and requires deep verification expertise.",
+      "token_count": 43
+    },
+    {
+      "chunk_id": "arxiv-2503.19174#chunk-02",
+      "concept_ids": [
+        "concept:llm-formal-verification",
+        "concept:sva"
+      ],
+      "doc_id": "arxiv-2503.19174",
+      "heading": "Unified Specification-and-RTL Knowledge Graph",
+      "key_terms": [
+        {
+          "count": 3,
+          "term": "graph"
+        },
+        {
+          "count": 2,
+          "term": "unified"
+        },
+        {
+          "count": 2,
+          "term": "knowledge"
+        },
+        {
+          "count": 2,
+          "term": "signal"
+        },
+        {
+          "count": 1,
+          "term": "specification-and-rtl"
+        },
+        {
+          "count": 1,
+          "term": "assertionforge"
+        },
+        {
+          "count": 1,
+          "term": "constructs"
+        },
+        {
+          "count": 1,
+          "term": "hardware"
+        },
+        {
+          "count": 1,
+          "term": "kg"
+        },
+        {
+          "count": 1,
+          "term": "fuses"
+        },
+        {
+          "count": 1,
+          "term": "natural-language"
+        },
+        {
+          "count": 1,
+          "term": "specification"
+        }
+      ],
+      "section_index": 2,
+      "taxonomy_paths": [
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions"
+      ],
+      "technology_areas": [
+        "Electronic Design Automation",
+        "Formal Verification & Specification Languages",
+        "Semiconductor Engineering"
+      ],
+      "text": "AssertionForge constructs a unified hardware Knowledge Graph (KG) that fuses natural-language specification requirements with structural RTL signal interactions, finite-state machines, and clock/reset domains. Multi-resolution context retrieval over this graph prevents signal hallucination during automated SVA synthesis.",
+      "token_count": 36
+    },
+    {
+      "chunk_id": "arxiv-2503.19174#chunk-03",
+      "concept_ids": [
+        "concept:llm-formal-verification",
+        "concept:sva"
+      ],
+      "doc_id": "arxiv-2503.19174",
+      "heading": "Formal Property Verification Closure",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "formal"
+        },
+        {
+          "count": 2,
+          "term": "verification"
+        },
+        {
+          "count": 1,
+          "term": "property"
+        },
+        {
+          "count": 1,
+          "term": "closure"
+        },
+        {
+          "count": 1,
+          "term": "evaluated"
+        },
+        {
+          "count": 1,
+          "term": "industrial"
+        },
+        {
+          "count": 1,
+          "term": "semiconductor"
+        },
+        {
+          "count": 1,
+          "term": "ip"
+        },
+        {
+          "count": 1,
+          "term": "blocks"
+        },
+        {
+          "count": 1,
+          "term": "using"
+        },
+        {
+          "count": 1,
+          "term": "commercial"
+        },
+        {
+          "count": 1,
+          "term": "eda"
+        }
+      ],
+      "section_index": 3,
+      "taxonomy_paths": [
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions",
+        "Security & Resilience",
+        "Security & Resilience > Memory Safety & Software Capabilities"
+      ],
+      "technology_areas": [
+        "Electronic Design Automation",
+        "Formal Verification & Specification Languages",
+        "Hardware & AI Security",
+        "Language & Runtime Memory Safety",
+        "Semiconductor Engineering"
+      ],
+      "text": "Evaluated across industrial semiconductor IP blocks using commercial EDA formal verification engines, AssertionForge substantially increases syntax validity, temporal accuracy, and cone-of-influence coverage compared to baseline Large Language Model assertion generators.",
+      "token_count": 30
+    }
+  ],
+  "arxiv-2604.23100": [
+    {
+      "chunk_id": "arxiv-2604.23100#chunk-01",
+      "concept_ids": [
+        "concept:dnn",
+        "concept:llm-formal-verification",
+        "concept:sva"
+      ],
+      "doc_id": "arxiv-2604.23100",
+      "heading": "Solver-in-the-Loop Formal Assertion Synthesis",
+      "key_terms": [
+        {
+          "count": 3,
+          "term": "formal"
+        },
+        {
+          "count": 2,
+          "term": "proofloop"
+        },
+        {
+          "count": 2,
+          "term": "rtl"
+        },
+        {
+          "count": 2,
+          "term": "assertion"
+        },
+        {
+          "count": 1,
+          "term": "language"
+        },
+        {
+          "count": 1,
+          "term": "logic"
+        },
+        {
+          "count": 1,
+          "term": "bridging"
+        },
+        {
+          "count": 1,
+          "term": "llms"
+        },
+        {
+          "count": 1,
+          "term": "representations"
+        },
+        {
+          "count": 1,
+          "term": "generation"
+        },
+        {
+          "count": 1,
+          "term": "solver-in-the-loop"
+        },
+        {
+          "count": 1,
+          "term": "synthesis"
+        }
+      ],
+      "section_index": 1,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "Deep Learning Architectures",
+        "Electronic Design Automation",
+        "Formal Verification & Specification Languages",
+        "Semiconductor Engineering"
+      ],
+      "text": "ProofLoop introduces a two-phase agentic framework that bridges natural-language hardware specifications, Register-Transfer Level (RTL) abstract syntax trees (ASTs), and formal verification languages such as SystemVerilog Assertions (SVA).",
+      "token_count": 27
+    },
+    {
+      "chunk_id": "arxiv-2604.23100#chunk-02",
+      "concept_ids": [
+        "concept:llm-formal-verification",
+        "concept:sva"
+      ],
+      "doc_id": "arxiv-2604.23100",
+      "heading": "Iterative Refinement with EDA Proof Engines",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "proof"
+        },
+        {
+          "count": 2,
+          "term": "engines"
+        },
+        {
+          "count": 2,
+          "term": "phase"
+        },
+        {
+          "count": 1,
+          "term": "iterative"
+        },
+        {
+          "count": 1,
+          "term": "refinement"
+        },
+        {
+          "count": 1,
+          "term": "eda"
+        },
+        {
+          "count": 1,
+          "term": "proofloop"
+        },
+        {
+          "count": 1,
+          "term": "queries"
+        },
+        {
+          "count": 1,
+          "term": "ast-indexed"
+        },
+        {
+          "count": 1,
+          "term": "structural"
+        },
+        {
+          "count": 1,
+          "term": "representation"
+        },
+        {
+          "count": 1,
+          "term": "verilog"
+        }
+      ],
+      "section_index": 2,
+      "taxonomy_paths": [
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions",
+        "Security & Resilience",
+        "Security & Resilience > Runtime Fault Localization & Recovery"
+      ],
+      "technology_areas": [
+        "Electronic Design Automation",
+        "Formal Verification & Specification Languages",
+        "Hardware & AI Security",
+        "Self-Healing & Fault-Tolerant AI",
+        "Semiconductor Engineering"
+      ],
+      "text": "In Phase A, ProofLoop queries an AST-indexed structural representation of the Verilog/SystemVerilog design to ground clock, reset, and handshake signals. In Phase B, a solver-in-the-loop agent invokes commercial formal verification engines such as Cadence JasperGold, parses counterexample traces and vacuity reports, and iteratively repairs candidate SVA properties until mathematical proof closure is achieved.",
+      "token_count": 53
+    },
+    {
+      "chunk_id": "arxiv-2604.23100#chunk-03",
+      "concept_ids": [
+        "concept:ai-accelerator"
+      ],
+      "doc_id": "arxiv-2604.23100",
+      "heading": "Implications for Semiconductor Verification Flows",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "verification"
+        },
+        {
+          "count": 1,
+          "term": "implications"
+        },
+        {
+          "count": 1,
+          "term": "semiconductor"
+        },
+        {
+          "count": 1,
+          "term": "flows"
+        },
+        {
+          "count": 1,
+          "term": "coupling"
+        },
+        {
+          "count": 1,
+          "term": "deterministic"
+        },
+        {
+          "count": 1,
+          "term": "formal"
+        },
+        {
+          "count": 1,
+          "term": "solvers"
+        },
+        {
+          "count": 1,
+          "term": "automated"
+        },
+        {
+          "count": 1,
+          "term": "assertion"
+        },
+        {
+          "count": 1,
+          "term": "synthesis"
+        },
+        {
+          "count": 1,
+          "term": "eliminates"
+        }
+      ],
+      "section_index": 3,
+      "taxonomy_paths": [
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > AI Accelerators",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions",
+        "Hardware & Semiconductor Systems > Memory & Interconnects"
+      ],
+      "technology_areas": [
+        "AI Hardware Accelerators",
+        "Electronic Design Automation",
+        "Formal Verification & Specification Languages",
+        "Memory Subsystems & Chiplets",
+        "Semiconductor Engineering"
+      ],
+      "text": "Coupling deterministic formal solvers with automated assertion synthesis eliminates vacuous properties and accelerates pre-silicon verification of complex SoC interconnects and AI accelerator datapaths.",
+      "token_count": 23
+    }
+  ],
+  "arxiv-2609.26751": [
+    {
+      "chunk_id": "arxiv-2609.26751#chunk-01",
+      "concept_ids": [
+        "concept:llm-formal-verification",
+        "concept:sva"
+      ],
+      "doc_id": "arxiv-2609.26751",
+      "heading": "Behavioral Equivalence in Hardware Verification Languages",
+      "key_terms": [
+        {
+          "count": 3,
+          "term": "behavioral"
+        },
+        {
+          "count": 3,
+          "term": "rtl"
+        },
+        {
+          "count": 2,
+          "term": "equivsva"
+        },
+        {
+          "count": 2,
+          "term": "formally"
+        },
+        {
+          "count": 2,
+          "term": "verified"
+        },
+        {
+          "count": 2,
+          "term": "assertions"
+        },
+        {
+          "count": 2,
+          "term": "implementations"
+        },
+        {
+          "count": 1,
+          "term": "dataset"
+        },
+        {
+          "count": 1,
+          "term": "equivalent"
+        },
+        {
+          "count": 1,
+          "term": "equivalence"
+        },
+        {
+          "count": 1,
+          "term": "hardware"
+        },
+        {
+          "count": 1,
+          "term": "verification"
+        }
+      ],
+      "section_index": 1,
+      "taxonomy_paths": [
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions",
+        "Security & Resilience",
+        "Security & Resilience > Memory Safety & Software Capabilities"
+      ],
+      "technology_areas": [
+        "Electronic Design Automation",
+        "Formal Verification & Specification Languages",
+        "Hardware & AI Security",
+        "Language & Runtime Memory Safety",
+        "Semiconductor Engineering"
+      ],
+      "text": "Evaluating automated SystemVerilog Assertion (SVA) generators requires distinguishing true behavioral temporal properties from brittle assertions tied to incidental RTL coding style. EquivSVA provides a formally verified benchmark organized around behavior families of structurally distinct RTL implementations sharing identical interface specifications.",
+      "token_count": 40
+    },
+    {
+      "chunk_id": "arxiv-2609.26751#chunk-02",
+      "concept_ids": [
+        "concept:llm-formal-verification",
+        "concept:sva",
+        "concept:uclid5"
+      ],
+      "doc_id": "arxiv-2609.26751",
+      "heading": "Formal Equivalence & Metamorphic Verification",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "formal"
+        },
+        {
+          "count": 2,
+          "term": "equivalence"
+        },
+        {
+          "count": 2,
+          "term": "verification"
+        },
+        {
+          "count": 1,
+          "term": "metamorphic"
+        },
+        {
+          "count": 1,
+          "term": "every"
+        },
+        {
+          "count": 1,
+          "term": "gold"
+        },
+        {
+          "count": 1,
+          "term": "sva"
+        },
+        {
+          "count": 1,
+          "term": "assertion"
+        },
+        {
+          "count": 1,
+          "term": "equivsva"
+        },
+        {
+          "count": 1,
+          "term": "mechanically"
+        },
+        {
+          "count": 1,
+          "term": "verified"
+        },
+        {
+          "count": 1,
+          "term": "using"
+        }
+      ],
+      "section_index": 2,
+      "taxonomy_paths": [
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions"
+      ],
+      "technology_areas": [
+        "Electronic Design Automation",
+        "Formal Verification & Specification Languages",
+        "Semiconductor Engineering"
+      ],
+      "text": "Every gold SVA assertion in EquivSVA is mechanically verified using formal property verification (FPV) and SMT-based equivalence checking across pipelined, FSM-encoded, and Chisel/FIRRTL-generated RTL variants.",
+      "token_count": 25
+    },
+    {
+      "chunk_id": "arxiv-2609.26751#chunk-03",
+      "concept_ids": [
+        "concept:llm-formal-verification",
+        "concept:sva",
+        "concept:uclid5"
+      ],
+      "doc_id": "arxiv-2609.26751",
+      "heading": "Advancing Robust Semiconductor Verification",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "verification"
+        },
+        {
+          "count": 1,
+          "term": "advancing"
+        },
+        {
+          "count": 1,
+          "term": "robust"
+        },
+        {
+          "count": 1,
+          "term": "semiconductor"
+        },
+        {
+          "count": 1,
+          "term": "equivsva"
+        },
+        {
+          "count": 1,
+          "term": "enables"
+        },
+        {
+          "count": 1,
+          "term": "rigorous"
+        },
+        {
+          "count": 1,
+          "term": "benchmarking"
+        },
+        {
+          "count": 1,
+          "term": "formal"
+        },
+        {
+          "count": 1,
+          "term": "language"
+        },
+        {
+          "count": 1,
+          "term": "translators"
+        },
+        {
+          "count": 1,
+          "term": "theorem-proving"
+        }
+      ],
+      "section_index": 3,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "Deep Learning Architectures",
+        "Electronic Design Automation",
+        "Formal Verification & Specification Languages",
+        "Semiconductor Engineering"
+      ],
+      "text": "EquivSVA enables rigorous benchmarking of formal verification language translators, theorem-proving hardware frameworks (Kami, Coq), and LLM-assisted assertion synthesis pipelines.",
+      "token_count": 19
+    }
+  ],
   "arxiv-2610.08739v2": [
     {
       "chunk_id": "arxiv-2610.08739v2#chunk-01",
@@ -824,6 +1737,259 @@
       ],
       "text": "In our conceptual taxonomy, Bit-Flip Attacks bridge Hardware & Semiconductor Systems (AI Accelerators, Memory & Interconnects) and Security & Resilience (Memory Safety & Software Capabilities, Runtime Fault Localization & Recovery). Lightweight on-chip monitors (APCs, PULSE, ASI) and z-score statistical repair provide constant-overhead mitigation where traditional ECC or DDR4 Target Row Refresh (TRR) fall short.",
       "token_count": 54
+    }
+  ],
+  "research-formal-verification-languages-in-chip-and-se": [
+    {
+      "chunk_id": "research-formal-verification-languages-in-chip-and-se#chunk-01",
+      "concept_ids": [
+        "concept:sva",
+        "concept:uclid5"
+      ],
+      "doc_id": "research-formal-verification-languages-in-chip-and-se",
+      "heading": "Research Scope & Core Languages: Formal verification languages in chip and semiconductor design",
+      "key_terms": [
+        {
+          "count": 5,
+          "term": "verification"
+        },
+        {
+          "count": 5,
+          "term": "languages"
+        },
+        {
+          "count": 4,
+          "term": "formal"
+        },
+        {
+          "count": 3,
+          "term": "chip"
+        },
+        {
+          "count": 3,
+          "term": "semiconductor"
+        },
+        {
+          "count": 3,
+          "term": "design"
+        },
+        {
+          "count": 2,
+          "term": "research"
+        },
+        {
+          "count": 2,
+          "term": "ieee"
+        },
+        {
+          "count": 2,
+          "term": "property"
+        },
+        {
+          "count": 1,
+          "term": "synthesis"
+        },
+        {
+          "count": 1,
+          "term": "scope"
+        },
+        {
+          "count": 1,
+          "term": "core"
+        }
+      ],
+      "section_index": 1,
+      "taxonomy_paths": [
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > AI Accelerators",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions",
+        "Security & Resilience",
+        "Security & Resilience > Memory Safety & Software Capabilities"
+      ],
+      "technology_areas": [
+        "AI Hardware Accelerators",
+        "Electronic Design Automation",
+        "Formal Verification & Specification Languages",
+        "Hardware & AI Security",
+        "Language & Runtime Memory Safety",
+        "Semiconductor Engineering"
+      ],
+      "text": "In chip and semiconductor design, Formal Verification Languages provide the mathematical foundation for specifying and proving Register-Transfer Level (RTL) and architectural invariants before silicon fabrication. The industrial backbone comprises IEEE 1800 SystemVerilog Assertions (SVA) and IEEE 1850 Property Specification Language (PSL) for linear temporal logic (LTL) Formal Property Verification (FPV), complemented by multi-modal verification and hardware construction languages including UCLID5 (SMT-backed datapath/control modeling), Chisel/FIRRTL (ChiselFV), and Coq-embedded theorem-proving frameworks such as Kami.",
+      "token_count": 72
+    },
+    {
+      "chunk_id": "research-formal-verification-languages-in-chip-and-se#chunk-02",
+      "concept_ids": [
+        "concept:dnn",
+        "concept:llm-formal-verification",
+        "concept:sva",
+        "concept:uclid5"
+      ],
+      "doc_id": "research-formal-verification-languages-in-chip-and-se",
+      "heading": "Knowledge-Graph & Solver-in-the-Loop Assertion Synthesis",
+      "key_terms": [
+        {
+          "count": 5,
+          "term": "formal"
+        },
+        {
+          "count": 4,
+          "term": "rtl"
+        },
+        {
+          "count": 3,
+          "term": "assertion"
+        },
+        {
+          "count": 3,
+          "term": "assertions"
+        },
+        {
+          "count": 2,
+          "term": "solver-in-the-loop"
+        },
+        {
+          "count": 2,
+          "term": "synthesis"
+        },
+        {
+          "count": 2,
+          "term": "verification"
+        },
+        {
+          "count": 2,
+          "term": "assertionforge"
+        },
+        {
+          "count": 2,
+          "term": "generation"
+        },
+        {
+          "count": 2,
+          "term": "proofloop"
+        },
+        {
+          "count": 2,
+          "term": "logic"
+        },
+        {
+          "count": 2,
+          "term": "like"
+        }
+      ],
+      "section_index": 2,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions",
+        "Security & Resilience",
+        "Security & Resilience > Memory Safety & Software Capabilities"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "Deep Learning Architectures",
+        "Electronic Design Automation",
+        "Formal Verification & Specification Languages",
+        "Hardware & AI Security",
+        "Language & Runtime Memory Safety",
+        "Semiconductor Engineering"
+      ],
+      "text": "Recent research synthesized in this collection \u2014 UCLID5: Multi-Modal Formal Modeling, Verification, and Synthesis (arxiv-2208.03699); AssertionForge: Enhancing Formal Verification Assertion Generation with Structured Representation of Specifications and RTL (arxiv-2503.19174); ProofLoop: From Language to Logic \u2014 Bridging LLMs and Formal Representations for RTL Assertion Generation (arxiv-2604.23100); EquivSVA: A Formally Verified Dataset of Behavioral Assertions Across Equivalent RTL Implementations (arxiv-2609.26751) \u2014 addresses the manual bottleneck of authoring temporal logic assertions. Frameworks like AssertionForge construct unified Knowledge Graphs fusing natural-language specs and RTL structure, while agentic solver-in-the-loop systems like ProofLoop interact directly with commercial EDA formal engines (Cadence JasperGold and SMT solvers) to iteratively refine SVA assertions until formal proof closure.",
+      "token_count": 108
+    },
+    {
+      "chunk_id": "research-formal-verification-languages-in-chip-and-se#chunk-03",
+      "concept_ids": [
+        "concept:ai-accelerator",
+        "concept:apc",
+        "concept:bare-ai",
+        "concept:bit-flip-attack",
+        "concept:fil-c",
+        "concept:pulse",
+        "concept:rowhammer"
+      ],
+      "doc_id": "research-formal-verification-languages-in-chip-and-se",
+      "heading": "Cross-Layer Integration with Hardware Telemetry & Security",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "hardware"
+        },
+        {
+          "count": 2,
+          "term": "security"
+        },
+        {
+          "count": 2,
+          "term": "verification"
+        },
+        {
+          "count": 1,
+          "term": "cross-layer"
+        },
+        {
+          "count": 1,
+          "term": "integration"
+        },
+        {
+          "count": 1,
+          "term": "telemetry"
+        },
+        {
+          "count": 1,
+          "term": "within"
+        },
+        {
+          "count": 1,
+          "term": "ontologic-ready"
+        },
+        {
+          "count": 1,
+          "term": "knowledge"
+        },
+        {
+          "count": 1,
+          "term": "graph"
+        },
+        {
+          "count": 1,
+          "term": "formal"
+        },
+        {
+          "count": 1,
+          "term": "languages"
+        }
+      ],
+      "section_index": 3,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > AI Accelerators",
+        "Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification",
+        "Hardware & Semiconductor Systems > Memory & Interconnects",
+        "Security & Resilience",
+        "Security & Resilience > Hardware Fault Attacks > Bit-Flip Attacks",
+        "Security & Resilience > Memory Safety & Software Capabilities"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "AI Hardware Accelerators",
+        "Adversarial Fault Injection",
+        "Deep Learning Architectures",
+        "Electronic Design Automation",
+        "Hardware & AI Security",
+        "Language & Runtime Memory Safety",
+        "Memory Subsystems & Chiplets",
+        "On-Chip Telemetry & Runtime Monitoring",
+        "Semiconductor Engineering"
+      ],
+      "text": "Within our OntoLogic-ready knowledge graph, formal verification languages connect pre-silicon EDA verification with runtime hardware security monitors (such as BARE-AI's 28nm AI Performance Counters and PULSE neural detectors) and probabilistic operational semantics for memory-level bit-flip resilience (such as Rowhammer analysis on Fil-C software capabilities).",
+      "token_count": 44
     }
   ],
   "semieng-2026-bare-ai-monitors": [
