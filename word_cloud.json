@@ -1,5 +1,613 @@
 {
   "by_document": {
+    "arxiv-1402.4677": [
+      {
+        "count": 5,
+        "term": "graph",
+        "weight": 1.0
+      },
+      {
+        "count": 4,
+        "term": "monosat",
+        "weight": 0.8
+      },
+      {
+        "count": 3,
+        "term": "graphs",
+        "weight": 0.6
+      },
+      {
+        "count": 3,
+        "term": "reachability",
+        "weight": 0.6
+      },
+      {
+        "count": 3,
+        "term": "smt",
+        "weight": 0.6
+      },
+      {
+        "count": 3,
+        "term": "theories",
+        "weight": 0.6
+      },
+      {
+        "count": 2,
+        "term": "acyclicity",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "analysis",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "boolean",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "clause",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "directly",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "monotonic",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "network",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "propagation",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "routing",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "solver",
+        "weight": 0.4
+      },
+      {
+        "count": 1,
+        "term": "acyclic",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "algorithms",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "applications",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "assigned",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "becomes",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "bit-vector",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "blowup",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "causes",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "cdcl",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "checks",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "circuit",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "cloud",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "complex",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "conflict",
+        "weight": 0.2
+      }
+    ],
+    "arxiv-1507.01763": [
+      {
+        "count": 4,
+        "term": "ontologies",
+        "weight": 1.0
+      },
+      {
+        "count": 3,
+        "term": "knowledge",
+        "weight": 0.75
+      },
+      {
+        "count": 3,
+        "term": "sat",
+        "weight": 0.75
+      },
+      {
+        "count": 3,
+        "term": "smt",
+        "weight": 0.75
+      },
+      {
+        "count": 2,
+        "term": "concept",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "concrete",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "description",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "domains",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "encoding",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "graph",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "logics",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "numerical",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "ontology",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "owl",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "reasoning",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "abox",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "alc",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "arithmetic",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "assertions",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "automated",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "axiom",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "axioms",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "boolean",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "bounds",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "bridges",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "cardinality",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "cdcl",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "classes",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "classify",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "clause",
+        "weight": 0.25
+      }
+    ],
+    "arxiv-1610.00502": [
+      {
+        "count": 5,
+        "term": "symbolic",
+        "weight": 1.0
+      },
+      {
+        "count": 4,
+        "term": "execution",
+        "weight": 0.8
+      },
+      {
+        "count": 4,
+        "term": "smt",
+        "weight": 0.8
+      },
+      {
+        "count": 3,
+        "term": "memory",
+        "weight": 0.6
+      },
+      {
+        "count": 3,
+        "term": "software",
+        "weight": 0.6
+      },
+      {
+        "count": 2,
+        "term": "caching",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "concrete",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "constraint",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "heap",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "inputs",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "modeling",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "over",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "queries",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "safety",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "sat",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "slicing",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "solver",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "solvers",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "vulnerability",
+        "weight": 0.4
+      },
+      {
+        "count": 1,
+        "term": "abv",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "aliasing",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "analysis",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "array-theory",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "arrays",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "automated",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "because",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "bit-vectors",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "bounded",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "branch",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "breaches",
+        "weight": 0.2
+      }
+    ],
+    "arxiv-2201.04663": [
+      {
+        "count": 3,
+        "term": "cvc5",
+        "weight": 1.0
+      },
+      {
+        "count": 3,
+        "term": "finite",
+        "weight": 1.0
+      },
+      {
+        "count": 3,
+        "term": "smt",
+        "weight": 1.0
+      },
+      {
+        "count": 2,
+        "term": "decision",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "deductive",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "dpll",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "procedures",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "relational",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "relations",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "sets",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "software",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "solving",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "theories",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "theory",
+        "weight": 0.6667
+      },
+      {
+        "count": 1,
+        "term": "ada",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "algebraic",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "alloy",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "analysis",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "analyzers",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "architecture",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "arithmetic",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "arrays",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "auditors",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "automated",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "aws",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "axioms",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "backend",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "bit-vectors",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "boolean",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "built",
+        "weight": 0.3333
+      }
+    ],
     "arxiv-2208.03699": [
       {
         "count": 4,
@@ -1216,6 +1824,158 @@
         "weight": 0.2222
       }
     ],
+    "research-sat-and-smt-solvers-applications-in-software": [
+      {
+        "count": 7,
+        "term": "smt",
+        "weight": 1.0
+      },
+      {
+        "count": 6,
+        "term": "graph",
+        "weight": 0.8571
+      },
+      {
+        "count": 6,
+        "term": "software",
+        "weight": 0.8571
+      },
+      {
+        "count": 5,
+        "term": "sat",
+        "weight": 0.7143
+      },
+      {
+        "count": 5,
+        "term": "solvers",
+        "weight": 0.7143
+      },
+      {
+        "count": 5,
+        "term": "theories",
+        "weight": 0.7143
+      },
+      {
+        "count": 4,
+        "term": "reasoning",
+        "weight": 0.5714
+      },
+      {
+        "count": 4,
+        "term": "verification",
+        "weight": 0.5714
+      },
+      {
+        "count": 3,
+        "term": "analysis",
+        "weight": 0.4286
+      },
+      {
+        "count": 3,
+        "term": "cvc5",
+        "weight": 0.4286
+      },
+      {
+        "count": 3,
+        "term": "description",
+        "weight": 0.4286
+      },
+      {
+        "count": 3,
+        "term": "development",
+        "weight": 0.4286
+      },
+      {
+        "count": 3,
+        "term": "execution",
+        "weight": 0.4286
+      },
+      {
+        "count": 3,
+        "term": "formal",
+        "weight": 0.4286
+      },
+      {
+        "count": 3,
+        "term": "modulo",
+        "weight": 0.4286
+      },
+      {
+        "count": 3,
+        "term": "ontologies",
+        "weight": 0.4286
+      },
+      {
+        "count": 3,
+        "term": "ontology",
+        "weight": 0.4286
+      },
+      {
+        "count": 3,
+        "term": "symbolic",
+        "weight": 0.4286
+      },
+      {
+        "count": 2,
+        "term": "arrays",
+        "weight": 0.2857
+      },
+      {
+        "count": 2,
+        "term": "automated",
+        "weight": 0.2857
+      },
+      {
+        "count": 2,
+        "term": "bit-vectors",
+        "weight": 0.2857
+      },
+      {
+        "count": 2,
+        "term": "constraints",
+        "weight": 0.2857
+      },
+      {
+        "count": 2,
+        "term": "dpll",
+        "weight": 0.2857
+      },
+      {
+        "count": 2,
+        "term": "graphs",
+        "weight": 0.2857
+      },
+      {
+        "count": 2,
+        "term": "knowledge",
+        "weight": 0.2857
+      },
+      {
+        "count": 2,
+        "term": "logics",
+        "weight": 0.2857
+      },
+      {
+        "count": 2,
+        "term": "monosat",
+        "weight": 0.2857
+      },
+      {
+        "count": 2,
+        "term": "monotonic",
+        "weight": 0.2857
+      },
+      {
+        "count": 2,
+        "term": "path",
+        "weight": 0.2857
+      },
+      {
+        "count": 1,
+        "term": "abox",
+        "weight": 0.1429
+      }
+    ],
     "semieng-2026-bare-ai-monitors": [
       {
         "count": 3,
@@ -1675,154 +2435,154 @@
   },
   "global_word_cloud": [
     {
-      "count": 26,
+      "count": 33,
       "term": "verification",
       "weight": 1.0
     },
     {
-      "count": 23,
+      "count": 29,
       "term": "formal",
-      "weight": 0.8846
+      "weight": 0.8788
+    },
+    {
+      "count": 24,
+      "term": "hardware",
+      "weight": 0.7273
     },
     {
       "count": 23,
-      "term": "hardware",
-      "weight": 0.8846
+      "term": "smt",
+      "weight": 0.697
     },
     {
-      "count": 14,
+      "count": 20,
+      "term": "graph",
+      "weight": 0.6061
+    },
+    {
+      "count": 19,
+      "term": "software",
+      "weight": 0.5758
+    },
+    {
+      "count": 18,
       "term": "memory",
-      "weight": 0.5385
+      "weight": 0.5455
     },
     {
       "count": 14,
       "term": "rtl",
-      "weight": 0.5385
+      "weight": 0.4242
+    },
+    {
+      "count": 12,
+      "term": "assertions",
+      "weight": 0.3636
     },
     {
       "count": 12,
       "term": "bit-flip",
-      "weight": 0.4615
+      "weight": 0.3636
     },
     {
-      "count": 11,
-      "term": "assertions",
-      "weight": 0.4231
+      "count": 12,
+      "term": "sat",
+      "weight": 0.3636
+    },
+    {
+      "count": 12,
+      "term": "synthesis",
+      "weight": 0.3636
+    },
+    {
+      "count": 12,
+      "term": "theories",
+      "weight": 0.3636
     },
     {
       "count": 11,
       "term": "bare-ai",
-      "weight": 0.4231
+      "weight": 0.3333
     },
     {
       "count": 11,
-      "term": "synthesis",
-      "weight": 0.4231
+      "term": "knowledge",
+      "weight": 0.3333
+    },
+    {
+      "count": 11,
+      "term": "solvers",
+      "weight": 0.3333
     },
     {
       "count": 10,
       "term": "ai",
-      "weight": 0.3846
+      "weight": 0.303
     },
     {
       "count": 10,
       "term": "language",
-      "weight": 0.3846
+      "weight": 0.303
     },
     {
       "count": 9,
       "term": "assertion",
-      "weight": 0.3462
+      "weight": 0.2727
+    },
+    {
+      "count": 9,
+      "term": "execution",
+      "weight": 0.2727
+    },
+    {
+      "count": 9,
+      "term": "languages",
+      "weight": 0.2727
     },
     {
       "count": 9,
       "term": "monitors",
-      "weight": 0.3462
+      "weight": 0.2727
     },
     {
-      "count": 8,
-      "term": "languages",
-      "weight": 0.3077
+      "count": 9,
+      "term": "ontologies",
+      "weight": 0.2727
     },
     {
-      "count": 8,
-      "term": "semiconductor",
-      "weight": 0.3077
-    },
-    {
-      "count": 8,
+      "count": 9,
       "term": "sva",
-      "weight": 0.3077
+      "weight": 0.2727
     },
     {
-      "count": 7,
-      "term": "fault",
-      "weight": 0.2692
+      "count": 9,
+      "term": "symbolic",
+      "weight": 0.2727
     },
     {
-      "count": 7,
-      "term": "level",
-      "weight": 0.2692
+      "count": 8,
+      "term": "analysis",
+      "weight": 0.2424
     },
     {
-      "count": 7,
-      "term": "performance",
-      "weight": 0.2692
+      "count": 8,
+      "term": "automated",
+      "weight": 0.2424
     },
     {
-      "count": 7,
-      "term": "software",
-      "weight": 0.2692
+      "count": 8,
+      "term": "graphs",
+      "weight": 0.2424
     },
     {
-      "count": 7,
-      "term": "systems",
-      "weight": 0.2692
-    },
-    {
-      "count": 7,
-      "term": "systemverilog",
-      "weight": 0.2692
-    },
-    {
-      "count": 7,
-      "term": "temporal",
-      "weight": 0.2692
-    },
-    {
-      "count": 6,
-      "term": "fil-c",
-      "weight": 0.2308
-    },
-    {
-      "count": 6,
+      "count": 8,
       "term": "logic",
-      "weight": 0.2308
+      "weight": 0.2424
     },
     {
-      "count": 6,
-      "term": "neural",
-      "weight": 0.2308
-    },
-    {
-      "count": 6,
-      "term": "overhead",
-      "weight": 0.2308
-    },
-    {
-      "count": 6,
-      "term": "property",
-      "weight": 0.2308
-    },
-    {
-      "count": 6,
-      "term": "rowhammer",
-      "weight": 0.2308
-    },
-    {
-      "count": 6,
-      "term": "runtime",
-      "weight": 0.2308
+      "count": 8,
+      "term": "reasoning",
+      "weight": 0.2424
     }
   ]
 }

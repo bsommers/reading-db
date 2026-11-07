@@ -30,6 +30,11 @@ Published reading-list knowledge database, semantic chunk index, conceptual taxo
 9. **Academic Paper:** [*ProofLoop: From Language to Logic — Bridging LLMs and Formal Representations for RTL Assertion Generation*](https://arxiv.org/abs/2604.23100) (`arxiv-2604.23100` — Nowfel Mashnoor, Aritra Dasgupta, Sandeep K. Shukla — IIT Kanpur)
 10. **Academic Paper:** [*EquivSVA: A Formally Verified Dataset of Behavioral Assertions Across Equivalent RTL Implementations*](https://arxiv.org/abs/2609.26751) (`arxiv-2609.26751` — FNU Aditi, Rohan Sharma, Subhasish Mitra — Stanford University)
 11. **Research Note:** [*Research Synthesis: Formal verification languages in chip and semiconductor design*](https://github.com/bsommers/reading-db) (`research-formal-verification-languages-in-chip-and-se` — Reading List Research Engine)
+12. **Academic Paper:** [*MonoSAT: Modulo Theories for Graphs, Networks, and Geometry*](https://arxiv.org/abs/1402.4677) (`arxiv-1402.4677` — Sam Bayless, Noah Bayless, Holger H. Hoos, Alan J. Hu — University of British Columbia)
+13. **Academic Paper:** [*cvc5: A Versatile and Industrial-Strength SMT Solver*](https://arxiv.org/abs/2201.04663) (`arxiv-2201.04663` — Haniel Barbosa, Clark Barrett, Martin Brain, Gereon Kremer, Aina Niemetz, Mathias Preiner, Andrew Reynolds, Cesare Tinelli — Stanford University; University of Iowa; University of Oxford)
+14. **Academic Paper:** [*A Survey of Symbolic Execution Techniques for Software Development and Verification*](https://arxiv.org/abs/1610.00502) (`arxiv-1610.00502` — Roberto Baldoni, Emilio Coppa, Daniele Coniglio, Camil Demetrescu, Irene Finocchi — Sapienza University of Rome)
+15. **Academic Paper:** [*SAT and SMT-Based Automated Reasoning for Description Logics and Formal Ontologies*](https://arxiv.org/abs/1507.01763) (`arxiv-1507.01763` — Roberto Sebastiani, Michele Vescovi — University of Trento)
+16. **Research Note:** [*Research Synthesis: SAT and SMT solvers applications in software development, graph analysis, and ontologies*](https://github.com/bsommers/reading-db) (`research-sat-and-smt-solvers-applications-in-software` — Reading List Research Engine)
 
 ## Updating From `reading-list`
 

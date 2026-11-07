@@ -2,6 +2,17 @@
   "taxonomy_categories": [
     {
       "chunk_ids": [
+        "arxiv-1402.4677#chunk-01",
+        "arxiv-1402.4677#chunk-03",
+        "arxiv-1507.01763#chunk-01",
+        "arxiv-1507.01763#chunk-02",
+        "arxiv-1507.01763#chunk-03",
+        "arxiv-1610.00502#chunk-01",
+        "arxiv-1610.00502#chunk-02",
+        "arxiv-1610.00502#chunk-03",
+        "arxiv-2201.04663#chunk-01",
+        "arxiv-2201.04663#chunk-02",
+        "arxiv-2201.04663#chunk-03",
         "arxiv-2208.03699#chunk-01",
         "arxiv-2208.03699#chunk-02",
         "arxiv-2208.03699#chunk-03",
@@ -27,6 +38,9 @@
         "research-formal-verification-languages-in-chip-and-se#chunk-01",
         "research-formal-verification-languages-in-chip-and-se#chunk-02",
         "research-formal-verification-languages-in-chip-and-se#chunk-03",
+        "research-sat-and-smt-solvers-applications-in-software#chunk-01",
+        "research-sat-and-smt-solvers-applications-in-software#chunk-02",
+        "research-sat-and-smt-solvers-applications-in-software#chunk-03",
         "semieng-2026-bare-ai-monitors#chunk-01",
         "semieng-2026-bare-ai-monitors#chunk-02",
         "semieng-2026-bare-ai-monitors#chunk-03",
@@ -37,6 +51,10 @@
       ],
       "description": "Integrated circuits, semiconductor manufacturing nodes, and hardware architectures.",
       "document_ids": [
+        "arxiv-1402.4677",
+        "arxiv-1507.01763",
+        "arxiv-1610.00502",
+        "arxiv-2201.04663",
         "arxiv-2208.03699",
         "arxiv-2503.19174",
         "arxiv-2604.23100",
@@ -45,6 +63,7 @@
         "arxiv-2610.33748",
         "note-2026-cross-layer-bitflip-synthesis",
         "research-formal-verification-languages-in-chip-and-se",
+        "research-sat-and-smt-solvers-applications-in-software",
         "semieng-2026-bare-ai-monitors",
         "techpaper-2026-eda-formal-monitors",
         "techpaper-2026-hbm-chiplet-resilience"
@@ -57,6 +76,7 @@
     },
     {
       "chunk_ids": [
+        "arxiv-1610.00502#chunk-01",
         "arxiv-2208.03699#chunk-01",
         "arxiv-2208.03699#chunk-03",
         "arxiv-2604.23100#chunk-03",
@@ -69,6 +89,7 @@
         "note-2026-cross-layer-bitflip-synthesis#chunk-02",
         "research-formal-verification-languages-in-chip-and-se#chunk-01",
         "research-formal-verification-languages-in-chip-and-se#chunk-03",
+        "research-sat-and-smt-solvers-applications-in-software#chunk-02",
         "semieng-2026-bare-ai-monitors#chunk-01",
         "semieng-2026-bare-ai-monitors#chunk-02",
         "semieng-2026-bare-ai-monitors#chunk-03",
@@ -79,11 +100,13 @@
       ],
       "description": "Specialized hardware datapaths and neural engines for executing AI workloads.",
       "document_ids": [
+        "arxiv-1610.00502",
         "arxiv-2208.03699",
         "arxiv-2604.23100",
         "arxiv-2610.08739v2",
         "note-2026-cross-layer-bitflip-synthesis",
         "research-formal-verification-languages-in-chip-and-se",
+        "research-sat-and-smt-solvers-applications-in-software",
         "semieng-2026-bare-ai-monitors",
         "techpaper-2026-eda-formal-monitors",
         "techpaper-2026-hbm-chiplet-resilience"
@@ -129,6 +152,8 @@
     },
     {
       "chunk_ids": [
+        "arxiv-1610.00502#chunk-02",
+        "arxiv-1610.00502#chunk-03",
         "arxiv-2208.03699#chunk-01",
         "arxiv-2604.23100#chunk-03",
         "arxiv-2610.08739v2#chunk-01",
@@ -138,6 +163,8 @@
         "note-2026-cross-layer-bitflip-synthesis#chunk-01",
         "note-2026-cross-layer-bitflip-synthesis#chunk-02",
         "research-formal-verification-languages-in-chip-and-se#chunk-03",
+        "research-sat-and-smt-solvers-applications-in-software#chunk-02",
+        "research-sat-and-smt-solvers-applications-in-software#chunk-03",
         "semieng-2026-bare-ai-monitors#chunk-02",
         "techpaper-2026-eda-formal-monitors#chunk-02",
         "techpaper-2026-hbm-chiplet-resilience#chunk-01",
@@ -145,12 +172,14 @@
       ],
       "description": "On-package memory, DRAM/SRAM subsystems, and die-to-die interconnects.",
       "document_ids": [
+        "arxiv-1610.00502",
         "arxiv-2208.03699",
         "arxiv-2604.23100",
         "arxiv-2610.08739v2",
         "arxiv-2610.33748",
         "note-2026-cross-layer-bitflip-synthesis",
         "research-formal-verification-languages-in-chip-and-se",
+        "research-sat-and-smt-solvers-applications-in-software",
         "semieng-2026-bare-ai-monitors",
         "techpaper-2026-eda-formal-monitors",
         "techpaper-2026-hbm-chiplet-resilience"
@@ -163,6 +192,17 @@
     },
     {
       "chunk_ids": [
+        "arxiv-1402.4677#chunk-01",
+        "arxiv-1402.4677#chunk-03",
+        "arxiv-1507.01763#chunk-01",
+        "arxiv-1507.01763#chunk-02",
+        "arxiv-1507.01763#chunk-03",
+        "arxiv-1610.00502#chunk-01",
+        "arxiv-1610.00502#chunk-02",
+        "arxiv-1610.00502#chunk-03",
+        "arxiv-2201.04663#chunk-01",
+        "arxiv-2201.04663#chunk-02",
+        "arxiv-2201.04663#chunk-03",
         "arxiv-2208.03699#chunk-01",
         "arxiv-2208.03699#chunk-02",
         "arxiv-2208.03699#chunk-03",
@@ -182,11 +222,18 @@
         "research-formal-verification-languages-in-chip-and-se#chunk-01",
         "research-formal-verification-languages-in-chip-and-se#chunk-02",
         "research-formal-verification-languages-in-chip-and-se#chunk-03",
+        "research-sat-and-smt-solvers-applications-in-software#chunk-01",
+        "research-sat-and-smt-solvers-applications-in-software#chunk-02",
+        "research-sat-and-smt-solvers-applications-in-software#chunk-03",
         "techpaper-2026-eda-formal-monitors#chunk-01",
         "techpaper-2026-eda-formal-monitors#chunk-02"
       ],
       "description": "Electronic design automation, logic synthesis, formal semantics, and verification.",
       "document_ids": [
+        "arxiv-1402.4677",
+        "arxiv-1507.01763",
+        "arxiv-1610.00502",
+        "arxiv-2201.04663",
         "arxiv-2208.03699",
         "arxiv-2503.19174",
         "arxiv-2604.23100",
@@ -195,6 +242,7 @@
         "arxiv-2610.33748",
         "note-2026-cross-layer-bitflip-synthesis",
         "research-formal-verification-languages-in-chip-and-se",
+        "research-sat-and-smt-solvers-applications-in-software",
         "techpaper-2026-eda-formal-monitors"
       ],
       "label": "EDA & Hardware Verification",
@@ -205,6 +253,15 @@
     },
     {
       "chunk_ids": [
+        "arxiv-1402.4677#chunk-01",
+        "arxiv-1507.01763#chunk-01",
+        "arxiv-1507.01763#chunk-02",
+        "arxiv-1507.01763#chunk-03",
+        "arxiv-1610.00502#chunk-01",
+        "arxiv-1610.00502#chunk-02",
+        "arxiv-1610.00502#chunk-03",
+        "arxiv-2201.04663#chunk-01",
+        "arxiv-2201.04663#chunk-02",
         "arxiv-2208.03699#chunk-01",
         "arxiv-2208.03699#chunk-02",
         "arxiv-2208.03699#chunk-03",
@@ -218,15 +275,23 @@
         "arxiv-2609.26751#chunk-02",
         "arxiv-2609.26751#chunk-03",
         "research-formal-verification-languages-in-chip-and-se#chunk-01",
-        "research-formal-verification-languages-in-chip-and-se#chunk-02"
+        "research-formal-verification-languages-in-chip-and-se#chunk-02",
+        "research-sat-and-smt-solvers-applications-in-software#chunk-01",
+        "research-sat-and-smt-solvers-applications-in-software#chunk-02",
+        "research-sat-and-smt-solvers-applications-in-software#chunk-03"
       ],
       "description": "Hardware specification, assertion, and formal modeling languages (SVA, PSL, UCLID5, Kami, ChiselFV) and automated assertion synthesis.",
       "document_ids": [
+        "arxiv-1402.4677",
+        "arxiv-1507.01763",
+        "arxiv-1610.00502",
+        "arxiv-2201.04663",
         "arxiv-2208.03699",
         "arxiv-2503.19174",
         "arxiv-2604.23100",
         "arxiv-2609.26751",
-        "research-formal-verification-languages-in-chip-and-se"
+        "research-formal-verification-languages-in-chip-and-se",
+        "research-sat-and-smt-solvers-applications-in-software"
       ],
       "label": "Formal Verification Languages & Assertions",
       "ontologic_class_uri": "ontologic:FormalVerificationLanguages",
@@ -236,6 +301,9 @@
     },
     {
       "chunk_ids": [
+        "arxiv-1610.00502#chunk-01",
+        "arxiv-1610.00502#chunk-02",
+        "arxiv-1610.00502#chunk-03",
         "arxiv-2208.03699#chunk-01",
         "arxiv-2503.19174#chunk-01",
         "arxiv-2503.19174#chunk-03",
@@ -254,6 +322,7 @@
         "research-formal-verification-languages-in-chip-and-se#chunk-01",
         "research-formal-verification-languages-in-chip-and-se#chunk-02",
         "research-formal-verification-languages-in-chip-and-se#chunk-03",
+        "research-sat-and-smt-solvers-applications-in-software#chunk-03",
         "semieng-2026-bare-ai-monitors#chunk-01",
         "semieng-2026-bare-ai-monitors#chunk-02",
         "semieng-2026-bare-ai-monitors#chunk-03",
@@ -264,6 +333,7 @@
       ],
       "description": "System security, adversarial threat modeling, and fault resilience.",
       "document_ids": [
+        "arxiv-1610.00502",
         "arxiv-2208.03699",
         "arxiv-2503.19174",
         "arxiv-2604.23100",
@@ -272,6 +342,7 @@
         "arxiv-2610.33748",
         "note-2026-cross-layer-bitflip-synthesis",
         "research-formal-verification-languages-in-chip-and-se",
+        "research-sat-and-smt-solvers-applications-in-software",
         "semieng-2026-bare-ai-monitors",
         "techpaper-2026-eda-formal-monitors",
         "techpaper-2026-hbm-chiplet-resilience"
@@ -318,6 +389,8 @@
     },
     {
       "chunk_ids": [
+        "arxiv-1610.00502#chunk-02",
+        "arxiv-1610.00502#chunk-03",
         "arxiv-2208.03699#chunk-01",
         "arxiv-2503.19174#chunk-01",
         "arxiv-2503.19174#chunk-03",
@@ -329,16 +402,19 @@
         "research-formal-verification-languages-in-chip-and-se#chunk-01",
         "research-formal-verification-languages-in-chip-and-se#chunk-02",
         "research-formal-verification-languages-in-chip-and-se#chunk-03",
+        "research-sat-and-smt-solvers-applications-in-software#chunk-03",
         "techpaper-2026-hbm-chiplet-resilience#chunk-02"
       ],
       "description": "Compiler and runtime memory-safety mechanisms, capability pointers, and bounds metadata.",
       "document_ids": [
+        "arxiv-1610.00502",
         "arxiv-2208.03699",
         "arxiv-2503.19174",
         "arxiv-2609.26751",
         "arxiv-2610.33748",
         "note-2026-cross-layer-bitflip-synthesis",
         "research-formal-verification-languages-in-chip-and-se",
+        "research-sat-and-smt-solvers-applications-in-software",
         "techpaper-2026-hbm-chiplet-resilience"
       ],
       "label": "Memory Safety & Software Capabilities",
@@ -349,6 +425,8 @@
     },
     {
       "chunk_ids": [
+        "arxiv-1610.00502#chunk-01",
+        "arxiv-1610.00502#chunk-02",
         "arxiv-2604.23100#chunk-02",
         "arxiv-2610.08739v2#chunk-02",
         "arxiv-2610.08739v2#chunk-03",
@@ -361,6 +439,7 @@
       ],
       "description": "Online anomaly localization and statistical weight repair without full model retraining.",
       "document_ids": [
+        "arxiv-1610.00502",
         "arxiv-2604.23100",
         "arxiv-2610.08739v2",
         "note-2026-cross-layer-bitflip-synthesis",
@@ -440,6 +519,165 @@
       "parent_path": "Artificial Intelligence & Machine Learning",
       "path": "Artificial Intelligence & Machine Learning > Deep Neural Networks",
       "technology_area": "Deep Learning Architectures"
+    },
+    {
+      "chunk_ids": [
+        "arxiv-1402.4677#chunk-01",
+        "arxiv-1402.4677#chunk-02",
+        "arxiv-1402.4677#chunk-03",
+        "arxiv-1507.01763#chunk-01",
+        "arxiv-1507.01763#chunk-02",
+        "arxiv-1507.01763#chunk-03",
+        "arxiv-1610.00502#chunk-01",
+        "arxiv-1610.00502#chunk-02",
+        "arxiv-1610.00502#chunk-03",
+        "arxiv-2201.04663#chunk-01",
+        "arxiv-2201.04663#chunk-02",
+        "arxiv-2201.04663#chunk-03",
+        "arxiv-2208.03699#chunk-02",
+        "arxiv-2503.19174#chunk-01",
+        "arxiv-2503.19174#chunk-02",
+        "arxiv-2604.23100#chunk-01",
+        "arxiv-2604.23100#chunk-02",
+        "arxiv-2604.23100#chunk-03",
+        "arxiv-2609.26751#chunk-02",
+        "note-2026-cross-layer-bitflip-synthesis#chunk-02",
+        "research-formal-verification-languages-in-chip-and-se#chunk-01",
+        "research-formal-verification-languages-in-chip-and-se#chunk-02",
+        "research-formal-verification-languages-in-chip-and-se#chunk-03",
+        "research-sat-and-smt-solvers-applications-in-software#chunk-01",
+        "research-sat-and-smt-solvers-applications-in-software#chunk-02",
+        "research-sat-and-smt-solvers-applications-in-software#chunk-03"
+      ],
+      "description": "Boolean satisfiability (SAT), Satisfiability Modulo Theories (SMT), automated theorem proving, and formal decision procedures.",
+      "document_ids": [
+        "arxiv-1402.4677",
+        "arxiv-1507.01763",
+        "arxiv-1610.00502",
+        "arxiv-2201.04663",
+        "arxiv-2208.03699",
+        "arxiv-2503.19174",
+        "arxiv-2604.23100",
+        "arxiv-2609.26751",
+        "note-2026-cross-layer-bitflip-synthesis",
+        "research-formal-verification-languages-in-chip-and-se",
+        "research-sat-and-smt-solvers-applications-in-software"
+      ],
+      "label": "Formal Methods & Automated Reasoning",
+      "ontologic_class_uri": "ontologic:FormalMethodsAutomatedReasoning",
+      "parent_path": null,
+      "path": "Formal Methods & Automated Reasoning",
+      "technology_area": "Automated Reasoning & Mathematical Logic"
+    },
+    {
+      "chunk_ids": [
+        "arxiv-1402.4677#chunk-01",
+        "arxiv-1402.4677#chunk-02",
+        "arxiv-1402.4677#chunk-03",
+        "arxiv-1507.01763#chunk-01",
+        "arxiv-1507.01763#chunk-02",
+        "arxiv-1610.00502#chunk-01",
+        "arxiv-1610.00502#chunk-02",
+        "arxiv-1610.00502#chunk-03",
+        "arxiv-2201.04663#chunk-01",
+        "arxiv-2201.04663#chunk-02",
+        "arxiv-2201.04663#chunk-03",
+        "arxiv-2208.03699#chunk-02",
+        "research-formal-verification-languages-in-chip-and-se#chunk-02",
+        "research-sat-and-smt-solvers-applications-in-software#chunk-01",
+        "research-sat-and-smt-solvers-applications-in-software#chunk-02",
+        "research-sat-and-smt-solvers-applications-in-software#chunk-03"
+      ],
+      "description": "Conflict-Driven Clause Learning (CDCL) SAT engines and DPLL(T) SMT solvers over bit-vectors, arrays, strings, linear arithmetic, and algebraic datatypes.",
+      "document_ids": [
+        "arxiv-1402.4677",
+        "arxiv-1507.01763",
+        "arxiv-1610.00502",
+        "arxiv-2201.04663",
+        "arxiv-2208.03699",
+        "research-formal-verification-languages-in-chip-and-se",
+        "research-sat-and-smt-solvers-applications-in-software"
+      ],
+      "label": "SAT & SMT Solvers",
+      "ontologic_class_uri": "ontologic:SATAndSMTSolvers",
+      "parent_path": "Formal Methods & Automated Reasoning",
+      "path": "Formal Methods & Automated Reasoning > SAT & SMT Solvers",
+      "technology_area": "SAT & SMT Decision Procedures"
+    },
+    {
+      "chunk_ids": [
+        "arxiv-1610.00502#chunk-01",
+        "arxiv-1610.00502#chunk-02",
+        "arxiv-1610.00502#chunk-03",
+        "arxiv-2201.04663#chunk-03",
+        "arxiv-2208.03699#chunk-02",
+        "research-sat-and-smt-solvers-applications-in-software#chunk-01",
+        "research-sat-and-smt-solvers-applications-in-software#chunk-02"
+      ],
+      "description": "SAT/SMT-backed symbolic execution, bounded software model checking, deductive verification, and automated test generation.",
+      "document_ids": [
+        "arxiv-1610.00502",
+        "arxiv-2201.04663",
+        "arxiv-2208.03699",
+        "research-sat-and-smt-solvers-applications-in-software"
+      ],
+      "label": "Software Verification & Symbolic Execution",
+      "ontologic_class_uri": "ontologic:SoftwareVerificationSymbolicExecution",
+      "parent_path": "Formal Methods & Automated Reasoning > SAT & SMT Solvers",
+      "path": "Formal Methods & Automated Reasoning > SAT & SMT Solvers > Software Verification & Symbolic Execution",
+      "technology_area": "Software Verification & Program Analysis"
+    },
+    {
+      "chunk_ids": [
+        "arxiv-1402.4677#chunk-01",
+        "arxiv-1402.4677#chunk-02",
+        "arxiv-1402.4677#chunk-03",
+        "arxiv-2201.04663#chunk-02",
+        "research-sat-and-smt-solvers-applications-in-software#chunk-01",
+        "research-sat-and-smt-solvers-applications-in-software#chunk-02"
+      ],
+      "description": "SMT decision procedures equipped with native graph predicates (reachability, shortest path, max-flow, acyclicity) for graph analysis and network synthesis.",
+      "document_ids": [
+        "arxiv-1402.4677",
+        "arxiv-2201.04663",
+        "research-sat-and-smt-solvers-applications-in-software"
+      ],
+      "label": "Graph Theory Modulo Theories",
+      "ontologic_class_uri": "ontologic:GraphTheoryModuloTheories",
+      "parent_path": "Formal Methods & Automated Reasoning > SAT & SMT Solvers",
+      "path": "Formal Methods & Automated Reasoning > SAT & SMT Solvers > Graph Theory Modulo Theories",
+      "technology_area": "Graph Analysis & Combinatorial Optimization"
+    },
+    {
+      "chunk_ids": [
+        "arxiv-1402.4677#chunk-03",
+        "arxiv-1507.01763#chunk-01",
+        "arxiv-1507.01763#chunk-02",
+        "arxiv-1507.01763#chunk-03",
+        "arxiv-2201.04663#chunk-02",
+        "arxiv-2503.19174#chunk-02",
+        "note-2026-cross-layer-bitflip-synthesis#chunk-02",
+        "research-formal-verification-languages-in-chip-and-se#chunk-02",
+        "research-formal-verification-languages-in-chip-and-se#chunk-03",
+        "research-sat-and-smt-solvers-applications-in-software#chunk-01",
+        "research-sat-and-smt-solvers-applications-in-software#chunk-02",
+        "research-sat-and-smt-solvers-applications-in-software#chunk-03"
+      ],
+      "description": "Formal ontologies, Description Logics (OWL, EL, ALC), SHACL shape validation, and SAT/SMT-driven TBox/ABox consistency and subsumption reasoning.",
+      "document_ids": [
+        "arxiv-1402.4677",
+        "arxiv-1507.01763",
+        "arxiv-2201.04663",
+        "arxiv-2503.19174",
+        "note-2026-cross-layer-bitflip-synthesis",
+        "research-formal-verification-languages-in-chip-and-se",
+        "research-sat-and-smt-solvers-applications-in-software"
+      ],
+      "label": "Knowledge Representation & Ontologies",
+      "ontologic_class_uri": "ontologic:KnowledgeRepresentationOntologies",
+      "parent_path": "Formal Methods & Automated Reasoning",
+      "path": "Formal Methods & Automated Reasoning > Knowledge Representation & Ontologies",
+      "technology_area": "Ontologies & Description Logic"
     }
   ]
 }

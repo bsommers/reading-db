@@ -13,6 +13,642 @@
     {
       "predicate": "IN_CATEGORY",
       "properties": {},
+      "source": "chunk:arxiv-1402.4677#chunk-01",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1402.4677#chunk-01",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1402.4677#chunk-01",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers--graph-theory-modulo-theories"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1402.4677#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1402.4677#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1402.4677#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification--formal-verification-languages-and-assertions"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-1402.4677#chunk-01",
+      "target": "concept:monosat-graph-smt"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-1402.4677#chunk-01",
+      "target": "concept:sat-smt-solvers"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-1402.4677#chunk-01",
+      "target": "concept:uclid5"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1402.4677#chunk-02",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1402.4677#chunk-02",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1402.4677#chunk-02",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers--graph-theory-modulo-theories"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-1402.4677#chunk-02",
+      "target": "concept:monosat-graph-smt"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-1402.4677#chunk-02",
+      "target": "concept:sat-smt-solvers"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1402.4677#chunk-03",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1402.4677#chunk-03",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--knowledge-representation-and-ontologies"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1402.4677#chunk-03",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1402.4677#chunk-03",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers--graph-theory-modulo-theories"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1402.4677#chunk-03",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1402.4677#chunk-03",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-1402.4677#chunk-03",
+      "target": "concept:monosat-graph-smt"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-1402.4677#chunk-03",
+      "target": "concept:ontology-smt-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1507.01763#chunk-01",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1507.01763#chunk-01",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--knowledge-representation-and-ontologies"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1507.01763#chunk-01",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1507.01763#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1507.01763#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1507.01763#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification--formal-verification-languages-and-assertions"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-1507.01763#chunk-01",
+      "target": "concept:ontology-smt-reasoning"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-1507.01763#chunk-01",
+      "target": "concept:sat-smt-solvers"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1507.01763#chunk-02",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1507.01763#chunk-02",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--knowledge-representation-and-ontologies"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1507.01763#chunk-02",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1507.01763#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1507.01763#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1507.01763#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification--formal-verification-languages-and-assertions"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-1507.01763#chunk-02",
+      "target": "concept:ontology-smt-reasoning"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-1507.01763#chunk-02",
+      "target": "concept:sat-smt-solvers"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1507.01763#chunk-03",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1507.01763#chunk-03",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--knowledge-representation-and-ontologies"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1507.01763#chunk-03",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1507.01763#chunk-03",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1507.01763#chunk-03",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification--formal-verification-languages-and-assertions"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-1507.01763#chunk-03",
+      "target": "concept:ontology-smt-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1610.00502#chunk-01",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1610.00502#chunk-01",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1610.00502#chunk-01",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers--software-verification-and-symbolic-execution"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1610.00502#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1610.00502#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1610.00502#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1610.00502#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification--formal-verification-languages-and-assertions"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1610.00502#chunk-01",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1610.00502#chunk-01",
+      "target": "taxonomy:security-and-resilience--runtime-fault-localization-and-recovery"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-1610.00502#chunk-01",
+      "target": "concept:asi"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-1610.00502#chunk-01",
+      "target": "concept:sat-smt-solvers"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-1610.00502#chunk-01",
+      "target": "concept:symbolic-execution"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-1610.00502#chunk-01",
+      "target": "concept:uclid5"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1610.00502#chunk-02",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1610.00502#chunk-02",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1610.00502#chunk-02",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers--software-verification-and-symbolic-execution"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1610.00502#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1610.00502#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1610.00502#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification--formal-verification-languages-and-assertions"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1610.00502#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems--memory-and-interconnects"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1610.00502#chunk-02",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1610.00502#chunk-02",
+      "target": "taxonomy:security-and-resilience--memory-safety-and-software-capabilities"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1610.00502#chunk-02",
+      "target": "taxonomy:security-and-resilience--runtime-fault-localization-and-recovery"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-1610.00502#chunk-02",
+      "target": "concept:asi"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-1610.00502#chunk-02",
+      "target": "concept:sat-smt-solvers"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-1610.00502#chunk-02",
+      "target": "concept:symbolic-execution"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-1610.00502#chunk-02",
+      "target": "concept:uclid5"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1610.00502#chunk-03",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1610.00502#chunk-03",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1610.00502#chunk-03",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers--software-verification-and-symbolic-execution"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1610.00502#chunk-03",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1610.00502#chunk-03",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1610.00502#chunk-03",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification--formal-verification-languages-and-assertions"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1610.00502#chunk-03",
+      "target": "taxonomy:hardware-and-semiconductor-systems--memory-and-interconnects"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1610.00502#chunk-03",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1610.00502#chunk-03",
+      "target": "taxonomy:security-and-resilience--memory-safety-and-software-capabilities"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-1610.00502#chunk-03",
+      "target": "concept:sat-smt-solvers"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-1610.00502#chunk-03",
+      "target": "concept:symbolic-execution"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-1610.00502#chunk-03",
+      "target": "concept:uclid5"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2201.04663#chunk-01",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2201.04663#chunk-01",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2201.04663#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2201.04663#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2201.04663#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification--formal-verification-languages-and-assertions"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2201.04663#chunk-01",
+      "target": "concept:sat-smt-solvers"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2201.04663#chunk-01",
+      "target": "concept:uclid5"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2201.04663#chunk-02",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2201.04663#chunk-02",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--knowledge-representation-and-ontologies"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2201.04663#chunk-02",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2201.04663#chunk-02",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers--graph-theory-modulo-theories"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2201.04663#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2201.04663#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2201.04663#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification--formal-verification-languages-and-assertions"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2201.04663#chunk-02",
+      "target": "concept:ontology-smt-reasoning"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2201.04663#chunk-02",
+      "target": "concept:sat-smt-solvers"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2201.04663#chunk-03",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2201.04663#chunk-03",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2201.04663#chunk-03",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers--software-verification-and-symbolic-execution"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2201.04663#chunk-03",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2201.04663#chunk-03",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2201.04663#chunk-03",
+      "target": "concept:sat-smt-solvers"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2201.04663#chunk-03",
+      "target": "concept:symbolic-execution"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
       "source": "chunk:arxiv-2208.03699#chunk-01",
       "target": "taxonomy:hardware-and-semiconductor-systems"
     },
@@ -74,6 +710,24 @@
       "predicate": "IN_CATEGORY",
       "properties": {},
       "source": "chunk:arxiv-2208.03699#chunk-02",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2208.03699#chunk-02",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2208.03699#chunk-02",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers--software-verification-and-symbolic-execution"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2208.03699#chunk-02",
       "target": "taxonomy:hardware-and-semiconductor-systems"
     },
     {
@@ -92,7 +746,19 @@
       "predicate": "MENTIONS_CONCEPT",
       "properties": {},
       "source": "chunk:arxiv-2208.03699#chunk-02",
+      "target": "concept:sat-smt-solvers"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2208.03699#chunk-02",
       "target": "concept:sva"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2208.03699#chunk-02",
+      "target": "concept:symbolic-execution"
     },
     {
       "predicate": "MENTIONS_CONCEPT",
@@ -129,6 +795,12 @@
       "properties": {},
       "source": "chunk:arxiv-2208.03699#chunk-03",
       "target": "concept:uclid5"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2503.19174#chunk-01",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
     },
     {
       "predicate": "IN_CATEGORY",
@@ -176,6 +848,18 @@
       "predicate": "IN_CATEGORY",
       "properties": {},
       "source": "chunk:arxiv-2503.19174#chunk-02",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2503.19174#chunk-02",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--knowledge-representation-and-ontologies"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2503.19174#chunk-02",
       "target": "taxonomy:hardware-and-semiconductor-systems"
     },
     {
@@ -195,6 +879,12 @@
       "properties": {},
       "source": "chunk:arxiv-2503.19174#chunk-02",
       "target": "concept:llm-formal-verification"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2503.19174#chunk-02",
+      "target": "concept:ontology-smt-reasoning"
     },
     {
       "predicate": "MENTIONS_CONCEPT",
@@ -260,6 +950,12 @@
       "predicate": "IN_CATEGORY",
       "properties": {},
       "source": "chunk:arxiv-2604.23100#chunk-01",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2604.23100#chunk-01",
       "target": "taxonomy:hardware-and-semiconductor-systems"
     },
     {
@@ -291,6 +987,12 @@
       "properties": {},
       "source": "chunk:arxiv-2604.23100#chunk-01",
       "target": "concept:sva"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2604.23100#chunk-02",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
     },
     {
       "predicate": "IN_CATEGORY",
@@ -333,6 +1035,12 @@
       "properties": {},
       "source": "chunk:arxiv-2604.23100#chunk-02",
       "target": "concept:sva"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2604.23100#chunk-03",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
     },
     {
       "predicate": "IN_CATEGORY",
@@ -411,6 +1119,12 @@
       "properties": {},
       "source": "chunk:arxiv-2609.26751#chunk-01",
       "target": "concept:sva"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2609.26751#chunk-02",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
     },
     {
       "predicate": "IN_CATEGORY",
@@ -1058,6 +1772,18 @@
       "predicate": "IN_CATEGORY",
       "properties": {},
       "source": "chunk:note-2026-cross-layer-bitflip-synthesis#chunk-02",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:note-2026-cross-layer-bitflip-synthesis#chunk-02",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--knowledge-representation-and-ontologies"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:note-2026-cross-layer-bitflip-synthesis#chunk-02",
       "target": "taxonomy:hardware-and-semiconductor-systems"
     },
     {
@@ -1148,6 +1874,12 @@
       "predicate": "MENTIONS_CONCEPT",
       "properties": {},
       "source": "chunk:note-2026-cross-layer-bitflip-synthesis#chunk-02",
+      "target": "concept:ontology-smt-reasoning"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:note-2026-cross-layer-bitflip-synthesis#chunk-02",
       "target": "concept:pulse"
     },
     {
@@ -1155,6 +1887,12 @@
       "properties": {},
       "source": "chunk:note-2026-cross-layer-bitflip-synthesis#chunk-02",
       "target": "concept:rowhammer"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-formal-verification-languages-in-chip-and-se#chunk-01",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
     },
     {
       "predicate": "IN_CATEGORY",
@@ -1220,6 +1958,24 @@
       "predicate": "IN_CATEGORY",
       "properties": {},
       "source": "chunk:research-formal-verification-languages-in-chip-and-se#chunk-02",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-formal-verification-languages-in-chip-and-se#chunk-02",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--knowledge-representation-and-ontologies"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-formal-verification-languages-in-chip-and-se#chunk-02",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-formal-verification-languages-in-chip-and-se#chunk-02",
       "target": "taxonomy:hardware-and-semiconductor-systems"
     },
     {
@@ -1262,6 +2018,18 @@
       "predicate": "MENTIONS_CONCEPT",
       "properties": {},
       "source": "chunk:research-formal-verification-languages-in-chip-and-se#chunk-02",
+      "target": "concept:ontology-smt-reasoning"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:research-formal-verification-languages-in-chip-and-se#chunk-02",
+      "target": "concept:sat-smt-solvers"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:research-formal-verification-languages-in-chip-and-se#chunk-02",
       "target": "concept:sva"
     },
     {
@@ -1281,6 +2049,18 @@
       "properties": {},
       "source": "chunk:research-formal-verification-languages-in-chip-and-se#chunk-03",
       "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-formal-verification-languages-in-chip-and-se#chunk-03",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-formal-verification-languages-in-chip-and-se#chunk-03",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--knowledge-representation-and-ontologies"
     },
     {
       "predicate": "IN_CATEGORY",
@@ -1364,6 +2144,12 @@
       "predicate": "MENTIONS_CONCEPT",
       "properties": {},
       "source": "chunk:research-formal-verification-languages-in-chip-and-se#chunk-03",
+      "target": "concept:ontology-smt-reasoning"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:research-formal-verification-languages-in-chip-and-se#chunk-03",
       "target": "concept:pulse"
     },
     {
@@ -1371,6 +2157,258 @@
       "properties": {},
       "source": "chunk:research-formal-verification-languages-in-chip-and-se#chunk-03",
       "target": "concept:rowhammer"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-sat-and-smt-solvers-applications-in-software#chunk-01",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-sat-and-smt-solvers-applications-in-software#chunk-01",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--knowledge-representation-and-ontologies"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-sat-and-smt-solvers-applications-in-software#chunk-01",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-sat-and-smt-solvers-applications-in-software#chunk-01",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers--graph-theory-modulo-theories"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-sat-and-smt-solvers-applications-in-software#chunk-01",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers--software-verification-and-symbolic-execution"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-sat-and-smt-solvers-applications-in-software#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-sat-and-smt-solvers-applications-in-software#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-sat-and-smt-solvers-applications-in-software#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification--formal-verification-languages-and-assertions"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:research-sat-and-smt-solvers-applications-in-software#chunk-01",
+      "target": "concept:ontology-smt-reasoning"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:research-sat-and-smt-solvers-applications-in-software#chunk-01",
+      "target": "concept:sat-smt-solvers"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:research-sat-and-smt-solvers-applications-in-software#chunk-01",
+      "target": "concept:symbolic-execution"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:research-sat-and-smt-solvers-applications-in-software#chunk-01",
+      "target": "concept:uclid5"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-sat-and-smt-solvers-applications-in-software#chunk-02",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-sat-and-smt-solvers-applications-in-software#chunk-02",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--knowledge-representation-and-ontologies"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-sat-and-smt-solvers-applications-in-software#chunk-02",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-sat-and-smt-solvers-applications-in-software#chunk-02",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers--graph-theory-modulo-theories"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-sat-and-smt-solvers-applications-in-software#chunk-02",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers--software-verification-and-symbolic-execution"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-sat-and-smt-solvers-applications-in-software#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-sat-and-smt-solvers-applications-in-software#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-sat-and-smt-solvers-applications-in-software#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-sat-and-smt-solvers-applications-in-software#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification--formal-verification-languages-and-assertions"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-sat-and-smt-solvers-applications-in-software#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems--memory-and-interconnects"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:research-sat-and-smt-solvers-applications-in-software#chunk-02",
+      "target": "concept:monosat-graph-smt"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:research-sat-and-smt-solvers-applications-in-software#chunk-02",
+      "target": "concept:ontology-smt-reasoning"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:research-sat-and-smt-solvers-applications-in-software#chunk-02",
+      "target": "concept:sat-smt-solvers"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:research-sat-and-smt-solvers-applications-in-software#chunk-02",
+      "target": "concept:symbolic-execution"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:research-sat-and-smt-solvers-applications-in-software#chunk-02",
+      "target": "concept:uclid5"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-sat-and-smt-solvers-applications-in-software#chunk-03",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-sat-and-smt-solvers-applications-in-software#chunk-03",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--knowledge-representation-and-ontologies"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-sat-and-smt-solvers-applications-in-software#chunk-03",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-sat-and-smt-solvers-applications-in-software#chunk-03",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-sat-and-smt-solvers-applications-in-software#chunk-03",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-sat-and-smt-solvers-applications-in-software#chunk-03",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification--formal-verification-languages-and-assertions"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-sat-and-smt-solvers-applications-in-software#chunk-03",
+      "target": "taxonomy:hardware-and-semiconductor-systems--memory-and-interconnects"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-sat-and-smt-solvers-applications-in-software#chunk-03",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-sat-and-smt-solvers-applications-in-software#chunk-03",
+      "target": "taxonomy:security-and-resilience--memory-safety-and-software-capabilities"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:research-sat-and-smt-solvers-applications-in-software#chunk-03",
+      "target": "concept:fil-c"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:research-sat-and-smt-solvers-applications-in-software#chunk-03",
+      "target": "concept:llm-formal-verification"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:research-sat-and-smt-solvers-applications-in-software#chunk-03",
+      "target": "concept:ontology-smt-reasoning"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:research-sat-and-smt-solvers-applications-in-software#chunk-03",
+      "target": "concept:sat-smt-solvers"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:research-sat-and-smt-solvers-applications-in-software#chunk-03",
+      "target": "concept:sva"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:research-sat-and-smt-solvers-applications-in-software#chunk-03",
+      "target": "concept:uclid5"
     },
     {
       "predicate": "IN_CATEGORY",
@@ -2047,6 +3085,42 @@
     {
       "predicate": "IN_CATEGORY",
       "properties": {},
+      "source": "concept:monosat-graph-smt",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers--graph-theory-modulo-theories"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:monosat-graph-smt",
+      "target": "concept:ontology-smt-reasoning"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:monosat-graph-smt",
+      "target": "concept:sat-smt-solvers"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "concept:ontology-smt-reasoning",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--knowledge-representation-and-ontologies"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:ontology-smt-reasoning",
+      "target": "concept:monosat-graph-smt"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:ontology-smt-reasoning",
+      "target": "concept:sat-smt-solvers"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
       "source": "concept:pulse",
       "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators--built-in-performance-monitors"
     },
@@ -2089,6 +3163,36 @@
     {
       "predicate": "IN_CATEGORY",
       "properties": {},
+      "source": "concept:sat-smt-solvers",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:sat-smt-solvers",
+      "target": "concept:monosat-graph-smt"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:sat-smt-solvers",
+      "target": "concept:ontology-smt-reasoning"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:sat-smt-solvers",
+      "target": "concept:symbolic-execution"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:sat-smt-solvers",
+      "target": "concept:uclid5"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
       "source": "concept:sva",
       "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification--formal-verification-languages-and-assertions"
     },
@@ -2107,6 +3211,24 @@
     {
       "predicate": "IN_CATEGORY",
       "properties": {},
+      "source": "concept:symbolic-execution",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers--software-verification-and-symbolic-execution"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:symbolic-execution",
+      "target": "concept:fil-c"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:symbolic-execution",
+      "target": "concept:sat-smt-solvers"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
       "source": "concept:uclid5",
       "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification--formal-verification-languages-and-assertions"
     },
@@ -2121,6 +3243,726 @@
       "properties": {},
       "source": "concept:uclid5",
       "target": "concept:sva"
+    },
+    {
+      "predicate": "AFFILIATED_WITH",
+      "properties": {},
+      "source": "doc:arxiv-1402.4677",
+      "target": "institution:university-of-british-columbia"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-1402.4677",
+      "target": "author:alan-j.-hu"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-1402.4677",
+      "target": "author:holger-h.-hoos"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-1402.4677",
+      "target": "author:noah-bayless"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-1402.4677",
+      "target": "author:sam-bayless"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:arxiv-1402.4677",
+      "target": "chunk:arxiv-1402.4677#chunk-01"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:arxiv-1402.4677",
+      "target": "chunk:arxiv-1402.4677#chunk-02"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:arxiv-1402.4677",
+      "target": "chunk:arxiv-1402.4677#chunk-03"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-1402.4677",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-1402.4677",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--knowledge-representation-and-ontologies"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-1402.4677",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-1402.4677",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers--graph-theory-modulo-theories"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-1402.4677",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-1402.4677",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-1402.4677",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification--formal-verification-languages-and-assertions"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-1402.4677",
+      "target": "tech_area:automated-reasoning-and-mathematical-logic"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-1402.4677",
+      "target": "tech_area:electronic-design-automation"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-1402.4677",
+      "target": "tech_area:formal-verification-and-specification-languages"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-1402.4677",
+      "target": "tech_area:graph-analysis-and-combinatorial-optimization"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-1402.4677",
+      "target": "tech_area:ontologies-and-description-logic"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-1402.4677",
+      "target": "tech_area:sat-and-smt-decision-procedures"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-1402.4677",
+      "target": "tech_area:semiconductor-engineering"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:arxiv-1402.4677",
+      "target": "concept:monosat-graph-smt"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:arxiv-1402.4677",
+      "target": "concept:ontology-smt-reasoning"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:arxiv-1402.4677",
+      "target": "concept:sat-smt-solvers"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:arxiv-1402.4677",
+      "target": "concept:uclid5"
+    },
+    {
+      "predicate": "AFFILIATED_WITH",
+      "properties": {},
+      "source": "doc:arxiv-1507.01763",
+      "target": "institution:university-of-trento"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-1507.01763",
+      "target": "author:michele-vescovi"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-1507.01763",
+      "target": "author:roberto-sebastiani"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:arxiv-1507.01763",
+      "target": "doc:arxiv-1402.4677"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:arxiv-1507.01763",
+      "target": "doc:arxiv-2201.04663"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:arxiv-1507.01763",
+      "target": "chunk:arxiv-1507.01763#chunk-01"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:arxiv-1507.01763",
+      "target": "chunk:arxiv-1507.01763#chunk-02"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:arxiv-1507.01763",
+      "target": "chunk:arxiv-1507.01763#chunk-03"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-1507.01763",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-1507.01763",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--knowledge-representation-and-ontologies"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-1507.01763",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-1507.01763",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-1507.01763",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-1507.01763",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification--formal-verification-languages-and-assertions"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-1507.01763",
+      "target": "tech_area:automated-reasoning-and-mathematical-logic"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-1507.01763",
+      "target": "tech_area:electronic-design-automation"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-1507.01763",
+      "target": "tech_area:formal-verification-and-specification-languages"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-1507.01763",
+      "target": "tech_area:ontologies-and-description-logic"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-1507.01763",
+      "target": "tech_area:sat-and-smt-decision-procedures"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-1507.01763",
+      "target": "tech_area:semiconductor-engineering"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:arxiv-1507.01763",
+      "target": "concept:ontology-smt-reasoning"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:arxiv-1507.01763",
+      "target": "concept:sat-smt-solvers"
+    },
+    {
+      "predicate": "AFFILIATED_WITH",
+      "properties": {},
+      "source": "doc:arxiv-1610.00502",
+      "target": "institution:sapienza-university-of-rome"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-1610.00502",
+      "target": "author:camil-demetrescu"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-1610.00502",
+      "target": "author:daniele-coniglio"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-1610.00502",
+      "target": "author:emilio-coppa"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-1610.00502",
+      "target": "author:irene-finocchi"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-1610.00502",
+      "target": "author:roberto-baldoni"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:arxiv-1610.00502",
+      "target": "doc:arxiv-2201.04663"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:arxiv-1610.00502",
+      "target": "chunk:arxiv-1610.00502#chunk-01"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:arxiv-1610.00502",
+      "target": "chunk:arxiv-1610.00502#chunk-02"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:arxiv-1610.00502",
+      "target": "chunk:arxiv-1610.00502#chunk-03"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-1610.00502",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-1610.00502",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-1610.00502",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers--software-verification-and-symbolic-execution"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-1610.00502",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-1610.00502",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-1610.00502",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-1610.00502",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification--formal-verification-languages-and-assertions"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-1610.00502",
+      "target": "taxonomy:hardware-and-semiconductor-systems--memory-and-interconnects"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-1610.00502",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-1610.00502",
+      "target": "taxonomy:security-and-resilience--memory-safety-and-software-capabilities"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-1610.00502",
+      "target": "taxonomy:security-and-resilience--runtime-fault-localization-and-recovery"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-1610.00502",
+      "target": "tech_area:ai-hardware-accelerators"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-1610.00502",
+      "target": "tech_area:automated-reasoning-and-mathematical-logic"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-1610.00502",
+      "target": "tech_area:electronic-design-automation"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-1610.00502",
+      "target": "tech_area:formal-verification-and-specification-languages"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-1610.00502",
+      "target": "tech_area:hardware-and-ai-security"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-1610.00502",
+      "target": "tech_area:language-and-runtime-memory-safety"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-1610.00502",
+      "target": "tech_area:memory-subsystems-and-chiplets"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-1610.00502",
+      "target": "tech_area:sat-and-smt-decision-procedures"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-1610.00502",
+      "target": "tech_area:self-healing-and-fault-tolerant-ai"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-1610.00502",
+      "target": "tech_area:semiconductor-engineering"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-1610.00502",
+      "target": "tech_area:software-verification-and-program-analysis"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:arxiv-1610.00502",
+      "target": "concept:asi"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:arxiv-1610.00502",
+      "target": "concept:sat-smt-solvers"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:arxiv-1610.00502",
+      "target": "concept:symbolic-execution"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:arxiv-1610.00502",
+      "target": "concept:uclid5"
+    },
+    {
+      "predicate": "AFFILIATED_WITH",
+      "properties": {},
+      "source": "doc:arxiv-2201.04663",
+      "target": "institution:stanford-university"
+    },
+    {
+      "predicate": "AFFILIATED_WITH",
+      "properties": {},
+      "source": "doc:arxiv-2201.04663",
+      "target": "institution:university-of-iowa"
+    },
+    {
+      "predicate": "AFFILIATED_WITH",
+      "properties": {},
+      "source": "doc:arxiv-2201.04663",
+      "target": "institution:university-of-oxford"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-2201.04663",
+      "target": "author:aina-niemetz"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-2201.04663",
+      "target": "author:andrew-reynolds"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-2201.04663",
+      "target": "author:cesare-tinelli"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-2201.04663",
+      "target": "author:clark-barrett"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-2201.04663",
+      "target": "author:gereon-kremer"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-2201.04663",
+      "target": "author:haniel-barbosa"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-2201.04663",
+      "target": "author:martin-brain"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-2201.04663",
+      "target": "author:mathias-preiner"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:arxiv-2201.04663",
+      "target": "doc:arxiv-1402.4677"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:arxiv-2201.04663",
+      "target": "doc:arxiv-2208.03699"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:arxiv-2201.04663",
+      "target": "chunk:arxiv-2201.04663#chunk-01"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:arxiv-2201.04663",
+      "target": "chunk:arxiv-2201.04663#chunk-02"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:arxiv-2201.04663",
+      "target": "chunk:arxiv-2201.04663#chunk-03"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2201.04663",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2201.04663",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--knowledge-representation-and-ontologies"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2201.04663",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2201.04663",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers--graph-theory-modulo-theories"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2201.04663",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers--software-verification-and-symbolic-execution"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2201.04663",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2201.04663",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2201.04663",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification--formal-verification-languages-and-assertions"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2201.04663",
+      "target": "tech_area:automated-reasoning-and-mathematical-logic"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2201.04663",
+      "target": "tech_area:electronic-design-automation"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2201.04663",
+      "target": "tech_area:formal-verification-and-specification-languages"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2201.04663",
+      "target": "tech_area:graph-analysis-and-combinatorial-optimization"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2201.04663",
+      "target": "tech_area:ontologies-and-description-logic"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2201.04663",
+      "target": "tech_area:sat-and-smt-decision-procedures"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2201.04663",
+      "target": "tech_area:semiconductor-engineering"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2201.04663",
+      "target": "tech_area:software-verification-and-program-analysis"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:arxiv-2201.04663",
+      "target": "concept:ontology-smt-reasoning"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:arxiv-2201.04663",
+      "target": "concept:sat-smt-solvers"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:arxiv-2201.04663",
+      "target": "concept:symbolic-execution"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:arxiv-2201.04663",
+      "target": "concept:uclid5"
     },
     {
       "predicate": "AFFILIATED_WITH",
@@ -2216,6 +4058,24 @@
       "predicate": "IN_CATEGORY",
       "properties": {},
       "source": "doc:arxiv-2208.03699",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2208.03699",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2208.03699",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers--software-verification-and-symbolic-execution"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2208.03699",
       "target": "taxonomy:hardware-and-semiconductor-systems"
     },
     {
@@ -2270,6 +4130,12 @@
       "predicate": "IN_TECH_AREA",
       "properties": {},
       "source": "doc:arxiv-2208.03699",
+      "target": "tech_area:automated-reasoning-and-mathematical-logic"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2208.03699",
       "target": "tech_area:electronic-design-automation"
     },
     {
@@ -2306,13 +4172,37 @@
       "predicate": "IN_TECH_AREA",
       "properties": {},
       "source": "doc:arxiv-2208.03699",
+      "target": "tech_area:sat-and-smt-decision-procedures"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2208.03699",
       "target": "tech_area:semiconductor-engineering"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2208.03699",
+      "target": "tech_area:software-verification-and-program-analysis"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:arxiv-2208.03699",
+      "target": "concept:sat-smt-solvers"
     },
     {
       "predicate": "MENTIONS_CONCEPT",
       "properties": {},
       "source": "doc:arxiv-2208.03699",
       "target": "concept:sva"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:arxiv-2208.03699",
+      "target": "concept:symbolic-execution"
     },
     {
       "predicate": "MENTIONS_CONCEPT",
@@ -2384,6 +4274,18 @@
       "predicate": "IN_CATEGORY",
       "properties": {},
       "source": "doc:arxiv-2503.19174",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2503.19174",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--knowledge-representation-and-ontologies"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2503.19174",
       "target": "taxonomy:hardware-and-semiconductor-systems"
     },
     {
@@ -2414,6 +4316,12 @@
       "predicate": "IN_TECH_AREA",
       "properties": {},
       "source": "doc:arxiv-2503.19174",
+      "target": "tech_area:automated-reasoning-and-mathematical-logic"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2503.19174",
       "target": "tech_area:electronic-design-automation"
     },
     {
@@ -2438,6 +4346,12 @@
       "predicate": "IN_TECH_AREA",
       "properties": {},
       "source": "doc:arxiv-2503.19174",
+      "target": "tech_area:ontologies-and-description-logic"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2503.19174",
       "target": "tech_area:semiconductor-engineering"
     },
     {
@@ -2445,6 +4359,12 @@
       "properties": {},
       "source": "doc:arxiv-2503.19174",
       "target": "concept:llm-formal-verification"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:arxiv-2503.19174",
+      "target": "concept:ontology-smt-reasoning"
     },
     {
       "predicate": "MENTIONS_CONCEPT",
@@ -2516,6 +4436,12 @@
       "predicate": "IN_CATEGORY",
       "properties": {},
       "source": "doc:arxiv-2604.23100",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2604.23100",
       "target": "taxonomy:hardware-and-semiconductor-systems"
     },
     {
@@ -2565,6 +4491,12 @@
       "properties": {},
       "source": "doc:arxiv-2604.23100",
       "target": "tech_area:ai-hardware-accelerators"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2604.23100",
+      "target": "tech_area:automated-reasoning-and-mathematical-logic"
     },
     {
       "predicate": "IN_TECH_AREA",
@@ -2702,6 +4634,12 @@
       "predicate": "IN_CATEGORY",
       "properties": {},
       "source": "doc:arxiv-2609.26751",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2609.26751",
       "target": "taxonomy:hardware-and-semiconductor-systems"
     },
     {
@@ -2733,6 +4671,12 @@
       "properties": {},
       "source": "doc:arxiv-2609.26751",
       "target": "tech_area:ai-and-machine-learning"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2609.26751",
+      "target": "tech_area:automated-reasoning-and-mathematical-logic"
     },
     {
       "predicate": "IN_TECH_AREA",
@@ -3230,6 +5174,18 @@
       "predicate": "IN_CATEGORY",
       "properties": {},
       "source": "doc:note-2026-cross-layer-bitflip-synthesis",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:note-2026-cross-layer-bitflip-synthesis",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--knowledge-representation-and-ontologies"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:note-2026-cross-layer-bitflip-synthesis",
       "target": "taxonomy:hardware-and-semiconductor-systems"
     },
     {
@@ -3302,6 +5258,12 @@
       "predicate": "IN_TECH_AREA",
       "properties": {},
       "source": "doc:note-2026-cross-layer-bitflip-synthesis",
+      "target": "tech_area:automated-reasoning-and-mathematical-logic"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:note-2026-cross-layer-bitflip-synthesis",
       "target": "tech_area:deep-learning-architectures"
     },
     {
@@ -3333,6 +5295,12 @@
       "properties": {},
       "source": "doc:note-2026-cross-layer-bitflip-synthesis",
       "target": "tech_area:on-chip-telemetry-and-runtime-monitoring"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:note-2026-cross-layer-bitflip-synthesis",
+      "target": "tech_area:ontologies-and-description-logic"
     },
     {
       "predicate": "IN_TECH_AREA",
@@ -3387,6 +5355,12 @@
       "properties": {},
       "source": "doc:note-2026-cross-layer-bitflip-synthesis",
       "target": "concept:fil-c"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:note-2026-cross-layer-bitflip-synthesis",
+      "target": "concept:ontology-smt-reasoning"
     },
     {
       "predicate": "MENTIONS_CONCEPT",
@@ -3494,6 +5468,24 @@
       "predicate": "IN_CATEGORY",
       "properties": {},
       "source": "doc:research-formal-verification-languages-in-chip-and-se",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:research-formal-verification-languages-in-chip-and-se",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--knowledge-representation-and-ontologies"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:research-formal-verification-languages-in-chip-and-se",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:research-formal-verification-languages-in-chip-and-se",
       "target": "taxonomy:hardware-and-semiconductor-systems"
     },
     {
@@ -3566,6 +5558,12 @@
       "predicate": "IN_TECH_AREA",
       "properties": {},
       "source": "doc:research-formal-verification-languages-in-chip-and-se",
+      "target": "tech_area:automated-reasoning-and-mathematical-logic"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:research-formal-verification-languages-in-chip-and-se",
       "target": "tech_area:deep-learning-architectures"
     },
     {
@@ -3603,6 +5601,18 @@
       "properties": {},
       "source": "doc:research-formal-verification-languages-in-chip-and-se",
       "target": "tech_area:on-chip-telemetry-and-runtime-monitoring"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:research-formal-verification-languages-in-chip-and-se",
+      "target": "tech_area:ontologies-and-description-logic"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:research-formal-verification-languages-in-chip-and-se",
+      "target": "tech_area:sat-and-smt-decision-procedures"
     },
     {
       "predicate": "IN_TECH_AREA",
@@ -3656,6 +5666,12 @@
       "predicate": "MENTIONS_CONCEPT",
       "properties": {},
       "source": "doc:research-formal-verification-languages-in-chip-and-se",
+      "target": "concept:ontology-smt-reasoning"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:research-formal-verification-languages-in-chip-and-se",
       "target": "concept:pulse"
     },
     {
@@ -3668,12 +5684,318 @@
       "predicate": "MENTIONS_CONCEPT",
       "properties": {},
       "source": "doc:research-formal-verification-languages-in-chip-and-se",
+      "target": "concept:sat-smt-solvers"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:research-formal-verification-languages-in-chip-and-se",
       "target": "concept:sva"
     },
     {
       "predicate": "MENTIONS_CONCEPT",
       "properties": {},
       "source": "doc:research-formal-verification-languages-in-chip-and-se",
+      "target": "concept:uclid5"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:research-sat-and-smt-solvers-applications-in-software",
+      "target": "author:reading-list-research-engine"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:research-sat-and-smt-solvers-applications-in-software",
+      "target": "doc:arxiv-1402.4677"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:research-sat-and-smt-solvers-applications-in-software",
+      "target": "doc:arxiv-1507.01763"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:research-sat-and-smt-solvers-applications-in-software",
+      "target": "doc:arxiv-1610.00502"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:research-sat-and-smt-solvers-applications-in-software",
+      "target": "doc:arxiv-2201.04663"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:research-sat-and-smt-solvers-applications-in-software",
+      "target": "doc:arxiv-2208.03699"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:research-sat-and-smt-solvers-applications-in-software",
+      "target": "doc:arxiv-2503.19174"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:research-sat-and-smt-solvers-applications-in-software",
+      "target": "doc:arxiv-2604.23100"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:research-sat-and-smt-solvers-applications-in-software",
+      "target": "doc:arxiv-2609.26751"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:research-sat-and-smt-solvers-applications-in-software",
+      "target": "doc:arxiv-2610.08739v2"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:research-sat-and-smt-solvers-applications-in-software",
+      "target": "doc:arxiv-2610.33748"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:research-sat-and-smt-solvers-applications-in-software",
+      "target": "doc:note-2026-cross-layer-bitflip-synthesis"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:research-sat-and-smt-solvers-applications-in-software",
+      "target": "doc:research-formal-verification-languages-in-chip-and-se"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:research-sat-and-smt-solvers-applications-in-software",
+      "target": "doc:semieng-2026-bare-ai-monitors"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:research-sat-and-smt-solvers-applications-in-software",
+      "target": "doc:techpaper-2026-eda-formal-monitors"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:research-sat-and-smt-solvers-applications-in-software",
+      "target": "chunk:research-sat-and-smt-solvers-applications-in-software#chunk-01"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:research-sat-and-smt-solvers-applications-in-software",
+      "target": "chunk:research-sat-and-smt-solvers-applications-in-software#chunk-02"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:research-sat-and-smt-solvers-applications-in-software",
+      "target": "chunk:research-sat-and-smt-solvers-applications-in-software#chunk-03"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:research-sat-and-smt-solvers-applications-in-software",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:research-sat-and-smt-solvers-applications-in-software",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--knowledge-representation-and-ontologies"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:research-sat-and-smt-solvers-applications-in-software",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:research-sat-and-smt-solvers-applications-in-software",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers--graph-theory-modulo-theories"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:research-sat-and-smt-solvers-applications-in-software",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers--software-verification-and-symbolic-execution"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:research-sat-and-smt-solvers-applications-in-software",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:research-sat-and-smt-solvers-applications-in-software",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:research-sat-and-smt-solvers-applications-in-software",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:research-sat-and-smt-solvers-applications-in-software",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification--formal-verification-languages-and-assertions"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:research-sat-and-smt-solvers-applications-in-software",
+      "target": "taxonomy:hardware-and-semiconductor-systems--memory-and-interconnects"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:research-sat-and-smt-solvers-applications-in-software",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:research-sat-and-smt-solvers-applications-in-software",
+      "target": "taxonomy:security-and-resilience--memory-safety-and-software-capabilities"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:research-sat-and-smt-solvers-applications-in-software",
+      "target": "tech_area:ai-hardware-accelerators"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:research-sat-and-smt-solvers-applications-in-software",
+      "target": "tech_area:automated-reasoning-and-mathematical-logic"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:research-sat-and-smt-solvers-applications-in-software",
+      "target": "tech_area:electronic-design-automation"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:research-sat-and-smt-solvers-applications-in-software",
+      "target": "tech_area:formal-verification-and-specification-languages"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:research-sat-and-smt-solvers-applications-in-software",
+      "target": "tech_area:graph-analysis-and-combinatorial-optimization"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:research-sat-and-smt-solvers-applications-in-software",
+      "target": "tech_area:hardware-and-ai-security"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:research-sat-and-smt-solvers-applications-in-software",
+      "target": "tech_area:language-and-runtime-memory-safety"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:research-sat-and-smt-solvers-applications-in-software",
+      "target": "tech_area:memory-subsystems-and-chiplets"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:research-sat-and-smt-solvers-applications-in-software",
+      "target": "tech_area:ontologies-and-description-logic"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:research-sat-and-smt-solvers-applications-in-software",
+      "target": "tech_area:sat-and-smt-decision-procedures"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:research-sat-and-smt-solvers-applications-in-software",
+      "target": "tech_area:semiconductor-engineering"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:research-sat-and-smt-solvers-applications-in-software",
+      "target": "tech_area:software-verification-and-program-analysis"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:research-sat-and-smt-solvers-applications-in-software",
+      "target": "concept:fil-c"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:research-sat-and-smt-solvers-applications-in-software",
+      "target": "concept:llm-formal-verification"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:research-sat-and-smt-solvers-applications-in-software",
+      "target": "concept:monosat-graph-smt"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:research-sat-and-smt-solvers-applications-in-software",
+      "target": "concept:ontology-smt-reasoning"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:research-sat-and-smt-solvers-applications-in-software",
+      "target": "concept:sat-smt-solvers"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:research-sat-and-smt-solvers-applications-in-software",
+      "target": "concept:sva"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:research-sat-and-smt-solvers-applications-in-software",
+      "target": "concept:symbolic-execution"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:research-sat-and-smt-solvers-applications-in-software",
       "target": "concept:uclid5"
     },
     {
@@ -4285,6 +6607,60 @@
     {
       "predicate": "IN_TECH_AREA",
       "properties": {},
+      "source": "taxonomy:formal-methods-and-automated-reasoning",
+      "target": "tech_area:automated-reasoning-and-mathematical-logic"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "taxonomy:formal-methods-and-automated-reasoning--knowledge-representation-and-ontologies",
+      "target": "tech_area:ontologies-and-description-logic"
+    },
+    {
+      "predicate": "SUBCATEGORY_OF",
+      "properties": {},
+      "source": "taxonomy:formal-methods-and-automated-reasoning--knowledge-representation-and-ontologies",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers",
+      "target": "tech_area:sat-and-smt-decision-procedures"
+    },
+    {
+      "predicate": "SUBCATEGORY_OF",
+      "properties": {},
+      "source": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers--graph-theory-modulo-theories",
+      "target": "tech_area:graph-analysis-and-combinatorial-optimization"
+    },
+    {
+      "predicate": "SUBCATEGORY_OF",
+      "properties": {},
+      "source": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers--graph-theory-modulo-theories",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers--software-verification-and-symbolic-execution",
+      "target": "tech_area:software-verification-and-program-analysis"
+    },
+    {
+      "predicate": "SUBCATEGORY_OF",
+      "properties": {},
+      "source": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers--software-verification-and-symbolic-execution",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
       "source": "taxonomy:hardware-and-semiconductor-systems",
       "target": "tech_area:semiconductor-engineering"
     },
@@ -4399,8 +6775,26 @@
       "properties": {}
     },
     {
+      "label": "Aina Niemetz",
+      "node_id": "author:aina-niemetz",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Alan J. Hu",
+      "node_id": "author:alan-j.-hu",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
       "label": "Amir Naseredini",
       "node_id": "author:amir-naseredini",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Andrew Reynolds",
+      "node_id": "author:andrew-reynolds",
       "node_type": "Author",
       "properties": {}
     },
@@ -4413,6 +6807,30 @@
     {
       "label": "Bill Sommers",
       "node_id": "author:bill-sommers",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Camil Demetrescu",
+      "node_id": "author:camil-demetrescu",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Cesare Tinelli",
+      "node_id": "author:cesare-tinelli",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Clark Barrett",
+      "node_id": "author:clark-barrett",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Daniele Coniglio",
+      "node_id": "author:daniele-coniglio",
       "node_type": "Author",
       "properties": {}
     },
@@ -4435,6 +6853,12 @@
       "properties": {}
     },
     {
+      "label": "Emilio Coppa",
+      "node_id": "author:emilio-coppa",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
       "label": "Federico Mora",
       "node_id": "author:federico-mora",
       "node_type": "Author",
@@ -4443,6 +6867,12 @@
     {
       "label": "FNU Aditi",
       "node_id": "author:fnu-aditi",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Gereon Kremer",
+      "node_id": "author:gereon-kremer",
       "node_type": "Author",
       "properties": {}
     },
@@ -4459,8 +6889,26 @@
       "properties": {}
     },
     {
+      "label": "Haniel Barbosa",
+      "node_id": "author:haniel-barbosa",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
       "label": "Haoxing Ren",
       "node_id": "author:haoxing-ren",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Holger H. Hoos",
+      "node_id": "author:holger-h.-hoos",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Irene Finocchi",
+      "node_id": "author:irene-finocchi",
       "node_type": "Author",
       "properties": {}
     },
@@ -4495,6 +6943,30 @@
       "properties": {}
     },
     {
+      "label": "Martin Brain",
+      "node_id": "author:martin-brain",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Mathias Preiner",
+      "node_id": "author:mathias-preiner",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Michele Vescovi",
+      "node_id": "author:michele-vescovi",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Noah Bayless",
+      "node_id": "author:noah-bayless",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
       "label": "Nowfel Mashnoor",
       "node_id": "author:nowfel-mashnoor",
       "node_type": "Author",
@@ -4519,8 +6991,26 @@
       "properties": {}
     },
     {
+      "label": "Roberto Baldoni",
+      "node_id": "author:roberto-baldoni",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Roberto Sebastiani",
+      "node_id": "author:roberto-sebastiani",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
       "label": "Rohan Sharma",
       "node_id": "author:rohan-sharma",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Sam Bayless",
+      "node_id": "author:sam-bayless",
       "node_type": "Author",
       "properties": {}
     },
@@ -4595,6 +7085,126 @@
       "node_id": "author:yunsheng-bai",
       "node_type": "Author",
       "properties": {}
+    },
+    {
+      "label": "arxiv-1402.4677: Graph Analysis & Monotonic Theories in SMT",
+      "node_id": "chunk:arxiv-1402.4677#chunk-01",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "arxiv-1402.4677#chunk-01",
+        "heading": "Graph Analysis & Monotonic Theories in SMT",
+        "token_count": 61
+      }
+    },
+    {
+      "label": "arxiv-1402.4677: Under- and Over-Approximation Theory Propagation",
+      "node_id": "chunk:arxiv-1402.4677#chunk-02",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "arxiv-1402.4677#chunk-02",
+        "heading": "Under- and Over-Approximation Theory Propagation",
+        "token_count": 50
+      }
+    },
+    {
+      "label": "arxiv-1402.4677: Applications in Network Verification, Routing & Ontology Graphs",
+      "node_id": "chunk:arxiv-1402.4677#chunk-03",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "arxiv-1402.4677#chunk-03",
+        "heading": "Applications in Network Verification, Routing & Ontology Graphs",
+        "token_count": 26
+      }
+    },
+    {
+      "label": "arxiv-1507.01763: Encoding OWL Ontologies & Description Logics into SAT/SMT",
+      "node_id": "chunk:arxiv-1507.01763#chunk-01",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "arxiv-1507.01763#chunk-01",
+        "heading": "Encoding OWL Ontologies & Description Logics into SAT/SMT",
+        "token_count": 50
+      }
+    },
+    {
+      "label": "arxiv-1507.01763: Concrete Domains & Numerical Constraints via SMT",
+      "node_id": "chunk:arxiv-1507.01763#chunk-02",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "arxiv-1507.01763#chunk-02",
+        "heading": "Concrete Domains & Numerical Constraints via SMT",
+        "token_count": 44
+      }
+    },
+    {
+      "label": "arxiv-1507.01763: OntoLogic Integration & Knowledge Graph Verification",
+      "node_id": "chunk:arxiv-1507.01763#chunk-03",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "arxiv-1507.01763#chunk-03",
+        "heading": "OntoLogic Integration & Knowledge Graph Verification",
+        "token_count": 18
+      }
+    },
+    {
+      "label": "arxiv-1610.00502: Path-Constraint Solving with SAT and SMT Solvers",
+      "node_id": "chunk:arxiv-1610.00502#chunk-01",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "arxiv-1610.00502#chunk-01",
+        "heading": "Path-Constraint Solving with SAT and SMT Solvers",
+        "token_count": 60
+      }
+    },
+    {
+      "label": "arxiv-1610.00502: Constraint Caching, Slicing & Heap Graph Modeling",
+      "node_id": "chunk:arxiv-1610.00502#chunk-02",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "arxiv-1610.00502#chunk-02",
+        "heading": "Constraint Caching, Slicing & Heap Graph Modeling",
+        "token_count": 38
+      }
+    },
+    {
+      "label": "arxiv-1610.00502: Memory Safety & Security Vulnerability Detection",
+      "node_id": "chunk:arxiv-1610.00502#chunk-03",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "arxiv-1610.00502#chunk-03",
+        "heading": "Memory Safety & Security Vulnerability Detection",
+        "token_count": 23
+      }
+    },
+    {
+      "label": "arxiv-2201.04663: Next-Generation DPLL(T) SMT Architecture",
+      "node_id": "chunk:arxiv-2201.04663#chunk-01",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "arxiv-2201.04663#chunk-01",
+        "heading": "Next-Generation DPLL(T) SMT Architecture",
+        "token_count": 44
+      }
+    },
+    {
+      "label": "arxiv-2201.04663: Finite Sets, Relations & Ontology Constraint Solving",
+      "node_id": "chunk:arxiv-2201.04663#chunk-02",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "arxiv-2201.04663#chunk-02",
+        "heading": "Finite Sets, Relations & Ontology Constraint Solving",
+        "token_count": 53
+      }
+    },
+    {
+      "label": "arxiv-2201.04663: Software Development & Deductive Verification",
+      "node_id": "chunk:arxiv-2201.04663#chunk-03",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "arxiv-2201.04663#chunk-03",
+        "heading": "Software Development & Deductive Verification",
+        "token_count": 28
+      }
     },
     {
       "label": "arxiv-2208.03699: Multi-Modal Formal Modeling Language for Hardware & Systems",
@@ -4847,6 +7457,36 @@
       }
     },
     {
+      "label": "research-sat-and-smt-solvers-applications-in-software: SAT & SMT Decision Procedures Across Software, Graphs, and Ontologies: SAT and SMT solvers applications in software development, graph analysis, and ontologies",
+      "node_id": "chunk:research-sat-and-smt-solvers-applications-in-software#chunk-01",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "research-sat-and-smt-solvers-applications-in-software#chunk-01",
+        "heading": "SAT & SMT Decision Procedures Across Software, Graphs, and Ontologies: SAT and SMT solvers applications in software development, graph analysis, and ontologies",
+        "token_count": 59
+      }
+    },
+    {
+      "label": "research-sat-and-smt-solvers-applications-in-software: Symbolic Execution, Monotonic Graph Theories & Description Logics",
+      "node_id": "chunk:research-sat-and-smt-solvers-applications-in-software#chunk-02",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "research-sat-and-smt-solvers-applications-in-software#chunk-02",
+        "heading": "Symbolic Execution, Monotonic Graph Theories & Description Logics",
+        "token_count": 134
+      }
+    },
+    {
+      "label": "research-sat-and-smt-solvers-applications-in-software: Cross-Domain Integration in the Reading-DB Knowledge Graph",
+      "node_id": "chunk:research-sat-and-smt-solvers-applications-in-software#chunk-03",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "research-sat-and-smt-solvers-applications-in-software#chunk-03",
+        "heading": "Cross-Domain Integration in the Reading-DB Knowledge Graph",
+        "token_count": 27
+      }
+    },
+    {
       "label": "semieng-2026-bare-ai-monitors: Research Brief Overview",
       "node_id": "chunk:semieng-2026-bare-ai-monitors#chunk-01",
       "node_type": "SemanticChunk",
@@ -5017,6 +7657,26 @@
       }
     },
     {
+      "label": "Graph Theory Modulo Theories (MonoSAT)",
+      "node_id": "concept:monosat-graph-smt",
+      "node_type": "Concept",
+      "properties": {
+        "description": "SMT extension with monotonic graph predicates (reachability, shortest paths, max-flow, DAG acyclicity) enabling scalable graph analysis.",
+        "taxonomy_path": "Formal Methods & Automated Reasoning > SAT & SMT Solvers > Graph Theory Modulo Theories",
+        "technology_area": "Graph Analysis & Combinatorial Optimization"
+      }
+    },
+    {
+      "label": "Ontology & Description Logic Reasoning via SAT/SMT (OWL, EL, SHACL)",
+      "node_id": "concept:ontology-smt-reasoning",
+      "node_type": "Concept",
+      "properties": {
+        "description": "Encoding formal ontologies (OWL, Description Logics EL/ALC, SHACL, OntoLogic) into SAT and SMT to verify consistency, subsumption, and constraints.",
+        "taxonomy_path": "Formal Methods & Automated Reasoning > Knowledge Representation & Ontologies",
+        "technology_area": "Ontologies & Description Logic"
+      }
+    },
+    {
       "label": "PULSE Detector",
       "node_id": "concept:pulse",
       "node_type": "Concept",
@@ -5037,6 +7697,16 @@
       }
     },
     {
+      "label": "SAT & SMT Solvers (Z3, cvc5, CDCL, DPLL(T))",
+      "node_id": "concept:sat-smt-solvers",
+      "node_type": "Concept",
+      "properties": {
+        "description": "Conflict-Driven Clause Learning (CDCL) SAT solvers and DPLL(T) Satisfiability Modulo Theories (SMT) engines such as Z3 and cvc5.",
+        "taxonomy_path": "Formal Methods & Automated Reasoning > SAT & SMT Solvers",
+        "technology_area": "SAT & SMT Decision Procedures"
+      }
+    },
+    {
       "label": "SystemVerilog Assertions (SVA) & PSL",
       "node_id": "concept:sva",
       "node_type": "Concept",
@@ -5047,6 +7717,16 @@
       }
     },
     {
+      "label": "Symbolic Execution & Software Verification (KLEE, CBMC, Dafny)",
+      "node_id": "concept:symbolic-execution",
+      "node_type": "Concept",
+      "properties": {
+        "description": "SMT-backed symbolic execution, path-constraint solving, and bounded model checking for automated bug finding and software verification.",
+        "taxonomy_path": "Formal Methods & Automated Reasoning > SAT & SMT Solvers > Software Verification & Symbolic Execution",
+        "technology_area": "Software Verification & Program Analysis"
+      }
+    },
+    {
       "label": "UCLID5, Kami & ChiselFV Formal Hardware Languages",
       "node_id": "concept:uclid5",
       "node_type": "Concept",
@@ -5054,6 +7734,114 @@
         "description": "Formal verification, modeling, and theorem-proving languages (UCLID5, Coq/Kami, ChiselFV) for hardware architecture and RTL verification.",
         "taxonomy_path": "Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions",
         "technology_area": "Formal Verification & Specification Languages"
+      }
+    },
+    {
+      "label": "MonoSAT: Modulo Theories for Graphs, Networks, and Geometry",
+      "node_id": "doc:arxiv-1402.4677",
+      "node_type": "Document",
+      "properties": {
+        "doc_id": "arxiv-1402.4677",
+        "doc_type": "academic_paper",
+        "identifiers": {
+          "arxiv": "1402.4677",
+          "pdf_url": "https://arxiv.org/pdf/1402.4677",
+          "primary_category": "cs.LO"
+        },
+        "notes": "Pioneering SMT framework (DPLL(T)) for finite monotonic theories supporting native graph predicates (reachability, shortest path, max-flow, acyclicity).",
+        "priority": "high",
+        "published_date": "2015-01-25",
+        "reading_status": "read",
+        "tags": [
+          "monosat",
+          "smt",
+          "sat",
+          "graph-analysis",
+          "monotonic-theories",
+          "reachability"
+        ],
+        "url": "https://arxiv.org/abs/1402.4677"
+      }
+    },
+    {
+      "label": "SAT and SMT-Based Automated Reasoning for Description Logics and Formal Ontologies",
+      "node_id": "doc:arxiv-1507.01763",
+      "node_type": "Document",
+      "properties": {
+        "doc_id": "arxiv-1507.01763",
+        "doc_type": "academic_paper",
+        "identifiers": {
+          "arxiv": "1507.01763",
+          "pdf_url": "https://arxiv.org/pdf/1507.01763",
+          "primary_category": "cs.AI"
+        },
+        "notes": "Demonstrates how encoding Description Logic (EL+/ALC) TBox/ABox ontologies into CDCL SAT and SMT enables ultra-fast classification, subsumption, and datatype constraint checking.",
+        "priority": "high",
+        "published_date": "2015-07-07",
+        "reading_status": "to-read",
+        "tags": [
+          "ontologies",
+          "description-logic",
+          "owl",
+          "sat",
+          "smt",
+          "ontologic"
+        ],
+        "url": "https://arxiv.org/abs/1507.01763"
+      }
+    },
+    {
+      "label": "A Survey of Symbolic Execution Techniques for Software Development and Verification",
+      "node_id": "doc:arxiv-1610.00502",
+      "node_type": "Document",
+      "properties": {
+        "doc_id": "arxiv-1610.00502",
+        "doc_type": "academic_paper",
+        "identifiers": {
+          "arxiv": "1610.00502",
+          "pdf_url": "https://arxiv.org/pdf/1610.00502",
+          "primary_category": "cs.SE"
+        },
+        "notes": "Comprehensive study of SAT/SMT constraint solving in symbolic execution (KLEE, SAGE, Angr) for automated test generation and vulnerability discovery.",
+        "priority": "high",
+        "published_date": "2018-05-07",
+        "reading_status": "to-read",
+        "tags": [
+          "symbolic-execution",
+          "smt",
+          "sat",
+          "klee",
+          "software-development",
+          "program-analysis"
+        ],
+        "url": "https://arxiv.org/abs/1610.00502"
+      }
+    },
+    {
+      "label": "cvc5: A Versatile and Industrial-Strength SMT Solver",
+      "node_id": "doc:arxiv-2201.04663",
+      "node_type": "Document",
+      "properties": {
+        "doc_id": "arxiv-2201.04663",
+        "doc_type": "academic_paper",
+        "identifiers": {
+          "arxiv": "2201.04663",
+          "pdf_url": "https://arxiv.org/pdf/2201.04663",
+          "primary_category": "cs.LO"
+        },
+        "notes": "Industrial-strength DPLL(T) SMT and SyGuS solver supporting strings, finite sets, relations, bit-vectors, and algebraic datatypes.",
+        "priority": "high",
+        "published_date": "2022-01-13",
+        "reading_status": "reading",
+        "tags": [
+          "cvc5",
+          "smt",
+          "sat",
+          "sygus",
+          "software-verification",
+          "ontologies"
+        ],
+        "url": "https://arxiv.org/abs/2201.04663"
       }
     },
     {
@@ -5268,6 +8056,34 @@
       }
     },
     {
+      "label": "Research Synthesis: SAT and SMT solvers applications in software development, graph analysis, and ontologies",
+      "node_id": "doc:research-sat-and-smt-solvers-applications-in-software",
+      "node_type": "Document",
+      "properties": {
+        "doc_id": "research-sat-and-smt-solvers-applications-in-software",
+        "doc_type": "note",
+        "identifiers": {
+          "research_topic": "SAT and SMT solvers applications in software development, graph analysis, and ontologies"
+        },
+        "notes": "Automated multi-paper synthesis and taxonomy bridge for topic: 'SAT and SMT solvers applications in software development, graph analysis, and ontologies'.",
+        "priority": "high",
+        "published_date": "2026-11-07",
+        "reading_status": "read",
+        "tags": [
+          "research-synthesis",
+          "sat",
+          "smt",
+          "cvc5",
+          "monosat",
+          "symbolic-execution",
+          "graph-analysis",
+          "ontologies",
+          "ontologic"
+        ],
+        "url": "https://github.com/bsommers/reading-db"
+      }
+    },
+    {
       "label": "On-Chip Monitors Detect Bit-Flip Attacks in AI Accelerators (UF, UT Dallas, RPI)",
       "node_id": "doc:semieng-2026-bare-ai-monitors",
       "node_type": "Document",
@@ -5372,6 +8188,12 @@
       "properties": {}
     },
     {
+      "label": "Sapienza University of Rome",
+      "node_id": "institution:sapienza-university-of-rome",
+      "node_type": "Institution",
+      "properties": {}
+    },
+    {
       "label": "Semiconductor Security Consortium",
       "node_id": "institution:semiconductor-security-consortium",
       "node_type": "Institution",
@@ -5380,6 +8202,12 @@
     {
       "label": "Stanford University",
       "node_id": "institution:stanford-university",
+      "node_type": "Institution",
+      "properties": {}
+    },
+    {
+      "label": "University of British Columbia",
+      "node_id": "institution:university-of-british-columbia",
       "node_type": "Institution",
       "properties": {}
     },
@@ -5402,8 +8230,20 @@
       "properties": {}
     },
     {
+      "label": "University of Iowa",
+      "node_id": "institution:university-of-iowa",
+      "node_type": "Institution",
+      "properties": {}
+    },
+    {
       "label": "University of Michigan",
       "node_id": "institution:university-of-michigan",
+      "node_type": "Institution",
+      "properties": {}
+    },
+    {
+      "label": "University of Oxford",
+      "node_id": "institution:university-of-oxford",
       "node_type": "Institution",
       "properties": {}
     },
@@ -5416,6 +8256,12 @@
     {
       "label": "University of Texas at Dallas",
       "node_id": "institution:university-of-texas-at-dallas",
+      "node_type": "Institution",
+      "properties": {}
+    },
+    {
+      "label": "University of Trento",
+      "node_id": "institution:university-of-trento",
       "node_type": "Institution",
       "properties": {}
     },
@@ -5437,6 +8283,56 @@
         "description": "Deep neural network architectures including CNNs, Vision Transformers, and Large Language Models.",
         "ontologic_class_uri": "ontologic:DeepNeuralNetworks",
         "path": "Artificial Intelligence & Machine Learning > Deep Neural Networks"
+      }
+    },
+    {
+      "label": "Formal Methods & Automated Reasoning",
+      "node_id": "taxonomy:formal-methods-and-automated-reasoning",
+      "node_type": "TaxonomyCategory",
+      "properties": {
+        "description": "Boolean satisfiability (SAT), Satisfiability Modulo Theories (SMT), automated theorem proving, and formal decision procedures.",
+        "ontologic_class_uri": "ontologic:FormalMethodsAutomatedReasoning",
+        "path": "Formal Methods & Automated Reasoning"
+      }
+    },
+    {
+      "label": "Knowledge Representation & Ontologies",
+      "node_id": "taxonomy:formal-methods-and-automated-reasoning--knowledge-representation-and-ontologies",
+      "node_type": "TaxonomyCategory",
+      "properties": {
+        "description": "Formal ontologies, Description Logics (OWL, EL, ALC), SHACL shape validation, and SAT/SMT-driven TBox/ABox consistency and subsumption reasoning.",
+        "ontologic_class_uri": "ontologic:KnowledgeRepresentationOntologies",
+        "path": "Formal Methods & Automated Reasoning > Knowledge Representation & Ontologies"
+      }
+    },
+    {
+      "label": "SAT & SMT Solvers",
+      "node_id": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers",
+      "node_type": "TaxonomyCategory",
+      "properties": {
+        "description": "Conflict-Driven Clause Learning (CDCL) SAT engines and DPLL(T) SMT solvers over bit-vectors, arrays, strings, linear arithmetic, and algebraic datatypes.",
+        "ontologic_class_uri": "ontologic:SATAndSMTSolvers",
+        "path": "Formal Methods & Automated Reasoning > SAT & SMT Solvers"
+      }
+    },
+    {
+      "label": "Graph Theory Modulo Theories",
+      "node_id": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers--graph-theory-modulo-theories",
+      "node_type": "TaxonomyCategory",
+      "properties": {
+        "description": "SMT decision procedures equipped with native graph predicates (reachability, shortest path, max-flow, acyclicity) for graph analysis and network synthesis.",
+        "ontologic_class_uri": "ontologic:GraphTheoryModuloTheories",
+        "path": "Formal Methods & Automated Reasoning > SAT & SMT Solvers > Graph Theory Modulo Theories"
+      }
+    },
+    {
+      "label": "Software Verification & Symbolic Execution",
+      "node_id": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers--software-verification-and-symbolic-execution",
+      "node_type": "TaxonomyCategory",
+      "properties": {
+        "description": "SAT/SMT-backed symbolic execution, bounded software model checking, deductive verification, and automated test generation.",
+        "ontologic_class_uri": "ontologic:SoftwareVerificationSymbolicExecution",
+        "path": "Formal Methods & Automated Reasoning > SAT & SMT Solvers > Software Verification & Symbolic Execution"
       }
     },
     {
@@ -5558,6 +8454,12 @@
       "properties": {}
     },
     {
+      "label": "Automated Reasoning & Mathematical Logic",
+      "node_id": "tech_area:automated-reasoning-and-mathematical-logic",
+      "node_type": "TechnologyArea",
+      "properties": {}
+    },
+    {
       "label": "Deep Learning Architectures",
       "node_id": "tech_area:deep-learning-architectures",
       "node_type": "TechnologyArea",
@@ -5572,6 +8474,12 @@
     {
       "label": "Formal Verification & Specification Languages",
       "node_id": "tech_area:formal-verification-and-specification-languages",
+      "node_type": "TechnologyArea",
+      "properties": {}
+    },
+    {
+      "label": "Graph Analysis & Combinatorial Optimization",
+      "node_id": "tech_area:graph-analysis-and-combinatorial-optimization",
       "node_type": "TechnologyArea",
       "properties": {}
     },
@@ -5600,6 +8508,18 @@
       "properties": {}
     },
     {
+      "label": "Ontologies & Description Logic",
+      "node_id": "tech_area:ontologies-and-description-logic",
+      "node_type": "TechnologyArea",
+      "properties": {}
+    },
+    {
+      "label": "SAT & SMT Decision Procedures",
+      "node_id": "tech_area:sat-and-smt-decision-procedures",
+      "node_type": "TechnologyArea",
+      "properties": {}
+    },
+    {
       "label": "Self-Healing & Fault-Tolerant AI",
       "node_id": "tech_area:self-healing-and-fault-tolerant-ai",
       "node_type": "TechnologyArea",
@@ -5610,10 +8530,16 @@
       "node_id": "tech_area:semiconductor-engineering",
       "node_type": "TechnologyArea",
       "properties": {}
+    },
+    {
+      "label": "Software Verification & Program Analysis",
+      "node_id": "tech_area:software-verification-and-program-analysis",
+      "node_type": "TechnologyArea",
+      "properties": {}
     }
   ],
   "summary": {
-    "edge_count": 730,
-    "node_count": 128
+    "edge_count": 1126,
+    "node_count": 186
   }
 }

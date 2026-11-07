@@ -1,4 +1,963 @@
 {
+  "arxiv-1402.4677": [
+    {
+      "chunk_id": "arxiv-1402.4677#chunk-01",
+      "concept_ids": [
+        "concept:monosat-graph-smt",
+        "concept:sat-smt-solvers",
+        "concept:uclid5"
+      ],
+      "doc_id": "arxiv-1402.4677",
+      "heading": "Graph Analysis & Monotonic Theories in SMT",
+      "key_terms": [
+        {
+          "count": 4,
+          "term": "theories"
+        },
+        {
+          "count": 3,
+          "term": "graph"
+        },
+        {
+          "count": 3,
+          "term": "smt"
+        },
+        {
+          "count": 2,
+          "term": "monosat"
+        },
+        {
+          "count": 2,
+          "term": "monotonic"
+        },
+        {
+          "count": 2,
+          "term": "directly"
+        },
+        {
+          "count": 2,
+          "term": "solver"
+        },
+        {
+          "count": 1,
+          "term": "modulo"
+        },
+        {
+          "count": 1,
+          "term": "graphs"
+        },
+        {
+          "count": 1,
+          "term": "networks"
+        },
+        {
+          "count": 1,
+          "term": "geometry"
+        },
+        {
+          "count": 1,
+          "term": "analysis"
+        }
+      ],
+      "section_index": 1,
+      "taxonomy_paths": [
+        "Formal Methods & Automated Reasoning",
+        "Formal Methods & Automated Reasoning > SAT & SMT Solvers",
+        "Formal Methods & Automated Reasoning > SAT & SMT Solvers > Graph Theory Modulo Theories",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions"
+      ],
+      "technology_areas": [
+        "Automated Reasoning & Mathematical Logic",
+        "Electronic Design Automation",
+        "Formal Verification & Specification Languages",
+        "Graph Analysis & Combinatorial Optimization",
+        "SAT & SMT Decision Procedures",
+        "Semiconductor Engineering"
+      ],
+      "text": "Encoding complex graph-theoretic properties \u2014 such as reachability, shortest paths, maximum s-t flow, minimum spanning trees, and directed acyclic graph (DAG) acyclicity \u2014 directly into Boolean SAT or standard SMT bit-vector/integer theories causes severe formula blowup and poor solver propagation. MonoSAT introduces a general DPLL(T) framework for finite monotonic theories that integrates dedicated incremental graph algorithms directly inside an SMT solver.",
+      "token_count": 61
+    },
+    {
+      "chunk_id": "arxiv-1402.4677#chunk-02",
+      "concept_ids": [
+        "concept:monosat-graph-smt",
+        "concept:sat-smt-solvers"
+      ],
+      "doc_id": "arxiv-1402.4677",
+      "heading": "Under- and Over-Approximation Theory Propagation",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "monosat"
+        },
+        {
+          "count": 2,
+          "term": "clause"
+        },
+        {
+          "count": 1,
+          "term": "over-approximation"
+        },
+        {
+          "count": 1,
+          "term": "theory"
+        },
+        {
+          "count": 1,
+          "term": "propagation"
+        },
+        {
+          "count": 1,
+          "term": "maintains"
+        },
+        {
+          "count": 1,
+          "term": "dual"
+        },
+        {
+          "count": 1,
+          "term": "under-approximating"
+        },
+        {
+          "count": 1,
+          "term": "over-approximating"
+        },
+        {
+          "count": 1,
+          "term": "graphs"
+        },
+        {
+          "count": 1,
+          "term": "boolean"
+        },
+        {
+          "count": 1,
+          "term": "edge"
+        }
+      ],
+      "section_index": 2,
+      "taxonomy_paths": [
+        "Formal Methods & Automated Reasoning",
+        "Formal Methods & Automated Reasoning > SAT & SMT Solvers",
+        "Formal Methods & Automated Reasoning > SAT & SMT Solvers > Graph Theory Modulo Theories"
+      ],
+      "technology_areas": [
+        "Automated Reasoning & Mathematical Logic",
+        "Graph Analysis & Combinatorial Optimization",
+        "SAT & SMT Decision Procedures"
+      ],
+      "text": "MonoSAT maintains dual under-approximating and over-approximating graphs as Boolean edge variables are assigned during Conflict-Driven Clause Learning (CDCL) search. When a graph predicate (such as reachability or cycle-freeness) becomes violated, MonoSAT extracts a succinct conflict clause (cut-set or witness path) in polynomial time, orders of magnitude faster than propositional encodings.",
+      "token_count": 50
+    },
+    {
+      "chunk_id": "arxiv-1402.4677#chunk-03",
+      "concept_ids": [
+        "concept:monosat-graph-smt",
+        "concept:ontology-smt-reasoning"
+      ],
+      "doc_id": "arxiv-1402.4677",
+      "heading": "Applications in Network Verification, Routing & Ontology Graphs",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "network"
+        },
+        {
+          "count": 2,
+          "term": "routing"
+        },
+        {
+          "count": 2,
+          "term": "graphs"
+        },
+        {
+          "count": 1,
+          "term": "applications"
+        },
+        {
+          "count": 1,
+          "term": "verification"
+        },
+        {
+          "count": 1,
+          "term": "ontology"
+        },
+        {
+          "count": 1,
+          "term": "monosat"
+        },
+        {
+          "count": 1,
+          "term": "powers"
+        },
+        {
+          "count": 1,
+          "term": "formal"
+        },
+        {
+          "count": 1,
+          "term": "cloud"
+        },
+        {
+          "count": 1,
+          "term": "reachability"
+        },
+        {
+          "count": 1,
+          "term": "analysis"
+        }
+      ],
+      "section_index": 3,
+      "taxonomy_paths": [
+        "Formal Methods & Automated Reasoning",
+        "Formal Methods & Automated Reasoning > Knowledge Representation & Ontologies",
+        "Formal Methods & Automated Reasoning > SAT & SMT Solvers",
+        "Formal Methods & Automated Reasoning > SAT & SMT Solvers > Graph Theory Modulo Theories",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification"
+      ],
+      "technology_areas": [
+        "Automated Reasoning & Mathematical Logic",
+        "Electronic Design Automation",
+        "Graph Analysis & Combinatorial Optimization",
+        "Ontologies & Description Logic",
+        "SAT & SMT Decision Procedures",
+        "Semiconductor Engineering"
+      ],
+      "text": "MonoSAT powers formal cloud network reachability analysis, circuit routing, dependency graph resolution in software package managers, and structural acyclicity/subsumption checks in large-scale knowledge graphs and ontologies.",
+      "token_count": 26
+    }
+  ],
+  "arxiv-1507.01763": [
+    {
+      "chunk_id": "arxiv-1507.01763#chunk-01",
+      "concept_ids": [
+        "concept:ontology-smt-reasoning",
+        "concept:sat-smt-solvers"
+      ],
+      "doc_id": "arxiv-1507.01763",
+      "heading": "Encoding OWL Ontologies & Description Logics into SAT/SMT",
+      "key_terms": [
+        {
+          "count": 4,
+          "term": "ontologies"
+        },
+        {
+          "count": 3,
+          "term": "sat"
+        },
+        {
+          "count": 3,
+          "term": "description"
+        },
+        {
+          "count": 3,
+          "term": "logics"
+        },
+        {
+          "count": 2,
+          "term": "automated"
+        },
+        {
+          "count": 2,
+          "term": "formal"
+        },
+        {
+          "count": 2,
+          "term": "encoding"
+        },
+        {
+          "count": 2,
+          "term": "owl"
+        },
+        {
+          "count": 2,
+          "term": "concept"
+        },
+        {
+          "count": 1,
+          "term": "smt-based"
+        },
+        {
+          "count": 1,
+          "term": "reasoning"
+        },
+        {
+          "count": 1,
+          "term": "smt"
+        }
+      ],
+      "section_index": 1,
+      "taxonomy_paths": [
+        "Formal Methods & Automated Reasoning",
+        "Formal Methods & Automated Reasoning > Knowledge Representation & Ontologies",
+        "Formal Methods & Automated Reasoning > SAT & SMT Solvers",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions"
+      ],
+      "technology_areas": [
+        "Automated Reasoning & Mathematical Logic",
+        "Electronic Design Automation",
+        "Formal Verification & Specification Languages",
+        "Ontologies & Description Logic",
+        "SAT & SMT Decision Procedures",
+        "Semiconductor Engineering"
+      ],
+      "text": "Formal ontologies (OWL 2, SKOS, and Description Logics such as EL, ALC, and SHQ) define hierarchical concept taxonomies (TBox) and relational knowledge graph assertions (ABox). By encoding concept subsumption, disjointness, and role inclusion axioms into Horn-SAT and Conflict-Driven Clause Learning (CDCL) SAT formulas, automated reasoners classify ratusan-thousand-concept ontologies in seconds.",
+      "token_count": 50
+    },
+    {
+      "chunk_id": "arxiv-1507.01763#chunk-02",
+      "concept_ids": [
+        "concept:ontology-smt-reasoning",
+        "concept:sat-smt-solvers"
+      ],
+      "doc_id": "arxiv-1507.01763",
+      "heading": "Concrete Domains & Numerical Constraints via SMT",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "concrete"
+        },
+        {
+          "count": 2,
+          "term": "domains"
+        },
+        {
+          "count": 2,
+          "term": "numerical"
+        },
+        {
+          "count": 2,
+          "term": "smt"
+        },
+        {
+          "count": 1,
+          "term": "constraints"
+        },
+        {
+          "count": 1,
+          "term": "via"
+        },
+        {
+          "count": 1,
+          "term": "real-world"
+        },
+        {
+          "count": 1,
+          "term": "engineering"
+        },
+        {
+          "count": 1,
+          "term": "scientific"
+        },
+        {
+          "count": 1,
+          "term": "ontologies"
+        },
+        {
+          "count": 1,
+          "term": "require"
+        },
+        {
+          "count": 1,
+          "term": "reasoning"
+        }
+      ],
+      "section_index": 2,
+      "taxonomy_paths": [
+        "Formal Methods & Automated Reasoning",
+        "Formal Methods & Automated Reasoning > Knowledge Representation & Ontologies",
+        "Formal Methods & Automated Reasoning > SAT & SMT Solvers",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions"
+      ],
+      "technology_areas": [
+        "Automated Reasoning & Mathematical Logic",
+        "Electronic Design Automation",
+        "Formal Verification & Specification Languages",
+        "Ontologies & Description Logic",
+        "SAT & SMT Decision Procedures",
+        "Semiconductor Engineering"
+      ],
+      "text": "Real-world engineering and scientific ontologies require reasoning simultaneously over taxonomic hierarchies and concrete numerical domains (thresholds, intervals, unit conversions, and cardinality bounds). Satisfiability Modulo Theories (SMT) bridges this gap by combining Boolean ontology axiom propagation with Linear Real/Integer Arithmetic (LRA/LIA) and Uninterpreted Functions (EUF).",
+      "token_count": 44
+    },
+    {
+      "chunk_id": "arxiv-1507.01763#chunk-03",
+      "concept_ids": [
+        "concept:ontology-smt-reasoning"
+      ],
+      "doc_id": "arxiv-1507.01763",
+      "heading": "OntoLogic Integration & Knowledge Graph Verification",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "knowledge"
+        },
+        {
+          "count": 1,
+          "term": "ontologic"
+        },
+        {
+          "count": 1,
+          "term": "integration"
+        },
+        {
+          "count": 1,
+          "term": "graph"
+        },
+        {
+          "count": 1,
+          "term": "verification"
+        },
+        {
+          "count": 1,
+          "term": "sat"
+        },
+        {
+          "count": 1,
+          "term": "smt-backed"
+        },
+        {
+          "count": 1,
+          "term": "ontology"
+        },
+        {
+          "count": 1,
+          "term": "reasoning"
+        },
+        {
+          "count": 1,
+          "term": "detects"
+        },
+        {
+          "count": 1,
+          "term": "unsatisfiable"
+        },
+        {
+          "count": 1,
+          "term": "classes"
+        }
+      ],
+      "section_index": 3,
+      "taxonomy_paths": [
+        "Formal Methods & Automated Reasoning",
+        "Formal Methods & Automated Reasoning > Knowledge Representation & Ontologies",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions"
+      ],
+      "technology_areas": [
+        "Automated Reasoning & Mathematical Logic",
+        "Electronic Design Automation",
+        "Formal Verification & Specification Languages",
+        "Ontologies & Description Logic",
+        "Semiconductor Engineering"
+      ],
+      "text": "SAT/SMT-backed ontology reasoning detects unsatisfiable classes, cyclic taxonomy regressions, and SHACL constraint violations across evolving semantic knowledge graphs.",
+      "token_count": 18
+    }
+  ],
+  "arxiv-1610.00502": [
+    {
+      "chunk_id": "arxiv-1610.00502#chunk-01",
+      "concept_ids": [
+        "concept:asi",
+        "concept:sat-smt-solvers",
+        "concept:symbolic-execution",
+        "concept:uclid5"
+      ],
+      "doc_id": "arxiv-1610.00502",
+      "heading": "Path-Constraint Solving with SAT and SMT Solvers",
+      "key_terms": [
+        {
+          "count": 4,
+          "term": "symbolic"
+        },
+        {
+          "count": 3,
+          "term": "execution"
+        },
+        {
+          "count": 2,
+          "term": "software"
+        },
+        {
+          "count": 2,
+          "term": "development"
+        },
+        {
+          "count": 2,
+          "term": "smt"
+        },
+        {
+          "count": 2,
+          "term": "over"
+        },
+        {
+          "count": 2,
+          "term": "inputs"
+        },
+        {
+          "count": 2,
+          "term": "concrete"
+        },
+        {
+          "count": 1,
+          "term": "survey"
+        },
+        {
+          "count": 1,
+          "term": "techniques"
+        },
+        {
+          "count": 1,
+          "term": "verification"
+        },
+        {
+          "count": 1,
+          "term": "path-constraint"
+        }
+      ],
+      "section_index": 1,
+      "taxonomy_paths": [
+        "Formal Methods & Automated Reasoning",
+        "Formal Methods & Automated Reasoning > SAT & SMT Solvers",
+        "Formal Methods & Automated Reasoning > SAT & SMT Solvers > Software Verification & Symbolic Execution",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > AI Accelerators",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions",
+        "Security & Resilience",
+        "Security & Resilience > Runtime Fault Localization & Recovery"
+      ],
+      "technology_areas": [
+        "AI Hardware Accelerators",
+        "Automated Reasoning & Mathematical Logic",
+        "Electronic Design Automation",
+        "Formal Verification & Specification Languages",
+        "Hardware & AI Security",
+        "SAT & SMT Decision Procedures",
+        "Self-Healing & Fault-Tolerant AI",
+        "Semiconductor Engineering",
+        "Software Verification & Program Analysis"
+      ],
+      "text": "Symbolic execution transforms software development, automated test generation, and vulnerability discovery by executing programs over symbolic inputs rather than concrete values. At every conditional branch, the symbolic execution engine (such as KLEE, SAGE, or CBMC) queries an SMT solver (Z3, STP, or cvc5) over the Theory of Bit-Vectors and Arrays (QF_ABV) to decide path feasibility and synthesize concrete bug-triggering inputs.",
+      "token_count": 60
+    },
+    {
+      "chunk_id": "arxiv-1610.00502#chunk-02",
+      "concept_ids": [
+        "concept:asi",
+        "concept:sat-smt-solvers",
+        "concept:symbolic-execution",
+        "concept:uclid5"
+      ],
+      "doc_id": "arxiv-1610.00502",
+      "heading": "Constraint Caching, Slicing & Heap Graph Modeling",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "constraint"
+        },
+        {
+          "count": 2,
+          "term": "caching"
+        },
+        {
+          "count": 2,
+          "term": "slicing"
+        },
+        {
+          "count": 2,
+          "term": "heap"
+        },
+        {
+          "count": 2,
+          "term": "modeling"
+        },
+        {
+          "count": 1,
+          "term": "graph"
+        },
+        {
+          "count": 1,
+          "term": "because"
+        },
+        {
+          "count": 1,
+          "term": "smt"
+        },
+        {
+          "count": 1,
+          "term": "solver"
+        },
+        {
+          "count": 1,
+          "term": "queries"
+        },
+        {
+          "count": 1,
+          "term": "dominate"
+        },
+        {
+          "count": 1,
+          "term": "symbolic"
+        }
+      ],
+      "section_index": 2,
+      "taxonomy_paths": [
+        "Formal Methods & Automated Reasoning",
+        "Formal Methods & Automated Reasoning > SAT & SMT Solvers",
+        "Formal Methods & Automated Reasoning > SAT & SMT Solvers > Software Verification & Symbolic Execution",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions",
+        "Hardware & Semiconductor Systems > Memory & Interconnects",
+        "Security & Resilience",
+        "Security & Resilience > Memory Safety & Software Capabilities",
+        "Security & Resilience > Runtime Fault Localization & Recovery"
+      ],
+      "technology_areas": [
+        "Automated Reasoning & Mathematical Logic",
+        "Electronic Design Automation",
+        "Formal Verification & Specification Languages",
+        "Hardware & AI Security",
+        "Language & Runtime Memory Safety",
+        "Memory Subsystems & Chiplets",
+        "SAT & SMT Decision Procedures",
+        "Self-Healing & Fault-Tolerant AI",
+        "Semiconductor Engineering",
+        "Software Verification & Program Analysis"
+      ],
+      "text": "Because SMT solver queries dominate symbolic execution runtime, modern software analysis tools employ counterexample-guided constraint caching, independent clause slicing, and array-theory memory modeling to reason about pointer aliasing and heap data structures (linked lists, trees, and control-flow graphs).",
+      "token_count": 38
+    },
+    {
+      "chunk_id": "arxiv-1610.00502#chunk-03",
+      "concept_ids": [
+        "concept:sat-smt-solvers",
+        "concept:symbolic-execution",
+        "concept:uclid5"
+      ],
+      "doc_id": "arxiv-1610.00502",
+      "heading": "Memory Safety & Security Vulnerability Detection",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "memory"
+        },
+        {
+          "count": 2,
+          "term": "safety"
+        },
+        {
+          "count": 1,
+          "term": "security"
+        },
+        {
+          "count": 1,
+          "term": "vulnerability"
+        },
+        {
+          "count": 1,
+          "term": "detection"
+        },
+        {
+          "count": 1,
+          "term": "coupling"
+        },
+        {
+          "count": 1,
+          "term": "sat"
+        },
+        {
+          "count": 1,
+          "term": "smt"
+        },
+        {
+          "count": 1,
+          "term": "solvers"
+        },
+        {
+          "count": 1,
+          "term": "symbolic"
+        },
+        {
+          "count": 1,
+          "term": "execution"
+        },
+        {
+          "count": 1,
+          "term": "bounded"
+        }
+      ],
+      "section_index": 3,
+      "taxonomy_paths": [
+        "Formal Methods & Automated Reasoning",
+        "Formal Methods & Automated Reasoning > SAT & SMT Solvers",
+        "Formal Methods & Automated Reasoning > SAT & SMT Solvers > Software Verification & Symbolic Execution",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions",
+        "Hardware & Semiconductor Systems > Memory & Interconnects",
+        "Security & Resilience",
+        "Security & Resilience > Memory Safety & Software Capabilities"
+      ],
+      "technology_areas": [
+        "Automated Reasoning & Mathematical Logic",
+        "Electronic Design Automation",
+        "Formal Verification & Specification Languages",
+        "Hardware & AI Security",
+        "Language & Runtime Memory Safety",
+        "Memory Subsystems & Chiplets",
+        "SAT & SMT Decision Procedures",
+        "Semiconductor Engineering",
+        "Software Verification & Program Analysis"
+      ],
+      "text": "Coupling SAT/SMT solvers with symbolic execution and bounded model checking uncovers spatial/temporal memory safety violations, integer overflows, and invariant breaches across systems software.",
+      "token_count": 23
+    }
+  ],
+  "arxiv-2201.04663": [
+    {
+      "chunk_id": "arxiv-2201.04663#chunk-01",
+      "concept_ids": [
+        "concept:sat-smt-solvers",
+        "concept:uclid5"
+      ],
+      "doc_id": "arxiv-2201.04663",
+      "heading": "Next-Generation DPLL(T) SMT Architecture",
+      "key_terms": [
+        {
+          "count": 3,
+          "term": "smt"
+        },
+        {
+          "count": 2,
+          "term": "cvc5"
+        },
+        {
+          "count": 2,
+          "term": "industrial-strength"
+        },
+        {
+          "count": 2,
+          "term": "solver"
+        },
+        {
+          "count": 2,
+          "term": "dpll"
+        },
+        {
+          "count": 1,
+          "term": "versatile"
+        },
+        {
+          "count": 1,
+          "term": "next-generation"
+        },
+        {
+          "count": 1,
+          "term": "architecture"
+        },
+        {
+          "count": 1,
+          "term": "satisfiability"
+        },
+        {
+          "count": 1,
+          "term": "modulo"
+        },
+        {
+          "count": 1,
+          "term": "theories"
+        },
+        {
+          "count": 1,
+          "term": "syntax-guided"
+        }
+      ],
+      "section_index": 1,
+      "taxonomy_paths": [
+        "Formal Methods & Automated Reasoning",
+        "Formal Methods & Automated Reasoning > SAT & SMT Solvers",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions"
+      ],
+      "technology_areas": [
+        "Automated Reasoning & Mathematical Logic",
+        "Electronic Design Automation",
+        "Formal Verification & Specification Languages",
+        "SAT & SMT Decision Procedures",
+        "Semiconductor Engineering"
+      ],
+      "text": "cvc5 is an industrial-strength Satisfiability Modulo Theories (SMT) and Syntax-Guided Synthesis (SyGuS) solver built on a modular CDCL(T) / DPLL(T) core. It combines high-performance Boolean SAT solving with decision procedures for bit-vectors, arrays, floating-point arithmetic, strings and regular expressions, algebraic datatypes, and quantifier instantiation.",
+      "token_count": 44
+    },
+    {
+      "chunk_id": "arxiv-2201.04663#chunk-02",
+      "concept_ids": [
+        "concept:ontology-smt-reasoning",
+        "concept:sat-smt-solvers"
+      ],
+      "doc_id": "arxiv-2201.04663",
+      "heading": "Finite Sets, Relations & Ontology Constraint Solving",
+      "key_terms": [
+        {
+          "count": 3,
+          "term": "finite"
+        },
+        {
+          "count": 2,
+          "term": "sets"
+        },
+        {
+          "count": 2,
+          "term": "relations"
+        },
+        {
+          "count": 2,
+          "term": "theory"
+        },
+        {
+          "count": 2,
+          "term": "relational"
+        },
+        {
+          "count": 1,
+          "term": "ontology"
+        },
+        {
+          "count": 1,
+          "term": "constraint"
+        },
+        {
+          "count": 1,
+          "term": "solving"
+        },
+        {
+          "count": 1,
+          "term": "uniquely"
+        },
+        {
+          "count": 1,
+          "term": "suited"
+        },
+        {
+          "count": 1,
+          "term": "graph"
+        },
+        {
+          "count": 1,
+          "term": "analysis"
+        }
+      ],
+      "section_index": 2,
+      "taxonomy_paths": [
+        "Formal Methods & Automated Reasoning",
+        "Formal Methods & Automated Reasoning > Knowledge Representation & Ontologies",
+        "Formal Methods & Automated Reasoning > SAT & SMT Solvers",
+        "Formal Methods & Automated Reasoning > SAT & SMT Solvers > Graph Theory Modulo Theories",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions"
+      ],
+      "technology_areas": [
+        "Automated Reasoning & Mathematical Logic",
+        "Electronic Design Automation",
+        "Formal Verification & Specification Languages",
+        "Graph Analysis & Combinatorial Optimization",
+        "Ontologies & Description Logic",
+        "SAT & SMT Decision Procedures",
+        "Semiconductor Engineering"
+      ],
+      "text": "Uniquely suited to graph analysis and formal ontologies, cvc5 provides native decision procedures for the Theory of Finite Sets and the Theory of Finite Relations (including transitive closure, relational join, and cardinality constraints). These relational theories enable direct SMT encoding of OWL Description Logic axioms, Alloy structural models, and SHACL knowledge-graph validation rules.",
+      "token_count": 53
+    },
+    {
+      "chunk_id": "arxiv-2201.04663#chunk-03",
+      "concept_ids": [
+        "concept:sat-smt-solvers",
+        "concept:symbolic-execution"
+      ],
+      "doc_id": "arxiv-2201.04663",
+      "heading": "Software Development & Deductive Verification",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "software"
+        },
+        {
+          "count": 2,
+          "term": "deductive"
+        },
+        {
+          "count": 1,
+          "term": "development"
+        },
+        {
+          "count": 1,
+          "term": "verification"
+        },
+        {
+          "count": 1,
+          "term": "engineering"
+        },
+        {
+          "count": 1,
+          "term": "cvc5"
+        },
+        {
+          "count": 1,
+          "term": "serves"
+        },
+        {
+          "count": 1,
+          "term": "automated"
+        },
+        {
+          "count": 1,
+          "term": "reasoning"
+        },
+        {
+          "count": 1,
+          "term": "backend"
+        },
+        {
+          "count": 1,
+          "term": "verifiers"
+        },
+        {
+          "count": 1,
+          "term": "dafny"
+        }
+      ],
+      "section_index": 3,
+      "taxonomy_paths": [
+        "Formal Methods & Automated Reasoning",
+        "Formal Methods & Automated Reasoning > SAT & SMT Solvers",
+        "Formal Methods & Automated Reasoning > SAT & SMT Solvers > Software Verification & Symbolic Execution",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification"
+      ],
+      "technology_areas": [
+        "Automated Reasoning & Mathematical Logic",
+        "Electronic Design Automation",
+        "SAT & SMT Decision Procedures",
+        "Semiconductor Engineering",
+        "Software Verification & Program Analysis"
+      ],
+      "text": "In software engineering, cvc5 serves as the automated reasoning backend for deductive verifiers (Dafny, Spark/Ada, Viper), smart-contract auditors, cloud IAM policy analyzers (AWS Zelkova), and symbolic execution engines.",
+      "token_count": 28
+    }
+  ],
   "arxiv-2208.03699": [
     {
       "chunk_id": "arxiv-2208.03699#chunk-01",
@@ -85,7 +1044,9 @@
     {
       "chunk_id": "arxiv-2208.03699#chunk-02",
       "concept_ids": [
+        "concept:sat-smt-solvers",
         "concept:sva",
+        "concept:symbolic-execution",
         "concept:uclid5"
       ],
       "doc_id": "arxiv-2208.03699",
@@ -142,14 +1103,20 @@
       ],
       "section_index": 2,
       "taxonomy_paths": [
+        "Formal Methods & Automated Reasoning",
+        "Formal Methods & Automated Reasoning > SAT & SMT Solvers",
+        "Formal Methods & Automated Reasoning > SAT & SMT Solvers > Software Verification & Symbolic Execution",
         "Hardware & Semiconductor Systems",
         "Hardware & Semiconductor Systems > EDA & Hardware Verification",
         "Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions"
       ],
       "technology_areas": [
+        "Automated Reasoning & Mathematical Logic",
         "Electronic Design Automation",
         "Formal Verification & Specification Languages",
-        "Semiconductor Engineering"
+        "SAT & SMT Decision Procedures",
+        "Semiconductor Engineering",
+        "Software Verification & Program Analysis"
       ],
       "text": "In semiconductor design workflows, UCLID5 integrates with modern hardware construction languages such as Chisel and FIRRTL as well as SystemVerilog Assertions (SVA). Models are lowered to Satisfiability Modulo Theories (SMT) solvers and syntax-guided synthesis (SyGuS) engines for bounded model checking, inductive invariant synthesis, and hyperproperty verification.",
       "token_count": 46
@@ -289,6 +1256,7 @@
       ],
       "section_index": 1,
       "taxonomy_paths": [
+        "Formal Methods & Automated Reasoning",
         "Hardware & Semiconductor Systems",
         "Hardware & Semiconductor Systems > EDA & Hardware Verification",
         "Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions",
@@ -296,6 +1264,7 @@
         "Security & Resilience > Memory Safety & Software Capabilities"
       ],
       "technology_areas": [
+        "Automated Reasoning & Mathematical Logic",
         "Electronic Design Automation",
         "Formal Verification & Specification Languages",
         "Hardware & AI Security",
@@ -309,6 +1278,7 @@
       "chunk_id": "arxiv-2503.19174#chunk-02",
       "concept_ids": [
         "concept:llm-formal-verification",
+        "concept:ontology-smt-reasoning",
         "concept:sva"
       ],
       "doc_id": "arxiv-2503.19174",
@@ -365,13 +1335,17 @@
       ],
       "section_index": 2,
       "taxonomy_paths": [
+        "Formal Methods & Automated Reasoning",
+        "Formal Methods & Automated Reasoning > Knowledge Representation & Ontologies",
         "Hardware & Semiconductor Systems",
         "Hardware & Semiconductor Systems > EDA & Hardware Verification",
         "Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions"
       ],
       "technology_areas": [
+        "Automated Reasoning & Mathematical Logic",
         "Electronic Design Automation",
         "Formal Verification & Specification Languages",
+        "Ontologies & Description Logic",
         "Semiconductor Engineering"
       ],
       "text": "AssertionForge constructs a unified hardware Knowledge Graph (KG) that fuses natural-language specification requirements with structural RTL signal interactions, finite-state machines, and clock/reset domains. Multi-resolution context retrieval over this graph prevents signal hallucination during automated SVA synthesis.",
@@ -518,12 +1492,14 @@
       "taxonomy_paths": [
         "Artificial Intelligence & Machine Learning",
         "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Formal Methods & Automated Reasoning",
         "Hardware & Semiconductor Systems",
         "Hardware & Semiconductor Systems > EDA & Hardware Verification",
         "Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions"
       ],
       "technology_areas": [
         "AI & Machine Learning",
+        "Automated Reasoning & Mathematical Logic",
         "Deep Learning Architectures",
         "Electronic Design Automation",
         "Formal Verification & Specification Languages",
@@ -592,6 +1568,7 @@
       ],
       "section_index": 2,
       "taxonomy_paths": [
+        "Formal Methods & Automated Reasoning",
         "Hardware & Semiconductor Systems",
         "Hardware & Semiconductor Systems > EDA & Hardware Verification",
         "Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions",
@@ -599,6 +1576,7 @@
         "Security & Resilience > Runtime Fault Localization & Recovery"
       ],
       "technology_areas": [
+        "Automated Reasoning & Mathematical Logic",
         "Electronic Design Automation",
         "Formal Verification & Specification Languages",
         "Hardware & AI Security",
@@ -667,6 +1645,7 @@
       ],
       "section_index": 3,
       "taxonomy_paths": [
+        "Formal Methods & Automated Reasoning",
         "Hardware & Semiconductor Systems",
         "Hardware & Semiconductor Systems > AI Accelerators",
         "Hardware & Semiconductor Systems > EDA & Hardware Verification",
@@ -675,6 +1654,7 @@
       ],
       "technology_areas": [
         "AI Hardware Accelerators",
+        "Automated Reasoning & Mathematical Logic",
         "Electronic Design Automation",
         "Formal Verification & Specification Languages",
         "Memory Subsystems & Chiplets",
@@ -822,11 +1802,13 @@
       ],
       "section_index": 2,
       "taxonomy_paths": [
+        "Formal Methods & Automated Reasoning",
         "Hardware & Semiconductor Systems",
         "Hardware & Semiconductor Systems > EDA & Hardware Verification",
         "Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions"
       ],
       "technology_areas": [
+        "Automated Reasoning & Mathematical Logic",
         "Electronic Design Automation",
         "Formal Verification & Specification Languages",
         "Semiconductor Engineering"
@@ -1657,6 +2639,7 @@
         "concept:bit-flip-attack",
         "concept:ecc",
         "concept:fil-c",
+        "concept:ontology-smt-reasoning",
         "concept:pulse",
         "concept:rowhammer"
       ],
@@ -1714,6 +2697,8 @@
       ],
       "section_index": 2,
       "taxonomy_paths": [
+        "Formal Methods & Automated Reasoning",
+        "Formal Methods & Automated Reasoning > Knowledge Representation & Ontologies",
         "Hardware & Semiconductor Systems",
         "Hardware & Semiconductor Systems > AI Accelerators",
         "Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors",
@@ -1727,11 +2712,13 @@
       "technology_areas": [
         "AI Hardware Accelerators",
         "Adversarial Fault Injection",
+        "Automated Reasoning & Mathematical Logic",
         "Electronic Design Automation",
         "Hardware & AI Security",
         "Language & Runtime Memory Safety",
         "Memory Subsystems & Chiplets",
         "On-Chip Telemetry & Runtime Monitoring",
+        "Ontologies & Description Logic",
         "Self-Healing & Fault-Tolerant AI",
         "Semiconductor Engineering"
       ],
@@ -1800,6 +2787,7 @@
       ],
       "section_index": 1,
       "taxonomy_paths": [
+        "Formal Methods & Automated Reasoning",
         "Hardware & Semiconductor Systems",
         "Hardware & Semiconductor Systems > AI Accelerators",
         "Hardware & Semiconductor Systems > EDA & Hardware Verification",
@@ -1809,6 +2797,7 @@
       ],
       "technology_areas": [
         "AI Hardware Accelerators",
+        "Automated Reasoning & Mathematical Logic",
         "Electronic Design Automation",
         "Formal Verification & Specification Languages",
         "Hardware & AI Security",
@@ -1823,6 +2812,8 @@
       "concept_ids": [
         "concept:dnn",
         "concept:llm-formal-verification",
+        "concept:ontology-smt-reasoning",
+        "concept:sat-smt-solvers",
         "concept:sva",
         "concept:uclid5"
       ],
@@ -1882,6 +2873,9 @@
       "taxonomy_paths": [
         "Artificial Intelligence & Machine Learning",
         "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Formal Methods & Automated Reasoning",
+        "Formal Methods & Automated Reasoning > Knowledge Representation & Ontologies",
+        "Formal Methods & Automated Reasoning > SAT & SMT Solvers",
         "Hardware & Semiconductor Systems",
         "Hardware & Semiconductor Systems > EDA & Hardware Verification",
         "Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions",
@@ -1890,11 +2884,14 @@
       ],
       "technology_areas": [
         "AI & Machine Learning",
+        "Automated Reasoning & Mathematical Logic",
         "Deep Learning Architectures",
         "Electronic Design Automation",
         "Formal Verification & Specification Languages",
         "Hardware & AI Security",
         "Language & Runtime Memory Safety",
+        "Ontologies & Description Logic",
+        "SAT & SMT Decision Procedures",
         "Semiconductor Engineering"
       ],
       "text": "Recent research synthesized in this collection \u2014 UCLID5: Multi-Modal Formal Modeling, Verification, and Synthesis (arxiv-2208.03699); AssertionForge: Enhancing Formal Verification Assertion Generation with Structured Representation of Specifications and RTL (arxiv-2503.19174); ProofLoop: From Language to Logic \u2014 Bridging LLMs and Formal Representations for RTL Assertion Generation (arxiv-2604.23100); EquivSVA: A Formally Verified Dataset of Behavioral Assertions Across Equivalent RTL Implementations (arxiv-2609.26751) \u2014 addresses the manual bottleneck of authoring temporal logic assertions. Frameworks like AssertionForge construct unified Knowledge Graphs fusing natural-language specs and RTL structure, while agentic solver-in-the-loop systems like ProofLoop interact directly with commercial EDA formal engines (Cadence JasperGold and SMT solvers) to iteratively refine SVA assertions until formal proof closure.",
@@ -1908,6 +2905,7 @@
         "concept:bare-ai",
         "concept:bit-flip-attack",
         "concept:fil-c",
+        "concept:ontology-smt-reasoning",
         "concept:pulse",
         "concept:rowhammer"
       ],
@@ -1967,6 +2965,8 @@
       "taxonomy_paths": [
         "Artificial Intelligence & Machine Learning",
         "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Formal Methods & Automated Reasoning",
+        "Formal Methods & Automated Reasoning > Knowledge Representation & Ontologies",
         "Hardware & Semiconductor Systems",
         "Hardware & Semiconductor Systems > AI Accelerators",
         "Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors",
@@ -1980,16 +2980,281 @@
         "AI & Machine Learning",
         "AI Hardware Accelerators",
         "Adversarial Fault Injection",
+        "Automated Reasoning & Mathematical Logic",
         "Deep Learning Architectures",
         "Electronic Design Automation",
         "Hardware & AI Security",
         "Language & Runtime Memory Safety",
         "Memory Subsystems & Chiplets",
         "On-Chip Telemetry & Runtime Monitoring",
+        "Ontologies & Description Logic",
         "Semiconductor Engineering"
       ],
       "text": "Within our OntoLogic-ready knowledge graph, formal verification languages connect pre-silicon EDA verification with runtime hardware security monitors (such as BARE-AI's 28nm AI Performance Counters and PULSE neural detectors) and probabilistic operational semantics for memory-level bit-flip resilience (such as Rowhammer analysis on Fil-C software capabilities).",
       "token_count": 44
+    }
+  ],
+  "research-sat-and-smt-solvers-applications-in-software": [
+    {
+      "chunk_id": "research-sat-and-smt-solvers-applications-in-software#chunk-01",
+      "concept_ids": [
+        "concept:ontology-smt-reasoning",
+        "concept:sat-smt-solvers",
+        "concept:symbolic-execution",
+        "concept:uclid5"
+      ],
+      "doc_id": "research-sat-and-smt-solvers-applications-in-software",
+      "heading": "SAT & SMT Decision Procedures Across Software, Graphs, and Ontologies: SAT and SMT solvers applications in software development, graph analysis, and ontologies",
+      "key_terms": [
+        {
+          "count": 5,
+          "term": "smt"
+        },
+        {
+          "count": 5,
+          "term": "solvers"
+        },
+        {
+          "count": 4,
+          "term": "sat"
+        },
+        {
+          "count": 4,
+          "term": "software"
+        },
+        {
+          "count": 3,
+          "term": "graph"
+        },
+        {
+          "count": 3,
+          "term": "analysis"
+        },
+        {
+          "count": 3,
+          "term": "ontologies"
+        },
+        {
+          "count": 2,
+          "term": "applications"
+        },
+        {
+          "count": 2,
+          "term": "development"
+        },
+        {
+          "count": 2,
+          "term": "theories"
+        },
+        {
+          "count": 2,
+          "term": "reasoning"
+        },
+        {
+          "count": 1,
+          "term": "research"
+        }
+      ],
+      "section_index": 1,
+      "taxonomy_paths": [
+        "Formal Methods & Automated Reasoning",
+        "Formal Methods & Automated Reasoning > Knowledge Representation & Ontologies",
+        "Formal Methods & Automated Reasoning > SAT & SMT Solvers",
+        "Formal Methods & Automated Reasoning > SAT & SMT Solvers > Graph Theory Modulo Theories",
+        "Formal Methods & Automated Reasoning > SAT & SMT Solvers > Software Verification & Symbolic Execution",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions"
+      ],
+      "technology_areas": [
+        "Automated Reasoning & Mathematical Logic",
+        "Electronic Design Automation",
+        "Formal Verification & Specification Languages",
+        "Graph Analysis & Combinatorial Optimization",
+        "Ontologies & Description Logic",
+        "SAT & SMT Decision Procedures",
+        "Semiconductor Engineering",
+        "Software Verification & Program Analysis"
+      ],
+      "text": "Conflict-Driven Clause Learning (CDCL) SAT solvers and DPLL(T) Satisfiability Modulo Theories (SMT) solvers (such as Z3 and cvc5) serve as the computational backbone for modern automated reasoning. By combining Boolean constraint propagation with specialized background theories \u2014 bit-vectors, arrays, strings, linear arithmetic, finite sets, and relations \u2014 SMT solvers unify software verification, combinatorial graph analysis, and formal ontology reasoning.",
+      "token_count": 59
+    },
+    {
+      "chunk_id": "research-sat-and-smt-solvers-applications-in-software#chunk-02",
+      "concept_ids": [
+        "concept:monosat-graph-smt",
+        "concept:ontology-smt-reasoning",
+        "concept:sat-smt-solvers",
+        "concept:symbolic-execution",
+        "concept:uclid5"
+      ],
+      "doc_id": "research-sat-and-smt-solvers-applications-in-software",
+      "heading": "Symbolic Execution, Monotonic Graph Theories & Description Logics",
+      "key_terms": [
+        {
+          "count": 3,
+          "term": "symbolic"
+        },
+        {
+          "count": 3,
+          "term": "execution"
+        },
+        {
+          "count": 3,
+          "term": "graph"
+        },
+        {
+          "count": 3,
+          "term": "theories"
+        },
+        {
+          "count": 3,
+          "term": "description"
+        },
+        {
+          "count": 2,
+          "term": "monotonic"
+        },
+        {
+          "count": 2,
+          "term": "logics"
+        },
+        {
+          "count": 2,
+          "term": "monosat"
+        },
+        {
+          "count": 2,
+          "term": "modulo"
+        },
+        {
+          "count": 2,
+          "term": "cvc5"
+        },
+        {
+          "count": 2,
+          "term": "smt"
+        },
+        {
+          "count": 2,
+          "term": "software"
+        }
+      ],
+      "section_index": 2,
+      "taxonomy_paths": [
+        "Formal Methods & Automated Reasoning",
+        "Formal Methods & Automated Reasoning > Knowledge Representation & Ontologies",
+        "Formal Methods & Automated Reasoning > SAT & SMT Solvers",
+        "Formal Methods & Automated Reasoning > SAT & SMT Solvers > Graph Theory Modulo Theories",
+        "Formal Methods & Automated Reasoning > SAT & SMT Solvers > Software Verification & Symbolic Execution",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > AI Accelerators",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions",
+        "Hardware & Semiconductor Systems > Memory & Interconnects"
+      ],
+      "technology_areas": [
+        "AI Hardware Accelerators",
+        "Automated Reasoning & Mathematical Logic",
+        "Electronic Design Automation",
+        "Formal Verification & Specification Languages",
+        "Graph Analysis & Combinatorial Optimization",
+        "Memory Subsystems & Chiplets",
+        "Ontologies & Description Logic",
+        "SAT & SMT Decision Procedures",
+        "Semiconductor Engineering",
+        "Software Verification & Program Analysis"
+      ],
+      "text": "Primary literature synthesized in this collection \u2014 MonoSAT: Modulo Theories for Graphs, Networks, and Geometry (arxiv-1402.4677); cvc5: A Versatile and Industrial-Strength SMT Solver (arxiv-2201.04663); A Survey of Symbolic Execution Techniques for Software Development and Verification (arxiv-1610.00502); SAT and SMT-Based Automated Reasoning for Description Logics and Formal Ontologies (arxiv-1507.01763) \u2014 spans three synergistic pillars: (1) **Software Development & Symbolic Execution** (KLEE, CBMC, Dafny, cvc5), where path constraints over bit-vectors and arrays synthesize bug-triggering inputs and prove memory-safety invariants; (2) **Graph Analysis Modulo Theories** (MonoSAT), where monotonic graph predicates (reachability, shortest path, maximum s-t flow, minimum spanning tree, and DAG acyclicity) are decided natively inside DPLL(T) without propositional blowup; and (3) **Ontology & Description Logic Reasoning** (OWL 2, EL/ALC, SHACL, OntoLogic), where TBox/ABox concept subsumption, consistency, and numerical datatype constraints reduce directly to Horn-SAT and SMT.",
+      "token_count": 134
+    },
+    {
+      "chunk_id": "research-sat-and-smt-solvers-applications-in-software#chunk-03",
+      "concept_ids": [
+        "concept:fil-c",
+        "concept:llm-formal-verification",
+        "concept:ontology-smt-reasoning",
+        "concept:sat-smt-solvers",
+        "concept:sva",
+        "concept:uclid5"
+      ],
+      "doc_id": "research-sat-and-smt-solvers-applications-in-software",
+      "heading": "Cross-Domain Integration in the Reading-DB Knowledge Graph",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "knowledge"
+        },
+        {
+          "count": 2,
+          "term": "verification"
+        },
+        {
+          "count": 1,
+          "term": "cross-domain"
+        },
+        {
+          "count": 1,
+          "term": "integration"
+        },
+        {
+          "count": 1,
+          "term": "reading-db"
+        },
+        {
+          "count": 1,
+          "term": "graph"
+        },
+        {
+          "count": 1,
+          "term": "within"
+        },
+        {
+          "count": 1,
+          "term": "ontologic-ready"
+        },
+        {
+          "count": 1,
+          "term": "base"
+        },
+        {
+          "count": 1,
+          "term": "sat"
+        },
+        {
+          "count": 1,
+          "term": "smt"
+        },
+        {
+          "count": 1,
+          "term": "solvers"
+        }
+      ],
+      "section_index": 3,
+      "taxonomy_paths": [
+        "Formal Methods & Automated Reasoning",
+        "Formal Methods & Automated Reasoning > Knowledge Representation & Ontologies",
+        "Formal Methods & Automated Reasoning > SAT & SMT Solvers",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions",
+        "Hardware & Semiconductor Systems > Memory & Interconnects",
+        "Security & Resilience",
+        "Security & Resilience > Memory Safety & Software Capabilities"
+      ],
+      "technology_areas": [
+        "Automated Reasoning & Mathematical Logic",
+        "Electronic Design Automation",
+        "Formal Verification & Specification Languages",
+        "Hardware & AI Security",
+        "Language & Runtime Memory Safety",
+        "Memory Subsystems & Chiplets",
+        "Ontologies & Description Logic",
+        "SAT & SMT Decision Procedures",
+        "Semiconductor Engineering"
+      ],
+      "text": "Within our OntoLogic-ready knowledge base, SAT and SMT solvers bridge software capability verification (Fil-C memory safety), hardware formal verification languages (UCLID5, SVA, ProofLoop), and taxonomic ontology validation.",
+      "token_count": 27
     }
   ],
   "semieng-2026-bare-ai-monitors": [
