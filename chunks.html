@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Semantic Chunks & Section Index — Reading DB Markdown Render</title>
+  <style>
+    :root {
+      --bg: #0b0f19;
+      --bg-elevated: rgba(19, 27, 46, 0.85);
+      --bg-card: rgba(23, 33, 56, 0.9);
+      --bg-chip: rgba(56, 189, 248, 0.12);
+      --border: rgba(148, 163, 184, 0.18);
+      --border-strong: rgba(56, 189, 248, 0.48);
+      --text: #f1f5f9;
+      --text-muted: #94a3b8;
+      --accent: #38bdf8;
+      --accent-2: #a855f7;
+      --accent-3: #10b981;
+      --accent-warn: #f59e0b;
+      --accent-danger: #f43f5e;
+      --shadow: 0 16px 36px -14px rgba(2, 6, 23, 0.75);
+      --radius: 13px;
+      --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      --font-mono: "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
+    }
+    [data-theme="light"] {
+      --bg: #f8fafc;
+      --bg-elevated: rgba(255, 255, 255, 0.94);
+      --bg-card: #ffffff;
+      --bg-chip: rgba(2, 132, 199, 0.1);
+      --border: rgba(15, 23, 42, 0.12);
+      --border-strong: rgba(2, 132, 199, 0.5);
+      --text: #0f172a;
+      --text-muted: #475569;
+      --accent: #0284c7;
+      --accent-2: #7c3aed;
+      --accent-3: #059669;
+      --shadow: 0 10px 26px -10px rgba(15, 23, 42, 0.1);
+    }
+    [data-theme="tron"] {
+      --bg: #020813;
+      --bg-elevated: rgba(3, 14, 30, 0.9);
+      --bg-card: rgba(4, 18, 38, 0.92);
+      --bg-chip: rgba(0, 240, 255, 0.14);
+      --border: rgba(0, 240, 255, 0.34);
+      --border-strong: #00f0ff;
+      --text: #e2fbff;
+      --text-muted: #5ec2e8;
+      --accent: #00f0ff;
+      --accent-2: #0088ff;
+      --accent-3: #00ffaa;
+      --accent-warn: #ff9e00;
+      --accent-danger: #ff2a6d;
+      --shadow: 0 0 22px rgba(0, 240, 255, 0.18), inset 0 0 14px rgba(0, 240, 255, 0.07);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: var(--font-sans);
+      background:
+        radial-gradient(circle at 12% 10%, rgba(56, 189, 248, 0.11), transparent 35%),
+        radial-gradient(circle at 88% 12%, rgba(168, 85, 247, 0.11), transparent 38%),
+        var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+    [data-theme="tron"] body {
+      background-color: #020813;
+      background-image:
+        radial-gradient(circle at 50% 0%, rgba(0, 240, 255, 0.22), transparent 55%),
+        radial-gradient(circle at 85% 20%, rgba(0, 136, 255, 0.18), transparent 45%),
+        linear-gradient(rgba(0, 240, 255, 0.075) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 240, 255, 0.075) 1px, transparent 1px);
+      background-size: 100% 100%, 100% 100%, 36px 36px, 36px 36px;
+      background-attachment: fixed;
+    }
+    [data-theme="tron"] header.hero,
+    [data-theme="tron"] .artifact-toolbar,
+    [data-theme="tron"] .toc-panel,
+    [data-theme="tron"] .md-panel {
+      border-color: rgba(0, 240, 255, 0.38);
+      box-shadow: 0 0 18px rgba(0, 240, 255, 0.14), inset 0 0 12px rgba(0, 240, 255, 0.05);
+    }
+    [data-theme="tron"] h1,
+    [data-theme="tron"] .brand-eyebrow,
+    [data-theme="tron"] .md-body h2 {
+      text-shadow: 0 0 10px rgba(0, 240, 255, 0.55);
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .shell {
+      max-width: 1420px;
+      margin: 0 auto;
+      padding: 1.25rem 1.4rem 3rem;
+    }
+    header.hero {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      padding: 1.1rem 1.4rem;
+      border-radius: var(--radius);
+      background: var(--bg-elevated);
+      backdrop-filter: blur(16px);
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow);
+      margin-bottom: 1rem;
+    }
+    .brand-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--accent);
+      background: var(--bg-chip);
+      padding: 0.2rem 0.6rem;
+      border-radius: 999px;
+      border: 1px solid var(--border-strong);
+      margin-bottom: 0.35rem;
+    }
+    h1 {
+      margin: 0 0 0.2rem;
+      font-size: clamp(1.3rem, 2vw, 1.75rem);
+      letter-spacing: -0.02em;
+    }
+    .subtitle {
+      margin: 0;
+      color: var(--text-muted);
+      max-width: 760px;
+      font-size: 0.88rem;
+    }
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.45rem;
+      align-items: center;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      font-size: 0.78rem;
+      font-weight: 600;
+      padding: 0.42rem 0.75rem;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      background: var(--bg-card);
+      color: var(--text);
+      cursor: pointer;
+      transition: all 0.14s ease;
+      user-select: none;
+    }
+    .btn:hover {
+      border-color: var(--accent);
+      transform: translateY(-1px);
+      text-decoration: none;
+    }
+    .btn.active {
+      border-color: var(--accent);
+      background: var(--bg-chip);
+      color: var(--accent);
+    }
+    .btn-sm {
+      padding: 0.28rem 0.62rem;
+      font-size: 0.74rem;
+    }
+    .btn-primary {
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      color: #fff;
+      border: none;
+    }
+    .theme-group {
+      display: inline-flex;
+      align-items: center;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 9px;
+      padding: 0.18rem;
+      gap: 0.2rem;
+    }
+    .theme-opt {
+      font-size: 0.72rem;
+      font-family: var(--font-mono);
+      font-weight: 600;
+      padding: 0.28rem 0.55rem;
+      border-radius: 6px;
+      border: 1px solid transparent;
+      background: transparent;
+      color: var(--text-muted);
+      cursor: pointer;
+    }
+    .theme-opt.active {
+      background: var(--bg-card);
+      color: var(--accent);
+      border-color: var(--border-strong);
+    }
+    .theme-opt[data-set-theme="tron"].active {
+      color: #00f0ff;
+      border-color: #00f0ff;
+      box-shadow: 0 0 12px rgba(0, 240, 255, 0.45);
+      text-shadow: 0 0 8px rgba(0, 240, 255, 0.75);
+    }
+    .artifact-toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.8rem 1.1rem;
+      border-radius: var(--radius);
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow);
+      margin-bottom: 1rem;
+    }
+    .artifact-layout {
+      display: grid;
+      grid-template-columns: 290px 1fr;
+      gap: 1.1rem;
+      align-items: start;
+    }
+    @media (max-width: 980px) {
+      .artifact-layout {
+        grid-template-columns: 1fr;
+      }
+    }
+    .toc-panel {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 0.95rem 1rem;
+      box-shadow: var(--shadow);
+      position: sticky;
+      top: 1rem;
+      max-height: calc(100vh - 2rem);
+      overflow-y: auto;
+    }
+    .toc-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.28rem;
+      margin-top: 0.55rem;
+    }
+    .toc-link {
+      font-size: 0.76rem;
+      color: var(--text-muted);
+      padding: 0.24rem 0.45rem;
+      border-radius: 6px;
+      display: block;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .toc-link:hover {
+      background: var(--bg-chip);
+      color: var(--accent);
+      text-decoration: none;
+    }
+    .toc-link.depth-3 {
+      padding-left: 1.1rem;
+      font-size: 0.72rem;
+    }
+    .md-panel {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.4rem 1.65rem;
+      box-shadow: var(--shadow);
+      min-width: 0;
+    }
+    .md-body h1 {
+      font-size: 1.55rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.5rem;
+      margin-top: 0;
+    }
+    .md-body h2 {
+      font-size: 1.22rem;
+      color: var(--accent);
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.35rem;
+      margin-top: 1.8rem;
+    }
+    .md-body h3 {
+      font-size: 1.02rem;
+      margin-top: 1.35rem;
+      color: var(--text);
+    }
+    .md-body h4 {
+      font-size: 0.9rem;
+      font-family: var(--font-mono);
+      color: var(--accent-2);
+      margin-top: 1.1rem;
+    }
+    .md-body code {
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+      background: var(--bg-chip);
+      color: var(--accent);
+      padding: 0.12rem 0.38rem;
+      border-radius: 5px;
+      border: 1px solid var(--border);
+    }
+    .md-body pre {
+      background: rgba(2, 6, 23, 0.55);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 0.95rem 1.1rem;
+      overflow-x: auto;
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+    }
+    [data-theme="light"] .md-body pre {
+      background: #f1f5f9;
+    }
+    .md-body pre code {
+      background: transparent;
+      border: none;
+      padding: 0;
+      color: var(--text);
+    }
+    .md-table-wrap {
+      overflow-x: auto;
+      margin: 0.85rem 0 1.25rem;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+    }
+    .md-body table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.81rem;
+    }
+    .md-body th, .md-body td {
+      padding: 0.58rem 0.8rem;
+      text-align: left;
+      border-bottom: 1px solid var(--border);
+    }
+    .md-body th {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      background: rgba(2, 6, 23, 0.25);
+    }
+    .md-body ul {
+      padding-left: 1.35rem;
+    }
+    .md-body li {
+      margin-bottom: 0.32rem;
+    }
+    .search-input {
+      background: var(--bg);
+      color: var(--text);
+      border: 1px solid var(--border);
+      padding: 0.4rem 0.7rem;
+      border-radius: 7px;
+      font-size: 0.8rem;
+      min-width: 240px;
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <header class="hero">
+      <div>
+        <div class="brand-eyebrow">OntoLogic-Ready Knowledge Base &bull; Rendered Markdown View</div>
+        <h1>Semantic Chunks & Section Index</h1>
+        <p class="subtitle">Rendered Markdown view of all semantically chunked document sections, matched concepts, and taxonomy paths.</p>
+      </div>
+      <div class="hero-actions">
+        <a class="btn" href="index.html">&larr; Dashboard</a>
+        <a class="btn" href="knowledge_graph.json" target="_blank" rel="noopener">JSON-LD</a>
+        <a class="btn " href="taxonomy.html">Taxonomy</a>
+        <a class="btn active" href="chunks.html">Chunks</a>
+        <a class="btn " href="summary.html">Summary MD</a>
+        <div class="theme-group" role="group" aria-label="Theme Selector">
+          <button class="theme-opt active" type="button" data-set-theme="dark">Dark</button>
+          <button class="theme-opt" type="button" data-set-theme="tron">&#x26A1; TRON</button>
+          <button class="theme-opt" type="button" data-set-theme="light">Light</button>
+        </div>
+        <button class="btn btn-primary" id="theme-toggle" type="button">Theme</button>
+      </div>
+    </header>
+
+    <section class="artifact-toolbar">
+      <div style="display:flex; flex-wrap:wrap; gap:0.45rem; align-items:center;">
+        <span style="font-family:var(--font-mono); font-size:0.75rem; color:var(--text-muted); margin-right:0.2rem;">Raw &amp; Download Links:</span>
+        <a class="btn btn-sm" href="chunks.json" target="_blank" rel="noopener">Raw chunks.json</a>
+<a class="btn btn-sm" href="chunks.json" download="chunks.json">⬇ Download chunks.json</a>
+<a class="btn btn-sm" href="chunks.md" target="_blank" rel="noopener">Raw chunks.md</a>
+<a class="btn btn-sm" href="chunks.md" download="chunks.md">⬇ Download chunks.md</a>
+        <button class="btn btn-sm" id="copy-md-btn" type="button">Copy Markdown</button>
+        <button class="btn btn-sm" id="toggle-raw-view-btn" type="button">View Raw Markdown Source</button>
+      </div>
+      <div style="display:flex; gap:0.45rem; align-items:center;">
+        <input type="search" id="md-filter-input" class="search-input" placeholder="Filter sections, headings, or documents..." />
+      </div>
+    </section>
+
+    <div class="artifact-layout">
+      <aside class="toc-panel">
+        <div style="font-family:var(--font-mono); font-size:0.75rem; font-weight:700; text-transform:uppercase; color:var(--accent);">Table of Contents</div>
+        <nav class="toc-list" id="toc-list"></nav>
+      </aside>
+      <main class="md-panel">
+        <div class="md-body" id="md-rendered"></div>
+        <pre id="md-raw-source" hidden style="margin:0; white-space:pre-wrap;"></pre>
+      </main>
+    </div>
+  </div>
+
+  <script>
+    const RAW_MD = "# Semantic Chunks & Section Index\n\n- **Documents Indexed:** 24\n- **Total Semantic Chunks:** 71\n- **Total Words Across Chunks:** 2,868\n\n## 1. Document Chunk Summary Table\n\n| # | Document ID | Title | Type | Status | Chunks | Total Words |\n|---|---|---|---|---|---|---|\n| 1 | `semieng-2026-bare-ai-monitors` | [On-Chip Monitors Detect Bit-Flip Attacks in AI Accelerators (UF, UT Dallas, RPI)](index.html#doc=semieng-2026-bare-ai-monitors) | `technical_article` | `read` | 3 | 117 |\n| 2 | `arxiv-2610.08739v2` | [BARE-AI: Bit-Flip Attack Resilience in AI Hardware through Built-in Performance Monitors](index.html#doc=arxiv-2610.08739v2) | `academic_paper` | `reading` | 5 | 258 |\n| 3 | `arxiv-2610.33748` | [A Rowhammer attack on Fil-C's software capabilities](index.html#doc=arxiv-2610.33748) | `academic_paper` | `reading` | 3 | 146 |\n| 4 | `techpaper-2026-hbm-chiplet-resilience` | [Cross-Layer Resilience for HBM and UCIe Chiplet AI Accelerators Under Targeted Bit-Flip Faults](index.html#doc=techpaper-2026-hbm-chiplet-resilience) | `technical_paper` | `to-read` | 2 | 74 |\n| 5 | `techpaper-2026-eda-formal-monitors` | [Pre-Silicon Formal Verification of On-Chip Telemetry Monitors Against Fault Injection](index.html#doc=techpaper-2026-eda-formal-monitors) | `technical_paper` | `to-read` | 2 | 61 |\n| 6 | `note-2026-cross-layer-bitflip-synthesis` | [Synthesis Note: Cross-Layer Bit-Flip Resilience Across AI Accelerators and Capability Runtimes](index.html#doc=note-2026-cross-layer-bitflip-synthesis) | `note` | `read` | 2 | 88 |\n| 7 | `arxiv-2208.03699` | [UCLID5: Multi-Modal Formal Modeling, Verification, and Synthesis](index.html#doc=arxiv-2208.03699) | `academic_paper` | `read` | 3 | 109 |\n| 8 | `arxiv-2503.19174` | [AssertionForge: Enhancing Formal Verification Assertion Generation with Structured Representation of Specifications and RTL](index.html#doc=arxiv-2503.19174) | `academic_paper` | `reading` | 3 | 109 |\n| 9 | `arxiv-2604.23100` | [ProofLoop: From Language to Logic \u2014 Bridging LLMs and Formal Representations for RTL Assertion Generation](index.html#doc=arxiv-2604.23100) | `academic_paper` | `to-read` | 3 | 103 |\n| 10 | `arxiv-2609.26751` | [EquivSVA: A Formally Verified Dataset of Behavioral Assertions Across Equivalent RTL Implementations](index.html#doc=arxiv-2609.26751) | `academic_paper` | `to-read` | 3 | 84 |\n| 11 | `research-formal-verification-languages-in-chip-and-se` | [Research Synthesis: Formal verification languages in chip and semiconductor design](index.html#doc=research-formal-verification-languages-in-chip-and-se) | `note` | `read` | 3 | 224 |\n| 12 | `arxiv-1402.4677` | [MonoSAT: Modulo Theories for Graphs, Networks, and Geometry](index.html#doc=arxiv-1402.4677) | `academic_paper` | `read` | 3 | 137 |\n| 13 | `arxiv-2201.04663` | [cvc5: A Versatile and Industrial-Strength SMT Solver](index.html#doc=arxiv-2201.04663) | `academic_paper` | `reading` | 3 | 125 |\n| 14 | `arxiv-1610.00502` | [A Survey of Symbolic Execution Techniques for Software Development and Verification](index.html#doc=arxiv-1610.00502) | `academic_paper` | `to-read` | 3 | 121 |\n| 15 | `arxiv-1507.01763` | [SAT and SMT-Based Automated Reasoning for Description Logics and Formal Ontologies](index.html#doc=arxiv-1507.01763) | `academic_paper` | `to-read` | 3 | 112 |\n| 16 | `research-sat-and-smt-solvers-applications-in-software` | [Research Synthesis: SAT and SMT solvers applications in software development, graph analysis, and ontologies](index.html#doc=research-sat-and-smt-solvers-applications-in-software) | `note` | `read` | 3 | 220 |\n| 17 | `arxiv-2602.13237` | [NL2LOGIC: AST-Guided Translation of Natural Language into First-Order Logic with Large Language Models](index.html#doc=arxiv-2602.13237) | `academic_paper` | `to-read` | 3 | 128 |\n| 18 | `arxiv-2605.08605` | [Lattice Deduction Transformers](index.html#doc=arxiv-2605.08605) | `academic_paper` | `to-read` | 3 | 117 |\n| 19 | `arxiv-2605.10901` | [Beyond Red-Teaming: Formal Guarantees of LLM Guardrail Classifiers](index.html#doc=arxiv-2605.10901) | `academic_paper` | `to-read` | 3 | 103 |\n| 20 | `arxiv-2603.19163` | [cuGenOpt: A GPU-Accelerated General-Purpose Metaheuristic Framework for Combinatorial Optimization](index.html#doc=arxiv-2603.19163) | `academic_paper` | `to-read` | 3 | 79 |\n| 21 | `arxiv-2607.22619` | [How to Catch a GPU: A Taxonomy of Verification and Enforcement Mechanisms for International AI Agreements](index.html#doc=arxiv-2607.22619) | `academic_paper` | `to-read` | 3 | 65 |\n| 22 | `openreview-sec-bench-2025` | [SEC-bench: Automated Benchmarking of LLM Agents on Real-World Software Security Tasks](index.html#doc=openreview-sec-bench-2025) | `academic_paper` | `to-read` | 3 | 87 |\n| 23 | `arxiv-2509.25239` | [A Formal Comparison Between Chain of Thought and Latent Thought](index.html#doc=arxiv-2509.25239) | `academic_paper` | `to-read` | 3 | 84 |\n| 24 | `note-2026-kitsumiko-formal-neurosymbolic-bridge` | [Synthesis Note: Neuro-Symbolic Deduction, Formal Guardrail Certification, and Hardware-Verified AI (Curated from kitsumiko/papers)](index.html#doc=note-2026-kitsumiko-formal-neurosymbolic-bridge) | `note` | `read` | 3 | 117 |\n\n## 2. Full Semantic Chunks by Document\n\n### 1. On-Chip Monitors Detect Bit-Flip Attacks in AI Accelerators (UF, UT Dallas, RPI) (`semieng-2026-bare-ai-monitors`)\n\n- **Metadata:** `technical_article` | Status: `read` | Priority: `high` | Published: `2026-10` | Authors: Semiconductor Engineering Staff\n- **Navigation:** [Inspect on Dashboard](index.html#doc=semieng-2026-bare-ai-monitors) | [External Source](https://semiengineering.com/on-chip-monitors-detect-bit-flip-attacks-in-ai-accelerators-uf-ut-dallas-rpi/)\n\n#### `semieng-2026-bare-ai-monitors#chunk-01` \u2014 Research Brief Overview (31 words)\n\nResearchers at the University of Florida, University of Texas at Dallas, and Rensselaer Polytechnic Institute published a technical paper titled \"BARE-AI: Bit-Flip Attack Resilience in AI Hardware through Built-in Performance Monitors.\"\n\n- **Matched Concepts:** `concept:ai-accelerator`, `concept:apc`, `concept:bare-ai`, `concept:bit-flip-attack`\n- **Technology Areas:** AI Hardware Accelerators, Adversarial Fault Injection, Hardware & AI Security, On-Chip Telemetry & Runtime Monitoring, Semiconductor Engineering\n- **Taxonomy Hierarchy:** `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > AI Accelerators`; `Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors`; `Security & Resilience`; `Security & Resilience > Hardware Fault Attacks > Bit-Flip Attacks`\n\n#### `semieng-2026-bare-ai-monitors#chunk-02` \u2014 Abstract Excerpt (59 words)\n\nDeep Neural Networks (DNNs) are integral to many safety critical systems, yet they remain highly vulnerable to bit-flip attacks (BFAs), where a few memory level perturbations can drastically degrade accuracy. Existing defenses incur significant hardware overhead, depend on retraining, or fail against targeted flips. We propose BARE-AI, a runtime framework that detects, localizes, and mitigates BFAs during AI inference.\n\n- **Matched Concepts:** `concept:bare-ai`, `concept:bit-flip-attack`, `concept:dnn`\n- **Technology Areas:** AI & Machine Learning, AI Hardware Accelerators, Adversarial Fault Injection, Deep Learning Architectures, Hardware & AI Security, Memory Subsystems & Chiplets, On-Chip Telemetry & Runtime Monitoring, Self-Healing & Fault-Tolerant AI, Semiconductor Engineering\n- **Taxonomy Hierarchy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > AI Accelerators`; `Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors`; `Hardware & Semiconductor Systems > Memory & Interconnects`; `Security & Resilience`; `Security & Resilience > Hardware Fault Attacks > Bit-Flip Attacks`; `Security & Resilience > Runtime Fault Localization & Recovery`\n\n#### `semieng-2026-bare-ai-monitors#chunk-03` \u2014 Citation & Source Link (27 words)\n\nRahaman, Habibur, Swastik Bhattacharya, Sanjay Das, Kanad Basu, and Swarup Bhunia. \"BARE-AI: Bit-Flip Attack Resilience in AI Hardware through Built-in Performance Monitors.\" arXiv preprint arXiv:2610.08739 (2026). https://arxiv.org/abs/2610.08739\n\n- **Matched Concepts:** `concept:ai-accelerator`, `concept:apc`, `concept:bare-ai`, `concept:bit-flip-attack`\n- **Technology Areas:** AI & Machine Learning, AI Hardware Accelerators, Adversarial Fault Injection, Alternative & State-Space Architectures, Deep Learning Architectures, Hardware & AI Security, On-Chip Telemetry & Runtime Monitoring, Semiconductor Engineering\n- **Taxonomy Hierarchy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Artificial Intelligence & Machine Learning > Deep Neural Networks > Novel & State-Space Architectures`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > AI Accelerators`; `Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors`; `Security & Resilience`; `Security & Resilience > Hardware Fault Attacks > Bit-Flip Attacks`\n\n### 2. BARE-AI: Bit-Flip Attack Resilience in AI Hardware through Built-in Performance Monitors (`arxiv-2610.08739v2`)\n\n- **Metadata:** `academic_paper` | Status: `reading` | Priority: `high` | Published: `2026-10-06` | Authors: Habibur Rahaman, Swastik Bhattacharya, Sanjay Das, Kanad Basu, Swarup Bhunia\n- **Navigation:** [Inspect on Dashboard](index.html#doc=arxiv-2610.08739v2) | [External Source](https://arxiv.org/abs/2610.08739v2)\n\n#### `arxiv-2610.08739v2#chunk-01` \u2014 Problem Statement: Bit-Flip Vulnerability in DNNs (44 words)\n\nDeep Neural Networks (DNNs) are integral to many safety critical systems, yet they remain highly vulnerable to bit-flip attacks (BFAs), where a few memory level perturbations can drastically degrade accuracy. Existing defenses incur significant hardware overhead, depend on retraining, or fail against targeted flips.\n\n- **Matched Concepts:** `concept:ai-accelerator`, `concept:apc`, `concept:bare-ai`, `concept:bit-flip-attack`, `concept:dnn`\n- **Technology Areas:** AI & Machine Learning, AI Hardware Accelerators, Adversarial Fault Injection, Deep Learning Architectures, Hardware & AI Security, Memory Subsystems & Chiplets, On-Chip Telemetry & Runtime Monitoring, Semiconductor Engineering\n- **Taxonomy Hierarchy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > AI Accelerators`; `Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors`; `Hardware & Semiconductor Systems > Memory & Interconnects`; `Security & Resilience`; `Security & Resilience > Hardware Fault Attacks > Bit-Flip Attacks`\n\n#### `arxiv-2610.08739v2#chunk-02` \u2014 BARE-AI Architecture: APCs and PULSE (70 words)\n\nWe propose BARE-AI, a runtime framework that detects, localizes, and mitigates BFAs during inference. BARE-AI introduces AI Performance Counters (APCs), lightweight hardware monitors in the accelerator datapath that capture per-layer activation statistics such as sparsity, entropy, kurtosis, and spectral shift. These are analyzed by the Predictive Unit for Layer Security Evaluation (PULSE), a compact detector trained offline as an ensemble of classifiers and realized on-chip as a small neural engine.\n\n- **Matched Concepts:** `concept:activation-statistics`, `concept:ai-accelerator`, `concept:apc`, `concept:bare-ai`, `concept:bit-flip-attack`, `concept:pulse`\n- **Technology Areas:** AI & Machine Learning, AI Hardware Accelerators, Adversarial Fault Injection, Deep Learning Architectures, Hardware & AI Security, On-Chip Telemetry & Runtime Monitoring, Self-Healing & Fault-Tolerant AI, Semiconductor Engineering\n- **Taxonomy Hierarchy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > AI Accelerators`; `Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors`; `Security & Resilience`; `Security & Resilience > Hardware Fault Attacks > Bit-Flip Attacks`; `Security & Resilience > Runtime Fault Localization & Recovery`\n\n#### `arxiv-2610.08739v2#chunk-03` \u2014 Fault Localization and Weight Recovery (29 words)\n\nFor explainability and recovery, BARE-AI introduces an Activation Shift Index (ASI) for layer level fault localization and a z-score based repair that resets anomalous weights toward clean layer statistics.\n\n- **Matched Concepts:** `concept:asi`, `concept:bare-ai`\n- **Technology Areas:** AI & Machine Learning, AI Hardware Accelerators, Deep Learning Architectures, Hardware & AI Security, On-Chip Telemetry & Runtime Monitoring, Self-Healing & Fault-Tolerant AI, Semiconductor Engineering\n- **Taxonomy Hierarchy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > AI Accelerators`; `Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors`; `Security & Resilience`; `Security & Resilience > Runtime Fault Localization & Recovery`\n\n#### `arxiv-2610.08739v2#chunk-04` \u2014 Evaluation Across CNNs, ViTs, and LLMs (47 words)\n\nAcross CNNs, Vision Transformers, and Large Language Models under random, targeted, adaptive, and magnitude based BFAs, BARE-AI achieves up to 98% detection accuracy on vision models and 74% to 95% on language models, restores near clean accuracy for CNNs and ViTs, and provides partial recovery for LLMs.\n\n- **Matched Concepts:** `concept:bare-ai`, `concept:bit-flip-attack`, `concept:dnn`\n- **Technology Areas:** AI & Machine Learning, AI Hardware Accelerators, Adversarial Fault Injection, Deep Learning Architectures, Hardware & AI Security, On-Chip Telemetry & Runtime Monitoring, Self-Healing & Fault-Tolerant AI, Semiconductor Engineering\n- **Taxonomy Hierarchy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > AI Accelerators`; `Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors`; `Security & Resilience`; `Security & Resilience > Hardware Fault Attacks > Bit-Flip Attacks`; `Security & Resilience > Runtime Fault Localization & Recovery`\n\n#### `arxiv-2610.08739v2#chunk-05` \u2014 Hardware Overhead at 28nm (68 words)\n\nSynthesized at 28nm, the monitoring infrastructure incurs under 3% energy, under 4% area, and about 10% latency overhead, with a configurable operating point that reduces latency overhead to about 6%. Unlike error correcting codes, whose redundancy grows with the number of tolerated flips, BARE-AI's overhead remains constant regardless of attack strength, making it attractive for resource constrained, safety critical edge applications such as autonomous systems, energy, and healthcare.\n\n- **Matched Concepts:** `concept:ai-accelerator`, `concept:bare-ai`, `concept:ecc`\n- **Technology Areas:** AI Hardware Accelerators, Electronic Design Automation, Hardware & AI Security, On-Chip Telemetry & Runtime Monitoring, Self-Healing & Fault-Tolerant AI, Semiconductor Engineering\n- **Taxonomy Hierarchy:** `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > AI Accelerators`; `Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Security & Resilience`; `Security & Resilience > Runtime Fault Localization & Recovery`\n\n### 3. A Rowhammer attack on Fil-C's software capabilities (`arxiv-2610.33748`)\n\n- **Metadata:** `academic_paper` | Status: `reading` | Priority: `high` | Published: `2026-10` | Authors: Amir Naseredini, Suhas Viswanath, Martin Berger\n- **Navigation:** [Inspect on Dashboard](index.html#doc=arxiv-2610.33748) | [External Source](https://arxiv.org/abs/2610.33748)\n\n#### `arxiv-2610.33748#chunk-01` \u2014 Fil-C Software Capabilities & Hardware Assumptions (52 words)\n\nFil-C retrofits spatial and temporal memory safety onto C and C++ programs using software capabilities (InvisiCaps) checked on every pointer dereference. However, Fil-C relies on an unstated hardware assumption that DRAM reliably preserves capability metadata. In Fil-C, each heap pointer's upper-bound word is stored inline in ordinary DRAM without hardware integrity protection.\n\n- **Matched Concepts:** `concept:bit-flip-attack`, `concept:fil-c`, `concept:rowhammer`\n- **Technology Areas:** Adversarial Fault Injection, Hardware & AI Security, Language & Runtime Memory Safety, Memory Subsystems & Chiplets, Semiconductor Engineering\n- **Taxonomy Hierarchy:** `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > Memory & Interconnects`; `Security & Resilience`; `Security & Resilience > Hardware Fault Attacks > Bit-Flip Attacks`; `Security & Resilience > Memory Safety & Software Capabilities`\n\n#### `arxiv-2610.33748#chunk-02` \u2014 Rowhammer Bit-Flip Attack Mechanism (45 words)\n\nA single 0-to-1 bit-flip induced by Rowhammer in a pointer's upper-bound metadata expands the pointer's permitted memory range by 2^k bytes. Because the runtime treats the corrupted upper bound as authoritative, it silently permits out-of-bounds reads and writes without raising any panic, signal, or exception.\n\n- **Matched Concepts:** `concept:bit-flip-attack`, `concept:rowhammer`\n- **Technology Areas:** Adversarial Fault Injection, Hardware & AI Security, Language & Runtime Memory Safety, Memory Subsystems & Chiplets, Semiconductor Engineering\n- **Taxonomy Hierarchy:** `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > Memory & Interconnects`; `Security & Resilience`; `Security & Resilience > Hardware Fault Attacks > Bit-Flip Attacks`; `Security & Resilience > Memory Safety & Software Capabilities`\n\n#### `arxiv-2610.33748#chunk-03` \u2014 End-to-End Evaluation on DDR3 and DDR4 with TRR (49 words)\n\nUsing both a deterministic fault-injection model and physical end-to-end Rowhammer reproduction on DDR3 and DDR4 memory equipped with Target Row Refresh (TRR), the authors demonstrate bounded read/write windows, secret disclosure, privilege escalation, and multi-tenant SQLite API key leakage, along with a probabilistic small-step operational semantics for memory fault reasoning.\n\n- **Matched Concepts:** `concept:bit-flip-attack`, `concept:rowhammer`\n- **Technology Areas:** Adversarial Fault Injection, Electronic Design Automation, Hardware & AI Security, Memory Subsystems & Chiplets, Semiconductor Engineering\n- **Taxonomy Hierarchy:** `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > Memory & Interconnects`; `Security & Resilience`; `Security & Resilience > Hardware Fault Attacks > Bit-Flip Attacks`\n\n### 4. Cross-Layer Resilience for HBM and UCIe Chiplet AI Accelerators Under Targeted Bit-Flip Faults (`techpaper-2026-hbm-chiplet-resilience`)\n\n- **Metadata:** `technical_paper` | Status: `to-read` | Priority: `medium` | Published: `2026-10` | Authors: Elena Vance, Marcus Chen\n- **Navigation:** [Inspect on Dashboard](index.html#doc=techpaper-2026-hbm-chiplet-resilience) | [External Source](https://semiengineering.com/)\n\n#### `techpaper-2026-hbm-chiplet-resilience#chunk-01` \u2014 High-Bandwidth Memory & Chiplet Interconnect Threat Surface (47 words)\n\nModern AI accelerators increasingly pair HBM3 and CXL memory subsystems with multi-die UCIe chiplet architectures. While error correcting codes (ECC) and Target Row Refresh (TRR) mitigate single-bit random faults, concentrated Rowhammer and targeted bit-flip attacks across shared memory channels threaten both Vision Transformers and Large Language Models.\n\n- **Matched Concepts:** `concept:ai-accelerator`, `concept:asi`, `concept:bit-flip-attack`, `concept:dnn`, `concept:ecc`, `concept:rowhammer`\n- **Technology Areas:** AI & Machine Learning, AI Hardware Accelerators, Adversarial Fault Injection, Deep Learning Architectures, Hardware & AI Security, Memory Subsystems & Chiplets, Self-Healing & Fault-Tolerant AI, Semiconductor Engineering\n- **Taxonomy Hierarchy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > AI Accelerators`; `Hardware & Semiconductor Systems > Memory & Interconnects`; `Security & Resilience`; `Security & Resilience > Hardware Fault Attacks > Bit-Flip Attacks`; `Security & Resilience > Runtime Fault Localization & Recovery`\n\n#### `techpaper-2026-hbm-chiplet-resilience#chunk-02` \u2014 Co-Design of Memory Telemetry and Datapath Monitors (27 words)\n\nCombining inline memory controller telemetry with datapath AI Performance Counters (APCs) enables early anomaly detection before corrupted weights or pointer capability metadata propagate across UCIe die-to-die links.\n\n- **Matched Concepts:** `concept:apc`\n- **Technology Areas:** AI & Machine Learning, AI Hardware Accelerators, Deep Learning Architectures, Hardware & AI Security, Language & Runtime Memory Safety, Memory Subsystems & Chiplets, On-Chip Telemetry & Runtime Monitoring, Semiconductor Engineering\n- **Taxonomy Hierarchy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > AI Accelerators`; `Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors`; `Hardware & Semiconductor Systems > Memory & Interconnects`; `Security & Resilience`; `Security & Resilience > Memory Safety & Software Capabilities`\n\n### 5. Pre-Silicon Formal Verification of On-Chip Telemetry Monitors Against Fault Injection (`techpaper-2026-eda-formal-monitors`)\n\n- **Metadata:** `technical_paper` | Status: `to-read` | Priority: `medium` | Published: `2026-11` | Authors: Priya Nair, David K. Lindstrom\n- **Navigation:** [Inspect on Dashboard](index.html#doc=techpaper-2026-eda-formal-monitors) | [External Source](https://arxiv.org/abs/2610.08739v2)\n\n#### `techpaper-2026-eda-formal-monitors#chunk-01` \u2014 Formal Verification of Runtime Security Monitors (33 words)\n\nHardware performance monitors such as AI Performance Counters (APCs) and on-chip neural detectors like PULSE must themselves be verified against fault injection and timing side channels during RTL synthesis and place and route.\n\n- **Matched Concepts:** `concept:apc`, `concept:pulse`\n- **Technology Areas:** AI & Machine Learning, AI Hardware Accelerators, Adversarial Fault Injection, Electronic Design Automation, Hardware & AI Security, On-Chip Telemetry & Runtime Monitoring, Semiconductor Engineering\n- **Taxonomy Hierarchy:** `Artificial Intelligence & Machine Learning`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > AI Accelerators`; `Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Security & Resilience`; `Security & Resilience > Hardware Fault Attacks > Bit-Flip Attacks`\n\n#### `techpaper-2026-eda-formal-monitors#chunk-02` \u2014 Operational Semantics and Pre-Silicon Fault Simulation (28 words)\n\nBy combining formal verification at the 28nm RTL boundary with probabilistic operational semantics for memory-level bit-flip perturbations, EDA toolflows can certify layer-level fault localization bounds prior to tapeout.\n\n- **Matched Concepts:** `concept:ai-accelerator`, `concept:asi`, `concept:bit-flip-attack`\n- **Technology Areas:** AI & Machine Learning, AI Hardware Accelerators, Adversarial Fault Injection, Deep Learning Architectures, Electronic Design Automation, Hardware & AI Security, Memory Subsystems & Chiplets, Self-Healing & Fault-Tolerant AI, Semiconductor Engineering\n- **Taxonomy Hierarchy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > AI Accelerators`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > Memory & Interconnects`; `Security & Resilience`; `Security & Resilience > Hardware Fault Attacks > Bit-Flip Attacks`; `Security & Resilience > Runtime Fault Localization & Recovery`\n\n### 6. Synthesis Note: Cross-Layer Bit-Flip Resilience Across AI Accelerators and Capability Runtimes (`note-2026-cross-layer-bitflip-synthesis`)\n\n- **Metadata:** `note` | Status: `read` | Priority: `high` | Published: `2026-11-05` | Authors: Bill Sommers\n- **Navigation:** [Inspect on Dashboard](index.html#doc=note-2026-cross-layer-bitflip-synthesis) | [External Source](https://github.com/bsommers/reading-db)\n\n#### `note-2026-cross-layer-bitflip-synthesis#chunk-01` \u2014 Unifying Hardware Datapath Telemetry and Software Capability Integrity (34 words)\n\nBoth BARE-AI (arXiv:2610.08739v2) and the Fil-C Rowhammer study (arXiv:2610.33748) expose a critical cross-layer insight: neither Deep Neural Network weights nor language-level software capabilities (InvisiCaps) can assume uncorrupted DRAM when subjected to targeted bit-flip attacks.\n\n- **Matched Concepts:** `concept:ai-accelerator`, `concept:bare-ai`, `concept:bit-flip-attack`, `concept:fil-c`, `concept:rowhammer`\n- **Technology Areas:** AI & Machine Learning, AI Hardware Accelerators, Adversarial Fault Injection, Deep Learning Architectures, Electronic Design Automation, Hardware & AI Security, Language & Runtime Memory Safety, Memory Subsystems & Chiplets, On-Chip Telemetry & Runtime Monitoring, Semiconductor Engineering\n- **Taxonomy Hierarchy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > AI Accelerators`; `Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > Memory & Interconnects`; `Security & Resilience`; `Security & Resilience > Hardware Fault Attacks > Bit-Flip Attacks`; `Security & Resilience > Memory Safety & Software Capabilities`\n\n#### `note-2026-cross-layer-bitflip-synthesis#chunk-02` \u2014 OntoLogic Knowledge Graph Synthesis (54 words)\n\nIn our conceptual taxonomy, Bit-Flip Attacks bridge Hardware & Semiconductor Systems (AI Accelerators, Memory & Interconnects) and Security & Resilience (Memory Safety & Software Capabilities, Runtime Fault Localization & Recovery). Lightweight on-chip monitors (APCs, PULSE, ASI) and z-score statistical repair provide constant-overhead mitigation where traditional ECC or DDR4 Target Row Refresh (TRR) fall short.\n\n- **Matched Concepts:** `concept:ai-accelerator`, `concept:apc`, `concept:asi`, `concept:bit-flip-attack`, `concept:ecc`, `concept:fil-c`, `concept:ontology-smt-reasoning`, `concept:pulse`, `concept:rowhammer`\n- **Technology Areas:** AI Hardware Accelerators, Adversarial Fault Injection, Automated Reasoning & Mathematical Logic, Electronic Design Automation, Hardware & AI Security, Language & Runtime Memory Safety, Memory Subsystems & Chiplets, On-Chip Telemetry & Runtime Monitoring, Ontologies & Description Logic, Self-Healing & Fault-Tolerant AI, Semiconductor Engineering\n- **Taxonomy Hierarchy:** `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > Knowledge Representation & Ontologies`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > AI Accelerators`; `Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > Memory & Interconnects`; `Security & Resilience`; `Security & Resilience > Hardware Fault Attacks > Bit-Flip Attacks`; `Security & Resilience > Memory Safety & Software Capabilities`; `Security & Resilience > Runtime Fault Localization & Recovery`\n\n### 7. UCLID5: Multi-Modal Formal Modeling, Verification, and Synthesis (`arxiv-2208.03699`)\n\n- **Metadata:** `academic_paper` | Status: `read` | Priority: `high` | Published: `2022-08-06` | Authors: Elizabeth Polgreen, Kevin Cheang, Pranav Gaddamadugu, Adwait Godbole, Kevin Laeufer, Shaokai Lin, Yatin A. Manerkar, Federico Mora, Sanjit A. Seshia\n- **Navigation:** [Inspect on Dashboard](index.html#doc=arxiv-2208.03699) | [External Source](https://arxiv.org/abs/2208.03699)\n\n#### `arxiv-2208.03699#chunk-01` \u2014 Multi-Modal Formal Modeling Language for Hardware & Systems (41 words)\n\nUCLID5 is a formal modeling, verification, and synthesis framework and specification language designed for heterogeneous hardware and software systems. It enables compositional specification of Register-Transfer Level (RTL) datapaths, control logic, memory subsystems, and security monitors using first-order and temporal logic assertions.\n\n- **Matched Concepts:** `concept:sva`, `concept:uclid5`\n- **Technology Areas:** AI Hardware Accelerators, Electronic Design Automation, Formal Verification & Specification Languages, Hardware & AI Security, Language & Runtime Memory Safety, Memory Subsystems & Chiplets, On-Chip Telemetry & Runtime Monitoring, Semiconductor Engineering\n- **Taxonomy Hierarchy:** `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > AI Accelerators`; `Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`; `Hardware & Semiconductor Systems > Memory & Interconnects`; `Security & Resilience`; `Security & Resilience > Memory Safety & Software Capabilities`\n\n#### `arxiv-2208.03699#chunk-02` \u2014 Bridging Chisel, FIRRTL, and SMT Solvers (46 words)\n\nIn semiconductor design workflows, UCLID5 integrates with modern hardware construction languages such as Chisel and FIRRTL as well as SystemVerilog Assertions (SVA). Models are lowered to Satisfiability Modulo Theories (SMT) solvers and syntax-guided synthesis (SyGuS) engines for bounded model checking, inductive invariant synthesis, and hyperproperty verification.\n\n- **Matched Concepts:** `concept:sat-smt-solvers`, `concept:sva`, `concept:symbolic-execution`, `concept:uclid5`\n- **Technology Areas:** Automated Reasoning & Mathematical Logic, Electronic Design Automation, Formal Verification & Specification Languages, SAT & SMT Decision Procedures, Semiconductor Engineering, Software Verification & Program Analysis\n- **Taxonomy Hierarchy:** `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > SAT & SMT Solvers`; `Formal Methods & Automated Reasoning > SAT & SMT Solvers > Software Verification & Symbolic Execution`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`\n\n#### `arxiv-2208.03699#chunk-03` \u2014 Verification of Secure Architectures and Accelerators (22 words)\n\nUCLID5 has been deployed to formally verify speculative execution mitigations, cryptographic accelerators, enclave isolation, and hardware fault-tolerance protocols prior to silicon tapeout.\n\n- **Matched Concepts:** `concept:uclid5`\n- **Technology Areas:** AI Hardware Accelerators, Electronic Design Automation, Formal Verification & Specification Languages, Semiconductor Engineering\n- **Taxonomy Hierarchy:** `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > AI Accelerators`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`\n\n### 8. AssertionForge: Enhancing Formal Verification Assertion Generation with Structured Representation of Specifications and RTL (`arxiv-2503.19174`)\n\n- **Metadata:** `academic_paper` | Status: `reading` | Priority: `high` | Published: `2025-03-24` | Authors: Yunsheng Bai, Ghaith Bany Hamad, Syed Suhaib, Haoxing Ren\n- **Navigation:** [Inspect on Dashboard](index.html#doc=arxiv-2503.19174) | [External Source](https://arxiv.org/abs/2503.19174)\n\n#### `arxiv-2503.19174#chunk-01` \u2014 Bottlenecks in Writing SystemVerilog Assertions (SVAs) (43 words)\n\nFormal Property Verification (FPV) in chip and semiconductor design relies heavily on SystemVerilog Assertions (SVAs) and Property Specification Language (PSL) to mathematically prove that Register-Transfer Level (RTL) implementations satisfy architectural specifications. Writing temporal logic assertions manually is error-prone and requires deep verification expertise.\n\n- **Matched Concepts:** `concept:llm-formal-verification`, `concept:sva`\n- **Technology Areas:** Automated Reasoning & Mathematical Logic, Electronic Design Automation, Formal Verification & Specification Languages, Hardware & AI Security, Language & Runtime Memory Safety, Semiconductor Engineering\n- **Taxonomy Hierarchy:** `Formal Methods & Automated Reasoning`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`; `Security & Resilience`; `Security & Resilience > Memory Safety & Software Capabilities`\n\n#### `arxiv-2503.19174#chunk-02` \u2014 Unified Specification-and-RTL Knowledge Graph (36 words)\n\nAssertionForge constructs a unified hardware Knowledge Graph (KG) that fuses natural-language specification requirements with structural RTL signal interactions, finite-state machines, and clock/reset domains. Multi-resolution context retrieval over this graph prevents signal hallucination during automated SVA synthesis.\n\n- **Matched Concepts:** `concept:llm-formal-verification`, `concept:ontology-smt-reasoning`, `concept:sva`\n- **Technology Areas:** Automated Reasoning & Mathematical Logic, Electronic Design Automation, Formal Verification & Specification Languages, Ontologies & Description Logic, Semiconductor Engineering\n- **Taxonomy Hierarchy:** `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > Knowledge Representation & Ontologies`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`\n\n#### `arxiv-2503.19174#chunk-03` \u2014 Formal Property Verification Closure (30 words)\n\nEvaluated across industrial semiconductor IP blocks using commercial EDA formal verification engines, AssertionForge substantially increases syntax validity, temporal accuracy, and cone-of-influence coverage compared to baseline Large Language Model assertion generators.\n\n- **Matched Concepts:** `concept:llm-formal-verification`, `concept:sva`\n- **Technology Areas:** AI & Machine Learning, Agentic Systems & Reasoning, Electronic Design Automation, Formal Verification & Specification Languages, Hardware & AI Security, Language & Runtime Memory Safety, Semiconductor Engineering\n- **Taxonomy Hierarchy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Reasoning, Agents & Retrieval`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`; `Security & Resilience`; `Security & Resilience > Memory Safety & Software Capabilities`\n\n### 9. ProofLoop: From Language to Logic \u2014 Bridging LLMs and Formal Representations for RTL Assertion Generation (`arxiv-2604.23100`)\n\n- **Metadata:** `academic_paper` | Status: `to-read` | Priority: `high` | Published: `2026-04-28` | Authors: Nowfel Mashnoor, Aritra Dasgupta, Sandeep K. Shukla\n- **Navigation:** [Inspect on Dashboard](index.html#doc=arxiv-2604.23100) | [External Source](https://arxiv.org/abs/2604.23100)\n\n#### `arxiv-2604.23100#chunk-01` \u2014 Solver-in-the-Loop Formal Assertion Synthesis (27 words)\n\nProofLoop introduces a two-phase agentic framework that bridges natural-language hardware specifications, Register-Transfer Level (RTL) abstract syntax trees (ASTs), and formal verification languages such as SystemVerilog Assertions (SVA).\n\n- **Matched Concepts:** `concept:agentic-reasoning`, `concept:dnn`, `concept:llm-formal-verification`, `concept:sva`\n- **Technology Areas:** AI & Machine Learning, Agentic Systems & Reasoning, Automated Reasoning & Mathematical Logic, Deep Learning Architectures, Electronic Design Automation, Formal Verification & Specification Languages, Semiconductor Engineering\n- **Taxonomy Hierarchy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Artificial Intelligence & Machine Learning > Reasoning, Agents & Retrieval`; `Formal Methods & Automated Reasoning`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`\n\n#### `arxiv-2604.23100#chunk-02` \u2014 Iterative Refinement with EDA Proof Engines (53 words)\n\nIn Phase A, ProofLoop queries an AST-indexed structural representation of the Verilog/SystemVerilog design to ground clock, reset, and handshake signals. In Phase B, a solver-in-the-loop agent invokes commercial formal verification engines such as Cadence JasperGold, parses counterexample traces and vacuity reports, and iteratively repairs candidate SVA properties until mathematical proof closure is achieved.\n\n- **Matched Concepts:** `concept:llm-formal-verification`, `concept:sva`\n- **Technology Areas:** Automated Reasoning & Mathematical Logic, Electronic Design Automation, Formal Verification & Specification Languages, Hardware & AI Security, Self-Healing & Fault-Tolerant AI, Semiconductor Engineering\n- **Taxonomy Hierarchy:** `Formal Methods & Automated Reasoning`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`; `Security & Resilience`; `Security & Resilience > Runtime Fault Localization & Recovery`\n\n#### `arxiv-2604.23100#chunk-03` \u2014 Implications for Semiconductor Verification Flows (23 words)\n\nCoupling deterministic formal solvers with automated assertion synthesis eliminates vacuous properties and accelerates pre-silicon verification of complex SoC interconnects and AI accelerator datapaths.\n\n- **Matched Concepts:** `concept:ai-accelerator`\n- **Technology Areas:** AI Hardware Accelerators, Automated Reasoning & Mathematical Logic, Electronic Design Automation, Formal Verification & Specification Languages, Memory Subsystems & Chiplets, Semiconductor Engineering\n- **Taxonomy Hierarchy:** `Formal Methods & Automated Reasoning`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > AI Accelerators`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`; `Hardware & Semiconductor Systems > Memory & Interconnects`\n\n### 10. EquivSVA: A Formally Verified Dataset of Behavioral Assertions Across Equivalent RTL Implementations (`arxiv-2609.26751`)\n\n- **Metadata:** `academic_paper` | Status: `to-read` | Priority: `medium` | Published: `2026-09-29` | Authors: FNU Aditi, Rohan Sharma, Subhasish Mitra\n- **Navigation:** [Inspect on Dashboard](index.html#doc=arxiv-2609.26751) | [External Source](https://arxiv.org/abs/2609.26751)\n\n#### `arxiv-2609.26751#chunk-01` \u2014 Behavioral Equivalence in Hardware Verification Languages (40 words)\n\nEvaluating automated SystemVerilog Assertion (SVA) generators requires distinguishing true behavioral temporal properties from brittle assertions tied to incidental RTL coding style. EquivSVA provides a formally verified benchmark organized around behavior families of structurally distinct RTL implementations sharing identical interface specifications.\n\n- **Matched Concepts:** `concept:llm-formal-verification`, `concept:sva`\n- **Technology Areas:** Electronic Design Automation, Formal Verification & Specification Languages, Hardware & AI Security, Language & Runtime Memory Safety, Semiconductor Engineering\n- **Taxonomy Hierarchy:** `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`; `Security & Resilience`; `Security & Resilience > Memory Safety & Software Capabilities`\n\n#### `arxiv-2609.26751#chunk-02` \u2014 Formal Equivalence & Metamorphic Verification (25 words)\n\nEvery gold SVA assertion in EquivSVA is mechanically verified using formal property verification (FPV) and SMT-based equivalence checking across pipelined, FSM-encoded, and Chisel/FIRRTL-generated RTL variants.\n\n- **Matched Concepts:** `concept:llm-formal-verification`, `concept:sva`, `concept:uclid5`\n- **Technology Areas:** Automated Reasoning & Mathematical Logic, Electronic Design Automation, Formal Verification & Specification Languages, Semiconductor Engineering\n- **Taxonomy Hierarchy:** `Formal Methods & Automated Reasoning`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`\n\n#### `arxiv-2609.26751#chunk-03` \u2014 Advancing Robust Semiconductor Verification (19 words)\n\nEquivSVA enables rigorous benchmarking of formal verification language translators, theorem-proving hardware frameworks (Kami, Coq), and LLM-assisted assertion synthesis pipelines.\n\n- **Matched Concepts:** `concept:llm-formal-verification`, `concept:sva`, `concept:uclid5`\n- **Technology Areas:** AI & Machine Learning, Deep Learning Architectures, Electronic Design Automation, Formal Verification & Specification Languages, Semiconductor Engineering\n- **Taxonomy Hierarchy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`\n\n### 11. Research Synthesis: Formal verification languages in chip and semiconductor design (`research-formal-verification-languages-in-chip-and-se`)\n\n- **Metadata:** `note` | Status: `read` | Priority: `high` | Published: `2026-11-05` | Authors: Reading List Research Engine\n- **Navigation:** [Inspect on Dashboard](index.html#doc=research-formal-verification-languages-in-chip-and-se) | [External Source](https://github.com/bsommers/reading-db)\n\n#### `research-formal-verification-languages-in-chip-and-se#chunk-01` \u2014 Research Scope & Core Languages: Formal verification languages in chip and semiconductor design (72 words)\n\nIn chip and semiconductor design, Formal Verification Languages provide the mathematical foundation for specifying and proving Register-Transfer Level (RTL) and architectural invariants before silicon fabrication. The industrial backbone comprises IEEE 1800 SystemVerilog Assertions (SVA) and IEEE 1850 Property Specification Language (PSL) for linear temporal logic (LTL) Formal Property Verification (FPV), complemented by multi-modal verification and hardware construction languages including UCLID5 (SMT-backed datapath/control modeling), Chisel/FIRRTL (ChiselFV), and Coq-embedded theorem-proving frameworks such as Kami.\n\n- **Matched Concepts:** `concept:sva`, `concept:uclid5`\n- **Technology Areas:** AI Hardware Accelerators, Automated Reasoning & Mathematical Logic, Electronic Design Automation, Formal Verification & Specification Languages, Hardware & AI Security, Language & Runtime Memory Safety, Semiconductor Engineering\n- **Taxonomy Hierarchy:** `Formal Methods & Automated Reasoning`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > AI Accelerators`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`; `Security & Resilience`; `Security & Resilience > Memory Safety & Software Capabilities`\n\n#### `research-formal-verification-languages-in-chip-and-se#chunk-02` \u2014 Knowledge-Graph & Solver-in-the-Loop Assertion Synthesis (108 words)\n\nRecent research synthesized in this collection \u2014 UCLID5: Multi-Modal Formal Modeling, Verification, and Synthesis (arxiv-2208.03699); AssertionForge: Enhancing Formal Verification Assertion Generation with Structured Representation of Specifications and RTL (arxiv-2503.19174); ProofLoop: From Language to Logic \u2014 Bridging LLMs and Formal Representations for RTL Assertion Generation (arxiv-2604.23100); EquivSVA: A Formally Verified Dataset of Behavioral Assertions Across Equivalent RTL Implementations (arxiv-2609.26751) \u2014 addresses the manual bottleneck of authoring temporal logic assertions. Frameworks like AssertionForge construct unified Knowledge Graphs fusing natural-language specs and RTL structure, while agentic solver-in-the-loop systems like ProofLoop interact directly with commercial EDA formal engines (Cadence JasperGold and SMT solvers) to iteratively refine SVA assertions until formal proof closure.\n\n- **Matched Concepts:** `concept:agentic-reasoning`, `concept:dnn`, `concept:llm-formal-verification`, `concept:ontology-smt-reasoning`, `concept:sat-smt-solvers`, `concept:sva`, `concept:uclid5`\n- **Technology Areas:** AI & Machine Learning, Agentic Systems & Reasoning, Automated Reasoning & Mathematical Logic, Deep Learning Architectures, Electronic Design Automation, Formal Verification & Specification Languages, Hardware & AI Security, Language & Runtime Memory Safety, Ontologies & Description Logic, SAT & SMT Decision Procedures, Semiconductor Engineering\n- **Taxonomy Hierarchy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Artificial Intelligence & Machine Learning > Reasoning, Agents & Retrieval`; `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > Knowledge Representation & Ontologies`; `Formal Methods & Automated Reasoning > SAT & SMT Solvers`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`; `Security & Resilience`; `Security & Resilience > Memory Safety & Software Capabilities`\n\n#### `research-formal-verification-languages-in-chip-and-se#chunk-03` \u2014 Cross-Layer Integration with Hardware Telemetry & Security (44 words)\n\nWithin our OntoLogic-ready knowledge graph, formal verification languages connect pre-silicon EDA verification with runtime hardware security monitors (such as BARE-AI's 28nm AI Performance Counters and PULSE neural detectors) and probabilistic operational semantics for memory-level bit-flip resilience (such as Rowhammer analysis on Fil-C software capabilities).\n\n- **Matched Concepts:** `concept:ai-accelerator`, `concept:apc`, `concept:bare-ai`, `concept:bit-flip-attack`, `concept:fil-c`, `concept:ontology-smt-reasoning`, `concept:pulse`, `concept:rowhammer`\n- **Technology Areas:** AI & Machine Learning, AI Hardware Accelerators, Adversarial Fault Injection, Automated Reasoning & Mathematical Logic, Deep Learning Architectures, Electronic Design Automation, Hardware & AI Security, Language & Runtime Memory Safety, Memory Subsystems & Chiplets, On-Chip Telemetry & Runtime Monitoring, Ontologies & Description Logic, Semiconductor Engineering\n- **Taxonomy Hierarchy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > Knowledge Representation & Ontologies`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > AI Accelerators`; `Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > Memory & Interconnects`; `Security & Resilience`; `Security & Resilience > Hardware Fault Attacks > Bit-Flip Attacks`; `Security & Resilience > Memory Safety & Software Capabilities`\n\n### 12. MonoSAT: Modulo Theories for Graphs, Networks, and Geometry (`arxiv-1402.4677`)\n\n- **Metadata:** `academic_paper` | Status: `read` | Priority: `high` | Published: `2015-01-25` | Authors: Sam Bayless, Noah Bayless, Holger H. Hoos, Alan J. Hu\n- **Navigation:** [Inspect on Dashboard](index.html#doc=arxiv-1402.4677) | [External Source](https://arxiv.org/abs/1402.4677)\n\n#### `arxiv-1402.4677#chunk-01` \u2014 Graph Analysis & Monotonic Theories in SMT (61 words)\n\nEncoding complex graph-theoretic properties \u2014 such as reachability, shortest paths, maximum s-t flow, minimum spanning trees, and directed acyclic graph (DAG) acyclicity \u2014 directly into Boolean SAT or standard SMT bit-vector/integer theories causes severe formula blowup and poor solver propagation. MonoSAT introduces a general DPLL(T) framework for finite monotonic theories that integrates dedicated incremental graph algorithms directly inside an SMT solver.\n\n- **Matched Concepts:** `concept:monosat-graph-smt`, `concept:sat-smt-solvers`, `concept:uclid5`\n- **Technology Areas:** Automated Reasoning & Mathematical Logic, Electronic Design Automation, Formal Verification & Specification Languages, Graph Analysis & Combinatorial Optimization, SAT & SMT Decision Procedures, Semiconductor Engineering\n- **Taxonomy Hierarchy:** `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > SAT & SMT Solvers`; `Formal Methods & Automated Reasoning > SAT & SMT Solvers > Graph Theory Modulo Theories`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`\n\n#### `arxiv-1402.4677#chunk-02` \u2014 Under- and Over-Approximation Theory Propagation (50 words)\n\nMonoSAT maintains dual under-approximating and over-approximating graphs as Boolean edge variables are assigned during Conflict-Driven Clause Learning (CDCL) search. When a graph predicate (such as reachability or cycle-freeness) becomes violated, MonoSAT extracts a succinct conflict clause (cut-set or witness path) in polynomial time, orders of magnitude faster than propositional encodings.\n\n- **Matched Concepts:** `concept:monosat-graph-smt`, `concept:sat-smt-solvers`\n- **Technology Areas:** Automated Reasoning & Mathematical Logic, Graph Analysis & Combinatorial Optimization, SAT & SMT Decision Procedures\n- **Taxonomy Hierarchy:** `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > SAT & SMT Solvers`; `Formal Methods & Automated Reasoning > SAT & SMT Solvers > Graph Theory Modulo Theories`\n\n#### `arxiv-1402.4677#chunk-03` \u2014 Applications in Network Verification, Routing & Ontology Graphs (26 words)\n\nMonoSAT powers formal cloud network reachability analysis, circuit routing, dependency graph resolution in software package managers, and structural acyclicity/subsumption checks in large-scale knowledge graphs and ontologies.\n\n- **Matched Concepts:** `concept:monosat-graph-smt`, `concept:ontology-smt-reasoning`\n- **Technology Areas:** Automated Reasoning & Mathematical Logic, Electronic Design Automation, Graph Analysis & Combinatorial Optimization, Ontologies & Description Logic, SAT & SMT Decision Procedures, Semiconductor Engineering\n- **Taxonomy Hierarchy:** `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > Knowledge Representation & Ontologies`; `Formal Methods & Automated Reasoning > SAT & SMT Solvers`; `Formal Methods & Automated Reasoning > SAT & SMT Solvers > Graph Theory Modulo Theories`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`\n\n### 13. cvc5: A Versatile and Industrial-Strength SMT Solver (`arxiv-2201.04663`)\n\n- **Metadata:** `academic_paper` | Status: `reading` | Priority: `high` | Published: `2022-01-13` | Authors: Haniel Barbosa, Clark Barrett, Martin Brain, Gereon Kremer, Aina Niemetz, Mathias Preiner, Andrew Reynolds, Cesare Tinelli\n- **Navigation:** [Inspect on Dashboard](index.html#doc=arxiv-2201.04663) | [External Source](https://arxiv.org/abs/2201.04663)\n\n#### `arxiv-2201.04663#chunk-01` \u2014 Next-Generation DPLL(T) SMT Architecture (44 words)\n\ncvc5 is an industrial-strength Satisfiability Modulo Theories (SMT) and Syntax-Guided Synthesis (SyGuS) solver built on a modular CDCL(T) / DPLL(T) core. It combines high-performance Boolean SAT solving with decision procedures for bit-vectors, arrays, floating-point arithmetic, strings and regular expressions, algebraic datatypes, and quantifier instantiation.\n\n- **Matched Concepts:** `concept:sat-smt-solvers`, `concept:uclid5`\n- **Technology Areas:** Automated Reasoning & Mathematical Logic, Electronic Design Automation, Formal Verification & Specification Languages, SAT & SMT Decision Procedures, Semiconductor Engineering\n- **Taxonomy Hierarchy:** `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > SAT & SMT Solvers`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`\n\n#### `arxiv-2201.04663#chunk-02` \u2014 Finite Sets, Relations & Ontology Constraint Solving (53 words)\n\nUniquely suited to graph analysis and formal ontologies, cvc5 provides native decision procedures for the Theory of Finite Sets and the Theory of Finite Relations (including transitive closure, relational join, and cardinality constraints). These relational theories enable direct SMT encoding of OWL Description Logic axioms, Alloy structural models, and SHACL knowledge-graph validation rules.\n\n- **Matched Concepts:** `concept:ontology-smt-reasoning`, `concept:sat-smt-solvers`\n- **Technology Areas:** Automated Reasoning & Mathematical Logic, Electronic Design Automation, Formal Verification & Specification Languages, Graph Analysis & Combinatorial Optimization, Ontologies & Description Logic, SAT & SMT Decision Procedures, Semiconductor Engineering\n- **Taxonomy Hierarchy:** `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > Knowledge Representation & Ontologies`; `Formal Methods & Automated Reasoning > SAT & SMT Solvers`; `Formal Methods & Automated Reasoning > SAT & SMT Solvers > Graph Theory Modulo Theories`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`\n\n#### `arxiv-2201.04663#chunk-03` \u2014 Software Development & Deductive Verification (28 words)\n\nIn software engineering, cvc5 serves as the automated reasoning backend for deductive verifiers (Dafny, Spark/Ada, Viper), smart-contract auditors, cloud IAM policy analyzers (AWS Zelkova), and symbolic execution engines.\n\n- **Matched Concepts:** `concept:sat-smt-solvers`, `concept:symbolic-execution`\n- **Technology Areas:** Automated Reasoning & Mathematical Logic, Electronic Design Automation, SAT & SMT Decision Procedures, Semiconductor Engineering, Software Verification & Program Analysis\n- **Taxonomy Hierarchy:** `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > SAT & SMT Solvers`; `Formal Methods & Automated Reasoning > SAT & SMT Solvers > Software Verification & Symbolic Execution`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`\n\n### 14. A Survey of Symbolic Execution Techniques for Software Development and Verification (`arxiv-1610.00502`)\n\n- **Metadata:** `academic_paper` | Status: `to-read` | Priority: `high` | Published: `2018-05-07` | Authors: Roberto Baldoni, Emilio Coppa, Daniele Coniglio, Camil Demetrescu, Irene Finocchi\n- **Navigation:** [Inspect on Dashboard](index.html#doc=arxiv-1610.00502) | [External Source](https://arxiv.org/abs/1610.00502)\n\n#### `arxiv-1610.00502#chunk-01` \u2014 Path-Constraint Solving with SAT and SMT Solvers (60 words)\n\nSymbolic execution transforms software development, automated test generation, and vulnerability discovery by executing programs over symbolic inputs rather than concrete values. At every conditional branch, the symbolic execution engine (such as KLEE, SAGE, or CBMC) queries an SMT solver (Z3, STP, or cvc5) over the Theory of Bit-Vectors and Arrays (QF_ABV) to decide path feasibility and synthesize concrete bug-triggering inputs.\n\n- **Matched Concepts:** `concept:asi`, `concept:sat-smt-solvers`, `concept:symbolic-execution`, `concept:uclid5`\n- **Technology Areas:** AI Hardware Accelerators, Automated Reasoning & Mathematical Logic, Electronic Design Automation, Formal Verification & Specification Languages, Hardware & AI Security, SAT & SMT Decision Procedures, Self-Healing & Fault-Tolerant AI, Semiconductor Engineering, Software Verification & Program Analysis\n- **Taxonomy Hierarchy:** `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > SAT & SMT Solvers`; `Formal Methods & Automated Reasoning > SAT & SMT Solvers > Software Verification & Symbolic Execution`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > AI Accelerators`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`; `Security & Resilience`; `Security & Resilience > Runtime Fault Localization & Recovery`\n\n#### `arxiv-1610.00502#chunk-02` \u2014 Constraint Caching, Slicing & Heap Graph Modeling (38 words)\n\nBecause SMT solver queries dominate symbolic execution runtime, modern software analysis tools employ counterexample-guided constraint caching, independent clause slicing, and array-theory memory modeling to reason about pointer aliasing and heap data structures (linked lists, trees, and control-flow graphs).\n\n- **Matched Concepts:** `concept:asi`, `concept:sat-smt-solvers`, `concept:symbolic-execution`, `concept:uclid5`\n- **Technology Areas:** Automated Reasoning & Mathematical Logic, Electronic Design Automation, Formal Verification & Specification Languages, Hardware & AI Security, Language & Runtime Memory Safety, Memory Subsystems & Chiplets, SAT & SMT Decision Procedures, Self-Healing & Fault-Tolerant AI, Semiconductor Engineering, Software Verification & Program Analysis\n- **Taxonomy Hierarchy:** `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > SAT & SMT Solvers`; `Formal Methods & Automated Reasoning > SAT & SMT Solvers > Software Verification & Symbolic Execution`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`; `Hardware & Semiconductor Systems > Memory & Interconnects`; `Security & Resilience`; `Security & Resilience > Memory Safety & Software Capabilities`; `Security & Resilience > Runtime Fault Localization & Recovery`\n\n#### `arxiv-1610.00502#chunk-03` \u2014 Memory Safety & Security Vulnerability Detection (23 words)\n\nCoupling SAT/SMT solvers with symbolic execution and bounded model checking uncovers spatial/temporal memory safety violations, integer overflows, and invariant breaches across systems software.\n\n- **Matched Concepts:** `concept:sat-smt-solvers`, `concept:symbolic-execution`, `concept:uclid5`\n- **Technology Areas:** Automated Reasoning & Mathematical Logic, Electronic Design Automation, Formal Verification & Specification Languages, Hardware & AI Security, Language & Runtime Memory Safety, Memory Subsystems & Chiplets, SAT & SMT Decision Procedures, Semiconductor Engineering, Software Verification & Program Analysis\n- **Taxonomy Hierarchy:** `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > SAT & SMT Solvers`; `Formal Methods & Automated Reasoning > SAT & SMT Solvers > Software Verification & Symbolic Execution`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`; `Hardware & Semiconductor Systems > Memory & Interconnects`; `Security & Resilience`; `Security & Resilience > Memory Safety & Software Capabilities`\n\n### 15. SAT and SMT-Based Automated Reasoning for Description Logics and Formal Ontologies (`arxiv-1507.01763`)\n\n- **Metadata:** `academic_paper` | Status: `to-read` | Priority: `high` | Published: `2015-07-07` | Authors: Roberto Sebastiani, Michele Vescovi\n- **Navigation:** [Inspect on Dashboard](index.html#doc=arxiv-1507.01763) | [External Source](https://arxiv.org/abs/1507.01763)\n\n#### `arxiv-1507.01763#chunk-01` \u2014 Encoding OWL Ontologies & Description Logics into SAT/SMT (50 words)\n\nFormal ontologies (OWL 2, SKOS, and Description Logics such as EL, ALC, and SHQ) define hierarchical concept taxonomies (TBox) and relational knowledge graph assertions (ABox). By encoding concept subsumption, disjointness, and role inclusion axioms into Horn-SAT and Conflict-Driven Clause Learning (CDCL) SAT formulas, automated reasoners classify ratusan-thousand-concept ontologies in seconds.\n\n- **Matched Concepts:** `concept:ontology-smt-reasoning`, `concept:sat-smt-solvers`\n- **Technology Areas:** Automated Reasoning & Mathematical Logic, Electronic Design Automation, Formal Verification & Specification Languages, Ontologies & Description Logic, SAT & SMT Decision Procedures, Semiconductor Engineering\n- **Taxonomy Hierarchy:** `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > Knowledge Representation & Ontologies`; `Formal Methods & Automated Reasoning > SAT & SMT Solvers`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`\n\n#### `arxiv-1507.01763#chunk-02` \u2014 Concrete Domains & Numerical Constraints via SMT (44 words)\n\nReal-world engineering and scientific ontologies require reasoning simultaneously over taxonomic hierarchies and concrete numerical domains (thresholds, intervals, unit conversions, and cardinality bounds). Satisfiability Modulo Theories (SMT) bridges this gap by combining Boolean ontology axiom propagation with Linear Real/Integer Arithmetic (LRA/LIA) and Uninterpreted Functions (EUF).\n\n- **Matched Concepts:** `concept:ontology-smt-reasoning`, `concept:sat-smt-solvers`\n- **Technology Areas:** Automated Reasoning & Mathematical Logic, Electronic Design Automation, Formal Verification & Specification Languages, Ontologies & Description Logic, SAT & SMT Decision Procedures, Semiconductor Engineering\n- **Taxonomy Hierarchy:** `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > Knowledge Representation & Ontologies`; `Formal Methods & Automated Reasoning > SAT & SMT Solvers`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`\n\n#### `arxiv-1507.01763#chunk-03` \u2014 OntoLogic Integration & Knowledge Graph Verification (18 words)\n\nSAT/SMT-backed ontology reasoning detects unsatisfiable classes, cyclic taxonomy regressions, and SHACL constraint violations across evolving semantic knowledge graphs.\n\n- **Matched Concepts:** `concept:ontology-smt-reasoning`\n- **Technology Areas:** Automated Reasoning & Mathematical Logic, Electronic Design Automation, Formal Verification & Specification Languages, Ontologies & Description Logic, Semiconductor Engineering\n- **Taxonomy Hierarchy:** `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > Knowledge Representation & Ontologies`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`\n\n### 16. Research Synthesis: SAT and SMT solvers applications in software development, graph analysis, and ontologies (`research-sat-and-smt-solvers-applications-in-software`)\n\n- **Metadata:** `note` | Status: `read` | Priority: `high` | Published: `2026-11-07` | Authors: Reading List Research Engine\n- **Navigation:** [Inspect on Dashboard](index.html#doc=research-sat-and-smt-solvers-applications-in-software) | [External Source](https://github.com/bsommers/reading-db)\n\n#### `research-sat-and-smt-solvers-applications-in-software#chunk-01` \u2014 SAT & SMT Decision Procedures Across Software, Graphs, and Ontologies: SAT and SMT solvers applications in software development, graph analysis, and ontologies (59 words)\n\nConflict-Driven Clause Learning (CDCL) SAT solvers and DPLL(T) Satisfiability Modulo Theories (SMT) solvers (such as Z3 and cvc5) serve as the computational backbone for modern automated reasoning. By combining Boolean constraint propagation with specialized background theories \u2014 bit-vectors, arrays, strings, linear arithmetic, finite sets, and relations \u2014 SMT solvers unify software verification, combinatorial graph analysis, and formal ontology reasoning.\n\n- **Matched Concepts:** `concept:ontology-smt-reasoning`, `concept:sat-smt-solvers`, `concept:symbolic-execution`, `concept:uclid5`\n- **Technology Areas:** Automated Reasoning & Mathematical Logic, Electronic Design Automation, Formal Verification & Specification Languages, Graph Analysis & Combinatorial Optimization, Ontologies & Description Logic, SAT & SMT Decision Procedures, Semiconductor Engineering, Software Verification & Program Analysis\n- **Taxonomy Hierarchy:** `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > Knowledge Representation & Ontologies`; `Formal Methods & Automated Reasoning > SAT & SMT Solvers`; `Formal Methods & Automated Reasoning > SAT & SMT Solvers > Graph Theory Modulo Theories`; `Formal Methods & Automated Reasoning > SAT & SMT Solvers > Software Verification & Symbolic Execution`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`\n\n#### `research-sat-and-smt-solvers-applications-in-software#chunk-02` \u2014 Symbolic Execution, Monotonic Graph Theories & Description Logics (134 words)\n\nPrimary literature synthesized in this collection \u2014 MonoSAT: Modulo Theories for Graphs, Networks, and Geometry (arxiv-1402.4677); cvc5: A Versatile and Industrial-Strength SMT Solver (arxiv-2201.04663); A Survey of Symbolic Execution Techniques for Software Development and Verification (arxiv-1610.00502); SAT and SMT-Based Automated Reasoning for Description Logics and Formal Ontologies (arxiv-1507.01763) \u2014 spans three synergistic pillars: (1) **Software Development & Symbolic Execution** (KLEE, CBMC, Dafny, cvc5), where path constraints over bit-vectors and arrays synthesize bug-triggering inputs and prove memory-safety invariants; (2) **Graph Analysis Modulo Theories** (MonoSAT), where monotonic graph predicates (reachability, shortest path, maximum s-t flow, minimum spanning tree, and DAG acyclicity) are decided natively inside DPLL(T) without propositional blowup; and (3) **Ontology & Description Logic Reasoning** (OWL 2, EL/ALC, SHACL, OntoLogic), where TBox/ABox concept subsumption, consistency, and numerical datatype constraints reduce directly to Horn-SAT and SMT.\n\n- **Matched Concepts:** `concept:monosat-graph-smt`, `concept:ontology-smt-reasoning`, `concept:sat-smt-solvers`, `concept:symbolic-execution`, `concept:uclid5`\n- **Technology Areas:** AI Hardware Accelerators, Automated Reasoning & Mathematical Logic, Electronic Design Automation, Formal Verification & Specification Languages, Graph Analysis & Combinatorial Optimization, Memory Subsystems & Chiplets, Ontologies & Description Logic, SAT & SMT Decision Procedures, Semiconductor Engineering, Software Verification & Program Analysis\n- **Taxonomy Hierarchy:** `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > Knowledge Representation & Ontologies`; `Formal Methods & Automated Reasoning > SAT & SMT Solvers`; `Formal Methods & Automated Reasoning > SAT & SMT Solvers > Graph Theory Modulo Theories`; `Formal Methods & Automated Reasoning > SAT & SMT Solvers > Software Verification & Symbolic Execution`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > AI Accelerators`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`; `Hardware & Semiconductor Systems > Memory & Interconnects`\n\n#### `research-sat-and-smt-solvers-applications-in-software#chunk-03` \u2014 Cross-Domain Integration in the Reading-DB Knowledge Graph (27 words)\n\nWithin our OntoLogic-ready knowledge base, SAT and SMT solvers bridge software capability verification (Fil-C memory safety), hardware formal verification languages (UCLID5, SVA, ProofLoop), and taxonomic ontology validation.\n\n- **Matched Concepts:** `concept:fil-c`, `concept:llm-formal-verification`, `concept:ontology-smt-reasoning`, `concept:sat-smt-solvers`, `concept:sva`, `concept:uclid5`\n- **Technology Areas:** Automated Reasoning & Mathematical Logic, Electronic Design Automation, Formal Verification & Specification Languages, Hardware & AI Security, Language & Runtime Memory Safety, Memory Subsystems & Chiplets, Ontologies & Description Logic, SAT & SMT Decision Procedures, Semiconductor Engineering\n- **Taxonomy Hierarchy:** `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > Knowledge Representation & Ontologies`; `Formal Methods & Automated Reasoning > SAT & SMT Solvers`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`; `Hardware & Semiconductor Systems > Memory & Interconnects`; `Security & Resilience`; `Security & Resilience > Memory Safety & Software Capabilities`\n\n### 17. NL2LOGIC: AST-Guided Translation of Natural Language into First-Order Logic with Large Language Models (`arxiv-2602.13237`)\n\n- **Metadata:** `academic_paper` | Status: `to-read` | Priority: `high` | Published: `2026-02` | Authors: Putra et al.\n- **Navigation:** [Inspect on Dashboard](index.html#doc=arxiv-2602.13237) | [External Source](https://arxiv.org/abs/2602.13237)\n\n#### `arxiv-2602.13237#chunk-01` \u2014 Problem Statement & Context (39 words)\n\nTranslating complex natural language specifications into formal First-Order Logic (FOL) for automated theorem provers and SMT solvers (such as cvc5 and Z3) frequently suffers from syntactic hallucinations and semantic drift when performed via direct end-to-end Large Language Model generation.\n\n- **Matched Concepts:** `concept:dnn`, `concept:nl2logic-fol`, `concept:sat-smt-solvers`, `concept:uclid5`\n- **Technology Areas:** AI & Machine Learning, Automated Reasoning & Mathematical Logic, Deep Learning Architectures, Electronic Design Automation, Formal Verification & Specification Languages, Neuro-Symbolic Logic & Neural Verification, SAT & SMT Decision Procedures, Semiconductor Engineering\n- **Taxonomy Hierarchy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification`; `Formal Methods & Automated Reasoning > SAT & SMT Solvers`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`\n\n#### `arxiv-2602.13237#chunk-02` \u2014 Proposed Mechanism: AST-Guided & Grammar-Constrained Translation (50 words)\n\nNL2LOGIC inserts an explicit Abstract Syntax Tree (AST) intermediate representation between a recursive LLM semantic parser and a deterministic, grammar-constrained FOL code generator. By decomposing natural language statements into typed logical subtrees before emitting solver-ready First-Order Logic formulas, inference can be reliably delegated to SAT/SMT decision procedures and ontology reasoners.\n\n- **Matched Concepts:** `concept:nl2logic-fol`\n- **Technology Areas:** AI & Machine Learning, AI Hardware Accelerators, Automated Reasoning & Mathematical Logic, Deep Learning Architectures, Electronic Design Automation, Formal Verification & Specification Languages, Neuro-Symbolic Logic & Neural Verification, Ontologies & Description Logic, Semiconductor Engineering\n- **Taxonomy Hierarchy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > Knowledge Representation & Ontologies`; `Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > AI Accelerators`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`\n\n#### `arxiv-2602.13237#chunk-03` \u2014 Evaluation & Why It Matters (via kitsumiko/papers) (39 words)\n\nNL2LOGIC reaches 99% syntactic accuracy and up to 30% higher semantic correctness than prior LLM logic-parsing methods on FOLIO, LogicNLI, and ProofWriter, lifting downstream formal reasoning accuracy by 31% when integrated into Logic-LM. Curated from kitsumiko/papers (Reasoning & Agents).\n\n- **Matched Concepts:** `concept:nl2logic-fol`\n- **Technology Areas:** AI & Machine Learning, Automated Reasoning & Mathematical Logic, Deep Learning Architectures, Neuro-Symbolic Logic & Neural Verification\n- **Taxonomy Hierarchy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification`\n\n### 18. Lattice Deduction Transformers (`arxiv-2605.08605`)\n\n- **Metadata:** `academic_paper` | Status: `to-read` | Priority: `high` | Published: `2026-05` | Authors: Davis et al.\n- **Navigation:** [Inspect on Dashboard](index.html#doc=arxiv-2605.08605) | [External Source](https://arxiv.org/abs/2605.08605)\n\n#### `arxiv-2605.08605#chunk-01` \u2014 Problem Statement & Context (24 words)\n\nStandard autoregressive transformers and frontier Large Language Models lack sound deductive guarantees and routinely fail on combinatorial constraint satisfaction problems requiring deep, contradiction-free propagation.\n\n- **Matched Concepts:** `concept:dnn`, `concept:lattice-deduction`\n- **Technology Areas:** AI & Machine Learning, Alternative & State-Space Architectures, Automated Reasoning & Mathematical Logic, Deep Learning Architectures, Neuro-Symbolic Logic & Neural Verification\n- **Taxonomy Hierarchy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Artificial Intelligence & Machine Learning > Deep Neural Networks > Novel & State-Space Architectures`; `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification`\n\n#### `arxiv-2605.08605#chunk-02` \u2014 Proposed Mechanism: Abstract Lattice Projection & Sound Deduction (43 words)\n\nLattice Deduction Transformers introduce a recurrent transformer architecture that projects its latent state onto an abstract lattice between forward passes so that each pass acts as a formally sound deduction step. The model is trained on-policy inside a constraint-solver-style loop with abstract-interpretation-based supervision.\n\n- **Matched Concepts:** `concept:lattice-deduction`\n- **Technology Areas:** AI & Machine Learning, Alternative & State-Space Architectures, Automated Reasoning & Mathematical Logic, Deep Learning Architectures, Neuro-Symbolic Logic & Neural Verification\n- **Taxonomy Hierarchy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Artificial Intelligence & Machine Learning > Deep Neural Networks > Novel & State-Space Architectures`; `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification`\n\n#### `arxiv-2605.08605#chunk-03` \u2014 Evaluation & Why It Matters (via kitsumiko/papers) (50 words)\n\nAn 800K-parameter Lattice Deduction Transformer reaches 100% accuracy on Sudoku-Extreme and Snowflake Sudoku, and a 1.8M-parameter variant achieves 99.9% on Maze-Hard, whereas frontier LLMs score 0% on all three benchmarks\u2014demonstrating that abstract interpretation gives compact recurrent reasoners both formal correctness and deductive competence. Curated from kitsumiko/papers (Novel Architectures & Theory).\n\n- **Matched Concepts:** `concept:dnn`, `concept:lattice-deduction`\n- **Technology Areas:** AI & Machine Learning, Alternative & State-Space Architectures, Automated Reasoning & Mathematical Logic, Deep Learning Architectures, Neuro-Symbolic Logic & Neural Verification\n- **Taxonomy Hierarchy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Artificial Intelligence & Machine Learning > Deep Neural Networks > Novel & State-Space Architectures`; `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification`\n\n### 19. Beyond Red-Teaming: Formal Guarantees of LLM Guardrail Classifiers (`arxiv-2605.10901`)\n\n- **Metadata:** `academic_paper` | Status: `to-read` | Priority: `high` | Published: `2026-05` | Authors: Kezins et al.\n- **Navigation:** [Inspect on Dashboard](index.html#doc=arxiv-2605.10901) | [External Source](https://arxiv.org/abs/2605.10901)\n\n#### `arxiv-2605.10901#chunk-01` \u2014 Problem Statement & Context (22 words)\n\nEmpirical red-teaming and discrete prompt fuzzing cannot provide formal completeness or soundness guarantees for LLM safety guardrail classifiers deployed in security-critical pipelines.\n\n- **Matched Concepts:** `concept:agentic-security`, `concept:formal-guardrails`\n- **Technology Areas:** AI & Machine Learning, AI Alignment & Agentic Security, Automated Reasoning & Mathematical Logic, Deep Learning Architectures, Hardware & AI Security, Neuro-Symbolic Logic & Neural Verification\n- **Taxonomy Hierarchy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification`; `Security & Resilience`; `Security & Resilience > AI Alignment, Guardrails & Agent Security`\n\n#### `arxiv-2605.10901#chunk-02` \u2014 Proposed Mechanism: Convex Pre-Activation Certification via SVD Hyper-Rectangles (49 words)\n\nBeyond Red-Teaming shifts guardrail formal verification from the discrete token input space to the classifier pre-activation layer, where harmful prompt embeddings form convex regions certifiable via the monotonicity of the sigmoid classification head. It constructs exact SVD-aligned hyper-rectangles and probabilistic Gaussian Mixture Models to certify safe and unsafe regions.\n\n- **Matched Concepts:** `concept:agentic-security`, `concept:formal-guardrails`\n- **Technology Areas:** AI & Machine Learning, AI Alignment & Agentic Security, AI Hardware Accelerators, Automated Reasoning & Mathematical Logic, Deep Learning Architectures, Electronic Design Automation, Hardware & AI Security, Neuro-Symbolic Logic & Neural Verification, Semiconductor Engineering\n- **Taxonomy Hierarchy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > AI Accelerators`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Security & Resilience`; `Security & Resilience > AI Alignment, Guardrails & Agent Security`\n\n#### `arxiv-2605.10901#chunk-03` \u2014 Evaluation & Why It Matters (via kitsumiko/papers) (32 words)\n\nFormal region certification exposes large safety coverage gaps in BERT-based guardrails (55-90% certified coverage) compared to more stable GPT-2 and Llama guardrail classifiers (~80-90% coverage). Curated from kitsumiko/papers (Security, Safety & Robustness).\n\n- **Matched Concepts:** `concept:formal-guardrails`\n- **Technology Areas:** AI & Machine Learning, AI Alignment & Agentic Security, Agentic Systems & Reasoning, Automated Reasoning & Mathematical Logic, Deep Learning Architectures, Hardware & AI Security, Large Language Models & Attention Mechanisms, Neuro-Symbolic Logic & Neural Verification\n- **Taxonomy Hierarchy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Artificial Intelligence & Machine Learning > Deep Neural Networks > Language Models & Efficient Attention`; `Artificial Intelligence & Machine Learning > Reasoning, Agents & Retrieval`; `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification`; `Security & Resilience`; `Security & Resilience > AI Alignment, Guardrails & Agent Security`\n\n### 20. cuGenOpt: A GPU-Accelerated General-Purpose Metaheuristic Framework for Combinatorial Optimization (`arxiv-2603.19163`)\n\n- **Metadata:** `academic_paper` | Status: `to-read` | Priority: `medium` | Published: `2026-03` | Authors: Liu\n- **Navigation:** [Inspect on Dashboard](index.html#doc=arxiv-2603.19163) | [External Source](https://arxiv.org/abs/2603.19163)\n\n#### `arxiv-2603.19163#chunk-01` \u2014 Problem Statement & Context (22 words)\n\nLarge-scale combinatorial optimization and graph-structured constraint problems often bottleneck CPU-bound Mixed-Integer Programming (MIP) and SMT solvers when scaling to massive instance sizes.\n\n- **Matched Concepts:** `concept:sat-smt-solvers`, `concept:uclid5`\n- **Technology Areas:** Automated Reasoning & Mathematical Logic, Electronic Design Automation, Formal Verification & Specification Languages, Neuro-Symbolic Logic & Neural Verification, SAT & SMT Decision Procedures, Semiconductor Engineering\n- **Taxonomy Hierarchy:** `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification`; `Formal Methods & Automated Reasoning > SAT & SMT Solvers`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`\n\n#### `arxiv-2603.19163#chunk-02` \u2014 Proposed Mechanism: Hardware-Aware CUDA Block Evolution (31 words)\n\ncuGenOpt introduces a GPU-accelerated general-purpose metaheuristic framework built on a \"one CUDA block evolves one solution\" architecture with hardware-aware shared memory and register resource management across GPU generations (T4, V100, A800).\n\n- **Matched Concepts:** none\n- **Technology Areas:** Automated Reasoning & Mathematical Logic, Memory Subsystems & Chiplets, Neuro-Symbolic Logic & Neural Verification, Semiconductor Engineering\n- **Taxonomy Hierarchy:** `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > Memory & Interconnects`\n\n#### `arxiv-2603.19163#chunk-03` \u2014 Evaluation & Why It Matters (via kitsumiko/papers) (26 words)\n\nOutperforms general MIP solvers by orders of magnitude on large-scale combinatorial optimization benchmarks while maintaining portability across GPU accelerator generations. Curated from kitsumiko/papers (Hardware & Systems).\n\n- **Matched Concepts:** none\n- **Technology Areas:** AI Hardware Accelerators, Automated Reasoning & Mathematical Logic, Semiconductor Engineering\n- **Taxonomy Hierarchy:** `Formal Methods & Automated Reasoning`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > AI Accelerators`\n\n### 21. How to Catch a GPU: A Taxonomy of Verification and Enforcement Mechanisms for International AI Agreements (`arxiv-2607.22619`)\n\n- **Metadata:** `academic_paper` | Status: `to-read` | Priority: `medium` | Published: `2026-07` | Authors: Koopmanschap, Barten\n- **Navigation:** [Inspect on Dashboard](index.html#doc=arxiv-2607.22619) | [External Source](https://arxiv.org/abs/2607.22619)\n\n#### `arxiv-2607.22619#chunk-01` \u2014 Problem Statement & Context (24 words)\n\nVerifying compliance with compute thresholds and hardware security agreements requires trustworthy physical, cryptographic, and on-chip telemetry mechanisms capable of detecting unauthorized AI accelerator workloads.\n\n- **Matched Concepts:** none\n- **Technology Areas:** AI Governance, Policy & Human-AI Interaction, AI Hardware Accelerators, Electronic Design Automation, Hardware & AI Security, On-Chip Telemetry & Runtime Monitoring, Semiconductor Engineering\n- **Taxonomy Hierarchy:** `AI Policy, Governance & Human-AI Systems`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > AI Accelerators`; `Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Security & Resilience`\n\n#### `arxiv-2607.22619#chunk-02` \u2014 Proposed Mechanism: Hardware Verification & Telemetry Taxonomy (19 words)\n\nSystematizes hardware-rooted verification mechanisms across supply-chain tracking, on-chip telemetry counters, remote attestation, and physical inspection for AI accelerator clusters.\n\n- **Matched Concepts:** none\n- **Technology Areas:** AI Hardware Accelerators, Electronic Design Automation, On-Chip Telemetry & Runtime Monitoring, Semiconductor Engineering\n- **Taxonomy Hierarchy:** `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > AI Accelerators`; `Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`\n\n#### `arxiv-2607.22619#chunk-03` \u2014 Evaluation & Why It Matters (via kitsumiko/papers) (22 words)\n\nConnects low-level semiconductor telemetry and on-chip performance monitors with international compute verification and hardware security enforcement. Curated from kitsumiko/papers (Policy & Governance).\n\n- **Matched Concepts:** `concept:apc`\n- **Technology Areas:** AI Governance, Policy & Human-AI Interaction, AI Hardware Accelerators, Electronic Design Automation, Hardware & AI Security, On-Chip Telemetry & Runtime Monitoring, Semiconductor Engineering\n- **Taxonomy Hierarchy:** `AI Policy, Governance & Human-AI Systems`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > AI Accelerators`; `Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Security & Resilience`\n\n### 22. SEC-bench: Automated Benchmarking of LLM Agents on Real-World Software Security Tasks (`openreview-sec-bench-2025`)\n\n- **Metadata:** `academic_paper` | Status: `to-read` | Priority: `high` | Published: `2025-10` | Authors: Lee et al.\n- **Navigation:** [Inspect on Dashboard](index.html#doc=openreview-sec-bench-2025) | [External Source](https://openreview.net/pdf?id=QQhQIqons0)\n\n#### `openreview-sec-bench-2025#chunk-01` \u2014 Problem Statement & Context (19 words)\n\nEvaluating autonomous LLM agents on software security engineering requires authentic, reproducible vulnerability environments rather than synthetic static code snippets.\n\n- **Matched Concepts:** `concept:agentic-security`\n- **Technology Areas:** AI & Machine Learning, AI Alignment & Agentic Security, Deep Learning Architectures, Hardware & AI Security\n- **Taxonomy Hierarchy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Security & Resilience`; `Security & Resilience > AI Alignment, Guardrails & Agent Security`\n\n#### `openreview-sec-bench-2025#chunk-02` \u2014 Proposed Mechanism: Multi-Agent Verified Vulnerability Scaffold (35 words)\n\nSEC-bench introduces the first fully automated benchmarking framework for evaluating LLM agents on real-world software security tasks, using a multi-agent scaffold to construct verified vulnerability datasets complete with reproducible Proof-of-Concept (PoC) exploits and validated patches.\n\n- **Matched Concepts:** `concept:agentic-reasoning`, `concept:agentic-security`\n- **Technology Areas:** AI & Machine Learning, AI Alignment & Agentic Security, Agentic Systems & Reasoning, Deep Learning Architectures, Hardware & AI Security\n- **Taxonomy Hierarchy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Artificial Intelligence & Machine Learning > Reasoning, Agents & Retrieval`; `Security & Resilience`; `Security & Resilience > AI Alignment, Guardrails & Agent Security`\n\n#### `openreview-sec-bench-2025#chunk-03` \u2014 Evaluation & Why It Matters (via kitsumiko/papers) (33 words)\n\nReveals significant capability gaps in frontier coding agents (18% PoC exploit generation, 34% automated vulnerability patching), establishing a rigorous baseline for software verification and security agents. Curated from kitsumiko/papers (Security, Safety & Robustness).\n\n- **Matched Concepts:** `concept:symbolic-execution`\n- **Technology Areas:** Automated Reasoning & Mathematical Logic, Electronic Design Automation, Hardware & AI Security, SAT & SMT Decision Procedures, Semiconductor Engineering, Software Verification & Program Analysis\n- **Taxonomy Hierarchy:** `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > SAT & SMT Solvers`; `Formal Methods & Automated Reasoning > SAT & SMT Solvers > Software Verification & Symbolic Execution`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Security & Resilience`\n\n### 23. A Formal Comparison Between Chain of Thought and Latent Thought (`arxiv-2509.25239`)\n\n- **Metadata:** `academic_paper` | Status: `to-read` | Priority: `medium` | Published: `2025-09` | Authors: Xu et al.\n- **Navigation:** [Inspect on Dashboard](index.html#doc=arxiv-2509.25239) | [External Source](https://arxiv.org/abs/2509.25239)\n\n#### `arxiv-2509.25239#chunk-01` \u2014 Problem Statement & Context (21 words)\n\nReasoning models increasingly trade off discrete token emission (Chain-of-Thought) against continuous hidden-state iteration (Latent Thought), yet lacked a formal complexity-theoretic comparison.\n\n- **Matched Concepts:** `concept:agentic-reasoning`, `concept:asi`, `concept:lattice-deduction`\n- **Technology Areas:** AI & Machine Learning, Agentic Systems & Reasoning, Automated Reasoning & Mathematical Logic, Hardware & AI Security, Neuro-Symbolic Logic & Neural Verification, Self-Healing & Fault-Tolerant AI\n- **Taxonomy Hierarchy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Reasoning, Agents & Retrieval`; `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification`; `Security & Resilience`; `Security & Resilience > Runtime Fault Localization & Recovery`\n\n#### `arxiv-2509.25239#chunk-02` \u2014 Proposed Mechanism: Complexity & Expressivity Separation (31 words)\n\nEstablishes a formal theoretical separation proving that latent thought enables exponentially more efficient parallel circuit computation than inherently sequential Chain-of-Thought, whereas discrete CoT uniquely supports approximate counting and calibrated stochastic sampling.\n\n- **Matched Concepts:** `concept:agentic-reasoning`, `concept:lattice-deduction`\n- **Technology Areas:** AI & Machine Learning, Agentic Systems & Reasoning, Automated Reasoning & Mathematical Logic, Neuro-Symbolic Logic & Neural Verification\n- **Taxonomy Hierarchy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Reasoning, Agents & Retrieval`; `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification`\n\n#### `arxiv-2509.25239#chunk-03` \u2014 Evaluation & Why It Matters (via kitsumiko/papers) (32 words)\n\nProvides principled mathematical criteria for choosing between discrete-token deduction and continuous latent recurrence (such as Lattice Deduction Transformers) based on task recursion depth and stochasticity requirements. Curated from kitsumiko/papers (Reasoning & Agents).\n\n- **Matched Concepts:** `concept:lattice-deduction`\n- **Technology Areas:** AI & Machine Learning, Alternative & State-Space Architectures, Automated Reasoning & Mathematical Logic, Deep Learning Architectures, Neuro-Symbolic Logic & Neural Verification\n- **Taxonomy Hierarchy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Artificial Intelligence & Machine Learning > Deep Neural Networks > Novel & State-Space Architectures`; `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification`\n\n### 24. Synthesis Note: Neuro-Symbolic Deduction, Formal Guardrail Certification, and Hardware-Verified AI (Curated from kitsumiko/papers) (`note-2026-kitsumiko-formal-neurosymbolic-bridge`)\n\n- **Metadata:** `note` | Status: `read` | Priority: `high` | Published: `2026-11-07` | Authors: Reading List Research Engine\n- **Navigation:** [Inspect on Dashboard](index.html#doc=note-2026-kitsumiko-formal-neurosymbolic-bridge) | [External Source](https://github.com/kitsumiko/papers)\n\n#### `note-2026-kitsumiko-formal-neurosymbolic-bridge#chunk-01` \u2014 Executive Synthesis & Attribution (37 words)\n\nThis synthesis note bridges seven high-signal research papers curated from the [`kitsumiko/papers`](https://github.com/kitsumiko/papers) AI/ML Research Curriculum into our hardware security, RTL formal verification, and SAT/SMT OntoLogic knowledge graph. The full 320-paper curriculum sits alongside this database in [`bsommers/ai-curriculum-db`](https://github.com/bsommers/ai-curriculum-db).\n\n- **Matched Concepts:** `concept:nl2logic-fol`, `concept:ontology-smt-reasoning`\n- **Technology Areas:** AI Alignment & Agentic Security, Automated Reasoning & Mathematical Logic, Electronic Design Automation, Formal Verification & Specification Languages, Hardware & AI Security, Neuro-Symbolic Logic & Neural Verification, Ontologies & Description Logic, Semiconductor Engineering\n- **Taxonomy Hierarchy:** `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > Knowledge Representation & Ontologies`; `Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`; `Security & Resilience`; `Security & Resilience > AI Alignment, Guardrails & Agent Security`\n\n#### `note-2026-kitsumiko-formal-neurosymbolic-bridge#chunk-02` \u2014 Neuro-Symbolic Deduction & Solver-Ready Logic (35 words)\n\nNL2LOGIC (`arxiv-2602.13237`) and Lattice Deduction Transformers (`arxiv-2605.08605`), together with the formal separation of Chain-of-Thought and Latent Thought (`arxiv-2509.25239`), connect neural architectures directly to First-Order Logic (FOL), abstract interpretation lattices, and DPLL(T) SMT solvers (`cvc5`, `arxiv-2201.04663`).\n\n- **Matched Concepts:** `concept:agentic-reasoning`, `concept:lattice-deduction`, `concept:nl2logic-fol`, `concept:sat-smt-solvers`, `concept:uclid5`\n- **Technology Areas:** AI & Machine Learning, Agentic Systems & Reasoning, Alternative & State-Space Architectures, Automated Reasoning & Mathematical Logic, Deep Learning Architectures, Electronic Design Automation, Formal Verification & Specification Languages, Neuro-Symbolic Logic & Neural Verification, SAT & SMT Decision Procedures, Semiconductor Engineering\n- **Taxonomy Hierarchy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Artificial Intelligence & Machine Learning > Deep Neural Networks > Novel & State-Space Architectures`; `Artificial Intelligence & Machine Learning > Reasoning, Agents & Retrieval`; `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification`; `Formal Methods & Automated Reasoning > SAT & SMT Solvers`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`\n\n#### `note-2026-kitsumiko-formal-neurosymbolic-bridge#chunk-03` \u2014 Formal Safety Certification & Hardware-Rooted Verification (45 words)\n\nBeyond Red-Teaming (`arxiv-2605.10901`) brings formal region certification to neural guardrail classifiers, SEC-bench (`openreview-sec-bench-2025`) benchmarks autonomous security agents on verified vulnerabilities, cuGenOpt (`arxiv-2603.19163`) accelerates combinatorial optimization on GPUs, and How to Catch a GPU (`arxiv-2607.22619`) links on-chip accelerator telemetry (`BARE-AI`, `arxiv-2610.08739v2`) to international hardware verification agreements.\n\n- **Matched Concepts:** `concept:agentic-security`, `concept:bare-ai`, `concept:formal-guardrails`\n- **Technology Areas:** AI & Machine Learning, AI Alignment & Agentic Security, AI Hardware Accelerators, Automated Reasoning & Mathematical Logic, Electronic Design Automation, Hardware & AI Security, Neuro-Symbolic Logic & Neural Verification, On-Chip Telemetry & Runtime Monitoring, Semiconductor Engineering\n- **Taxonomy Hierarchy:** `Artificial Intelligence & Machine Learning`; `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > AI Accelerators`; `Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Security & Resilience`; `Security & Resilience > AI Alignment, Guardrails & Agent Security`\n\n";
+
+    function escapeHtml(str) {
+      return String(str ?? "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#39;");
+    }
+
+    function slugify(text) {
+      return String(text || "")
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, "-")
+        .replace(/^-|-$/g, "") || "section";
+    }
+
+    function formatInline(text) {
+      let s = escapeHtml(text);
+      s = s.replace(/`([^`]+)`/g, "<code>$1</code>");
+      s = s.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
+      s = s.replace(/\*([^*]+)\*/g, "<em>$1</em>");
+      s = s.replace(/\[([^\]]+)\]\(([^)]+)\)/g, (_, label, url) => {
+        const isExt = url.startsWith("http://") || url.startsWith("https://");
+        const attrs = isExt ? ' target="_blank" rel="noopener"' : "";
+        return `<a href="${url}"${attrs}>${label}</a>`;
+      });
+      return s;
+    }
+
+    function renderMarkdown(mdText, filterQuery = "") {
+      const lines = mdText.split(/\r?\n/);
+      const toc = [];
+      let html = "";
+      let inCode = false;
+      let codeLang = "";
+      let codeBuf = [];
+      let inTable = false;
+      let tableRows = [];
+      let inList = false;
+
+      function flushList() {
+        if (inList) {
+          html += "</ul>";
+          inList = false;
+        }
+      }
+
+      function flushTable() {
+        if (!inTable) return;
+        inTable = false;
+        if (tableRows.length < 2) return;
+        const headerCells = tableRows[0].split("|").slice(1, -1).map(c => c.trim());
+        const bodyRows = tableRows.slice(2);
+        const q = filterQuery.toLowerCase();
+        const filteredBody = q
+          ? bodyRows.filter(r => r.toLowerCase().includes(q))
+          : bodyRows;
+        html += `<div class="md-table-wrap"><table><thead><tr>` +
+          headerCells.map(h => `<th>${formatInline(h)}</th>`).join("") +
+          `</tr></thead><tbody>` +
+          filteredBody.map(row => {
+            const cells = row.split("|").slice(1, -1).map(c => c.trim());
+            return `<tr>` + cells.map(c => `<td>${formatInline(c)}</td>`).join("") + `</tr>`;
+          }).join("") +
+          `</tbody></table></div>`;
+        tableRows = [];
+      }
+
+      for (let i = 0; i < lines.length; i++) {
+        const line = lines[i];
+        if (line.startsWith("```")) {
+          flushList();
+          flushTable();
+          if (!inCode) {
+            inCode = true;
+            codeLang = line.slice(3).trim();
+            codeBuf = [];
+          } else {
+            inCode = false;
+            html += `<pre data-lang="${escapeHtml(codeLang)}"><code>${escapeHtml(codeBuf.join("\n"))}</code></pre>`;
+            codeBuf = [];
+          }
+          continue;
+        }
+        if (inCode) {
+          codeBuf.push(line);
+          continue;
+        }
+
+        if (line.trim().startsWith("|") && line.trim().endsWith("|")) {
+          flushList();
+          inTable = true;
+          tableRows.push(line.trim());
+          continue;
+        } else if (inTable) {
+          flushTable();
+        }
+
+        const hMatch = line.match(/^(#{1,4})\s+(.*)$/);
+        if (hMatch) {
+          flushList();
+          const level = hMatch[1].length;
+          const rawHeading = hMatch[2].trim();
+          const id = `${slugify(rawHeading)}-${i}`;
+          if (level === 2 || level === 3) {
+            toc.push({ level, id, label: rawHeading.replace(/`/g, "") });
+          }
+          html += `<h${level} id="${id}">${formatInline(rawHeading)}</h${level}>`;
+          continue;
+        }
+
+        if (line.match(/^\s*-\s+/)) {
+          if (filterQuery && !line.toLowerCase().includes(filterQuery.toLowerCase())) {
+            continue;
+          }
+          if (!inList) {
+            html += "<ul>";
+            inList = true;
+          }
+          const itemText = line.replace(/^\s*-\s+/, "");
+          html += `<li>${formatInline(itemText)}</li>`;
+          continue;
+        } else {
+          flushList();
+        }
+
+        if (!line.trim()) {
+          continue;
+        }
+
+        if (!filterQuery || line.toLowerCase().includes(filterQuery.toLowerCase())) {
+          html += `<p>${formatInline(line)}</p>`;
+        }
+      }
+      flushList();
+      flushTable();
+
+      document.getElementById("md-rendered").innerHTML = html;
+      document.getElementById("md-raw-source").textContent = mdText;
+
+      const tocEl = document.getElementById("toc-list");
+      const q = filterQuery.toLowerCase();
+      const visibleToc = q ? toc.filter(t => t.label.toLowerCase().includes(q)) : toc.slice(0, 120);
+      tocEl.innerHTML = visibleToc.map(t => `
+        <a class="toc-link depth-${t.level}" href="#${t.id}" title="${escapeHtml(t.label)}">${escapeHtml(t.label)}</a>
+      `).join("");
+    }
+
+    const THEMES = ["dark", "tron", "light"];
+    function applyTheme(themeName) {
+      const valid = THEMES.includes(themeName) ? themeName : "dark";
+      document.documentElement.dataset.theme = valid;
+      try { localStorage.setItem("reading_db_theme", valid); } catch (_) {}
+      document.querySelectorAll(".theme-opt").forEach(btn => {
+        btn.classList.toggle("active", btn.dataset.setTheme === valid);
+      });
+    }
+    document.querySelectorAll(".theme-opt").forEach(btn => {
+      btn.addEventListener("click", () => applyTheme(btn.dataset.setTheme));
+    });
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+      const curr = document.documentElement.dataset.theme || "dark";
+      const next = THEMES[(THEMES.indexOf(curr) + 1) % THEMES.length];
+      applyTheme(next);
+    });
+    try {
+      const savedTheme = localStorage.getItem("reading_db_theme");
+      if (savedTheme) applyTheme(savedTheme);
+    } catch (_) {}
+
+    document.getElementById("md-filter-input").addEventListener("input", e => {
+      renderMarkdown(RAW_MD, e.target.value.trim());
+    });
+    document.getElementById("copy-md-btn").addEventListener("click", async e => {
+      try {
+        await navigator.clipboard.writeText(RAW_MD);
+        e.target.textContent = "Copied!";
+        setTimeout(() => { e.target.textContent = "Copy Markdown"; }, 1400);
+      } catch (_) {}
+    });
+    let showingRaw = false;
+    document.getElementById("toggle-raw-view-btn").addEventListener("click", e => {
+      showingRaw = !showingRaw;
+      document.getElementById("md-rendered").hidden = showingRaw;
+      document.getElementById("md-raw-source").hidden = !showingRaw;
+      e.target.textContent = showingRaw ? "View Rendered Markdown" : "View Raw Markdown Source";
+    });
+
+    renderMarkdown(RAW_MD);
+  </script>
+</body>
+</html>
