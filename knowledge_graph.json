@@ -896,6 +896,18 @@
       "predicate": "IN_CATEGORY",
       "properties": {},
       "source": "chunk:arxiv-2503.19174#chunk-03",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2503.19174#chunk-03",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--reasoning,-agents-and-retrieval"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2503.19174#chunk-03",
       "target": "taxonomy:hardware-and-semiconductor-systems"
     },
     {
@@ -937,6 +949,384 @@
     {
       "predicate": "IN_CATEGORY",
       "properties": {},
+      "source": "chunk:arxiv-2509.25239#chunk-01",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2509.25239#chunk-01",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--reasoning,-agents-and-retrieval"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2509.25239#chunk-01",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2509.25239#chunk-01",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--neuro-symbolic-deduction-and-guardrail-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2509.25239#chunk-01",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2509.25239#chunk-01",
+      "target": "taxonomy:security-and-resilience--runtime-fault-localization-and-recovery"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2509.25239#chunk-01",
+      "target": "concept:agentic-reasoning"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2509.25239#chunk-01",
+      "target": "concept:asi"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2509.25239#chunk-01",
+      "target": "concept:lattice-deduction"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2509.25239#chunk-02",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2509.25239#chunk-02",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--reasoning,-agents-and-retrieval"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2509.25239#chunk-02",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2509.25239#chunk-02",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--neuro-symbolic-deduction-and-guardrail-verification"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2509.25239#chunk-02",
+      "target": "concept:agentic-reasoning"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2509.25239#chunk-02",
+      "target": "concept:lattice-deduction"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2509.25239#chunk-03",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2509.25239#chunk-03",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2509.25239#chunk-03",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--novel-and-state-space-architectures"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2509.25239#chunk-03",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2509.25239#chunk-03",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--neuro-symbolic-deduction-and-guardrail-verification"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2509.25239#chunk-03",
+      "target": "concept:lattice-deduction"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2602.13237#chunk-01",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2602.13237#chunk-01",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2602.13237#chunk-01",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2602.13237#chunk-01",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--neuro-symbolic-deduction-and-guardrail-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2602.13237#chunk-01",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2602.13237#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2602.13237#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2602.13237#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification--formal-verification-languages-and-assertions"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2602.13237#chunk-01",
+      "target": "concept:dnn"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2602.13237#chunk-01",
+      "target": "concept:nl2logic-fol"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2602.13237#chunk-01",
+      "target": "concept:sat-smt-solvers"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2602.13237#chunk-01",
+      "target": "concept:uclid5"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2602.13237#chunk-02",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2602.13237#chunk-02",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2602.13237#chunk-02",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2602.13237#chunk-02",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--knowledge-representation-and-ontologies"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2602.13237#chunk-02",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--neuro-symbolic-deduction-and-guardrail-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2602.13237#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2602.13237#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2602.13237#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2602.13237#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification--formal-verification-languages-and-assertions"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2602.13237#chunk-02",
+      "target": "concept:nl2logic-fol"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2602.13237#chunk-03",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2602.13237#chunk-03",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2602.13237#chunk-03",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2602.13237#chunk-03",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--neuro-symbolic-deduction-and-guardrail-verification"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2602.13237#chunk-03",
+      "target": "concept:nl2logic-fol"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2603.19163#chunk-01",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2603.19163#chunk-01",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--neuro-symbolic-deduction-and-guardrail-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2603.19163#chunk-01",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2603.19163#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2603.19163#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2603.19163#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification--formal-verification-languages-and-assertions"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2603.19163#chunk-01",
+      "target": "concept:sat-smt-solvers"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2603.19163#chunk-01",
+      "target": "concept:uclid5"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2603.19163#chunk-02",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2603.19163#chunk-02",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--neuro-symbolic-deduction-and-guardrail-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2603.19163#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2603.19163#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems--memory-and-interconnects"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2603.19163#chunk-03",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2603.19163#chunk-03",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2603.19163#chunk-03",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
       "source": "chunk:arxiv-2604.23100#chunk-01",
       "target": "taxonomy:artificial-intelligence-and-machine-learning"
     },
@@ -945,6 +1335,12 @@
       "properties": {},
       "source": "chunk:arxiv-2604.23100#chunk-01",
       "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2604.23100#chunk-01",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--reasoning,-agents-and-retrieval"
     },
     {
       "predicate": "IN_CATEGORY",
@@ -969,6 +1365,12 @@
       "properties": {},
       "source": "chunk:arxiv-2604.23100#chunk-01",
       "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification--formal-verification-languages-and-assertions"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2604.23100#chunk-01",
+      "target": "concept:agentic-reasoning"
     },
     {
       "predicate": "MENTIONS_CONCEPT",
@@ -1077,6 +1479,396 @@
       "properties": {},
       "source": "chunk:arxiv-2604.23100#chunk-03",
       "target": "concept:ai-accelerator"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2605.08605#chunk-01",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2605.08605#chunk-01",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2605.08605#chunk-01",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--novel-and-state-space-architectures"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2605.08605#chunk-01",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2605.08605#chunk-01",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--neuro-symbolic-deduction-and-guardrail-verification"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2605.08605#chunk-01",
+      "target": "concept:dnn"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2605.08605#chunk-01",
+      "target": "concept:lattice-deduction"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2605.08605#chunk-02",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2605.08605#chunk-02",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2605.08605#chunk-02",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--novel-and-state-space-architectures"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2605.08605#chunk-02",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2605.08605#chunk-02",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--neuro-symbolic-deduction-and-guardrail-verification"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2605.08605#chunk-02",
+      "target": "concept:lattice-deduction"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2605.08605#chunk-03",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2605.08605#chunk-03",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2605.08605#chunk-03",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--novel-and-state-space-architectures"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2605.08605#chunk-03",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2605.08605#chunk-03",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--neuro-symbolic-deduction-and-guardrail-verification"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2605.08605#chunk-03",
+      "target": "concept:dnn"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2605.08605#chunk-03",
+      "target": "concept:lattice-deduction"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2605.10901#chunk-01",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2605.10901#chunk-01",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2605.10901#chunk-01",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2605.10901#chunk-01",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--neuro-symbolic-deduction-and-guardrail-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2605.10901#chunk-01",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2605.10901#chunk-01",
+      "target": "taxonomy:security-and-resilience--ai-alignment,-guardrails-and-agent-security"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2605.10901#chunk-01",
+      "target": "concept:agentic-security"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2605.10901#chunk-01",
+      "target": "concept:formal-guardrails"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2605.10901#chunk-02",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2605.10901#chunk-02",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2605.10901#chunk-02",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2605.10901#chunk-02",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--neuro-symbolic-deduction-and-guardrail-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2605.10901#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2605.10901#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2605.10901#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2605.10901#chunk-02",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2605.10901#chunk-02",
+      "target": "taxonomy:security-and-resilience--ai-alignment,-guardrails-and-agent-security"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2605.10901#chunk-02",
+      "target": "concept:agentic-security"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2605.10901#chunk-02",
+      "target": "concept:formal-guardrails"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2605.10901#chunk-03",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2605.10901#chunk-03",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2605.10901#chunk-03",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--language-models-and-efficient-attention"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2605.10901#chunk-03",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--reasoning,-agents-and-retrieval"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2605.10901#chunk-03",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2605.10901#chunk-03",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--neuro-symbolic-deduction-and-guardrail-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2605.10901#chunk-03",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2605.10901#chunk-03",
+      "target": "taxonomy:security-and-resilience--ai-alignment,-guardrails-and-agent-security"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2605.10901#chunk-03",
+      "target": "concept:formal-guardrails"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2607.22619#chunk-01",
+      "target": "taxonomy:ai-policy,-governance-and-human-ai-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2607.22619#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2607.22619#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2607.22619#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators--built-in-performance-monitors"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2607.22619#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2607.22619#chunk-01",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2607.22619#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2607.22619#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2607.22619#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators--built-in-performance-monitors"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2607.22619#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2607.22619#chunk-03",
+      "target": "taxonomy:ai-policy,-governance-and-human-ai-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2607.22619#chunk-03",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2607.22619#chunk-03",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2607.22619#chunk-03",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators--built-in-performance-monitors"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2607.22619#chunk-03",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2607.22619#chunk-03",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2607.22619#chunk-03",
+      "target": "concept:apc"
     },
     {
       "predicate": "IN_CATEGORY",
@@ -1891,6 +2683,342 @@
     {
       "predicate": "IN_CATEGORY",
       "properties": {},
+      "source": "chunk:note-2026-kitsumiko-formal-neurosymbolic-bridge#chunk-01",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:note-2026-kitsumiko-formal-neurosymbolic-bridge#chunk-01",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--knowledge-representation-and-ontologies"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:note-2026-kitsumiko-formal-neurosymbolic-bridge#chunk-01",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--neuro-symbolic-deduction-and-guardrail-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:note-2026-kitsumiko-formal-neurosymbolic-bridge#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:note-2026-kitsumiko-formal-neurosymbolic-bridge#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:note-2026-kitsumiko-formal-neurosymbolic-bridge#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification--formal-verification-languages-and-assertions"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:note-2026-kitsumiko-formal-neurosymbolic-bridge#chunk-01",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:note-2026-kitsumiko-formal-neurosymbolic-bridge#chunk-01",
+      "target": "taxonomy:security-and-resilience--ai-alignment,-guardrails-and-agent-security"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:note-2026-kitsumiko-formal-neurosymbolic-bridge#chunk-01",
+      "target": "concept:nl2logic-fol"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:note-2026-kitsumiko-formal-neurosymbolic-bridge#chunk-01",
+      "target": "concept:ontology-smt-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:note-2026-kitsumiko-formal-neurosymbolic-bridge#chunk-02",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:note-2026-kitsumiko-formal-neurosymbolic-bridge#chunk-02",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:note-2026-kitsumiko-formal-neurosymbolic-bridge#chunk-02",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--novel-and-state-space-architectures"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:note-2026-kitsumiko-formal-neurosymbolic-bridge#chunk-02",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--reasoning,-agents-and-retrieval"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:note-2026-kitsumiko-formal-neurosymbolic-bridge#chunk-02",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:note-2026-kitsumiko-formal-neurosymbolic-bridge#chunk-02",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--neuro-symbolic-deduction-and-guardrail-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:note-2026-kitsumiko-formal-neurosymbolic-bridge#chunk-02",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:note-2026-kitsumiko-formal-neurosymbolic-bridge#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:note-2026-kitsumiko-formal-neurosymbolic-bridge#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:note-2026-kitsumiko-formal-neurosymbolic-bridge#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification--formal-verification-languages-and-assertions"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:note-2026-kitsumiko-formal-neurosymbolic-bridge#chunk-02",
+      "target": "concept:agentic-reasoning"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:note-2026-kitsumiko-formal-neurosymbolic-bridge#chunk-02",
+      "target": "concept:lattice-deduction"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:note-2026-kitsumiko-formal-neurosymbolic-bridge#chunk-02",
+      "target": "concept:nl2logic-fol"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:note-2026-kitsumiko-formal-neurosymbolic-bridge#chunk-02",
+      "target": "concept:sat-smt-solvers"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:note-2026-kitsumiko-formal-neurosymbolic-bridge#chunk-02",
+      "target": "concept:uclid5"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:note-2026-kitsumiko-formal-neurosymbolic-bridge#chunk-03",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:note-2026-kitsumiko-formal-neurosymbolic-bridge#chunk-03",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:note-2026-kitsumiko-formal-neurosymbolic-bridge#chunk-03",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--neuro-symbolic-deduction-and-guardrail-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:note-2026-kitsumiko-formal-neurosymbolic-bridge#chunk-03",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:note-2026-kitsumiko-formal-neurosymbolic-bridge#chunk-03",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:note-2026-kitsumiko-formal-neurosymbolic-bridge#chunk-03",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators--built-in-performance-monitors"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:note-2026-kitsumiko-formal-neurosymbolic-bridge#chunk-03",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:note-2026-kitsumiko-formal-neurosymbolic-bridge#chunk-03",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:note-2026-kitsumiko-formal-neurosymbolic-bridge#chunk-03",
+      "target": "taxonomy:security-and-resilience--ai-alignment,-guardrails-and-agent-security"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:note-2026-kitsumiko-formal-neurosymbolic-bridge#chunk-03",
+      "target": "concept:agentic-security"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:note-2026-kitsumiko-formal-neurosymbolic-bridge#chunk-03",
+      "target": "concept:bare-ai"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:note-2026-kitsumiko-formal-neurosymbolic-bridge#chunk-03",
+      "target": "concept:formal-guardrails"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:openreview-sec-bench-2025#chunk-01",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:openreview-sec-bench-2025#chunk-01",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:openreview-sec-bench-2025#chunk-01",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:openreview-sec-bench-2025#chunk-01",
+      "target": "taxonomy:security-and-resilience--ai-alignment,-guardrails-and-agent-security"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:openreview-sec-bench-2025#chunk-01",
+      "target": "concept:agentic-security"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:openreview-sec-bench-2025#chunk-02",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:openreview-sec-bench-2025#chunk-02",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:openreview-sec-bench-2025#chunk-02",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--reasoning,-agents-and-retrieval"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:openreview-sec-bench-2025#chunk-02",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:openreview-sec-bench-2025#chunk-02",
+      "target": "taxonomy:security-and-resilience--ai-alignment,-guardrails-and-agent-security"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:openreview-sec-bench-2025#chunk-02",
+      "target": "concept:agentic-reasoning"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:openreview-sec-bench-2025#chunk-02",
+      "target": "concept:agentic-security"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:openreview-sec-bench-2025#chunk-03",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:openreview-sec-bench-2025#chunk-03",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:openreview-sec-bench-2025#chunk-03",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers--software-verification-and-symbolic-execution"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:openreview-sec-bench-2025#chunk-03",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:openreview-sec-bench-2025#chunk-03",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:openreview-sec-bench-2025#chunk-03",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:openreview-sec-bench-2025#chunk-03",
+      "target": "concept:symbolic-execution"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
       "source": "chunk:research-formal-verification-languages-in-chip-and-se#chunk-01",
       "target": "taxonomy:formal-methods-and-automated-reasoning"
     },
@@ -1958,6 +3086,12 @@
       "predicate": "IN_CATEGORY",
       "properties": {},
       "source": "chunk:research-formal-verification-languages-in-chip-and-se#chunk-02",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--reasoning,-agents-and-retrieval"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-formal-verification-languages-in-chip-and-se#chunk-02",
       "target": "taxonomy:formal-methods-and-automated-reasoning"
     },
     {
@@ -2001,6 +3135,12 @@
       "properties": {},
       "source": "chunk:research-formal-verification-languages-in-chip-and-se#chunk-02",
       "target": "taxonomy:security-and-resilience--memory-safety-and-software-capabilities"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:research-formal-verification-languages-in-chip-and-se#chunk-02",
+      "target": "concept:agentic-reasoning"
     },
     {
       "predicate": "MENTIONS_CONCEPT",
@@ -2540,6 +3680,24 @@
       "predicate": "IN_CATEGORY",
       "properties": {},
       "source": "chunk:semieng-2026-bare-ai-monitors#chunk-03",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:semieng-2026-bare-ai-monitors#chunk-03",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:semieng-2026-bare-ai-monitors#chunk-03",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--novel-and-state-space-architectures"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:semieng-2026-bare-ai-monitors#chunk-03",
       "target": "taxonomy:hardware-and-semiconductor-systems"
     },
     {
@@ -2875,6 +4033,54 @@
     {
       "predicate": "IN_CATEGORY",
       "properties": {},
+      "source": "concept:agentic-reasoning",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--reasoning,-agents-and-retrieval"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:agentic-reasoning",
+      "target": "concept:agentic-security"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:agentic-reasoning",
+      "target": "concept:dnn"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:agentic-reasoning",
+      "target": "concept:lattice-deduction"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "concept:agentic-security",
+      "target": "taxonomy:security-and-resilience--ai-alignment,-guardrails-and-agent-security"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:agentic-security",
+      "target": "concept:agentic-reasoning"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:agentic-security",
+      "target": "concept:formal-guardrails"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:agentic-security",
+      "target": "concept:symbolic-execution"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
       "source": "concept:ai-accelerator",
       "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators"
     },
@@ -2895,6 +4101,18 @@
       "properties": {},
       "source": "concept:ai-accelerator",
       "target": "concept:dnn"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "concept:ai-policy-governance",
+      "target": "taxonomy:ai-policy,-governance-and-human-ai-systems"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:ai-policy-governance",
+      "target": "concept:agentic-security"
     },
     {
       "predicate": "IN_CATEGORY",
@@ -2995,6 +4213,18 @@
     {
       "predicate": "IN_CATEGORY",
       "properties": {},
+      "source": "concept:diffusion-multimodal",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--probabilistic,-diffusion-and-multimodal-vision"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:diffusion-multimodal",
+      "target": "concept:dnn"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
       "source": "concept:dnn",
       "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
     },
@@ -3061,6 +4291,72 @@
     {
       "predicate": "IN_CATEGORY",
       "properties": {},
+      "source": "concept:flash-attention-llm",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--language-models-and-efficient-attention"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:flash-attention-llm",
+      "target": "concept:ai-accelerator"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:flash-attention-llm",
+      "target": "concept:dnn"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "concept:formal-guardrails",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--neuro-symbolic-deduction-and-guardrail-verification"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:formal-guardrails",
+      "target": "concept:agentic-security"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:formal-guardrails",
+      "target": "concept:dnn"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:formal-guardrails",
+      "target": "concept:lattice-deduction"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "concept:lattice-deduction",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--neuro-symbolic-deduction-and-guardrail-verification"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:lattice-deduction",
+      "target": "concept:formal-guardrails"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:lattice-deduction",
+      "target": "concept:nl2logic-fol"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:lattice-deduction",
+      "target": "concept:sat-smt-solvers"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
       "source": "concept:llm-formal-verification",
       "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification--formal-verification-languages-and-assertions"
     },
@@ -3085,6 +4381,24 @@
     {
       "predicate": "IN_CATEGORY",
       "properties": {},
+      "source": "concept:mechanistic-interpretability",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--interpretability,-calibration-and-evaluation"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:mechanistic-interpretability",
+      "target": "concept:dnn"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:mechanistic-interpretability",
+      "target": "concept:formal-guardrails"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
       "source": "concept:monosat-graph-smt",
       "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers--graph-theory-modulo-theories"
     },
@@ -3103,6 +4417,30 @@
     {
       "predicate": "IN_CATEGORY",
       "properties": {},
+      "source": "concept:nl2logic-fol",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--neuro-symbolic-deduction-and-guardrail-verification"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:nl2logic-fol",
+      "target": "concept:lattice-deduction"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:nl2logic-fol",
+      "target": "concept:ontology-smt-reasoning"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:nl2logic-fol",
+      "target": "concept:sat-smt-solvers"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
       "source": "concept:ontology-smt-reasoning",
       "target": "taxonomy:formal-methods-and-automated-reasoning--knowledge-representation-and-ontologies"
     },
@@ -3111,6 +4449,12 @@
       "properties": {},
       "source": "concept:ontology-smt-reasoning",
       "target": "concept:monosat-graph-smt"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:ontology-smt-reasoning",
+      "target": "concept:nl2logic-fol"
     },
     {
       "predicate": "RELATED_CONCEPT",
@@ -3189,6 +4533,24 @@
       "properties": {},
       "source": "concept:sat-smt-solvers",
       "target": "concept:uclid5"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "concept:ssm-kan-architectures",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--novel-and-state-space-architectures"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:ssm-kan-architectures",
+      "target": "concept:dnn"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:ssm-kan-architectures",
+      "target": "concept:lattice-deduction"
     },
     {
       "predicate": "IN_CATEGORY",
@@ -4274,6 +5636,18 @@
       "predicate": "IN_CATEGORY",
       "properties": {},
       "source": "doc:arxiv-2503.19174",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2503.19174",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--reasoning,-agents-and-retrieval"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2503.19174",
       "target": "taxonomy:formal-methods-and-automated-reasoning"
     },
     {
@@ -4311,6 +5685,18 @@
       "properties": {},
       "source": "doc:arxiv-2503.19174",
       "target": "taxonomy:security-and-resilience--memory-safety-and-software-capabilities"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2503.19174",
+      "target": "tech_area:agentic-systems-and-reasoning"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2503.19174",
+      "target": "tech_area:ai-and-machine-learning"
     },
     {
       "predicate": "IN_TECH_AREA",
@@ -4371,6 +5757,492 @@
       "properties": {},
       "source": "doc:arxiv-2503.19174",
       "target": "concept:sva"
+    },
+    {
+      "predicate": "AFFILIATED_WITH",
+      "properties": {},
+      "source": "doc:arxiv-2509.25239",
+      "target": "institution:theoretical-machine-learning-and-reasoning-group"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-2509.25239",
+      "target": "author:xu-et-al."
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:arxiv-2509.25239",
+      "target": "doc:arxiv-2605.08605"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:arxiv-2509.25239",
+      "target": "chunk:arxiv-2509.25239#chunk-01"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:arxiv-2509.25239",
+      "target": "chunk:arxiv-2509.25239#chunk-02"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:arxiv-2509.25239",
+      "target": "chunk:arxiv-2509.25239#chunk-03"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2509.25239",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2509.25239",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2509.25239",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--novel-and-state-space-architectures"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2509.25239",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--reasoning,-agents-and-retrieval"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2509.25239",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2509.25239",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--neuro-symbolic-deduction-and-guardrail-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2509.25239",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2509.25239",
+      "target": "taxonomy:security-and-resilience--runtime-fault-localization-and-recovery"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2509.25239",
+      "target": "tech_area:agentic-systems-and-reasoning"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2509.25239",
+      "target": "tech_area:ai-and-machine-learning"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2509.25239",
+      "target": "tech_area:alternative-and-state-space-architectures"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2509.25239",
+      "target": "tech_area:automated-reasoning-and-mathematical-logic"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2509.25239",
+      "target": "tech_area:deep-learning-architectures"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2509.25239",
+      "target": "tech_area:hardware-and-ai-security"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2509.25239",
+      "target": "tech_area:neuro-symbolic-logic-and-neural-verification"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2509.25239",
+      "target": "tech_area:self-healing-and-fault-tolerant-ai"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:arxiv-2509.25239",
+      "target": "concept:agentic-reasoning"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:arxiv-2509.25239",
+      "target": "concept:asi"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:arxiv-2509.25239",
+      "target": "concept:lattice-deduction"
+    },
+    {
+      "predicate": "AFFILIATED_WITH",
+      "properties": {},
+      "source": "doc:arxiv-2602.13237",
+      "target": "institution:neuro-symbolic-reasoning-group"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-2602.13237",
+      "target": "author:putra-et-al."
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:arxiv-2602.13237",
+      "target": "doc:arxiv-1507.01763"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:arxiv-2602.13237",
+      "target": "doc:arxiv-2201.04663"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:arxiv-2602.13237",
+      "target": "doc:arxiv-2604.23100"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:arxiv-2602.13237",
+      "target": "chunk:arxiv-2602.13237#chunk-01"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:arxiv-2602.13237",
+      "target": "chunk:arxiv-2602.13237#chunk-02"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:arxiv-2602.13237",
+      "target": "chunk:arxiv-2602.13237#chunk-03"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2602.13237",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2602.13237",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2602.13237",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2602.13237",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--knowledge-representation-and-ontologies"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2602.13237",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--neuro-symbolic-deduction-and-guardrail-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2602.13237",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2602.13237",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2602.13237",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2602.13237",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2602.13237",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification--formal-verification-languages-and-assertions"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2602.13237",
+      "target": "tech_area:ai-and-machine-learning"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2602.13237",
+      "target": "tech_area:ai-hardware-accelerators"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2602.13237",
+      "target": "tech_area:automated-reasoning-and-mathematical-logic"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2602.13237",
+      "target": "tech_area:deep-learning-architectures"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2602.13237",
+      "target": "tech_area:electronic-design-automation"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2602.13237",
+      "target": "tech_area:formal-verification-and-specification-languages"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2602.13237",
+      "target": "tech_area:neuro-symbolic-logic-and-neural-verification"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2602.13237",
+      "target": "tech_area:ontologies-and-description-logic"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2602.13237",
+      "target": "tech_area:sat-and-smt-decision-procedures"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2602.13237",
+      "target": "tech_area:semiconductor-engineering"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:arxiv-2602.13237",
+      "target": "concept:dnn"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:arxiv-2602.13237",
+      "target": "concept:nl2logic-fol"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:arxiv-2602.13237",
+      "target": "concept:sat-smt-solvers"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:arxiv-2602.13237",
+      "target": "concept:uclid5"
+    },
+    {
+      "predicate": "AFFILIATED_WITH",
+      "properties": {},
+      "source": "doc:arxiv-2603.19163",
+      "target": "institution:gpu-systems-and-optimization-lab"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-2603.19163",
+      "target": "author:liu"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:arxiv-2603.19163",
+      "target": "doc:arxiv-1402.4677"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:arxiv-2603.19163",
+      "target": "chunk:arxiv-2603.19163#chunk-01"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:arxiv-2603.19163",
+      "target": "chunk:arxiv-2603.19163#chunk-02"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:arxiv-2603.19163",
+      "target": "chunk:arxiv-2603.19163#chunk-03"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2603.19163",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2603.19163",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--neuro-symbolic-deduction-and-guardrail-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2603.19163",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2603.19163",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2603.19163",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2603.19163",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2603.19163",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification--formal-verification-languages-and-assertions"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2603.19163",
+      "target": "taxonomy:hardware-and-semiconductor-systems--memory-and-interconnects"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2603.19163",
+      "target": "tech_area:ai-hardware-accelerators"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2603.19163",
+      "target": "tech_area:automated-reasoning-and-mathematical-logic"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2603.19163",
+      "target": "tech_area:electronic-design-automation"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2603.19163",
+      "target": "tech_area:formal-verification-and-specification-languages"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2603.19163",
+      "target": "tech_area:memory-subsystems-and-chiplets"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2603.19163",
+      "target": "tech_area:neuro-symbolic-logic-and-neural-verification"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2603.19163",
+      "target": "tech_area:sat-and-smt-decision-procedures"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2603.19163",
+      "target": "tech_area:semiconductor-engineering"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:arxiv-2603.19163",
+      "target": "concept:sat-smt-solvers"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:arxiv-2603.19163",
+      "target": "concept:uclid5"
     },
     {
       "predicate": "AFFILIATED_WITH",
@@ -4436,6 +6308,12 @@
       "predicate": "IN_CATEGORY",
       "properties": {},
       "source": "doc:arxiv-2604.23100",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--reasoning,-agents-and-retrieval"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2604.23100",
       "target": "taxonomy:formal-methods-and-automated-reasoning"
     },
     {
@@ -4479,6 +6357,12 @@
       "properties": {},
       "source": "doc:arxiv-2604.23100",
       "target": "taxonomy:security-and-resilience--runtime-fault-localization-and-recovery"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2604.23100",
+      "target": "tech_area:agentic-systems-and-reasoning"
     },
     {
       "predicate": "IN_TECH_AREA",
@@ -4544,6 +6428,12 @@
       "predicate": "MENTIONS_CONCEPT",
       "properties": {},
       "source": "doc:arxiv-2604.23100",
+      "target": "concept:agentic-reasoning"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:arxiv-2604.23100",
       "target": "concept:ai-accelerator"
     },
     {
@@ -4563,6 +6453,438 @@
       "properties": {},
       "source": "doc:arxiv-2604.23100",
       "target": "concept:sva"
+    },
+    {
+      "predicate": "AFFILIATED_WITH",
+      "properties": {},
+      "source": "doc:arxiv-2605.08605",
+      "target": "institution:formal-reasoning-and-deep-learning-lab"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-2605.08605",
+      "target": "author:davis-et-al."
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:arxiv-2605.08605",
+      "target": "doc:arxiv-1610.00502"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:arxiv-2605.08605",
+      "target": "doc:arxiv-2201.04663"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:arxiv-2605.08605",
+      "target": "doc:arxiv-2602.13237"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:arxiv-2605.08605",
+      "target": "chunk:arxiv-2605.08605#chunk-01"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:arxiv-2605.08605",
+      "target": "chunk:arxiv-2605.08605#chunk-02"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:arxiv-2605.08605",
+      "target": "chunk:arxiv-2605.08605#chunk-03"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2605.08605",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2605.08605",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2605.08605",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--novel-and-state-space-architectures"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2605.08605",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2605.08605",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--neuro-symbolic-deduction-and-guardrail-verification"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2605.08605",
+      "target": "tech_area:ai-and-machine-learning"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2605.08605",
+      "target": "tech_area:alternative-and-state-space-architectures"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2605.08605",
+      "target": "tech_area:automated-reasoning-and-mathematical-logic"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2605.08605",
+      "target": "tech_area:deep-learning-architectures"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2605.08605",
+      "target": "tech_area:neuro-symbolic-logic-and-neural-verification"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:arxiv-2605.08605",
+      "target": "concept:dnn"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:arxiv-2605.08605",
+      "target": "concept:lattice-deduction"
+    },
+    {
+      "predicate": "AFFILIATED_WITH",
+      "properties": {},
+      "source": "doc:arxiv-2605.10901",
+      "target": "institution:ai-safety-and-formal-verification-group"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-2605.10901",
+      "target": "author:kezins-et-al."
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:arxiv-2605.10901",
+      "target": "doc:arxiv-2208.03699"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:arxiv-2605.10901",
+      "target": "doc:arxiv-2610.08739v2"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:arxiv-2605.10901",
+      "target": "chunk:arxiv-2605.10901#chunk-01"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:arxiv-2605.10901",
+      "target": "chunk:arxiv-2605.10901#chunk-02"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:arxiv-2605.10901",
+      "target": "chunk:arxiv-2605.10901#chunk-03"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2605.10901",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2605.10901",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2605.10901",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--language-models-and-efficient-attention"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2605.10901",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--reasoning,-agents-and-retrieval"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2605.10901",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2605.10901",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--neuro-symbolic-deduction-and-guardrail-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2605.10901",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2605.10901",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2605.10901",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2605.10901",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2605.10901",
+      "target": "taxonomy:security-and-resilience--ai-alignment,-guardrails-and-agent-security"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2605.10901",
+      "target": "tech_area:agentic-systems-and-reasoning"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2605.10901",
+      "target": "tech_area:ai-alignment-and-agentic-security"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2605.10901",
+      "target": "tech_area:ai-and-machine-learning"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2605.10901",
+      "target": "tech_area:ai-hardware-accelerators"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2605.10901",
+      "target": "tech_area:automated-reasoning-and-mathematical-logic"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2605.10901",
+      "target": "tech_area:deep-learning-architectures"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2605.10901",
+      "target": "tech_area:electronic-design-automation"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2605.10901",
+      "target": "tech_area:hardware-and-ai-security"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2605.10901",
+      "target": "tech_area:large-language-models-and-attention-mechanisms"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2605.10901",
+      "target": "tech_area:neuro-symbolic-logic-and-neural-verification"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2605.10901",
+      "target": "tech_area:semiconductor-engineering"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:arxiv-2605.10901",
+      "target": "concept:agentic-security"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:arxiv-2605.10901",
+      "target": "concept:formal-guardrails"
+    },
+    {
+      "predicate": "AFFILIATED_WITH",
+      "properties": {},
+      "source": "doc:arxiv-2607.22619",
+      "target": "institution:ai-hardware-governance-and-verification-initiative"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-2607.22619",
+      "target": "author:barten"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-2607.22619",
+      "target": "author:koopmanschap"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:arxiv-2607.22619",
+      "target": "doc:arxiv-2610.08739v2"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:arxiv-2607.22619",
+      "target": "doc:techpaper-2026-hbm-chiplet-resilience"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:arxiv-2607.22619",
+      "target": "chunk:arxiv-2607.22619#chunk-01"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:arxiv-2607.22619",
+      "target": "chunk:arxiv-2607.22619#chunk-02"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:arxiv-2607.22619",
+      "target": "chunk:arxiv-2607.22619#chunk-03"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2607.22619",
+      "target": "taxonomy:ai-policy,-governance-and-human-ai-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2607.22619",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2607.22619",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2607.22619",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators--built-in-performance-monitors"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2607.22619",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2607.22619",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2607.22619",
+      "target": "tech_area:ai-governance,-policy-and-human-ai-interaction"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2607.22619",
+      "target": "tech_area:ai-hardware-accelerators"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2607.22619",
+      "target": "tech_area:electronic-design-automation"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2607.22619",
+      "target": "tech_area:hardware-and-ai-security"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2607.22619",
+      "target": "tech_area:on-chip-telemetry-and-runtime-monitoring"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2607.22619",
+      "target": "tech_area:semiconductor-engineering"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:arxiv-2607.22619",
+      "target": "concept:apc"
     },
     {
       "predicate": "AFFILIATED_WITH",
@@ -5375,6 +7697,510 @@
       "target": "concept:rowhammer"
     },
     {
+      "predicate": "AFFILIATED_WITH",
+      "properties": {},
+      "source": "doc:note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "target": "institution:ontologic-and-ai-curriculum-synthesis"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "target": "author:reading-list-research-engine"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "target": "doc:arxiv-2201.04663"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "target": "doc:arxiv-2208.03699"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "target": "doc:arxiv-2610.08739v2"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "target": "chunk:note-2026-kitsumiko-formal-neurosymbolic-bridge#chunk-01"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "target": "chunk:note-2026-kitsumiko-formal-neurosymbolic-bridge#chunk-02"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "target": "chunk:note-2026-kitsumiko-formal-neurosymbolic-bridge#chunk-03"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--novel-and-state-space-architectures"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--reasoning,-agents-and-retrieval"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--knowledge-representation-and-ontologies"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--neuro-symbolic-deduction-and-guardrail-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators--built-in-performance-monitors"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification--formal-verification-languages-and-assertions"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "target": "taxonomy:security-and-resilience--ai-alignment,-guardrails-and-agent-security"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "target": "tech_area:agentic-systems-and-reasoning"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "target": "tech_area:ai-alignment-and-agentic-security"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "target": "tech_area:ai-and-machine-learning"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "target": "tech_area:ai-hardware-accelerators"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "target": "tech_area:alternative-and-state-space-architectures"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "target": "tech_area:automated-reasoning-and-mathematical-logic"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "target": "tech_area:deep-learning-architectures"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "target": "tech_area:electronic-design-automation"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "target": "tech_area:formal-verification-and-specification-languages"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "target": "tech_area:hardware-and-ai-security"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "target": "tech_area:neuro-symbolic-logic-and-neural-verification"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "target": "tech_area:on-chip-telemetry-and-runtime-monitoring"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "target": "tech_area:ontologies-and-description-logic"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "target": "tech_area:sat-and-smt-decision-procedures"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "target": "tech_area:semiconductor-engineering"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "target": "concept:agentic-reasoning"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "target": "concept:agentic-security"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "target": "concept:bare-ai"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "target": "concept:formal-guardrails"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "target": "concept:lattice-deduction"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "target": "concept:nl2logic-fol"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "target": "concept:ontology-smt-reasoning"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "target": "concept:sat-smt-solvers"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "target": "concept:uclid5"
+    },
+    {
+      "predicate": "REPORTS_ON",
+      "properties": {},
+      "source": "doc:note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "target": "doc:arxiv-2509.25239"
+    },
+    {
+      "predicate": "REPORTS_ON",
+      "properties": {},
+      "source": "doc:note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "target": "doc:arxiv-2602.13237"
+    },
+    {
+      "predicate": "REPORTS_ON",
+      "properties": {},
+      "source": "doc:note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "target": "doc:arxiv-2603.19163"
+    },
+    {
+      "predicate": "REPORTS_ON",
+      "properties": {},
+      "source": "doc:note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "target": "doc:arxiv-2605.08605"
+    },
+    {
+      "predicate": "REPORTS_ON",
+      "properties": {},
+      "source": "doc:note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "target": "doc:arxiv-2605.10901"
+    },
+    {
+      "predicate": "REPORTS_ON",
+      "properties": {},
+      "source": "doc:note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "target": "doc:arxiv-2607.22619"
+    },
+    {
+      "predicate": "REPORTS_ON",
+      "properties": {},
+      "source": "doc:note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "target": "doc:openreview-sec-bench-2025"
+    },
+    {
+      "predicate": "AFFILIATED_WITH",
+      "properties": {},
+      "source": "doc:openreview-sec-bench-2025",
+      "target": "institution:software-security-and-agentic-benchmarking-group"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:openreview-sec-bench-2025",
+      "target": "author:lee-et-al."
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:openreview-sec-bench-2025",
+      "target": "doc:arxiv-1610.00502"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:openreview-sec-bench-2025",
+      "target": "doc:arxiv-2610.33748"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:openreview-sec-bench-2025",
+      "target": "chunk:openreview-sec-bench-2025#chunk-01"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:openreview-sec-bench-2025",
+      "target": "chunk:openreview-sec-bench-2025#chunk-02"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:openreview-sec-bench-2025",
+      "target": "chunk:openreview-sec-bench-2025#chunk-03"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:openreview-sec-bench-2025",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:openreview-sec-bench-2025",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:openreview-sec-bench-2025",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--reasoning,-agents-and-retrieval"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:openreview-sec-bench-2025",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:openreview-sec-bench-2025",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:openreview-sec-bench-2025",
+      "target": "taxonomy:formal-methods-and-automated-reasoning--sat-and-smt-solvers--software-verification-and-symbolic-execution"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:openreview-sec-bench-2025",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:openreview-sec-bench-2025",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:openreview-sec-bench-2025",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:openreview-sec-bench-2025",
+      "target": "taxonomy:security-and-resilience--ai-alignment,-guardrails-and-agent-security"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:openreview-sec-bench-2025",
+      "target": "tech_area:agentic-systems-and-reasoning"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:openreview-sec-bench-2025",
+      "target": "tech_area:ai-alignment-and-agentic-security"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:openreview-sec-bench-2025",
+      "target": "tech_area:ai-and-machine-learning"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:openreview-sec-bench-2025",
+      "target": "tech_area:automated-reasoning-and-mathematical-logic"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:openreview-sec-bench-2025",
+      "target": "tech_area:deep-learning-architectures"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:openreview-sec-bench-2025",
+      "target": "tech_area:electronic-design-automation"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:openreview-sec-bench-2025",
+      "target": "tech_area:hardware-and-ai-security"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:openreview-sec-bench-2025",
+      "target": "tech_area:sat-and-smt-decision-procedures"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:openreview-sec-bench-2025",
+      "target": "tech_area:semiconductor-engineering"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:openreview-sec-bench-2025",
+      "target": "tech_area:software-verification-and-program-analysis"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:openreview-sec-bench-2025",
+      "target": "concept:agentic-reasoning"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:openreview-sec-bench-2025",
+      "target": "concept:agentic-security"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:openreview-sec-bench-2025",
+      "target": "concept:symbolic-execution"
+    },
+    {
       "predicate": "AUTHORED_BY",
       "properties": {},
       "source": "doc:research-formal-verification-languages-in-chip-and-se",
@@ -5468,6 +8294,12 @@
       "predicate": "IN_CATEGORY",
       "properties": {},
       "source": "doc:research-formal-verification-languages-in-chip-and-se",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--reasoning,-agents-and-retrieval"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:research-formal-verification-languages-in-chip-and-se",
       "target": "taxonomy:formal-methods-and-automated-reasoning"
     },
     {
@@ -5546,6 +8378,12 @@
       "predicate": "IN_TECH_AREA",
       "properties": {},
       "source": "doc:research-formal-verification-languages-in-chip-and-se",
+      "target": "tech_area:agentic-systems-and-reasoning"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:research-formal-verification-languages-in-chip-and-se",
       "target": "tech_area:ai-and-machine-learning"
     },
     {
@@ -5619,6 +8457,12 @@
       "properties": {},
       "source": "doc:research-formal-verification-languages-in-chip-and-se",
       "target": "tech_area:semiconductor-engineering"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:research-formal-verification-languages-in-chip-and-se",
+      "target": "concept:agentic-reasoning"
     },
     {
       "predicate": "MENTIONS_CONCEPT",
@@ -6056,6 +8900,12 @@
       "predicate": "IN_CATEGORY",
       "properties": {},
       "source": "doc:semieng-2026-bare-ai-monitors",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--novel-and-state-space-architectures"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:semieng-2026-bare-ai-monitors",
       "target": "taxonomy:hardware-and-semiconductor-systems"
     },
     {
@@ -6111,6 +8961,12 @@
       "properties": {},
       "source": "doc:semieng-2026-bare-ai-monitors",
       "target": "tech_area:ai-hardware-accelerators"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:semieng-2026-bare-ai-monitors",
+      "target": "tech_area:alternative-and-state-space-architectures"
     },
     {
       "predicate": "IN_TECH_AREA",
@@ -6589,6 +9445,12 @@
     {
       "predicate": "IN_TECH_AREA",
       "properties": {},
+      "source": "taxonomy:ai-policy,-governance-and-human-ai-systems",
+      "target": "tech_area:ai-governance,-policy-and-human-ai-interaction"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
       "source": "taxonomy:artificial-intelligence-and-machine-learning",
       "target": "tech_area:ai-and-machine-learning"
     },
@@ -6607,6 +9469,66 @@
     {
       "predicate": "IN_TECH_AREA",
       "properties": {},
+      "source": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--language-models-and-efficient-attention",
+      "target": "tech_area:large-language-models-and-attention-mechanisms"
+    },
+    {
+      "predicate": "SUBCATEGORY_OF",
+      "properties": {},
+      "source": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--language-models-and-efficient-attention",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--novel-and-state-space-architectures",
+      "target": "tech_area:alternative-and-state-space-architectures"
+    },
+    {
+      "predicate": "SUBCATEGORY_OF",
+      "properties": {},
+      "source": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--novel-and-state-space-architectures",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "taxonomy:artificial-intelligence-and-machine-learning--interpretability,-calibration-and-evaluation",
+      "target": "tech_area:mechanistic-interpretability-and-model-evaluation"
+    },
+    {
+      "predicate": "SUBCATEGORY_OF",
+      "properties": {},
+      "source": "taxonomy:artificial-intelligence-and-machine-learning--interpretability,-calibration-and-evaluation",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "taxonomy:artificial-intelligence-and-machine-learning--probabilistic,-diffusion-and-multimodal-vision",
+      "target": "tech_area:multimodal-vision-and-probabilistic-generative-models"
+    },
+    {
+      "predicate": "SUBCATEGORY_OF",
+      "properties": {},
+      "source": "taxonomy:artificial-intelligence-and-machine-learning--probabilistic,-diffusion-and-multimodal-vision",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "taxonomy:artificial-intelligence-and-machine-learning--reasoning,-agents-and-retrieval",
+      "target": "tech_area:agentic-systems-and-reasoning"
+    },
+    {
+      "predicate": "SUBCATEGORY_OF",
+      "properties": {},
+      "source": "taxonomy:artificial-intelligence-and-machine-learning--reasoning,-agents-and-retrieval",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
       "source": "taxonomy:formal-methods-and-automated-reasoning",
       "target": "tech_area:automated-reasoning-and-mathematical-logic"
     },
@@ -6620,6 +9542,18 @@
       "predicate": "SUBCATEGORY_OF",
       "properties": {},
       "source": "taxonomy:formal-methods-and-automated-reasoning--knowledge-representation-and-ontologies",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "taxonomy:formal-methods-and-automated-reasoning--neuro-symbolic-deduction-and-guardrail-verification",
+      "target": "tech_area:neuro-symbolic-logic-and-neural-verification"
+    },
+    {
+      "predicate": "SUBCATEGORY_OF",
+      "properties": {},
+      "source": "taxonomy:formal-methods-and-automated-reasoning--neuro-symbolic-deduction-and-guardrail-verification",
       "target": "taxonomy:formal-methods-and-automated-reasoning"
     },
     {
@@ -6733,6 +9667,18 @@
     {
       "predicate": "IN_TECH_AREA",
       "properties": {},
+      "source": "taxonomy:security-and-resilience--ai-alignment,-guardrails-and-agent-security",
+      "target": "tech_area:ai-alignment-and-agentic-security"
+    },
+    {
+      "predicate": "SUBCATEGORY_OF",
+      "properties": {},
+      "source": "taxonomy:security-and-resilience--ai-alignment,-guardrails-and-agent-security",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
       "source": "taxonomy:security-and-resilience--hardware-fault-attacks--bit-flip-attacks",
       "target": "tech_area:adversarial-fault-injection"
     },
@@ -6805,6 +9751,12 @@
       "properties": {}
     },
     {
+      "label": "Barten",
+      "node_id": "author:barten",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
       "label": "Bill Sommers",
       "node_id": "author:bill-sommers",
       "node_type": "Author",
@@ -6837,6 +9789,12 @@
     {
       "label": "David K. Lindstrom",
       "node_id": "author:david-k.-lindstrom",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Davis et al.",
+      "node_id": "author:davis-et-al.",
       "node_type": "Author",
       "properties": {}
     },
@@ -6931,6 +9889,30 @@
       "properties": {}
     },
     {
+      "label": "Kezins et al.",
+      "node_id": "author:kezins-et-al.",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Koopmanschap",
+      "node_id": "author:koopmanschap",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Lee et al.",
+      "node_id": "author:lee-et-al.",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Liu",
+      "node_id": "author:liu",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
       "label": "Marcus Chen",
       "node_id": "author:marcus-chen",
       "node_type": "Author",
@@ -6981,6 +9963,12 @@
     {
       "label": "Priya Nair",
       "node_id": "author:priya-nair",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Putra et al.",
+      "node_id": "author:putra-et-al.",
       "node_type": "Author",
       "properties": {}
     },
@@ -7071,6 +10059,12 @@
     {
       "label": "Syed Suhaib",
       "node_id": "author:syed-suhaib",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Xu et al.",
+      "node_id": "author:xu-et-al.",
       "node_type": "Author",
       "properties": {}
     },
@@ -7267,6 +10261,96 @@
       }
     },
     {
+      "label": "arxiv-2509.25239: Problem Statement & Context",
+      "node_id": "chunk:arxiv-2509.25239#chunk-01",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "arxiv-2509.25239#chunk-01",
+        "heading": "Problem Statement & Context",
+        "token_count": 21
+      }
+    },
+    {
+      "label": "arxiv-2509.25239: Proposed Mechanism: Complexity & Expressivity Separation",
+      "node_id": "chunk:arxiv-2509.25239#chunk-02",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "arxiv-2509.25239#chunk-02",
+        "heading": "Proposed Mechanism: Complexity & Expressivity Separation",
+        "token_count": 31
+      }
+    },
+    {
+      "label": "arxiv-2509.25239: Evaluation & Why It Matters (via kitsumiko/papers)",
+      "node_id": "chunk:arxiv-2509.25239#chunk-03",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "arxiv-2509.25239#chunk-03",
+        "heading": "Evaluation & Why It Matters (via kitsumiko/papers)",
+        "token_count": 32
+      }
+    },
+    {
+      "label": "arxiv-2602.13237: Problem Statement & Context",
+      "node_id": "chunk:arxiv-2602.13237#chunk-01",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "arxiv-2602.13237#chunk-01",
+        "heading": "Problem Statement & Context",
+        "token_count": 39
+      }
+    },
+    {
+      "label": "arxiv-2602.13237: Proposed Mechanism: AST-Guided & Grammar-Constrained Translation",
+      "node_id": "chunk:arxiv-2602.13237#chunk-02",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "arxiv-2602.13237#chunk-02",
+        "heading": "Proposed Mechanism: AST-Guided & Grammar-Constrained Translation",
+        "token_count": 50
+      }
+    },
+    {
+      "label": "arxiv-2602.13237: Evaluation & Why It Matters (via kitsumiko/papers)",
+      "node_id": "chunk:arxiv-2602.13237#chunk-03",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "arxiv-2602.13237#chunk-03",
+        "heading": "Evaluation & Why It Matters (via kitsumiko/papers)",
+        "token_count": 39
+      }
+    },
+    {
+      "label": "arxiv-2603.19163: Problem Statement & Context",
+      "node_id": "chunk:arxiv-2603.19163#chunk-01",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "arxiv-2603.19163#chunk-01",
+        "heading": "Problem Statement & Context",
+        "token_count": 22
+      }
+    },
+    {
+      "label": "arxiv-2603.19163: Proposed Mechanism: Hardware-Aware CUDA Block Evolution",
+      "node_id": "chunk:arxiv-2603.19163#chunk-02",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "arxiv-2603.19163#chunk-02",
+        "heading": "Proposed Mechanism: Hardware-Aware CUDA Block Evolution",
+        "token_count": 31
+      }
+    },
+    {
+      "label": "arxiv-2603.19163: Evaluation & Why It Matters (via kitsumiko/papers)",
+      "node_id": "chunk:arxiv-2603.19163#chunk-03",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "arxiv-2603.19163#chunk-03",
+        "heading": "Evaluation & Why It Matters (via kitsumiko/papers)",
+        "token_count": 26
+      }
+    },
+    {
       "label": "arxiv-2604.23100: Solver-in-the-Loop Formal Assertion Synthesis",
       "node_id": "chunk:arxiv-2604.23100#chunk-01",
       "node_type": "SemanticChunk",
@@ -7294,6 +10378,96 @@
         "chunk_id": "arxiv-2604.23100#chunk-03",
         "heading": "Implications for Semiconductor Verification Flows",
         "token_count": 23
+      }
+    },
+    {
+      "label": "arxiv-2605.08605: Problem Statement & Context",
+      "node_id": "chunk:arxiv-2605.08605#chunk-01",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "arxiv-2605.08605#chunk-01",
+        "heading": "Problem Statement & Context",
+        "token_count": 24
+      }
+    },
+    {
+      "label": "arxiv-2605.08605: Proposed Mechanism: Abstract Lattice Projection & Sound Deduction",
+      "node_id": "chunk:arxiv-2605.08605#chunk-02",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "arxiv-2605.08605#chunk-02",
+        "heading": "Proposed Mechanism: Abstract Lattice Projection & Sound Deduction",
+        "token_count": 43
+      }
+    },
+    {
+      "label": "arxiv-2605.08605: Evaluation & Why It Matters (via kitsumiko/papers)",
+      "node_id": "chunk:arxiv-2605.08605#chunk-03",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "arxiv-2605.08605#chunk-03",
+        "heading": "Evaluation & Why It Matters (via kitsumiko/papers)",
+        "token_count": 50
+      }
+    },
+    {
+      "label": "arxiv-2605.10901: Problem Statement & Context",
+      "node_id": "chunk:arxiv-2605.10901#chunk-01",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "arxiv-2605.10901#chunk-01",
+        "heading": "Problem Statement & Context",
+        "token_count": 22
+      }
+    },
+    {
+      "label": "arxiv-2605.10901: Proposed Mechanism: Convex Pre-Activation Certification via SVD Hyper-Rectangles",
+      "node_id": "chunk:arxiv-2605.10901#chunk-02",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "arxiv-2605.10901#chunk-02",
+        "heading": "Proposed Mechanism: Convex Pre-Activation Certification via SVD Hyper-Rectangles",
+        "token_count": 49
+      }
+    },
+    {
+      "label": "arxiv-2605.10901: Evaluation & Why It Matters (via kitsumiko/papers)",
+      "node_id": "chunk:arxiv-2605.10901#chunk-03",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "arxiv-2605.10901#chunk-03",
+        "heading": "Evaluation & Why It Matters (via kitsumiko/papers)",
+        "token_count": 32
+      }
+    },
+    {
+      "label": "arxiv-2607.22619: Problem Statement & Context",
+      "node_id": "chunk:arxiv-2607.22619#chunk-01",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "arxiv-2607.22619#chunk-01",
+        "heading": "Problem Statement & Context",
+        "token_count": 24
+      }
+    },
+    {
+      "label": "arxiv-2607.22619: Proposed Mechanism: Hardware Verification & Telemetry Taxonomy",
+      "node_id": "chunk:arxiv-2607.22619#chunk-02",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "arxiv-2607.22619#chunk-02",
+        "heading": "Proposed Mechanism: Hardware Verification & Telemetry Taxonomy",
+        "token_count": 19
+      }
+    },
+    {
+      "label": "arxiv-2607.22619: Evaluation & Why It Matters (via kitsumiko/papers)",
+      "node_id": "chunk:arxiv-2607.22619#chunk-03",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "arxiv-2607.22619#chunk-03",
+        "heading": "Evaluation & Why It Matters (via kitsumiko/papers)",
+        "token_count": 22
       }
     },
     {
@@ -7424,6 +10598,66 @@
         "chunk_id": "note-2026-cross-layer-bitflip-synthesis#chunk-02",
         "heading": "OntoLogic Knowledge Graph Synthesis",
         "token_count": 54
+      }
+    },
+    {
+      "label": "note-2026-kitsumiko-formal-neurosymbolic-bridge: Executive Synthesis & Attribution",
+      "node_id": "chunk:note-2026-kitsumiko-formal-neurosymbolic-bridge#chunk-01",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "note-2026-kitsumiko-formal-neurosymbolic-bridge#chunk-01",
+        "heading": "Executive Synthesis & Attribution",
+        "token_count": 37
+      }
+    },
+    {
+      "label": "note-2026-kitsumiko-formal-neurosymbolic-bridge: Neuro-Symbolic Deduction & Solver-Ready Logic",
+      "node_id": "chunk:note-2026-kitsumiko-formal-neurosymbolic-bridge#chunk-02",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "note-2026-kitsumiko-formal-neurosymbolic-bridge#chunk-02",
+        "heading": "Neuro-Symbolic Deduction & Solver-Ready Logic",
+        "token_count": 35
+      }
+    },
+    {
+      "label": "note-2026-kitsumiko-formal-neurosymbolic-bridge: Formal Safety Certification & Hardware-Rooted Verification",
+      "node_id": "chunk:note-2026-kitsumiko-formal-neurosymbolic-bridge#chunk-03",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "note-2026-kitsumiko-formal-neurosymbolic-bridge#chunk-03",
+        "heading": "Formal Safety Certification & Hardware-Rooted Verification",
+        "token_count": 45
+      }
+    },
+    {
+      "label": "openreview-sec-bench-2025: Problem Statement & Context",
+      "node_id": "chunk:openreview-sec-bench-2025#chunk-01",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "openreview-sec-bench-2025#chunk-01",
+        "heading": "Problem Statement & Context",
+        "token_count": 19
+      }
+    },
+    {
+      "label": "openreview-sec-bench-2025: Proposed Mechanism: Multi-Agent Verified Vulnerability Scaffold",
+      "node_id": "chunk:openreview-sec-bench-2025#chunk-02",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "openreview-sec-bench-2025#chunk-02",
+        "heading": "Proposed Mechanism: Multi-Agent Verified Vulnerability Scaffold",
+        "token_count": 35
+      }
+    },
+    {
+      "label": "openreview-sec-bench-2025: Evaluation & Why It Matters (via kitsumiko/papers)",
+      "node_id": "chunk:openreview-sec-bench-2025#chunk-03",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "openreview-sec-bench-2025#chunk-03",
+        "heading": "Evaluation & Why It Matters (via kitsumiko/papers)",
+        "token_count": 33
       }
     },
     {
@@ -7567,6 +10801,26 @@
       }
     },
     {
+      "label": "Chain-of-Thought, Latent Reasoning & Multi-Agent Orchestration",
+      "node_id": "concept:agentic-reasoning",
+      "node_type": "Concept",
+      "properties": {
+        "description": "Multi-step reasoning (CoT, latent reasoning, RLHF/PPO) and autonomous multi-agent coordination frameworks.",
+        "taxonomy_path": "Artificial Intelligence & Machine Learning > Reasoning, Agents & Retrieval",
+        "technology_area": "Agentic Systems & Reasoning"
+      }
+    },
+    {
+      "label": "Agentic AI Security, Prompt Injection & Red Teaming (SEC-bench, GOAT)",
+      "node_id": "concept:agentic-security",
+      "node_type": "Concept",
+      "properties": {
+        "description": "Security evaluation, prompt-injection defense, supply-chain auditing, and automated red teaming of LLM and agentic systems.",
+        "taxonomy_path": "Security & Resilience > AI Alignment, Guardrails & Agent Security",
+        "technology_area": "AI Alignment & Agentic Security"
+      }
+    },
+    {
       "label": "AI Hardware Accelerator",
       "node_id": "concept:ai-accelerator",
       "node_type": "Concept",
@@ -7574,6 +10828,16 @@
         "description": "Integrated circuit accelerators synthesized for neural network inference.",
         "taxonomy_path": "Hardware & Semiconductor Systems > AI Accelerators",
         "technology_area": "AI Hardware Accelerators"
+      }
+    },
+    {
+      "label": "AI Governance, Regulatory Frameworks & Human-AI Interaction",
+      "node_id": "concept:ai-policy-governance",
+      "node_type": "Concept",
+      "properties": {
+        "description": "Global AI statutes, regulatory standards (EU AI Act, NIST AI RMF, ISO/IEC 42001), compute verification, and human-AI reliance.",
+        "taxonomy_path": "AI Policy, Governance & Human-AI Systems",
+        "technology_area": "AI Governance, Policy & Human-AI Interaction"
       }
     },
     {
@@ -7617,6 +10881,16 @@
       }
     },
     {
+      "label": "Diffusion Models, Probabilistic Programming & Multimodal Vision",
+      "node_id": "concept:diffusion-multimodal",
+      "node_type": "Concept",
+      "properties": {
+        "description": "Score-based and denoising diffusion generative models, Bayesian probabilistic programming, and vision-language foundation models.",
+        "taxonomy_path": "Artificial Intelligence & Machine Learning > Probabilistic, Diffusion & Multimodal Vision",
+        "technology_area": "Multimodal Vision & Probabilistic Generative Models"
+      }
+    },
+    {
       "label": "Deep Neural Networks (DNNs, ViTs, LLMs)",
       "node_id": "concept:dnn",
       "node_type": "Concept",
@@ -7647,6 +10921,36 @@
       }
     },
     {
+      "label": "LLM Scaling, Efficient Attention & Speculative Decoding",
+      "node_id": "concept:flash-attention-llm",
+      "node_type": "Concept",
+      "properties": {
+        "description": "Hardware-aware attention algorithms (FlashAttention), KV-cache compression, speculative decoding, and distributed LLM training.",
+        "taxonomy_path": "Artificial Intelligence & Machine Learning > Deep Neural Networks > Language Models & Efficient Attention",
+        "technology_area": "Large Language Models & Attention Mechanisms"
+      }
+    },
+    {
+      "label": "Formal Verification of Neural Guardrail Classifiers",
+      "node_id": "concept:formal-guardrails",
+      "node_type": "Concept",
+      "properties": {
+        "description": "Certifying safety coverage of neural guardrail classifiers over convex pre-activation regions via SVD-aligned hyper-rectangles.",
+        "taxonomy_path": "Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification",
+        "technology_area": "Neuro-Symbolic Logic & Neural Verification"
+      }
+    },
+    {
+      "label": "Abstract-Interpretation Lattice Deduction Transformers",
+      "node_id": "concept:lattice-deduction",
+      "node_type": "Concept",
+      "properties": {
+        "description": "Recurrent neural reasoners that project latent states onto an abstract lattice so each forward pass acts as a sound deduction step.",
+        "taxonomy_path": "Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification",
+        "technology_area": "Neuro-Symbolic Logic & Neural Verification"
+      }
+    },
+    {
       "label": "Automated & Agentic RTL Assertion Synthesis (AssertionForge, ProofLoop)",
       "node_id": "concept:llm-formal-verification",
       "node_type": "Concept",
@@ -7657,6 +10961,16 @@
       }
     },
     {
+      "label": "Mechanistic Interpretability, Superposition & Model Calibration",
+      "node_id": "concept:mechanistic-interpretability",
+      "node_type": "Concept",
+      "properties": {
+        "description": "Circuit-level mechanistic interpretability, sparse autoencoders for feature disentanglement, and probabilistic calibration.",
+        "taxonomy_path": "Artificial Intelligence & Machine Learning > Interpretability, Calibration & Evaluation",
+        "technology_area": "Mechanistic Interpretability & Model Evaluation"
+      }
+    },
+    {
       "label": "Graph Theory Modulo Theories (MonoSAT)",
       "node_id": "concept:monosat-graph-smt",
       "node_type": "Concept",
@@ -7664,6 +10978,16 @@
         "description": "SMT extension with monotonic graph predicates (reachability, shortest paths, max-flow, DAG acyclicity) enabling scalable graph analysis.",
         "taxonomy_path": "Formal Methods & Automated Reasoning > SAT & SMT Solvers > Graph Theory Modulo Theories",
         "technology_area": "Graph Analysis & Combinatorial Optimization"
+      }
+    },
+    {
+      "label": "Neuro-Symbolic NL-to-First-Order Logic Translation (NL2LOGIC)",
+      "node_id": "concept:nl2logic-fol",
+      "node_type": "Concept",
+      "properties": {
+        "description": "AST-guided, grammar-constrained translation of natural language into solver-ready First-Order Logic (FOL) for automated theorem proving and SMT verification.",
+        "taxonomy_path": "Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification",
+        "technology_area": "Neuro-Symbolic Logic & Neural Verification"
       }
     },
     {
@@ -7704,6 +11028,16 @@
         "description": "Conflict-Driven Clause Learning (CDCL) SAT solvers and DPLL(T) Satisfiability Modulo Theories (SMT) engines such as Z3 and cvc5.",
         "taxonomy_path": "Formal Methods & Automated Reasoning > SAT & SMT Solvers",
         "technology_area": "SAT & SMT Decision Procedures"
+      }
+    },
+    {
+      "label": "State-Space Models (Mamba, RWKV) & Kolmogorov-Arnold Networks (KAN)",
+      "node_id": "concept:ssm-kan-architectures",
+      "node_type": "Concept",
+      "properties": {
+        "description": "Linear-time state-space sequence models, parallelizable RNNs, spline-edge Kolmogorov-Arnold networks, and joint-embedding world models.",
+        "taxonomy_path": "Artificial Intelligence & Machine Learning > Deep Neural Networks > Novel & State-Space Architectures",
+        "technology_area": "Alternative & State-Space Architectures"
       }
     },
     {
@@ -7899,6 +11233,86 @@
       }
     },
     {
+      "label": "A Formal Comparison Between Chain of Thought and Latent Thought",
+      "node_id": "doc:arxiv-2509.25239",
+      "node_type": "Document",
+      "properties": {
+        "doc_id": "arxiv-2509.25239",
+        "doc_type": "academic_paper",
+        "identifiers": {
+          "arxiv": "2509.25239",
+          "curated_source": "https://github.com/kitsumiko/papers/blob/main/learning/reasoning.md",
+          "pdf_url": "https://arxiv.org/pdf/2509.25239"
+        },
+        "notes": "Curated from kitsumiko/papers (learning/reasoning.md). Theoretical companion to Lattice Deduction Transformers (arxiv-2605.08605).",
+        "priority": "medium",
+        "published_date": "2025-09",
+        "reading_status": "to-read",
+        "tags": [
+          "chain-of-thought",
+          "latent-thought",
+          "formal-comparison",
+          "reasoning",
+          "kitsumiko-papers"
+        ],
+        "url": "https://arxiv.org/abs/2509.25239"
+      }
+    },
+    {
+      "label": "NL2LOGIC: AST-Guided Translation of Natural Language into First-Order Logic with Large Language Models",
+      "node_id": "doc:arxiv-2602.13237",
+      "node_type": "Document",
+      "properties": {
+        "doc_id": "arxiv-2602.13237",
+        "doc_type": "academic_paper",
+        "identifiers": {
+          "arxiv": "2602.13237",
+          "curated_source": "https://github.com/kitsumiko/papers/blob/main/learning/reasoning.md",
+          "pdf_url": "https://arxiv.org/pdf/2602.13237"
+        },
+        "notes": "Curated from kitsumiko/papers (learning/reasoning.md). Bridges LLM semantic parsing with solver-ready First-Order Logic for OntoLogic and cvc5.",
+        "priority": "high",
+        "published_date": "2026-02",
+        "reading_status": "to-read",
+        "tags": [
+          "nl2logic",
+          "first-order-logic",
+          "smt",
+          "ast",
+          "neuro-symbolic",
+          "ontologic",
+          "kitsumiko-papers"
+        ],
+        "url": "https://arxiv.org/abs/2602.13237"
+      }
+    },
+    {
+      "label": "cuGenOpt: A GPU-Accelerated General-Purpose Metaheuristic Framework for Combinatorial Optimization",
+      "node_id": "doc:arxiv-2603.19163",
+      "node_type": "Document",
+      "properties": {
+        "doc_id": "arxiv-2603.19163",
+        "doc_type": "academic_paper",
+        "identifiers": {
+          "arxiv": "2603.19163",
+          "curated_source": "https://github.com/kitsumiko/papers/blob/main/learning/hardware.md",
+          "pdf_url": "https://arxiv.org/pdf/2603.19163"
+        },
+        "notes": "Curated from kitsumiko/papers (learning/hardware.md). Complements MonoSAT graph SMT solving with GPU-native combinatorial optimization.",
+        "priority": "medium",
+        "published_date": "2026-03",
+        "reading_status": "to-read",
+        "tags": [
+          "gpu",
+          "combinatorial-optimization",
+          "hardware-accelerators",
+          "cuda",
+          "kitsumiko-papers"
+        ],
+        "url": "https://arxiv.org/abs/2603.19163"
+      }
+    },
+    {
       "label": "ProofLoop: From Language to Logic \u2014 Bridging LLMs and Formal Representations for RTL Assertion Generation",
       "node_id": "doc:arxiv-2604.23100",
       "node_type": "Document",
@@ -7923,6 +11337,86 @@
           "formal-verification"
         ],
         "url": "https://arxiv.org/abs/2604.23100"
+      }
+    },
+    {
+      "label": "Lattice Deduction Transformers",
+      "node_id": "doc:arxiv-2605.08605",
+      "node_type": "Document",
+      "properties": {
+        "doc_id": "arxiv-2605.08605",
+        "doc_type": "academic_paper",
+        "identifiers": {
+          "arxiv": "2605.08605",
+          "curated_source": "https://github.com/kitsumiko/papers/blob/main/learning/architectures.md",
+          "pdf_url": "https://arxiv.org/pdf/2605.08605"
+        },
+        "notes": "Curated from kitsumiko/papers (learning/architectures.md). Connects abstract interpretation and lattice domain theory with recurrent neural deduction.",
+        "priority": "high",
+        "published_date": "2026-05",
+        "reading_status": "to-read",
+        "tags": [
+          "lattice-deduction",
+          "abstract-interpretation",
+          "constraint-solving",
+          "smt",
+          "transformers",
+          "kitsumiko-papers"
+        ],
+        "url": "https://arxiv.org/abs/2605.08605"
+      }
+    },
+    {
+      "label": "Beyond Red-Teaming: Formal Guarantees of LLM Guardrail Classifiers",
+      "node_id": "doc:arxiv-2605.10901",
+      "node_type": "Document",
+      "properties": {
+        "doc_id": "arxiv-2605.10901",
+        "doc_type": "academic_paper",
+        "identifiers": {
+          "arxiv": "2605.10901",
+          "curated_source": "https://github.com/kitsumiko/papers/blob/main/learning/safety.md",
+          "pdf_url": "https://arxiv.org/pdf/2605.10901"
+        },
+        "notes": "Curated from kitsumiko/papers (learning/safety.md). Formal verification of neural guardrail classifiers in latent pre-activation space.",
+        "priority": "high",
+        "published_date": "2026-05",
+        "reading_status": "to-read",
+        "tags": [
+          "formal-verification",
+          "guardrails",
+          "ai-security",
+          "red-teaming",
+          "certification",
+          "kitsumiko-papers"
+        ],
+        "url": "https://arxiv.org/abs/2605.10901"
+      }
+    },
+    {
+      "label": "How to Catch a GPU: A Taxonomy of Verification and Enforcement Mechanisms for International AI Agreements",
+      "node_id": "doc:arxiv-2607.22619",
+      "node_type": "Document",
+      "properties": {
+        "doc_id": "arxiv-2607.22619",
+        "doc_type": "academic_paper",
+        "identifiers": {
+          "arxiv": "2607.22619",
+          "curated_source": "https://github.com/kitsumiko/papers/blob/main/learning/policy.md",
+          "pdf_url": "https://arxiv.org/pdf/2607.22619"
+        },
+        "notes": "Curated from kitsumiko/papers (learning/policy.md). Links on-chip accelerator telemetry (like BARE-AI APCs) to hardware verification policy.",
+        "priority": "medium",
+        "published_date": "2026-07",
+        "reading_status": "to-read",
+        "tags": [
+          "gpu-verification",
+          "on-chip-telemetry",
+          "ai-hardware",
+          "compute-governance",
+          "kitsumiko-papers"
+        ],
+        "url": "https://arxiv.org/abs/2607.22619"
       }
     },
     {
@@ -8027,6 +11521,57 @@
           "bit-flip"
         ],
         "url": "https://github.com/bsommers/reading-db"
+      }
+    },
+    {
+      "label": "Synthesis Note: Neuro-Symbolic Deduction, Formal Guardrail Certification, and Hardware-Verified AI (Curated from kitsumiko/papers)",
+      "node_id": "doc:note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "node_type": "Document",
+      "properties": {
+        "doc_id": "note-2026-kitsumiko-formal-neurosymbolic-bridge",
+        "doc_type": "note",
+        "identifiers": {
+          "sibling_db": "https://github.com/bsommers/ai-curriculum-db",
+          "source_repo": "https://github.com/kitsumiko/papers"
+        },
+        "notes": "Cross-database bridge linking ../reading-db to kitsumiko/papers and ../ai-curriculum-db.",
+        "priority": "high",
+        "published_date": "2026-11-07",
+        "reading_status": "read",
+        "tags": [
+          "synthesis",
+          "kitsumiko-papers",
+          "neuro-symbolic",
+          "formal-verification",
+          "smt",
+          "ontologic"
+        ],
+        "url": "https://github.com/kitsumiko/papers"
+      }
+    },
+    {
+      "label": "SEC-bench: Automated Benchmarking of LLM Agents on Real-World Software Security Tasks",
+      "node_id": "doc:openreview-sec-bench-2025",
+      "node_type": "Document",
+      "properties": {
+        "doc_id": "openreview-sec-bench-2025",
+        "doc_type": "academic_paper",
+        "identifiers": {
+          "curated_source": "https://github.com/kitsumiko/papers/blob/main/learning/safety.md",
+          "openreview": "QQhQIqons0"
+        },
+        "notes": "Curated from kitsumiko/papers (learning/safety.md). Connects symbolic execution vulnerability discovery (arxiv-1610.00502) with agentic security benchmarking.",
+        "priority": "high",
+        "published_date": "2025-10",
+        "reading_status": "to-read",
+        "tags": [
+          "sec-bench",
+          "software-security",
+          "vulnerability-discovery",
+          "agentic-security",
+          "kitsumiko-papers"
+        ],
+        "url": "https://openreview.net/pdf?id=QQhQIqons0"
       }
     },
     {
@@ -8158,8 +11703,32 @@
       }
     },
     {
+      "label": "AI Hardware Governance & Verification Initiative",
+      "node_id": "institution:ai-hardware-governance-and-verification-initiative",
+      "node_type": "Institution",
+      "properties": {}
+    },
+    {
+      "label": "AI Safety & Formal Verification Group",
+      "node_id": "institution:ai-safety-and-formal-verification-group",
+      "node_type": "Institution",
+      "properties": {}
+    },
+    {
       "label": "Arm",
       "node_id": "institution:arm",
+      "node_type": "Institution",
+      "properties": {}
+    },
+    {
+      "label": "Formal Reasoning & Deep Learning Lab",
+      "node_id": "institution:formal-reasoning-and-deep-learning-lab",
+      "node_type": "Institution",
+      "properties": {}
+    },
+    {
+      "label": "GPU Systems & Optimization Lab",
+      "node_id": "institution:gpu-systems-and-optimization-lab",
       "node_type": "Institution",
       "properties": {}
     },
@@ -8176,8 +11745,20 @@
       "properties": {}
     },
     {
+      "label": "Neuro-Symbolic Reasoning Group",
+      "node_id": "institution:neuro-symbolic-reasoning-group",
+      "node_type": "Institution",
+      "properties": {}
+    },
+    {
       "label": "NVIDIA",
       "node_id": "institution:nvidia",
+      "node_type": "Institution",
+      "properties": {}
+    },
+    {
+      "label": "OntoLogic & AI Curriculum Synthesis",
+      "node_id": "institution:ontologic-and-ai-curriculum-synthesis",
       "node_type": "Institution",
       "properties": {}
     },
@@ -8200,8 +11781,20 @@
       "properties": {}
     },
     {
+      "label": "Software Security & Agentic Benchmarking Group",
+      "node_id": "institution:software-security-and-agentic-benchmarking-group",
+      "node_type": "Institution",
+      "properties": {}
+    },
+    {
       "label": "Stanford University",
       "node_id": "institution:stanford-university",
+      "node_type": "Institution",
+      "properties": {}
+    },
+    {
+      "label": "Theoretical Machine Learning & Reasoning Group",
+      "node_id": "institution:theoretical-machine-learning-and-reasoning-group",
       "node_type": "Institution",
       "properties": {}
     },
@@ -8266,6 +11859,16 @@
       "properties": {}
     },
     {
+      "label": "AI Policy, Governance & Human-AI Systems",
+      "node_id": "taxonomy:ai-policy,-governance-and-human-ai-systems",
+      "node_type": "TaxonomyCategory",
+      "properties": {
+        "description": "International AI legislation, risk management standards (NIST AI RMF, ISO/IEC, EU AI Act), compute governance, and human-AI decision-making.",
+        "ontologic_class_uri": "ontologic:AIPolicyGovernanceAndHumanAI",
+        "path": "AI Policy, Governance & Human-AI Systems"
+      }
+    },
+    {
       "label": "Artificial Intelligence & Machine Learning",
       "node_id": "taxonomy:artificial-intelligence-and-machine-learning",
       "node_type": "TaxonomyCategory",
@@ -8286,6 +11889,56 @@
       }
     },
     {
+      "label": "Language Models & Efficient Attention",
+      "node_id": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--language-models-and-efficient-attention",
+      "node_type": "TaxonomyCategory",
+      "properties": {
+        "description": "Large language model pretraining, scaling laws, tokenization, KV-cache compression, and efficient attention mechanisms.",
+        "ontologic_class_uri": "ontologic:LanguageModelsAndAttention",
+        "path": "Artificial Intelligence & Machine Learning > Deep Neural Networks > Language Models & Efficient Attention"
+      }
+    },
+    {
+      "label": "Novel & State-Space Architectures",
+      "node_id": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--novel-and-state-space-architectures",
+      "node_type": "TaxonomyCategory",
+      "properties": {
+        "description": "Sub-quadratic state-space models (Mamba, RWKV), Kolmogorov-Arnold Networks (KAN), recurrent-depth reasoners, and theoretical foundations.",
+        "ontologic_class_uri": "ontologic:NovelAndStateSpaceArchitectures",
+        "path": "Artificial Intelligence & Machine Learning > Deep Neural Networks > Novel & State-Space Architectures"
+      }
+    },
+    {
+      "label": "Interpretability, Calibration & Evaluation",
+      "node_id": "taxonomy:artificial-intelligence-and-machine-learning--interpretability,-calibration-and-evaluation",
+      "node_type": "TaxonomyCategory",
+      "properties": {
+        "description": "Mechanistic interpretability, feature superposition, model calibration, and benchmark evaluation.",
+        "ontologic_class_uri": "ontologic:InterpretabilityAndEvaluation",
+        "path": "Artificial Intelligence & Machine Learning > Interpretability, Calibration & Evaluation"
+      }
+    },
+    {
+      "label": "Probabilistic, Diffusion & Multimodal Vision",
+      "node_id": "taxonomy:artificial-intelligence-and-machine-learning--probabilistic,-diffusion-and-multimodal-vision",
+      "node_type": "TaxonomyCategory",
+      "properties": {
+        "description": "Diffusion models, probabilistic programming, variational inference, and multimodal vision-language systems.",
+        "ontologic_class_uri": "ontologic:ProbabilisticDiffusionAndVision",
+        "path": "Artificial Intelligence & Machine Learning > Probabilistic, Diffusion & Multimodal Vision"
+      }
+    },
+    {
+      "label": "Reasoning, Agents & Retrieval",
+      "node_id": "taxonomy:artificial-intelligence-and-machine-learning--reasoning,-agents-and-retrieval",
+      "node_type": "TaxonomyCategory",
+      "properties": {
+        "description": "Chain-of-thought and latent reasoning, autonomous multi-agent orchestration, tool use, and retrieval-augmented generation (RAG).",
+        "ontologic_class_uri": "ontologic:ReasoningAgentsAndRetrieval",
+        "path": "Artificial Intelligence & Machine Learning > Reasoning, Agents & Retrieval"
+      }
+    },
+    {
       "label": "Formal Methods & Automated Reasoning",
       "node_id": "taxonomy:formal-methods-and-automated-reasoning",
       "node_type": "TaxonomyCategory",
@@ -8303,6 +11956,16 @@
         "description": "Formal ontologies, Description Logics (OWL, EL, ALC), SHACL shape validation, and SAT/SMT-driven TBox/ABox consistency and subsumption reasoning.",
         "ontologic_class_uri": "ontologic:KnowledgeRepresentationOntologies",
         "path": "Formal Methods & Automated Reasoning > Knowledge Representation & Ontologies"
+      }
+    },
+    {
+      "label": "Neuro-Symbolic Deduction & Guardrail Verification",
+      "node_id": "taxonomy:formal-methods-and-automated-reasoning--neuro-symbolic-deduction-and-guardrail-verification",
+      "node_type": "TaxonomyCategory",
+      "properties": {
+        "description": "Neuro-symbolic translation to First-Order Logic, abstract-interpretation lattice deduction transformers, and formal certification of neural guardrails.",
+        "ontologic_class_uri": "ontologic:NeuroSymbolicDeductionAndVerification",
+        "path": "Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification"
       }
     },
     {
@@ -8406,6 +12069,16 @@
       }
     },
     {
+      "label": "AI Alignment, Guardrails & Agent Security",
+      "node_id": "taxonomy:security-and-resilience--ai-alignment,-guardrails-and-agent-security",
+      "node_type": "TaxonomyCategory",
+      "properties": {
+        "description": "AI safety alignment, adversarial red teaming, prompt-injection defense, formal guardrail verification, and agentic runtime security.",
+        "ontologic_class_uri": "ontologic:AIAlignmentAndAgentSecurity",
+        "path": "Security & Resilience > AI Alignment, Guardrails & Agent Security"
+      }
+    },
+    {
       "label": "Bit-Flip Attacks",
       "node_id": "taxonomy:security-and-resilience--hardware-fault-attacks--bit-flip-attacks",
       "node_type": "TaxonomyCategory",
@@ -8442,14 +12115,38 @@
       "properties": {}
     },
     {
+      "label": "Agentic Systems & Reasoning",
+      "node_id": "tech_area:agentic-systems-and-reasoning",
+      "node_type": "TechnologyArea",
+      "properties": {}
+    },
+    {
+      "label": "AI Alignment & Agentic Security",
+      "node_id": "tech_area:ai-alignment-and-agentic-security",
+      "node_type": "TechnologyArea",
+      "properties": {}
+    },
+    {
       "label": "AI & Machine Learning",
       "node_id": "tech_area:ai-and-machine-learning",
       "node_type": "TechnologyArea",
       "properties": {}
     },
     {
+      "label": "AI Governance, Policy & Human-AI Interaction",
+      "node_id": "tech_area:ai-governance,-policy-and-human-ai-interaction",
+      "node_type": "TechnologyArea",
+      "properties": {}
+    },
+    {
       "label": "AI Hardware Accelerators",
       "node_id": "tech_area:ai-hardware-accelerators",
+      "node_type": "TechnologyArea",
+      "properties": {}
+    },
+    {
+      "label": "Alternative & State-Space Architectures",
+      "node_id": "tech_area:alternative-and-state-space-architectures",
       "node_type": "TechnologyArea",
       "properties": {}
     },
@@ -8496,8 +12193,32 @@
       "properties": {}
     },
     {
+      "label": "Large Language Models & Attention Mechanisms",
+      "node_id": "tech_area:large-language-models-and-attention-mechanisms",
+      "node_type": "TechnologyArea",
+      "properties": {}
+    },
+    {
+      "label": "Mechanistic Interpretability & Model Evaluation",
+      "node_id": "tech_area:mechanistic-interpretability-and-model-evaluation",
+      "node_type": "TechnologyArea",
+      "properties": {}
+    },
+    {
       "label": "Memory Subsystems & Chiplets",
       "node_id": "tech_area:memory-subsystems-and-chiplets",
+      "node_type": "TechnologyArea",
+      "properties": {}
+    },
+    {
+      "label": "Multimodal Vision & Probabilistic Generative Models",
+      "node_id": "tech_area:multimodal-vision-and-probabilistic-generative-models",
+      "node_type": "TechnologyArea",
+      "properties": {}
+    },
+    {
+      "label": "Neuro-Symbolic Logic & Neural Verification",
+      "node_id": "tech_area:neuro-symbolic-logic-and-neural-verification",
       "node_type": "TechnologyArea",
       "properties": {}
     },
@@ -8539,7 +12260,7 @@
     }
   ],
   "summary": {
-    "edge_count": 1126,
-    "node_count": 186
+    "edge_count": 1617,
+    "node_count": 260
   }
 }

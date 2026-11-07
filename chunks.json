@@ -1411,6 +1411,8 @@
       ],
       "section_index": 3,
       "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Reasoning, Agents & Retrieval",
         "Hardware & Semiconductor Systems",
         "Hardware & Semiconductor Systems > EDA & Hardware Verification",
         "Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions",
@@ -1418,6 +1420,8 @@
         "Security & Resilience > Memory Safety & Software Capabilities"
       ],
       "technology_areas": [
+        "AI & Machine Learning",
+        "Agentic Systems & Reasoning",
         "Electronic Design Automation",
         "Formal Verification & Specification Languages",
         "Hardware & AI Security",
@@ -1428,10 +1432,703 @@
       "token_count": 30
     }
   ],
+  "arxiv-2509.25239": [
+    {
+      "chunk_id": "arxiv-2509.25239#chunk-01",
+      "concept_ids": [
+        "concept:agentic-reasoning",
+        "concept:asi",
+        "concept:lattice-deduction"
+      ],
+      "doc_id": "arxiv-2509.25239",
+      "heading": "Problem Statement & Context",
+      "key_terms": [
+        {
+          "count": 3,
+          "term": "thought"
+        },
+        {
+          "count": 2,
+          "term": "formal"
+        },
+        {
+          "count": 2,
+          "term": "comparison"
+        },
+        {
+          "count": 2,
+          "term": "latent"
+        },
+        {
+          "count": 1,
+          "term": "between"
+        },
+        {
+          "count": 1,
+          "term": "chain"
+        },
+        {
+          "count": 1,
+          "term": "problem"
+        },
+        {
+          "count": 1,
+          "term": "statement"
+        },
+        {
+          "count": 1,
+          "term": "context"
+        },
+        {
+          "count": 1,
+          "term": "reasoning"
+        },
+        {
+          "count": 1,
+          "term": "models"
+        },
+        {
+          "count": 1,
+          "term": "increasingly"
+        }
+      ],
+      "section_index": 1,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Reasoning, Agents & Retrieval",
+        "Formal Methods & Automated Reasoning",
+        "Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification",
+        "Security & Resilience",
+        "Security & Resilience > Runtime Fault Localization & Recovery"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "Agentic Systems & Reasoning",
+        "Automated Reasoning & Mathematical Logic",
+        "Hardware & AI Security",
+        "Neuro-Symbolic Logic & Neural Verification",
+        "Self-Healing & Fault-Tolerant AI"
+      ],
+      "text": "Reasoning models increasingly trade off discrete token emission (Chain-of-Thought) against continuous hidden-state iteration (Latent Thought), yet lacked a formal complexity-theoretic comparison.",
+      "token_count": 21
+    },
+    {
+      "chunk_id": "arxiv-2509.25239#chunk-02",
+      "concept_ids": [
+        "concept:agentic-reasoning",
+        "concept:lattice-deduction"
+      ],
+      "doc_id": "arxiv-2509.25239",
+      "heading": "Proposed Mechanism: Complexity & Expressivity Separation",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "separation"
+        },
+        {
+          "count": 1,
+          "term": "proposed"
+        },
+        {
+          "count": 1,
+          "term": "mechanism"
+        },
+        {
+          "count": 1,
+          "term": "complexity"
+        },
+        {
+          "count": 1,
+          "term": "expressivity"
+        },
+        {
+          "count": 1,
+          "term": "establishes"
+        },
+        {
+          "count": 1,
+          "term": "formal"
+        },
+        {
+          "count": 1,
+          "term": "theoretical"
+        },
+        {
+          "count": 1,
+          "term": "proving"
+        },
+        {
+          "count": 1,
+          "term": "latent"
+        },
+        {
+          "count": 1,
+          "term": "thought"
+        },
+        {
+          "count": 1,
+          "term": "enables"
+        }
+      ],
+      "section_index": 2,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Reasoning, Agents & Retrieval",
+        "Formal Methods & Automated Reasoning",
+        "Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "Agentic Systems & Reasoning",
+        "Automated Reasoning & Mathematical Logic",
+        "Neuro-Symbolic Logic & Neural Verification"
+      ],
+      "text": "Establishes a formal theoretical separation proving that latent thought enables exponentially more efficient parallel circuit computation than inherently sequential Chain-of-Thought, whereas discrete CoT uniquely supports approximate counting and calibrated stochastic sampling.",
+      "token_count": 31
+    },
+    {
+      "chunk_id": "arxiv-2509.25239#chunk-03",
+      "concept_ids": [
+        "concept:lattice-deduction"
+      ],
+      "doc_id": "arxiv-2509.25239",
+      "heading": "Evaluation & Why It Matters (via kitsumiko/papers)",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "kitsumiko"
+        },
+        {
+          "count": 2,
+          "term": "papers"
+        },
+        {
+          "count": 2,
+          "term": "deduction"
+        },
+        {
+          "count": 1,
+          "term": "evaluation"
+        },
+        {
+          "count": 1,
+          "term": "why"
+        },
+        {
+          "count": 1,
+          "term": "matters"
+        },
+        {
+          "count": 1,
+          "term": "via"
+        },
+        {
+          "count": 1,
+          "term": "provides"
+        },
+        {
+          "count": 1,
+          "term": "principled"
+        },
+        {
+          "count": 1,
+          "term": "mathematical"
+        },
+        {
+          "count": 1,
+          "term": "criteria"
+        },
+        {
+          "count": 1,
+          "term": "choosing"
+        }
+      ],
+      "section_index": 3,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks > Novel & State-Space Architectures",
+        "Formal Methods & Automated Reasoning",
+        "Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "Alternative & State-Space Architectures",
+        "Automated Reasoning & Mathematical Logic",
+        "Deep Learning Architectures",
+        "Neuro-Symbolic Logic & Neural Verification"
+      ],
+      "text": "Provides principled mathematical criteria for choosing between discrete-token deduction and continuous latent recurrence (such as Lattice Deduction Transformers) based on task recursion depth and stochasticity requirements. Curated from kitsumiko/papers (Reasoning & Agents).",
+      "token_count": 32
+    }
+  ],
+  "arxiv-2602.13237": [
+    {
+      "chunk_id": "arxiv-2602.13237#chunk-01",
+      "concept_ids": [
+        "concept:dnn",
+        "concept:nl2logic-fol",
+        "concept:sat-smt-solvers",
+        "concept:uclid5"
+      ],
+      "doc_id": "arxiv-2602.13237",
+      "heading": "Problem Statement & Context",
+      "key_terms": [
+        {
+          "count": 4,
+          "term": "language"
+        },
+        {
+          "count": 2,
+          "term": "natural"
+        },
+        {
+          "count": 2,
+          "term": "first-order"
+        },
+        {
+          "count": 2,
+          "term": "logic"
+        },
+        {
+          "count": 2,
+          "term": "large"
+        },
+        {
+          "count": 1,
+          "term": "nl2logic"
+        },
+        {
+          "count": 1,
+          "term": "ast-guided"
+        },
+        {
+          "count": 1,
+          "term": "translation"
+        },
+        {
+          "count": 1,
+          "term": "models"
+        },
+        {
+          "count": 1,
+          "term": "problem"
+        },
+        {
+          "count": 1,
+          "term": "statement"
+        },
+        {
+          "count": 1,
+          "term": "context"
+        }
+      ],
+      "section_index": 1,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Formal Methods & Automated Reasoning",
+        "Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification",
+        "Formal Methods & Automated Reasoning > SAT & SMT Solvers",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "Automated Reasoning & Mathematical Logic",
+        "Deep Learning Architectures",
+        "Electronic Design Automation",
+        "Formal Verification & Specification Languages",
+        "Neuro-Symbolic Logic & Neural Verification",
+        "SAT & SMT Decision Procedures",
+        "Semiconductor Engineering"
+      ],
+      "text": "Translating complex natural language specifications into formal First-Order Logic (FOL) for automated theorem provers and SMT solvers (such as cvc5 and Z3) frequently suffers from syntactic hallucinations and semantic drift when performed via direct end-to-end Large Language Model generation.",
+      "token_count": 39
+    },
+    {
+      "chunk_id": "arxiv-2602.13237#chunk-02",
+      "concept_ids": [
+        "concept:nl2logic-fol"
+      ],
+      "doc_id": "arxiv-2602.13237",
+      "heading": "Proposed Mechanism: AST-Guided & Grammar-Constrained Translation",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "grammar-constrained"
+        },
+        {
+          "count": 1,
+          "term": "proposed"
+        },
+        {
+          "count": 1,
+          "term": "mechanism"
+        },
+        {
+          "count": 1,
+          "term": "ast-guided"
+        },
+        {
+          "count": 1,
+          "term": "translation"
+        },
+        {
+          "count": 1,
+          "term": "nl2logic"
+        },
+        {
+          "count": 1,
+          "term": "inserts"
+        },
+        {
+          "count": 1,
+          "term": "explicit"
+        },
+        {
+          "count": 1,
+          "term": "abstract"
+        },
+        {
+          "count": 1,
+          "term": "syntax"
+        },
+        {
+          "count": 1,
+          "term": "tree"
+        },
+        {
+          "count": 1,
+          "term": "ast"
+        }
+      ],
+      "section_index": 2,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Formal Methods & Automated Reasoning",
+        "Formal Methods & Automated Reasoning > Knowledge Representation & Ontologies",
+        "Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > AI Accelerators",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "AI Hardware Accelerators",
+        "Automated Reasoning & Mathematical Logic",
+        "Deep Learning Architectures",
+        "Electronic Design Automation",
+        "Formal Verification & Specification Languages",
+        "Neuro-Symbolic Logic & Neural Verification",
+        "Ontologies & Description Logic",
+        "Semiconductor Engineering"
+      ],
+      "text": "NL2LOGIC inserts an explicit Abstract Syntax Tree (AST) intermediate representation between a recursive LLM semantic parser and a deterministic, grammar-constrained FOL code generator. By decomposing natural language statements into typed logical subtrees before emitting solver-ready First-Order Logic formulas, inference can be reliably delegated to SAT/SMT decision procedures and ontology reasoners.",
+      "token_count": 50
+    },
+    {
+      "chunk_id": "arxiv-2602.13237#chunk-03",
+      "concept_ids": [
+        "concept:nl2logic-fol"
+      ],
+      "doc_id": "arxiv-2602.13237",
+      "heading": "Evaluation & Why It Matters (via kitsumiko/papers)",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "kitsumiko"
+        },
+        {
+          "count": 2,
+          "term": "papers"
+        },
+        {
+          "count": 2,
+          "term": "accuracy"
+        },
+        {
+          "count": 2,
+          "term": "reasoning"
+        },
+        {
+          "count": 1,
+          "term": "evaluation"
+        },
+        {
+          "count": 1,
+          "term": "why"
+        },
+        {
+          "count": 1,
+          "term": "matters"
+        },
+        {
+          "count": 1,
+          "term": "via"
+        },
+        {
+          "count": 1,
+          "term": "nl2logic"
+        },
+        {
+          "count": 1,
+          "term": "reaches"
+        },
+        {
+          "count": 1,
+          "term": "syntactic"
+        },
+        {
+          "count": 1,
+          "term": "higher"
+        }
+      ],
+      "section_index": 3,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Formal Methods & Automated Reasoning",
+        "Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "Automated Reasoning & Mathematical Logic",
+        "Deep Learning Architectures",
+        "Neuro-Symbolic Logic & Neural Verification"
+      ],
+      "text": "NL2LOGIC reaches 99% syntactic accuracy and up to 30% higher semantic correctness than prior LLM logic-parsing methods on FOLIO, LogicNLI, and ProofWriter, lifting downstream formal reasoning accuracy by 31% when integrated into Logic-LM. Curated from kitsumiko/papers (Reasoning & Agents).",
+      "token_count": 39
+    }
+  ],
+  "arxiv-2603.19163": [
+    {
+      "chunk_id": "arxiv-2603.19163#chunk-01",
+      "concept_ids": [
+        "concept:sat-smt-solvers",
+        "concept:uclid5"
+      ],
+      "doc_id": "arxiv-2603.19163",
+      "heading": "Problem Statement & Context",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "combinatorial"
+        },
+        {
+          "count": 2,
+          "term": "optimization"
+        },
+        {
+          "count": 1,
+          "term": "cugenopt"
+        },
+        {
+          "count": 1,
+          "term": "gpu-accelerated"
+        },
+        {
+          "count": 1,
+          "term": "general-purpose"
+        },
+        {
+          "count": 1,
+          "term": "metaheuristic"
+        },
+        {
+          "count": 1,
+          "term": "framework"
+        },
+        {
+          "count": 1,
+          "term": "problem"
+        },
+        {
+          "count": 1,
+          "term": "statement"
+        },
+        {
+          "count": 1,
+          "term": "context"
+        },
+        {
+          "count": 1,
+          "term": "large-scale"
+        },
+        {
+          "count": 1,
+          "term": "graph-structured"
+        }
+      ],
+      "section_index": 1,
+      "taxonomy_paths": [
+        "Formal Methods & Automated Reasoning",
+        "Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification",
+        "Formal Methods & Automated Reasoning > SAT & SMT Solvers",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions"
+      ],
+      "technology_areas": [
+        "Automated Reasoning & Mathematical Logic",
+        "Electronic Design Automation",
+        "Formal Verification & Specification Languages",
+        "Neuro-Symbolic Logic & Neural Verification",
+        "SAT & SMT Decision Procedures",
+        "Semiconductor Engineering"
+      ],
+      "text": "Large-scale combinatorial optimization and graph-structured constraint problems often bottleneck CPU-bound Mixed-Integer Programming (MIP) and SMT solvers when scaling to massive instance sizes.",
+      "token_count": 22
+    },
+    {
+      "chunk_id": "arxiv-2603.19163#chunk-02",
+      "concept_ids": [],
+      "doc_id": "arxiv-2603.19163",
+      "heading": "Proposed Mechanism: Hardware-Aware CUDA Block Evolution",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "hardware-aware"
+        },
+        {
+          "count": 2,
+          "term": "cuda"
+        },
+        {
+          "count": 2,
+          "term": "block"
+        },
+        {
+          "count": 2,
+          "term": "one"
+        },
+        {
+          "count": 1,
+          "term": "proposed"
+        },
+        {
+          "count": 1,
+          "term": "mechanism"
+        },
+        {
+          "count": 1,
+          "term": "evolution"
+        },
+        {
+          "count": 1,
+          "term": "cugenopt"
+        },
+        {
+          "count": 1,
+          "term": "introduces"
+        },
+        {
+          "count": 1,
+          "term": "gpu-accelerated"
+        },
+        {
+          "count": 1,
+          "term": "general-purpose"
+        },
+        {
+          "count": 1,
+          "term": "metaheuristic"
+        }
+      ],
+      "section_index": 2,
+      "taxonomy_paths": [
+        "Formal Methods & Automated Reasoning",
+        "Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > Memory & Interconnects"
+      ],
+      "technology_areas": [
+        "Automated Reasoning & Mathematical Logic",
+        "Memory Subsystems & Chiplets",
+        "Neuro-Symbolic Logic & Neural Verification",
+        "Semiconductor Engineering"
+      ],
+      "text": "cuGenOpt introduces a GPU-accelerated general-purpose metaheuristic framework built on a \"one CUDA block evolves one solution\" architecture with hardware-aware shared memory and register resource management across GPU generations (T4, V100, A800).",
+      "token_count": 31
+    },
+    {
+      "chunk_id": "arxiv-2603.19163#chunk-03",
+      "concept_ids": [],
+      "doc_id": "arxiv-2603.19163",
+      "heading": "Evaluation & Why It Matters (via kitsumiko/papers)",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "kitsumiko"
+        },
+        {
+          "count": 2,
+          "term": "papers"
+        },
+        {
+          "count": 1,
+          "term": "evaluation"
+        },
+        {
+          "count": 1,
+          "term": "why"
+        },
+        {
+          "count": 1,
+          "term": "matters"
+        },
+        {
+          "count": 1,
+          "term": "via"
+        },
+        {
+          "count": 1,
+          "term": "outperforms"
+        },
+        {
+          "count": 1,
+          "term": "general"
+        },
+        {
+          "count": 1,
+          "term": "mip"
+        },
+        {
+          "count": 1,
+          "term": "solvers"
+        },
+        {
+          "count": 1,
+          "term": "orders"
+        },
+        {
+          "count": 1,
+          "term": "magnitude"
+        }
+      ],
+      "section_index": 3,
+      "taxonomy_paths": [
+        "Formal Methods & Automated Reasoning",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > AI Accelerators"
+      ],
+      "technology_areas": [
+        "AI Hardware Accelerators",
+        "Automated Reasoning & Mathematical Logic",
+        "Semiconductor Engineering"
+      ],
+      "text": "Outperforms general MIP solvers by orders of magnitude on large-scale combinatorial optimization benchmarks while maintaining portability across GPU accelerator generations. Curated from kitsumiko/papers (Hardware & Systems).",
+      "token_count": 26
+    }
+  ],
   "arxiv-2604.23100": [
     {
       "chunk_id": "arxiv-2604.23100#chunk-01",
       "concept_ids": [
+        "concept:agentic-reasoning",
         "concept:dnn",
         "concept:llm-formal-verification",
         "concept:sva"
@@ -1492,6 +2189,7 @@
       "taxonomy_paths": [
         "Artificial Intelligence & Machine Learning",
         "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Artificial Intelligence & Machine Learning > Reasoning, Agents & Retrieval",
         "Formal Methods & Automated Reasoning",
         "Hardware & Semiconductor Systems",
         "Hardware & Semiconductor Systems > EDA & Hardware Verification",
@@ -1499,6 +2197,7 @@
       ],
       "technology_areas": [
         "AI & Machine Learning",
+        "Agentic Systems & Reasoning",
         "Automated Reasoning & Mathematical Logic",
         "Deep Learning Architectures",
         "Electronic Design Automation",
@@ -1662,6 +2361,705 @@
       ],
       "text": "Coupling deterministic formal solvers with automated assertion synthesis eliminates vacuous properties and accelerates pre-silicon verification of complex SoC interconnects and AI accelerator datapaths.",
       "token_count": 23
+    }
+  ],
+  "arxiv-2605.08605": [
+    {
+      "chunk_id": "arxiv-2605.08605#chunk-01",
+      "concept_ids": [
+        "concept:dnn",
+        "concept:lattice-deduction"
+      ],
+      "doc_id": "arxiv-2605.08605",
+      "heading": "Problem Statement & Context",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "transformers"
+        },
+        {
+          "count": 1,
+          "term": "lattice"
+        },
+        {
+          "count": 1,
+          "term": "deduction"
+        },
+        {
+          "count": 1,
+          "term": "problem"
+        },
+        {
+          "count": 1,
+          "term": "statement"
+        },
+        {
+          "count": 1,
+          "term": "context"
+        },
+        {
+          "count": 1,
+          "term": "standard"
+        },
+        {
+          "count": 1,
+          "term": "autoregressive"
+        },
+        {
+          "count": 1,
+          "term": "frontier"
+        },
+        {
+          "count": 1,
+          "term": "large"
+        },
+        {
+          "count": 1,
+          "term": "language"
+        },
+        {
+          "count": 1,
+          "term": "models"
+        }
+      ],
+      "section_index": 1,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks > Novel & State-Space Architectures",
+        "Formal Methods & Automated Reasoning",
+        "Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "Alternative & State-Space Architectures",
+        "Automated Reasoning & Mathematical Logic",
+        "Deep Learning Architectures",
+        "Neuro-Symbolic Logic & Neural Verification"
+      ],
+      "text": "Standard autoregressive transformers and frontier Large Language Models lack sound deductive guarantees and routinely fail on combinatorial constraint satisfaction problems requiring deep, contradiction-free propagation.",
+      "token_count": 24
+    },
+    {
+      "chunk_id": "arxiv-2605.08605#chunk-02",
+      "concept_ids": [
+        "concept:lattice-deduction"
+      ],
+      "doc_id": "arxiv-2605.08605",
+      "heading": "Proposed Mechanism: Abstract Lattice Projection & Sound Deduction",
+      "key_terms": [
+        {
+          "count": 3,
+          "term": "lattice"
+        },
+        {
+          "count": 3,
+          "term": "deduction"
+        },
+        {
+          "count": 2,
+          "term": "abstract"
+        },
+        {
+          "count": 2,
+          "term": "sound"
+        },
+        {
+          "count": 1,
+          "term": "proposed"
+        },
+        {
+          "count": 1,
+          "term": "mechanism"
+        },
+        {
+          "count": 1,
+          "term": "projection"
+        },
+        {
+          "count": 1,
+          "term": "transformers"
+        },
+        {
+          "count": 1,
+          "term": "introduce"
+        },
+        {
+          "count": 1,
+          "term": "recurrent"
+        },
+        {
+          "count": 1,
+          "term": "transformer"
+        },
+        {
+          "count": 1,
+          "term": "architecture"
+        }
+      ],
+      "section_index": 2,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks > Novel & State-Space Architectures",
+        "Formal Methods & Automated Reasoning",
+        "Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "Alternative & State-Space Architectures",
+        "Automated Reasoning & Mathematical Logic",
+        "Deep Learning Architectures",
+        "Neuro-Symbolic Logic & Neural Verification"
+      ],
+      "text": "Lattice Deduction Transformers introduce a recurrent transformer architecture that projects its latent state onto an abstract lattice between forward passes so that each pass acts as a formally sound deduction step. The model is trained on-policy inside a constraint-solver-style loop with abstract-interpretation-based supervision.",
+      "token_count": 43
+    },
+    {
+      "chunk_id": "arxiv-2605.08605#chunk-03",
+      "concept_ids": [
+        "concept:dnn",
+        "concept:lattice-deduction"
+      ],
+      "doc_id": "arxiv-2605.08605",
+      "heading": "Evaluation & Why It Matters (via kitsumiko/papers)",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "kitsumiko"
+        },
+        {
+          "count": 2,
+          "term": "papers"
+        },
+        {
+          "count": 1,
+          "term": "evaluation"
+        },
+        {
+          "count": 1,
+          "term": "why"
+        },
+        {
+          "count": 1,
+          "term": "matters"
+        },
+        {
+          "count": 1,
+          "term": "via"
+        },
+        {
+          "count": 1,
+          "term": "800k-parameter"
+        },
+        {
+          "count": 1,
+          "term": "lattice"
+        },
+        {
+          "count": 1,
+          "term": "deduction"
+        },
+        {
+          "count": 1,
+          "term": "transformer"
+        },
+        {
+          "count": 1,
+          "term": "reaches"
+        },
+        {
+          "count": 1,
+          "term": "accuracy"
+        }
+      ],
+      "section_index": 3,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks > Novel & State-Space Architectures",
+        "Formal Methods & Automated Reasoning",
+        "Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "Alternative & State-Space Architectures",
+        "Automated Reasoning & Mathematical Logic",
+        "Deep Learning Architectures",
+        "Neuro-Symbolic Logic & Neural Verification"
+      ],
+      "text": "An 800K-parameter Lattice Deduction Transformer reaches 100% accuracy on Sudoku-Extreme and Snowflake Sudoku, and a 1.8M-parameter variant achieves 99.9% on Maze-Hard, whereas frontier LLMs score 0% on all three benchmarks\u2014demonstrating that abstract interpretation gives compact recurrent reasoners both formal correctness and deductive competence. Curated from kitsumiko/papers (Novel Architectures & Theory).",
+      "token_count": 50
+    }
+  ],
+  "arxiv-2605.10901": [
+    {
+      "chunk_id": "arxiv-2605.10901#chunk-01",
+      "concept_ids": [
+        "concept:agentic-security",
+        "concept:formal-guardrails"
+      ],
+      "doc_id": "arxiv-2605.10901",
+      "heading": "Problem Statement & Context",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "red-teaming"
+        },
+        {
+          "count": 2,
+          "term": "formal"
+        },
+        {
+          "count": 2,
+          "term": "guarantees"
+        },
+        {
+          "count": 2,
+          "term": "llm"
+        },
+        {
+          "count": 2,
+          "term": "guardrail"
+        },
+        {
+          "count": 2,
+          "term": "classifiers"
+        },
+        {
+          "count": 1,
+          "term": "beyond"
+        },
+        {
+          "count": 1,
+          "term": "problem"
+        },
+        {
+          "count": 1,
+          "term": "statement"
+        },
+        {
+          "count": 1,
+          "term": "context"
+        },
+        {
+          "count": 1,
+          "term": "empirical"
+        },
+        {
+          "count": 1,
+          "term": "discrete"
+        }
+      ],
+      "section_index": 1,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Formal Methods & Automated Reasoning",
+        "Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification",
+        "Security & Resilience",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "AI Alignment & Agentic Security",
+        "Automated Reasoning & Mathematical Logic",
+        "Deep Learning Architectures",
+        "Hardware & AI Security",
+        "Neuro-Symbolic Logic & Neural Verification"
+      ],
+      "text": "Empirical red-teaming and discrete prompt fuzzing cannot provide formal completeness or soundness guarantees for LLM safety guardrail classifiers deployed in security-critical pipelines.",
+      "token_count": 22
+    },
+    {
+      "chunk_id": "arxiv-2605.10901#chunk-02",
+      "concept_ids": [
+        "concept:agentic-security",
+        "concept:formal-guardrails"
+      ],
+      "doc_id": "arxiv-2605.10901",
+      "heading": "Proposed Mechanism: Convex Pre-Activation Certification via SVD Hyper-Rectangles",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "convex"
+        },
+        {
+          "count": 2,
+          "term": "pre-activation"
+        },
+        {
+          "count": 2,
+          "term": "via"
+        },
+        {
+          "count": 2,
+          "term": "hyper-rectangles"
+        },
+        {
+          "count": 2,
+          "term": "regions"
+        },
+        {
+          "count": 1,
+          "term": "proposed"
+        },
+        {
+          "count": 1,
+          "term": "mechanism"
+        },
+        {
+          "count": 1,
+          "term": "certification"
+        },
+        {
+          "count": 1,
+          "term": "svd"
+        },
+        {
+          "count": 1,
+          "term": "beyond"
+        },
+        {
+          "count": 1,
+          "term": "red-teaming"
+        },
+        {
+          "count": 1,
+          "term": "shifts"
+        }
+      ],
+      "section_index": 2,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Formal Methods & Automated Reasoning",
+        "Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > AI Accelerators",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification",
+        "Security & Resilience",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "AI Alignment & Agentic Security",
+        "AI Hardware Accelerators",
+        "Automated Reasoning & Mathematical Logic",
+        "Deep Learning Architectures",
+        "Electronic Design Automation",
+        "Hardware & AI Security",
+        "Neuro-Symbolic Logic & Neural Verification",
+        "Semiconductor Engineering"
+      ],
+      "text": "Beyond Red-Teaming shifts guardrail formal verification from the discrete token input space to the classifier pre-activation layer, where harmful prompt embeddings form convex regions certifiable via the monotonicity of the sigmoid classification head. It constructs exact SVD-aligned hyper-rectangles and probabilistic Gaussian Mixture Models to certify safe and unsafe regions.",
+      "token_count": 49
+    },
+    {
+      "chunk_id": "arxiv-2605.10901#chunk-03",
+      "concept_ids": [
+        "concept:formal-guardrails"
+      ],
+      "doc_id": "arxiv-2605.10901",
+      "heading": "Evaluation & Why It Matters (via kitsumiko/papers)",
+      "key_terms": [
+        {
+          "count": 3,
+          "term": "coverage"
+        },
+        {
+          "count": 2,
+          "term": "kitsumiko"
+        },
+        {
+          "count": 2,
+          "term": "papers"
+        },
+        {
+          "count": 2,
+          "term": "safety"
+        },
+        {
+          "count": 1,
+          "term": "evaluation"
+        },
+        {
+          "count": 1,
+          "term": "why"
+        },
+        {
+          "count": 1,
+          "term": "matters"
+        },
+        {
+          "count": 1,
+          "term": "via"
+        },
+        {
+          "count": 1,
+          "term": "formal"
+        },
+        {
+          "count": 1,
+          "term": "region"
+        },
+        {
+          "count": 1,
+          "term": "certification"
+        },
+        {
+          "count": 1,
+          "term": "exposes"
+        }
+      ],
+      "section_index": 3,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks > Language Models & Efficient Attention",
+        "Artificial Intelligence & Machine Learning > Reasoning, Agents & Retrieval",
+        "Formal Methods & Automated Reasoning",
+        "Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification",
+        "Security & Resilience",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "AI Alignment & Agentic Security",
+        "Agentic Systems & Reasoning",
+        "Automated Reasoning & Mathematical Logic",
+        "Deep Learning Architectures",
+        "Hardware & AI Security",
+        "Large Language Models & Attention Mechanisms",
+        "Neuro-Symbolic Logic & Neural Verification"
+      ],
+      "text": "Formal region certification exposes large safety coverage gaps in BERT-based guardrails (55-90% certified coverage) compared to more stable GPT-2 and Llama guardrail classifiers (~80-90% coverage). Curated from kitsumiko/papers (Security, Safety & Robustness).",
+      "token_count": 32
+    }
+  ],
+  "arxiv-2607.22619": [
+    {
+      "chunk_id": "arxiv-2607.22619#chunk-01",
+      "concept_ids": [],
+      "doc_id": "arxiv-2607.22619",
+      "heading": "Problem Statement & Context",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "mechanisms"
+        },
+        {
+          "count": 2,
+          "term": "ai"
+        },
+        {
+          "count": 2,
+          "term": "agreements"
+        },
+        {
+          "count": 1,
+          "term": "how"
+        },
+        {
+          "count": 1,
+          "term": "catch"
+        },
+        {
+          "count": 1,
+          "term": "gpu"
+        },
+        {
+          "count": 1,
+          "term": "taxonomy"
+        },
+        {
+          "count": 1,
+          "term": "verification"
+        },
+        {
+          "count": 1,
+          "term": "enforcement"
+        },
+        {
+          "count": 1,
+          "term": "international"
+        },
+        {
+          "count": 1,
+          "term": "problem"
+        },
+        {
+          "count": 1,
+          "term": "statement"
+        }
+      ],
+      "section_index": 1,
+      "taxonomy_paths": [
+        "AI Policy, Governance & Human-AI Systems",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > AI Accelerators",
+        "Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification",
+        "Security & Resilience"
+      ],
+      "technology_areas": [
+        "AI Governance, Policy & Human-AI Interaction",
+        "AI Hardware Accelerators",
+        "Electronic Design Automation",
+        "Hardware & AI Security",
+        "On-Chip Telemetry & Runtime Monitoring",
+        "Semiconductor Engineering"
+      ],
+      "text": "Verifying compliance with compute thresholds and hardware security agreements requires trustworthy physical, cryptographic, and on-chip telemetry mechanisms capable of detecting unauthorized AI accelerator workloads.",
+      "token_count": 24
+    },
+    {
+      "chunk_id": "arxiv-2607.22619#chunk-02",
+      "concept_ids": [],
+      "doc_id": "arxiv-2607.22619",
+      "heading": "Proposed Mechanism: Hardware Verification & Telemetry Taxonomy",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "verification"
+        },
+        {
+          "count": 2,
+          "term": "telemetry"
+        },
+        {
+          "count": 1,
+          "term": "proposed"
+        },
+        {
+          "count": 1,
+          "term": "mechanism"
+        },
+        {
+          "count": 1,
+          "term": "hardware"
+        },
+        {
+          "count": 1,
+          "term": "taxonomy"
+        },
+        {
+          "count": 1,
+          "term": "systematizes"
+        },
+        {
+          "count": 1,
+          "term": "hardware-rooted"
+        },
+        {
+          "count": 1,
+          "term": "mechanisms"
+        },
+        {
+          "count": 1,
+          "term": "supply-chain"
+        },
+        {
+          "count": 1,
+          "term": "tracking"
+        },
+        {
+          "count": 1,
+          "term": "on-chip"
+        }
+      ],
+      "section_index": 2,
+      "taxonomy_paths": [
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > AI Accelerators",
+        "Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification"
+      ],
+      "technology_areas": [
+        "AI Hardware Accelerators",
+        "Electronic Design Automation",
+        "On-Chip Telemetry & Runtime Monitoring",
+        "Semiconductor Engineering"
+      ],
+      "text": "Systematizes hardware-rooted verification mechanisms across supply-chain tracking, on-chip telemetry counters, remote attestation, and physical inspection for AI accelerator clusters.",
+      "token_count": 19
+    },
+    {
+      "chunk_id": "arxiv-2607.22619#chunk-03",
+      "concept_ids": [
+        "concept:apc"
+      ],
+      "doc_id": "arxiv-2607.22619",
+      "heading": "Evaluation & Why It Matters (via kitsumiko/papers)",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "kitsumiko"
+        },
+        {
+          "count": 2,
+          "term": "papers"
+        },
+        {
+          "count": 1,
+          "term": "evaluation"
+        },
+        {
+          "count": 1,
+          "term": "why"
+        },
+        {
+          "count": 1,
+          "term": "matters"
+        },
+        {
+          "count": 1,
+          "term": "via"
+        },
+        {
+          "count": 1,
+          "term": "connects"
+        },
+        {
+          "count": 1,
+          "term": "low-level"
+        },
+        {
+          "count": 1,
+          "term": "semiconductor"
+        },
+        {
+          "count": 1,
+          "term": "telemetry"
+        },
+        {
+          "count": 1,
+          "term": "on-chip"
+        },
+        {
+          "count": 1,
+          "term": "performance"
+        }
+      ],
+      "section_index": 3,
+      "taxonomy_paths": [
+        "AI Policy, Governance & Human-AI Systems",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > AI Accelerators",
+        "Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification",
+        "Security & Resilience"
+      ],
+      "technology_areas": [
+        "AI Governance, Policy & Human-AI Interaction",
+        "AI Hardware Accelerators",
+        "Electronic Design Automation",
+        "Hardware & AI Security",
+        "On-Chip Telemetry & Runtime Monitoring",
+        "Semiconductor Engineering"
+      ],
+      "text": "Connects low-level semiconductor telemetry and on-chip performance monitors with international compute verification and hardware security enforcement. Curated from kitsumiko/papers (Policy & Governance).",
+      "token_count": 22
     }
   ],
   "arxiv-2609.26751": [
@@ -2726,6 +4124,492 @@
       "token_count": 54
     }
   ],
+  "note-2026-kitsumiko-formal-neurosymbolic-bridge": [
+    {
+      "chunk_id": "note-2026-kitsumiko-formal-neurosymbolic-bridge#chunk-01",
+      "concept_ids": [
+        "concept:nl2logic-fol",
+        "concept:ontology-smt-reasoning"
+      ],
+      "doc_id": "note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "heading": "Executive Synthesis & Attribution",
+      "key_terms": [
+        {
+          "count": 4,
+          "term": "papers"
+        },
+        {
+          "count": 3,
+          "term": "synthesis"
+        },
+        {
+          "count": 3,
+          "term": "kitsumiko"
+        },
+        {
+          "count": 2,
+          "term": "note"
+        },
+        {
+          "count": 2,
+          "term": "formal"
+        },
+        {
+          "count": 2,
+          "term": "ai"
+        },
+        {
+          "count": 2,
+          "term": "curated"
+        },
+        {
+          "count": 2,
+          "term": "research"
+        },
+        {
+          "count": 2,
+          "term": "github"
+        },
+        {
+          "count": 2,
+          "term": "curriculum"
+        },
+        {
+          "count": 2,
+          "term": "bsommers"
+        },
+        {
+          "count": 2,
+          "term": "ai-curriculum-db"
+        }
+      ],
+      "section_index": 1,
+      "taxonomy_paths": [
+        "Formal Methods & Automated Reasoning",
+        "Formal Methods & Automated Reasoning > Knowledge Representation & Ontologies",
+        "Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions",
+        "Security & Resilience",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security"
+      ],
+      "technology_areas": [
+        "AI Alignment & Agentic Security",
+        "Automated Reasoning & Mathematical Logic",
+        "Electronic Design Automation",
+        "Formal Verification & Specification Languages",
+        "Hardware & AI Security",
+        "Neuro-Symbolic Logic & Neural Verification",
+        "Ontologies & Description Logic",
+        "Semiconductor Engineering"
+      ],
+      "text": "This synthesis note bridges seven high-signal research papers curated from the [`kitsumiko/papers`](https://github.com/kitsumiko/papers) AI/ML Research Curriculum into our hardware security, RTL formal verification, and SAT/SMT OntoLogic knowledge graph. The full 320-paper curriculum sits alongside this database in [`bsommers/ai-curriculum-db`](https://github.com/bsommers/ai-curriculum-db).",
+      "token_count": 37
+    },
+    {
+      "chunk_id": "note-2026-kitsumiko-formal-neurosymbolic-bridge#chunk-02",
+      "concept_ids": [
+        "concept:agentic-reasoning",
+        "concept:lattice-deduction",
+        "concept:nl2logic-fol",
+        "concept:sat-smt-solvers",
+        "concept:uclid5"
+      ],
+      "doc_id": "note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "heading": "Neuro-Symbolic Deduction & Solver-Ready Logic",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "deduction"
+        },
+        {
+          "count": 2,
+          "term": "logic"
+        },
+        {
+          "count": 1,
+          "term": "neuro-symbolic"
+        },
+        {
+          "count": 1,
+          "term": "solver-ready"
+        },
+        {
+          "count": 1,
+          "term": "nl2logic"
+        },
+        {
+          "count": 1,
+          "term": "arxiv-2602"
+        },
+        {
+          "count": 1,
+          "term": "lattice"
+        },
+        {
+          "count": 1,
+          "term": "transformers"
+        },
+        {
+          "count": 1,
+          "term": "arxiv-2605"
+        },
+        {
+          "count": 1,
+          "term": "together"
+        },
+        {
+          "count": 1,
+          "term": "formal"
+        },
+        {
+          "count": 1,
+          "term": "separation"
+        }
+      ],
+      "section_index": 2,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks > Novel & State-Space Architectures",
+        "Artificial Intelligence & Machine Learning > Reasoning, Agents & Retrieval",
+        "Formal Methods & Automated Reasoning",
+        "Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification",
+        "Formal Methods & Automated Reasoning > SAT & SMT Solvers",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "Agentic Systems & Reasoning",
+        "Alternative & State-Space Architectures",
+        "Automated Reasoning & Mathematical Logic",
+        "Deep Learning Architectures",
+        "Electronic Design Automation",
+        "Formal Verification & Specification Languages",
+        "Neuro-Symbolic Logic & Neural Verification",
+        "SAT & SMT Decision Procedures",
+        "Semiconductor Engineering"
+      ],
+      "text": "NL2LOGIC (`arxiv-2602.13237`) and Lattice Deduction Transformers (`arxiv-2605.08605`), together with the formal separation of Chain-of-Thought and Latent Thought (`arxiv-2509.25239`), connect neural architectures directly to First-Order Logic (FOL), abstract interpretation lattices, and DPLL(T) SMT solvers (`cvc5`, `arxiv-2201.04663`).",
+      "token_count": 35
+    },
+    {
+      "chunk_id": "note-2026-kitsumiko-formal-neurosymbolic-bridge#chunk-03",
+      "concept_ids": [
+        "concept:agentic-security",
+        "concept:bare-ai",
+        "concept:formal-guardrails"
+      ],
+      "doc_id": "note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "heading": "Formal Safety Certification & Hardware-Rooted Verification",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "formal"
+        },
+        {
+          "count": 2,
+          "term": "certification"
+        },
+        {
+          "count": 2,
+          "term": "verification"
+        },
+        {
+          "count": 1,
+          "term": "safety"
+        },
+        {
+          "count": 1,
+          "term": "hardware-rooted"
+        },
+        {
+          "count": 1,
+          "term": "beyond"
+        },
+        {
+          "count": 1,
+          "term": "red-teaming"
+        },
+        {
+          "count": 1,
+          "term": "arxiv-2605"
+        },
+        {
+          "count": 1,
+          "term": "brings"
+        },
+        {
+          "count": 1,
+          "term": "region"
+        },
+        {
+          "count": 1,
+          "term": "neural"
+        },
+        {
+          "count": 1,
+          "term": "guardrail"
+        }
+      ],
+      "section_index": 3,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Formal Methods & Automated Reasoning",
+        "Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > AI Accelerators",
+        "Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification",
+        "Security & Resilience",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "AI Alignment & Agentic Security",
+        "AI Hardware Accelerators",
+        "Automated Reasoning & Mathematical Logic",
+        "Electronic Design Automation",
+        "Hardware & AI Security",
+        "Neuro-Symbolic Logic & Neural Verification",
+        "On-Chip Telemetry & Runtime Monitoring",
+        "Semiconductor Engineering"
+      ],
+      "text": "Beyond Red-Teaming (`arxiv-2605.10901`) brings formal region certification to neural guardrail classifiers, SEC-bench (`openreview-sec-bench-2025`) benchmarks autonomous security agents on verified vulnerabilities, cuGenOpt (`arxiv-2603.19163`) accelerates combinatorial optimization on GPUs, and How to Catch a GPU (`arxiv-2607.22619`) links on-chip accelerator telemetry (`BARE-AI`, `arxiv-2610.08739v2`) to international hardware verification agreements.",
+      "token_count": 45
+    }
+  ],
+  "openreview-sec-bench-2025": [
+    {
+      "chunk_id": "openreview-sec-bench-2025#chunk-01",
+      "concept_ids": [
+        "concept:agentic-security"
+      ],
+      "doc_id": "openreview-sec-bench-2025",
+      "heading": "Problem Statement & Context",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "llm"
+        },
+        {
+          "count": 2,
+          "term": "agents"
+        },
+        {
+          "count": 2,
+          "term": "software"
+        },
+        {
+          "count": 2,
+          "term": "security"
+        },
+        {
+          "count": 1,
+          "term": "sec-bench"
+        },
+        {
+          "count": 1,
+          "term": "automated"
+        },
+        {
+          "count": 1,
+          "term": "benchmarking"
+        },
+        {
+          "count": 1,
+          "term": "real-world"
+        },
+        {
+          "count": 1,
+          "term": "tasks"
+        },
+        {
+          "count": 1,
+          "term": "problem"
+        },
+        {
+          "count": 1,
+          "term": "statement"
+        },
+        {
+          "count": 1,
+          "term": "context"
+        }
+      ],
+      "section_index": 1,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Security & Resilience",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "AI Alignment & Agentic Security",
+        "Deep Learning Architectures",
+        "Hardware & AI Security"
+      ],
+      "text": "Evaluating autonomous LLM agents on software security engineering requires authentic, reproducible vulnerability environments rather than synthetic static code snippets.",
+      "token_count": 19
+    },
+    {
+      "chunk_id": "openreview-sec-bench-2025#chunk-02",
+      "concept_ids": [
+        "concept:agentic-reasoning",
+        "concept:agentic-security"
+      ],
+      "doc_id": "openreview-sec-bench-2025",
+      "heading": "Proposed Mechanism: Multi-Agent Verified Vulnerability Scaffold",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "multi-agent"
+        },
+        {
+          "count": 2,
+          "term": "verified"
+        },
+        {
+          "count": 2,
+          "term": "vulnerability"
+        },
+        {
+          "count": 2,
+          "term": "scaffold"
+        },
+        {
+          "count": 1,
+          "term": "proposed"
+        },
+        {
+          "count": 1,
+          "term": "mechanism"
+        },
+        {
+          "count": 1,
+          "term": "sec-bench"
+        },
+        {
+          "count": 1,
+          "term": "introduces"
+        },
+        {
+          "count": 1,
+          "term": "first"
+        },
+        {
+          "count": 1,
+          "term": "fully"
+        },
+        {
+          "count": 1,
+          "term": "automated"
+        },
+        {
+          "count": 1,
+          "term": "benchmarking"
+        }
+      ],
+      "section_index": 2,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Artificial Intelligence & Machine Learning > Reasoning, Agents & Retrieval",
+        "Security & Resilience",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "AI Alignment & Agentic Security",
+        "Agentic Systems & Reasoning",
+        "Deep Learning Architectures",
+        "Hardware & AI Security"
+      ],
+      "text": "SEC-bench introduces the first fully automated benchmarking framework for evaluating LLM agents on real-world software security tasks, using a multi-agent scaffold to construct verified vulnerability datasets complete with reproducible Proof-of-Concept (PoC) exploits and validated patches.",
+      "token_count": 35
+    },
+    {
+      "chunk_id": "openreview-sec-bench-2025#chunk-03",
+      "concept_ids": [
+        "concept:symbolic-execution"
+      ],
+      "doc_id": "openreview-sec-bench-2025",
+      "heading": "Evaluation & Why It Matters (via kitsumiko/papers)",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "kitsumiko"
+        },
+        {
+          "count": 2,
+          "term": "papers"
+        },
+        {
+          "count": 2,
+          "term": "agents"
+        },
+        {
+          "count": 2,
+          "term": "security"
+        },
+        {
+          "count": 1,
+          "term": "evaluation"
+        },
+        {
+          "count": 1,
+          "term": "why"
+        },
+        {
+          "count": 1,
+          "term": "matters"
+        },
+        {
+          "count": 1,
+          "term": "via"
+        },
+        {
+          "count": 1,
+          "term": "reveals"
+        },
+        {
+          "count": 1,
+          "term": "significant"
+        },
+        {
+          "count": 1,
+          "term": "capability"
+        },
+        {
+          "count": 1,
+          "term": "gaps"
+        }
+      ],
+      "section_index": 3,
+      "taxonomy_paths": [
+        "Formal Methods & Automated Reasoning",
+        "Formal Methods & Automated Reasoning > SAT & SMT Solvers",
+        "Formal Methods & Automated Reasoning > SAT & SMT Solvers > Software Verification & Symbolic Execution",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification",
+        "Security & Resilience"
+      ],
+      "technology_areas": [
+        "Automated Reasoning & Mathematical Logic",
+        "Electronic Design Automation",
+        "Hardware & AI Security",
+        "SAT & SMT Decision Procedures",
+        "Semiconductor Engineering",
+        "Software Verification & Program Analysis"
+      ],
+      "text": "Reveals significant capability gaps in frontier coding agents (18% PoC exploit generation, 34% automated vulnerability patching), establishing a rigorous baseline for software verification and security agents. Curated from kitsumiko/papers (Security, Safety & Robustness).",
+      "token_count": 33
+    }
+  ],
   "research-formal-verification-languages-in-chip-and-se": [
     {
       "chunk_id": "research-formal-verification-languages-in-chip-and-se#chunk-01",
@@ -2810,6 +4694,7 @@
     {
       "chunk_id": "research-formal-verification-languages-in-chip-and-se#chunk-02",
       "concept_ids": [
+        "concept:agentic-reasoning",
         "concept:dnn",
         "concept:llm-formal-verification",
         "concept:ontology-smt-reasoning",
@@ -2873,6 +4758,7 @@
       "taxonomy_paths": [
         "Artificial Intelligence & Machine Learning",
         "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Artificial Intelligence & Machine Learning > Reasoning, Agents & Retrieval",
         "Formal Methods & Automated Reasoning",
         "Formal Methods & Automated Reasoning > Knowledge Representation & Ontologies",
         "Formal Methods & Automated Reasoning > SAT & SMT Solvers",
@@ -2884,6 +4770,7 @@
       ],
       "technology_areas": [
         "AI & Machine Learning",
+        "Agentic Systems & Reasoning",
         "Automated Reasoning & Mathematical Logic",
         "Deep Learning Architectures",
         "Electronic Design Automation",
@@ -3483,6 +5370,9 @@
       ],
       "section_index": 3,
       "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks > Novel & State-Space Architectures",
         "Hardware & Semiconductor Systems",
         "Hardware & Semiconductor Systems > AI Accelerators",
         "Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors",
@@ -3490,8 +5380,11 @@
         "Security & Resilience > Hardware Fault Attacks > Bit-Flip Attacks"
       ],
       "technology_areas": [
+        "AI & Machine Learning",
         "AI Hardware Accelerators",
         "Adversarial Fault Injection",
+        "Alternative & State-Space Architectures",
+        "Deep Learning Architectures",
         "Hardware & AI Security",
         "On-Chip Telemetry & Runtime Monitoring",
         "Semiconductor Engineering"

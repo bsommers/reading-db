@@ -700,6 +700,354 @@
       ],
       "title": "Research Synthesis: SAT and SMT solvers applications in software development, graph analysis, and ontologies",
       "url": "https://github.com/bsommers/reading-db"
+    },
+    {
+      "authors": [
+        "Putra et al."
+      ],
+      "content": "## Problem Statement & Context\nTranslating complex natural language specifications into formal First-Order Logic (FOL) for automated theorem provers and SMT solvers (such as cvc5 and Z3) frequently suffers from syntactic hallucinations and semantic drift when performed via direct end-to-end Large Language Model generation.\n\n## Proposed Mechanism: AST-Guided & Grammar-Constrained Translation\nNL2LOGIC inserts an explicit Abstract Syntax Tree (AST) intermediate representation between a recursive LLM semantic parser and a deterministic, grammar-constrained FOL code generator. By decomposing natural language statements into typed logical subtrees before emitting solver-ready First-Order Logic formulas, inference can be reliably delegated to SAT/SMT decision procedures and ontology reasoners.\n\n## Evaluation & Why It Matters (via kitsumiko/papers)\nNL2LOGIC reaches 99% syntactic accuracy and up to 30% higher semantic correctness than prior LLM logic-parsing methods on FOLIO, LogicNLI, and ProofWriter, lifting downstream formal reasoning accuracy by 31% when integrated into Logic-LM. Curated from kitsumiko/papers (Reasoning & Agents).",
+      "doc_id": "arxiv-2602.13237",
+      "doc_type": "academic_paper",
+      "identifiers": {
+        "arxiv": "2602.13237",
+        "curated_source": "https://github.com/kitsumiko/papers/blob/main/learning/reasoning.md",
+        "pdf_url": "https://arxiv.org/pdf/2602.13237"
+      },
+      "institutions": [
+        "Neuro-Symbolic Reasoning Group"
+      ],
+      "notes": "Curated from kitsumiko/papers (learning/reasoning.md). Bridges LLM semantic parsing with solver-ready First-Order Logic for OntoLogic and cvc5.",
+      "priority": "high",
+      "published_date": "2026-02",
+      "reading_status": "to-read",
+      "relations": [
+        {
+          "relation_type": "CITES",
+          "target_doc_id": "arxiv-2201.04663"
+        },
+        {
+          "relation_type": "CITES",
+          "target_doc_id": "arxiv-1507.01763"
+        },
+        {
+          "relation_type": "CITES",
+          "target_doc_id": "arxiv-2604.23100"
+        }
+      ],
+      "tags": [
+        "nl2logic",
+        "first-order-logic",
+        "smt",
+        "ast",
+        "neuro-symbolic",
+        "ontologic",
+        "kitsumiko-papers"
+      ],
+      "title": "NL2LOGIC: AST-Guided Translation of Natural Language into First-Order Logic with Large Language Models",
+      "url": "https://arxiv.org/abs/2602.13237"
+    },
+    {
+      "authors": [
+        "Davis et al."
+      ],
+      "content": "## Problem Statement & Context\nStandard autoregressive transformers and frontier Large Language Models lack sound deductive guarantees and routinely fail on combinatorial constraint satisfaction problems requiring deep, contradiction-free propagation.\n\n## Proposed Mechanism: Abstract Lattice Projection & Sound Deduction\nLattice Deduction Transformers introduce a recurrent transformer architecture that projects its latent state onto an abstract lattice between forward passes so that each pass acts as a formally sound deduction step. The model is trained on-policy inside a constraint-solver-style loop with abstract-interpretation-based supervision.\n\n## Evaluation & Why It Matters (via kitsumiko/papers)\nAn 800K-parameter Lattice Deduction Transformer reaches 100% accuracy on Sudoku-Extreme and Snowflake Sudoku, and a 1.8M-parameter variant achieves 99.9% on Maze-Hard, whereas frontier LLMs score 0% on all three benchmarks\u2014demonstrating that abstract interpretation gives compact recurrent reasoners both formal correctness and deductive competence. Curated from kitsumiko/papers (Novel Architectures & Theory).",
+      "doc_id": "arxiv-2605.08605",
+      "doc_type": "academic_paper",
+      "identifiers": {
+        "arxiv": "2605.08605",
+        "curated_source": "https://github.com/kitsumiko/papers/blob/main/learning/architectures.md",
+        "pdf_url": "https://arxiv.org/pdf/2605.08605"
+      },
+      "institutions": [
+        "Formal Reasoning & Deep Learning Lab"
+      ],
+      "notes": "Curated from kitsumiko/papers (learning/architectures.md). Connects abstract interpretation and lattice domain theory with recurrent neural deduction.",
+      "priority": "high",
+      "published_date": "2026-05",
+      "reading_status": "to-read",
+      "relations": [
+        {
+          "relation_type": "CITES",
+          "target_doc_id": "arxiv-2201.04663"
+        },
+        {
+          "relation_type": "CITES",
+          "target_doc_id": "arxiv-1610.00502"
+        },
+        {
+          "relation_type": "CITES",
+          "target_doc_id": "arxiv-2602.13237"
+        }
+      ],
+      "tags": [
+        "lattice-deduction",
+        "abstract-interpretation",
+        "constraint-solving",
+        "smt",
+        "transformers",
+        "kitsumiko-papers"
+      ],
+      "title": "Lattice Deduction Transformers",
+      "url": "https://arxiv.org/abs/2605.08605"
+    },
+    {
+      "authors": [
+        "Kezins et al."
+      ],
+      "content": "## Problem Statement & Context\nEmpirical red-teaming and discrete prompt fuzzing cannot provide formal completeness or soundness guarantees for LLM safety guardrail classifiers deployed in security-critical pipelines.\n\n## Proposed Mechanism: Convex Pre-Activation Certification via SVD Hyper-Rectangles\nBeyond Red-Teaming shifts guardrail formal verification from the discrete token input space to the classifier pre-activation layer, where harmful prompt embeddings form convex regions certifiable via the monotonicity of the sigmoid classification head. It constructs exact SVD-aligned hyper-rectangles and probabilistic Gaussian Mixture Models to certify safe and unsafe regions.\n\n## Evaluation & Why It Matters (via kitsumiko/papers)\nFormal region certification exposes large safety coverage gaps in BERT-based guardrails (55-90% certified coverage) compared to more stable GPT-2 and Llama guardrail classifiers (~80-90% coverage). Curated from kitsumiko/papers (Security, Safety & Robustness).",
+      "doc_id": "arxiv-2605.10901",
+      "doc_type": "academic_paper",
+      "identifiers": {
+        "arxiv": "2605.10901",
+        "curated_source": "https://github.com/kitsumiko/papers/blob/main/learning/safety.md",
+        "pdf_url": "https://arxiv.org/pdf/2605.10901"
+      },
+      "institutions": [
+        "AI Safety & Formal Verification Group"
+      ],
+      "notes": "Curated from kitsumiko/papers (learning/safety.md). Formal verification of neural guardrail classifiers in latent pre-activation space.",
+      "priority": "high",
+      "published_date": "2026-05",
+      "reading_status": "to-read",
+      "relations": [
+        {
+          "relation_type": "CITES",
+          "target_doc_id": "arxiv-2208.03699"
+        },
+        {
+          "relation_type": "CITES",
+          "target_doc_id": "arxiv-2610.08739v2"
+        }
+      ],
+      "tags": [
+        "formal-verification",
+        "guardrails",
+        "ai-security",
+        "red-teaming",
+        "certification",
+        "kitsumiko-papers"
+      ],
+      "title": "Beyond Red-Teaming: Formal Guarantees of LLM Guardrail Classifiers",
+      "url": "https://arxiv.org/abs/2605.10901"
+    },
+    {
+      "authors": [
+        "Liu"
+      ],
+      "content": "## Problem Statement & Context\nLarge-scale combinatorial optimization and graph-structured constraint problems often bottleneck CPU-bound Mixed-Integer Programming (MIP) and SMT solvers when scaling to massive instance sizes.\n\n## Proposed Mechanism: Hardware-Aware CUDA Block Evolution\ncuGenOpt introduces a GPU-accelerated general-purpose metaheuristic framework built on a \"one CUDA block evolves one solution\" architecture with hardware-aware shared memory and register resource management across GPU generations (T4, V100, A800).\n\n## Evaluation & Why It Matters (via kitsumiko/papers)\nOutperforms general MIP solvers by orders of magnitude on large-scale combinatorial optimization benchmarks while maintaining portability across GPU accelerator generations. Curated from kitsumiko/papers (Hardware & Systems).",
+      "doc_id": "arxiv-2603.19163",
+      "doc_type": "academic_paper",
+      "identifiers": {
+        "arxiv": "2603.19163",
+        "curated_source": "https://github.com/kitsumiko/papers/blob/main/learning/hardware.md",
+        "pdf_url": "https://arxiv.org/pdf/2603.19163"
+      },
+      "institutions": [
+        "GPU Systems & Optimization Lab"
+      ],
+      "notes": "Curated from kitsumiko/papers (learning/hardware.md). Complements MonoSAT graph SMT solving with GPU-native combinatorial optimization.",
+      "priority": "medium",
+      "published_date": "2026-03",
+      "reading_status": "to-read",
+      "relations": [
+        {
+          "relation_type": "CITES",
+          "target_doc_id": "arxiv-1402.4677"
+        }
+      ],
+      "tags": [
+        "gpu",
+        "combinatorial-optimization",
+        "hardware-accelerators",
+        "cuda",
+        "kitsumiko-papers"
+      ],
+      "title": "cuGenOpt: A GPU-Accelerated General-Purpose Metaheuristic Framework for Combinatorial Optimization",
+      "url": "https://arxiv.org/abs/2603.19163"
+    },
+    {
+      "authors": [
+        "Koopmanschap",
+        "Barten"
+      ],
+      "content": "## Problem Statement & Context\nVerifying compliance with compute thresholds and hardware security agreements requires trustworthy physical, cryptographic, and on-chip telemetry mechanisms capable of detecting unauthorized AI accelerator workloads.\n\n## Proposed Mechanism: Hardware Verification & Telemetry Taxonomy\nSystematizes hardware-rooted verification mechanisms across supply-chain tracking, on-chip telemetry counters, remote attestation, and physical inspection for AI accelerator clusters.\n\n## Evaluation & Why It Matters (via kitsumiko/papers)\nConnects low-level semiconductor telemetry and on-chip performance monitors with international compute verification and hardware security enforcement. Curated from kitsumiko/papers (Policy & Governance).",
+      "doc_id": "arxiv-2607.22619",
+      "doc_type": "academic_paper",
+      "identifiers": {
+        "arxiv": "2607.22619",
+        "curated_source": "https://github.com/kitsumiko/papers/blob/main/learning/policy.md",
+        "pdf_url": "https://arxiv.org/pdf/2607.22619"
+      },
+      "institutions": [
+        "AI Hardware Governance & Verification Initiative"
+      ],
+      "notes": "Curated from kitsumiko/papers (learning/policy.md). Links on-chip accelerator telemetry (like BARE-AI APCs) to hardware verification policy.",
+      "priority": "medium",
+      "published_date": "2026-07",
+      "reading_status": "to-read",
+      "relations": [
+        {
+          "relation_type": "CITES",
+          "target_doc_id": "arxiv-2610.08739v2"
+        },
+        {
+          "relation_type": "CITES",
+          "target_doc_id": "techpaper-2026-hbm-chiplet-resilience"
+        }
+      ],
+      "tags": [
+        "gpu-verification",
+        "on-chip-telemetry",
+        "ai-hardware",
+        "compute-governance",
+        "kitsumiko-papers"
+      ],
+      "title": "How to Catch a GPU: A Taxonomy of Verification and Enforcement Mechanisms for International AI Agreements",
+      "url": "https://arxiv.org/abs/2607.22619"
+    },
+    {
+      "authors": [
+        "Lee et al."
+      ],
+      "content": "## Problem Statement & Context\nEvaluating autonomous LLM agents on software security engineering requires authentic, reproducible vulnerability environments rather than synthetic static code snippets.\n\n## Proposed Mechanism: Multi-Agent Verified Vulnerability Scaffold\nSEC-bench introduces the first fully automated benchmarking framework for evaluating LLM agents on real-world software security tasks, using a multi-agent scaffold to construct verified vulnerability datasets complete with reproducible Proof-of-Concept (PoC) exploits and validated patches.\n\n## Evaluation & Why It Matters (via kitsumiko/papers)\nReveals significant capability gaps in frontier coding agents (18% PoC exploit generation, 34% automated vulnerability patching), establishing a rigorous baseline for software verification and security agents. Curated from kitsumiko/papers (Security, Safety & Robustness).",
+      "doc_id": "openreview-sec-bench-2025",
+      "doc_type": "academic_paper",
+      "identifiers": {
+        "curated_source": "https://github.com/kitsumiko/papers/blob/main/learning/safety.md",
+        "openreview": "QQhQIqons0"
+      },
+      "institutions": [
+        "Software Security & Agentic Benchmarking Group"
+      ],
+      "notes": "Curated from kitsumiko/papers (learning/safety.md). Connects symbolic execution vulnerability discovery (arxiv-1610.00502) with agentic security benchmarking.",
+      "priority": "high",
+      "published_date": "2025-10",
+      "reading_status": "to-read",
+      "relations": [
+        {
+          "relation_type": "CITES",
+          "target_doc_id": "arxiv-1610.00502"
+        },
+        {
+          "relation_type": "CITES",
+          "target_doc_id": "arxiv-2610.33748"
+        }
+      ],
+      "tags": [
+        "sec-bench",
+        "software-security",
+        "vulnerability-discovery",
+        "agentic-security",
+        "kitsumiko-papers"
+      ],
+      "title": "SEC-bench: Automated Benchmarking of LLM Agents on Real-World Software Security Tasks",
+      "url": "https://openreview.net/pdf?id=QQhQIqons0"
+    },
+    {
+      "authors": [
+        "Xu et al."
+      ],
+      "content": "## Problem Statement & Context\nReasoning models increasingly trade off discrete token emission (Chain-of-Thought) against continuous hidden-state iteration (Latent Thought), yet lacked a formal complexity-theoretic comparison.\n\n## Proposed Mechanism: Complexity & Expressivity Separation\nEstablishes a formal theoretical separation proving that latent thought enables exponentially more efficient parallel circuit computation than inherently sequential Chain-of-Thought, whereas discrete CoT uniquely supports approximate counting and calibrated stochastic sampling.\n\n## Evaluation & Why It Matters (via kitsumiko/papers)\nProvides principled mathematical criteria for choosing between discrete-token deduction and continuous latent recurrence (such as Lattice Deduction Transformers) based on task recursion depth and stochasticity requirements. Curated from kitsumiko/papers (Reasoning & Agents).",
+      "doc_id": "arxiv-2509.25239",
+      "doc_type": "academic_paper",
+      "identifiers": {
+        "arxiv": "2509.25239",
+        "curated_source": "https://github.com/kitsumiko/papers/blob/main/learning/reasoning.md",
+        "pdf_url": "https://arxiv.org/pdf/2509.25239"
+      },
+      "institutions": [
+        "Theoretical Machine Learning & Reasoning Group"
+      ],
+      "notes": "Curated from kitsumiko/papers (learning/reasoning.md). Theoretical companion to Lattice Deduction Transformers (arxiv-2605.08605).",
+      "priority": "medium",
+      "published_date": "2025-09",
+      "reading_status": "to-read",
+      "relations": [
+        {
+          "relation_type": "CITES",
+          "target_doc_id": "arxiv-2605.08605"
+        }
+      ],
+      "tags": [
+        "chain-of-thought",
+        "latent-thought",
+        "formal-comparison",
+        "reasoning",
+        "kitsumiko-papers"
+      ],
+      "title": "A Formal Comparison Between Chain of Thought and Latent Thought",
+      "url": "https://arxiv.org/abs/2509.25239"
+    },
+    {
+      "authors": [
+        "Reading List Research Engine"
+      ],
+      "content": "## Executive Synthesis & Attribution\nThis synthesis note bridges seven high-signal research papers curated from the [`kitsumiko/papers`](https://github.com/kitsumiko/papers) AI/ML Research Curriculum into our hardware security, RTL formal verification, and SAT/SMT OntoLogic knowledge graph. The full 320-paper curriculum sits alongside this database in [`bsommers/ai-curriculum-db`](https://github.com/bsommers/ai-curriculum-db).\n\n## Neuro-Symbolic Deduction & Solver-Ready Logic\nNL2LOGIC (`arxiv-2602.13237`) and Lattice Deduction Transformers (`arxiv-2605.08605`), together with the formal separation of Chain-of-Thought and Latent Thought (`arxiv-2509.25239`), connect neural architectures directly to First-Order Logic (FOL), abstract interpretation lattices, and DPLL(T) SMT solvers (`cvc5`, `arxiv-2201.04663`).\n\n## Formal Safety Certification & Hardware-Rooted Verification\nBeyond Red-Teaming (`arxiv-2605.10901`) brings formal region certification to neural guardrail classifiers, SEC-bench (`openreview-sec-bench-2025`) benchmarks autonomous security agents on verified vulnerabilities, cuGenOpt (`arxiv-2603.19163`) accelerates combinatorial optimization on GPUs, and How to Catch a GPU (`arxiv-2607.22619`) links on-chip accelerator telemetry (`BARE-AI`, `arxiv-2610.08739v2`) to international hardware verification agreements.",
+      "doc_id": "note-2026-kitsumiko-formal-neurosymbolic-bridge",
+      "doc_type": "note",
+      "identifiers": {
+        "sibling_db": "https://github.com/bsommers/ai-curriculum-db",
+        "source_repo": "https://github.com/kitsumiko/papers"
+      },
+      "institutions": [
+        "OntoLogic & AI Curriculum Synthesis"
+      ],
+      "notes": "Cross-database bridge linking ../reading-db to kitsumiko/papers and ../ai-curriculum-db.",
+      "priority": "high",
+      "published_date": "2026-11-07",
+      "reading_status": "read",
+      "relations": [
+        {
+          "relation_type": "REPORTS_ON",
+          "target_doc_id": "arxiv-2602.13237"
+        },
+        {
+          "relation_type": "REPORTS_ON",
+          "target_doc_id": "arxiv-2605.08605"
+        },
+        {
+          "relation_type": "REPORTS_ON",
+          "target_doc_id": "arxiv-2605.10901"
+        },
+        {
+          "relation_type": "REPORTS_ON",
+          "target_doc_id": "arxiv-2603.19163"
+        },
+        {
+          "relation_type": "REPORTS_ON",
+          "target_doc_id": "arxiv-2607.22619"
+        },
+        {
+          "relation_type": "REPORTS_ON",
+          "target_doc_id": "openreview-sec-bench-2025"
+        },
+        {
+          "relation_type": "REPORTS_ON",
+          "target_doc_id": "arxiv-2509.25239"
+        },
+        {
+          "relation_type": "CITES",
+          "target_doc_id": "arxiv-2201.04663"
+        },
+        {
+          "relation_type": "CITES",
+          "target_doc_id": "arxiv-2610.08739v2"
+        },
+        {
+          "relation_type": "CITES",
+          "target_doc_id": "arxiv-2208.03699"
+        }
+      ],
+      "tags": [
+        "synthesis",
+        "kitsumiko-papers",
+        "neuro-symbolic",
+        "formal-verification",
+        "smt",
+        "ontologic"
+      ],
+      "title": "Synthesis Note: Neuro-Symbolic Deduction, Formal Guardrail Certification, and Hardware-Verified AI (Curated from kitsumiko/papers)",
+      "url": "https://github.com/kitsumiko/papers"
     }
   ]
 }

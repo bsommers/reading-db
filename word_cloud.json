@@ -912,6 +912,462 @@
         "weight": 0.25
       }
     ],
+    "arxiv-2509.25239": [
+      {
+        "count": 3,
+        "term": "latent",
+        "weight": 1.0
+      },
+      {
+        "count": 2,
+        "term": "chain-of-thought",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "continuous",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "deduction",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "discrete",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "formal",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "kitsumiko",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "papers",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "reasoning",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "separation",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "thought",
+        "weight": 0.6667
+      },
+      {
+        "count": 1,
+        "term": "against",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "agents",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "approximate",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "based",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "between",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "calibrated",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "choosing",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "circuit",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "comparison",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "complexity",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "complexity-theoretic",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "computation",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "context",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "cot",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "counting",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "criteria",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "curated",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "depth",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "discrete-token",
+        "weight": 0.3333
+      }
+    ],
+    "arxiv-2602.13237": [
+      {
+        "count": 3,
+        "term": "language",
+        "weight": 1.0
+      },
+      {
+        "count": 3,
+        "term": "semantic",
+        "weight": 1.0
+      },
+      {
+        "count": 2,
+        "term": "accuracy",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "first-order",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "fol",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "formal",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "grammar-constrained",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "kitsumiko",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "llm",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "logic",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "natural",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "nl2logic",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "papers",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "reasoning",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "smt",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "syntactic",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "via",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "when",
+        "weight": 0.6667
+      },
+      {
+        "count": 1,
+        "term": "abstract",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "agents",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "ast",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "ast-guided",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "automated",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "before",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "between",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "code",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "complex",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "context",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "correctness",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "curated",
+        "weight": 0.3333
+      }
+    ],
+    "arxiv-2603.19163": [
+      {
+        "count": 2,
+        "term": "block",
+        "weight": 1.0
+      },
+      {
+        "count": 2,
+        "term": "combinatorial",
+        "weight": 1.0
+      },
+      {
+        "count": 2,
+        "term": "cuda",
+        "weight": 1.0
+      },
+      {
+        "count": 2,
+        "term": "generations",
+        "weight": 1.0
+      },
+      {
+        "count": 2,
+        "term": "gpu",
+        "weight": 1.0
+      },
+      {
+        "count": 2,
+        "term": "hardware-aware",
+        "weight": 1.0
+      },
+      {
+        "count": 2,
+        "term": "kitsumiko",
+        "weight": 1.0
+      },
+      {
+        "count": 2,
+        "term": "large-scale",
+        "weight": 1.0
+      },
+      {
+        "count": 2,
+        "term": "mip",
+        "weight": 1.0
+      },
+      {
+        "count": 2,
+        "term": "one",
+        "weight": 1.0
+      },
+      {
+        "count": 2,
+        "term": "optimization",
+        "weight": 1.0
+      },
+      {
+        "count": 2,
+        "term": "papers",
+        "weight": 1.0
+      },
+      {
+        "count": 2,
+        "term": "solvers",
+        "weight": 1.0
+      },
+      {
+        "count": 1,
+        "term": "a800",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "accelerator",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "architecture",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "benchmarks",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "bottleneck",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "built",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "constraint",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "context",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "cpu-bound",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "cugenopt",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "curated",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "evaluation",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "evolution",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "evolves",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "framework",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "general",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "general-purpose",
+        "weight": 0.5
+      }
+    ],
     "arxiv-2604.23100": [
       {
         "count": 4,
@@ -1061,6 +1517,462 @@
       {
         "count": 1,
         "term": "complex",
+        "weight": 0.25
+      }
+    ],
+    "arxiv-2605.08605": [
+      {
+        "count": 4,
+        "term": "deduction",
+        "weight": 1.0
+      },
+      {
+        "count": 4,
+        "term": "lattice",
+        "weight": 1.0
+      },
+      {
+        "count": 3,
+        "term": "abstract",
+        "weight": 0.75
+      },
+      {
+        "count": 3,
+        "term": "sound",
+        "weight": 0.75
+      },
+      {
+        "count": 2,
+        "term": "deductive",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "frontier",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "kitsumiko",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "papers",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "recurrent",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "transformer",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "transformers",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "800k-parameter",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "8m-parameter",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "abstract-interpretation-based",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "accuracy",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "achieves",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "acts",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "all",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "architecture",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "architectures",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "autoregressive",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "benchmarks",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "between",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "both",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "combinatorial",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "compact",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "competence",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "constraint",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "constraint-solver-style",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "context",
+        "weight": 0.25
+      }
+    ],
+    "arxiv-2605.10901": [
+      {
+        "count": 3,
+        "term": "coverage",
+        "weight": 1.0
+      },
+      {
+        "count": 3,
+        "term": "formal",
+        "weight": 1.0
+      },
+      {
+        "count": 3,
+        "term": "guardrail",
+        "weight": 1.0
+      },
+      {
+        "count": 3,
+        "term": "safety",
+        "weight": 1.0
+      },
+      {
+        "count": 3,
+        "term": "via",
+        "weight": 1.0
+      },
+      {
+        "count": 2,
+        "term": "certification",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "classifiers",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "convex",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "discrete",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "hyper-rectangles",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "kitsumiko",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "papers",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "pre-activation",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "prompt",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "red-teaming",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "regions",
+        "weight": 0.6667
+      },
+      {
+        "count": 1,
+        "term": "55-90",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "80-90",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "bert-based",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "beyond",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "cannot",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "certifiable",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "certified",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "certify",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "classification",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "classifier",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "compared",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "completeness",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "constructs",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "context",
+        "weight": 0.3333
+      }
+    ],
+    "arxiv-2607.22619": [
+      {
+        "count": 4,
+        "term": "telemetry",
+        "weight": 1.0
+      },
+      {
+        "count": 3,
+        "term": "hardware",
+        "weight": 0.75
+      },
+      {
+        "count": 3,
+        "term": "on-chip",
+        "weight": 0.75
+      },
+      {
+        "count": 3,
+        "term": "verification",
+        "weight": 0.75
+      },
+      {
+        "count": 2,
+        "term": "accelerator",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "ai",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "compute",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "kitsumiko",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "mechanisms",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "papers",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "physical",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "security",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "agreements",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "attestation",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "capable",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "clusters",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "compliance",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "connects",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "context",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "counters",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "cryptographic",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "curated",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "detecting",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "enforcement",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "evaluation",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "governance",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "hardware-rooted",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "inspection",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "international",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "low-level",
         "weight": 0.25
       }
     ],
@@ -1670,6 +2582,310 @@
         "count": 1,
         "term": "fil-c",
         "weight": 0.3333
+      }
+    ],
+    "note-2026-kitsumiko-formal-neurosymbolic-bridge": [
+      {
+        "count": 4,
+        "term": "formal",
+        "weight": 1.0
+      },
+      {
+        "count": 3,
+        "term": "papers",
+        "weight": 0.75
+      },
+      {
+        "count": 3,
+        "term": "verification",
+        "weight": 0.75
+      },
+      {
+        "count": 2,
+        "term": "ai-curriculum-db",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "arxiv-2605",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "bsommers",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "certification",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "curriculum",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "deduction",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "github",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "hardware",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "kitsumiko",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "logic",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "neural",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "research",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "security",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "smt",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "synthesis",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "08739v2",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "320-paper",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "abstract",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "accelerates",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "accelerator",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "agents",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "agreements",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "ai",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "alongside",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "architectures",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "arxiv-2201",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "arxiv-2509",
+        "weight": 0.25
+      }
+    ],
+    "openreview-sec-bench-2025": [
+      {
+        "count": 4,
+        "term": "agents",
+        "weight": 1.0
+      },
+      {
+        "count": 4,
+        "term": "security",
+        "weight": 1.0
+      },
+      {
+        "count": 4,
+        "term": "vulnerability",
+        "weight": 1.0
+      },
+      {
+        "count": 3,
+        "term": "software",
+        "weight": 0.75
+      },
+      {
+        "count": 2,
+        "term": "automated",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "evaluating",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "kitsumiko",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "llm",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "multi-agent",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "papers",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "poc",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "reproducible",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "scaffold",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "verified",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "authentic",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "autonomous",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "baseline",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "benchmarking",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "capability",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "code",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "coding",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "complete",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "construct",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "context",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "curated",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "datasets",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "engineering",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "environments",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "establishing",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "evaluation",
+        "weight": 0.25
       }
     ],
     "research-formal-verification-languages-in-chip-and-se": [
@@ -2435,154 +3651,154 @@
   },
   "global_word_cloud": [
     {
-      "count": 33,
+      "count": 41,
+      "term": "formal",
+      "weight": 1.0
+    },
+    {
+      "count": 41,
       "term": "verification",
       "weight": 1.0
     },
     {
-      "count": 29,
-      "term": "formal",
-      "weight": 0.8788
-    },
-    {
-      "count": 24,
+      "count": 30,
       "term": "hardware",
-      "weight": 0.7273
+      "weight": 0.7317
     },
     {
-      "count": 23,
+      "count": 28,
       "term": "smt",
-      "weight": 0.697
+      "weight": 0.6829
     },
     {
-      "count": 20,
+      "count": 22,
+      "term": "software",
+      "weight": 0.5366
+    },
+    {
+      "count": 21,
       "term": "graph",
-      "weight": 0.6061
+      "weight": 0.5122
     },
     {
       "count": 19,
-      "term": "software",
-      "weight": 0.5758
+      "term": "memory",
+      "weight": 0.4634
     },
     {
-      "count": 18,
-      "term": "memory",
-      "weight": 0.5455
+      "count": 17,
+      "term": "papers",
+      "weight": 0.4146
+    },
+    {
+      "count": 16,
+      "term": "kitsumiko",
+      "weight": 0.3902
+    },
+    {
+      "count": 16,
+      "term": "security",
+      "weight": 0.3902
+    },
+    {
+      "count": 15,
+      "term": "rtl",
+      "weight": 0.3659
+    },
+    {
+      "count": 15,
+      "term": "solvers",
+      "weight": 0.3659
     },
     {
       "count": 14,
-      "term": "rtl",
-      "weight": 0.4242
+      "term": "language",
+      "weight": 0.3415
+    },
+    {
+      "count": 14,
+      "term": "sat",
+      "weight": 0.3415
+    },
+    {
+      "count": 14,
+      "term": "synthesis",
+      "weight": 0.3415
+    },
+    {
+      "count": 13,
+      "term": "ai",
+      "weight": 0.3171
+    },
+    {
+      "count": 13,
+      "term": "safety",
+      "weight": 0.3171
     },
     {
       "count": 12,
       "term": "assertions",
-      "weight": 0.3636
+      "weight": 0.2927
+    },
+    {
+      "count": 12,
+      "term": "bare-ai",
+      "weight": 0.2927
     },
     {
       "count": 12,
       "term": "bit-flip",
-      "weight": 0.3636
+      "weight": 0.2927
     },
     {
       "count": 12,
-      "term": "sat",
-      "weight": 0.3636
+      "term": "knowledge",
+      "weight": 0.2927
     },
     {
       "count": 12,
-      "term": "synthesis",
-      "weight": 0.3636
+      "term": "logic",
+      "weight": 0.2927
+    },
+    {
+      "count": 12,
+      "term": "reasoning",
+      "weight": 0.2927
     },
     {
       "count": 12,
       "term": "theories",
-      "weight": 0.3636
+      "weight": 0.2927
     },
     {
       "count": 11,
-      "term": "bare-ai",
-      "weight": 0.3333
+      "term": "automated",
+      "weight": 0.2683
     },
     {
       "count": 11,
-      "term": "knowledge",
-      "weight": 0.3333
-    },
-    {
-      "count": 11,
-      "term": "solvers",
-      "weight": 0.3333
+      "term": "via",
+      "weight": 0.2683
     },
     {
       "count": 10,
-      "term": "ai",
-      "weight": 0.303
+      "term": "evaluation",
+      "weight": 0.2439
     },
     {
       "count": 10,
-      "term": "language",
-      "weight": 0.303
+      "term": "monitors",
+      "weight": 0.2439
     },
     {
       "count": 9,
       "term": "assertion",
-      "weight": 0.2727
+      "weight": 0.2195
     },
     {
       "count": 9,
-      "term": "execution",
-      "weight": 0.2727
-    },
-    {
-      "count": 9,
-      "term": "languages",
-      "weight": 0.2727
-    },
-    {
-      "count": 9,
-      "term": "monitors",
-      "weight": 0.2727
-    },
-    {
-      "count": 9,
-      "term": "ontologies",
-      "weight": 0.2727
-    },
-    {
-      "count": 9,
-      "term": "sva",
-      "weight": 0.2727
-    },
-    {
-      "count": 9,
-      "term": "symbolic",
-      "weight": 0.2727
-    },
-    {
-      "count": 8,
-      "term": "analysis",
-      "weight": 0.2424
-    },
-    {
-      "count": 8,
-      "term": "automated",
-      "weight": 0.2424
-    },
-    {
-      "count": 8,
-      "term": "graphs",
-      "weight": 0.2424
-    },
-    {
-      "count": 8,
-      "term": "logic",
-      "weight": 0.2424
-    },
-    {
-      "count": 8,
-      "term": "reasoning",
-      "weight": 0.2424
+      "term": "cvc5",
+      "weight": 0.2195
     }
   ]
 }

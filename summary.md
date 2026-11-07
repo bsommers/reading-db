@@ -1,9 +1,9 @@
 # Reading List Knowledge Graph & Taxonomy Index
 
-- **Documents Indexed:** 16
-- **Semantic Chunks:** 47
-- **Knowledge Graph Nodes:** 186
-- **Knowledge Graph Edges:** 1126
+- **Documents Indexed:** 24
+- **Semantic Chunks:** 71
+- **Knowledge Graph Nodes:** 260
+- **Knowledge Graph Edges:** 1617
 
 ## 1. Indexed Documents & Tracking Status
 
@@ -25,6 +25,14 @@
 | `arxiv-1610.00502` | `to-read` | `high` | `academic_paper` | [A Survey of Symbolic Execution Techniques for Software Development and Verification](https://arxiv.org/abs/1610.00502) | 2018-05-07 | `CITES` -> `arxiv-2201.04663` |
 | `arxiv-1507.01763` | `to-read` | `high` | `academic_paper` | [SAT and SMT-Based Automated Reasoning for Description Logics and Formal Ontologies](https://arxiv.org/abs/1507.01763) | 2015-07-07 | `CITES` -> `arxiv-1402.4677`, `CITES` -> `arxiv-2201.04663` |
 | `research-sat-and-smt-solvers-applications-in-software` | `read` | `high` | `note` | [Research Synthesis: SAT and SMT solvers applications in software development, graph analysis, and ontologies](https://github.com/bsommers/reading-db) | 2026-11-07 | `CITES` -> `arxiv-1402.4677`, `CITES` -> `arxiv-2201.04663`, `CITES` -> `arxiv-1610.00502`, `CITES` -> `arxiv-1507.01763`, `CITES` -> `semieng-2026-bare-ai-monitors`, `CITES` -> `arxiv-2610.08739v2`, `CITES` -> `arxiv-2610.33748`, `CITES` -> `techpaper-2026-eda-formal-monitors`, `CITES` -> `note-2026-cross-layer-bitflip-synthesis`, `CITES` -> `arxiv-2208.03699`, `CITES` -> `arxiv-2503.19174`, `CITES` -> `arxiv-2604.23100`, `CITES` -> `arxiv-2609.26751`, `CITES` -> `research-formal-verification-languages-in-chip-and-se` |
+| `arxiv-2602.13237` | `to-read` | `high` | `academic_paper` | [NL2LOGIC: AST-Guided Translation of Natural Language into First-Order Logic with Large Language Models](https://arxiv.org/abs/2602.13237) | 2026-02 | `CITES` -> `arxiv-2201.04663`, `CITES` -> `arxiv-1507.01763`, `CITES` -> `arxiv-2604.23100` |
+| `arxiv-2605.08605` | `to-read` | `high` | `academic_paper` | [Lattice Deduction Transformers](https://arxiv.org/abs/2605.08605) | 2026-05 | `CITES` -> `arxiv-2201.04663`, `CITES` -> `arxiv-1610.00502`, `CITES` -> `arxiv-2602.13237` |
+| `arxiv-2605.10901` | `to-read` | `high` | `academic_paper` | [Beyond Red-Teaming: Formal Guarantees of LLM Guardrail Classifiers](https://arxiv.org/abs/2605.10901) | 2026-05 | `CITES` -> `arxiv-2208.03699`, `CITES` -> `arxiv-2610.08739v2` |
+| `arxiv-2603.19163` | `to-read` | `medium` | `academic_paper` | [cuGenOpt: A GPU-Accelerated General-Purpose Metaheuristic Framework for Combinatorial Optimization](https://arxiv.org/abs/2603.19163) | 2026-03 | `CITES` -> `arxiv-1402.4677` |
+| `arxiv-2607.22619` | `to-read` | `medium` | `academic_paper` | [How to Catch a GPU: A Taxonomy of Verification and Enforcement Mechanisms for International AI Agreements](https://arxiv.org/abs/2607.22619) | 2026-07 | `CITES` -> `arxiv-2610.08739v2`, `CITES` -> `techpaper-2026-hbm-chiplet-resilience` |
+| `openreview-sec-bench-2025` | `to-read` | `high` | `academic_paper` | [SEC-bench: Automated Benchmarking of LLM Agents on Real-World Software Security Tasks](https://openreview.net/pdf?id=QQhQIqons0) | 2025-10 | `CITES` -> `arxiv-1610.00502`, `CITES` -> `arxiv-2610.33748` |
+| `arxiv-2509.25239` | `to-read` | `medium` | `academic_paper` | [A Formal Comparison Between Chain of Thought and Latent Thought](https://arxiv.org/abs/2509.25239) | 2025-09 | `CITES` -> `arxiv-2605.08605` |
+| `note-2026-kitsumiko-formal-neurosymbolic-bridge` | `read` | `high` | `note` | [Synthesis Note: Neuro-Symbolic Deduction, Formal Guardrail Certification, and Hardware-Verified AI (Curated from kitsumiko/papers)](https://github.com/kitsumiko/papers) | 2026-11-07 | `REPORTS_ON` -> `arxiv-2602.13237`, `REPORTS_ON` -> `arxiv-2605.08605`, `REPORTS_ON` -> `arxiv-2605.10901`, `REPORTS_ON` -> `arxiv-2603.19163`, `REPORTS_ON` -> `arxiv-2607.22619`, `REPORTS_ON` -> `openreview-sec-bench-2025`, `REPORTS_ON` -> `arxiv-2509.25239`, `CITES` -> `arxiv-2201.04663`, `CITES` -> `arxiv-2610.08739v2`, `CITES` -> `arxiv-2208.03699` |
 
 ## 2. Conceptual Taxonomy & Document Graph
 
@@ -42,11 +50,19 @@ flowchart TD
     TAX9["Runtime Fault Localization & Recovery"]
     TAX10["Artificial Intelligence & Machine Learning"]
     TAX11["Deep Neural Networks"]
-    TAX12["Formal Methods & Automated Reasoning"]
-    TAX13["SAT & SMT Solvers"]
-    TAX14["Software Verification & Symbolic Execution"]
-    TAX15["Graph Theory Modulo Theories"]
-    TAX16["Knowledge Representation & Ontologies"]
+    TAX12["Language Models & Efficient Attention"]
+    TAX13["Novel & State-Space Architectures"]
+    TAX14["Reasoning, Agents & Retrieval"]
+    TAX15["Interpretability, Calibration & Evaluation"]
+    TAX16["Probabilistic, Diffusion & Multimodal Vision"]
+    TAX17["AI Alignment, Guardrails & Agent Security"]
+    TAX18["AI Policy, Governance & Human-AI Systems"]
+    TAX19["Formal Methods & Automated Reasoning"]
+    TAX20["Neuro-Symbolic Deduction & Guardrail Verification"]
+    TAX21["SAT & SMT Solvers"]
+    TAX22["Software Verification & Symbolic Execution"]
+    TAX23["Graph Theory Modulo Theories"]
+    TAX24["Knowledge Representation & Ontologies"]
     TAX0 --> TAX1
     TAX1 --> TAX2
     TAX0 --> TAX3
@@ -56,13 +72,20 @@ flowchart TD
     TAX6 --> TAX8
     TAX6 --> TAX9
     TAX10 --> TAX11
-    TAX12 --> TAX13
-    TAX13 --> TAX14
-    TAX13 --> TAX15
-    TAX12 --> TAX16
+    TAX11 --> TAX12
+    TAX11 --> TAX13
+    TAX10 --> TAX14
+    TAX10 --> TAX15
+    TAX10 --> TAX16
+    TAX6 --> TAX17
+    TAX19 --> TAX20
+    TAX19 --> TAX21
+    TAX21 --> TAX22
+    TAX21 --> TAX23
+    TAX19 --> TAX24
     DOC0["semieng-2026-bare-ai-monitors"]
     DOC0 -->|REPORTS_ON| DOC1
-    DOC0 -->|IN_CATEGORY| TAX11
+    DOC0 -->|IN_CATEGORY| TAX13
     DOC0 -->|IN_CATEGORY| TAX2
     DOC0 -->|IN_CATEGORY| TAX3
     DOC0 -->|IN_CATEGORY| TAX7
@@ -102,7 +125,7 @@ flowchart TD
     DOC5 -->|CITES| DOC2
     DOC5 -->|CITES| DOC0
     DOC5 -->|IN_CATEGORY| TAX11
-    DOC5 -->|IN_CATEGORY| TAX16
+    DOC5 -->|IN_CATEGORY| TAX24
     DOC5 -->|IN_CATEGORY| TAX2
     DOC5 -->|IN_CATEGORY| TAX4
     DOC5 -->|IN_CATEGORY| TAX3
@@ -110,20 +133,22 @@ flowchart TD
     DOC5 -->|IN_CATEGORY| TAX8
     DOC5 -->|IN_CATEGORY| TAX9
     DOC6["arxiv-2208.03699"]
-    DOC6 -->|IN_CATEGORY| TAX14
+    DOC6 -->|IN_CATEGORY| TAX22
     DOC6 -->|IN_CATEGORY| TAX2
     DOC6 -->|IN_CATEGORY| TAX5
     DOC6 -->|IN_CATEGORY| TAX3
     DOC6 -->|IN_CATEGORY| TAX8
     DOC7["arxiv-2503.19174"]
     DOC7 -->|CITES| DOC6
-    DOC7 -->|IN_CATEGORY| TAX16
+    DOC7 -->|IN_CATEGORY| TAX14
+    DOC7 -->|IN_CATEGORY| TAX24
     DOC7 -->|IN_CATEGORY| TAX5
     DOC7 -->|IN_CATEGORY| TAX8
     DOC8["arxiv-2604.23100"]
     DOC8 -->|CITES| DOC7
     DOC8 -->|IN_CATEGORY| TAX11
-    DOC8 -->|IN_CATEGORY| TAX12
+    DOC8 -->|IN_CATEGORY| TAX14
+    DOC8 -->|IN_CATEGORY| TAX19
     DOC8 -->|IN_CATEGORY| TAX1
     DOC8 -->|IN_CATEGORY| TAX5
     DOC8 -->|IN_CATEGORY| TAX3
@@ -132,7 +157,7 @@ flowchart TD
     DOC9 -->|CITES| DOC7
     DOC9 -->|CITES| DOC8
     DOC9 -->|IN_CATEGORY| TAX11
-    DOC9 -->|IN_CATEGORY| TAX12
+    DOC9 -->|IN_CATEGORY| TAX19
     DOC9 -->|IN_CATEGORY| TAX5
     DOC9 -->|IN_CATEGORY| TAX8
     DOC10["research-formal-verification-languages-in-chip-and-se"]
@@ -146,27 +171,28 @@ flowchart TD
     DOC10 -->|CITES| DOC4
     DOC10 -->|CITES| DOC5
     DOC10 -->|IN_CATEGORY| TAX11
-    DOC10 -->|IN_CATEGORY| TAX16
-    DOC10 -->|IN_CATEGORY| TAX13
+    DOC10 -->|IN_CATEGORY| TAX14
+    DOC10 -->|IN_CATEGORY| TAX24
+    DOC10 -->|IN_CATEGORY| TAX21
     DOC10 -->|IN_CATEGORY| TAX2
     DOC10 -->|IN_CATEGORY| TAX5
     DOC10 -->|IN_CATEGORY| TAX3
     DOC10 -->|IN_CATEGORY| TAX7
     DOC10 -->|IN_CATEGORY| TAX8
     DOC11["arxiv-1402.4677"]
-    DOC11 -->|IN_CATEGORY| TAX16
-    DOC11 -->|IN_CATEGORY| TAX15
+    DOC11 -->|IN_CATEGORY| TAX24
+    DOC11 -->|IN_CATEGORY| TAX23
     DOC11 -->|IN_CATEGORY| TAX5
     DOC12["arxiv-2201.04663"]
     DOC12 -->|CITES| DOC11
     DOC12 -->|CITES| DOC6
-    DOC12 -->|IN_CATEGORY| TAX16
-    DOC12 -->|IN_CATEGORY| TAX15
-    DOC12 -->|IN_CATEGORY| TAX14
+    DOC12 -->|IN_CATEGORY| TAX24
+    DOC12 -->|IN_CATEGORY| TAX23
+    DOC12 -->|IN_CATEGORY| TAX22
     DOC12 -->|IN_CATEGORY| TAX5
     DOC13["arxiv-1610.00502"]
     DOC13 -->|CITES| DOC12
-    DOC13 -->|IN_CATEGORY| TAX14
+    DOC13 -->|IN_CATEGORY| TAX22
     DOC13 -->|IN_CATEGORY| TAX1
     DOC13 -->|IN_CATEGORY| TAX5
     DOC13 -->|IN_CATEGORY| TAX3
@@ -175,8 +201,8 @@ flowchart TD
     DOC14["arxiv-1507.01763"]
     DOC14 -->|CITES| DOC11
     DOC14 -->|CITES| DOC12
-    DOC14 -->|IN_CATEGORY| TAX16
-    DOC14 -->|IN_CATEGORY| TAX13
+    DOC14 -->|IN_CATEGORY| TAX24
+    DOC14 -->|IN_CATEGORY| TAX21
     DOC14 -->|IN_CATEGORY| TAX5
     DOC15["research-sat-and-smt-solvers-applications-in-software"]
     DOC15 -->|CITES| DOC11
@@ -193,34 +219,106 @@ flowchart TD
     DOC15 -->|CITES| DOC8
     DOC15 -->|CITES| DOC9
     DOC15 -->|CITES| DOC10
-    DOC15 -->|IN_CATEGORY| TAX16
-    DOC15 -->|IN_CATEGORY| TAX15
-    DOC15 -->|IN_CATEGORY| TAX14
+    DOC15 -->|IN_CATEGORY| TAX24
+    DOC15 -->|IN_CATEGORY| TAX23
+    DOC15 -->|IN_CATEGORY| TAX22
     DOC15 -->|IN_CATEGORY| TAX1
     DOC15 -->|IN_CATEGORY| TAX5
     DOC15 -->|IN_CATEGORY| TAX3
     DOC15 -->|IN_CATEGORY| TAX8
+    DOC16["arxiv-2602.13237"]
+    DOC16 -->|CITES| DOC12
+    DOC16 -->|CITES| DOC14
+    DOC16 -->|CITES| DOC8
+    DOC16 -->|IN_CATEGORY| TAX11
+    DOC16 -->|IN_CATEGORY| TAX24
+    DOC16 -->|IN_CATEGORY| TAX20
+    DOC16 -->|IN_CATEGORY| TAX21
+    DOC16 -->|IN_CATEGORY| TAX1
+    DOC16 -->|IN_CATEGORY| TAX5
+    DOC17["arxiv-2605.08605"]
+    DOC17 -->|CITES| DOC12
+    DOC17 -->|CITES| DOC13
+    DOC17 -->|CITES| DOC16
+    DOC17 -->|IN_CATEGORY| TAX13
+    DOC17 -->|IN_CATEGORY| TAX20
+    DOC18["arxiv-2605.10901"]
+    DOC18 -->|CITES| DOC6
+    DOC18 -->|CITES| DOC1
+    DOC18 -->|IN_CATEGORY| TAX12
+    DOC18 -->|IN_CATEGORY| TAX14
+    DOC18 -->|IN_CATEGORY| TAX20
+    DOC18 -->|IN_CATEGORY| TAX1
+    DOC18 -->|IN_CATEGORY| TAX4
+    DOC18 -->|IN_CATEGORY| TAX17
+    DOC19["arxiv-2603.19163"]
+    DOC19 -->|CITES| DOC11
+    DOC19 -->|IN_CATEGORY| TAX20
+    DOC19 -->|IN_CATEGORY| TAX21
+    DOC19 -->|IN_CATEGORY| TAX1
+    DOC19 -->|IN_CATEGORY| TAX5
+    DOC19 -->|IN_CATEGORY| TAX3
+    DOC20["arxiv-2607.22619"]
+    DOC20 -->|CITES| DOC1
+    DOC20 -->|CITES| DOC3
+    DOC20 -->|IN_CATEGORY| TAX18
+    DOC20 -->|IN_CATEGORY| TAX2
+    DOC20 -->|IN_CATEGORY| TAX4
+    DOC20 -->|IN_CATEGORY| TAX6
+    DOC21["openreview-sec-bench-2025"]
+    DOC21 -->|CITES| DOC13
+    DOC21 -->|CITES| DOC2
+    DOC21 -->|IN_CATEGORY| TAX11
+    DOC21 -->|IN_CATEGORY| TAX14
+    DOC21 -->|IN_CATEGORY| TAX22
+    DOC21 -->|IN_CATEGORY| TAX4
+    DOC21 -->|IN_CATEGORY| TAX17
+    DOC22["arxiv-2509.25239"]
+    DOC22 -->|CITES| DOC17
+    DOC22 -->|IN_CATEGORY| TAX13
+    DOC22 -->|IN_CATEGORY| TAX14
+    DOC22 -->|IN_CATEGORY| TAX20
+    DOC22 -->|IN_CATEGORY| TAX9
+    DOC23["note-2026-kitsumiko-formal-neurosymbolic-bridge"]
+    DOC23 -->|REPORTS_ON| DOC16
+    DOC23 -->|REPORTS_ON| DOC17
+    DOC23 -->|REPORTS_ON| DOC18
+    DOC23 -->|REPORTS_ON| DOC19
+    DOC23 -->|REPORTS_ON| DOC20
+    DOC23 -->|REPORTS_ON| DOC21
+    DOC23 -->|REPORTS_ON| DOC22
+    DOC23 -->|CITES| DOC12
+    DOC23 -->|CITES| DOC1
+    DOC23 -->|CITES| DOC6
+    DOC23 -->|IN_CATEGORY| TAX13
+    DOC23 -->|IN_CATEGORY| TAX14
+    DOC23 -->|IN_CATEGORY| TAX24
+    DOC23 -->|IN_CATEGORY| TAX20
+    DOC23 -->|IN_CATEGORY| TAX21
+    DOC23 -->|IN_CATEGORY| TAX2
+    DOC23 -->|IN_CATEGORY| TAX5
+    DOC23 -->|IN_CATEGORY| TAX17
 ```
 
 ## 3. Global Word Cloud (Top 15 Terms)
 
 | Term | Frequency | Normalized Weight |
 |---|---|---|
-| `verification` | 33 | 1.00 |
-| `formal` | 29 | 0.88 |
-| `hardware` | 24 | 0.73 |
-| `smt` | 23 | 0.70 |
-| `graph` | 20 | 0.61 |
-| `software` | 19 | 0.58 |
-| `memory` | 18 | 0.55 |
-| `rtl` | 14 | 0.42 |
-| `assertions` | 12 | 0.36 |
-| `bit-flip` | 12 | 0.36 |
-| `sat` | 12 | 0.36 |
-| `synthesis` | 12 | 0.36 |
-| `theories` | 12 | 0.36 |
-| `bare-ai` | 11 | 0.33 |
-| `knowledge` | 11 | 0.33 |
+| `formal` | 41 | 1.00 |
+| `verification` | 41 | 1.00 |
+| `hardware` | 30 | 0.73 |
+| `smt` | 28 | 0.68 |
+| `software` | 22 | 0.54 |
+| `graph` | 21 | 0.51 |
+| `memory` | 19 | 0.46 |
+| `papers` | 17 | 0.41 |
+| `kitsumiko` | 16 | 0.39 |
+| `security` | 16 | 0.39 |
+| `rtl` | 15 | 0.37 |
+| `solvers` | 15 | 0.37 |
+| `language` | 14 | 0.34 |
+| `sat` | 14 | 0.34 |
+| `synthesis` | 14 | 0.34 |
 
 ## 4. Semantic Chunks by Document
 
@@ -234,7 +332,7 @@ flowchart TD
   - **Taxonomy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > AI Accelerators`; `Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors`; `Hardware & Semiconductor Systems > Memory & Interconnects`; `Security & Resilience`; `Security & Resilience > Hardware Fault Attacks > Bit-Flip Attacks`; `Security & Resilience > Runtime Fault Localization & Recovery`
 - **`semieng-2026-bare-ai-monitors#chunk-03` (Citation & Source Link)** [27 words]
   - **Concepts:** `concept:ai-accelerator`, `concept:apc`, `concept:bare-ai`, `concept:bit-flip-attack`
-  - **Taxonomy:** `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > AI Accelerators`; `Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors`; `Security & Resilience`; `Security & Resilience > Hardware Fault Attacks > Bit-Flip Attacks`
+  - **Taxonomy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Artificial Intelligence & Machine Learning > Deep Neural Networks > Novel & State-Space Architectures`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > AI Accelerators`; `Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors`; `Security & Resilience`; `Security & Resilience > Hardware Fault Attacks > Bit-Flip Attacks`
 
 ### `arxiv-2610.08739v2` — BARE-AI: Bit-Flip Attack Resilience in AI Hardware through Built-in Performance Monitors
 
@@ -315,13 +413,13 @@ flowchart TD
   - **Taxonomy:** `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > Knowledge Representation & Ontologies`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`
 - **`arxiv-2503.19174#chunk-03` (Formal Property Verification Closure)** [30 words]
   - **Concepts:** `concept:llm-formal-verification`, `concept:sva`
-  - **Taxonomy:** `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`; `Security & Resilience`; `Security & Resilience > Memory Safety & Software Capabilities`
+  - **Taxonomy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Reasoning, Agents & Retrieval`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`; `Security & Resilience`; `Security & Resilience > Memory Safety & Software Capabilities`
 
 ### `arxiv-2604.23100` — ProofLoop: From Language to Logic — Bridging LLMs and Formal Representations for RTL Assertion Generation
 
 - **`arxiv-2604.23100#chunk-01` (Solver-in-the-Loop Formal Assertion Synthesis)** [27 words]
-  - **Concepts:** `concept:dnn`, `concept:llm-formal-verification`, `concept:sva`
-  - **Taxonomy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Formal Methods & Automated Reasoning`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`
+  - **Concepts:** `concept:agentic-reasoning`, `concept:dnn`, `concept:llm-formal-verification`, `concept:sva`
+  - **Taxonomy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Artificial Intelligence & Machine Learning > Reasoning, Agents & Retrieval`; `Formal Methods & Automated Reasoning`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`
 - **`arxiv-2604.23100#chunk-02` (Iterative Refinement with EDA Proof Engines)** [53 words]
   - **Concepts:** `concept:llm-formal-verification`, `concept:sva`
   - **Taxonomy:** `Formal Methods & Automated Reasoning`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`; `Security & Resilience`; `Security & Resilience > Runtime Fault Localization & Recovery`
@@ -347,8 +445,8 @@ flowchart TD
   - **Concepts:** `concept:sva`, `concept:uclid5`
   - **Taxonomy:** `Formal Methods & Automated Reasoning`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > AI Accelerators`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`; `Security & Resilience`; `Security & Resilience > Memory Safety & Software Capabilities`
 - **`research-formal-verification-languages-in-chip-and-se#chunk-02` (Knowledge-Graph & Solver-in-the-Loop Assertion Synthesis)** [108 words]
-  - **Concepts:** `concept:dnn`, `concept:llm-formal-verification`, `concept:ontology-smt-reasoning`, `concept:sat-smt-solvers`, `concept:sva`, `concept:uclid5`
-  - **Taxonomy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > Knowledge Representation & Ontologies`; `Formal Methods & Automated Reasoning > SAT & SMT Solvers`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`; `Security & Resilience`; `Security & Resilience > Memory Safety & Software Capabilities`
+  - **Concepts:** `concept:agentic-reasoning`, `concept:dnn`, `concept:llm-formal-verification`, `concept:ontology-smt-reasoning`, `concept:sat-smt-solvers`, `concept:sva`, `concept:uclid5`
+  - **Taxonomy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Artificial Intelligence & Machine Learning > Reasoning, Agents & Retrieval`; `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > Knowledge Representation & Ontologies`; `Formal Methods & Automated Reasoning > SAT & SMT Solvers`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`; `Security & Resilience`; `Security & Resilience > Memory Safety & Software Capabilities`
 - **`research-formal-verification-languages-in-chip-and-se#chunk-03` (Cross-Layer Integration with Hardware Telemetry & Security)** [44 words]
   - **Concepts:** `concept:ai-accelerator`, `concept:apc`, `concept:bare-ai`, `concept:bit-flip-attack`, `concept:fil-c`, `concept:ontology-smt-reasoning`, `concept:pulse`, `concept:rowhammer`
   - **Taxonomy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > Knowledge Representation & Ontologies`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > AI Accelerators`; `Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > Memory & Interconnects`; `Security & Resilience`; `Security & Resilience > Hardware Fault Attacks > Bit-Flip Attacks`; `Security & Resilience > Memory Safety & Software Capabilities`
@@ -412,3 +510,99 @@ flowchart TD
 - **`research-sat-and-smt-solvers-applications-in-software#chunk-03` (Cross-Domain Integration in the Reading-DB Knowledge Graph)** [27 words]
   - **Concepts:** `concept:fil-c`, `concept:llm-formal-verification`, `concept:ontology-smt-reasoning`, `concept:sat-smt-solvers`, `concept:sva`, `concept:uclid5`
   - **Taxonomy:** `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > Knowledge Representation & Ontologies`; `Formal Methods & Automated Reasoning > SAT & SMT Solvers`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`; `Hardware & Semiconductor Systems > Memory & Interconnects`; `Security & Resilience`; `Security & Resilience > Memory Safety & Software Capabilities`
+
+### `arxiv-2602.13237` — NL2LOGIC: AST-Guided Translation of Natural Language into First-Order Logic with Large Language Models
+
+- **`arxiv-2602.13237#chunk-01` (Problem Statement & Context)** [39 words]
+  - **Concepts:** `concept:dnn`, `concept:nl2logic-fol`, `concept:sat-smt-solvers`, `concept:uclid5`
+  - **Taxonomy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification`; `Formal Methods & Automated Reasoning > SAT & SMT Solvers`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`
+- **`arxiv-2602.13237#chunk-02` (Proposed Mechanism: AST-Guided & Grammar-Constrained Translation)** [50 words]
+  - **Concepts:** `concept:nl2logic-fol`
+  - **Taxonomy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > Knowledge Representation & Ontologies`; `Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > AI Accelerators`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`
+- **`arxiv-2602.13237#chunk-03` (Evaluation & Why It Matters (via kitsumiko/papers))** [39 words]
+  - **Concepts:** `concept:nl2logic-fol`
+  - **Taxonomy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification`
+
+### `arxiv-2605.08605` — Lattice Deduction Transformers
+
+- **`arxiv-2605.08605#chunk-01` (Problem Statement & Context)** [24 words]
+  - **Concepts:** `concept:dnn`, `concept:lattice-deduction`
+  - **Taxonomy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Artificial Intelligence & Machine Learning > Deep Neural Networks > Novel & State-Space Architectures`; `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification`
+- **`arxiv-2605.08605#chunk-02` (Proposed Mechanism: Abstract Lattice Projection & Sound Deduction)** [43 words]
+  - **Concepts:** `concept:lattice-deduction`
+  - **Taxonomy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Artificial Intelligence & Machine Learning > Deep Neural Networks > Novel & State-Space Architectures`; `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification`
+- **`arxiv-2605.08605#chunk-03` (Evaluation & Why It Matters (via kitsumiko/papers))** [50 words]
+  - **Concepts:** `concept:dnn`, `concept:lattice-deduction`
+  - **Taxonomy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Artificial Intelligence & Machine Learning > Deep Neural Networks > Novel & State-Space Architectures`; `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification`
+
+### `arxiv-2605.10901` — Beyond Red-Teaming: Formal Guarantees of LLM Guardrail Classifiers
+
+- **`arxiv-2605.10901#chunk-01` (Problem Statement & Context)** [22 words]
+  - **Concepts:** `concept:agentic-security`, `concept:formal-guardrails`
+  - **Taxonomy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification`; `Security & Resilience`; `Security & Resilience > AI Alignment, Guardrails & Agent Security`
+- **`arxiv-2605.10901#chunk-02` (Proposed Mechanism: Convex Pre-Activation Certification via SVD Hyper-Rectangles)** [49 words]
+  - **Concepts:** `concept:agentic-security`, `concept:formal-guardrails`
+  - **Taxonomy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > AI Accelerators`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Security & Resilience`; `Security & Resilience > AI Alignment, Guardrails & Agent Security`
+- **`arxiv-2605.10901#chunk-03` (Evaluation & Why It Matters (via kitsumiko/papers))** [32 words]
+  - **Concepts:** `concept:formal-guardrails`
+  - **Taxonomy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Artificial Intelligence & Machine Learning > Deep Neural Networks > Language Models & Efficient Attention`; `Artificial Intelligence & Machine Learning > Reasoning, Agents & Retrieval`; `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification`; `Security & Resilience`; `Security & Resilience > AI Alignment, Guardrails & Agent Security`
+
+### `arxiv-2603.19163` — cuGenOpt: A GPU-Accelerated General-Purpose Metaheuristic Framework for Combinatorial Optimization
+
+- **`arxiv-2603.19163#chunk-01` (Problem Statement & Context)** [22 words]
+  - **Concepts:** `concept:sat-smt-solvers`, `concept:uclid5`
+  - **Taxonomy:** `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification`; `Formal Methods & Automated Reasoning > SAT & SMT Solvers`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`
+- **`arxiv-2603.19163#chunk-02` (Proposed Mechanism: Hardware-Aware CUDA Block Evolution)** [31 words]
+  - **Concepts:** none
+  - **Taxonomy:** `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > Memory & Interconnects`
+- **`arxiv-2603.19163#chunk-03` (Evaluation & Why It Matters (via kitsumiko/papers))** [26 words]
+  - **Concepts:** none
+  - **Taxonomy:** `Formal Methods & Automated Reasoning`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > AI Accelerators`
+
+### `arxiv-2607.22619` — How to Catch a GPU: A Taxonomy of Verification and Enforcement Mechanisms for International AI Agreements
+
+- **`arxiv-2607.22619#chunk-01` (Problem Statement & Context)** [24 words]
+  - **Concepts:** none
+  - **Taxonomy:** `AI Policy, Governance & Human-AI Systems`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > AI Accelerators`; `Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Security & Resilience`
+- **`arxiv-2607.22619#chunk-02` (Proposed Mechanism: Hardware Verification & Telemetry Taxonomy)** [19 words]
+  - **Concepts:** none
+  - **Taxonomy:** `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > AI Accelerators`; `Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`
+- **`arxiv-2607.22619#chunk-03` (Evaluation & Why It Matters (via kitsumiko/papers))** [22 words]
+  - **Concepts:** `concept:apc`
+  - **Taxonomy:** `AI Policy, Governance & Human-AI Systems`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > AI Accelerators`; `Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Security & Resilience`
+
+### `openreview-sec-bench-2025` — SEC-bench: Automated Benchmarking of LLM Agents on Real-World Software Security Tasks
+
+- **`openreview-sec-bench-2025#chunk-01` (Problem Statement & Context)** [19 words]
+  - **Concepts:** `concept:agentic-security`
+  - **Taxonomy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Security & Resilience`; `Security & Resilience > AI Alignment, Guardrails & Agent Security`
+- **`openreview-sec-bench-2025#chunk-02` (Proposed Mechanism: Multi-Agent Verified Vulnerability Scaffold)** [35 words]
+  - **Concepts:** `concept:agentic-reasoning`, `concept:agentic-security`
+  - **Taxonomy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Artificial Intelligence & Machine Learning > Reasoning, Agents & Retrieval`; `Security & Resilience`; `Security & Resilience > AI Alignment, Guardrails & Agent Security`
+- **`openreview-sec-bench-2025#chunk-03` (Evaluation & Why It Matters (via kitsumiko/papers))** [33 words]
+  - **Concepts:** `concept:symbolic-execution`
+  - **Taxonomy:** `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > SAT & SMT Solvers`; `Formal Methods & Automated Reasoning > SAT & SMT Solvers > Software Verification & Symbolic Execution`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Security & Resilience`
+
+### `arxiv-2509.25239` — A Formal Comparison Between Chain of Thought and Latent Thought
+
+- **`arxiv-2509.25239#chunk-01` (Problem Statement & Context)** [21 words]
+  - **Concepts:** `concept:agentic-reasoning`, `concept:asi`, `concept:lattice-deduction`
+  - **Taxonomy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Reasoning, Agents & Retrieval`; `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification`; `Security & Resilience`; `Security & Resilience > Runtime Fault Localization & Recovery`
+- **`arxiv-2509.25239#chunk-02` (Proposed Mechanism: Complexity & Expressivity Separation)** [31 words]
+  - **Concepts:** `concept:agentic-reasoning`, `concept:lattice-deduction`
+  - **Taxonomy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Reasoning, Agents & Retrieval`; `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification`
+- **`arxiv-2509.25239#chunk-03` (Evaluation & Why It Matters (via kitsumiko/papers))** [32 words]
+  - **Concepts:** `concept:lattice-deduction`
+  - **Taxonomy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Artificial Intelligence & Machine Learning > Deep Neural Networks > Novel & State-Space Architectures`; `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification`
+
+### `note-2026-kitsumiko-formal-neurosymbolic-bridge` — Synthesis Note: Neuro-Symbolic Deduction, Formal Guardrail Certification, and Hardware-Verified AI (Curated from kitsumiko/papers)
+
+- **`note-2026-kitsumiko-formal-neurosymbolic-bridge#chunk-01` (Executive Synthesis & Attribution)** [37 words]
+  - **Concepts:** `concept:nl2logic-fol`, `concept:ontology-smt-reasoning`
+  - **Taxonomy:** `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > Knowledge Representation & Ontologies`; `Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`; `Security & Resilience`; `Security & Resilience > AI Alignment, Guardrails & Agent Security`
+- **`note-2026-kitsumiko-formal-neurosymbolic-bridge#chunk-02` (Neuro-Symbolic Deduction & Solver-Ready Logic)** [35 words]
+  - **Concepts:** `concept:agentic-reasoning`, `concept:lattice-deduction`, `concept:nl2logic-fol`, `concept:sat-smt-solvers`, `concept:uclid5`
+  - **Taxonomy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Artificial Intelligence & Machine Learning > Deep Neural Networks > Novel & State-Space Architectures`; `Artificial Intelligence & Machine Learning > Reasoning, Agents & Retrieval`; `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification`; `Formal Methods & Automated Reasoning > SAT & SMT Solvers`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`
+- **`note-2026-kitsumiko-formal-neurosymbolic-bridge#chunk-03` (Formal Safety Certification & Hardware-Rooted Verification)** [45 words]
+  - **Concepts:** `concept:agentic-security`, `concept:bare-ai`, `concept:formal-guardrails`
+  - **Taxonomy:** `Artificial Intelligence & Machine Learning`; `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > AI Accelerators`; `Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Security & Resilience`; `Security & Resilience > AI Alignment, Guardrails & Agent Security`

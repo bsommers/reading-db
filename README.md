@@ -35,6 +35,14 @@ Published reading-list knowledge database, semantic chunk index, conceptual taxo
 14. **Academic Paper:** [*A Survey of Symbolic Execution Techniques for Software Development and Verification*](https://arxiv.org/abs/1610.00502) (`arxiv-1610.00502` — Roberto Baldoni, Emilio Coppa, Daniele Coniglio, Camil Demetrescu, Irene Finocchi — Sapienza University of Rome)
 15. **Academic Paper:** [*SAT and SMT-Based Automated Reasoning for Description Logics and Formal Ontologies*](https://arxiv.org/abs/1507.01763) (`arxiv-1507.01763` — Roberto Sebastiani, Michele Vescovi — University of Trento)
 16. **Research Note:** [*Research Synthesis: SAT and SMT solvers applications in software development, graph analysis, and ontologies*](https://github.com/bsommers/reading-db) (`research-sat-and-smt-solvers-applications-in-software` — Reading List Research Engine)
+17. **Academic Paper:** [*NL2LOGIC: AST-Guided Translation of Natural Language into First-Order Logic with Large Language Models*](https://arxiv.org/abs/2602.13237) (`arxiv-2602.13237` — Putra et al. — Neuro-Symbolic Reasoning Group)
+18. **Academic Paper:** [*Lattice Deduction Transformers*](https://arxiv.org/abs/2605.08605) (`arxiv-2605.08605` — Davis et al. — Formal Reasoning & Deep Learning Lab)
+19. **Academic Paper:** [*Beyond Red-Teaming: Formal Guarantees of LLM Guardrail Classifiers*](https://arxiv.org/abs/2605.10901) (`arxiv-2605.10901` — Kezins et al. — AI Safety & Formal Verification Group)
+20. **Academic Paper:** [*cuGenOpt: A GPU-Accelerated General-Purpose Metaheuristic Framework for Combinatorial Optimization*](https://arxiv.org/abs/2603.19163) (`arxiv-2603.19163` — Liu — GPU Systems & Optimization Lab)
+21. **Academic Paper:** [*How to Catch a GPU: A Taxonomy of Verification and Enforcement Mechanisms for International AI Agreements*](https://arxiv.org/abs/2607.22619) (`arxiv-2607.22619` — Koopmanschap, Barten — AI Hardware Governance & Verification Initiative)
+22. **Academic Paper:** [*SEC-bench: Automated Benchmarking of LLM Agents on Real-World Software Security Tasks*](https://openreview.net/pdf?id=QQhQIqons0) (`openreview-sec-bench-2025` — Lee et al. — Software Security & Agentic Benchmarking Group)
+23. **Academic Paper:** [*A Formal Comparison Between Chain of Thought and Latent Thought*](https://arxiv.org/abs/2509.25239) (`arxiv-2509.25239` — Xu et al. — Theoretical Machine Learning & Reasoning Group)
+24. **Research Note:** [*Synthesis Note: Neuro-Symbolic Deduction, Formal Guardrail Certification, and Hardware-Verified AI (Curated from kitsumiko/papers)*](https://github.com/kitsumiko/papers) (`note-2026-kitsumiko-formal-neurosymbolic-bridge` — Reading List Research Engine — OntoLogic & AI Curriculum Synthesis)
 
 ## Updating From `reading-list`
 
