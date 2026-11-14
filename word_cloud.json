@@ -760,6 +760,158 @@
         "weight": 0.25
       }
     ],
+    "arxiv-2404.01833": [
+      {
+        "count": 6,
+        "term": "crescendo",
+        "weight": 1.0
+      },
+      {
+        "count": 6,
+        "term": "jailbreak",
+        "weight": 1.0
+      },
+      {
+        "count": 4,
+        "term": "models",
+        "weight": 0.6667
+      },
+      {
+        "count": 3,
+        "term": "attack",
+        "weight": 0.5
+      },
+      {
+        "count": 3,
+        "term": "demonstrate",
+        "weight": 0.5
+      },
+      {
+        "count": 3,
+        "term": "model",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "70b",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "achieving",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "attacks",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "chat",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "crescendomation",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "do",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "efficacy",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "llms",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "state-of-the-art",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "what",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "29-61",
+        "weight": 0.1667
+      },
+      {
+        "count": 1,
+        "term": "49-71",
+        "weight": 0.1667
+      },
+      {
+        "count": 1,
+        "term": "ability",
+        "weight": 0.1667
+      },
+      {
+        "count": 1,
+        "term": "adopted",
+        "weight": 0.1667
+      },
+      {
+        "count": 1,
+        "term": "advbench",
+        "weight": 0.1667
+      },
+      {
+        "count": 1,
+        "term": "against",
+        "weight": 0.1667
+      },
+      {
+        "count": 1,
+        "term": "ai",
+        "weight": 0.1667
+      },
+      {
+        "count": 1,
+        "term": "aim",
+        "weight": 0.1667
+      },
+      {
+        "count": 1,
+        "term": "aligned",
+        "weight": 0.1667
+      },
+      {
+        "count": 1,
+        "term": "alignment",
+        "weight": 0.1667
+      },
+      {
+        "count": 1,
+        "term": "all",
+        "weight": 0.1667
+      },
+      {
+        "count": 1,
+        "term": "also",
+        "weight": 0.1667
+      },
+      {
+        "count": 1,
+        "term": "anthropic",
+        "weight": 0.1667
+      },
+      {
+        "count": 1,
+        "term": "applications",
+        "weight": 0.1667
+      }
+    ],
     "arxiv-2503.19174": [
       {
         "count": 4,
@@ -910,6 +1062,310 @@
         "count": 1,
         "term": "cone-of-influence",
         "weight": 0.25
+      }
+    ],
+    "arxiv-2506.10597": [
+      {
+        "count": 5,
+        "term": "guardrails",
+        "weight": 1.0
+      },
+      {
+        "count": 3,
+        "term": "evaluation",
+        "weight": 0.6
+      },
+      {
+        "count": 3,
+        "term": "llm",
+        "weight": 0.6
+      },
+      {
+        "count": 2,
+        "term": "analysis",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "defense",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "deployment",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "framework",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "have",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "jailbreak",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "key",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "llms",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "mechanisms",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "taxonomy",
+        "weight": 0.4
+      },
+      {
+        "count": 1,
+        "term": "achieved",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "advancement",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "aiming",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "alignments",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "along",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "approaches",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "architecture",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "assess",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "attack",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "attacks",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "available",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "but",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "categorizes",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "circumvent",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "code",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "comprehensive",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "context",
+        "weight": 0.2
+      }
+    ],
+    "arxiv-2508.00500": [
+      {
+        "count": 6,
+        "term": "probguard",
+        "weight": 1.0
+      },
+      {
+        "count": 3,
+        "term": "agents",
+        "weight": 0.5
+      },
+      {
+        "count": 3,
+        "term": "behavior",
+        "weight": 0.5
+      },
+      {
+        "count": 3,
+        "term": "execution",
+        "weight": 0.5
+      },
+      {
+        "count": 3,
+        "term": "model",
+        "weight": 0.5
+      },
+      {
+        "count": 3,
+        "term": "runtime",
+        "weight": 0.5
+      },
+      {
+        "count": 3,
+        "term": "safety",
+        "weight": 0.5
+      },
+      {
+        "count": 3,
+        "term": "unsafe",
+        "weight": 0.5
+      },
+      {
+        "count": 3,
+        "term": "violations",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "agent",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "baseline",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "completion",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "domains",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "embodied",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "intervention",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "llm",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "monitoring",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "probability",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "reduces",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "seconds",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "stricter",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "threshold",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "when",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "ability",
+        "weight": 0.1667
+      },
+      {
+        "count": 1,
+        "term": "abstraction",
+        "weight": 0.1667
+      },
+      {
+        "count": 1,
+        "term": "abstracts",
+        "weight": 0.1667
+      },
+      {
+        "count": 1,
+        "term": "admits",
+        "weight": 0.1667
+      },
+      {
+        "count": 1,
+        "term": "advance",
+        "weight": 0.1667
+      },
+      {
+        "count": 1,
+        "term": "agentspec",
+        "weight": 0.1667
+      },
+      {
+        "count": 1,
+        "term": "alarms",
+        "weight": 0.1667
       }
     ],
     "arxiv-2509.25239": [
@@ -1064,6 +1520,462 @@
         "weight": 0.3333
       }
     ],
+    "arxiv-2601.00454": [
+      {
+        "count": 6,
+        "term": "m2s",
+        "weight": 1.0
+      },
+      {
+        "count": 5,
+        "term": "multi-turn",
+        "weight": 0.8333
+      },
+      {
+        "count": 4,
+        "term": "guardrail",
+        "weight": 0.6667
+      },
+      {
+        "count": 4,
+        "term": "tokens",
+        "weight": 0.6667
+      },
+      {
+        "count": 4,
+        "term": "training",
+        "weight": 0.6667
+      },
+      {
+        "count": 3,
+        "term": "compression",
+        "weight": 0.5
+      },
+      {
+        "count": 3,
+        "term": "conversations",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "baseline",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "conversation",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "cost",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "defensive",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "findings",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "histories",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "hyphenize",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "inference",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "model",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "models",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "qwen3guard",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "reducing",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "safety",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "three",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "while",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "169k",
+        "weight": 0.1667
+      },
+      {
+        "count": 1,
+        "term": "7m",
+        "weight": 0.1667
+      },
+      {
+        "count": 1,
+        "term": "achieves",
+        "weight": 0.1667
+      },
+      {
+        "count": 1,
+        "term": "analysis",
+        "weight": 0.1667
+      },
+      {
+        "count": 1,
+        "term": "architecture",
+        "weight": 0.1667
+      },
+      {
+        "count": 1,
+        "term": "attack",
+        "weight": 0.1667
+      },
+      {
+        "count": 1,
+        "term": "avg",
+        "weight": 0.1667
+      },
+      {
+        "count": 1,
+        "term": "benchmark",
+        "weight": 0.1667
+      }
+    ],
+    "arxiv-2601.17548": [
+      {
+        "count": 5,
+        "term": "attack",
+        "weight": 1.0
+      },
+      {
+        "count": 3,
+        "term": "analysis",
+        "weight": 0.6
+      },
+      {
+        "count": 3,
+        "term": "attacks",
+        "weight": 0.6
+      },
+      {
+        "count": 3,
+        "term": "context",
+        "weight": 0.6
+      },
+      {
+        "count": 3,
+        "term": "findings",
+        "weight": 0.6
+      },
+      {
+        "count": 3,
+        "term": "injection",
+        "weight": 0.6
+      },
+      {
+        "count": 3,
+        "term": "textit",
+        "weight": 0.6
+      },
+      {
+        "count": 2,
+        "term": "adaptive",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "against",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "agentic",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "architecture",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "assistants",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "coding",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "critical",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "identify",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "poisoning",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "prompt",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "protocol",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "security",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "skill-based",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "systems",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "taxonomy",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "than",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "vulnerabilities",
+        "weight": 0.4
+      },
+      {
+        "count": 1,
+        "term": "access",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "achieve",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "ad-hoc",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "ai",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "approaches",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "architectural-level",
+        "weight": 0.2
+      }
+    ],
+    "arxiv-2602.11247": [
+      {
+        "count": 3,
+        "term": "formula",
+        "weight": 1.0
+      },
+      {
+        "count": 3,
+        "term": "turn",
+        "weight": 1.0
+      },
+      {
+        "count": 2,
+        "term": "attacks",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "conversations",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "detection",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "evaluated",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "evaluation",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "multi-turn",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "pattern",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "peak",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "per-turn",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "persistence",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "recall",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "risk",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "score",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "scores",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "scoring",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "single-turn",
+        "weight": 0.6667
+      },
+      {
+        "count": 1,
+        "term": "20-turn",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "accumulation",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "achieves",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "adversarial",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "aggregating",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "alerting",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "algorithm",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "analogies",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "analysis",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "approach",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "architecture",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "assumption",
+        "weight": 0.3333
+      }
+    ],
     "arxiv-2602.13237": [
       {
         "count": 3,
@@ -1214,6 +2126,158 @@
         "count": 1,
         "term": "curated",
         "weight": 0.3333
+      }
+    ],
+    "arxiv-2602.16935": [
+      {
+        "count": 5,
+        "term": "deepcontext",
+        "weight": 1.0
+      },
+      {
+        "count": 4,
+        "term": "stateless",
+        "weight": 0.8
+      },
+      {
+        "count": 3,
+        "term": "evaluation",
+        "weight": 0.6
+      },
+      {
+        "count": 3,
+        "term": "intent",
+        "weight": 0.6
+      },
+      {
+        "count": 3,
+        "term": "models",
+        "weight": 0.6
+      },
+      {
+        "count": 2,
+        "term": "architecture",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "guardrails",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "model",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "multi-turn",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "safety",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "temporal",
+        "weight": 0.4
+      },
+      {
+        "count": 1,
+        "term": "accumulation",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "achieving",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "actorattack",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "adversarial",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "alternative",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "applications",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "awareness",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "baselines",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "bleed",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "both",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "boundaries",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "bypass",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "capabilities",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "captures",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "cloud-provider",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "computationally",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "context",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "conversation",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "crescendo",
+        "weight": 0.2
       }
     ],
     "arxiv-2603.19163": [
@@ -1520,6 +2584,462 @@
         "weight": 0.25
       }
     ],
+    "arxiv-2604.23338": [
+      {
+        "count": 5,
+        "term": "agentic",
+        "weight": 1.0
+      },
+      {
+        "count": 4,
+        "term": "attack",
+        "weight": 0.8
+      },
+      {
+        "count": 3,
+        "term": "security",
+        "weight": 0.6
+      },
+      {
+        "count": 3,
+        "term": "stack",
+        "weight": 0.6
+      },
+      {
+        "count": 3,
+        "term": "threats",
+        "weight": 0.6
+      },
+      {
+        "count": 2,
+        "term": "ai",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "cross-session",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "defense",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "lasm",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "layers",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "long-horizon",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "memory",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "no",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "prompt",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "sub-session-stack",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "surface",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "taxonomy",
+        "weight": 0.4
+      },
+      {
+        "count": 1,
+        "term": "agent",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "agents",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "allowing",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "also",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "analysis",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "analyze",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "architectural",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "architecture",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "arises",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "attacks",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "augments",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "authority",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "axis",
+        "weight": 0.2
+      }
+    ],
+    "arxiv-2605.01143": [
+      {
+        "count": 3,
+        "term": "agents",
+        "weight": 1.0
+      },
+      {
+        "count": 3,
+        "term": "defense",
+        "weight": 1.0
+      },
+      {
+        "count": 3,
+        "term": "detection",
+        "weight": 1.0
+      },
+      {
+        "count": 3,
+        "term": "interaction",
+        "weight": 1.0
+      },
+      {
+        "count": 3,
+        "term": "prompt",
+        "weight": 1.0
+      },
+      {
+        "count": 3,
+        "term": "using",
+        "weight": 1.0
+      },
+      {
+        "count": 2,
+        "term": "adversarial",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "agent",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "context",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "execution",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "features",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "interactions",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "layer",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "llm-powered",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "low-latency",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "mechanism",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "models",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "multi-turn",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "over",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "risk",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "strategies",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "structured",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "tool",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "work",
+        "weight": 0.6667
+      },
+      {
+        "count": 1,
+        "term": "ablation",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "achieves",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "agentic",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "also",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "approach",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "architecture",
+        "weight": 0.3333
+      }
+    ],
+    "arxiv-2605.04785": [
+      {
+        "count": 4,
+        "term": "agenttrust",
+        "weight": 1.0
+      },
+      {
+        "count": 3,
+        "term": "accuracy",
+        "weight": 0.75
+      },
+      {
+        "count": 3,
+        "term": "benchmark",
+        "weight": 0.75
+      },
+      {
+        "count": 3,
+        "term": "context",
+        "weight": 0.75
+      },
+      {
+        "count": 3,
+        "term": "verdict",
+        "weight": 0.75
+      },
+      {
+        "count": 2,
+        "term": "achieves",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "action",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "agents",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "calls",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "execution",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "including",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "multi-step",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "real-world",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "ruleset",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "shell",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "tool",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "300-scenario",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "630-scenario",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "accidental",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "additional",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "adversarial",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "after",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "agent",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "agpl-3",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "ai",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "allow",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "alternatives",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "ambiguous",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "architecture",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "attack",
+        "weight": 0.25
+      }
+    ],
     "arxiv-2605.08605": [
       {
         "count": 4,
@@ -1822,6 +3342,462 @@
         "count": 1,
         "term": "context",
         "weight": 0.3333
+      }
+    ],
+    "arxiv-2606.01738": [
+      {
+        "count": 5,
+        "term": "multi-turn",
+        "weight": 1.0
+      },
+      {
+        "count": 4,
+        "term": "risk",
+        "weight": 0.8
+      },
+      {
+        "count": 3,
+        "term": "attacks",
+        "weight": 0.6
+      },
+      {
+        "count": 3,
+        "term": "context",
+        "weight": 0.6
+      },
+      {
+        "count": 3,
+        "term": "model",
+        "weight": 0.6
+      },
+      {
+        "count": 3,
+        "term": "thrd",
+        "weight": 0.6
+      },
+      {
+        "count": 3,
+        "term": "turn",
+        "weight": 0.6
+      },
+      {
+        "count": 2,
+        "term": "analysis",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "cross-turn",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "each",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "escalation",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "first",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "interaction",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "jailbreak",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "mechanism",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "models",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "module",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "temporal",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "utility",
+        "weight": 0.4
+      },
+      {
+        "count": 1,
+        "term": "ablation",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "accumulates",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "accumulation",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "adjustment",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "against",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "aggregation",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "along",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "analyzer",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "apply",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "architecture",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "asr",
+        "weight": 0.2
+      }
+    ],
+    "arxiv-2606.03136": [
+      {
+        "count": 3,
+        "term": "conversations",
+        "weight": 1.0
+      },
+      {
+        "count": 3,
+        "term": "early",
+        "weight": 1.0
+      },
+      {
+        "count": 3,
+        "term": "geometric",
+        "weight": 1.0
+      },
+      {
+        "count": 2,
+        "term": "adversarial",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "attack",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "attacks",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "content",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "conversation",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "encoder",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "features",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "findings",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "guardrails",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "length",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "performance",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "signal",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "space",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "trajectories",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "turns",
+        "weight": 0.6667
+      },
+      {
+        "count": 1,
+        "term": "above",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "achieve",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "after",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "alone",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "analysis",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "appears",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "architecture",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "asking",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "based",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "baseline",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "before",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "bound",
+        "weight": 0.3333
+      }
+    ],
+    "arxiv-2607.19356": [
+      {
+        "count": 5,
+        "term": "nexus",
+        "weight": 1.0
+      },
+      {
+        "count": 4,
+        "term": "intervention",
+        "weight": 0.8
+      },
+      {
+        "count": 4,
+        "term": "safety",
+        "weight": 0.8
+      },
+      {
+        "count": 3,
+        "term": "f1",
+        "weight": 0.6
+      },
+      {
+        "count": 3,
+        "term": "rule-only",
+        "weight": 0.6
+      },
+      {
+        "count": 3,
+        "term": "score",
+        "weight": 0.6
+      },
+      {
+        "count": 2,
+        "term": "achieves",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "actions",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "allow",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "benchmark",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "calibrated",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "request",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "risk",
+        "weight": 0.4
+      },
+      {
+        "count": 1,
+        "term": "128-instance",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "4-class",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "accuracy",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "adds",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "agent",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "agentharm",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "agents",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "also",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "among",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "applies",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "architecture",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "argument-level",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "asr",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "benchmarks",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "block",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "code",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "combines",
+        "weight": 0.2
       }
     ],
     "arxiv-2607.22619": [
@@ -2432,6 +4408,310 @@
         "weight": 0.25
       }
     ],
+    "note-2026-ai-security-trajectory-monitoring-report": [
+      {
+        "count": 13,
+        "term": "not",
+        "weight": 1.0
+      },
+      {
+        "count": 8,
+        "term": "part",
+        "weight": 0.6154
+      },
+      {
+        "count": 7,
+        "term": "endpoint",
+        "weight": 0.5385
+      },
+      {
+        "count": 7,
+        "term": "risk",
+        "weight": 0.5385
+      },
+      {
+        "count": 7,
+        "term": "turn",
+        "weight": 0.5385
+      },
+      {
+        "count": 6,
+        "term": "state",
+        "weight": 0.4615
+      },
+      {
+        "count": 5,
+        "term": "abstract",
+        "weight": 0.3846
+      },
+      {
+        "count": 5,
+        "term": "attack",
+        "weight": 0.3846
+      },
+      {
+        "count": 5,
+        "term": "no",
+        "weight": 0.3846
+      },
+      {
+        "count": 5,
+        "term": "over",
+        "weight": 0.3846
+      },
+      {
+        "count": 5,
+        "term": "score",
+        "weight": 0.3846
+      },
+      {
+        "count": 5,
+        "term": "what",
+        "weight": 0.3846
+      },
+      {
+        "count": 4,
+        "term": "agent",
+        "weight": 0.3077
+      },
+      {
+        "count": 4,
+        "term": "detection",
+        "weight": 0.3077
+      },
+      {
+        "count": 4,
+        "term": "each",
+        "weight": 0.3077
+      },
+      {
+        "count": 4,
+        "term": "edr",
+        "weight": 0.3077
+      },
+      {
+        "count": 4,
+        "term": "f1",
+        "weight": 0.3077
+      },
+      {
+        "count": 4,
+        "term": "inference",
+        "weight": 0.3077
+      },
+      {
+        "count": 4,
+        "term": "my",
+        "weight": 0.3077
+      },
+      {
+        "count": 4,
+        "term": "one",
+        "weight": 0.3077
+      },
+      {
+        "count": 4,
+        "term": "prompt",
+        "weight": 0.3077
+      },
+      {
+        "count": 4,
+        "term": "reading",
+        "weight": 0.3077
+      },
+      {
+        "count": 4,
+        "term": "reported",
+        "weight": 0.3077
+      },
+      {
+        "count": 4,
+        "term": "security",
+        "weight": 0.3077
+      },
+      {
+        "count": 4,
+        "term": "session",
+        "weight": 0.3077
+      },
+      {
+        "count": 4,
+        "term": "so",
+        "weight": 0.3077
+      },
+      {
+        "count": 4,
+        "term": "synthetic",
+        "weight": 0.3077
+      },
+      {
+        "count": 3,
+        "term": "accumulation",
+        "weight": 0.2308
+      },
+      {
+        "count": 3,
+        "term": "adds",
+        "weight": 0.2308
+      },
+      {
+        "count": 3,
+        "term": "agents",
+        "weight": 0.2308
+      }
+    ],
+    "note-2026-backslash-agentic-endpoint-security-top7": [
+      {
+        "count": 3,
+        "term": "ai",
+        "weight": 1.0
+      },
+      {
+        "count": 3,
+        "term": "local",
+        "weight": 1.0
+      },
+      {
+        "count": 3,
+        "term": "security",
+        "weight": 1.0
+      },
+      {
+        "count": 2,
+        "term": "agents",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "component",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "processes",
+        "weight": 0.6667
+      },
+      {
+        "count": 2,
+        "term": "sees",
+        "weight": 0.6667
+      },
+      {
+        "count": 1,
+        "term": "action",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "actions",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "agent",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "agentic",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "apps",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "backslash",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "before",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "block",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "budget",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "but",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "calls",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "caveat",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "checked",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "cited",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "cites",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "claim",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "claude",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "code",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "codex",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "complete",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "concern",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "connect",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "credentials",
+        "weight": 0.3333
+      }
+    ],
     "note-2026-cross-layer-bitflip-synthesis": [
       {
         "count": 3,
@@ -2582,6 +4862,310 @@
         "count": 1,
         "term": "fil-c",
         "weight": 0.3333
+      }
+    ],
+    "note-2026-csa-agentjacking-mcp-sentry": [
+      {
+        "count": 4,
+        "term": "tenet",
+        "weight": 1.0
+      },
+      {
+        "count": 2,
+        "term": "agents",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "attacker-controlled",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "developer",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "events",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "exploitation",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "not",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "only",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "sentry",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "tested",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "acknowledged",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "ai",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "attack",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "attributed",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "authorized",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "because",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "but",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "bypassed",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "caveat",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "claim",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "claude",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "code",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "codex",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "coding",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "commands",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "configurations",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "confirmed",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "credentials",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "csa",
+        "weight": 0.25
+      },
+      {
+        "count": 1,
+        "term": "cursor",
+        "weight": 0.25
+      }
+    ],
+    "note-2026-darkreading-ai-coding-tools-endpoint": [
+      {
+        "count": 2,
+        "term": "before",
+        "weight": 1.0
+      },
+      {
+        "count": 2,
+        "term": "was",
+        "weight": 1.0
+      },
+      {
+        "count": 1,
+        "term": "affected",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "appears",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "approval",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "approved",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "article",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "automatically",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "claude",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "code",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "commands",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "configuration",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "confirm",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "content",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "cursor",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "cve",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "defined",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "dialog",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "do",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "excerpt",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "execute",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "files",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "hash",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "identifiers",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "issue",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "malicious",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "mcp",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "name",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "note",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "plugin",
+        "weight": 0.5
       }
     ],
     "note-2026-kitsumiko-formal-neurosymbolic-bridge": [
@@ -2736,6 +5320,462 @@
         "weight": 0.25
       }
     ],
+    "note-2026-lasso-securing-ai-on-endpoints": [
+      {
+        "count": 2,
+        "term": "illustrative",
+        "weight": 1.0
+      },
+      {
+        "count": 2,
+        "term": "mcp",
+        "weight": 1.0
+      },
+      {
+        "count": 2,
+        "term": "run",
+        "weight": 1.0
+      },
+      {
+        "count": 2,
+        "term": "scenario",
+        "weight": 1.0
+      },
+      {
+        "count": 2,
+        "term": "security",
+        "weight": 1.0
+      },
+      {
+        "count": 1,
+        "term": "access",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "agent",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "agents",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "ai",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "approved",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "browser",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "buried",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "caveat",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "claim",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "code",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "coding",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "containing",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "content",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "credentials",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "do",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "env",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "every",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "exfiltrating",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "external",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "fetch",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "file",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "focused",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "hypothetical",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "incident",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "instructions",
+        "weight": 0.5
+      }
+    ],
+    "note-2026-pillar-ai-coding-agent-security-tools": [
+      {
+        "count": 2,
+        "term": "agent",
+        "weight": 1.0
+      },
+      {
+        "count": 2,
+        "term": "claims",
+        "weight": 1.0
+      },
+      {
+        "count": 2,
+        "term": "cli",
+        "weight": 1.0
+      },
+      {
+        "count": 2,
+        "term": "configuration",
+        "weight": 1.0
+      },
+      {
+        "count": 2,
+        "term": "developer",
+        "weight": 1.0
+      },
+      {
+        "count": 2,
+        "term": "pillar",
+        "weight": 1.0
+      },
+      {
+        "count": 1,
+        "term": "action",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "alternatives",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "alto",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "analyzed",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "audit",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "before",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "block",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "catalog",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "caveat",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "citing",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "claude",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "closest",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "code",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "codex",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "coding-agent",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "compares",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "comparison",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "control",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "controls",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "cursor",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "dangerous",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "disable",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "does",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "doing",
+        "weight": 0.5
+      }
+    ],
+    "note-2026-zenity-device-based-ai-security": [
+      {
+        "count": 2,
+        "term": "ai",
+        "weight": 1.0
+      },
+      {
+        "count": 2,
+        "term": "coding",
+        "weight": 1.0
+      },
+      {
+        "count": 2,
+        "term": "data",
+        "weight": 1.0
+      },
+      {
+        "count": 2,
+        "term": "mcp",
+        "weight": 1.0
+      },
+      {
+        "count": 2,
+        "term": "risk",
+        "weight": 1.0
+      },
+      {
+        "count": 2,
+        "term": "servers",
+        "weight": 1.0
+      },
+      {
+        "count": 2,
+        "term": "what",
+        "weight": 1.0
+      },
+      {
+        "count": 1,
+        "term": "actions",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "activity",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "agent",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "agents",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "argues",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "asserted",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "but",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "cannot",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "caveat",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "claim",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "class",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "code",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "connects",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "content",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "decides",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "destructive",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "device-based",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "distinct",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "dlp",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "edr",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "endpoints",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "exfiltration",
+        "weight": 0.5
+      },
+      {
+        "count": 1,
+        "term": "extensions",
+        "weight": 0.5
+      }
+    ],
     "openreview-sec-bench-2025": [
       {
         "count": 4,
@@ -2886,6 +5926,158 @@
         "count": 1,
         "term": "evaluation",
         "weight": 0.25
+      }
+    ],
+    "research-ai-security-endpoint-perspective-and-trackin": [
+      {
+        "count": 11,
+        "term": "ai",
+        "weight": 1.0
+      },
+      {
+        "count": 10,
+        "term": "security",
+        "weight": 0.9091
+      },
+      {
+        "count": 7,
+        "term": "multi-turn",
+        "weight": 0.6364
+      },
+      {
+        "count": 6,
+        "term": "agents",
+        "weight": 0.5455
+      },
+      {
+        "count": 6,
+        "term": "coding",
+        "weight": 0.5455
+      },
+      {
+        "count": 6,
+        "term": "endpoint",
+        "weight": 0.5455
+      },
+      {
+        "count": 5,
+        "term": "agent",
+        "weight": 0.4545
+      },
+      {
+        "count": 5,
+        "term": "attacks",
+        "weight": 0.4545
+      },
+      {
+        "count": 5,
+        "term": "llm",
+        "weight": 0.4545
+      },
+      {
+        "count": 4,
+        "term": "adversarial",
+        "weight": 0.3636
+      },
+      {
+        "count": 4,
+        "term": "detection",
+        "weight": 0.3636
+      },
+      {
+        "count": 4,
+        "term": "injection",
+        "weight": 0.3636
+      },
+      {
+        "count": 4,
+        "term": "jailbreak",
+        "weight": 0.3636
+      },
+      {
+        "count": 4,
+        "term": "runtime",
+        "weight": 0.3636
+      },
+      {
+        "count": 4,
+        "term": "tools",
+        "weight": 0.3636
+      },
+      {
+        "count": 3,
+        "term": "agentic",
+        "weight": 0.2727
+      },
+      {
+        "count": 3,
+        "term": "attack",
+        "weight": 0.2727
+      },
+      {
+        "count": 3,
+        "term": "crescendo",
+        "weight": 0.2727
+      },
+      {
+        "count": 3,
+        "term": "models",
+        "weight": 0.2727
+      },
+      {
+        "count": 3,
+        "term": "not",
+        "weight": 0.2727
+      },
+      {
+        "count": 3,
+        "term": "safety",
+        "weight": 0.2727
+      },
+      {
+        "count": 3,
+        "term": "sok",
+        "weight": 0.2727
+      },
+      {
+        "count": 2,
+        "term": "accumulation",
+        "weight": 0.1818
+      },
+      {
+        "count": 2,
+        "term": "agenttrust",
+        "weight": 0.1818
+      },
+      {
+        "count": 2,
+        "term": "arxiv-2404",
+        "weight": 0.1818
+      },
+      {
+        "count": 2,
+        "term": "arxiv-2601",
+        "weight": 0.1818
+      },
+      {
+        "count": 2,
+        "term": "arxiv-2602",
+        "weight": 0.1818
+      },
+      {
+        "count": 2,
+        "term": "arxiv-2605",
+        "weight": 0.1818
+      },
+      {
+        "count": 2,
+        "term": "arxiv-2606",
+        "weight": 0.1818
+      },
+      {
+        "count": 2,
+        "term": "assistants",
+        "weight": 0.1818
       }
     ],
     "research-formal-verification-languages-in-chip-and-se": [
@@ -3651,154 +6843,154 @@
   },
   "global_word_cloud": [
     {
-      "count": 41,
+      "count": 43,
       "term": "formal",
+      "weight": 1.0
+    },
+    {
+      "count": 43,
+      "term": "security",
       "weight": 1.0
     },
     {
       "count": 41,
       "term": "verification",
-      "weight": 1.0
+      "weight": 0.9535
+    },
+    {
+      "count": 38,
+      "term": "ai",
+      "weight": 0.8837
+    },
+    {
+      "count": 32,
+      "term": "agents",
+      "weight": 0.7442
+    },
+    {
+      "count": 32,
+      "term": "attack",
+      "weight": 0.7442
+    },
+    {
+      "count": 31,
+      "term": "evaluation",
+      "weight": 0.7209
+    },
+    {
+      "count": 30,
+      "term": "context",
+      "weight": 0.6977
     },
     {
       "count": 30,
       "term": "hardware",
-      "weight": 0.7317
+      "weight": 0.6977
+    },
+    {
+      "count": 30,
+      "term": "models",
+      "weight": 0.6977
+    },
+    {
+      "count": 30,
+      "term": "safety",
+      "weight": 0.6977
+    },
+    {
+      "count": 28,
+      "term": "attacks",
+      "weight": 0.6512
     },
     {
       "count": 28,
       "term": "smt",
-      "weight": 0.6829
+      "weight": 0.6512
+    },
+    {
+      "count": 27,
+      "term": "model",
+      "weight": 0.6279
+    },
+    {
+      "count": 27,
+      "term": "multi-turn",
+      "weight": 0.6279
+    },
+    {
+      "count": 24,
+      "term": "language",
+      "weight": 0.5581
+    },
+    {
+      "count": 24,
+      "term": "not",
+      "weight": 0.5581
+    },
+    {
+      "count": 23,
+      "term": "mechanism",
+      "weight": 0.5349
+    },
+    {
+      "count": 23,
+      "term": "memory",
+      "weight": 0.5349
+    },
+    {
+      "count": 23,
+      "term": "risk",
+      "weight": 0.5349
+    },
+    {
+      "count": 23,
+      "term": "software",
+      "weight": 0.5349
     },
     {
       "count": 22,
-      "term": "software",
-      "weight": 0.5366
+      "term": "agent",
+      "weight": 0.5116
+    },
+    {
+      "count": 22,
+      "term": "analysis",
+      "weight": 0.5116
+    },
+    {
+      "count": 22,
+      "term": "llm",
+      "weight": 0.5116
+    },
+    {
+      "count": 22,
+      "term": "problem",
+      "weight": 0.5116
+    },
+    {
+      "count": 21,
+      "term": "detection",
+      "weight": 0.4884
+    },
+    {
+      "count": 21,
+      "term": "execution",
+      "weight": 0.4884
     },
     {
       "count": 21,
       "term": "graph",
-      "weight": 0.5122
+      "weight": 0.4884
     },
     {
-      "count": 19,
-      "term": "memory",
-      "weight": 0.4634
+      "count": 21,
+      "term": "statement",
+      "weight": 0.4884
     },
     {
-      "count": 17,
-      "term": "papers",
-      "weight": 0.4146
-    },
-    {
-      "count": 16,
-      "term": "kitsumiko",
-      "weight": 0.3902
-    },
-    {
-      "count": 16,
-      "term": "security",
-      "weight": 0.3902
-    },
-    {
-      "count": 15,
-      "term": "rtl",
-      "weight": 0.3659
-    },
-    {
-      "count": 15,
-      "term": "solvers",
-      "weight": 0.3659
-    },
-    {
-      "count": 14,
-      "term": "language",
-      "weight": 0.3415
-    },
-    {
-      "count": 14,
-      "term": "sat",
-      "weight": 0.3415
-    },
-    {
-      "count": 14,
-      "term": "synthesis",
-      "weight": 0.3415
-    },
-    {
-      "count": 13,
-      "term": "ai",
-      "weight": 0.3171
-    },
-    {
-      "count": 13,
-      "term": "safety",
-      "weight": 0.3171
-    },
-    {
-      "count": 12,
-      "term": "assertions",
-      "weight": 0.2927
-    },
-    {
-      "count": 12,
-      "term": "bare-ai",
-      "weight": 0.2927
-    },
-    {
-      "count": 12,
-      "term": "bit-flip",
-      "weight": 0.2927
-    },
-    {
-      "count": 12,
-      "term": "knowledge",
-      "weight": 0.2927
-    },
-    {
-      "count": 12,
-      "term": "logic",
-      "weight": 0.2927
-    },
-    {
-      "count": 12,
-      "term": "reasoning",
-      "weight": 0.2927
-    },
-    {
-      "count": 12,
-      "term": "theories",
-      "weight": 0.2927
-    },
-    {
-      "count": 11,
-      "term": "automated",
-      "weight": 0.2683
-    },
-    {
-      "count": 11,
-      "term": "via",
-      "weight": 0.2683
-    },
-    {
-      "count": 10,
-      "term": "evaluation",
-      "weight": 0.2439
-    },
-    {
-      "count": 10,
-      "term": "monitors",
-      "weight": 0.2439
-    },
-    {
-      "count": 9,
-      "term": "assertion",
-      "weight": 0.2195
-    },
-    {
-      "count": 9,
-      "term": "cvc5",
-      "weight": 0.2195
+      "count": 20,
+      "term": "over",
+      "weight": 0.4651
     }
   ]
 }

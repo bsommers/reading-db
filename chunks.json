@@ -1195,6 +1195,234 @@
       "token_count": 22
     }
   ],
+  "arxiv-2404.01833": [
+    {
+      "chunk_id": "arxiv-2404.01833#chunk-01",
+      "concept_ids": [
+        "concept:agentic-security",
+        "concept:asi",
+        "concept:dnn",
+        "concept:trajectory-monitoring"
+      ],
+      "doc_id": "arxiv-2404.01833",
+      "heading": "Problem Statement & Context",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "jailbreak"
+        },
+        {
+          "count": 2,
+          "term": "llms"
+        },
+        {
+          "count": 2,
+          "term": "attacks"
+        },
+        {
+          "count": 2,
+          "term": "what"
+        },
+        {
+          "count": 2,
+          "term": "do"
+        },
+        {
+          "count": 1,
+          "term": "great"
+        },
+        {
+          "count": 1,
+          "term": "now"
+        },
+        {
+          "count": 1,
+          "term": "write"
+        },
+        {
+          "count": 1,
+          "term": "article"
+        },
+        {
+          "count": 1,
+          "term": "crescendo"
+        },
+        {
+          "count": 1,
+          "term": "multi-turn"
+        },
+        {
+          "count": 1,
+          "term": "llm"
+        }
+      ],
+      "section_index": 1,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Security & Resilience",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security > Session & Trajectory Monitoring",
+        "Security & Resilience > Runtime Fault Localization & Recovery"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "AI Alignment & Agentic Security",
+        "Deep Learning Architectures",
+        "Hardware & AI Security",
+        "Self-Healing & Fault-Tolerant AI"
+      ],
+      "text": "Large Language Models (LLMs) have risen significantly in popularity and are increasingly being adopted across multiple applications. These LLMs are heavily aligned to resist engaging in illegal or unethical topics as a means to avoid contributing to responsible AI harms. However, a recent line of attacks, known as jailbreaks, seek to overcome this alignment. Intuitively, jailbreak attacks aim to narrow the gap between what the model can do and what it is willing to do.",
+      "token_count": 75
+    },
+    {
+      "chunk_id": "arxiv-2404.01833#chunk-02",
+      "concept_ids": [
+        "concept:agentic-security",
+        "concept:trajectory-monitoring"
+      ],
+      "doc_id": "arxiv-2404.01833",
+      "heading": "Proposed Mechanism & Architecture",
+      "key_terms": [
+        {
+          "count": 4,
+          "term": "jailbreak"
+        },
+        {
+          "count": 3,
+          "term": "crescendo"
+        },
+        {
+          "count": 2,
+          "term": "model"
+        },
+        {
+          "count": 2,
+          "term": "70b"
+        },
+        {
+          "count": 2,
+          "term": "chat"
+        },
+        {
+          "count": 1,
+          "term": "proposed"
+        },
+        {
+          "count": 1,
+          "term": "mechanism"
+        },
+        {
+          "count": 1,
+          "term": "architecture"
+        },
+        {
+          "count": 1,
+          "term": "paper"
+        },
+        {
+          "count": 1,
+          "term": "introduce"
+        },
+        {
+          "count": 1,
+          "term": "novel"
+        },
+        {
+          "count": 1,
+          "term": "attack"
+        }
+      ],
+      "section_index": 2,
+      "taxonomy_paths": [
+        "Security & Resilience",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security > Session & Trajectory Monitoring"
+      ],
+      "technology_areas": [
+        "AI Alignment & Agentic Security",
+        "Hardware & AI Security"
+      ],
+      "text": "In this paper, we introduce a novel jailbreak attack called Crescendo. Unlike existing jailbreak methods, Crescendo is a simple multi-turn jailbreak that interacts with the model in a seemingly benign manner. It begins with a general prompt or question about the task at hand and then gradually escalates the dialogue by referencing the model's replies progressively leading to a successful jailbreak. We evaluate Crescendo on various public systems, including ChatGPT, Gemini Pro, Gemini-Ultra, LlaMA-2 70b and LlaMA-3 70b Chat, and Anthropic Chat.",
+      "token_count": 82
+    },
+    {
+      "chunk_id": "arxiv-2404.01833#chunk-03",
+      "concept_ids": [
+        "concept:agentic-security",
+        "concept:diffusion-multimodal",
+        "concept:trajectory-monitoring"
+      ],
+      "doc_id": "arxiv-2404.01833",
+      "heading": "Evaluation & Key Findings",
+      "key_terms": [
+        {
+          "count": 3,
+          "term": "demonstrate"
+        },
+        {
+          "count": 3,
+          "term": "crescendo"
+        },
+        {
+          "count": 3,
+          "term": "models"
+        },
+        {
+          "count": 2,
+          "term": "efficacy"
+        },
+        {
+          "count": 2,
+          "term": "achieving"
+        },
+        {
+          "count": 2,
+          "term": "attack"
+        },
+        {
+          "count": 2,
+          "term": "crescendomation"
+        },
+        {
+          "count": 2,
+          "term": "state-of-the-art"
+        },
+        {
+          "count": 1,
+          "term": "evaluation"
+        },
+        {
+          "count": 1,
+          "term": "key"
+        },
+        {
+          "count": 1,
+          "term": "findings"
+        },
+        {
+          "count": 1,
+          "term": "results"
+        }
+      ],
+      "section_index": 3,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Probabilistic, Diffusion & Multimodal Vision",
+        "Security & Resilience",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security > Session & Trajectory Monitoring"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "AI Alignment & Agentic Security",
+        "Hardware & AI Security",
+        "Multimodal Vision & Probabilistic Generative Models"
+      ],
+      "text": "Our results demonstrate the strong efficacy of Crescendo, with it achieving high attack success rates across all evaluated models and tasks. Furthermore, we present Crescendomation, a tool that automates the Crescendo attack and demonstrate its efficacy against state-of-the-art models through our evaluations. Crescendomation surpasses other state-of-the-art jailbreaking techniques on the AdvBench subset dataset, achieving 29-61% higher performance on GPT-4 and 49-71% on Gemini-Pro. Finally, we also demonstrate Crescendo's ability to jailbreak multimodal models.",
+      "token_count": 73
+    }
+  ],
   "arxiv-2503.19174": [
     {
       "chunk_id": "arxiv-2503.19174#chunk-01",
@@ -1432,6 +1660,449 @@
       "token_count": 30
     }
   ],
+  "arxiv-2506.10597": [
+    {
+      "chunk_id": "arxiv-2506.10597#chunk-01",
+      "concept_ids": [
+        "concept:agentic-security",
+        "concept:dnn"
+      ],
+      "doc_id": "arxiv-2506.10597",
+      "heading": "Problem Statement & Context",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "jailbreak"
+        },
+        {
+          "count": 2,
+          "term": "guardrails"
+        },
+        {
+          "count": 2,
+          "term": "large"
+        },
+        {
+          "count": 2,
+          "term": "language"
+        },
+        {
+          "count": 2,
+          "term": "models"
+        },
+        {
+          "count": 2,
+          "term": "have"
+        },
+        {
+          "count": 1,
+          "term": "sok"
+        },
+        {
+          "count": 1,
+          "term": "evaluating"
+        },
+        {
+          "count": 1,
+          "term": "problem"
+        },
+        {
+          "count": 1,
+          "term": "statement"
+        },
+        {
+          "count": 1,
+          "term": "context"
+        },
+        {
+          "count": 1,
+          "term": "llms"
+        }
+      ],
+      "section_index": 1,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Security & Resilience",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "AI Alignment & Agentic Security",
+        "Deep Learning Architectures",
+        "Hardware & AI Security"
+      ],
+      "text": "Large Language Models (LLMs) have achieved remarkable progress, but their deployment has exposed critical vulnerabilities, particularly to jailbreak attacks that circumvent safety alignments. Guardrails--external defense mechanisms that monitor and control LLM interactions--have emerged as a promising solution.",
+      "token_count": 37
+    },
+    {
+      "chunk_id": "arxiv-2506.10597#chunk-02",
+      "concept_ids": [
+        "concept:agentic-security",
+        "concept:dnn",
+        "concept:ontology-smt-reasoning"
+      ],
+      "doc_id": "arxiv-2506.10597",
+      "heading": "Proposed Mechanism & Architecture",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "guardrails"
+        },
+        {
+          "count": 1,
+          "term": "proposed"
+        },
+        {
+          "count": 1,
+          "term": "mechanism"
+        },
+        {
+          "count": 1,
+          "term": "architecture"
+        },
+        {
+          "count": 1,
+          "term": "however"
+        },
+        {
+          "count": 1,
+          "term": "current"
+        },
+        {
+          "count": 1,
+          "term": "landscape"
+        },
+        {
+          "count": 1,
+          "term": "llm"
+        },
+        {
+          "count": 1,
+          "term": "fragmented"
+        },
+        {
+          "count": 1,
+          "term": "lacking"
+        },
+        {
+          "count": 1,
+          "term": "unified"
+        },
+        {
+          "count": 1,
+          "term": "taxonomy"
+        }
+      ],
+      "section_index": 2,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Artificial Intelligence & Machine Learning > Reasoning, Agents & Retrieval",
+        "Formal Methods & Automated Reasoning",
+        "Formal Methods & Automated Reasoning > Knowledge Representation & Ontologies",
+        "Security & Resilience",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "AI Alignment & Agentic Security",
+        "Agentic Systems & Reasoning",
+        "Automated Reasoning & Mathematical Logic",
+        "Deep Learning Architectures",
+        "Hardware & AI Security",
+        "Ontologies & Description Logic"
+      ],
+      "text": "However, the current landscape of LLM guardrails is fragmented, lacking a unified taxonomy and comprehensive evaluation framework. In this Systematization of Knowledge (SoK) paper, we present the first holistic analysis of jailbreak guardrails for LLMs.",
+      "token_count": 35
+    },
+    {
+      "chunk_id": "arxiv-2506.10597#chunk-03",
+      "concept_ids": [
+        "concept:agentic-security"
+      ],
+      "doc_id": "arxiv-2506.10597",
+      "heading": "Evaluation & Key Findings",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "evaluation"
+        },
+        {
+          "count": 2,
+          "term": "key"
+        },
+        {
+          "count": 2,
+          "term": "guardrails"
+        },
+        {
+          "count": 1,
+          "term": "findings"
+        },
+        {
+          "count": 1,
+          "term": "propose"
+        },
+        {
+          "count": 1,
+          "term": "novel"
+        },
+        {
+          "count": 1,
+          "term": "multi-dimensional"
+        },
+        {
+          "count": 1,
+          "term": "taxonomy"
+        },
+        {
+          "count": 1,
+          "term": "categorizes"
+        },
+        {
+          "count": 1,
+          "term": "along"
+        },
+        {
+          "count": 1,
+          "term": "six"
+        },
+        {
+          "count": 1,
+          "term": "dimensions"
+        }
+      ],
+      "section_index": 3,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Security & Resilience",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "AI Alignment & Agentic Security",
+        "Deep Learning Architectures",
+        "Hardware & AI Security"
+      ],
+      "text": "We propose a novel, multi-dimensional taxonomy that categorizes guardrails along six key dimensions, and introduce a Security-Efficiency-Utility evaluation framework to assess their practical effectiveness. Through extensive analysis and experiments, we identify the strengths and limitations of existing guardrail approaches, provide insights into optimizing their defense mechanisms, and explore their universality across attack types. Our work offers a structured foundation for future research and development, aiming to guide the principled advancement and deployment of robust LLM guardrails. The code is available at https://github.com/xunguangwang/SoK4JailbreakGuardrails.",
+      "token_count": 82
+    }
+  ],
+  "arxiv-2508.00500": [
+    {
+      "chunk_id": "arxiv-2508.00500#chunk-01",
+      "concept_ids": [
+        "concept:agentic-reasoning",
+        "concept:asi",
+        "concept:trajectory-monitoring"
+      ],
+      "doc_id": "arxiv-2508.00500",
+      "heading": "Problem Statement & Context",
+      "key_terms": [
+        {
+          "count": 3,
+          "term": "safety"
+        },
+        {
+          "count": 2,
+          "term": "runtime"
+        },
+        {
+          "count": 2,
+          "term": "monitoring"
+        },
+        {
+          "count": 2,
+          "term": "llm"
+        },
+        {
+          "count": 1,
+          "term": "probguard"
+        },
+        {
+          "count": 1,
+          "term": "proactive"
+        },
+        {
+          "count": 1,
+          "term": "agent"
+        },
+        {
+          "count": 1,
+          "term": "via"
+        },
+        {
+          "count": 1,
+          "term": "probabilistic"
+        },
+        {
+          "count": 1,
+          "term": "prediction"
+        },
+        {
+          "count": 1,
+          "term": "problem"
+        },
+        {
+          "count": 1,
+          "term": "statement"
+        }
+      ],
+      "section_index": 1,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Artificial Intelligence & Machine Learning > Reasoning, Agents & Retrieval",
+        "Security & Resilience",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security > Session & Trajectory Monitoring",
+        "Security & Resilience > Runtime Fault Localization & Recovery"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "AI Alignment & Agentic Security",
+        "Agentic Systems & Reasoning",
+        "Deep Learning Architectures",
+        "Hardware & AI Security",
+        "Self-Healing & Fault-Tolerant AI"
+      ],
+      "text": "Large Language Model (LLM) agents increasingly operate across domains such as robotics, virtual assistants, and web automation. However, their stochastic decision-making introduces safety risks that are difficult to anticipate during execution. Existing runtime monitoring frameworks, such as AgentSpec, primarily rely on reactive safety rules that detect violations only when unsafe behavior is imminent or has already occurred, limiting their ability to handle long-horizon dependencies.",
+      "token_count": 64
+    },
+    {
+      "chunk_id": "arxiv-2508.00500#chunk-02",
+      "concept_ids": [
+        "concept:trajectory-monitoring"
+      ],
+      "doc_id": "arxiv-2508.00500",
+      "heading": "Proposed Mechanism & Architecture",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "probguard"
+        },
+        {
+          "count": 2,
+          "term": "runtime"
+        },
+        {
+          "count": 2,
+          "term": "execution"
+        },
+        {
+          "count": 2,
+          "term": "probability"
+        },
+        {
+          "count": 1,
+          "term": "proposed"
+        },
+        {
+          "count": 1,
+          "term": "mechanism"
+        },
+        {
+          "count": 1,
+          "term": "architecture"
+        },
+        {
+          "count": 1,
+          "term": "present"
+        },
+        {
+          "count": 1,
+          "term": "proactive"
+        },
+        {
+          "count": 1,
+          "term": "monitoring"
+        },
+        {
+          "count": 1,
+          "term": "framework"
+        },
+        {
+          "count": 1,
+          "term": "llm"
+        }
+      ],
+      "section_index": 2,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security > Session & Trajectory Monitoring"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "AI Alignment & Agentic Security",
+        "Deep Learning Architectures"
+      ],
+      "text": "We present ProbGuard, a proactive runtime monitoring framework for LLM agents that anticipates safety violations through probabilistic risk prediction. ProbGuard abstracts agent executions into symbolic states and learns a Discrete-Time Markov Chain (DTMC) from execution traces to model behavioral dynamics. At runtime, the monitor estimates the probability that execution will remain safe from the current state, and triggers an intervention when this probability falls below a user-defined threshold.",
+      "token_count": 68
+    },
+    {
+      "chunk_id": "arxiv-2508.00500#chunk-03",
+      "concept_ids": [],
+      "doc_id": "arxiv-2508.00500",
+      "heading": "Evaluation & Key Findings",
+      "key_terms": [
+        {
+          "count": 4,
+          "term": "probguard"
+        },
+        {
+          "count": 2,
+          "term": "embodied"
+        },
+        {
+          "count": 2,
+          "term": "seconds"
+        },
+        {
+          "count": 2,
+          "term": "stricter"
+        },
+        {
+          "count": 2,
+          "term": "reduces"
+        },
+        {
+          "count": 2,
+          "term": "unsafe"
+        },
+        {
+          "count": 2,
+          "term": "behavior"
+        },
+        {
+          "count": 2,
+          "term": "baseline"
+        },
+        {
+          "count": 2,
+          "term": "completion"
+        },
+        {
+          "count": 1,
+          "term": "evaluation"
+        },
+        {
+          "count": 1,
+          "term": "key"
+        },
+        {
+          "count": 1,
+          "term": "findings"
+        }
+      ],
+      "section_index": 3,
+      "taxonomy_paths": [],
+      "technology_areas": [],
+      "text": "To improve robustness, ProbGuard incorporates semantic validity constraints in the abstraction and admits a PAC-style analysis that characterizes the sample complexity required to certify the learned model under standard assumptions. We evaluate ProbGuard in two safety-critical domains: autonomous driving and embodied household agents. Across evaluated scenarios, ProbGuard consistently predicts traffic law violations and collisions in advance, with warnings up to 15.84 seconds at a threshold yielding no false alarms, and up to 38.66 seconds at stricter thresholds. In embodied agent tasks, ProbGuard's re-prompting intervention mode reduces unsafe behavior by 65.37% relative to the unmonitored baseline while retaining 80.4% of the baseline task completion; a stricter halting configuration reduces unsafe behavior by 93.60% at a larger cost in completion.",
+      "token_count": 118
+    }
+  ],
   "arxiv-2509.25239": [
     {
       "chunk_id": "arxiv-2509.25239#chunk-01",
@@ -1660,6 +2331,694 @@
       ],
       "text": "Provides principled mathematical criteria for choosing between discrete-token deduction and continuous latent recurrence (such as Lattice Deduction Transformers) based on task recursion depth and stochasticity requirements. Curated from kitsumiko/papers (Reasoning & Agents).",
       "token_count": 32
+    }
+  ],
+  "arxiv-2601.00454": [
+    {
+      "chunk_id": "arxiv-2601.00454#chunk-01",
+      "concept_ids": [],
+      "doc_id": "arxiv-2601.00454",
+      "heading": "Problem Statement & Context",
+      "key_terms": [
+        {
+          "count": 4,
+          "term": "m2s"
+        },
+        {
+          "count": 3,
+          "term": "training"
+        },
+        {
+          "count": 3,
+          "term": "guardrail"
+        },
+        {
+          "count": 3,
+          "term": "models"
+        },
+        {
+          "count": 3,
+          "term": "multi-turn"
+        },
+        {
+          "count": 3,
+          "term": "conversations"
+        },
+        {
+          "count": 2,
+          "term": "defensive"
+        },
+        {
+          "count": 2,
+          "term": "compressed"
+        },
+        {
+          "count": 2,
+          "term": "histories"
+        },
+        {
+          "count": 2,
+          "term": "cost"
+        },
+        {
+          "count": 1,
+          "term": "problem"
+        },
+        {
+          "count": 1,
+          "term": "statement"
+        }
+      ],
+      "section_index": 1,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Formal Methods & Automated Reasoning",
+        "Security & Resilience",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "AI Alignment & Agentic Security",
+        "Automated Reasoning & Mathematical Logic",
+        "Deep Learning Architectures",
+        "Hardware & AI Security"
+      ],
+      "text": "Guardrail models are essential for ensuring the safety of Large Language Model (LLM) deployments, but processing full multi-turn conversation histories incurs significant computational cost. We propose Defensive M2S, a training paradigm that fine-tunes guardrail models on Multi-turn to Single-turn (M2S) compressed conversations rather than complete dialogue histories. We provide a formal complexity analysis showing that M2S reduces training cost from $O(n^2)$ to $O(n)$ for $n$-turn conversations.",
+      "token_count": 66
+    },
+    {
+      "chunk_id": "arxiv-2601.00454#chunk-02",
+      "concept_ids": [
+        "concept:agentic-security",
+        "concept:trajectory-monitoring"
+      ],
+      "doc_id": "arxiv-2601.00454",
+      "heading": "Proposed Mechanism & Architecture",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "m2s"
+        },
+        {
+          "count": 2,
+          "term": "tokens"
+        },
+        {
+          "count": 2,
+          "term": "multi-turn"
+        },
+        {
+          "count": 2,
+          "term": "three"
+        },
+        {
+          "count": 1,
+          "term": "proposed"
+        },
+        {
+          "count": 1,
+          "term": "mechanism"
+        },
+        {
+          "count": 1,
+          "term": "architecture"
+        },
+        {
+          "count": 1,
+          "term": "empirically"
+        },
+        {
+          "count": 1,
+          "term": "training"
+        },
+        {
+          "count": 1,
+          "term": "dataset"
+        },
+        {
+          "count": 1,
+          "term": "samples"
+        },
+        {
+          "count": 1,
+          "term": "avg"
+        }
+      ],
+      "section_index": 2,
+      "taxonomy_paths": [
+        "Security & Resilience",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security > Session & Trajectory Monitoring"
+      ],
+      "technology_areas": [
+        "AI Alignment & Agentic Security",
+        "Hardware & AI Security"
+      ],
+      "text": "Empirically, on our training dataset (779 samples, avg. 10.6 turns), M2S requires only 169K tokens compared to 15.7M tokens for the multi-turn baseline -- a 93$\\times$ reduction. We evaluate Defensive M2S across three guardrail model families (LlamaGuard, Nemotron, Qwen3Guard) and three compression templates (hyphenize, numberize, pythonize) on SafeDialBench, a comprehensive multi-turn jailbreak benchmark.",
+      "token_count": 53
+    },
+    {
+      "chunk_id": "arxiv-2601.00454#chunk-03",
+      "concept_ids": [],
+      "doc_id": "arxiv-2601.00454",
+      "heading": "Evaluation & Key Findings",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "findings"
+        },
+        {
+          "count": 2,
+          "term": "compression"
+        },
+        {
+          "count": 2,
+          "term": "while"
+        },
+        {
+          "count": 2,
+          "term": "reducing"
+        },
+        {
+          "count": 2,
+          "term": "inference"
+        },
+        {
+          "count": 2,
+          "term": "tokens"
+        },
+        {
+          "count": 1,
+          "term": "evaluation"
+        },
+        {
+          "count": 1,
+          "term": "key"
+        },
+        {
+          "count": 1,
+          "term": "best"
+        },
+        {
+          "count": 1,
+          "term": "configuration"
+        },
+        {
+          "count": 1,
+          "term": "qwen3guard"
+        },
+        {
+          "count": 1,
+          "term": "hyphenize"
+        }
+      ],
+      "section_index": 3,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Formal Methods & Automated Reasoning",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > AI Accelerators",
+        "Hardware & Semiconductor Systems > Memory & Interconnects",
+        "Security & Resilience",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "AI Alignment & Agentic Security",
+        "AI Hardware Accelerators",
+        "Automated Reasoning & Mathematical Logic",
+        "Hardware & AI Security",
+        "Memory Subsystems & Chiplets",
+        "Semiconductor Engineering"
+      ],
+      "text": "Our best configuration, Qwen3Guard with hyphenize compression, achieves 93.8% attack detection recall while reducing inference tokens by 94.6% (from 3,231 to 173 tokens per conversation). This represents a 38.9 percentage point improvement over the baseline while dramatically reducing both training and inference costs. Our findings demonstrate that M2S compression can serve as an effective efficiency technique for guardrail deployment, enabling scalable safety screening of long multi-turn conversations.",
+      "token_count": 67
+    }
+  ],
+  "arxiv-2601.17548": [
+    {
+      "chunk_id": "arxiv-2601.17548#chunk-01",
+      "concept_ids": [
+        "concept:agentic-reasoning",
+        "concept:agentic-security",
+        "concept:dnn",
+        "concept:endpoint-agent-security"
+      ],
+      "doc_id": "arxiv-2601.17548",
+      "heading": "Problem Statement & Context",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "agentic"
+        },
+        {
+          "count": 2,
+          "term": "coding"
+        },
+        {
+          "count": 2,
+          "term": "assistants"
+        },
+        {
+          "count": 2,
+          "term": "vulnerabilities"
+        },
+        {
+          "count": 2,
+          "term": "tools"
+        },
+        {
+          "count": 2,
+          "term": "protocol"
+        },
+        {
+          "count": 2,
+          "term": "context"
+        },
+        {
+          "count": 2,
+          "term": "systems"
+        },
+        {
+          "count": 1,
+          "term": "prompt"
+        },
+        {
+          "count": 1,
+          "term": "injection"
+        },
+        {
+          "count": 1,
+          "term": "attacks"
+        },
+        {
+          "count": 1,
+          "term": "systematic"
+        }
+      ],
+      "section_index": 1,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Artificial Intelligence & Machine Learning > Reasoning, Agents & Retrieval",
+        "Formal Methods & Automated Reasoning",
+        "Formal Methods & Automated Reasoning > SAT & SMT Solvers",
+        "Formal Methods & Automated Reasoning > SAT & SMT Solvers > Software Verification & Symbolic Execution",
+        "Security & Resilience",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security > Endpoint & Agent Runtime"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "AI Alignment & Agentic Security",
+        "Agentic Systems & Reasoning",
+        "Automated Reasoning & Mathematical Logic",
+        "Deep Learning Architectures",
+        "Hardware & AI Security",
+        "SAT & SMT Decision Procedures",
+        "Software Verification & Program Analysis"
+      ],
+      "text": "The proliferation of agentic AI coding assistants, including Claude Code, GitHub Copilot, Cursor, and emerging skill-based architectures, has fundamentally transformed software development workflows. These systems leverage Large Language Models (LLMs) integrated with external tools, file systems, and shell access through protocols like the Model Context Protocol (MCP). However, this expanded capability surface introduces critical security vulnerabilities.",
+      "token_count": 56
+    },
+    {
+      "chunk_id": "arxiv-2601.17548#chunk-02",
+      "concept_ids": [
+        "concept:agentic-reasoning",
+        "concept:agentic-security",
+        "concept:endpoint-agent-security",
+        "concept:ontology-smt-reasoning"
+      ],
+      "doc_id": "arxiv-2601.17548",
+      "heading": "Proposed Mechanism & Architecture",
+      "key_terms": [
+        {
+          "count": 3,
+          "term": "textit"
+        },
+        {
+          "count": 3,
+          "term": "attack"
+        },
+        {
+          "count": 2,
+          "term": "attacks"
+        },
+        {
+          "count": 1,
+          "term": "proposed"
+        },
+        {
+          "count": 1,
+          "term": "mechanism"
+        },
+        {
+          "count": 1,
+          "term": "architecture"
+        },
+        {
+          "count": 1,
+          "term": "textbf"
+        },
+        {
+          "count": 1,
+          "term": "systematization"
+        },
+        {
+          "count": 1,
+          "term": "knowledge"
+        },
+        {
+          "count": 1,
+          "term": "sok"
+        },
+        {
+          "count": 1,
+          "term": "paper"
+        },
+        {
+          "count": 1,
+          "term": "present"
+        }
+      ],
+      "section_index": 2,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Reasoning, Agents & Retrieval",
+        "Formal Methods & Automated Reasoning",
+        "Formal Methods & Automated Reasoning > Knowledge Representation & Ontologies",
+        "Security & Resilience",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security > Endpoint & Agent Runtime"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "AI Alignment & Agentic Security",
+        "Agentic Systems & Reasoning",
+        "Automated Reasoning & Mathematical Logic",
+        "Hardware & AI Security",
+        "Ontologies & Description Logic"
+      ],
+      "text": "In this \\textbf{Systematization of Knowledge (SoK)} paper, we present a comprehensive analysis of prompt injection attacks targeting agentic coding assistants. We propose a novel three-dimensional taxonomy categorizing attacks across \\textit{delivery vectors}, \\textit{attack modalities}, and \\textit{propagation behaviors}. Our meta-analysis synthesizes findings from 78 recent studies (2021--2026), consolidating evidence that attack success rates against state-of-the-art defenses exceed 85\\% when adaptive attack strategies are employed.",
+      "token_count": 62
+    },
+    {
+      "chunk_id": "arxiv-2601.17548#chunk-03",
+      "concept_ids": [
+        "concept:agentic-security",
+        "concept:diffusion-multimodal"
+      ],
+      "doc_id": "arxiv-2601.17548",
+      "heading": "Evaluation & Key Findings",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "findings"
+        },
+        {
+          "count": 2,
+          "term": "attack"
+        },
+        {
+          "count": 2,
+          "term": "poisoning"
+        },
+        {
+          "count": 2,
+          "term": "injection"
+        },
+        {
+          "count": 2,
+          "term": "analysis"
+        },
+        {
+          "count": 2,
+          "term": "identify"
+        },
+        {
+          "count": 2,
+          "term": "than"
+        },
+        {
+          "count": 1,
+          "term": "evaluation"
+        },
+        {
+          "count": 1,
+          "term": "key"
+        },
+        {
+          "count": 1,
+          "term": "systematically"
+        },
+        {
+          "count": 1,
+          "term": "catalog"
+        },
+        {
+          "count": 1,
+          "term": "distinct"
+        }
+      ],
+      "section_index": 3,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Probabilistic, Diffusion & Multimodal Vision",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > AI Accelerators",
+        "Security & Resilience",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "AI Alignment & Agentic Security",
+        "AI Hardware Accelerators",
+        "Hardware & AI Security",
+        "Multimodal Vision & Probabilistic Generative Models",
+        "Semiconductor Engineering"
+      ],
+      "text": "We systematically catalog 42 distinct attack techniques spanning input manipulation, tool poisoning, protocol exploitation, multimodal injection, and cross-origin context poisoning. Through critical analysis of 18 defense mechanisms reported in prior work, we identify that most achieve less than 50\\% mitigation against sophisticated adaptive attacks. We contribute: (1) a unified taxonomy bridging disparate attack classifications, (2) the first systematic analysis of skill-based architecture vulnerabilities with concrete exploit chains, and (3) a defense-in-depth framework grounded in the limitations we identify. Our findings indicate that the security community must treat prompt injection as a first-class vulnerability class requiring architectural-level mitigations rather than ad-hoc filtering approaches.",
+      "token_count": 102
+    }
+  ],
+  "arxiv-2602.11247": [
+    {
+      "chunk_id": "arxiv-2602.11247#chunk-01",
+      "concept_ids": [
+        "concept:agentic-security"
+      ],
+      "doc_id": "arxiv-2602.11247",
+      "heading": "Problem Statement & Context",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "formula"
+        },
+        {
+          "count": 2,
+          "term": "multi-turn"
+        },
+        {
+          "count": 2,
+          "term": "llm"
+        },
+        {
+          "count": 2,
+          "term": "detection"
+        },
+        {
+          "count": 1,
+          "term": "peak"
+        },
+        {
+          "count": 1,
+          "term": "accumulation"
+        },
+        {
+          "count": 1,
+          "term": "proxy-level"
+        },
+        {
+          "count": 1,
+          "term": "scoring"
+        },
+        {
+          "count": 1,
+          "term": "attack"
+        },
+        {
+          "count": 1,
+          "term": "problem"
+        },
+        {
+          "count": 1,
+          "term": "statement"
+        },
+        {
+          "count": 1,
+          "term": "context"
+        }
+      ],
+      "section_index": 1,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Formal Methods & Automated Reasoning",
+        "Security & Resilience",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "AI Alignment & Agentic Security",
+        "Automated Reasoning & Mathematical Logic",
+        "Deep Learning Architectures",
+        "Hardware & AI Security"
+      ],
+      "text": "Multi-turn prompt injection attacks distribute malicious intent across multiple conversation turns, exploiting the assumption that each turn is evaluated independently. While single-turn detection has been extensively studied, no published formula exists for aggregating per-turn pattern scores into a conversation-level risk score at the proxy layer -- without invoking an LLM.",
+      "token_count": 50
+    },
+    {
+      "chunk_id": "arxiv-2602.11247#chunk-02",
+      "concept_ids": [],
+      "doc_id": "arxiv-2602.11247",
+      "heading": "Proposed Mechanism & Architecture",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "turn"
+        },
+        {
+          "count": 2,
+          "term": "peak"
+        },
+        {
+          "count": 1,
+          "term": "proposed"
+        },
+        {
+          "count": 1,
+          "term": "mechanism"
+        },
+        {
+          "count": 1,
+          "term": "architecture"
+        },
+        {
+          "count": 1,
+          "term": "identify"
+        },
+        {
+          "count": 1,
+          "term": "fundamental"
+        },
+        {
+          "count": 1,
+          "term": "flaw"
+        },
+        {
+          "count": 1,
+          "term": "intuitive"
+        },
+        {
+          "count": 1,
+          "term": "weighted-average"
+        },
+        {
+          "count": 1,
+          "term": "approach"
+        },
+        {
+          "count": 1,
+          "term": "converges"
+        }
+      ],
+      "section_index": 2,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Probabilistic, Diffusion & Multimodal Vision",
+        "Artificial Intelligence & Machine Learning > Reasoning, Agents & Retrieval",
+        "Security & Resilience"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "Agentic Systems & Reasoning",
+        "Hardware & AI Security",
+        "Multimodal Vision & Probabilistic Generative Models"
+      ],
+      "text": "We identify a fundamental flaw in the intuitive weighted-average approach: it converges to the per-turn score regardless of turn count, meaning a 20-turn persistent attack scores identically to a single suspicious turn. Drawing on analogies from change-point detection (CUSUM), Bayesian belief updating, and security risk-based alerting, we propose peak + accumulation scoring -- a formula combining peak single-turn risk, persistence ratio, and category diversity.",
+      "token_count": 64
+    },
+    {
+      "chunk_id": "arxiv-2602.11247#chunk-03",
+      "concept_ids": [
+        "concept:agentic-security"
+      ],
+      "doc_id": "arxiv-2602.11247",
+      "heading": "Evaluation & Key Findings",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "evaluation"
+        },
+        {
+          "count": 2,
+          "term": "conversations"
+        },
+        {
+          "count": 2,
+          "term": "recall"
+        },
+        {
+          "count": 1,
+          "term": "key"
+        },
+        {
+          "count": 1,
+          "term": "findings"
+        },
+        {
+          "count": 1,
+          "term": "evaluated"
+        },
+        {
+          "count": 1,
+          "term": "multi-turn"
+        },
+        {
+          "count": 1,
+          "term": "attacks"
+        },
+        {
+          "count": 1,
+          "term": "sourced"
+        },
+        {
+          "count": 1,
+          "term": "wildjailbreak"
+        },
+        {
+          "count": 1,
+          "term": "adversarial"
+        },
+        {
+          "count": 1,
+          "term": "prompts"
+        }
+      ],
+      "section_index": 3,
+      "taxonomy_paths": [
+        "Formal Methods & Automated Reasoning",
+        "Security & Resilience",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security"
+      ],
+      "technology_areas": [
+        "AI Alignment & Agentic Security",
+        "Automated Reasoning & Mathematical Logic",
+        "Hardware & AI Security"
+      ],
+      "text": "Evaluated on 10,654 multi-turn conversations -- 588 attacks sourced from WildJailbreak adversarial prompts and 10,066 benign conversations from WildChat -- the formula achieves 90.8% recall at 1.20% false positive rate with an F1 of 85.9%. A sensitivity analysis over the persistence parameter reveals a phase transition at rho ~ 0.4, where recall jumps 12 percentage points with negligible FPR increase. We release the scoring algorithm, pattern library, and evaluation harness as open source.",
+      "token_count": 73
     }
   ],
   "arxiv-2602.13237": [
@@ -1902,6 +3261,242 @@
       ],
       "text": "NL2LOGIC reaches 99% syntactic accuracy and up to 30% higher semantic correctness than prior LLM logic-parsing methods on FOLIO, LogicNLI, and ProofWriter, lifting downstream formal reasoning accuracy by 31% when integrated into Logic-LM. Curated from kitsumiko/papers (Reasoning & Agents).",
       "token_count": 39
+    }
+  ],
+  "arxiv-2602.16935": [
+    {
+      "chunk_id": "arxiv-2602.16935#chunk-01",
+      "concept_ids": [
+        "concept:dnn",
+        "concept:ontology-smt-reasoning",
+        "concept:trajectory-monitoring"
+      ],
+      "doc_id": "arxiv-2602.16935",
+      "heading": "Problem Statement & Context",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "multi-turn"
+        },
+        {
+          "count": 2,
+          "term": "adversarial"
+        },
+        {
+          "count": 2,
+          "term": "intent"
+        },
+        {
+          "count": 2,
+          "term": "safety"
+        },
+        {
+          "count": 2,
+          "term": "stateless"
+        },
+        {
+          "count": 1,
+          "term": "deepcontext"
+        },
+        {
+          "count": 1,
+          "term": "stateful"
+        },
+        {
+          "count": 1,
+          "term": "real-time"
+        },
+        {
+          "count": 1,
+          "term": "detection"
+        },
+        {
+          "count": 1,
+          "term": "drift"
+        },
+        {
+          "count": 1,
+          "term": "llms"
+        },
+        {
+          "count": 1,
+          "term": "problem"
+        }
+      ],
+      "section_index": 1,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Formal Methods & Automated Reasoning",
+        "Formal Methods & Automated Reasoning > Knowledge Representation & Ontologies",
+        "Security & Resilience",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security > Session & Trajectory Monitoring",
+        "Security & Resilience > Memory Safety & Software Capabilities"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "AI Alignment & Agentic Security",
+        "Automated Reasoning & Mathematical Logic",
+        "Deep Learning Architectures",
+        "Hardware & AI Security",
+        "Language & Runtime Memory Safety",
+        "Ontologies & Description Logic"
+      ],
+      "text": "While Large Language Model (LLM) capabilities have scaled, safety guardrails remain largely stateless, treating multi-turn dialogues as a series of disconnected events. This lack of temporal awareness facilitates a \"Safety Gap\" where adversarial tactics, like Crescendo and ActorAttack, slowly bleed malicious intent across turn boundaries to bypass stateless filters.",
+      "token_count": 49
+    },
+    {
+      "chunk_id": "arxiv-2602.16935#chunk-02",
+      "concept_ids": [
+        "concept:trajectory-monitoring"
+      ],
+      "doc_id": "arxiv-2602.16935",
+      "heading": "Proposed Mechanism & Architecture",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "architecture"
+        },
+        {
+          "count": 2,
+          "term": "deepcontext"
+        },
+        {
+          "count": 1,
+          "term": "proposed"
+        },
+        {
+          "count": 1,
+          "term": "mechanism"
+        },
+        {
+          "count": 1,
+          "term": "introduce"
+        },
+        {
+          "count": 1,
+          "term": "stateful"
+        },
+        {
+          "count": 1,
+          "term": "monitoring"
+        },
+        {
+          "count": 1,
+          "term": "framework"
+        },
+        {
+          "count": 1,
+          "term": "designed"
+        },
+        {
+          "count": 1,
+          "term": "map"
+        },
+        {
+          "count": 1,
+          "term": "temporal"
+        },
+        {
+          "count": 1,
+          "term": "trajectory"
+        }
+      ],
+      "section_index": 2,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Security & Resilience",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security > Session & Trajectory Monitoring",
+        "Security & Resilience > Memory Safety & Software Capabilities"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "AI Alignment & Agentic Security",
+        "Hardware & AI Security",
+        "Language & Runtime Memory Safety"
+      ],
+      "text": "We introduce DeepContext, a stateful monitoring framework designed to map the temporal trajectory of user intent. DeepContext discards the isolated evaluation model in favor of a Recurrent Neural Network (RNN) architecture that ingests a sequence of fine-tuned turn-level embeddings.",
+      "token_count": 39
+    },
+    {
+      "chunk_id": "arxiv-2602.16935#chunk-03",
+      "concept_ids": [
+        "concept:agentic-security",
+        "concept:trajectory-monitoring"
+      ],
+      "doc_id": "arxiv-2602.16935",
+      "heading": "Evaluation & Key Findings",
+      "key_terms": [
+        {
+          "count": 3,
+          "term": "deepcontext"
+        },
+        {
+          "count": 3,
+          "term": "models"
+        },
+        {
+          "count": 2,
+          "term": "evaluation"
+        },
+        {
+          "count": 2,
+          "term": "stateless"
+        },
+        {
+          "count": 1,
+          "term": "key"
+        },
+        {
+          "count": 1,
+          "term": "findings"
+        },
+        {
+          "count": 1,
+          "term": "propagating"
+        },
+        {
+          "count": 1,
+          "term": "hidden"
+        },
+        {
+          "count": 1,
+          "term": "state"
+        },
+        {
+          "count": 1,
+          "term": "conversation"
+        },
+        {
+          "count": 1,
+          "term": "captures"
+        },
+        {
+          "count": 1,
+          "term": "incremental"
+        }
+      ],
+      "section_index": 3,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Formal Methods & Automated Reasoning",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > AI Accelerators",
+        "Security & Resilience",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security > Session & Trajectory Monitoring"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "AI Alignment & Agentic Security",
+        "AI Hardware Accelerators",
+        "Automated Reasoning & Mathematical Logic",
+        "Hardware & AI Security",
+        "Semiconductor Engineering"
+      ],
+      "text": "By propagating a hidden state across the conversation, DeepContext captures the incremental accumulation of risk that stateless models overlook. Our evaluation demonstrates that DeepContext significantly outperforms existing baselines in multi-turn jailbreak detection, achieving a state-of-the-art F1 score of 0.84, which represents a substantial improvement over both hyperscaler cloud-provider guardrails and leading open-weight models such as Llama-Prompt-Guard-2 (0.67) and Granite-Guardian (0.67). Furthermore, DeepContext maintains a sub-20ms inference overhead on a T4 GPU, ensuring viability for real-time applications. These results suggest that modeling the sequential evolution of intent is a more effective and computationally efficient alternative to deploying massive, stateless models.",
+      "token_count": 99
     }
   ],
   "arxiv-2603.19163": [
@@ -2361,6 +3956,702 @@
       ],
       "text": "Coupling deterministic formal solvers with automated assertion synthesis eliminates vacuous properties and accelerates pre-silicon verification of complex SoC interconnects and AI accelerator datapaths.",
       "token_count": 23
+    }
+  ],
+  "arxiv-2604.23338": [
+    {
+      "chunk_id": "arxiv-2604.23338#chunk-01",
+      "concept_ids": [
+        "concept:agentic-reasoning",
+        "concept:agentic-security",
+        "concept:dnn"
+      ],
+      "doc_id": "arxiv-2604.23338",
+      "heading": "Problem Statement & Context",
+      "key_terms": [
+        {
+          "count": 3,
+          "term": "security"
+        },
+        {
+          "count": 2,
+          "term": "threats"
+        },
+        {
+          "count": 2,
+          "term": "ai"
+        },
+        {
+          "count": 2,
+          "term": "agents"
+        },
+        {
+          "count": 2,
+          "term": "attack"
+        },
+        {
+          "count": 2,
+          "term": "surface"
+        },
+        {
+          "count": 2,
+          "term": "agentic"
+        },
+        {
+          "count": 2,
+          "term": "prompt"
+        },
+        {
+          "count": 1,
+          "term": "systematic"
+        },
+        {
+          "count": 1,
+          "term": "survey"
+        },
+        {
+          "count": 1,
+          "term": "defenses"
+        },
+        {
+          "count": 1,
+          "term": "llm-based"
+        }
+      ],
+      "section_index": 1,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Artificial Intelligence & Machine Learning > Reasoning, Agents & Retrieval",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > Memory & Interconnects",
+        "Security & Resilience",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "AI Alignment & Agentic Security",
+        "Agentic Systems & Reasoning",
+        "Deep Learning Architectures",
+        "Hardware & AI Security",
+        "Memory Subsystems & Chiplets",
+        "Semiconductor Engineering"
+      ],
+      "text": "Agentic AI systems introduce a security surface that is qualitatively different from that of stateless LLMs. They persist memory, invoke external tools, coordinate with peer agents, and operate across sessions, allowing attacks to emerge not only at the prompt interface but also through architectural state, delegated authority, and long-horizon interactions. Existing security taxonomies, however, primarily organize threats by attack type, such as prompt injection or jailbreaking, and therefore obscure where in the agentic stack a threat arises and over what timescale it manifests.",
+      "token_count": 83
+    },
+    {
+      "chunk_id": "arxiv-2604.23338#chunk-02",
+      "concept_ids": [
+        "concept:agentic-reasoning"
+      ],
+      "doc_id": "arxiv-2604.23338",
+      "heading": "Proposed Mechanism & Architecture",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "lasm"
+        },
+        {
+          "count": 2,
+          "term": "agentic"
+        },
+        {
+          "count": 1,
+          "term": "proposed"
+        },
+        {
+          "count": 1,
+          "term": "mechanism"
+        },
+        {
+          "count": 1,
+          "term": "architecture"
+        },
+        {
+          "count": 1,
+          "term": "propose"
+        },
+        {
+          "count": 1,
+          "term": "layered"
+        },
+        {
+          "count": 1,
+          "term": "attack"
+        },
+        {
+          "count": 1,
+          "term": "surface"
+        },
+        {
+          "count": 1,
+          "term": "model"
+        },
+        {
+          "count": 1,
+          "term": "structural"
+        },
+        {
+          "count": 1,
+          "term": "taxonomy"
+        }
+      ],
+      "section_index": 2,
+      "taxonomy_paths": [
+        "AI Policy, Governance & Human-AI Systems",
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Artificial Intelligence & Machine Learning > Reasoning, Agents & Retrieval",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > Memory & Interconnects",
+        "Security & Resilience",
+        "Security & Resilience > Memory Safety & Software Capabilities"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "AI Governance, Policy & Human-AI Interaction",
+        "Agentic Systems & Reasoning",
+        "Deep Learning Architectures",
+        "Hardware & AI Security",
+        "Language & Runtime Memory Safety",
+        "Memory Subsystems & Chiplets",
+        "Semiconductor Engineering"
+      ],
+      "text": "We propose the Layered Attack Surface Model (\\lasm), a structural taxonomy for agentic AI security. \\lasm decomposes the agentic stack into seven layers -- Foundation, Cognitive, Memory, Tool Execution, Multi-Agent Coordination, Ecosystem, and Governance -- and augments them with a four-class temporality axis covering instantaneous, session-persistent, cross-session cumulative, and sub-session-stack threats. We use this 7$\\times$4 framework to analyze 116 papers from 2021--2026.",
+      "token_count": 62
+    },
+    {
+      "chunk_id": "arxiv-2604.23338#chunk-03",
+      "concept_ids": [
+        "concept:agentic-reasoning"
+      ],
+      "doc_id": "arxiv-2604.23338",
+      "heading": "Evaluation & Key Findings",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "attack"
+        },
+        {
+          "count": 2,
+          "term": "no"
+        },
+        {
+          "count": 2,
+          "term": "defense"
+        },
+        {
+          "count": 1,
+          "term": "evaluation"
+        },
+        {
+          "count": 1,
+          "term": "key"
+        },
+        {
+          "count": 1,
+          "term": "findings"
+        },
+        {
+          "count": 1,
+          "term": "resulting"
+        },
+        {
+          "count": 1,
+          "term": "map"
+        },
+        {
+          "count": 1,
+          "term": "reveals"
+        },
+        {
+          "count": 1,
+          "term": "upper"
+        },
+        {
+          "count": 1,
+          "term": "layers"
+        },
+        {
+          "count": 1,
+          "term": "agentic"
+        }
+      ],
+      "section_index": 3,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Artificial Intelligence & Machine Learning > Reasoning, Agents & Retrieval",
+        "Formal Methods & Automated Reasoning",
+        "Formal Methods & Automated Reasoning > SAT & SMT Solvers",
+        "Formal Methods & Automated Reasoning > SAT & SMT Solvers > Graph Theory Modulo Theories",
+        "Security & Resilience"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "Agentic Systems & Reasoning",
+        "Automated Reasoning & Mathematical Logic",
+        "Deep Learning Architectures",
+        "Graph Analysis & Combinatorial Optimization",
+        "Hardware & AI Security",
+        "SAT & SMT Decision Procedures"
+      ],
+      "text": "The resulting map reveals that the upper layers of the agentic stack remain sharply under-explored, especially for long-horizon and stack-propagating threats; multiple documented attack regions have no corresponding defenses; and current benchmarks provide no coverage for cross-session or sub-session-stack failure modes. We further derive a cross-layer defense taxonomy, defense recipes for canonical attack classes, and a dependency DAG that separates near-term engineering gaps from fundamental research challenges. We release the per-paper coding, robustness scripts, and a reference Agent Bill of Materials schema to support reproducible analysis.",
+      "token_count": 86
+    }
+  ],
+  "arxiv-2605.01143": [
+    {
+      "chunk_id": "arxiv-2605.01143#chunk-01",
+      "concept_ids": [
+        "concept:agentic-security",
+        "concept:asi"
+      ],
+      "doc_id": "arxiv-2605.01143",
+      "heading": "Problem Statement & Context",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "adversarial"
+        },
+        {
+          "count": 2,
+          "term": "interaction"
+        },
+        {
+          "count": 2,
+          "term": "agents"
+        },
+        {
+          "count": 2,
+          "term": "strategies"
+        },
+        {
+          "count": 1,
+          "term": "low-latency"
+        },
+        {
+          "count": 1,
+          "term": "fraud"
+        },
+        {
+          "count": 1,
+          "term": "detection"
+        },
+        {
+          "count": 1,
+          "term": "layer"
+        },
+        {
+          "count": 1,
+          "term": "detecting"
+        },
+        {
+          "count": 1,
+          "term": "patterns"
+        },
+        {
+          "count": 1,
+          "term": "llm-powered"
+        },
+        {
+          "count": 1,
+          "term": "problem"
+        }
+      ],
+      "section_index": 1,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Artificial Intelligence & Machine Learning > Reasoning, Agents & Retrieval",
+        "Security & Resilience",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security",
+        "Security & Resilience > Runtime Fault Localization & Recovery"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "AI Alignment & Agentic Security",
+        "Agentic Systems & Reasoning",
+        "Deep Learning Architectures",
+        "Hardware & AI Security",
+        "Self-Healing & Fault-Tolerant AI"
+      ],
+      "text": "Large Language Model (LLM)-powered agents demonstrate strong capabilities in autonomous task execution, tool use, and multi-step reasoning. However, their increasing autonomy also introduces a new attack surface: adversarial interactions can manipulate agent behavior through direct prompt injection, indirect content attacks, and multi-turn escalation strategies. Existing defense strategies focus on prompt-level filtering and rule-based guardrails, which are often insufficient when risk emerges gradually across interaction sequences.",
+      "token_count": 65
+    },
+    {
+      "chunk_id": "arxiv-2605.01143#chunk-02",
+      "concept_ids": [
+        "concept:trajectory-monitoring"
+      ],
+      "doc_id": "arxiv-2605.01143",
+      "heading": "Proposed Mechanism & Architecture",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "mechanism"
+        },
+        {
+          "count": 2,
+          "term": "low-latency"
+        },
+        {
+          "count": 2,
+          "term": "detection"
+        },
+        {
+          "count": 2,
+          "term": "layer"
+        },
+        {
+          "count": 2,
+          "term": "interaction"
+        },
+        {
+          "count": 2,
+          "term": "prompt"
+        },
+        {
+          "count": 2,
+          "term": "models"
+        },
+        {
+          "count": 2,
+          "term": "using"
+        },
+        {
+          "count": 1,
+          "term": "proposed"
+        },
+        {
+          "count": 1,
+          "term": "architecture"
+        },
+        {
+          "count": 1,
+          "term": "work"
+        },
+        {
+          "count": 1,
+          "term": "propose"
+        }
+      ],
+      "section_index": 2,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Security & Resilience",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security > Session & Trajectory Monitoring"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "AI Alignment & Agentic Security",
+        "Deep Learning Architectures",
+        "Hardware & AI Security"
+      ],
+      "text": "In this work, we propose a complementary defense mechanism: a low-latency fraud detection layer for detecting adversarial interaction patterns in LLM-powered agents. Instead of determining whether a single prompt is malicious, our approach models risk over interaction trajectories using structured runtime features derived from prompt characteristics, session dynamics, tool usage, execution context, and fraud-inspired signals. The detection layer can be implemented using lightweight models leading to low-latency real-time deployments.",
+      "token_count": 69
+    },
+    {
+      "chunk_id": "arxiv-2605.01143#chunk-03",
+      "concept_ids": [
+        "concept:agentic-reasoning"
+      ],
+      "doc_id": "arxiv-2605.01143",
+      "heading": "Evaluation & Key Findings",
+      "key_terms": [
+        {
+          "count": 1,
+          "term": "evaluation"
+        },
+        {
+          "count": 1,
+          "term": "key"
+        },
+        {
+          "count": 1,
+          "term": "findings"
+        },
+        {
+          "count": 1,
+          "term": "evaluate"
+        },
+        {
+          "count": 1,
+          "term": "framework"
+        },
+        {
+          "count": 1,
+          "term": "construct"
+        },
+        {
+          "count": 1,
+          "term": "synthetic"
+        },
+        {
+          "count": 1,
+          "term": "corpus"
+        },
+        {
+          "count": 1,
+          "term": "multi-turn"
+        },
+        {
+          "count": 1,
+          "term": "agent"
+        },
+        {
+          "count": 1,
+          "term": "interactions"
+        },
+        {
+          "count": 1,
+          "term": "generated"
+        }
+      ],
+      "section_index": 3,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Artificial Intelligence & Machine Learning > Reasoning, Agents & Retrieval"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "Agentic Systems & Reasoning",
+        "Deep Learning Architectures"
+      ],
+      "text": "To evaluate the framework, we construct a synthetic corpus of 12,000 multi-turn agent interactions generated from parameterized templates that simulate realistic agentic workflows. Using 42 structured features and an XGBoost classifier, our detector achieves over 9 times faster than LLM-based detectors. Through the experiment and ablation studies, our work suggests that interaction-level behavioral detection should become a core component of deployment-time defense for LLM-powered agents.",
+      "token_count": 65
+    }
+  ],
+  "arxiv-2605.04785": [
+    {
+      "chunk_id": "arxiv-2605.04785#chunk-01",
+      "concept_ids": [
+        "concept:trajectory-monitoring"
+      ],
+      "doc_id": "arxiv-2605.04785",
+      "heading": "Problem Statement & Context",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "ai"
+        },
+        {
+          "count": 2,
+          "term": "tool"
+        },
+        {
+          "count": 2,
+          "term": "context"
+        },
+        {
+          "count": 2,
+          "term": "action"
+        },
+        {
+          "count": 1,
+          "term": "agenttrust"
+        },
+        {
+          "count": 1,
+          "term": "runtime"
+        },
+        {
+          "count": 1,
+          "term": "safety"
+        },
+        {
+          "count": 1,
+          "term": "evaluation"
+        },
+        {
+          "count": 1,
+          "term": "interception"
+        },
+        {
+          "count": 1,
+          "term": "agent"
+        },
+        {
+          "count": 1,
+          "term": "use"
+        },
+        {
+          "count": 1,
+          "term": "problem"
+        }
+      ],
+      "section_index": 1,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Reasoning, Agents & Retrieval",
+        "Security & Resilience",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security > Session & Trajectory Monitoring"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "AI Alignment & Agentic Security",
+        "Agentic Systems & Reasoning",
+        "Hardware & AI Security"
+      ],
+      "text": "Modern AI agents execute real-world side effects through tool calls such as file operations, shell commands, HTTP requests, and database queries. A single unsafe action, including accidental deletion, credential exposure, or data exfiltration, can cause irreversible harm. Existing defenses are incomplete: post-hoc benchmarks measure behavior after execution, static guardrails miss obfuscation and multi-step context, and infrastructure sandboxes constrain where code runs without understanding what an action means.",
+      "token_count": 67
+    },
+    {
+      "chunk_id": "arxiv-2605.04785#chunk-02",
+      "concept_ids": [
+        "concept:trajectory-monitoring"
+      ],
+      "doc_id": "arxiv-2605.04785",
+      "heading": "Proposed Mechanism & Architecture",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "agenttrust"
+        },
+        {
+          "count": 1,
+          "term": "proposed"
+        },
+        {
+          "count": 1,
+          "term": "mechanism"
+        },
+        {
+          "count": 1,
+          "term": "architecture"
+        },
+        {
+          "count": 1,
+          "term": "present"
+        },
+        {
+          "count": 1,
+          "term": "runtime"
+        },
+        {
+          "count": 1,
+          "term": "safety"
+        },
+        {
+          "count": 1,
+          "term": "layer"
+        },
+        {
+          "count": 1,
+          "term": "intercepts"
+        },
+        {
+          "count": 1,
+          "term": "agent"
+        },
+        {
+          "count": 1,
+          "term": "tool"
+        },
+        {
+          "count": 1,
+          "term": "calls"
+        }
+      ],
+      "section_index": 2,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > AI Accelerators",
+        "Security & Resilience",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security > Session & Trajectory Monitoring"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "AI Alignment & Agentic Security",
+        "AI Hardware Accelerators",
+        "Deep Learning Architectures",
+        "Hardware & AI Security",
+        "Semiconductor Engineering"
+      ],
+      "text": "We present AgentTrust, a runtime safety layer that intercepts agent tool calls before execution and returns a structured verdict: allow, warn, block, or review. AgentTrust combines a shell deobfuscation normalizer, SafeFix suggestions for safer alternatives, RiskChain detection for multi-step attack chains, and a cache-aware LLM-as-Judge for ambiguous inputs. We release a 300-scenario benchmark across six risk categories and an additional 630 independently constructed real-world adversarial scenarios.",
+      "token_count": 66
+    },
+    {
+      "chunk_id": "arxiv-2605.04785#chunk-03",
+      "concept_ids": [
+        "concept:endpoint-agent-security"
+      ],
+      "doc_id": "arxiv-2605.04785",
+      "heading": "Evaluation & Key Findings",
+      "key_terms": [
+        {
+          "count": 3,
+          "term": "accuracy"
+        },
+        {
+          "count": 2,
+          "term": "benchmark"
+        },
+        {
+          "count": 2,
+          "term": "ruleset"
+        },
+        {
+          "count": 2,
+          "term": "achieves"
+        },
+        {
+          "count": 2,
+          "term": "verdict"
+        },
+        {
+          "count": 2,
+          "term": "agenttrust"
+        },
+        {
+          "count": 1,
+          "term": "evaluation"
+        },
+        {
+          "count": 1,
+          "term": "key"
+        },
+        {
+          "count": 1,
+          "term": "findings"
+        },
+        {
+          "count": 1,
+          "term": "internal"
+        },
+        {
+          "count": 1,
+          "term": "production-only"
+        },
+        {
+          "count": 1,
+          "term": "risk-level"
+        }
+      ],
+      "section_index": 3,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks > Language Models & Efficient Attention",
+        "Security & Resilience",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security > Endpoint & Agent Runtime"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "AI Alignment & Agentic Security",
+        "Deep Learning Architectures",
+        "Hardware & AI Security",
+        "Large Language Models & Attention Mechanisms"
+      ],
+      "text": "On the internal benchmark, the production-only ruleset achieves 95.0% verdict accuracy and 73.7% risk-level accuracy at low-millisecond end-to-end latency. On the 630-scenario benchmark, evaluated under a patched ruleset and not claimed as zero-shot, AgentTrust achieves 96.7% verdict accuracy, including about 93% on shell-obfuscated payloads. AgentTrust is released under the AGPL-3.0 license and provides a Model Context Protocol server for MCP-compatible agents.",
+      "token_count": 61
     }
   ],
   "arxiv-2605.08605": [
@@ -2835,6 +5126,671 @@
       ],
       "text": "Formal region certification exposes large safety coverage gaps in BERT-based guardrails (55-90% certified coverage) compared to more stable GPT-2 and Llama guardrail classifiers (~80-90% coverage). Curated from kitsumiko/papers (Security, Safety & Robustness).",
       "token_count": 32
+    }
+  ],
+  "arxiv-2606.01738": [
+    {
+      "chunk_id": "arxiv-2606.01738#chunk-01",
+      "concept_ids": [
+        "concept:agentic-security",
+        "concept:dnn",
+        "concept:trajectory-monitoring"
+      ],
+      "doc_id": "arxiv-2606.01738",
+      "heading": "Problem Statement & Context",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "multi-turn"
+        },
+        {
+          "count": 2,
+          "term": "jailbreak"
+        },
+        {
+          "count": 2,
+          "term": "attacks"
+        },
+        {
+          "count": 1,
+          "term": "thrd"
+        },
+        {
+          "count": 1,
+          "term": "training-free"
+        },
+        {
+          "count": 1,
+          "term": "defense"
+        },
+        {
+          "count": 1,
+          "term": "framework"
+        },
+        {
+          "count": 1,
+          "term": "large"
+        },
+        {
+          "count": 1,
+          "term": "language"
+        },
+        {
+          "count": 1,
+          "term": "models"
+        },
+        {
+          "count": 1,
+          "term": "problem"
+        },
+        {
+          "count": 1,
+          "term": "statement"
+        }
+      ],
+      "section_index": 1,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Formal Methods & Automated Reasoning",
+        "Security & Resilience",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security > Session & Trajectory Monitoring"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "AI Alignment & Agentic Security",
+        "Automated Reasoning & Mathematical Logic",
+        "Deep Learning Architectures",
+        "Hardware & AI Security"
+      ],
+      "text": "Multi-turn jailbreak attacks pose a growing threat to LLMs by exploiting conversational dynamics such as gradual escalation and cross-turn coordination. Existing defenses either rely on costly retraining -- often degrading model utility -- or apply single-turn analysis independently at each turn, failing to capture how risk accumulates along interaction trajectories.",
+      "token_count": 50
+    },
+    {
+      "chunk_id": "arxiv-2606.01738#chunk-02",
+      "concept_ids": [
+        "concept:agentic-security",
+        "concept:trajectory-monitoring"
+      ],
+      "doc_id": "arxiv-2606.01738",
+      "heading": "Proposed Mechanism & Architecture",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "multi-turn"
+        },
+        {
+          "count": 1,
+          "term": "proposed"
+        },
+        {
+          "count": 1,
+          "term": "mechanism"
+        },
+        {
+          "count": 1,
+          "term": "architecture"
+        },
+        {
+          "count": 1,
+          "term": "observe"
+        },
+        {
+          "count": 1,
+          "term": "safety"
+        },
+        {
+          "count": 1,
+          "term": "behavior"
+        },
+        {
+          "count": 1,
+          "term": "interaction"
+        },
+        {
+          "count": 1,
+          "term": "trajectory-dependent"
+        },
+        {
+          "count": 1,
+          "term": "dialogue"
+        },
+        {
+          "count": 1,
+          "term": "history"
+        },
+        {
+          "count": 1,
+          "term": "continuously"
+        }
+      ],
+      "section_index": 2,
+      "taxonomy_paths": [
+        "Security & Resilience",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security > Session & Trajectory Monitoring",
+        "Security & Resilience > Memory Safety & Software Capabilities"
+      ],
+      "technology_areas": [
+        "AI Alignment & Agentic Security",
+        "Hardware & AI Security",
+        "Language & Runtime Memory Safety"
+      ],
+      "text": "We observe that safety behavior in multi-turn interaction is trajectory-dependent: dialogue history continuously reshapes the model's conditioning context, making it insufficient to evaluate each turn in isolation. Motivated by this insight, we present THRD, the first training-free framework that explicitly models temporal risk accumulation for multi-turn jailbreak defense.",
+      "token_count": 48
+    },
+    {
+      "chunk_id": "arxiv-2606.01738#chunk-03",
+      "concept_ids": [
+        "concept:agentic-reasoning",
+        "concept:trajectory-monitoring"
+      ],
+      "doc_id": "arxiv-2606.01738",
+      "heading": "Evaluation & Key Findings",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "thrd"
+        },
+        {
+          "count": 2,
+          "term": "risk"
+        },
+        {
+          "count": 2,
+          "term": "module"
+        },
+        {
+          "count": 2,
+          "term": "multi-turn"
+        },
+        {
+          "count": 2,
+          "term": "attacks"
+        },
+        {
+          "count": 1,
+          "term": "evaluation"
+        },
+        {
+          "count": 1,
+          "term": "key"
+        },
+        {
+          "count": 1,
+          "term": "findings"
+        },
+        {
+          "count": 1,
+          "term": "integrates"
+        },
+        {
+          "count": 1,
+          "term": "four"
+        },
+        {
+          "count": 1,
+          "term": "modules"
+        },
+        {
+          "count": 1,
+          "term": "turn-level"
+        }
+      ],
+      "section_index": 3,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Reasoning, Agents & Retrieval",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > AI Accelerators",
+        "Security & Resilience",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security > Session & Trajectory Monitoring",
+        "Security & Resilience > Memory Safety & Software Capabilities"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "AI Alignment & Agentic Security",
+        "AI Hardware Accelerators",
+        "Agentic Systems & Reasoning",
+        "Hardware & AI Security",
+        "Language & Runtime Memory Safety",
+        "Semiconductor Engineering"
+      ],
+      "text": "THRD integrates four modules: a Turn-level Risk Assessor (TRA) for instantaneous risk estimation, a Historical Context Analyzer (HCA) for cross-turn intent escalation detection, a Response Evaluator (RE) for identifying facilitative outputs, and a Decision Module that combines these signals through a time-evolving scoring mechanism with attenuation-based modulation and trend-aware adjustment. Experiments against state-of-the-art multi-turn attacks -- including tree-search-based and multi-agent collaborative methods -- across two target models show that THRD reduces ASR to 0.2--4.0% while preserving model utility within 1.5% degradation on MMLU and GSM8K. Ablation studies confirm non-redundant module contributions and stable cross-architecture generalization. Analysis of first rejection triggers reveals that over 70% of multi-turn attacks require Turn~2 or later to detect, validating the necessity of explicit temporal aggregation.",
+      "token_count": 120
+    }
+  ],
+  "arxiv-2606.03136": [
+    {
+      "chunk_id": "arxiv-2606.03136#chunk-01",
+      "concept_ids": [
+        "concept:agentic-security",
+        "concept:dnn",
+        "concept:trajectory-monitoring"
+      ],
+      "doc_id": "arxiv-2606.03136",
+      "heading": "Problem Statement & Context",
+      "key_terms": [
+        {
+          "count": 3,
+          "term": "conversations"
+        },
+        {
+          "count": 2,
+          "term": "multi-turn"
+        },
+        {
+          "count": 2,
+          "term": "adversarial"
+        },
+        {
+          "count": 2,
+          "term": "attacks"
+        },
+        {
+          "count": 1,
+          "term": "psychopass"
+        },
+        {
+          "count": 1,
+          "term": "geometric"
+        },
+        {
+          "count": 1,
+          "term": "profiling"
+        },
+        {
+          "count": 1,
+          "term": "llm"
+        },
+        {
+          "count": 1,
+          "term": "problem"
+        },
+        {
+          "count": 1,
+          "term": "statement"
+        },
+        {
+          "count": 1,
+          "term": "context"
+        },
+        {
+          "count": 1,
+          "term": "jailbreak"
+        }
+      ],
+      "section_index": 1,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Formal Methods & Automated Reasoning",
+        "Security & Resilience",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security > Session & Trajectory Monitoring"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "AI Alignment & Agentic Security",
+        "Automated Reasoning & Mathematical Logic",
+        "Deep Learning Architectures",
+        "Hardware & AI Security"
+      ],
+      "text": "Multi-turn jailbreak attacks on large language models (LLMs) reveal a mismatch in current guardrails: they operate on individual turns, while attacks unfold as trajectories across conversations. We propose a shift from content to dynamics, modeling conversations as paths in representation space and asking whether adversarial intent is encoded early in their geometry.",
+      "token_count": 52
+    },
+    {
+      "chunk_id": "arxiv-2606.03136#chunk-02",
+      "concept_ids": [
+        "concept:trajectory-monitoring"
+      ],
+      "doc_id": "arxiv-2606.03136",
+      "heading": "Proposed Mechanism & Architecture",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "features"
+        },
+        {
+          "count": 1,
+          "term": "proposed"
+        },
+        {
+          "count": 1,
+          "term": "mechanism"
+        },
+        {
+          "count": 1,
+          "term": "architecture"
+        },
+        {
+          "count": 1,
+          "term": "introduce"
+        },
+        {
+          "count": 1,
+          "term": "psychopass"
+        },
+        {
+          "count": 1,
+          "term": "framework"
+        },
+        {
+          "count": 1,
+          "term": "extracts"
+        },
+        {
+          "count": 1,
+          "term": "geometric"
+        },
+        {
+          "count": 1,
+          "term": "conversation"
+        },
+        {
+          "count": 1,
+          "term": "trajectories"
+        },
+        {
+          "count": 1,
+          "term": "embedding"
+        }
+      ],
+      "section_index": 2,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Formal Methods & Automated Reasoning",
+        "Security & Resilience",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security > Session & Trajectory Monitoring"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "AI Alignment & Agentic Security",
+        "Automated Reasoning & Mathematical Logic",
+        "Hardware & AI Security"
+      ],
+      "text": "We introduce PsychoPass, a framework that extracts geometric features from conversation trajectories in embedding space to predict a potential attack before harmful content is produced. These features achieve near-perfect performance in na\\\"ive classifiers, which is largely explained by the inclusion of number of turns as a feature.",
+      "token_count": 47
+    },
+    {
+      "chunk_id": "arxiv-2606.03136#chunk-03",
+      "concept_ids": [
+        "concept:agentic-reasoning"
+      ],
+      "doc_id": "arxiv-2606.03136",
+      "heading": "Evaluation & Key Findings",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "findings"
+        },
+        {
+          "count": 2,
+          "term": "geometric"
+        },
+        {
+          "count": 2,
+          "term": "signal"
+        },
+        {
+          "count": 2,
+          "term": "encoder"
+        },
+        {
+          "count": 2,
+          "term": "early"
+        },
+        {
+          "count": 2,
+          "term": "length"
+        },
+        {
+          "count": 1,
+          "term": "evaluation"
+        },
+        {
+          "count": 1,
+          "term": "key"
+        },
+        {
+          "count": 1,
+          "term": "after"
+        },
+        {
+          "count": 1,
+          "term": "removing"
+        },
+        {
+          "count": 1,
+          "term": "confound"
+        },
+        {
+          "count": 1,
+          "term": "smaller"
+        }
+      ],
+      "section_index": 3,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Reasoning, Agents & Retrieval",
+        "Formal Methods & Automated Reasoning",
+        "Security & Resilience",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "AI Alignment & Agentic Security",
+        "Agentic Systems & Reasoning",
+        "Automated Reasoning & Mathematical Logic",
+        "Hardware & AI Security"
+      ],
+      "text": "After removing this confound, a smaller but consistent geometric signal remains, with classification performance that does not depend meaningfully on encoder choice. Crucially, this signal appears early in the conversation: attack outcomes remain above chance from short prefixes alone, more reliably than baseline guardrails. A supporting theoretical analysis explains these findings via a decomposition of length and shape, a detection bound based on prefix length, and encoder invariance. Together, these results show that adversarial conversations leave an early, representation-robust geometric fingerprint suitable for online monitoring.",
+      "token_count": 85
+    }
+  ],
+  "arxiv-2607.19356": [
+    {
+      "chunk_id": "arxiv-2607.19356#chunk-01",
+      "concept_ids": [
+        "concept:asi",
+        "concept:trajectory-monitoring"
+      ],
+      "doc_id": "arxiv-2607.19356",
+      "heading": "Problem Statement & Context",
+      "key_terms": [
+        {
+          "count": 5,
+          "term": "safety"
+        },
+        {
+          "count": 3,
+          "term": "nexus"
+        },
+        {
+          "count": 2,
+          "term": "runtime"
+        },
+        {
+          "count": 2,
+          "term": "tool-using"
+        },
+        {
+          "count": 2,
+          "term": "llm"
+        },
+        {
+          "count": 2,
+          "term": "agents"
+        },
+        {
+          "count": 2,
+          "term": "actions"
+        },
+        {
+          "count": 2,
+          "term": "request"
+        },
+        {
+          "count": 1,
+          "term": "structured"
+        },
+        {
+          "count": 1,
+          "term": "problem"
+        },
+        {
+          "count": 1,
+          "term": "statement"
+        },
+        {
+          "count": 1,
+          "term": "context"
+        }
+      ],
+      "section_index": 1,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Security & Resilience",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security > Session & Trajectory Monitoring",
+        "Security & Resilience > Runtime Fault Localization & Recovery"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "AI Alignment & Agentic Security",
+        "Deep Learning Architectures",
+        "Hardware & AI Security",
+        "Self-Healing & Fault-Tolerant AI"
+      ],
+      "text": "Tool-using LLM agents increasingly execute high-impact actions, making runtime safety monitoring essential. We present NEXUS (Neural EXecution Utility and Safety), a structured-plan safety monitor that applies a formal intervention policy to select among four actions: allow, block, request confirmation, or request revision. NEXUS combines deterministic safety rules, argument-level inspection, and a calibrated logistic-regression risk score for graded escalation.",
+      "token_count": 58
+    },
+    {
+      "chunk_id": "arxiv-2607.19356#chunk-02",
+      "concept_ids": [],
+      "doc_id": "arxiv-2607.19356",
+      "heading": "Proposed Mechanism & Architecture",
+      "key_terms": [
+        {
+          "count": 3,
+          "term": "rule-only"
+        },
+        {
+          "count": 2,
+          "term": "achieves"
+        },
+        {
+          "count": 2,
+          "term": "f1"
+        },
+        {
+          "count": 2,
+          "term": "intervention"
+        },
+        {
+          "count": 1,
+          "term": "proposed"
+        },
+        {
+          "count": 1,
+          "term": "mechanism"
+        },
+        {
+          "count": 1,
+          "term": "architecture"
+        },
+        {
+          "count": 1,
+          "term": "128-instance"
+        },
+        {
+          "count": 1,
+          "term": "synthetic"
+        },
+        {
+          "count": 1,
+          "term": "benchmark"
+        },
+        {
+          "count": 1,
+          "term": "nexus"
+        },
+        {
+          "count": 1,
+          "term": "score"
+        }
+      ],
+      "section_index": 2,
+      "taxonomy_paths": [
+        "Security & Resilience"
+      ],
+      "technology_areas": [
+        "Hardware & AI Security"
+      ],
+      "text": "On a 128-instance synthetic benchmark, NEXUS achieves an F1 score of 0.949 and a 4-class intervention accuracy of 0.6406, outperforming rule-only intervention selection by 27.3 percentage points. It also improves over rule-only on R-Judge (F1 = 0.861 vs. 0.849), matches rule-only on AgentHarm due to threat-model limits, and achieves 0% ASR at 99% control allow on IPI.",
+      "token_count": 57
+    },
+    {
+      "chunk_id": "arxiv-2607.19356#chunk-03",
+      "concept_ids": [],
+      "doc_id": "arxiv-2607.19356",
+      "heading": "Evaluation & Key Findings",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "nexus"
+        },
+        {
+          "count": 1,
+          "term": "evaluation"
+        },
+        {
+          "count": 1,
+          "term": "key"
+        },
+        {
+          "count": 1,
+          "term": "findings"
+        },
+        {
+          "count": 1,
+          "term": "rule-blind"
+        },
+        {
+          "count": 1,
+          "term": "nexus-stress"
+        },
+        {
+          "count": 1,
+          "term": "benchmark"
+        },
+        {
+          "count": 1,
+          "term": "reaches"
+        },
+        {
+          "count": 1,
+          "term": "f1"
+        },
+        {
+          "count": 1,
+          "term": "score"
+        },
+        {
+          "count": 1,
+          "term": "highlighting"
+        },
+        {
+          "count": 1,
+          "term": "difficulty"
+        }
+      ],
+      "section_index": 3,
+      "taxonomy_paths": [],
+      "technology_areas": [],
+      "text": "On the rule-blind NEXUS-Stress benchmark, NEXUS reaches an F1 score of 0.881, highlighting the difficulty of fine-grained intervention routing. With 0.205 ms median latency, NEXUS adds under 0.1% overhead to typical agent loops. Code, benchmarks, and the calibrated risk scorer are publicly released.",
+      "token_count": 43
     }
   ],
   "arxiv-2607.22619": [
@@ -3938,6 +6894,1238 @@
       "token_count": 49
     }
   ],
+  "note-2026-ai-security-trajectory-monitoring-report": [
+    {
+      "chunk_id": "note-2026-ai-security-trajectory-monitoring-report#chunk-01",
+      "concept_ids": [
+        "concept:trajectory-monitoring"
+      ],
+      "doc_id": "note-2026-ai-security-trajectory-monitoring-report",
+      "heading": "Question",
+      "key_terms": [
+        {
+          "count": 3,
+          "term": "ai"
+        },
+        {
+          "count": 2,
+          "term": "escalation"
+        },
+        {
+          "count": 2,
+          "term": "endpoint"
+        },
+        {
+          "count": 2,
+          "term": "agent"
+        },
+        {
+          "count": 1,
+          "term": "personal"
+        },
+        {
+          "count": 1,
+          "term": "research"
+        },
+        {
+          "count": 1,
+          "term": "report"
+        },
+        {
+          "count": 1,
+          "term": "trajectory"
+        },
+        {
+          "count": 1,
+          "term": "monitoring"
+        },
+        {
+          "count": 1,
+          "term": "multi-turn"
+        },
+        {
+          "count": 1,
+          "term": "crescendo"
+        },
+        {
+          "count": 1,
+          "term": "security"
+        }
+      ],
+      "section_index": 1,
+      "taxonomy_paths": [
+        "Security & Resilience",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security > Session & Trajectory Monitoring"
+      ],
+      "technology_areas": [
+        "AI Alignment & Agentic Security",
+        "Hardware & AI Security"
+      ],
+      "text": "How do we detect AI misuse that no single prompt reveals \u2014 Crescendo-style slow escalation across a chat, session, or sequence of transactions \u2014 and what changes when the AI application is an agent running on an endpoint?",
+      "token_count": 38
+    },
+    {
+      "chunk_id": "note-2026-ai-security-trajectory-monitoring-report#chunk-02",
+      "concept_ids": [],
+      "doc_id": "note-2026-ai-security-trajectory-monitoring-report",
+      "heading": "Bottom line",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "state"
+        },
+        {
+          "count": 2,
+          "term": "no"
+        },
+        {
+          "count": 2,
+          "term": "benchmark"
+        },
+        {
+          "count": 2,
+          "term": "numbers"
+        },
+        {
+          "count": 2,
+          "term": "endpoint"
+        },
+        {
+          "count": 2,
+          "term": "agent"
+        },
+        {
+          "count": 1,
+          "term": "bottom"
+        },
+        {
+          "count": 1,
+          "term": "line"
+        },
+        {
+          "count": 1,
+          "term": "per-turn"
+        },
+        {
+          "count": 1,
+          "term": "checks"
+        },
+        {
+          "count": 1,
+          "term": "structurally"
+        },
+        {
+          "count": 1,
+          "term": "blind"
+        }
+      ],
+      "section_index": 2,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Reasoning, Agents & Retrieval"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "Agentic Systems & Reasoning"
+      ],
+      "text": "- Per-turn checks are structurally blind to gradual escalation. Every defense in this collection adds state: a score, a hidden state, a geometry, or a risk chain that persists across turns. - The evidence is early. Most results use small, synthetic, or template-generated data and no shared benchmark exists, so headline numbers (F1 0.84, recall 90.8%, ASR 0.2-4.0%) are not comparable across papers. - The endpoint is a separate problem. EDR sees a trusted agent process doing authorized work; the manipulation happens in what the agent reads and decides. Endpoint vendors and CSA argue this; the numbers behind it are vendor-authored. - Cross-session accumulation is the least-covered case. One survey reports no benchmark coverage for it.",
+      "token_count": 116
+    },
+    {
+      "chunk_id": "note-2026-ai-security-trajectory-monitoring-report#chunk-03",
+      "concept_ids": [
+        "concept:agentic-security",
+        "concept:trajectory-monitoring"
+      ],
+      "doc_id": "note-2026-ai-security-trajectory-monitoring-report",
+      "heading": "The attack: Crescendo (arXiv 2404.01833)",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "attack"
+        },
+        {
+          "count": 1,
+          "term": "crescendo"
+        },
+        {
+          "count": 1,
+          "term": "arxiv"
+        },
+        {
+          "count": 1,
+          "term": "starts"
+        },
+        {
+          "count": 1,
+          "term": "benign"
+        },
+        {
+          "count": 1,
+          "term": "question"
+        },
+        {
+          "count": 1,
+          "term": "topic"
+        },
+        {
+          "count": 1,
+          "term": "then"
+        },
+        {
+          "count": 1,
+          "term": "escalates"
+        },
+        {
+          "count": 1,
+          "term": "referencing"
+        },
+        {
+          "count": 1,
+          "term": "model"
+        },
+        {
+          "count": 1,
+          "term": "own"
+        }
+      ],
+      "section_index": 3,
+      "taxonomy_paths": [
+        "Security & Resilience",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security > Session & Trajectory Monitoring"
+      ],
+      "technology_areas": [
+        "AI Alignment & Agentic Security",
+        "Hardware & AI Security"
+      ],
+      "text": "Starts with a benign question on the topic, then escalates by referencing the model's own replies. Each turn looks acceptable alone. Reported high attack success across ChatGPT, Gemini, Llama-2/3 70B and Anthropic chat models; the automated variant Crescendomation beat other jailbreaks on an AdvBench subset (29-61% on GPT-4, 49-71% on Gemini-Pro, per the abstract).",
+      "token_count": 54
+    },
+    {
+      "chunk_id": "note-2026-ai-security-trajectory-monitoring-report#chunk-04",
+      "concept_ids": [],
+      "doc_id": "note-2026-ai-security-trajectory-monitoring-report",
+      "heading": "Conversation-level detection: what each approach adds (Part 1)",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "peak"
+        },
+        {
+          "count": 2,
+          "term": "score"
+        },
+        {
+          "count": 2,
+          "term": "turn"
+        },
+        {
+          "count": 1,
+          "term": "conversation-level"
+        },
+        {
+          "count": 1,
+          "term": "detection"
+        },
+        {
+          "count": 1,
+          "term": "what"
+        },
+        {
+          "count": 1,
+          "term": "each"
+        },
+        {
+          "count": 1,
+          "term": "approach"
+        },
+        {
+          "count": 1,
+          "term": "adds"
+        },
+        {
+          "count": 1,
+          "term": "part"
+        },
+        {
+          "count": 1,
+          "term": "paper"
+        },
+        {
+          "count": 1,
+          "term": "core"
+        }
+      ],
+      "section_index": 4,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Artificial Intelligence & Machine Learning > Reasoning, Agents & Retrieval",
+        "Formal Methods & Automated Reasoning",
+        "Security & Resilience"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "Agentic Systems & Reasoning",
+        "Automated Reasoning & Mathematical Logic",
+        "Deep Learning Architectures",
+        "Hardware & AI Security"
+      ],
+      "text": "| Paper | Core idea | Reported result (author-reported) | |---|---|---| | Peak + Accumulation (2602.11247) | Proxy-layer score from peak turn risk, persistence ratio, category diversity; no LLM call. Shows a weighted average converges to the per-turn score, so a 20-turn attack scores like one suspicious turn.",
+      "token_count": 48
+    },
+    {
+      "chunk_id": "note-2026-ai-security-trajectory-monitoring-report#chunk-05",
+      "concept_ids": [
+        "concept:agentic-security",
+        "concept:trajectory-monitoring"
+      ],
+      "doc_id": "note-2026-ai-security-trajectory-monitoring-report",
+      "heading": "Conversation-level detection: what each approach adds (Part 2)",
+      "key_terms": [
+        {
+          "count": 3,
+          "term": "turn"
+        },
+        {
+          "count": 2,
+          "term": "recall"
+        },
+        {
+          "count": 2,
+          "term": "f1"
+        },
+        {
+          "count": 2,
+          "term": "attacks"
+        },
+        {
+          "count": 2,
+          "term": "vs"
+        },
+        {
+          "count": 2,
+          "term": "over"
+        },
+        {
+          "count": 2,
+          "term": "risk"
+        },
+        {
+          "count": 2,
+          "term": "multi-turn"
+        },
+        {
+          "count": 2,
+          "term": "inference"
+        },
+        {
+          "count": 1,
+          "term": "conversation-level"
+        },
+        {
+          "count": 1,
+          "term": "detection"
+        },
+        {
+          "count": 1,
+          "term": "what"
+        }
+      ],
+      "section_index": 5,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Formal Methods & Automated Reasoning",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > AI Accelerators",
+        "Security & Resilience",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security > Session & Trajectory Monitoring"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "AI Alignment & Agentic Security",
+        "AI Hardware Accelerators",
+        "Automated Reasoning & Mathematical Logic",
+        "Hardware & AI Security",
+        "Semiconductor Engineering"
+      ],
+      "text": "| 90.8% recall at 1.20% FPR, F1 85.9% on 10,654 conversations (588 attacks, WildJailbreak vs WildChat) | | DeepContext (2602.16935) | RNN over turn embeddings carries a hidden state, capturing accumulated risk | F1 0.84 vs 0.67 (Llama-Prompt-Guard-2, Granite-Guardian); sub-20 ms on a T4 | | THRD (2606.01738) | Training-free: turn risk + cross-turn intent escalation + response facilitation, combined with attenuation and trend-aware scoring | ASR 0.2-4.0%; over 70% of multi-turn attacks need Turn 2 or later to detect | | PsychoPass (2606.03136) | Conversation as a path in embedding space; geometric features predict attack before harmful output | Early signal from short prefixes; near-perfect naive scores are largely a turn-count confound | | Defensive M2S (2601.00454) | Compress multi-turn history to single-turn for guardrail training/inference | 93.8% recall, 94.6% fewer inference tokens (SafeDialBench) |",
+      "token_count": 136
+    },
+    {
+      "chunk_id": "note-2026-ai-security-trajectory-monitoring-report#chunk-06",
+      "concept_ids": [
+        "concept:trajectory-monitoring"
+      ],
+      "doc_id": "note-2026-ai-security-trajectory-monitoring-report",
+      "heading": "Agent and transaction-level monitoring",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "risk"
+        },
+        {
+          "count": 2,
+          "term": "over"
+        },
+        {
+          "count": 2,
+          "term": "tool"
+        },
+        {
+          "count": 2,
+          "term": "execution"
+        },
+        {
+          "count": 2,
+          "term": "allow"
+        },
+        {
+          "count": 2,
+          "term": "block"
+        },
+        {
+          "count": 1,
+          "term": "agent"
+        },
+        {
+          "count": 1,
+          "term": "transaction-level"
+        },
+        {
+          "count": 1,
+          "term": "monitoring"
+        },
+        {
+          "count": 1,
+          "term": "fraud-detection-style"
+        },
+        {
+          "count": 1,
+          "term": "layer"
+        },
+        {
+          "count": 1,
+          "term": "models"
+        }
+      ],
+      "section_index": 6,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Security & Resilience",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security > Session & Trajectory Monitoring"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "AI Alignment & Agentic Security",
+        "Deep Learning Architectures",
+        "Hardware & AI Security"
+      ],
+      "text": "- Fraud-detection-style layer (2605.01143): models risk over interaction trajectories from session dynamics, tool usage and execution context; XGBoost on 42 features, reported 9x faster than LLM-based detectors, on a synthetic 12,000-interaction corpus. - AgentTrust (2605.04785): intercepts tool calls pre-execution with a verdict (allow/warn/block/review); includes RiskChain detection for multi-step chains and shell deobfuscation. - NEXUS (2607.19356): structured-plan monitor with deterministic rules, argument inspection and a calibrated risk score choosing allow/block/confirm/revise; 0.205 ms median latency. - ProbGuard (2508.00500): learns a Markov chain over abstracted execution states and intervenes when the probability of staying safe drops. Evaluated on autonomous driving and embodied household agents, not on chat security, but it is the clearest \"predict the trajectory\" formulation.",
+      "token_count": 114
+    },
+    {
+      "chunk_id": "note-2026-ai-security-trajectory-monitoring-report#chunk-07",
+      "concept_ids": [
+        "concept:agentic-security",
+        "concept:endpoint-agent-security"
+      ],
+      "doc_id": "note-2026-ai-security-trajectory-monitoring-report",
+      "heading": "Endpoint view (Part 1)",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "endpoint"
+        },
+        {
+          "count": 2,
+          "term": "prompt"
+        },
+        {
+          "count": 2,
+          "term": "against"
+        },
+        {
+          "count": 2,
+          "term": "success"
+        },
+        {
+          "count": 2,
+          "term": "defenses"
+        },
+        {
+          "count": 2,
+          "term": "mcp"
+        },
+        {
+          "count": 2,
+          "term": "tested"
+        },
+        {
+          "count": 2,
+          "term": "agents"
+        },
+        {
+          "count": 1,
+          "term": "view"
+        },
+        {
+          "count": 1,
+          "term": "part"
+        },
+        {
+          "count": 1,
+          "term": "injection"
+        },
+        {
+          "count": 1,
+          "term": "coding"
+        }
+      ],
+      "section_index": 7,
+      "taxonomy_paths": [
+        "Security & Resilience",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security > Endpoint & Agent Runtime"
+      ],
+      "technology_areas": [
+        "AI Alignment & Agentic Security",
+        "Hardware & AI Security"
+      ],
+      "text": "- Prompt injection against coding assistants is a first-class vulnerability class; a 78-study meta-analysis reports attack success above 85% against defenses under adaptive attacks and most of 18 defenses under 50% mitigation (2601.17548; consolidation of prior work). - Agentjacking (CSA note summarizing Tenet Security PoC): instructions injected via Sentry events were retrieved over MCP and executed with developer privileges; reported 85% success across tested agents and EDR bypass in tested configurations. These are the discoverer's proof-of-concept figures, not observed exploitation. - Vendor framing (Zenity, Lasso, Backslash, Pillar): the endpoint needs discovery of agents and MCP servers, pre-action blocking, and evidence that links a prompt, a component and a permission to the local action that followed.",
+      "token_count": 115
+    },
+    {
+      "chunk_id": "note-2026-ai-security-trajectory-monitoring-report#chunk-08",
+      "concept_ids": [],
+      "doc_id": "note-2026-ai-security-trajectory-monitoring-report",
+      "heading": "Endpoint view (Part 2)",
+      "key_terms": [
+        {
+          "count": 1,
+          "term": "endpoint"
+        },
+        {
+          "count": 1,
+          "term": "view"
+        },
+        {
+          "count": 1,
+          "term": "part"
+        },
+        {
+          "count": 1,
+          "term": "backslash"
+        },
+        {
+          "count": 1,
+          "term": "states"
+        },
+        {
+          "count": 1,
+          "term": "edr"
+        },
+        {
+          "count": 1,
+          "term": "mdm"
+        },
+        {
+          "count": 1,
+          "term": "proxies"
+        },
+        {
+          "count": 1,
+          "term": "each"
+        },
+        {
+          "count": 1,
+          "term": "see"
+        },
+        {
+          "count": 1,
+          "term": "one"
+        },
+        {
+          "count": 1,
+          "term": "slice"
+        }
+      ],
+      "section_index": 8,
+      "taxonomy_paths": [],
+      "technology_areas": [],
+      "text": "Backslash states EDR, MDM and proxies each see one slice and none connect them.",
+      "token_count": 14
+    },
+    {
+      "chunk_id": "note-2026-ai-security-trajectory-monitoring-report#chunk-09",
+      "concept_ids": [
+        "concept:trajectory-monitoring"
+      ],
+      "doc_id": "note-2026-ai-security-trajectory-monitoring-report",
+      "heading": "My synthesis (inference, not from the sources) (Part 1)",
+      "key_terms": [
+        {
+          "count": 3,
+          "term": "not"
+        },
+        {
+          "count": 2,
+          "term": "state"
+        },
+        {
+          "count": 2,
+          "term": "thrd"
+        },
+        {
+          "count": 2,
+          "term": "id"
+        },
+        {
+          "count": 1,
+          "term": "my"
+        },
+        {
+          "count": 1,
+          "term": "synthesis"
+        },
+        {
+          "count": 1,
+          "term": "inference"
+        },
+        {
+          "count": 1,
+          "term": "sources"
+        },
+        {
+          "count": 1,
+          "term": "part"
+        },
+        {
+          "count": 1,
+          "term": "keep"
+        },
+        {
+          "count": 1,
+          "term": "both"
+        },
+        {
+          "count": 1,
+          "term": "per-turn"
+        }
+      ],
+      "section_index": 9,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > AI Accelerators",
+        "Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security > Session & Trajectory Monitoring"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "AI Alignment & Agentic Security",
+        "AI Hardware Accelerators",
+        "Electronic Design Automation",
+        "On-Chip Telemetry & Runtime Monitoring",
+        "Semiconductor Engineering"
+      ],
+      "text": "1. Keep both a per-turn score and persistent state. Peak catches the spike; accumulation and persistence catch the slow rise; a decay term (THRD) prevents old benign context from masking a late push. 2. Key state on identity (user, device, account), not session ID, or the cross-session case is invisible by construction. 3. Include the assistant's output as a signal (THRD's response evaluator), since Crescendo steers using the model's own replies. 4. Control for turn count when evaluating. PsychoPass shows length alone can look like detection. 5. On endpoints, log the chain not the event: input source, tool/MCP component, permission used, resulting process/file/network action, under one correlation ID, so trajectory analysis and EDR telemetry can be joined. 6.",
+      "token_count": 118
+    },
+    {
+      "chunk_id": "note-2026-ai-security-trajectory-monitoring-report#chunk-10",
+      "concept_ids": [],
+      "doc_id": "note-2026-ai-security-trajectory-monitoring-report",
+      "heading": "My synthesis (inference, not from the sources) (Part 2)",
+      "key_terms": [
+        {
+          "count": 1,
+          "term": "my"
+        },
+        {
+          "count": 1,
+          "term": "synthesis"
+        },
+        {
+          "count": 1,
+          "term": "inference"
+        },
+        {
+          "count": 1,
+          "term": "not"
+        },
+        {
+          "count": 1,
+          "term": "sources"
+        },
+        {
+          "count": 1,
+          "term": "part"
+        },
+        {
+          "count": 1,
+          "term": "treat"
+        },
+        {
+          "count": 1,
+          "term": "transaction"
+        },
+        {
+          "count": 1,
+          "term": "sequences"
+        },
+        {
+          "count": 1,
+          "term": "like"
+        },
+        {
+          "count": 1,
+          "term": "fraud"
+        },
+        {
+          "count": 1,
+          "term": "velocity"
+        }
+      ],
+      "section_index": 10,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > AI Accelerators",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "AI Hardware Accelerators",
+        "Deep Learning Architectures",
+        "Electronic Design Automation",
+        "Semiconductor Engineering"
+      ],
+      "text": "Treat transaction sequences like fraud: velocity, diversity of categories touched, and risk-chain patterns, with a cheap model in the hot path and an LLM judge for ambiguous cases.",
+      "token_count": 28
+    },
+    {
+      "chunk_id": "note-2026-ai-security-trajectory-monitoring-report#chunk-11",
+      "concept_ids": [
+        "concept:agentic-reasoning",
+        "concept:trajectory-monitoring"
+      ],
+      "doc_id": "note-2026-ai-security-trajectory-monitoring-report",
+      "heading": "Corrections to my first-pass summary (Part 1)",
+      "key_terms": [
+        {
+          "count": 6,
+          "term": "not"
+        },
+        {
+          "count": 4,
+          "term": "abstract"
+        },
+        {
+          "count": 2,
+          "term": "supported"
+        },
+        {
+          "count": 2,
+          "term": "paper"
+        },
+        {
+          "count": 1,
+          "term": "corrections"
+        },
+        {
+          "count": 1,
+          "term": "my"
+        },
+        {
+          "count": 1,
+          "term": "first-pass"
+        },
+        {
+          "count": 1,
+          "term": "summary"
+        },
+        {
+          "count": 1,
+          "term": "part"
+        },
+        {
+          "count": 1,
+          "term": "reading"
+        },
+        {
+          "count": 1,
+          "term": "abstracts"
+        },
+        {
+          "count": 1,
+          "term": "showed"
+        }
+      ],
+      "section_index": 11,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Artificial Intelligence & Machine Learning > Reasoning, Agents & Retrieval",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > Memory & Interconnects",
+        "Security & Resilience",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security > Session & Trajectory Monitoring"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "AI Alignment & Agentic Security",
+        "Agentic Systems & Reasoning",
+        "Deep Learning Architectures",
+        "Hardware & AI Security",
+        "Memory Subsystems & Chiplets",
+        "Semiconductor Engineering"
+      ],
+      "text": "Reading the abstracts showed several details I had passed along from search summaries are not supported by them, so they are not recorded in this database: - NEXUS: a \"0/95 to 95/95 with session memory\" result is not in the abstract (it reports a 128-instance synthetic benchmark, F1 0.949). Unverified; may be in the paper body. - Fraud-detection paper: \"cross-turn signals contribute most\" is not in the abstract (it mentions ablation studies only). - AgentTrust: the abstract does not say \"seven\" risk chains. - Layered attack-surface survey: the two-phase plant-then-trigger framing is not in the abstract; the supported claim is that benchmarks give no coverage of cross-session failure modes.",
+      "token_count": 109
+    },
+    {
+      "chunk_id": "note-2026-ai-security-trajectory-monitoring-report#chunk-12",
+      "concept_ids": [],
+      "doc_id": "note-2026-ai-security-trajectory-monitoring-report",
+      "heading": "Corrections to my first-pass summary (Part 2)",
+      "key_terms": [
+        {
+          "count": 1,
+          "term": "corrections"
+        },
+        {
+          "count": 1,
+          "term": "my"
+        },
+        {
+          "count": 1,
+          "term": "first-pass"
+        },
+        {
+          "count": 1,
+          "term": "summary"
+        },
+        {
+          "count": 1,
+          "term": "part"
+        },
+        {
+          "count": 1,
+          "term": "dark"
+        },
+        {
+          "count": 1,
+          "term": "reading"
+        },
+        {
+          "count": 1,
+          "term": "article"
+        },
+        {
+          "count": 1,
+          "term": "unreadable"
+        },
+        {
+          "count": 1,
+          "term": "note"
+        },
+        {
+          "count": 1,
+          "term": "flagged"
+        },
+        {
+          "count": 1,
+          "term": "unverified"
+        }
+      ],
+      "section_index": 12,
+      "taxonomy_paths": [],
+      "technology_areas": [],
+      "text": "- Dark Reading article: unreadable (HTTP 403); the note is flagged unverified.",
+      "token_count": 12
+    },
+    {
+      "chunk_id": "note-2026-ai-security-trajectory-monitoring-report#chunk-13",
+      "concept_ids": [],
+      "doc_id": "note-2026-ai-security-trajectory-monitoring-report",
+      "heading": "Open questions",
+      "key_terms": [
+        {
+          "count": 1,
+          "term": "open"
+        },
+        {
+          "count": 1,
+          "term": "questions"
+        },
+        {
+          "count": 1,
+          "term": "hold"
+        },
+        {
+          "count": 1,
+          "term": "organic"
+        },
+        {
+          "count": 1,
+          "term": "traces"
+        },
+        {
+          "count": 1,
+          "term": "rather"
+        },
+        {
+          "count": 1,
+          "term": "than"
+        },
+        {
+          "count": 1,
+          "term": "synthetic"
+        },
+        {
+          "count": 1,
+          "term": "authored"
+        },
+        {
+          "count": 1,
+          "term": "ones"
+        },
+        {
+          "count": 1,
+          "term": "what"
+        },
+        {
+          "count": 1,
+          "term": "false-positive"
+        }
+      ],
+      "section_index": 13,
+      "taxonomy_paths": [
+        "Formal Methods & Automated Reasoning",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > AI Accelerators",
+        "Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors",
+        "Hardware & Semiconductor Systems > Memory & Interconnects",
+        "Security & Resilience"
+      ],
+      "technology_areas": [
+        "AI Hardware Accelerators",
+        "Automated Reasoning & Mathematical Logic",
+        "Hardware & AI Security",
+        "Memory Subsystems & Chiplets",
+        "On-Chip Telemetry & Runtime Monitoring",
+        "Semiconductor Engineering"
+      ],
+      "text": "- Which of these hold up on organic traces rather than synthetic or authored ones? - What is the false-positive cost on long, legitimately escalating work (security research, red-team tooling, incident response)? - How do session-scoped monitors handle memory/persistence features that carry state between sessions? - Can endpoint telemetry and conversation scoring be joined without capturing sensitive prompt content?",
+      "token_count": 59
+    },
+    {
+      "chunk_id": "note-2026-ai-security-trajectory-monitoring-report#chunk-14",
+      "concept_ids": [
+        "concept:endpoint-agent-security"
+      ],
+      "doc_id": "note-2026-ai-security-trajectory-monitoring-report",
+      "heading": "Next reading",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "reading"
+        },
+        {
+          "count": 1,
+          "term": "next"
+        },
+        {
+          "count": 1,
+          "term": "full"
+        },
+        {
+          "count": 1,
+          "term": "text"
+        },
+        {
+          "count": 1,
+          "term": "nexus"
+        },
+        {
+          "count": 1,
+          "term": "fraud-detection"
+        },
+        {
+          "count": 1,
+          "term": "framework"
+        },
+        {
+          "count": 1,
+          "term": "layered"
+        },
+        {
+          "count": 1,
+          "term": "attack-surface"
+        },
+        {
+          "count": 1,
+          "term": "survey"
+        },
+        {
+          "count": 1,
+          "term": "check"
+        },
+        {
+          "count": 1,
+          "term": "claims"
+        }
+      ],
+      "section_index": 14,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Security & Resilience",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security > Endpoint & Agent Runtime"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "AI Alignment & Agentic Security",
+        "Deep Learning Architectures",
+        "Hardware & AI Security"
+      ],
+      "text": "Full text of NEXUS, the fraud-detection framework and the layered attack-surface survey (to check the claims above); the Dark Reading article; Tenet Security's original agentjacking write-up.",
+      "token_count": 26
+    }
+  ],
+  "note-2026-backslash-agentic-endpoint-security-top7": [
+    {
+      "chunk_id": "note-2026-backslash-agentic-endpoint-security-top7#chunk-01",
+      "concept_ids": [
+        "concept:agentic-reasoning",
+        "concept:endpoint-agent-security"
+      ],
+      "doc_id": "note-2026-backslash-agentic-endpoint-security-top7",
+      "heading": "Claim",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "agentic"
+        },
+        {
+          "count": 2,
+          "term": "security"
+        },
+        {
+          "count": 2,
+          "term": "backslash"
+        },
+        {
+          "count": 2,
+          "term": "local"
+        },
+        {
+          "count": 2,
+          "term": "processes"
+        },
+        {
+          "count": 2,
+          "term": "sees"
+        },
+        {
+          "count": 1,
+          "term": "top"
+        },
+        {
+          "count": 1,
+          "term": "endpoint"
+        },
+        {
+          "count": 1,
+          "term": "companies"
+        },
+        {
+          "count": 1,
+          "term": "cisos"
+        },
+        {
+          "count": 1,
+          "term": "should"
+        },
+        {
+          "count": 1,
+          "term": "evaluate"
+        }
+      ],
+      "section_index": 1,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Reasoning, Agents & Retrieval",
+        "Security & Resilience",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security > Endpoint & Agent Runtime"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "AI Alignment & Agentic Security",
+        "Agentic Systems & Reasoning",
+        "Hardware & AI Security"
+      ],
+      "text": "Agents such as Claude Code, Codex and Cursor read local files, launch processes, use stored credentials and load MCP servers, skills, plugins and hooks. Backslash calls this the 'agentic fabric' and says EDR sees processes, MDM sees installed apps and proxies see traffic, but none connect a prompt, a component and a permission to the local action that followed.",
+      "token_count": 59
+    },
+    {
+      "chunk_id": "note-2026-backslash-agentic-endpoint-security-top7#chunk-02",
+      "concept_ids": [],
+      "doc_id": "note-2026-backslash-agentic-endpoint-security-top7",
+      "heading": "Evaluation criteria it proposes",
+      "key_terms": [
+        {
+          "count": 1,
+          "term": "evaluation"
+        },
+        {
+          "count": 1,
+          "term": "criteria"
+        },
+        {
+          "count": 1,
+          "term": "proposes"
+        },
+        {
+          "count": 1,
+          "term": "discover"
+        },
+        {
+          "count": 1,
+          "term": "every"
+        },
+        {
+          "count": 1,
+          "term": "agent"
+        },
+        {
+          "count": 1,
+          "term": "component"
+        },
+        {
+          "count": 1,
+          "term": "device"
+        },
+        {
+          "count": 1,
+          "term": "map"
+        },
+        {
+          "count": 1,
+          "term": "what"
+        },
+        {
+          "count": 1,
+          "term": "each"
+        },
+        {
+          "count": 1,
+          "term": "reach"
+        }
+      ],
+      "section_index": 2,
+      "taxonomy_paths": [],
+      "technology_areas": [],
+      "text": "Discover every agent and component on the device; map what each can reach; block unsafe local actions before they complete; preserve endpoint-level evidence for investigation.",
+      "token_count": 25
+    },
+    {
+      "chunk_id": "note-2026-backslash-agentic-endpoint-security-top7#chunk-03",
+      "concept_ids": [],
+      "doc_id": "note-2026-backslash-agentic-endpoint-security-top7",
+      "heading": "Cited statistic",
+      "key_terms": [
+        {
+          "count": 3,
+          "term": "ai"
+        },
+        {
+          "count": 3,
+          "term": "security"
+        },
+        {
+          "count": 1,
+          "term": "cited"
+        },
+        {
+          "count": 1,
+          "term": "statistic"
+        },
+        {
+          "count": 1,
+          "term": "cites"
+        },
+        {
+          "count": 1,
+          "term": "latio"
+        },
+        {
+          "count": 1,
+          "term": "market"
+        },
+        {
+          "count": 1,
+          "term": "report"
+        },
+        {
+          "count": 1,
+          "term": "surveyed"
+        },
+        {
+          "count": 1,
+          "term": "practitioners"
+        },
+        {
+          "count": 1,
+          "term": "named"
+        },
+        {
+          "count": 1,
+          "term": "endpoint"
+        }
+      ],
+      "section_index": 3,
+      "taxonomy_paths": [
+        "Security & Resilience"
+      ],
+      "technology_areas": [
+        "Hardware & AI Security"
+      ],
+      "text": "Cites Latio's 2026 AI Security Market Report: 45% of surveyed practitioners named endpoint agents as their primary AI security concern, and teams with a dedicated AI security budget rose from 8% to 37% in a year (not independently checked).",
+      "token_count": 39
+    },
+    {
+      "chunk_id": "note-2026-backslash-agentic-endpoint-security-top7#chunk-04",
+      "concept_ids": [],
+      "doc_id": "note-2026-backslash-agentic-endpoint-security-top7",
+      "heading": "Caveat",
+      "key_terms": [
+        {
+          "count": 1,
+          "term": "caveat"
+        },
+        {
+          "count": 1,
+          "term": "vendor-authored"
+        },
+        {
+          "count": 1,
+          "term": "ranking"
+        }
+      ],
+      "section_index": 4,
+      "taxonomy_paths": [],
+      "technology_areas": [],
+      "text": "Vendor-authored ranking.",
+      "token_count": 2
+    }
+  ],
   "note-2026-cross-layer-bitflip-synthesis": [
     {
       "chunk_id": "note-2026-cross-layer-bitflip-synthesis#chunk-01",
@@ -4122,6 +8310,339 @@
       ],
       "text": "In our conceptual taxonomy, Bit-Flip Attacks bridge Hardware & Semiconductor Systems (AI Accelerators, Memory & Interconnects) and Security & Resilience (Memory Safety & Software Capabilities, Runtime Fault Localization & Recovery). Lightweight on-chip monitors (APCs, PULSE, ASI) and z-score statistical repair provide constant-overhead mitigation where traditional ECC or DDR4 Target Row Refresh (TRR) fall short.",
       "token_count": 54
+    }
+  ],
+  "note-2026-csa-agentjacking-mcp-sentry": [
+    {
+      "chunk_id": "note-2026-csa-agentjacking-mcp-sentry#chunk-01",
+      "concept_ids": [
+        "concept:endpoint-agent-security"
+      ],
+      "doc_id": "note-2026-csa-agentjacking-mcp-sentry",
+      "heading": "Claim (as attributed to Tenet Security)",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "mcp"
+        },
+        {
+          "count": 2,
+          "term": "ai"
+        },
+        {
+          "count": 2,
+          "term": "coding"
+        },
+        {
+          "count": 2,
+          "term": "agents"
+        },
+        {
+          "count": 2,
+          "term": "security"
+        },
+        {
+          "count": 2,
+          "term": "tenet"
+        },
+        {
+          "count": 2,
+          "term": "attacker-controlled"
+        },
+        {
+          "count": 2,
+          "term": "events"
+        },
+        {
+          "count": 1,
+          "term": "agentjacking"
+        },
+        {
+          "count": 1,
+          "term": "injection"
+        },
+        {
+          "count": 1,
+          "term": "hijacks"
+        },
+        {
+          "count": 1,
+          "term": "cloud"
+        }
+      ],
+      "section_index": 1,
+      "taxonomy_paths": [
+        "Security & Resilience",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security > Endpoint & Agent Runtime"
+      ],
+      "technology_areas": [
+        "AI Alignment & Agentic Security",
+        "Hardware & AI Security"
+      ],
+      "text": "Attacker-controlled instructions are POSTed into Sentry error events using only a public write-only DSN. AI coding agents (Claude Code, Cursor, Codex) retrieved the events over MCP, did not distinguish them from real errors in Tenet's testing, and ran attacker-controlled commands with the developer's own privileges.",
+      "token_count": 45
+    },
+    {
+      "chunk_id": "note-2026-csa-agentjacking-mcp-sentry#chunk-02",
+      "concept_ids": [],
+      "doc_id": "note-2026-csa-agentjacking-mcp-sentry",
+      "heading": "Reported figures",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "tested"
+        },
+        {
+          "count": 1,
+          "term": "reported"
+        },
+        {
+          "count": 1,
+          "term": "figures"
+        },
+        {
+          "count": 1,
+          "term": "tenet"
+        },
+        {
+          "count": 1,
+          "term": "reports"
+        },
+        {
+          "count": 1,
+          "term": "exploitation"
+        },
+        {
+          "count": 1,
+          "term": "success"
+        },
+        {
+          "count": 1,
+          "term": "rate"
+        },
+        {
+          "count": 1,
+          "term": "agents"
+        },
+        {
+          "count": 1,
+          "term": "least"
+        },
+        {
+          "count": 1,
+          "term": "organizations"
+        },
+        {
+          "count": 1,
+          "term": "injectable"
+        }
+      ],
+      "section_index": 2,
+      "taxonomy_paths": [
+        "Security & Resilience"
+      ],
+      "technology_areas": [
+        "Hardware & AI Security"
+      ],
+      "text": "Tenet reports an 85% exploitation success rate across tested agents and at least 2,388 organizations with injectable DSNs. In tested configurations the attack bypassed EDR, WAF, IAM and VPN because only authorized operations were performed with the developer's credentials.",
+      "token_count": 39
+    },
+    {
+      "chunk_id": "note-2026-csa-agentjacking-mcp-sentry#chunk-03",
+      "concept_ids": [
+        "concept:ontology-smt-reasoning"
+      ],
+      "doc_id": "note-2026-csa-agentjacking-mcp-sentry",
+      "heading": "Caveat",
+      "key_terms": [
+        {
+          "count": 1,
+          "term": "caveat"
+        },
+        {
+          "count": 1,
+          "term": "tenet"
+        },
+        {
+          "count": 1,
+          "term": "proof-of-concept"
+        },
+        {
+          "count": 1,
+          "term": "results"
+        },
+        {
+          "count": 1,
+          "term": "not"
+        },
+        {
+          "count": 1,
+          "term": "confirmed"
+        },
+        {
+          "count": 1,
+          "term": "exploitation"
+        },
+        {
+          "count": 1,
+          "term": "scale"
+        },
+        {
+          "count": 1,
+          "term": "csa"
+        },
+        {
+          "count": 1,
+          "term": "note"
+        },
+        {
+          "count": 1,
+          "term": "says"
+        },
+        {
+          "count": 1,
+          "term": "so"
+        }
+      ],
+      "section_index": 3,
+      "taxonomy_paths": [
+        "Formal Methods & Automated Reasoning",
+        "Formal Methods & Automated Reasoning > Knowledge Representation & Ontologies"
+      ],
+      "technology_areas": [
+        "Automated Reasoning & Mathematical Logic",
+        "Ontologies & Description Logic"
+      ],
+      "text": "These are Tenet's proof-of-concept results, not confirmed exploitation at scale (the CSA note says so). Sentry reportedly acknowledged the disclosure but declined root-cause remediation.",
+      "token_count": 24
+    }
+  ],
+  "note-2026-darkreading-ai-coding-tools-endpoint": [
+    {
+      "chunk_id": "note-2026-darkreading-ai-coding-tools-endpoint#chunk-01",
+      "concept_ids": [
+        "concept:endpoint-agent-security"
+      ],
+      "doc_id": "note-2026-darkreading-ai-coding-tools-endpoint",
+      "heading": "Points reported by a search excerpt (unverified)",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "was"
+        },
+        {
+          "count": 1,
+          "term": "how"
+        },
+        {
+          "count": 1,
+          "term": "ai"
+        },
+        {
+          "count": 1,
+          "term": "coding"
+        },
+        {
+          "count": 1,
+          "term": "tools"
+        },
+        {
+          "count": 1,
+          "term": "crushed"
+        },
+        {
+          "count": 1,
+          "term": "endpoint"
+        },
+        {
+          "count": 1,
+          "term": "security"
+        },
+        {
+          "count": 1,
+          "term": "fortress"
+        },
+        {
+          "count": 1,
+          "term": "dark"
+        },
+        {
+          "count": 1,
+          "term": "reading"
+        },
+        {
+          "count": 1,
+          "term": "points"
+        }
+      ],
+      "section_index": 1,
+      "taxonomy_paths": [
+        "Security & Resilience",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security > Endpoint & Agent Runtime"
+      ],
+      "technology_areas": [
+        "AI Alignment & Agentic Security",
+        "Hardware & AI Security"
+      ],
+      "text": "- Claude Code reads project configuration automatically, so a malicious MCP server defined in those files can execute commands before the trust dialog appears. - A Cursor issue where approval was tied to a plugin's name rather than a content hash of what was approved.",
+      "token_count": 45
+    },
+    {
+      "chunk_id": "note-2026-darkreading-ai-coding-tools-endpoint#chunk-02",
+      "concept_ids": [],
+      "doc_id": "note-2026-darkreading-ai-coding-tools-endpoint",
+      "heading": "To do",
+      "key_terms": [
+        {
+          "count": 1,
+          "term": "do"
+        },
+        {
+          "count": 1,
+          "term": "read"
+        },
+        {
+          "count": 1,
+          "term": "article"
+        },
+        {
+          "count": 1,
+          "term": "confirm"
+        },
+        {
+          "count": 1,
+          "term": "cve"
+        },
+        {
+          "count": 1,
+          "term": "identifiers"
+        },
+        {
+          "count": 1,
+          "term": "affected"
+        },
+        {
+          "count": 1,
+          "term": "versions"
+        },
+        {
+          "count": 1,
+          "term": "before"
+        },
+        {
+          "count": 1,
+          "term": "relying"
+        },
+        {
+          "count": 1,
+          "term": "note"
+        }
+      ],
+      "section_index": 2,
+      "taxonomy_paths": [],
+      "technology_areas": [],
+      "text": "Read the article and confirm the CVE identifiers and affected versions before relying on this note.",
+      "token_count": 16
     }
   ],
   "note-2026-kitsumiko-formal-neurosymbolic-bridge": [
@@ -4382,6 +8903,561 @@
       "token_count": 45
     }
   ],
+  "note-2026-lasso-securing-ai-on-endpoints": [
+    {
+      "chunk_id": "note-2026-lasso-securing-ai-on-endpoints#chunk-01",
+      "concept_ids": [
+        "concept:endpoint-agent-security"
+      ],
+      "doc_id": "note-2026-lasso-securing-ai-on-endpoints",
+      "heading": "Claim",
+      "key_terms": [
+        {
+          "count": 3,
+          "term": "ai"
+        },
+        {
+          "count": 3,
+          "term": "security"
+        },
+        {
+          "count": 2,
+          "term": "coding"
+        },
+        {
+          "count": 2,
+          "term": "agents"
+        },
+        {
+          "count": 2,
+          "term": "mcp"
+        },
+        {
+          "count": 1,
+          "term": "securing"
+        },
+        {
+          "count": 1,
+          "term": "endpoints"
+        },
+        {
+          "count": 1,
+          "term": "how"
+        },
+        {
+          "count": 1,
+          "term": "govern"
+        },
+        {
+          "count": 1,
+          "term": "tools"
+        },
+        {
+          "count": 1,
+          "term": "connections"
+        },
+        {
+          "count": 1,
+          "term": "lasso"
+        }
+      ],
+      "section_index": 1,
+      "taxonomy_paths": [
+        "Security & Resilience",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security > Endpoint & Agent Runtime"
+      ],
+      "technology_areas": [
+        "AI Alignment & Agentic Security",
+        "Hardware & AI Security"
+      ],
+      "text": "Workforce AI security focused on the browser for two years; coding agents, skills and MCP servers now run on laptops with real access to code, credentials and internal systems, and security teams lack visibility into what they do.",
+      "token_count": 38
+    },
+    {
+      "chunk_id": "note-2026-lasso-securing-ai-on-endpoints#chunk-02",
+      "concept_ids": [
+        "concept:endpoint-agent-security"
+      ],
+      "doc_id": "note-2026-lasso-securing-ai-on-endpoints",
+      "heading": "Illustrative scenario",
+      "key_terms": [
+        {
+          "count": 1,
+          "term": "illustrative"
+        },
+        {
+          "count": 1,
+          "term": "scenario"
+        },
+        {
+          "count": 1,
+          "term": "post"
+        },
+        {
+          "count": 1,
+          "term": "walks"
+        },
+        {
+          "count": 1,
+          "term": "hypothetical"
+        },
+        {
+          "count": 1,
+          "term": "sanctioned"
+        },
+        {
+          "count": 1,
+          "term": "agent"
+        },
+        {
+          "count": 1,
+          "term": "plus"
+        },
+        {
+          "count": 1,
+          "term": "approved"
+        },
+        {
+          "count": 1,
+          "term": "jira"
+        },
+        {
+          "count": 1,
+          "term": "mcp"
+        },
+        {
+          "count": 1,
+          "term": "server"
+        }
+      ],
+      "section_index": 2,
+      "taxonomy_paths": [
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security > Endpoint & Agent Runtime"
+      ],
+      "technology_areas": [
+        "AI Alignment & Agentic Security"
+      ],
+      "text": "The post walks through a hypothetical: a sanctioned agent plus an approved Jira MCP server processes a ticket containing buried instructions to fetch and run an external script, exfiltrating a .env file. Every step looks legitimate in isolation.",
+      "token_count": 38
+    },
+    {
+      "chunk_id": "note-2026-lasso-securing-ai-on-endpoints#chunk-03",
+      "concept_ids": [],
+      "doc_id": "note-2026-lasso-securing-ai-on-endpoints",
+      "heading": "Caveat",
+      "key_terms": [
+        {
+          "count": 1,
+          "term": "caveat"
+        },
+        {
+          "count": 1,
+          "term": "scenario"
+        },
+        {
+          "count": 1,
+          "term": "illustrative"
+        },
+        {
+          "count": 1,
+          "term": "not"
+        },
+        {
+          "count": 1,
+          "term": "incident"
+        },
+        {
+          "count": 1,
+          "term": "report"
+        },
+        {
+          "count": 1,
+          "term": "vendor"
+        },
+        {
+          "count": 1,
+          "term": "content"
+        }
+      ],
+      "section_index": 3,
+      "taxonomy_paths": [],
+      "technology_areas": [],
+      "text": "The scenario is illustrative, not an incident report. Vendor content.",
+      "token_count": 10
+    }
+  ],
+  "note-2026-pillar-ai-coding-agent-security-tools": [
+    {
+      "chunk_id": "note-2026-pillar-ai-coding-agent-security-tools#chunk-01",
+      "concept_ids": [
+        "concept:endpoint-agent-security"
+      ],
+      "doc_id": "note-2026-pillar-ai-coding-agent-security-tools",
+      "heading": "Framing",
+      "key_terms": [
+        {
+          "count": 3,
+          "term": "agent"
+        },
+        {
+          "count": 3,
+          "term": "security"
+        },
+        {
+          "count": 2,
+          "term": "pillar"
+        },
+        {
+          "count": 2,
+          "term": "developer"
+        },
+        {
+          "count": 1,
+          "term": "best"
+        },
+        {
+          "count": 1,
+          "term": "ai"
+        },
+        {
+          "count": 1,
+          "term": "coding"
+        },
+        {
+          "count": 1,
+          "term": "tools"
+        },
+        {
+          "count": 1,
+          "term": "enterprise"
+        },
+        {
+          "count": 1,
+          "term": "framing"
+        },
+        {
+          "count": 1,
+          "term": "says"
+        },
+        {
+          "count": 1,
+          "term": "good"
+        }
+      ],
+      "section_index": 1,
+      "taxonomy_paths": [
+        "Security & Resilience",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security > Endpoint & Agent Runtime"
+      ],
+      "technology_areas": [
+        "AI Alignment & Agentic Security",
+        "Hardware & AI Security"
+      ],
+      "text": "Pillar says good coding-agent security does four things: find every agent on a developer machine, audit each one's configuration, block a dangerous action before it runs, and keep doing so if the developer or agent tries to disable the control.",
+      "token_count": 40
+    },
+    {
+      "chunk_id": "note-2026-pillar-ai-coding-agent-security-tools#chunk-02",
+      "concept_ids": [],
+      "doc_id": "note-2026-pillar-ai-coding-agent-security-tools",
+      "heading": "Claims",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "cli"
+        },
+        {
+          "count": 1,
+          "term": "claims"
+        },
+        {
+          "count": 1,
+          "term": "guide"
+        },
+        {
+          "count": 1,
+          "term": "compares"
+        },
+        {
+          "count": 1,
+          "term": "thirteen"
+        },
+        {
+          "count": 1,
+          "term": "tools"
+        },
+        {
+          "count": 1,
+          "term": "eight"
+        },
+        {
+          "count": 1,
+          "term": "questions"
+        },
+        {
+          "count": 1,
+          "term": "recommends"
+        },
+        {
+          "count": 1,
+          "term": "pillar"
+        },
+        {
+          "count": 1,
+          "term": "citing"
+        },
+        {
+          "count": 1,
+          "term": "configuration"
+        }
+      ],
+      "section_index": 2,
+      "taxonomy_paths": [],
+      "technology_areas": [],
+      "text": "The guide compares thirteen tools on eight questions. It recommends Pillar, citing configuration parsing for Claude Code, Cursor, Gemini CLI, Codex CLI and OpenCode, pre-action controls on three of them, and an MCP catalog of 23,000+ analyzed servers. It names Palo Alto Networks (Koi) and Noma as closest alternatives.",
+      "token_count": 49
+    },
+    {
+      "chunk_id": "note-2026-pillar-ai-coding-agent-security-tools#chunk-03",
+      "concept_ids": [],
+      "doc_id": "note-2026-pillar-ai-coding-agent-security-tools",
+      "heading": "Caveat",
+      "key_terms": [
+        {
+          "count": 1,
+          "term": "caveat"
+        },
+        {
+          "count": 1,
+          "term": "self-recommending"
+        },
+        {
+          "count": 1,
+          "term": "vendor"
+        },
+        {
+          "count": 1,
+          "term": "comparison"
+        },
+        {
+          "count": 1,
+          "term": "treat"
+        },
+        {
+          "count": 1,
+          "term": "ranking"
+        },
+        {
+          "count": 1,
+          "term": "product"
+        },
+        {
+          "count": 1,
+          "term": "claims"
+        },
+        {
+          "count": 1,
+          "term": "unverified"
+        }
+      ],
+      "section_index": 3,
+      "taxonomy_paths": [],
+      "technology_areas": [],
+      "text": "Self-recommending vendor comparison; treat the ranking and product claims as unverified.",
+      "token_count": 11
+    }
+  ],
+  "note-2026-zenity-device-based-ai-security": [
+    {
+      "chunk_id": "note-2026-zenity-device-based-ai-security#chunk-01",
+      "concept_ids": [
+        "concept:endpoint-agent-security"
+      ],
+      "doc_id": "note-2026-zenity-device-based-ai-security",
+      "heading": "Claim",
+      "key_terms": [
+        {
+          "count": 4,
+          "term": "ai"
+        },
+        {
+          "count": 2,
+          "term": "device-based"
+        },
+        {
+          "count": 2,
+          "term": "agents"
+        },
+        {
+          "count": 2,
+          "term": "zenity"
+        },
+        {
+          "count": 2,
+          "term": "coding"
+        },
+        {
+          "count": 2,
+          "term": "what"
+        },
+        {
+          "count": 1,
+          "term": "security"
+        },
+        {
+          "count": 1,
+          "term": "protecting"
+        },
+        {
+          "count": 1,
+          "term": "endpoint"
+        },
+        {
+          "count": 1,
+          "term": "claim"
+        },
+        {
+          "count": 1,
+          "term": "argues"
+        },
+        {
+          "count": 1,
+          "term": "personal"
+        }
+      ],
+      "section_index": 1,
+      "taxonomy_paths": [
+        "Security & Resilience",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security > Endpoint & Agent Runtime"
+      ],
+      "technology_areas": [
+        "AI Alignment & Agentic Security",
+        "Hardware & AI Security"
+      ],
+      "text": "Zenity argues device-based AI (coding agents and personal AI tools on endpoints) is a distinct risk class. Its stated position is that EDR and DLP monitor processes and file activity but cannot observe what a coding agent decides, what it writes, where it sends data, or which external services and MCP servers it connects to.",
+      "token_count": 55
+    },
+    {
+      "chunk_id": "note-2026-zenity-device-based-ai-security#chunk-02",
+      "concept_ids": [
+        "concept:agentic-security",
+        "concept:endpoint-agent-security"
+      ],
+      "doc_id": "note-2026-zenity-device-based-ai-security",
+      "heading": "Threat vectors listed",
+      "key_terms": [
+        {
+          "count": 1,
+          "term": "threat"
+        },
+        {
+          "count": 1,
+          "term": "vectors"
+        },
+        {
+          "count": 1,
+          "term": "listed"
+        },
+        {
+          "count": 1,
+          "term": "code"
+        },
+        {
+          "count": 1,
+          "term": "data"
+        },
+        {
+          "count": 1,
+          "term": "exfiltration"
+        },
+        {
+          "count": 1,
+          "term": "destructive"
+        },
+        {
+          "count": 1,
+          "term": "actions"
+        },
+        {
+          "count": 1,
+          "term": "prompt"
+        },
+        {
+          "count": 1,
+          "term": "injection"
+        },
+        {
+          "count": 1,
+          "term": "lateral"
+        },
+        {
+          "count": 1,
+          "term": "movement"
+        }
+      ],
+      "section_index": 2,
+      "taxonomy_paths": [
+        "Security & Resilience",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security > Endpoint & Agent Runtime"
+      ],
+      "technology_areas": [
+        "AI Alignment & Agentic Security",
+        "Hardware & AI Security"
+      ],
+      "text": "Code and data exfiltration, destructive actions, prompt injection, lateral movement, and supply-chain risk via repositories, extensions and MCP servers.",
+      "token_count": 19
+    },
+    {
+      "chunk_id": "note-2026-zenity-device-based-ai-security#chunk-03",
+      "concept_ids": [],
+      "doc_id": "note-2026-zenity-device-based-ai-security",
+      "heading": "Caveat",
+      "key_terms": [
+        {
+          "count": 1,
+          "term": "caveat"
+        },
+        {
+          "count": 1,
+          "term": "vendor"
+        },
+        {
+          "count": 1,
+          "term": "marketing"
+        },
+        {
+          "count": 1,
+          "term": "content"
+        },
+        {
+          "count": 1,
+          "term": "visibility"
+        },
+        {
+          "count": 1,
+          "term": "gap"
+        },
+        {
+          "count": 1,
+          "term": "asserted"
+        },
+        {
+          "count": 1,
+          "term": "not"
+        },
+        {
+          "count": 1,
+          "term": "measured"
+        }
+      ],
+      "section_index": 3,
+      "taxonomy_paths": [],
+      "technology_areas": [],
+      "text": "Vendor marketing content; the visibility gap is asserted, not measured.",
+      "token_count": 10
+    }
+  ],
   "openreview-sec-bench-2025": [
     {
       "chunk_id": "openreview-sec-bench-2025#chunk-01",
@@ -4535,6 +9611,7 @@
     {
       "chunk_id": "openreview-sec-bench-2025#chunk-03",
       "concept_ids": [
+        "concept:endpoint-agent-security",
         "concept:symbolic-execution"
       ],
       "doc_id": "openreview-sec-bench-2025",
@@ -4596,9 +9673,11 @@
         "Formal Methods & Automated Reasoning > SAT & SMT Solvers > Software Verification & Symbolic Execution",
         "Hardware & Semiconductor Systems",
         "Hardware & Semiconductor Systems > EDA & Hardware Verification",
-        "Security & Resilience"
+        "Security & Resilience",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security > Endpoint & Agent Runtime"
       ],
       "technology_areas": [
+        "AI Alignment & Agentic Security",
         "Automated Reasoning & Mathematical Logic",
         "Electronic Design Automation",
         "Hardware & AI Security",
@@ -4608,6 +9687,233 @@
       ],
       "text": "Reveals significant capability gaps in frontier coding agents (18% PoC exploit generation, 34% automated vulnerability patching), establishing a rigorous baseline for software verification and security agents. Curated from kitsumiko/papers (Security, Safety & Robustness).",
       "token_count": 33
+    }
+  ],
+  "research-ai-security-endpoint-perspective-and-trackin": [
+    {
+      "chunk_id": "research-ai-security-endpoint-perspective-and-trackin#chunk-01",
+      "concept_ids": [
+        "concept:trajectory-monitoring"
+      ],
+      "doc_id": "research-ai-security-endpoint-perspective-and-trackin",
+      "heading": "Why Per-Turn Evaluation Is Not Enough: AI security: endpoint perspective, and tracking the trajectory of AI sessions, chats and transactions to detect crescendo and escalation attacks",
+      "key_terms": [
+        {
+          "count": 4,
+          "term": "ai"
+        },
+        {
+          "count": 3,
+          "term": "trajectory"
+        },
+        {
+          "count": 3,
+          "term": "crescendo"
+        },
+        {
+          "count": 3,
+          "term": "attacks"
+        },
+        {
+          "count": 2,
+          "term": "security"
+        },
+        {
+          "count": 2,
+          "term": "endpoint"
+        },
+        {
+          "count": 2,
+          "term": "perspective"
+        },
+        {
+          "count": 2,
+          "term": "tracking"
+        },
+        {
+          "count": 2,
+          "term": "sessions"
+        },
+        {
+          "count": 2,
+          "term": "chats"
+        },
+        {
+          "count": 2,
+          "term": "transactions"
+        },
+        {
+          "count": 2,
+          "term": "detect"
+        }
+      ],
+      "section_index": 1,
+      "taxonomy_paths": [
+        "Formal Methods & Automated Reasoning",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification",
+        "Security & Resilience",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security > Session & Trajectory Monitoring"
+      ],
+      "technology_areas": [
+        "AI Alignment & Agentic Security",
+        "Automated Reasoning & Mathematical Logic",
+        "Electronic Design Automation",
+        "Hardware & AI Security",
+        "Semiconductor Engineering"
+      ],
+      "text": "Multi-turn attacks such as Crescendo (`arxiv-2404.01833`) start with benign-looking requests and escalate gradually by building on the model's own replies, so each individual turn can pass a stateless check while the conversation as a whole does not. Defenses in this collection therefore score the trajectory rather than the turn.",
+      "token_count": 49
+    },
+    {
+      "chunk_id": "research-ai-security-endpoint-perspective-and-trackin#chunk-02",
+      "concept_ids": [
+        "concept:agentic-reasoning",
+        "concept:agentic-security",
+        "concept:dnn",
+        "concept:endpoint-agent-security",
+        "concept:trajectory-monitoring"
+      ],
+      "doc_id": "research-ai-security-endpoint-perspective-and-trackin",
+      "heading": "Session-Level Detection Approaches",
+      "key_terms": [
+        {
+          "count": 9,
+          "term": "security"
+        },
+        {
+          "count": 9,
+          "term": "ai"
+        },
+        {
+          "count": 6,
+          "term": "multi-turn"
+        },
+        {
+          "count": 6,
+          "term": "coding"
+        },
+        {
+          "count": 6,
+          "term": "agents"
+        },
+        {
+          "count": 5,
+          "term": "llm"
+        },
+        {
+          "count": 4,
+          "term": "detection"
+        },
+        {
+          "count": 4,
+          "term": "jailbreak"
+        },
+        {
+          "count": 4,
+          "term": "runtime"
+        },
+        {
+          "count": 4,
+          "term": "agent"
+        },
+        {
+          "count": 4,
+          "term": "tools"
+        },
+        {
+          "count": 4,
+          "term": "adversarial"
+        }
+      ],
+      "section_index": 2,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Artificial Intelligence & Machine Learning > Reasoning, Agents & Retrieval",
+        "Formal Methods & Automated Reasoning",
+        "Security & Resilience",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security > Endpoint & Agent Runtime",
+        "Security & Resilience > AI Alignment, Guardrails & Agent Security > Session & Trajectory Monitoring",
+        "Security & Resilience > Memory Safety & Software Capabilities"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "AI Alignment & Agentic Security",
+        "Agentic Systems & Reasoning",
+        "Automated Reasoning & Mathematical Logic",
+        "Deep Learning Architectures",
+        "Hardware & AI Security",
+        "Language & Runtime Memory Safety"
+      ],
+      "text": "Collected literature \u2014 Great, Now Write an Article About That: The Crescendo Multi-Turn LLM Jailbreak Attack (arxiv-2404.01833); SoK: Evaluating Jailbreak Guardrails for Large Language Models (arxiv-2506.10597); ProbGuard: Proactive Runtime Monitoring for LLM Agent Safety via Probabilistic Prediction (arxiv-2508.00500); Defensive M2S: Training Guardrail Models on Compressed Multi-turn Conversations (arxiv-2601.00454); Prompt Injection Attacks on Agentic Coding Assistants: A Systematic Analysis of Vulnerabilities in Skills, Tools, and Protocol Ecosystems (arxiv-2601.17548); Peak + Accumulation: A Proxy-Level Scoring Formula for Multi-Turn LLM Attack Detection (arxiv-2602.11247); DeepContext: Stateful Real-Time Detection of Multi-Turn Adversarial Intent Drift in LLMs (arxiv-2602.16935); A Systematic Survey of Security Threats and Defenses in LLM-Based AI Agents: A Layered Attack Surface Framework (arxiv-2604.23338); A Low-Latency Fraud Detection Layer for Detecting Adversarial Interaction Patterns in LLM-Powered Agents (arxiv-2605.01143); AgentTrust: Runtime Safety Evaluation and Interception for AI Agent Tool Use (arxiv-2605.04785); THRD: A Training-Free Multi-Turn Defense Framework for Jailbreak Attacks on Large Language Models (arxiv-2606.01738); PsychoPass: Geometric Profiling of Multi-Turn Adversarial LLM Conversations (arxiv-2606.03136); NEXUS: Structured Runtime Safety for Tool-Using LLM Agents (arxiv-2607.19356); Device-Based AI Security: Protecting Endpoint AI Agents (Zenity) (note-2026-zenity-device-based-ai-security); Agentjacking: MCP Injection Hijacks AI Coding Agents (Cloud Security Alliance research note) (note-2026-csa-agentjacking-mcp-sentry); How AI Coding Tools Crushed the Endpoint Security Fortress (Dark Reading) (note-2026-darkreading-ai-coding-tools-endpoint); Best AI Coding Agent Security Tools for the Enterprise (2026) (Pillar Security) (note-2026-pillar-ai-coding-agent-security-tools); Securing AI on Endpoints: How to Govern AI Tools, Coding Agents, and MCP Connections (Lasso Security) (note-2026-lasso-securing-ai-on-endpoints); Top 7 Agentic Endpoint Security Companies CISOs Should Evaluate in 2026 (Backslash Security) (note-2026-backslash-agentic-endpoint-security-top7) \u2014 spans: (1) **conversation-level scoring** (Peak + Accumulation's proxy-layer formula, THRD's time-evolving risk score, DeepContext's recurrent hidden state, PsychoPass's embedding-space geometry, Defensive M2S's compressed histories); (2) **agent runtime monitoring** over tool calls and execution traces (NEXUS, AgentTrust, ProbGuard, and a fraud-detection-style feature layer for adversarial interaction patterns); and (3) **taxonomies and surveys** (SoK on jailbreak guardrails, SoK on prompt injection against agentic coding assistants, and a layered attack-surface survey with a temporality axis that reports no benchmark coverage of cross-session failures).",
+      "token_count": 327
+    },
+    {
+      "chunk_id": "research-ai-security-endpoint-perspective-and-trackin#chunk-03",
+      "concept_ids": [],
+      "doc_id": "research-ai-security-endpoint-perspective-and-trackin",
+      "heading": "Endpoint View & Open Gaps",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "endpoint"
+        },
+        {
+          "count": 1,
+          "term": "view"
+        },
+        {
+          "count": 1,
+          "term": "open"
+        },
+        {
+          "count": 1,
+          "term": "gaps"
+        },
+        {
+          "count": 1,
+          "term": "vendor"
+        },
+        {
+          "count": 1,
+          "term": "csa"
+        },
+        {
+          "count": 1,
+          "term": "material"
+        },
+        {
+          "count": 1,
+          "term": "argues"
+        },
+        {
+          "count": 1,
+          "term": "edr"
+        },
+        {
+          "count": 1,
+          "term": "sees"
+        },
+        {
+          "count": 1,
+          "term": "trusted"
+        },
+        {
+          "count": 1,
+          "term": "agent"
+        }
+      ],
+      "section_index": 3,
+      "taxonomy_paths": [
+        "Security & Resilience"
+      ],
+      "technology_areas": [
+        "Hardware & AI Security"
+      ],
+      "text": "On the endpoint, vendor and CSA material argues that EDR sees a trusted agent process doing authorized work and so cannot see agent-level manipulation (for example MCP-delivered injection). Much of the evidence is small, synthetic, or vendor-authored, results are not comparable across papers, and cross-session attacks remain largely unaddressed.",
+      "token_count": 49
     }
   ],
   "research-formal-verification-languages-in-chip-and-se": [
