@@ -684,6 +684,9 @@
     },
     {
       "chunk_ids": [
+        "amazon-science-2026-mitra-v2-tabular-foundation-models#chunk-01",
+        "amazon-science-2026-mitra-v2-tabular-foundation-models#chunk-02",
+        "amazon-science-2026-mitra-v2-tabular-foundation-models#chunk-03",
         "arxiv-2404.01833#chunk-01",
         "arxiv-2404.01833#chunk-03",
         "arxiv-2503.19174#chunk-03",
@@ -730,6 +733,9 @@
         "arxiv-2606.03136#chunk-02",
         "arxiv-2606.03136#chunk-03",
         "arxiv-2607.19356#chunk-01",
+        "arxiv-2609.04540#chunk-01",
+        "arxiv-2609.04540#chunk-02",
+        "arxiv-2609.04540#chunk-03",
         "arxiv-2609.26751#chunk-03",
         "arxiv-2610.08739v2#chunk-01",
         "arxiv-2610.08739v2#chunk-02",
@@ -761,6 +767,7 @@
       ],
       "description": "Machine learning models, training/inference pipelines, and statistical algorithms.",
       "document_ids": [
+        "amazon-science-2026-mitra-v2-tabular-foundation-models",
         "arxiv-2404.01833",
         "arxiv-2503.19174",
         "arxiv-2506.10597",
@@ -780,6 +787,7 @@
         "arxiv-2606.01738",
         "arxiv-2606.03136",
         "arxiv-2607.19356",
+        "arxiv-2609.04540",
         "arxiv-2609.26751",
         "arxiv-2610.08739v2",
         "note-2026-ai-security-trajectory-monitoring-report",
@@ -801,6 +809,9 @@
     },
     {
       "chunk_ids": [
+        "amazon-science-2026-mitra-v2-tabular-foundation-models#chunk-01",
+        "amazon-science-2026-mitra-v2-tabular-foundation-models#chunk-02",
+        "amazon-science-2026-mitra-v2-tabular-foundation-models#chunk-03",
         "arxiv-2404.01833#chunk-01",
         "arxiv-2506.10597#chunk-01",
         "arxiv-2506.10597#chunk-02",
@@ -833,6 +844,9 @@
         "arxiv-2606.01738#chunk-01",
         "arxiv-2606.03136#chunk-01",
         "arxiv-2607.19356#chunk-01",
+        "arxiv-2609.04540#chunk-01",
+        "arxiv-2609.04540#chunk-02",
+        "arxiv-2609.04540#chunk-03",
         "arxiv-2609.26751#chunk-03",
         "arxiv-2610.08739v2#chunk-01",
         "arxiv-2610.08739v2#chunk-02",
@@ -858,6 +872,7 @@
       ],
       "description": "Deep neural network architectures including CNNs, Vision Transformers, and Large Language Models.",
       "document_ids": [
+        "amazon-science-2026-mitra-v2-tabular-foundation-models",
         "arxiv-2404.01833",
         "arxiv-2506.10597",
         "arxiv-2508.00500",
@@ -876,6 +891,7 @@
         "arxiv-2606.01738",
         "arxiv-2606.03136",
         "arxiv-2607.19356",
+        "arxiv-2609.04540",
         "arxiv-2609.26751",
         "arxiv-2610.08739v2",
         "note-2026-ai-security-trajectory-monitoring-report",
@@ -896,13 +912,20 @@
     },
     {
       "chunk_ids": [
+        "amazon-science-2026-mitra-v2-tabular-foundation-models#chunk-01",
+        "amazon-science-2026-mitra-v2-tabular-foundation-models#chunk-02",
+        "amazon-science-2026-mitra-v2-tabular-foundation-models#chunk-03",
         "arxiv-2605.04785#chunk-03",
-        "arxiv-2605.10901#chunk-03"
+        "arxiv-2605.10901#chunk-03",
+        "arxiv-2609.04540#chunk-01",
+        "arxiv-2609.04540#chunk-03"
       ],
       "description": "Large language model pretraining, scaling laws, tokenization, KV-cache compression, and efficient attention mechanisms.",
       "document_ids": [
+        "amazon-science-2026-mitra-v2-tabular-foundation-models",
         "arxiv-2605.04785",
-        "arxiv-2605.10901"
+        "arxiv-2605.10901",
+        "arxiv-2609.04540"
       ],
       "label": "Language Models & Efficient Attention",
       "ontologic_class_uri": "ontologic:LanguageModelsAndAttention",
@@ -934,6 +957,27 @@
     },
     {
       "chunk_ids": [
+        "amazon-science-2026-mitra-v2-tabular-foundation-models#chunk-01",
+        "amazon-science-2026-mitra-v2-tabular-foundation-models#chunk-02",
+        "amazon-science-2026-mitra-v2-tabular-foundation-models#chunk-03",
+        "arxiv-2609.04540#chunk-01",
+        "arxiv-2609.04540#chunk-02",
+        "arxiv-2609.04540#chunk-03"
+      ],
+      "description": "In-context tabular foundation models (Mitra-v2, TabPFN, TabICL) with 2D row/column attention pretrained on synthetic structural causal model priors.",
+      "document_ids": [
+        "amazon-science-2026-mitra-v2-tabular-foundation-models",
+        "arxiv-2609.04540"
+      ],
+      "label": "Tabular Foundation Models & Synthetic Pretraining",
+      "ontologic_class_uri": "ontologic:TabularFoundationModelsAndSyntheticPretraining",
+      "parent_path": "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+      "path": "Artificial Intelligence & Machine Learning > Deep Neural Networks > Tabular Foundation Models & Synthetic Pretraining",
+      "technology_area": "Tabular Foundation Models & Synthetic Data"
+    },
+    {
+      "chunk_ids": [
+        "amazon-science-2026-mitra-v2-tabular-foundation-models#chunk-02",
         "arxiv-2503.19174#chunk-03",
         "arxiv-2506.10597#chunk-02",
         "arxiv-2508.00500#chunk-01",
@@ -963,6 +1007,7 @@
       ],
       "description": "Chain-of-thought and latent reasoning, autonomous multi-agent orchestration, tool use, and retrieval-augmented generation (RAG).",
       "document_ids": [
+        "amazon-science-2026-mitra-v2-tabular-foundation-models",
         "arxiv-2503.19174",
         "arxiv-2506.10597",
         "arxiv-2508.00500",
@@ -1084,12 +1129,14 @@
     },
     {
       "chunk_ids": [
+        "amazon-science-2026-mitra-v2-tabular-foundation-models#chunk-01",
         "arxiv-2604.23338#chunk-02",
         "arxiv-2607.22619#chunk-01",
         "arxiv-2607.22619#chunk-03"
       ],
       "description": "International AI legislation, risk management standards (NIST AI RMF, ISO/IEC, EU AI Act), compute governance, and human-AI decision-making.",
       "document_ids": [
+        "amazon-science-2026-mitra-v2-tabular-foundation-models",
         "arxiv-2604.23338",
         "arxiv-2607.22619"
       ],

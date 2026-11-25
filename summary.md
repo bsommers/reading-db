@@ -1,9 +1,9 @@
 # Reading List Knowledge Graph & Taxonomy Index
 
-- **Documents Indexed:** 45
-- **Semantic Chunks:** 145
-- **Knowledge Graph Nodes:** 397
-- **Knowledge Graph Edges:** 2512
+- **Documents Indexed:** 47
+- **Semantic Chunks:** 151
+- **Knowledge Graph Nodes:** 427
+- **Knowledge Graph Edges:** 2615
 
 ## 1. Indexed Documents & Tracking Status
 
@@ -54,6 +54,8 @@
 | `note-2026-backslash-agentic-endpoint-security-top7` | `to-read` | `medium` | `note` | [Top 7 Agentic Endpoint Security Companies CISOs Should Evaluate in 2026 (Backslash Security)](https://www.backslash.security/blog/top-7-agentic-endpoint-security-companies) | 2026-10-01 | — |
 | `research-ai-security-endpoint-perspective-and-trackin` | `read` | `high` | `note` | [Research Synthesis: AI security: endpoint perspective, and tracking the trajectory of AI sessions, chats and transactions to detect crescendo and escalation attacks](https://github.com/bsommers/reading-db) | 2026-11-07 | `CITES` -> `arxiv-2404.01833`, `CITES` -> `arxiv-2506.10597`, `CITES` -> `arxiv-2508.00500`, `CITES` -> `arxiv-2601.00454`, `CITES` -> `arxiv-2601.17548`, `CITES` -> `arxiv-2602.11247`, `CITES` -> `arxiv-2602.16935`, `CITES` -> `arxiv-2604.23338`, `CITES` -> `arxiv-2605.01143`, `CITES` -> `arxiv-2605.04785`, `CITES` -> `arxiv-2606.01738`, `CITES` -> `arxiv-2606.03136`, `CITES` -> `arxiv-2607.19356`, `CITES` -> `note-2026-zenity-device-based-ai-security`, `CITES` -> `note-2026-csa-agentjacking-mcp-sentry`, `CITES` -> `note-2026-darkreading-ai-coding-tools-endpoint`, `CITES` -> `note-2026-pillar-ai-coding-agent-security-tools`, `CITES` -> `note-2026-lasso-securing-ai-on-endpoints`, `CITES` -> `note-2026-backslash-agentic-endpoint-security-top7`, `CITES` -> `arxiv-2605.10901`, `CITES` -> `openreview-sec-bench-2025`, `CITES` -> `note-2026-kitsumiko-formal-neurosymbolic-bridge` |
 | `note-2026-ai-security-trajectory-monitoring-report` | `read` | `high` | `note` | Personal Research Report: Trajectory Monitoring for Multi-Turn Escalation (Crescendo) and Endpoint AI Agent Security | 2026-11-13 | `CITES` -> `arxiv-2404.01833`, `CITES` -> `arxiv-2602.11247`, `CITES` -> `arxiv-2602.16935`, `CITES` -> `arxiv-2606.01738`, `CITES` -> `arxiv-2606.03136`, `CITES` -> `arxiv-2601.00454`, `CITES` -> `arxiv-2605.01143`, `CITES` -> `arxiv-2605.04785`, `CITES` -> `arxiv-2607.19356`, `CITES` -> `arxiv-2508.00500`, `CITES` -> `arxiv-2506.10597`, `CITES` -> `arxiv-2604.23338`, `CITES` -> `arxiv-2601.17548`, `CITES` -> `note-2026-csa-agentjacking-mcp-sentry`, `CITES` -> `arxiv-2605.10901`, `CITES` -> `openreview-sec-bench-2025` |
+| `arxiv-2609.04540` | `to-read` | `high` | `academic_paper` | [Mitra-v2 Technical Report: Scaling Synthetic Pretraining for Tabular Foundation Models](https://arxiv.org/abs/2609.04540) | 2026-09-03 | — |
+| `amazon-science-2026-mitra-v2-tabular-foundation-models` | `to-read` | `high` | `technical_article` | [Mitra v2: Scaling synthetic pretraining for tabular foundation models](https://www.amazon.science/blog/mitra-v2-scaling-synthetic-pretraining-for-tabular-foundation-models) | 2026-09-03 | `REPORTS_ON` -> `arxiv-2609.04540`, `CITES` -> `arxiv-2609.04540` |
 
 ## 2. Conceptual Taxonomy & Document Graph
 
@@ -73,17 +75,18 @@ flowchart TD
     TAX11["Deep Neural Networks"]
     TAX12["Language Models & Efficient Attention"]
     TAX13["Novel & State-Space Architectures"]
-    TAX14["Reasoning, Agents & Retrieval"]
-    TAX15["Interpretability, Calibration & Evaluation"]
-    TAX16["Probabilistic, Diffusion & Multimodal Vision"]
-    TAX17["AI Alignment, Guardrails & Agent Security"]
-    TAX18["AI Policy, Governance & Human-AI Systems"]
-    TAX19["Formal Methods & Automated Reasoning"]
-    TAX20["Neuro-Symbolic Deduction & Guardrail Verification"]
-    TAX21["SAT & SMT Solvers"]
-    TAX22["Software Verification & Symbolic Execution"]
-    TAX23["Graph Theory Modulo Theories"]
-    TAX24["Knowledge Representation & Ontologies"]
+    TAX14["Tabular Foundation Models & Synthetic Pretraining"]
+    TAX15["Reasoning, Agents & Retrieval"]
+    TAX16["Interpretability, Calibration & Evaluation"]
+    TAX17["Probabilistic, Diffusion & Multimodal Vision"]
+    TAX18["AI Alignment, Guardrails & Agent Security"]
+    TAX19["AI Policy, Governance & Human-AI Systems"]
+    TAX20["Formal Methods & Automated Reasoning"]
+    TAX21["Neuro-Symbolic Deduction & Guardrail Verification"]
+    TAX22["SAT & SMT Solvers"]
+    TAX23["Software Verification & Symbolic Execution"]
+    TAX24["Graph Theory Modulo Theories"]
+    TAX25["Knowledge Representation & Ontologies"]
     TAX0 --> TAX1
     TAX1 --> TAX2
     TAX0 --> TAX3
@@ -95,15 +98,16 @@ flowchart TD
     TAX10 --> TAX11
     TAX11 --> TAX12
     TAX11 --> TAX13
-    TAX10 --> TAX14
+    TAX11 --> TAX14
     TAX10 --> TAX15
     TAX10 --> TAX16
-    TAX6 --> TAX17
-    TAX19 --> TAX20
-    TAX19 --> TAX21
-    TAX21 --> TAX22
-    TAX21 --> TAX23
-    TAX19 --> TAX24
+    TAX10 --> TAX17
+    TAX6 --> TAX18
+    TAX20 --> TAX21
+    TAX20 --> TAX22
+    TAX22 --> TAX23
+    TAX22 --> TAX24
+    TAX20 --> TAX25
     DOC0["semieng-2026-bare-ai-monitors"]
     DOC0 -->|REPORTS_ON| DOC1
     DOC0 -->|IN_CATEGORY| TAX13
@@ -146,7 +150,7 @@ flowchart TD
     DOC5 -->|CITES| DOC2
     DOC5 -->|CITES| DOC0
     DOC5 -->|IN_CATEGORY| TAX11
-    DOC5 -->|IN_CATEGORY| TAX24
+    DOC5 -->|IN_CATEGORY| TAX25
     DOC5 -->|IN_CATEGORY| TAX2
     DOC5 -->|IN_CATEGORY| TAX4
     DOC5 -->|IN_CATEGORY| TAX3
@@ -154,22 +158,22 @@ flowchart TD
     DOC5 -->|IN_CATEGORY| TAX8
     DOC5 -->|IN_CATEGORY| TAX9
     DOC6["arxiv-2208.03699"]
-    DOC6 -->|IN_CATEGORY| TAX22
+    DOC6 -->|IN_CATEGORY| TAX23
     DOC6 -->|IN_CATEGORY| TAX2
     DOC6 -->|IN_CATEGORY| TAX5
     DOC6 -->|IN_CATEGORY| TAX3
     DOC6 -->|IN_CATEGORY| TAX8
     DOC7["arxiv-2503.19174"]
     DOC7 -->|CITES| DOC6
-    DOC7 -->|IN_CATEGORY| TAX14
-    DOC7 -->|IN_CATEGORY| TAX24
+    DOC7 -->|IN_CATEGORY| TAX15
+    DOC7 -->|IN_CATEGORY| TAX25
     DOC7 -->|IN_CATEGORY| TAX5
     DOC7 -->|IN_CATEGORY| TAX8
     DOC8["arxiv-2604.23100"]
     DOC8 -->|CITES| DOC7
     DOC8 -->|IN_CATEGORY| TAX11
-    DOC8 -->|IN_CATEGORY| TAX14
-    DOC8 -->|IN_CATEGORY| TAX19
+    DOC8 -->|IN_CATEGORY| TAX15
+    DOC8 -->|IN_CATEGORY| TAX20
     DOC8 -->|IN_CATEGORY| TAX1
     DOC8 -->|IN_CATEGORY| TAX5
     DOC8 -->|IN_CATEGORY| TAX3
@@ -178,7 +182,7 @@ flowchart TD
     DOC9 -->|CITES| DOC7
     DOC9 -->|CITES| DOC8
     DOC9 -->|IN_CATEGORY| TAX11
-    DOC9 -->|IN_CATEGORY| TAX19
+    DOC9 -->|IN_CATEGORY| TAX20
     DOC9 -->|IN_CATEGORY| TAX5
     DOC9 -->|IN_CATEGORY| TAX8
     DOC10["research-formal-verification-languages-in-chip-and-se"]
@@ -192,28 +196,28 @@ flowchart TD
     DOC10 -->|CITES| DOC4
     DOC10 -->|CITES| DOC5
     DOC10 -->|IN_CATEGORY| TAX11
-    DOC10 -->|IN_CATEGORY| TAX14
-    DOC10 -->|IN_CATEGORY| TAX24
-    DOC10 -->|IN_CATEGORY| TAX21
+    DOC10 -->|IN_CATEGORY| TAX15
+    DOC10 -->|IN_CATEGORY| TAX25
+    DOC10 -->|IN_CATEGORY| TAX22
     DOC10 -->|IN_CATEGORY| TAX2
     DOC10 -->|IN_CATEGORY| TAX5
     DOC10 -->|IN_CATEGORY| TAX3
     DOC10 -->|IN_CATEGORY| TAX7
     DOC10 -->|IN_CATEGORY| TAX8
     DOC11["arxiv-1402.4677"]
+    DOC11 -->|IN_CATEGORY| TAX25
     DOC11 -->|IN_CATEGORY| TAX24
-    DOC11 -->|IN_CATEGORY| TAX23
     DOC11 -->|IN_CATEGORY| TAX5
     DOC12["arxiv-2201.04663"]
     DOC12 -->|CITES| DOC11
     DOC12 -->|CITES| DOC6
+    DOC12 -->|IN_CATEGORY| TAX25
     DOC12 -->|IN_CATEGORY| TAX24
     DOC12 -->|IN_CATEGORY| TAX23
-    DOC12 -->|IN_CATEGORY| TAX22
     DOC12 -->|IN_CATEGORY| TAX5
     DOC13["arxiv-1610.00502"]
     DOC13 -->|CITES| DOC12
-    DOC13 -->|IN_CATEGORY| TAX22
+    DOC13 -->|IN_CATEGORY| TAX23
     DOC13 -->|IN_CATEGORY| TAX1
     DOC13 -->|IN_CATEGORY| TAX5
     DOC13 -->|IN_CATEGORY| TAX3
@@ -222,8 +226,8 @@ flowchart TD
     DOC14["arxiv-1507.01763"]
     DOC14 -->|CITES| DOC11
     DOC14 -->|CITES| DOC12
-    DOC14 -->|IN_CATEGORY| TAX24
-    DOC14 -->|IN_CATEGORY| TAX21
+    DOC14 -->|IN_CATEGORY| TAX25
+    DOC14 -->|IN_CATEGORY| TAX22
     DOC14 -->|IN_CATEGORY| TAX5
     DOC15["research-sat-and-smt-solvers-applications-in-software"]
     DOC15 -->|CITES| DOC11
@@ -240,9 +244,9 @@ flowchart TD
     DOC15 -->|CITES| DOC8
     DOC15 -->|CITES| DOC9
     DOC15 -->|CITES| DOC10
+    DOC15 -->|IN_CATEGORY| TAX25
     DOC15 -->|IN_CATEGORY| TAX24
     DOC15 -->|IN_CATEGORY| TAX23
-    DOC15 -->|IN_CATEGORY| TAX22
     DOC15 -->|IN_CATEGORY| TAX1
     DOC15 -->|IN_CATEGORY| TAX5
     DOC15 -->|IN_CATEGORY| TAX3
@@ -252,9 +256,9 @@ flowchart TD
     DOC16 -->|CITES| DOC14
     DOC16 -->|CITES| DOC8
     DOC16 -->|IN_CATEGORY| TAX11
-    DOC16 -->|IN_CATEGORY| TAX24
-    DOC16 -->|IN_CATEGORY| TAX20
+    DOC16 -->|IN_CATEGORY| TAX25
     DOC16 -->|IN_CATEGORY| TAX21
+    DOC16 -->|IN_CATEGORY| TAX22
     DOC16 -->|IN_CATEGORY| TAX1
     DOC16 -->|IN_CATEGORY| TAX5
     DOC17["arxiv-2605.08605"]
@@ -262,27 +266,27 @@ flowchart TD
     DOC17 -->|CITES| DOC13
     DOC17 -->|CITES| DOC16
     DOC17 -->|IN_CATEGORY| TAX13
-    DOC17 -->|IN_CATEGORY| TAX20
+    DOC17 -->|IN_CATEGORY| TAX21
     DOC18["arxiv-2605.10901"]
     DOC18 -->|CITES| DOC6
     DOC18 -->|CITES| DOC1
     DOC18 -->|IN_CATEGORY| TAX12
-    DOC18 -->|IN_CATEGORY| TAX14
-    DOC18 -->|IN_CATEGORY| TAX20
+    DOC18 -->|IN_CATEGORY| TAX15
+    DOC18 -->|IN_CATEGORY| TAX21
     DOC18 -->|IN_CATEGORY| TAX1
     DOC18 -->|IN_CATEGORY| TAX4
-    DOC18 -->|IN_CATEGORY| TAX17
+    DOC18 -->|IN_CATEGORY| TAX18
     DOC19["arxiv-2603.19163"]
     DOC19 -->|CITES| DOC11
-    DOC19 -->|IN_CATEGORY| TAX20
     DOC19 -->|IN_CATEGORY| TAX21
+    DOC19 -->|IN_CATEGORY| TAX22
     DOC19 -->|IN_CATEGORY| TAX1
     DOC19 -->|IN_CATEGORY| TAX5
     DOC19 -->|IN_CATEGORY| TAX3
     DOC20["arxiv-2607.22619"]
     DOC20 -->|CITES| DOC1
     DOC20 -->|CITES| DOC3
-    DOC20 -->|IN_CATEGORY| TAX18
+    DOC20 -->|IN_CATEGORY| TAX19
     DOC20 -->|IN_CATEGORY| TAX2
     DOC20 -->|IN_CATEGORY| TAX4
     DOC20 -->|IN_CATEGORY| TAX6
@@ -290,15 +294,15 @@ flowchart TD
     DOC21 -->|CITES| DOC13
     DOC21 -->|CITES| DOC2
     DOC21 -->|IN_CATEGORY| TAX11
-    DOC21 -->|IN_CATEGORY| TAX14
-    DOC21 -->|IN_CATEGORY| TAX22
+    DOC21 -->|IN_CATEGORY| TAX15
+    DOC21 -->|IN_CATEGORY| TAX23
     DOC21 -->|IN_CATEGORY| TAX4
-    DOC21 -->|IN_CATEGORY| TAX17
+    DOC21 -->|IN_CATEGORY| TAX18
     DOC22["arxiv-2509.25239"]
     DOC22 -->|CITES| DOC17
     DOC22 -->|IN_CATEGORY| TAX13
-    DOC22 -->|IN_CATEGORY| TAX14
-    DOC22 -->|IN_CATEGORY| TAX20
+    DOC22 -->|IN_CATEGORY| TAX15
+    DOC22 -->|IN_CATEGORY| TAX21
     DOC22 -->|IN_CATEGORY| TAX9
     DOC23["note-2026-kitsumiko-formal-neurosymbolic-bridge"]
     DOC23 -->|REPORTS_ON| DOC16
@@ -312,90 +316,90 @@ flowchart TD
     DOC23 -->|CITES| DOC1
     DOC23 -->|CITES| DOC6
     DOC23 -->|IN_CATEGORY| TAX13
-    DOC23 -->|IN_CATEGORY| TAX14
-    DOC23 -->|IN_CATEGORY| TAX24
-    DOC23 -->|IN_CATEGORY| TAX20
+    DOC23 -->|IN_CATEGORY| TAX15
+    DOC23 -->|IN_CATEGORY| TAX25
     DOC23 -->|IN_CATEGORY| TAX21
+    DOC23 -->|IN_CATEGORY| TAX22
     DOC23 -->|IN_CATEGORY| TAX2
     DOC23 -->|IN_CATEGORY| TAX5
-    DOC23 -->|IN_CATEGORY| TAX17
+    DOC23 -->|IN_CATEGORY| TAX18
     DOC24["arxiv-2404.01833"]
     DOC24 -->|IN_CATEGORY| TAX11
-    DOC24 -->|IN_CATEGORY| TAX16
     DOC24 -->|IN_CATEGORY| TAX17
+    DOC24 -->|IN_CATEGORY| TAX18
     DOC24 -->|IN_CATEGORY| TAX9
     DOC25["arxiv-2506.10597"]
     DOC25 -->|IN_CATEGORY| TAX11
-    DOC25 -->|IN_CATEGORY| TAX14
-    DOC25 -->|IN_CATEGORY| TAX24
-    DOC25 -->|IN_CATEGORY| TAX17
+    DOC25 -->|IN_CATEGORY| TAX15
+    DOC25 -->|IN_CATEGORY| TAX25
+    DOC25 -->|IN_CATEGORY| TAX18
     DOC26["arxiv-2508.00500"]
     DOC26 -->|IN_CATEGORY| TAX11
-    DOC26 -->|IN_CATEGORY| TAX14
+    DOC26 -->|IN_CATEGORY| TAX15
     DOC26 -->|IN_CATEGORY| TAX9
     DOC27["arxiv-2601.00454"]
     DOC27 -->|IN_CATEGORY| TAX11
-    DOC27 -->|IN_CATEGORY| TAX19
+    DOC27 -->|IN_CATEGORY| TAX20
     DOC27 -->|IN_CATEGORY| TAX1
     DOC27 -->|IN_CATEGORY| TAX3
-    DOC27 -->|IN_CATEGORY| TAX17
+    DOC27 -->|IN_CATEGORY| TAX18
     DOC28["arxiv-2601.17548"]
     DOC28 -->|IN_CATEGORY| TAX11
-    DOC28 -->|IN_CATEGORY| TAX16
-    DOC28 -->|IN_CATEGORY| TAX14
-    DOC28 -->|IN_CATEGORY| TAX24
-    DOC28 -->|IN_CATEGORY| TAX22
-    DOC28 -->|IN_CATEGORY| TAX1
     DOC28 -->|IN_CATEGORY| TAX17
+    DOC28 -->|IN_CATEGORY| TAX15
+    DOC28 -->|IN_CATEGORY| TAX25
+    DOC28 -->|IN_CATEGORY| TAX23
+    DOC28 -->|IN_CATEGORY| TAX1
+    DOC28 -->|IN_CATEGORY| TAX18
     DOC29["arxiv-2602.11247"]
     DOC29 -->|IN_CATEGORY| TAX11
-    DOC29 -->|IN_CATEGORY| TAX16
-    DOC29 -->|IN_CATEGORY| TAX14
-    DOC29 -->|IN_CATEGORY| TAX19
     DOC29 -->|IN_CATEGORY| TAX17
+    DOC29 -->|IN_CATEGORY| TAX15
+    DOC29 -->|IN_CATEGORY| TAX20
+    DOC29 -->|IN_CATEGORY| TAX18
     DOC30["arxiv-2602.16935"]
     DOC30 -->|IN_CATEGORY| TAX11
-    DOC30 -->|IN_CATEGORY| TAX24
+    DOC30 -->|IN_CATEGORY| TAX25
     DOC30 -->|IN_CATEGORY| TAX1
-    DOC30 -->|IN_CATEGORY| TAX17
+    DOC30 -->|IN_CATEGORY| TAX18
     DOC30 -->|IN_CATEGORY| TAX8
     DOC31["arxiv-2604.23338"]
-    DOC31 -->|IN_CATEGORY| TAX18
+    DOC31 -->|IN_CATEGORY| TAX19
     DOC31 -->|IN_CATEGORY| TAX11
-    DOC31 -->|IN_CATEGORY| TAX14
-    DOC31 -->|IN_CATEGORY| TAX23
+    DOC31 -->|IN_CATEGORY| TAX15
+    DOC31 -->|IN_CATEGORY| TAX24
     DOC31 -->|IN_CATEGORY| TAX3
-    DOC31 -->|IN_CATEGORY| TAX17
+    DOC31 -->|IN_CATEGORY| TAX18
     DOC31 -->|IN_CATEGORY| TAX8
     DOC32["arxiv-2605.01143"]
     DOC32 -->|IN_CATEGORY| TAX11
-    DOC32 -->|IN_CATEGORY| TAX14
-    DOC32 -->|IN_CATEGORY| TAX17
+    DOC32 -->|IN_CATEGORY| TAX15
+    DOC32 -->|IN_CATEGORY| TAX18
     DOC32 -->|IN_CATEGORY| TAX9
     DOC33["arxiv-2605.04785"]
     DOC33 -->|IN_CATEGORY| TAX12
-    DOC33 -->|IN_CATEGORY| TAX14
+    DOC33 -->|IN_CATEGORY| TAX15
     DOC33 -->|IN_CATEGORY| TAX1
-    DOC33 -->|IN_CATEGORY| TAX17
+    DOC33 -->|IN_CATEGORY| TAX18
     DOC34["arxiv-2606.01738"]
     DOC34 -->|IN_CATEGORY| TAX11
-    DOC34 -->|IN_CATEGORY| TAX14
-    DOC34 -->|IN_CATEGORY| TAX19
+    DOC34 -->|IN_CATEGORY| TAX15
+    DOC34 -->|IN_CATEGORY| TAX20
     DOC34 -->|IN_CATEGORY| TAX1
-    DOC34 -->|IN_CATEGORY| TAX17
+    DOC34 -->|IN_CATEGORY| TAX18
     DOC34 -->|IN_CATEGORY| TAX8
     DOC35["arxiv-2606.03136"]
     DOC35 -->|IN_CATEGORY| TAX11
-    DOC35 -->|IN_CATEGORY| TAX14
-    DOC35 -->|IN_CATEGORY| TAX19
-    DOC35 -->|IN_CATEGORY| TAX17
+    DOC35 -->|IN_CATEGORY| TAX15
+    DOC35 -->|IN_CATEGORY| TAX20
+    DOC35 -->|IN_CATEGORY| TAX18
     DOC36["arxiv-2607.19356"]
     DOC36 -->|IN_CATEGORY| TAX11
     DOC36 -->|IN_CATEGORY| TAX9
     DOC37["note-2026-zenity-device-based-ai-security"]
-    DOC37 -->|IN_CATEGORY| TAX17
+    DOC37 -->|IN_CATEGORY| TAX18
     DOC38["note-2026-csa-agentjacking-mcp-sentry"]
-    DOC38 -->|IN_CATEGORY| TAX24
+    DOC38 -->|IN_CATEGORY| TAX25
     DOC38 -->|IN_CATEGORY| TAX6
     DOC39["note-2026-darkreading-ai-coding-tools-endpoint"]
     DOC39 -->|IN_CATEGORY| TAX6
@@ -404,7 +408,7 @@ flowchart TD
     DOC41["note-2026-lasso-securing-ai-on-endpoints"]
     DOC41 -->|IN_CATEGORY| TAX6
     DOC42["note-2026-backslash-agentic-endpoint-security-top7"]
-    DOC42 -->|IN_CATEGORY| TAX14
+    DOC42 -->|IN_CATEGORY| TAX15
     DOC42 -->|IN_CATEGORY| TAX6
     DOC43["research-ai-security-endpoint-perspective-and-trackin"]
     DOC43 -->|CITES| DOC24
@@ -430,10 +434,10 @@ flowchart TD
     DOC43 -->|CITES| DOC21
     DOC43 -->|CITES| DOC23
     DOC43 -->|IN_CATEGORY| TAX11
-    DOC43 -->|IN_CATEGORY| TAX14
-    DOC43 -->|IN_CATEGORY| TAX19
+    DOC43 -->|IN_CATEGORY| TAX15
+    DOC43 -->|IN_CATEGORY| TAX20
     DOC43 -->|IN_CATEGORY| TAX4
-    DOC43 -->|IN_CATEGORY| TAX17
+    DOC43 -->|IN_CATEGORY| TAX18
     DOC43 -->|IN_CATEGORY| TAX8
     DOC44["note-2026-ai-security-trajectory-monitoring-report"]
     DOC44 -->|CITES| DOC24
@@ -453,12 +457,22 @@ flowchart TD
     DOC44 -->|CITES| DOC18
     DOC44 -->|CITES| DOC21
     DOC44 -->|IN_CATEGORY| TAX11
-    DOC44 -->|IN_CATEGORY| TAX14
-    DOC44 -->|IN_CATEGORY| TAX19
+    DOC44 -->|IN_CATEGORY| TAX15
+    DOC44 -->|IN_CATEGORY| TAX20
     DOC44 -->|IN_CATEGORY| TAX2
     DOC44 -->|IN_CATEGORY| TAX4
     DOC44 -->|IN_CATEGORY| TAX3
-    DOC44 -->|IN_CATEGORY| TAX17
+    DOC44 -->|IN_CATEGORY| TAX18
+    DOC45["arxiv-2609.04540"]
+    DOC45 -->|IN_CATEGORY| TAX12
+    DOC45 -->|IN_CATEGORY| TAX14
+    DOC46["amazon-science-2026-mitra-v2-tabular-foundation-models"]
+    DOC46 -->|REPORTS_ON| DOC45
+    DOC46 -->|CITES| DOC45
+    DOC46 -->|IN_CATEGORY| TAX19
+    DOC46 -->|IN_CATEGORY| TAX12
+    DOC46 -->|IN_CATEGORY| TAX14
+    DOC46 -->|IN_CATEGORY| TAX15
 ```
 
 ## 3. Global Word Cloud (Top 15 Terms)
@@ -469,16 +483,16 @@ flowchart TD
 | `security` | 43 | 1.00 |
 | `verification` | 41 | 0.95 |
 | `ai` | 38 | 0.88 |
+| `models` | 37 | 0.86 |
 | `agents` | 32 | 0.74 |
 | `attack` | 32 | 0.74 |
-| `evaluation` | 31 | 0.72 |
-| `context` | 30 | 0.70 |
+| `evaluation` | 32 | 0.74 |
+| `context` | 31 | 0.72 |
 | `hardware` | 30 | 0.70 |
-| `models` | 30 | 0.70 |
+| `model` | 30 | 0.70 |
 | `safety` | 30 | 0.70 |
 | `attacks` | 28 | 0.65 |
 | `smt` | 28 | 0.65 |
-| `model` | 27 | 0.63 |
 | `multi-turn` | 27 | 0.63 |
 
 ## 4. Semantic Chunks by Document
@@ -1052,3 +1066,27 @@ flowchart TD
 - **`note-2026-ai-security-trajectory-monitoring-report#chunk-14` (Next reading)** [26 words]
   - **Concepts:** `concept:endpoint-agent-security`
   - **Taxonomy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Security & Resilience`; `Security & Resilience > AI Alignment, Guardrails & Agent Security > Endpoint & Agent Runtime`
+
+### `arxiv-2609.04540` — Mitra-v2 Technical Report: Scaling Synthetic Pretraining for Tabular Foundation Models
+
+- **`arxiv-2609.04540#chunk-01` (Overview & Synthetic Causal Pretraining)** [59 words]
+  - **Concepts:** `concept:tabular-foundation-models`
+  - **Taxonomy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Artificial Intelligence & Machine Learning > Deep Neural Networks > Language Models & Efficient Attention`; `Artificial Intelligence & Machine Learning > Deep Neural Networks > Tabular Foundation Models & Synthetic Pretraining`
+- **`arxiv-2609.04540#chunk-02` (2D Transformer Architecture & Dual-Axis Self-Attention)** [60 words]
+  - **Concepts:** `concept:tabular-foundation-models`
+  - **Taxonomy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Artificial Intelligence & Machine Learning > Deep Neural Networks > Tabular Foundation Models & Synthetic Pretraining`
+- **`arxiv-2609.04540#chunk-03` (Benchmark Evaluation & Open-Source Release)** [64 words]
+  - **Concepts:** `concept:tabular-foundation-models`
+  - **Taxonomy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Artificial Intelligence & Machine Learning > Deep Neural Networks > Language Models & Efficient Attention`; `Artificial Intelligence & Machine Learning > Deep Neural Networks > Tabular Foundation Models & Synthetic Pretraining`
+
+### `amazon-science-2026-mitra-v2-tabular-foundation-models` — Mitra v2: Scaling synthetic pretraining for tabular foundation models
+
+- **`amazon-science-2026-mitra-v2-tabular-foundation-models#chunk-01` (Why Synthetic Pretraining for Tabular Foundation Models)** [84 words]
+  - **Concepts:** `concept:tabular-foundation-models`
+  - **Taxonomy:** `AI Policy, Governance & Human-AI Systems`; `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Artificial Intelligence & Machine Learning > Deep Neural Networks > Language Models & Efficient Attention`; `Artificial Intelligence & Machine Learning > Deep Neural Networks > Tabular Foundation Models & Synthetic Pretraining`
+- **`amazon-science-2026-mitra-v2-tabular-foundation-models#chunk-02` (Dual-Axis 2D Transformer Geometry & Context Scaling)** [83 words]
+  - **Concepts:** `concept:agentic-reasoning`, `concept:tabular-foundation-models`
+  - **Taxonomy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Artificial Intelligence & Machine Learning > Deep Neural Networks > Language Models & Efficient Attention`; `Artificial Intelligence & Machine Learning > Deep Neural Networks > Tabular Foundation Models & Synthetic Pretraining`; `Artificial Intelligence & Machine Learning > Reasoning, Agents & Retrieval`
+- **`amazon-science-2026-mitra-v2-tabular-foundation-models#chunk-03` (Frontier Benchmark Results & Open-Source Ecosystem)** [55 words]
+  - **Concepts:** `concept:tabular-foundation-models`
+  - **Taxonomy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Artificial Intelligence & Machine Learning > Deep Neural Networks > Language Models & Efficient Attention`; `Artificial Intelligence & Machine Learning > Deep Neural Networks > Tabular Foundation Models & Synthetic Pretraining`

@@ -1,4 +1,230 @@
 {
+  "amazon-science-2026-mitra-v2-tabular-foundation-models": [
+    {
+      "chunk_id": "amazon-science-2026-mitra-v2-tabular-foundation-models#chunk-01",
+      "concept_ids": [
+        "concept:tabular-foundation-models"
+      ],
+      "doc_id": "amazon-science-2026-mitra-v2-tabular-foundation-models",
+      "heading": "Why Synthetic Pretraining for Tabular Foundation Models",
+      "key_terms": [
+        {
+          "count": 5,
+          "term": "tabular"
+        },
+        {
+          "count": 4,
+          "term": "synthetic"
+        },
+        {
+          "count": 4,
+          "term": "pretraining"
+        },
+        {
+          "count": 3,
+          "term": "mitra"
+        },
+        {
+          "count": 3,
+          "term": "v2"
+        },
+        {
+          "count": 3,
+          "term": "foundation"
+        },
+        {
+          "count": 3,
+          "term": "models"
+        },
+        {
+          "count": 2,
+          "term": "causal"
+        },
+        {
+          "count": 2,
+          "term": "priors"
+        },
+        {
+          "count": 1,
+          "term": "scaling"
+        },
+        {
+          "count": 1,
+          "term": "why"
+        },
+        {
+          "count": 1,
+          "term": "text"
+        }
+      ],
+      "section_index": 1,
+      "taxonomy_paths": [
+        "AI Policy, Governance & Human-AI Systems",
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks > Language Models & Efficient Attention",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks > Tabular Foundation Models & Synthetic Pretraining"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "AI Governance, Policy & Human-AI Interaction",
+        "Deep Learning Architectures",
+        "Large Language Models & Attention Mechanisms",
+        "Tabular Foundation Models & Synthetic Data"
+      ],
+      "text": "Unlike text or image domains, large-scale real-world tabular pretraining faces severe privacy, compliance, and schema-heterogeneity barriers across medical, financial, and enterprise tables. Amazon Science introduces Mitra v2, an open-source second-generation tabular foundation model (TFM) integrated into the AutoGluon ecosystem that is pretrained exclusively on procedurally generated synthetic tabular tasks. By expanding the synthetic task distribution across Structural Causal Models (SCMs), Random Forests, Gaussian Processes, and Hybrid SCM priors, Mitra v2 learns universal statistical and causal priors without ever seeing real target datasets during pretraining.",
+      "token_count": 84
+    },
+    {
+      "chunk_id": "amazon-science-2026-mitra-v2-tabular-foundation-models#chunk-02",
+      "concept_ids": [
+        "concept:agentic-reasoning",
+        "concept:tabular-foundation-models"
+      ],
+      "doc_id": "amazon-science-2026-mitra-v2-tabular-foundation-models",
+      "heading": "Dual-Axis 2D Transformer Geometry & Context Scaling",
+      "key_terms": [
+        {
+          "count": 3,
+          "term": "mitra"
+        },
+        {
+          "count": 2,
+          "term": "dual-axis"
+        },
+        {
+          "count": 2,
+          "term": "2d"
+        },
+        {
+          "count": 2,
+          "term": "transformer"
+        },
+        {
+          "count": 2,
+          "term": "v2"
+        },
+        {
+          "count": 2,
+          "term": "row-wise"
+        },
+        {
+          "count": 2,
+          "term": "column-wise"
+        },
+        {
+          "count": 2,
+          "term": "attention"
+        },
+        {
+          "count": 2,
+          "term": "row"
+        },
+        {
+          "count": 2,
+          "term": "while"
+        },
+        {
+          "count": 2,
+          "term": "in-context"
+        },
+        {
+          "count": 2,
+          "term": "rows"
+        }
+      ],
+      "section_index": 2,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks > Language Models & Efficient Attention",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks > Tabular Foundation Models & Synthetic Pretraining",
+        "Artificial Intelligence & Machine Learning > Reasoning, Agents & Retrieval"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "Agentic Systems & Reasoning",
+        "Deep Learning Architectures",
+        "Large Language Models & Attention Mechanisms",
+        "Tabular Foundation Models & Synthetic Data"
+      ],
+      "text": "Mitra v2 uses a compact 12-layer, 77M-parameter 2D Transformer backbone equipped with dual-axis row-wise and column-wise self-attention. Column-wise attention models cross-feature interactions within each row while remaining permutation-equivariant to column ordering; row-wise attention performs in-context learning across rows, comparing test samples against reference training rows while preserving row permutation invariance. Compared to Mitra v1 (NeurIPS 2025), Mitra v2 supports 10x longer in-context sample capacities and 3x wider feature spaces, and generalizes out-of-distribution to classification tasks with >10 classes despite pretraining on <=10 classes.",
+      "token_count": 83
+    },
+    {
+      "chunk_id": "amazon-science-2026-mitra-v2-tabular-foundation-models#chunk-03",
+      "concept_ids": [
+        "concept:tabular-foundation-models"
+      ],
+      "doc_id": "amazon-science-2026-mitra-v2-tabular-foundation-models",
+      "heading": "Frontier Benchmark Results & Open-Source Ecosystem",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "autogluon"
+        },
+        {
+          "count": 1,
+          "term": "frontier"
+        },
+        {
+          "count": 1,
+          "term": "benchmark"
+        },
+        {
+          "count": 1,
+          "term": "results"
+        },
+        {
+          "count": 1,
+          "term": "open-source"
+        },
+        {
+          "count": 1,
+          "term": "ecosystem"
+        },
+        {
+          "count": 1,
+          "term": "than"
+        },
+        {
+          "count": 1,
+          "term": "real-world"
+        },
+        {
+          "count": 1,
+          "term": "tabular"
+        },
+        {
+          "count": 1,
+          "term": "datasets"
+        },
+        {
+          "count": 1,
+          "term": "tabarena"
+        },
+        {
+          "count": 1,
+          "term": "talent"
+        }
+      ],
+      "section_index": 3,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks > Language Models & Efficient Attention",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks > Tabular Foundation Models & Synthetic Pretraining"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "Deep Learning Architectures",
+        "Large Language Models & Attention Mechanisms",
+        "Tabular Foundation Models & Synthetic Data"
+      ],
+      "text": "Across more than 300 real-world tabular datasets in the TabArena and TALENT benchmarks, Mitra v2 achieves top single-model accuracy\u2014outperforming TabPFN-3 and TabICLv2 and matching 1.6B-parameter models such as TabFM at roughly 5% of the parameter count. Amazon released the classifier and regressor checkpoints (autogluon/mitra-classifier-2 and autogluon/mitra-regressor-2) plus zero-shot and fine-tuning pipelines under the Apache-2.0 license.",
+      "token_count": 55
+    }
+  ],
   "arxiv-1402.4677": [
     {
       "chunk_id": "arxiv-1402.4677#chunk-01",
@@ -6016,6 +6242,225 @@
       ],
       "text": "Connects low-level semiconductor telemetry and on-chip performance monitors with international compute verification and hardware security enforcement. Curated from kitsumiko/papers (Policy & Governance).",
       "token_count": 22
+    }
+  ],
+  "arxiv-2609.04540": [
+    {
+      "chunk_id": "arxiv-2609.04540#chunk-01",
+      "concept_ids": [
+        "concept:tabular-foundation-models"
+      ],
+      "doc_id": "arxiv-2609.04540",
+      "heading": "Overview & Synthetic Causal Pretraining",
+      "key_terms": [
+        {
+          "count": 4,
+          "term": "synthetic"
+        },
+        {
+          "count": 3,
+          "term": "mitra-v2"
+        },
+        {
+          "count": 2,
+          "term": "pretraining"
+        },
+        {
+          "count": 2,
+          "term": "tabular"
+        },
+        {
+          "count": 2,
+          "term": "foundation"
+        },
+        {
+          "count": 2,
+          "term": "models"
+        },
+        {
+          "count": 2,
+          "term": "causal"
+        },
+        {
+          "count": 2,
+          "term": "generated"
+        },
+        {
+          "count": 2,
+          "term": "random"
+        },
+        {
+          "count": 1,
+          "term": "technical"
+        },
+        {
+          "count": 1,
+          "term": "report"
+        },
+        {
+          "count": 1,
+          "term": "scaling"
+        }
+      ],
+      "section_index": 1,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks > Language Models & Efficient Attention",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks > Tabular Foundation Models & Synthetic Pretraining"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "Deep Learning Architectures",
+        "Large Language Models & Attention Mechanisms",
+        "Tabular Foundation Models & Synthetic Data"
+      ],
+      "text": "Mitra-v2 is a second-generation 77-million-parameter tabular foundation model (TFM) pretrained entirely on synthetic data generated from random functional generators including Structural Causal Models (SCMs), Random Forests, Gaussian Processes, and a Hybrid SCM prior. By training exclusively on procedurally generated synthetic priors, Mitra-v2 eliminates data-scraping and privacy risks while generalizing zero-shot and via fine-tuning to real-world classification and regression tables.",
+      "token_count": 59
+    },
+    {
+      "chunk_id": "arxiv-2609.04540#chunk-02",
+      "concept_ids": [
+        "concept:tabular-foundation-models"
+      ],
+      "doc_id": "arxiv-2609.04540",
+      "heading": "2D Transformer Architecture & Dual-Axis Self-Attention",
+      "key_terms": [
+        {
+          "count": 3,
+          "term": "rows"
+        },
+        {
+          "count": 2,
+          "term": "2d"
+        },
+        {
+          "count": 2,
+          "term": "transformer"
+        },
+        {
+          "count": 2,
+          "term": "dual-axis"
+        },
+        {
+          "count": 2,
+          "term": "self-attention"
+        },
+        {
+          "count": 2,
+          "term": "mitra-v2"
+        },
+        {
+          "count": 2,
+          "term": "attention"
+        },
+        {
+          "count": 1,
+          "term": "architecture"
+        },
+        {
+          "count": 1,
+          "term": "built"
+        },
+        {
+          "count": 1,
+          "term": "compact"
+        },
+        {
+          "count": 1,
+          "term": "12-layer"
+        },
+        {
+          "count": 1,
+          "term": "backbone"
+        }
+      ],
+      "section_index": 2,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks > Tabular Foundation Models & Synthetic Pretraining"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "Deep Learning Architectures",
+        "Tabular Foundation Models & Synthetic Data"
+      ],
+      "text": "Built on a compact 12-layer 2D Transformer backbone (~76.7M parameters), Mitra-v2 applies dual-axis self-attention across both rows and columns. Column-wise attention models cross-feature relationships within each sample (permutation-equivariant across features), while row-wise attention performs in-context learning by comparing query rows against historical reference rows (permutation-invariant across samples). Mitra-v2 scales to 10x longer contexts and 3x wider feature spaces than Mitra-v1.",
+      "token_count": 60
+    },
+    {
+      "chunk_id": "arxiv-2609.04540#chunk-03",
+      "concept_ids": [
+        "concept:tabular-foundation-models"
+      ],
+      "doc_id": "arxiv-2609.04540",
+      "heading": "Benchmark Evaluation & Open-Source Release",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "than"
+        },
+        {
+          "count": 2,
+          "term": "mitra-v2"
+        },
+        {
+          "count": 2,
+          "term": "classes"
+        },
+        {
+          "count": 2,
+          "term": "autogluon"
+        },
+        {
+          "count": 1,
+          "term": "benchmark"
+        },
+        {
+          "count": 1,
+          "term": "evaluation"
+        },
+        {
+          "count": 1,
+          "term": "open-source"
+        },
+        {
+          "count": 1,
+          "term": "release"
+        },
+        {
+          "count": 1,
+          "term": "evaluated"
+        },
+        {
+          "count": 1,
+          "term": "real-world"
+        },
+        {
+          "count": 1,
+          "term": "tabular"
+        },
+        {
+          "count": 1,
+          "term": "datasets"
+        }
+      ],
+      "section_index": 3,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks > Language Models & Efficient Attention",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks > Tabular Foundation Models & Synthetic Pretraining"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "Deep Learning Architectures",
+        "Large Language Models & Attention Mechanisms",
+        "Tabular Foundation Models & Synthetic Data"
+      ],
+      "text": "Evaluated across more than 300 real-world tabular datasets on TabArena and TALENT, Mitra-v2 achieves state-of-the-art single-model performance, outperforming TabPFN-3 and TabICLv2 and matching 1.6B-parameter industry models (TabFM) at ~5% of the parameter footprint. Notably, Mitra-v2 ranks first on classification tasks with more than 10 classes despite pretraining on at most 10 classes. Model weights (autogluon/mitra-classifier-2 and autogluon/mitra-regressor-2) and fine-tuning code are released under Apache-2.0.",
+      "token_count": 64
     }
   ],
   "arxiv-2609.26751": [

@@ -13,6 +13,114 @@
     {
       "predicate": "IN_CATEGORY",
       "properties": {},
+      "source": "chunk:amazon-science-2026-mitra-v2-tabular-foundation-models#chunk-01",
+      "target": "taxonomy:ai-policy,-governance-and-human-ai-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:amazon-science-2026-mitra-v2-tabular-foundation-models#chunk-01",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:amazon-science-2026-mitra-v2-tabular-foundation-models#chunk-01",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:amazon-science-2026-mitra-v2-tabular-foundation-models#chunk-01",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--language-models-and-efficient-attention"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:amazon-science-2026-mitra-v2-tabular-foundation-models#chunk-01",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--tabular-foundation-models-and-synthetic-pretraining"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:amazon-science-2026-mitra-v2-tabular-foundation-models#chunk-01",
+      "target": "concept:tabular-foundation-models"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:amazon-science-2026-mitra-v2-tabular-foundation-models#chunk-02",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:amazon-science-2026-mitra-v2-tabular-foundation-models#chunk-02",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:amazon-science-2026-mitra-v2-tabular-foundation-models#chunk-02",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--language-models-and-efficient-attention"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:amazon-science-2026-mitra-v2-tabular-foundation-models#chunk-02",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--tabular-foundation-models-and-synthetic-pretraining"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:amazon-science-2026-mitra-v2-tabular-foundation-models#chunk-02",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--reasoning,-agents-and-retrieval"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:amazon-science-2026-mitra-v2-tabular-foundation-models#chunk-02",
+      "target": "concept:agentic-reasoning"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:amazon-science-2026-mitra-v2-tabular-foundation-models#chunk-02",
+      "target": "concept:tabular-foundation-models"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:amazon-science-2026-mitra-v2-tabular-foundation-models#chunk-03",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:amazon-science-2026-mitra-v2-tabular-foundation-models#chunk-03",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:amazon-science-2026-mitra-v2-tabular-foundation-models#chunk-03",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--language-models-and-efficient-attention"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:amazon-science-2026-mitra-v2-tabular-foundation-models#chunk-03",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--tabular-foundation-models-and-synthetic-pretraining"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:amazon-science-2026-mitra-v2-tabular-foundation-models#chunk-03",
+      "target": "concept:tabular-foundation-models"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
       "source": "chunk:arxiv-1402.4677#chunk-01",
       "target": "taxonomy:formal-methods-and-automated-reasoning"
     },
@@ -3435,6 +3543,90 @@
       "properties": {},
       "source": "chunk:arxiv-2607.22619#chunk-03",
       "target": "concept:apc"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2609.04540#chunk-01",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2609.04540#chunk-01",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2609.04540#chunk-01",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--language-models-and-efficient-attention"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2609.04540#chunk-01",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--tabular-foundation-models-and-synthetic-pretraining"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2609.04540#chunk-01",
+      "target": "concept:tabular-foundation-models"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2609.04540#chunk-02",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2609.04540#chunk-02",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2609.04540#chunk-02",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--tabular-foundation-models-and-synthetic-pretraining"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2609.04540#chunk-02",
+      "target": "concept:tabular-foundation-models"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2609.04540#chunk-03",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2609.04540#chunk-03",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2609.04540#chunk-03",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--language-models-and-efficient-attention"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2609.04540#chunk-03",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--tabular-foundation-models-and-synthetic-pretraining"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2609.04540#chunk-03",
+      "target": "concept:tabular-foundation-models"
     },
     {
       "predicate": "IN_CATEGORY",
@@ -6907,6 +7099,24 @@
     {
       "predicate": "IN_CATEGORY",
       "properties": {},
+      "source": "concept:tabular-foundation-models",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--tabular-foundation-models-and-synthetic-pretraining"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:tabular-foundation-models",
+      "target": "concept:dnn"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:tabular-foundation-models",
+      "target": "concept:flash-attention-llm"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
       "source": "concept:trajectory-monitoring",
       "target": "taxonomy:security-and-resilience--ai-alignment,-guardrails-and-agent-security--session-and-trajectory-monitoring"
     },
@@ -6945,6 +7155,228 @@
       "properties": {},
       "source": "concept:uclid5",
       "target": "concept:sva"
+    },
+    {
+      "predicate": "AFFILIATED_WITH",
+      "properties": {},
+      "source": "doc:amazon-science-2026-mitra-v2-tabular-foundation-models",
+      "target": "institution:amazon-connect"
+    },
+    {
+      "predicate": "AFFILIATED_WITH",
+      "properties": {},
+      "source": "doc:amazon-science-2026-mitra-v2-tabular-foundation-models",
+      "target": "institution:amazon-science"
+    },
+    {
+      "predicate": "AFFILIATED_WITH",
+      "properties": {},
+      "source": "doc:amazon-science-2026-mitra-v2-tabular-foundation-models",
+      "target": "institution:autogluon-team"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:amazon-science-2026-mitra-v2-tabular-foundation-models",
+      "target": "author:boran-han"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:amazon-science-2026-mitra-v2-tabular-foundation-models",
+      "target": "author:chris-kong"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:amazon-science-2026-mitra-v2-tabular-foundation-models",
+      "target": "author:chris-lee"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:amazon-science-2026-mitra-v2-tabular-foundation-models",
+      "target": "author:danielle-maddix"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:amazon-science-2026-mitra-v2-tabular-foundation-models",
+      "target": "author:gerald-friedland"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:amazon-science-2026-mitra-v2-tabular-foundation-models",
+      "target": "author:haoyang-fang"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:amazon-science-2026-mitra-v2-tabular-foundation-models",
+      "target": "author:jiading-gai"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:amazon-science-2026-mitra-v2-tabular-foundation-models",
+      "target": "author:kevan-mah"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:amazon-science-2026-mitra-v2-tabular-foundation-models",
+      "target": "author:michael-bohlke-schneider"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:amazon-science-2026-mitra-v2-tabular-foundation-models",
+      "target": "author:xinyi-liu"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:amazon-science-2026-mitra-v2-tabular-foundation-models",
+      "target": "author:xiyuan-zhang"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:amazon-science-2026-mitra-v2-tabular-foundation-models",
+      "target": "author:xuanqing-liu"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:amazon-science-2026-mitra-v2-tabular-foundation-models",
+      "target": "author:yefan-tao"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:amazon-science-2026-mitra-v2-tabular-foundation-models",
+      "target": "author:yuyang-(bernie)-wang"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:amazon-science-2026-mitra-v2-tabular-foundation-models",
+      "target": "author:zhen-han"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:amazon-science-2026-mitra-v2-tabular-foundation-models",
+      "target": "doc:arxiv-2609.04540"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:amazon-science-2026-mitra-v2-tabular-foundation-models",
+      "target": "chunk:amazon-science-2026-mitra-v2-tabular-foundation-models#chunk-01"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:amazon-science-2026-mitra-v2-tabular-foundation-models",
+      "target": "chunk:amazon-science-2026-mitra-v2-tabular-foundation-models#chunk-02"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:amazon-science-2026-mitra-v2-tabular-foundation-models",
+      "target": "chunk:amazon-science-2026-mitra-v2-tabular-foundation-models#chunk-03"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:amazon-science-2026-mitra-v2-tabular-foundation-models",
+      "target": "taxonomy:ai-policy,-governance-and-human-ai-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:amazon-science-2026-mitra-v2-tabular-foundation-models",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:amazon-science-2026-mitra-v2-tabular-foundation-models",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:amazon-science-2026-mitra-v2-tabular-foundation-models",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--language-models-and-efficient-attention"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:amazon-science-2026-mitra-v2-tabular-foundation-models",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--tabular-foundation-models-and-synthetic-pretraining"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:amazon-science-2026-mitra-v2-tabular-foundation-models",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--reasoning,-agents-and-retrieval"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:amazon-science-2026-mitra-v2-tabular-foundation-models",
+      "target": "tech_area:agentic-systems-and-reasoning"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:amazon-science-2026-mitra-v2-tabular-foundation-models",
+      "target": "tech_area:ai-and-machine-learning"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:amazon-science-2026-mitra-v2-tabular-foundation-models",
+      "target": "tech_area:ai-governance,-policy-and-human-ai-interaction"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:amazon-science-2026-mitra-v2-tabular-foundation-models",
+      "target": "tech_area:deep-learning-architectures"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:amazon-science-2026-mitra-v2-tabular-foundation-models",
+      "target": "tech_area:large-language-models-and-attention-mechanisms"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:amazon-science-2026-mitra-v2-tabular-foundation-models",
+      "target": "tech_area:tabular-foundation-models-and-synthetic-data"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:amazon-science-2026-mitra-v2-tabular-foundation-models",
+      "target": "concept:agentic-reasoning"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:amazon-science-2026-mitra-v2-tabular-foundation-models",
+      "target": "concept:tabular-foundation-models"
+    },
+    {
+      "predicate": "REPORTS_ON",
+      "properties": {},
+      "source": "doc:amazon-science-2026-mitra-v2-tabular-foundation-models",
+      "target": "doc:arxiv-2609.04540"
     },
     {
       "predicate": "AFFILIATED_WITH",
@@ -11227,6 +11659,180 @@
     {
       "predicate": "AFFILIATED_WITH",
       "properties": {},
+      "source": "doc:arxiv-2609.04540",
+      "target": "institution:amazon"
+    },
+    {
+      "predicate": "AFFILIATED_WITH",
+      "properties": {},
+      "source": "doc:arxiv-2609.04540",
+      "target": "institution:autogluon-team"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-2609.04540",
+      "target": "author:boran-han"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-2609.04540",
+      "target": "author:chris-kong"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-2609.04540",
+      "target": "author:chris-lee"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-2609.04540",
+      "target": "author:danielle-maddix"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-2609.04540",
+      "target": "author:gerald-friedland"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-2609.04540",
+      "target": "author:haoyang-fang"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-2609.04540",
+      "target": "author:jiading-gai"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-2609.04540",
+      "target": "author:kevan-mah"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-2609.04540",
+      "target": "author:michael-bohlke-schneider"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-2609.04540",
+      "target": "author:xinyi-liu"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-2609.04540",
+      "target": "author:xiyuan-zhang"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-2609.04540",
+      "target": "author:xuanqing-liu"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-2609.04540",
+      "target": "author:yefan-tao"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-2609.04540",
+      "target": "author:yuyang-(bernie)-wang"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-2609.04540",
+      "target": "author:zhen-han"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:arxiv-2609.04540",
+      "target": "chunk:arxiv-2609.04540#chunk-01"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:arxiv-2609.04540",
+      "target": "chunk:arxiv-2609.04540#chunk-02"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:arxiv-2609.04540",
+      "target": "chunk:arxiv-2609.04540#chunk-03"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2609.04540",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2609.04540",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2609.04540",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--language-models-and-efficient-attention"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2609.04540",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--tabular-foundation-models-and-synthetic-pretraining"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2609.04540",
+      "target": "tech_area:ai-and-machine-learning"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2609.04540",
+      "target": "tech_area:deep-learning-architectures"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2609.04540",
+      "target": "tech_area:large-language-models-and-attention-mechanisms"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2609.04540",
+      "target": "tech_area:tabular-foundation-models-and-synthetic-data"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:arxiv-2609.04540",
+      "target": "concept:tabular-foundation-models"
+    },
+    {
+      "predicate": "AFFILIATED_WITH",
+      "properties": {},
       "source": "doc:arxiv-2609.26751",
       "target": "institution:stanford-university"
     },
@@ -14863,6 +15469,18 @@
     {
       "predicate": "IN_TECH_AREA",
       "properties": {},
+      "source": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--tabular-foundation-models-and-synthetic-pretraining",
+      "target": "tech_area:tabular-foundation-models-and-synthetic-data"
+    },
+    {
+      "predicate": "SUBCATEGORY_OF",
+      "properties": {},
+      "source": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--tabular-foundation-models-and-synthetic-pretraining",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
       "source": "taxonomy:artificial-intelligence-and-machine-learning--interpretability,-calibration-and-evaluation",
       "target": "tech_area:mechanistic-interpretability-and-model-evaluation"
     },
@@ -15139,6 +15757,12 @@
       "properties": {}
     },
     {
+      "label": "Boran Han",
+      "node_id": "author:boran-han",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
       "label": "Camil Demetrescu",
       "node_id": "author:camil-demetrescu",
       "node_type": "Author",
@@ -15169,6 +15793,18 @@
       "properties": {}
     },
     {
+      "label": "Chris Kong",
+      "node_id": "author:chris-kong",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Chris Lee",
+      "node_id": "author:chris-lee",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
       "label": "Christopher M. Poskitt",
       "node_id": "author:christopher-m.-poskitt",
       "node_type": "Author",
@@ -15183,6 +15819,12 @@
     {
       "label": "Daniele Coniglio",
       "node_id": "author:daniele-coniglio",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Danielle Maddix",
+      "node_id": "author:danielle-maddix",
       "node_type": "Author",
       "properties": {}
     },
@@ -15253,6 +15895,12 @@
       "properties": {}
     },
     {
+      "label": "Gerald Friedland",
+      "node_id": "author:gerald-friedland",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
       "label": "Gereon Kremer",
       "node_id": "author:gereon-kremer",
       "node_type": "Author",
@@ -15289,6 +15937,12 @@
       "properties": {}
     },
     {
+      "label": "Haoyang Fang",
+      "node_id": "author:haoyang-fang",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
       "label": "Haoyu Wang",
       "node_id": "author:haoyu-wang",
       "node_type": "Author",
@@ -15319,6 +15973,12 @@
       "properties": {}
     },
     {
+      "label": "Jiading Gai",
+      "node_id": "author:jiading-gai",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
       "label": "Jiali Wei",
       "node_id": "author:jiali-wei",
       "node_type": "Author",
@@ -15339,6 +15999,12 @@
     {
       "label": "Kanad Basu",
       "node_id": "author:kanad-basu",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Kevan Mah",
+      "node_id": "author:kevan-mah",
       "node_type": "Author",
       "properties": {}
     },
@@ -15423,6 +16089,12 @@
     {
       "label": "Md Mehedi Hasan Nipu",
       "node_id": "author:md-mehedi-hasan-nipu",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Michael Bohlke-Schneider",
+      "node_id": "author:michael-bohlke-schneider",
       "node_type": "Author",
       "properties": {}
     },
@@ -15631,8 +16303,26 @@
       "properties": {}
     },
     {
+      "label": "Xinyi Liu",
+      "node_id": "author:xinyi-liu",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Xiyuan Zhang",
+      "node_id": "author:xiyuan-zhang",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
       "label": "Xu et al.",
       "node_id": "author:xu-et-al.",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Xuanqing Liu",
+      "node_id": "author:xuanqing-liu",
       "node_type": "Author",
       "properties": {}
     },
@@ -15655,6 +16345,12 @@
       "properties": {}
     },
     {
+      "label": "Yefan Tao",
+      "node_id": "author:yefan-tao",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
       "label": "Yingcheng Sun",
       "node_id": "author:yingcheng-sun",
       "node_type": "Author",
@@ -15663,6 +16359,18 @@
     {
       "label": "Yunsheng Bai",
       "node_id": "author:yunsheng-bai",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Yuyang (Bernie) Wang",
+      "node_id": "author:yuyang-(bernie)-wang",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Zhen Han",
+      "node_id": "author:zhen-han",
       "node_type": "Author",
       "properties": {}
     },
@@ -15689,6 +16397,36 @@
       "node_id": "author:zongjie-li",
       "node_type": "Author",
       "properties": {}
+    },
+    {
+      "label": "amazon-science-2026-mitra-v2-tabular-foundation-models: Why Synthetic Pretraining for Tabular Foundation Models",
+      "node_id": "chunk:amazon-science-2026-mitra-v2-tabular-foundation-models#chunk-01",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "amazon-science-2026-mitra-v2-tabular-foundation-models#chunk-01",
+        "heading": "Why Synthetic Pretraining for Tabular Foundation Models",
+        "token_count": 84
+      }
+    },
+    {
+      "label": "amazon-science-2026-mitra-v2-tabular-foundation-models: Dual-Axis 2D Transformer Geometry & Context Scaling",
+      "node_id": "chunk:amazon-science-2026-mitra-v2-tabular-foundation-models#chunk-02",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "amazon-science-2026-mitra-v2-tabular-foundation-models#chunk-02",
+        "heading": "Dual-Axis 2D Transformer Geometry & Context Scaling",
+        "token_count": 83
+      }
+    },
+    {
+      "label": "amazon-science-2026-mitra-v2-tabular-foundation-models: Frontier Benchmark Results & Open-Source Ecosystem",
+      "node_id": "chunk:amazon-science-2026-mitra-v2-tabular-foundation-models#chunk-03",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "amazon-science-2026-mitra-v2-tabular-foundation-models#chunk-03",
+        "heading": "Frontier Benchmark Results & Open-Source Ecosystem",
+        "token_count": 55
+      }
     },
     {
       "label": "arxiv-1402.4677: Graph Analysis & Monotonic Theories in SMT",
@@ -16468,6 +17206,36 @@
         "chunk_id": "arxiv-2607.22619#chunk-03",
         "heading": "Evaluation & Why It Matters (via kitsumiko/papers)",
         "token_count": 22
+      }
+    },
+    {
+      "label": "arxiv-2609.04540: Overview & Synthetic Causal Pretraining",
+      "node_id": "chunk:arxiv-2609.04540#chunk-01",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "arxiv-2609.04540#chunk-01",
+        "heading": "Overview & Synthetic Causal Pretraining",
+        "token_count": 59
+      }
+    },
+    {
+      "label": "arxiv-2609.04540: 2D Transformer Architecture & Dual-Axis Self-Attention",
+      "node_id": "chunk:arxiv-2609.04540#chunk-02",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "arxiv-2609.04540#chunk-02",
+        "heading": "2D Transformer Architecture & Dual-Axis Self-Attention",
+        "token_count": 60
+      }
+    },
+    {
+      "label": "arxiv-2609.04540: Benchmark Evaluation & Open-Source Release",
+      "node_id": "chunk:arxiv-2609.04540#chunk-03",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "arxiv-2609.04540#chunk-03",
+        "heading": "Benchmark Evaluation & Open-Source Release",
+        "token_count": 64
       }
     },
     {
@@ -17421,6 +18189,16 @@
       }
     },
     {
+      "label": "Tabular Foundation Models & Synthetic Causal Pretraining (Mitra-v2, TabPFN, AutoGluon)",
+      "node_id": "concept:tabular-foundation-models",
+      "node_type": "Concept",
+      "properties": {
+        "description": "2D row/column attention transformers pretrained purely on synthetic priors (Structural Causal Models, Random Forests, Gaussian Processes) for zero-shot and fine-tuned tabular classification and regression.",
+        "taxonomy_path": "Artificial Intelligence & Machine Learning > Deep Neural Networks > Tabular Foundation Models & Synthetic Pretraining",
+        "technology_area": "Tabular Foundation Models & Synthetic Data"
+      }
+    },
+    {
       "label": "Multi-Turn Escalation (Crescendo) & Session-Level Trajectory Monitoring",
       "node_id": "concept:trajectory-monitoring",
       "node_type": "Concept",
@@ -17438,6 +18216,31 @@
         "description": "Formal verification, modeling, and theorem-proving languages (UCLID5, Coq/Kami, ChiselFV) for hardware architecture and RTL verification.",
         "taxonomy_path": "Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions",
         "technology_area": "Formal Verification & Specification Languages"
+      }
+    },
+    {
+      "label": "Mitra v2: Scaling synthetic pretraining for tabular foundation models",
+      "node_id": "doc:amazon-science-2026-mitra-v2-tabular-foundation-models",
+      "node_type": "Document",
+      "properties": {
+        "doc_id": "amazon-science-2026-mitra-v2-tabular-foundation-models",
+        "doc_type": "technical_article",
+        "identifiers": {},
+        "notes": "Amazon Science blog post covering Mitra v2 (arXiv:2609.04540) and its Apache-2.0 AutoGluon release.",
+        "priority": "high",
+        "published_date": "2026-09-03",
+        "reading_status": "to-read",
+        "tags": [
+          "amazon-science",
+          "mitra-v2",
+          "tabular-foundation-models",
+          "synthetic-pretraining",
+          "autogluon",
+          "2d-transformer",
+          "structural-causal-models",
+          "tabarena"
+        ],
+        "url": "https://www.amazon.science/blog/mitra-v2-scaling-synthetic-pretraining-for-tabular-foundation-models"
       }
     },
     {
@@ -18120,6 +18923,33 @@
       }
     },
     {
+      "label": "Mitra-v2 Technical Report: Scaling Synthetic Pretraining for Tabular Foundation Models",
+      "node_id": "doc:arxiv-2609.04540",
+      "node_type": "Document",
+      "properties": {
+        "doc_id": "arxiv-2609.04540",
+        "doc_type": "academic_paper",
+        "identifiers": {
+          "arxiv": "2609.04540",
+          "pdf_url": "https://arxiv.org/pdf/2609.04540"
+        },
+        "notes": "Primary technical report (arXiv:2609.04540) accompanying the Amazon Science Mitra v2 blog post.",
+        "priority": "high",
+        "published_date": "2026-09-03",
+        "reading_status": "to-read",
+        "tags": [
+          "tabular-foundation-models",
+          "mitra-v2",
+          "synthetic-pretraining",
+          "2d-transformer",
+          "structural-causal-models",
+          "autogluon",
+          "tabarena"
+        ],
+        "url": "https://arxiv.org/abs/2609.04540"
+      }
+    },
+    {
       "label": "EquivSVA: A Formally Verified Dataset of Behavioral Assertions Across Equivalent RTL Implementations",
       "node_id": "doc:arxiv-2609.26751",
       "node_type": "Document",
@@ -18617,8 +19447,32 @@
       "properties": {}
     },
     {
+      "label": "Amazon",
+      "node_id": "institution:amazon",
+      "node_type": "Institution",
+      "properties": {}
+    },
+    {
+      "label": "Amazon Connect",
+      "node_id": "institution:amazon-connect",
+      "node_type": "Institution",
+      "properties": {}
+    },
+    {
+      "label": "Amazon Science",
+      "node_id": "institution:amazon-science",
+      "node_type": "Institution",
+      "properties": {}
+    },
+    {
       "label": "Arm",
       "node_id": "institution:arm",
+      "node_type": "Institution",
+      "properties": {}
+    },
+    {
+      "label": "AutoGluon Team",
+      "node_id": "institution:autogluon-team",
       "node_type": "Institution",
       "properties": {}
     },
@@ -18808,6 +19662,16 @@
         "description": "Sub-quadratic state-space models (Mamba, RWKV), Kolmogorov-Arnold Networks (KAN), recurrent-depth reasoners, and theoretical foundations.",
         "ontologic_class_uri": "ontologic:NovelAndStateSpaceArchitectures",
         "path": "Artificial Intelligence & Machine Learning > Deep Neural Networks > Novel & State-Space Architectures"
+      }
+    },
+    {
+      "label": "Tabular Foundation Models & Synthetic Pretraining",
+      "node_id": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--tabular-foundation-models-and-synthetic-pretraining",
+      "node_type": "TaxonomyCategory",
+      "properties": {
+        "description": "In-context tabular foundation models (Mitra-v2, TabPFN, TabICL) with 2D row/column attention pretrained on synthetic structural causal model priors.",
+        "ontologic_class_uri": "ontologic:TabularFoundationModelsAndSyntheticPretraining",
+        "path": "Artificial Intelligence & Machine Learning > Deep Neural Networks > Tabular Foundation Models & Synthetic Pretraining"
       }
     },
     {
@@ -19159,10 +20023,16 @@
       "node_id": "tech_area:software-verification-and-program-analysis",
       "node_type": "TechnologyArea",
       "properties": {}
+    },
+    {
+      "label": "Tabular Foundation Models & Synthetic Data",
+      "node_id": "tech_area:tabular-foundation-models-and-synthetic-data",
+      "node_type": "TechnologyArea",
+      "properties": {}
     }
   ],
   "summary": {
-    "edge_count": 2512,
-    "node_count": 397
+    "edge_count": 2615,
+    "node_count": 427
   }
 }

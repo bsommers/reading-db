@@ -1791,6 +1791,106 @@
       ],
       "title": "Personal Research Report: Trajectory Monitoring for Multi-Turn Escalation (Crescendo) and Endpoint AI Agent Security",
       "url": ""
+    },
+    {
+      "authors": [
+        "Yefan Tao",
+        "Xiyuan Zhang",
+        "Xinyi Liu",
+        "Boran Han",
+        "Danielle Maddix",
+        "Haoyang Fang",
+        "Zhen Han",
+        "Jiading Gai",
+        "Xuanqing Liu",
+        "Michael Bohlke-Schneider",
+        "Yuyang (Bernie) Wang",
+        "Gerald Friedland",
+        "Kevan Mah",
+        "Chris Lee",
+        "Chris Kong"
+      ],
+      "content": "## Overview & Synthetic Causal Pretraining\nMitra-v2 is a second-generation 77-million-parameter tabular foundation model (TFM) pretrained entirely on synthetic data generated from random functional generators including Structural Causal Models (SCMs), Random Forests, Gaussian Processes, and a Hybrid SCM prior. By training exclusively on procedurally generated synthetic priors, Mitra-v2 eliminates data-scraping and privacy risks while generalizing zero-shot and via fine-tuning to real-world classification and regression tables.\n\n## 2D Transformer Architecture & Dual-Axis Self-Attention\nBuilt on a compact 12-layer 2D Transformer backbone (~76.7M parameters), Mitra-v2 applies dual-axis self-attention across both rows and columns. Column-wise attention models cross-feature relationships within each sample (permutation-equivariant across features), while row-wise attention performs in-context learning by comparing query rows against historical reference rows (permutation-invariant across samples). Mitra-v2 scales to 10x longer contexts and 3x wider feature spaces than Mitra-v1.\n\n## Benchmark Evaluation & Open-Source Release\nEvaluated across more than 300 real-world tabular datasets on TabArena and TALENT, Mitra-v2 achieves state-of-the-art single-model performance, outperforming TabPFN-3 and TabICLv2 and matching 1.6B-parameter industry models (TabFM) at ~5% of the parameter footprint. Notably, Mitra-v2 ranks first on classification tasks with more than 10 classes despite pretraining on at most 10 classes. Model weights (autogluon/mitra-classifier-2 and autogluon/mitra-regressor-2) and fine-tuning code are released under Apache-2.0.",
+      "doc_id": "arxiv-2609.04540",
+      "doc_type": "academic_paper",
+      "identifiers": {
+        "arxiv": "2609.04540",
+        "pdf_url": "https://arxiv.org/pdf/2609.04540"
+      },
+      "institutions": [
+        "Amazon",
+        "AutoGluon Team"
+      ],
+      "notes": "Primary technical report (arXiv:2609.04540) accompanying the Amazon Science Mitra v2 blog post.",
+      "priority": "high",
+      "published_date": "2026-09-03",
+      "reading_status": "to-read",
+      "relations": [],
+      "tags": [
+        "tabular-foundation-models",
+        "mitra-v2",
+        "synthetic-pretraining",
+        "2d-transformer",
+        "structural-causal-models",
+        "autogluon",
+        "tabarena"
+      ],
+      "title": "Mitra-v2 Technical Report: Scaling Synthetic Pretraining for Tabular Foundation Models",
+      "url": "https://arxiv.org/abs/2609.04540"
+    },
+    {
+      "authors": [
+        "Yefan Tao",
+        "Xiyuan Zhang",
+        "Xinyi Liu",
+        "Boran Han",
+        "Danielle Maddix",
+        "Haoyang Fang",
+        "Zhen Han",
+        "Jiading Gai",
+        "Xuanqing Liu",
+        "Michael Bohlke-Schneider",
+        "Yuyang (Bernie) Wang",
+        "Gerald Friedland",
+        "Kevan Mah",
+        "Chris Lee",
+        "Chris Kong"
+      ],
+      "content": "## Why Synthetic Pretraining for Tabular Foundation Models\nUnlike text or image domains, large-scale real-world tabular pretraining faces severe privacy, compliance, and schema-heterogeneity barriers across medical, financial, and enterprise tables. Amazon Science introduces Mitra v2, an open-source second-generation tabular foundation model (TFM) integrated into the AutoGluon ecosystem that is pretrained exclusively on procedurally generated synthetic tabular tasks. By expanding the synthetic task distribution across Structural Causal Models (SCMs), Random Forests, Gaussian Processes, and Hybrid SCM priors, Mitra v2 learns universal statistical and causal priors without ever seeing real target datasets during pretraining.\n\n## Dual-Axis 2D Transformer Geometry & Context Scaling\nMitra v2 uses a compact 12-layer, 77M-parameter 2D Transformer backbone equipped with dual-axis row-wise and column-wise self-attention. Column-wise attention models cross-feature interactions within each row while remaining permutation-equivariant to column ordering; row-wise attention performs in-context learning across rows, comparing test samples against reference training rows while preserving row permutation invariance. Compared to Mitra v1 (NeurIPS 2025), Mitra v2 supports 10x longer in-context sample capacities and 3x wider feature spaces, and generalizes out-of-distribution to classification tasks with >10 classes despite pretraining on <=10 classes.\n\n## Frontier Benchmark Results & Open-Source Ecosystem\nAcross more than 300 real-world tabular datasets in the TabArena and TALENT benchmarks, Mitra v2 achieves top single-model accuracy\u2014outperforming TabPFN-3 and TabICLv2 and matching 1.6B-parameter models such as TabFM at roughly 5% of the parameter count. Amazon released the classifier and regressor checkpoints (autogluon/mitra-classifier-2 and autogluon/mitra-regressor-2) plus zero-shot and fine-tuning pipelines under the Apache-2.0 license.",
+      "doc_id": "amazon-science-2026-mitra-v2-tabular-foundation-models",
+      "doc_type": "technical_article",
+      "identifiers": {},
+      "institutions": [
+        "Amazon Science",
+        "Amazon Connect",
+        "AutoGluon Team"
+      ],
+      "notes": "Amazon Science blog post covering Mitra v2 (arXiv:2609.04540) and its Apache-2.0 AutoGluon release.",
+      "priority": "high",
+      "published_date": "2026-09-03",
+      "reading_status": "to-read",
+      "relations": [
+        {
+          "relation_type": "REPORTS_ON",
+          "target_doc_id": "arxiv-2609.04540"
+        },
+        {
+          "relation_type": "CITES",
+          "target_doc_id": "arxiv-2609.04540"
+        }
+      ],
+      "tags": [
+        "amazon-science",
+        "mitra-v2",
+        "tabular-foundation-models",
+        "synthetic-pretraining",
+        "autogluon",
+        "2d-transformer",
+        "structural-causal-models",
+        "tabarena"
+      ],
+      "title": "Mitra v2: Scaling synthetic pretraining for tabular foundation models",
+      "url": "https://www.amazon.science/blog/mitra-v2-scaling-synthetic-pretraining-for-tabular-foundation-models"
     }
   ]
 }

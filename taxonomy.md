@@ -1,9 +1,9 @@
 # Conceptual Taxonomy & OntoLogic Class Hierarchy
 
-- **Total Taxonomy Categories:** 25
+- **Total Taxonomy Categories:** 26
 - **Top-Level Root Domains:** 5
-- **Canonical Concepts Cataloged:** 30
-- **Total Corpus Documents Indexed:** 45
+- **Canonical Concepts Cataloged:** 31
+- **Total Corpus Documents Indexed:** 47
 
 ## 1. Taxonomy Hierarchy Summary Table
 
@@ -19,15 +19,16 @@
 | **Security & Resilience > Hardware Fault Attacks > Bit-Flip Attacks** | `ontologic:BitFlipAttacks` | Adversarial Fault Injection | 7 | 15 |
 | **Security & Resilience > Memory Safety & Software Capabilities** | `ontologic:MemorySafetySoftwareCapabilities` | Language & Runtime Memory Safety | 13 | 21 |
 | **Security & Resilience > Runtime Fault Localization & Recovery** | `ontologic:RuntimeFaultLocalizationRecovery` | Self-Healing & Fault-Tolerant AI | 12 | 16 |
-| **Artificial Intelligence & Machine Learning** | `ontologic:ArtificialIntelligenceMachineLearning` | AI & Machine Learning | 31 | 74 |
-| **Artificial Intelligence & Machine Learning > Deep Neural Networks** | `ontologic:DeepNeuralNetworks` | Deep Learning Architectures | 29 | 54 |
-| **Artificial Intelligence & Machine Learning > Deep Neural Networks > Language Models & Efficient Attention** | `ontologic:LanguageModelsAndAttention` | Large Language Models & Attention Mechanisms | 2 | 2 |
+| **Artificial Intelligence & Machine Learning** | `ontologic:ArtificialIntelligenceMachineLearning` | AI & Machine Learning | 33 | 80 |
+| **Artificial Intelligence & Machine Learning > Deep Neural Networks** | `ontologic:DeepNeuralNetworks` | Deep Learning Architectures | 31 | 60 |
+| **Artificial Intelligence & Machine Learning > Deep Neural Networks > Language Models & Efficient Attention** | `ontologic:LanguageModelsAndAttention` | Large Language Models & Attention Mechanisms | 4 | 7 |
 | **Artificial Intelligence & Machine Learning > Deep Neural Networks > Novel & State-Space Architectures** | `ontologic:NovelAndStateSpaceArchitectures` | Alternative & State-Space Architectures | 4 | 6 |
-| **Artificial Intelligence & Machine Learning > Reasoning, Agents & Retrieval** | `ontologic:ReasoningAgentsAndRetrieval` | Agentic Systems & Reasoning | 19 | 26 |
+| **Artificial Intelligence & Machine Learning > Deep Neural Networks > Tabular Foundation Models & Synthetic Pretraining** | `ontologic:TabularFoundationModelsAndSyntheticPretraining` | Tabular Foundation Models & Synthetic Data | 2 | 6 |
+| **Artificial Intelligence & Machine Learning > Reasoning, Agents & Retrieval** | `ontologic:ReasoningAgentsAndRetrieval` | Agentic Systems & Reasoning | 20 | 27 |
 | **Artificial Intelligence & Machine Learning > Interpretability, Calibration & Evaluation** | `ontologic:InterpretabilityAndEvaluation` | Mechanistic Interpretability & Model Evaluation | 0 | 0 |
 | **Artificial Intelligence & Machine Learning > Probabilistic, Diffusion & Multimodal Vision** | `ontologic:ProbabilisticDiffusionAndVision` | Multimodal Vision & Probabilistic Generative Models | 3 | 3 |
 | **Security & Resilience > AI Alignment, Guardrails & Agent Security** | `ontologic:AIAlignmentAndAgentSecurity` | AI Alignment & Agentic Security | 17 | 36 |
-| **AI Policy, Governance & Human-AI Systems** | `ontologic:AIPolicyGovernanceAndHumanAI` | AI Governance, Policy & Human-AI Interaction | 2 | 3 |
+| **AI Policy, Governance & Human-AI Systems** | `ontologic:AIPolicyGovernanceAndHumanAI` | AI Governance, Policy & Human-AI Interaction | 3 | 4 |
 | **Formal Methods & Automated Reasoning** | `ontologic:FormalMethodsAutomatedReasoning` | Automated Reasoning & Mathematical Logic | 29 | 65 |
 | **Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification** | `ontologic:NeuroSymbolicDeductionAndVerification` | Neuro-Symbolic Logic & Neural Verification | 6 | 17 |
 | **Formal Methods & Automated Reasoning > SAT & SMT Solvers** | `ontologic:SATAndSMTSolvers` | SAT & SMT Decision Procedures | 13 | 22 |
@@ -305,7 +306,8 @@
 - **Parent Category:** `Root Domain`
 - **Technology Area:** AI & Machine Learning
 - **Description:** Machine learning models, training/inference pipelines, and statistical algorithms.
-- **Linked Documents (31):**
+- **Linked Documents (33):**
+  - [`amazon-science-2026-mitra-v2-tabular-foundation-models`](index.html#doc=amazon-science-2026-mitra-v2-tabular-foundation-models) — [Mitra v2: Scaling synthetic pretraining for tabular foundation models](https://www.amazon.science/blog/mitra-v2-scaling-synthetic-pretraining-for-tabular-foundation-models) (`technical_article`, status: `to-read`, priority: `high`)
   - [`arxiv-2404.01833`](index.html#doc=arxiv-2404.01833) — [Great, Now Write an Article About That: The Crescendo Multi-Turn LLM Jailbreak Attack](https://arxiv.org/abs/2404.01833) (`academic_paper`, status: `to-read`, priority: `high`)
   - [`arxiv-2503.19174`](index.html#doc=arxiv-2503.19174) — [AssertionForge: Enhancing Formal Verification Assertion Generation with Structured Representation of Specifications and RTL](https://arxiv.org/abs/2503.19174) (`academic_paper`, status: `reading`, priority: `high`)
   - [`arxiv-2506.10597`](index.html#doc=arxiv-2506.10597) — [SoK: Evaluating Jailbreak Guardrails for Large Language Models](https://arxiv.org/abs/2506.10597) (`academic_paper`, status: `to-read`, priority: `medium`)
@@ -325,6 +327,7 @@
   - [`arxiv-2606.01738`](index.html#doc=arxiv-2606.01738) — [THRD: A Training-Free Multi-Turn Defense Framework for Jailbreak Attacks on Large Language Models](https://arxiv.org/abs/2606.01738) (`academic_paper`, status: `to-read`, priority: `high`)
   - [`arxiv-2606.03136`](index.html#doc=arxiv-2606.03136) — [PsychoPass: Geometric Profiling of Multi-Turn Adversarial LLM Conversations](https://arxiv.org/abs/2606.03136) (`academic_paper`, status: `to-read`, priority: `high`)
   - [`arxiv-2607.19356`](index.html#doc=arxiv-2607.19356) — [NEXUS: Structured Runtime Safety for Tool-Using LLM Agents](https://arxiv.org/abs/2607.19356) (`academic_paper`, status: `to-read`, priority: `high`)
+  - [`arxiv-2609.04540`](index.html#doc=arxiv-2609.04540) — [Mitra-v2 Technical Report: Scaling Synthetic Pretraining for Tabular Foundation Models](https://arxiv.org/abs/2609.04540) (`academic_paper`, status: `to-read`, priority: `high`)
   - [`arxiv-2609.26751`](index.html#doc=arxiv-2609.26751) — [EquivSVA: A Formally Verified Dataset of Behavioral Assertions Across Equivalent RTL Implementations](https://arxiv.org/abs/2609.26751) (`academic_paper`, status: `to-read`, priority: `medium`)
   - [`arxiv-2610.08739v2`](index.html#doc=arxiv-2610.08739v2) — [BARE-AI: Bit-Flip Attack Resilience in AI Hardware through Built-in Performance Monitors](https://arxiv.org/abs/2610.08739v2) (`academic_paper`, status: `reading`, priority: `high`)
   - [`note-2026-ai-security-trajectory-monitoring-report`](index.html#doc=note-2026-ai-security-trajectory-monitoring-report) — Personal Research Report: Trajectory Monitoring for Multi-Turn Escalation (Crescendo) and Endpoint AI Agent Security (`note`, status: `read`, priority: `high`)
@@ -344,7 +347,8 @@
 - **Parent Category:** `Artificial Intelligence & Machine Learning`
 - **Technology Area:** Deep Learning Architectures
 - **Description:** Deep neural network architectures including CNNs, Vision Transformers, and Large Language Models.
-- **Linked Documents (29):**
+- **Linked Documents (31):**
+  - [`amazon-science-2026-mitra-v2-tabular-foundation-models`](index.html#doc=amazon-science-2026-mitra-v2-tabular-foundation-models) — [Mitra v2: Scaling synthetic pretraining for tabular foundation models](https://www.amazon.science/blog/mitra-v2-scaling-synthetic-pretraining-for-tabular-foundation-models) (`technical_article`, status: `to-read`, priority: `high`)
   - [`arxiv-2404.01833`](index.html#doc=arxiv-2404.01833) — [Great, Now Write an Article About That: The Crescendo Multi-Turn LLM Jailbreak Attack](https://arxiv.org/abs/2404.01833) (`academic_paper`, status: `to-read`, priority: `high`)
   - [`arxiv-2506.10597`](index.html#doc=arxiv-2506.10597) — [SoK: Evaluating Jailbreak Guardrails for Large Language Models](https://arxiv.org/abs/2506.10597) (`academic_paper`, status: `to-read`, priority: `medium`)
   - [`arxiv-2508.00500`](index.html#doc=arxiv-2508.00500) — [ProbGuard: Proactive Runtime Monitoring for LLM Agent Safety via Probabilistic Prediction](https://arxiv.org/abs/2508.00500) (`academic_paper`, status: `to-read`, priority: `medium`)
@@ -363,6 +367,7 @@
   - [`arxiv-2606.01738`](index.html#doc=arxiv-2606.01738) — [THRD: A Training-Free Multi-Turn Defense Framework for Jailbreak Attacks on Large Language Models](https://arxiv.org/abs/2606.01738) (`academic_paper`, status: `to-read`, priority: `high`)
   - [`arxiv-2606.03136`](index.html#doc=arxiv-2606.03136) — [PsychoPass: Geometric Profiling of Multi-Turn Adversarial LLM Conversations](https://arxiv.org/abs/2606.03136) (`academic_paper`, status: `to-read`, priority: `high`)
   - [`arxiv-2607.19356`](index.html#doc=arxiv-2607.19356) — [NEXUS: Structured Runtime Safety for Tool-Using LLM Agents](https://arxiv.org/abs/2607.19356) (`academic_paper`, status: `to-read`, priority: `high`)
+  - [`arxiv-2609.04540`](index.html#doc=arxiv-2609.04540) — [Mitra-v2 Technical Report: Scaling Synthetic Pretraining for Tabular Foundation Models](https://arxiv.org/abs/2609.04540) (`academic_paper`, status: `to-read`, priority: `high`)
   - [`arxiv-2609.26751`](index.html#doc=arxiv-2609.26751) — [EquivSVA: A Formally Verified Dataset of Behavioral Assertions Across Equivalent RTL Implementations](https://arxiv.org/abs/2609.26751) (`academic_paper`, status: `to-read`, priority: `medium`)
   - [`arxiv-2610.08739v2`](index.html#doc=arxiv-2610.08739v2) — [BARE-AI: Bit-Flip Attack Resilience in AI Hardware through Built-in Performance Monitors](https://arxiv.org/abs/2610.08739v2) (`academic_paper`, status: `reading`, priority: `high`)
   - [`note-2026-ai-security-trajectory-monitoring-report`](index.html#doc=note-2026-ai-security-trajectory-monitoring-report) — Personal Research Report: Trajectory Monitoring for Multi-Turn Escalation (Crescendo) and Endpoint AI Agent Security (`note`, status: `read`, priority: `high`)
@@ -381,9 +386,11 @@
 - **Parent Category:** `Artificial Intelligence & Machine Learning > Deep Neural Networks`
 - **Technology Area:** Large Language Models & Attention Mechanisms
 - **Description:** Large language model pretraining, scaling laws, tokenization, KV-cache compression, and efficient attention mechanisms.
-- **Linked Documents (2):**
+- **Linked Documents (4):**
+  - [`amazon-science-2026-mitra-v2-tabular-foundation-models`](index.html#doc=amazon-science-2026-mitra-v2-tabular-foundation-models) — [Mitra v2: Scaling synthetic pretraining for tabular foundation models](https://www.amazon.science/blog/mitra-v2-scaling-synthetic-pretraining-for-tabular-foundation-models) (`technical_article`, status: `to-read`, priority: `high`)
   - [`arxiv-2605.04785`](index.html#doc=arxiv-2605.04785) — [AgentTrust: Runtime Safety Evaluation and Interception for AI Agent Tool Use](https://arxiv.org/abs/2605.04785) (`academic_paper`, status: `to-read`, priority: `medium`)
   - [`arxiv-2605.10901`](index.html#doc=arxiv-2605.10901) — [Beyond Red-Teaming: Formal Guarantees of LLM Guardrail Classifiers](https://arxiv.org/abs/2605.10901) (`academic_paper`, status: `to-read`, priority: `high`)
+  - [`arxiv-2609.04540`](index.html#doc=arxiv-2609.04540) — [Mitra-v2 Technical Report: Scaling Synthetic Pretraining for Tabular Foundation Models](https://arxiv.org/abs/2609.04540) (`academic_paper`, status: `to-read`, priority: `high`)
 
 ### Novel & State-Space Architectures (`ontologic:NovelAndStateSpaceArchitectures`)
 
@@ -397,13 +404,24 @@
   - [`note-2026-kitsumiko-formal-neurosymbolic-bridge`](index.html#doc=note-2026-kitsumiko-formal-neurosymbolic-bridge) — [Synthesis Note: Neuro-Symbolic Deduction, Formal Guardrail Certification, and Hardware-Verified AI (Curated from kitsumiko/papers)](https://github.com/kitsumiko/papers) (`note`, status: `read`, priority: `high`)
   - [`semieng-2026-bare-ai-monitors`](index.html#doc=semieng-2026-bare-ai-monitors) — [On-Chip Monitors Detect Bit-Flip Attacks in AI Accelerators (UF, UT Dallas, RPI)](https://semiengineering.com/on-chip-monitors-detect-bit-flip-attacks-in-ai-accelerators-uf-ut-dallas-rpi/) (`technical_article`, status: `read`, priority: `high`)
 
+### Tabular Foundation Models & Synthetic Pretraining (`ontologic:TabularFoundationModelsAndSyntheticPretraining`)
+
+- **Full Hierarchy Path:** `Artificial Intelligence & Machine Learning > Deep Neural Networks > Tabular Foundation Models & Synthetic Pretraining`
+- **Parent Category:** `Artificial Intelligence & Machine Learning > Deep Neural Networks`
+- **Technology Area:** Tabular Foundation Models & Synthetic Data
+- **Description:** In-context tabular foundation models (Mitra-v2, TabPFN, TabICL) with 2D row/column attention pretrained on synthetic structural causal model priors.
+- **Linked Documents (2):**
+  - [`amazon-science-2026-mitra-v2-tabular-foundation-models`](index.html#doc=amazon-science-2026-mitra-v2-tabular-foundation-models) — [Mitra v2: Scaling synthetic pretraining for tabular foundation models](https://www.amazon.science/blog/mitra-v2-scaling-synthetic-pretraining-for-tabular-foundation-models) (`technical_article`, status: `to-read`, priority: `high`)
+  - [`arxiv-2609.04540`](index.html#doc=arxiv-2609.04540) — [Mitra-v2 Technical Report: Scaling Synthetic Pretraining for Tabular Foundation Models](https://arxiv.org/abs/2609.04540) (`academic_paper`, status: `to-read`, priority: `high`)
+
 ### Reasoning, Agents & Retrieval (`ontologic:ReasoningAgentsAndRetrieval`)
 
 - **Full Hierarchy Path:** `Artificial Intelligence & Machine Learning > Reasoning, Agents & Retrieval`
 - **Parent Category:** `Artificial Intelligence & Machine Learning`
 - **Technology Area:** Agentic Systems & Reasoning
 - **Description:** Chain-of-thought and latent reasoning, autonomous multi-agent orchestration, tool use, and retrieval-augmented generation (RAG).
-- **Linked Documents (19):**
+- **Linked Documents (20):**
+  - [`amazon-science-2026-mitra-v2-tabular-foundation-models`](index.html#doc=amazon-science-2026-mitra-v2-tabular-foundation-models) — [Mitra v2: Scaling synthetic pretraining for tabular foundation models](https://www.amazon.science/blog/mitra-v2-scaling-synthetic-pretraining-for-tabular-foundation-models) (`technical_article`, status: `to-read`, priority: `high`)
   - [`arxiv-2503.19174`](index.html#doc=arxiv-2503.19174) — [AssertionForge: Enhancing Formal Verification Assertion Generation with Structured Representation of Specifications and RTL](https://arxiv.org/abs/2503.19174) (`academic_paper`, status: `reading`, priority: `high`)
   - [`arxiv-2506.10597`](index.html#doc=arxiv-2506.10597) — [SoK: Evaluating Jailbreak Guardrails for Large Language Models](https://arxiv.org/abs/2506.10597) (`academic_paper`, status: `to-read`, priority: `medium`)
   - [`arxiv-2508.00500`](index.html#doc=arxiv-2508.00500) — [ProbGuard: Proactive Runtime Monitoring for LLM Agent Safety via Probabilistic Prediction](https://arxiv.org/abs/2508.00500) (`academic_paper`, status: `to-read`, priority: `medium`)
@@ -475,7 +493,8 @@
 - **Parent Category:** `Root Domain`
 - **Technology Area:** AI Governance, Policy & Human-AI Interaction
 - **Description:** International AI legislation, risk management standards (NIST AI RMF, ISO/IEC, EU AI Act), compute governance, and human-AI decision-making.
-- **Linked Documents (2):**
+- **Linked Documents (3):**
+  - [`amazon-science-2026-mitra-v2-tabular-foundation-models`](index.html#doc=amazon-science-2026-mitra-v2-tabular-foundation-models) — [Mitra v2: Scaling synthetic pretraining for tabular foundation models](https://www.amazon.science/blog/mitra-v2-scaling-synthetic-pretraining-for-tabular-foundation-models) (`technical_article`, status: `to-read`, priority: `high`)
   - [`arxiv-2604.23338`](index.html#doc=arxiv-2604.23338) — [A Systematic Survey of Security Threats and Defenses in LLM-Based AI Agents: A Layered Attack Surface Framework](https://arxiv.org/abs/2604.23338) (`academic_paper`, status: `to-read`, priority: `medium`)
   - [`arxiv-2607.22619`](index.html#doc=arxiv-2607.22619) — [How to Catch a GPU: A Taxonomy of Verification and Enforcement Mechanisms for International AI Agreements](https://arxiv.org/abs/2607.22619) (`academic_paper`, status: `to-read`, priority: `medium`)
 
@@ -632,3 +651,4 @@
 | `concept:mechanistic-interpretability` | **Mechanistic Interpretability, Superposition & Model Calibration** | Mechanistic Interpretability & Model Evaluation | `Artificial Intelligence & Machine Learning > Interpretability, Calibration & Evaluation` | `concept:dnn`, `concept:formal-guardrails` |
 | `concept:diffusion-multimodal` | **Diffusion Models, Probabilistic Programming & Multimodal Vision** | Multimodal Vision & Probabilistic Generative Models | `Artificial Intelligence & Machine Learning > Probabilistic, Diffusion & Multimodal Vision` | `concept:dnn` |
 | `concept:ai-policy-governance` | **AI Governance, Regulatory Frameworks & Human-AI Interaction** | AI Governance, Policy & Human-AI Interaction | `AI Policy, Governance & Human-AI Systems` | `concept:agentic-security` |
+| `concept:tabular-foundation-models` | **Tabular Foundation Models & Synthetic Causal Pretraining (Mitra-v2, TabPFN, AutoGluon)** | Tabular Foundation Models & Synthetic Data | `Artificial Intelligence & Machine Learning > Deep Neural Networks > Tabular Foundation Models & Synthetic Pretraining` | `concept:dnn`, `concept:flash-attention-llm` |

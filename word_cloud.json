@@ -1,5 +1,157 @@
 {
   "by_document": {
+    "amazon-science-2026-mitra-v2-tabular-foundation-models": [
+      {
+        "count": 6,
+        "term": "mitra",
+        "weight": 1.0
+      },
+      {
+        "count": 5,
+        "term": "tabular",
+        "weight": 0.8333
+      },
+      {
+        "count": 5,
+        "term": "v2",
+        "weight": 0.8333
+      },
+      {
+        "count": 4,
+        "term": "models",
+        "weight": 0.6667
+      },
+      {
+        "count": 4,
+        "term": "pretraining",
+        "weight": 0.6667
+      },
+      {
+        "count": 3,
+        "term": "autogluon",
+        "weight": 0.5
+      },
+      {
+        "count": 3,
+        "term": "synthetic",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "2d",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "amazon",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "attention",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "causal",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "classes",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "column-wise",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "datasets",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "dual-axis",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "ecosystem",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "foundation",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "in-context",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "open-source",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "priors",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "real-world",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "row",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "row-wise",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "rows",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "tasks",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "transformer",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "while",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "10x",
+        "weight": 0.1667
+      },
+      {
+        "count": 1,
+        "term": "12-layer",
+        "weight": 0.1667
+      },
+      {
+        "count": 1,
+        "term": "3x",
+        "weight": 0.1667
+      }
+    ],
     "arxiv-1402.4677": [
       {
         "count": 5,
@@ -3952,6 +4104,158 @@
         "weight": 0.25
       }
     ],
+    "arxiv-2609.04540": [
+      {
+        "count": 6,
+        "term": "mitra-v2",
+        "weight": 1.0
+      },
+      {
+        "count": 3,
+        "term": "models",
+        "weight": 0.5
+      },
+      {
+        "count": 3,
+        "term": "rows",
+        "weight": 0.5
+      },
+      {
+        "count": 3,
+        "term": "synthetic",
+        "weight": 0.5
+      },
+      {
+        "count": 3,
+        "term": "than",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "2d",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "attention",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "autogluon",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "causal",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "classes",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "classification",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "dual-axis",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "fine-tuning",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "generated",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "model",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "pretraining",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "random",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "real-world",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "self-attention",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "tabular",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "transformer",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "while",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "10x",
+        "weight": 0.1667
+      },
+      {
+        "count": 1,
+        "term": "12-layer",
+        "weight": 0.1667
+      },
+      {
+        "count": 1,
+        "term": "3x",
+        "weight": 0.1667
+      },
+      {
+        "count": 1,
+        "term": "6b-parameter",
+        "weight": 0.1667
+      },
+      {
+        "count": 1,
+        "term": "77-million-parameter",
+        "weight": 0.1667
+      },
+      {
+        "count": 1,
+        "term": "7m",
+        "weight": 0.1667
+      },
+      {
+        "count": 1,
+        "term": "achieves",
+        "weight": 0.1667
+      },
+      {
+        "count": 1,
+        "term": "against",
+        "weight": 0.1667
+      }
+    ],
     "arxiv-2609.26751": [
       {
         "count": 5,
@@ -6863,6 +7167,11 @@
       "weight": 0.8837
     },
     {
+      "count": 37,
+      "term": "models",
+      "weight": 0.8605
+    },
+    {
       "count": 32,
       "term": "agents",
       "weight": 0.7442
@@ -6873,14 +7182,14 @@
       "weight": 0.7442
     },
     {
-      "count": 31,
+      "count": 32,
       "term": "evaluation",
-      "weight": 0.7209
+      "weight": 0.7442
     },
     {
-      "count": 30,
+      "count": 31,
       "term": "context",
-      "weight": 0.6977
+      "weight": 0.7209
     },
     {
       "count": 30,
@@ -6889,7 +7198,7 @@
     },
     {
       "count": 30,
-      "term": "models",
+      "term": "model",
       "weight": 0.6977
     },
     {
@@ -6906,11 +7215,6 @@
       "count": 28,
       "term": "smt",
       "weight": 0.6512
-    },
-    {
-      "count": 27,
-      "term": "model",
-      "weight": 0.6279
     },
     {
       "count": 27,
@@ -6989,7 +7293,7 @@
     },
     {
       "count": 20,
-      "term": "over",
+      "term": "architecture",
       "weight": 0.4651
     }
   ]
