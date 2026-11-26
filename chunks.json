@@ -950,6 +950,227 @@
       "token_count": 23
     }
   ],
+  "arxiv-1812.09822": [
+    {
+      "chunk_id": "arxiv-1812.09822#chunk-01",
+      "concept_ids": [
+        "concept:enclave-linear-blast-chamber"
+      ],
+      "doc_id": "arxiv-1812.09822",
+      "heading": "Why Speculative Execution Breaks Enclave Isolation",
+      "key_terms": [
+        {
+          "count": 4,
+          "term": "speculative"
+        },
+        {
+          "count": 2,
+          "term": "out-of-order"
+        },
+        {
+          "count": 2,
+          "term": "execution"
+        },
+        {
+          "count": 2,
+          "term": "enclave"
+        },
+        {
+          "count": 2,
+          "term": "caches"
+        },
+        {
+          "count": 1,
+          "term": "mi6"
+        },
+        {
+          "count": 1,
+          "term": "secure"
+        },
+        {
+          "count": 1,
+          "term": "enclaves"
+        },
+        {
+          "count": 1,
+          "term": "processor"
+        },
+        {
+          "count": 1,
+          "term": "why"
+        },
+        {
+          "count": 1,
+          "term": "breaks"
+        },
+        {
+          "count": 1,
+          "term": "isolation"
+        }
+      ],
+      "section_index": 1,
+      "taxonomy_paths": [
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > Memory & Interconnects",
+        "Security & Resilience",
+        "Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS"
+      ],
+      "technology_areas": [
+        "Hardware & AI Security",
+        "Memory Subsystems & Chiplets",
+        "Secure Enclaves, SASOS & Blast-Chamber Isolation",
+        "Semiconductor Engineering"
+      ],
+      "text": "On modern out-of-order speculative processors, transient instructions fetched along mispredicted branches can speculatively issue loads to unauthorized physical addresses or modulate shared microarchitectural structures (L1 data/instruction caches, TLBs, MSHRs, branch predictors, and arithmetic functional units) before the Reorder Buffer (ROB) squash occurs. Even when DRAM and Last-Level Caches are partitioned as in Sanctum, speculative execution leaks enclave secrets across protection boundaries.",
+      "token_count": 61
+    },
+    {
+      "chunk_id": "arxiv-1812.09822#chunk-02",
+      "concept_ids": [
+        "concept:enclave-linear-blast-chamber"
+      ],
+      "doc_id": "arxiv-1812.09822",
+      "heading": "Enforcing Non-Speculative Boundaries & the `purge` Instruction",
+      "key_terms": [
+        {
+          "count": 3,
+          "term": "mi6"
+        },
+        {
+          "count": 3,
+          "term": "enclave"
+        },
+        {
+          "count": 2,
+          "term": "non-speculative"
+        },
+        {
+          "count": 2,
+          "term": "boundaries"
+        },
+        {
+          "count": 2,
+          "term": "purge"
+        },
+        {
+          "count": 2,
+          "term": "instruction"
+        },
+        {
+          "count": 2,
+          "term": "speculative"
+        },
+        {
+          "count": 1,
+          "term": "enforcing"
+        },
+        {
+          "count": 1,
+          "term": "co-designs"
+        },
+        {
+          "count": 1,
+          "term": "out-of-order"
+        },
+        {
+          "count": 1,
+          "term": "risc-v"
+        },
+        {
+          "count": 1,
+          "term": "processor"
+        }
+      ],
+      "section_index": 2,
+      "taxonomy_paths": [
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > Memory & Interconnects",
+        "Security & Resilience",
+        "Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS"
+      ],
+      "technology_areas": [
+        "Hardware & AI Security",
+        "Memory Subsystems & Chiplets",
+        "Secure Enclaves, SASOS & Blast-Chamber Isolation",
+        "Semiconductor Engineering"
+      ],
+      "text": "MI6 co-designs an out-of-order speculative RISC-V processor (`RiscyOO`) and secure enclave monitor to restore rigorous formal isolation. First, MI6 enforces **non-speculative capability/range checks at protection boundaries**: speculative loads and stores are hardware-blocked from crossing out of the active enclave's allocated DRAM region bitmap, preventing transient cross-domain reads. Second, MI6 introduces a hardware `purge` instruction executed on every enclave entry/exit and context switch that deterministically flushes all core-local microarchitectural state (L1 caches, TLBs, branch history tables, BTB, RSB, and in-flight MSHRs).",
+      "token_count": 80
+    },
+    {
+      "chunk_id": "arxiv-1812.09822#chunk-03",
+      "concept_ids": [],
+      "doc_id": "arxiv-1812.09822",
+      "heading": "Formal Indistinguishability & Performance Trade-off",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "enclave"
+        },
+        {
+          "count": 1,
+          "term": "formal"
+        },
+        {
+          "count": 1,
+          "term": "indistinguishability"
+        },
+        {
+          "count": 1,
+          "term": "performance"
+        },
+        {
+          "count": 1,
+          "term": "trade-off"
+        },
+        {
+          "count": 1,
+          "term": "mi6"
+        },
+        {
+          "count": 1,
+          "term": "satisfies"
+        },
+        {
+          "count": 1,
+          "term": "machine-checked"
+        },
+        {
+          "count": 1,
+          "term": "trace-indistinguishability"
+        },
+        {
+          "count": 1,
+          "term": "security"
+        },
+        {
+          "count": 1,
+          "term": "definition"
+        },
+        {
+          "count": 1,
+          "term": "guaranteeing"
+        }
+      ],
+      "section_index": 3,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Reasoning, Agents & Retrieval",
+        "Formal Methods & Automated Reasoning",
+        "Security & Resilience",
+        "Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "Agentic Systems & Reasoning",
+        "Automated Reasoning & Mathematical Logic",
+        "Hardware & AI Security",
+        "Secure Enclaves, SASOS & Blast-Chamber Isolation"
+      ],
+      "text": "MI6 satisfies a machine-checked trace-indistinguishability security definition \u2014 guaranteeing that no speculative execution inside or outside the enclave can transmit information across enclave boundaries \u2014 with an average runtime overhead of 16.6% compared to turning off speculation entirely.",
+      "token_count": 38
+    }
+  ],
   "arxiv-2201.04663": [
     {
       "chunk_id": "arxiv-2201.04663#chunk-01",
@@ -1409,16 +1630,480 @@
         "Hardware & Semiconductor Systems",
         "Hardware & Semiconductor Systems > AI Accelerators",
         "Hardware & Semiconductor Systems > EDA & Hardware Verification",
-        "Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions"
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions",
+        "Security & Resilience",
+        "Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS"
       ],
       "technology_areas": [
         "AI Hardware Accelerators",
         "Electronic Design Automation",
         "Formal Verification & Specification Languages",
+        "Hardware & AI Security",
+        "Secure Enclaves, SASOS & Blast-Chamber Isolation",
         "Semiconductor Engineering"
       ],
       "text": "UCLID5 has been deployed to formally verify speculative execution mitigations, cryptographic accelerators, enclave isolation, and hardware fault-tolerance protocols prior to silicon tapeout.",
       "token_count": 22
+    }
+  ],
+  "arxiv-2302.12108": [
+    {
+      "chunk_id": "arxiv-2302.12108#chunk-01",
+      "concept_ids": [
+        "concept:enclave-linear-blast-chamber"
+      ],
+      "doc_id": "arxiv-2302.12108",
+      "heading": "Selective Non-Speculative Execution Inside Enclaves",
+      "key_terms": [
+        {
+          "count": 3,
+          "term": "execution"
+        },
+        {
+          "count": 2,
+          "term": "prospect"
+        },
+        {
+          "count": 2,
+          "term": "secure"
+        },
+        {
+          "count": 2,
+          "term": "inside"
+        },
+        {
+          "count": 2,
+          "term": "enclave"
+        },
+        {
+          "count": 2,
+          "term": "secret"
+        },
+        {
+          "count": 1,
+          "term": "provably"
+        },
+        {
+          "count": 1,
+          "term": "speculation"
+        },
+        {
+          "count": 1,
+          "term": "constant-time"
+        },
+        {
+          "count": 1,
+          "term": "policy"
+        },
+        {
+          "count": 1,
+          "term": "selective"
+        },
+        {
+          "count": 1,
+          "term": "non-speculative"
+        }
+      ],
+      "section_index": 1,
+      "taxonomy_paths": [
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > Memory & Interconnects",
+        "Security & Resilience",
+        "Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS"
+      ],
+      "technology_areas": [
+        "Hardware & AI Security",
+        "Memory Subsystems & Chiplets",
+        "Secure Enclaves, SASOS & Blast-Chamber Isolation",
+        "Semiconductor Engineering"
+      ],
+      "text": "Completely disabling speculative execution inside a secure enclave eliminates Spectre-class transient execution attacks at the cost of severe throughput degradation, whereas coarse fence insertion (`lfence`) is error-prone and incomplete. ProSpeCT introduces a formal hardware-software contract where enclave memory pages or linear address ranges are classified as either *secret* or *public*, and the processor pipeline tracks dynamic secret taint across registers.",
+      "token_count": 60
+    },
+    {
+      "chunk_id": "arxiv-2302.12108#chunk-02",
+      "concept_ids": [
+        "concept:enclave-linear-blast-chamber"
+      ],
+      "doc_id": "arxiv-2302.12108",
+      "heading": "Blocking Speculative Secret Propagation in the Pipeline",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "instruction"
+        },
+        {
+          "count": 2,
+          "term": "out-of-order"
+        },
+        {
+          "count": 1,
+          "term": "blocking"
+        },
+        {
+          "count": 1,
+          "term": "speculative"
+        },
+        {
+          "count": 1,
+          "term": "secret"
+        },
+        {
+          "count": 1,
+          "term": "propagation"
+        },
+        {
+          "count": 1,
+          "term": "pipeline"
+        },
+        {
+          "count": 1,
+          "term": "whenever"
+        },
+        {
+          "count": 1,
+          "term": "execution"
+        },
+        {
+          "count": 1,
+          "term": "window"
+        },
+        {
+          "count": 1,
+          "term": "consumes"
+        },
+        {
+          "count": 1,
+          "term": "secret-tainted"
+        }
+      ],
+      "section_index": 2,
+      "taxonomy_paths": [
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > Memory & Interconnects",
+        "Security & Resilience",
+        "Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS"
+      ],
+      "technology_areas": [
+        "Hardware & AI Security",
+        "Memory Subsystems & Chiplets",
+        "Secure Enclaves, SASOS & Blast-Chamber Isolation",
+        "Semiconductor Engineering"
+      ],
+      "text": "Whenever an instruction in the out-of-order execution window consumes a secret-tainted operand or performs a secret-dependent memory access, branch, or variable-time arithmetic operation, ProSpeCT's hardware control logic delays any microarchitecturally observable side effect until the instruction becomes **non-speculative** (i.e., all older branches, exceptions, and address translations in the Reorder Buffer are resolved). Public control-flow and non-secret calculations continue to speculate at full out-of-order speed.",
+      "token_count": 64
+    },
+    {
+      "chunk_id": "arxiv-2302.12108#chunk-03",
+      "concept_ids": [
+        "concept:enclave-linear-blast-chamber"
+      ],
+      "doc_id": "arxiv-2302.12108",
+      "heading": "Provable Constant-Time Enclave Guarantees on RISC-V",
+      "key_terms": [
+        {
+          "count": 3,
+          "term": "enclave"
+        },
+        {
+          "count": 2,
+          "term": "constant-time"
+        },
+        {
+          "count": 2,
+          "term": "risc-v"
+        },
+        {
+          "count": 2,
+          "term": "speculative"
+        },
+        {
+          "count": 1,
+          "term": "provable"
+        },
+        {
+          "count": 1,
+          "term": "guarantees"
+        },
+        {
+          "count": 1,
+          "term": "implemented"
+        },
+        {
+          "count": 1,
+          "term": "out-of-order"
+        },
+        {
+          "count": 1,
+          "term": "core"
+        },
+        {
+          "count": 1,
+          "term": "boom"
+        },
+        {
+          "count": 1,
+          "term": "proteus"
+        },
+        {
+          "count": 1,
+          "term": "prospect"
+        }
+      ],
+      "section_index": 3,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks > Language Models & Efficient Attention",
+        "Formal Methods & Automated Reasoning",
+        "Security & Resilience",
+        "Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "Automated Reasoning & Mathematical Logic",
+        "Deep Learning Architectures",
+        "Hardware & AI Security",
+        "Large Language Models & Attention Mechanisms",
+        "Secure Enclaves, SASOS & Blast-Chamber Isolation"
+      ],
+      "text": "Implemented on a speculative out-of-order RISC-V core (BOOM/Proteus), ProSpeCT proves that any enclave binary satisfying standard sequential constant-time discipline remains 100% immune to speculative leakage with near-zero performance penalty on cryptographic and enclave workloads.",
+      "token_count": 34
+    }
+  ],
+  "arxiv-2302.13863": [
+    {
+      "chunk_id": "arxiv-2302.13863#chunk-01",
+      "concept_ids": [
+        "concept:enclave-linear-blast-chamber"
+      ],
+      "doc_id": "arxiv-2302.13863",
+      "heading": "From Copyable Capabilities to Hardware Linear Capabilities",
+      "key_terms": [
+        {
+          "count": 4,
+          "term": "memory"
+        },
+        {
+          "count": 4,
+          "term": "capabilities"
+        },
+        {
+          "count": 4,
+          "term": "linear"
+        },
+        {
+          "count": 2,
+          "term": "capstone"
+        },
+        {
+          "count": 2,
+          "term": "secure"
+        },
+        {
+          "count": 2,
+          "term": "access"
+        },
+        {
+          "count": 2,
+          "term": "hardware"
+        },
+        {
+          "count": 2,
+          "term": "capability"
+        },
+        {
+          "count": 2,
+          "term": "but"
+        },
+        {
+          "count": 2,
+          "term": "duplicated"
+        },
+        {
+          "count": 1,
+          "term": "capability-based"
+        },
+        {
+          "count": 1,
+          "term": "foundation"
+        }
+      ],
+      "section_index": 1,
+      "taxonomy_paths": [
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > Memory & Interconnects",
+        "Security & Resilience",
+        "Security & Resilience > Memory Safety & Software Capabilities",
+        "Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS"
+      ],
+      "technology_areas": [
+        "Hardware & AI Security",
+        "Language & Runtime Memory Safety",
+        "Memory Subsystems & Chiplets",
+        "Secure Enclaves, SASOS & Blast-Chamber Isolation",
+        "Semiconductor Engineering"
+      ],
+      "text": "Traditional hardware capability architectures (such as CHERI) enforce spatial bounds within a linear address space, but allow capabilities to be duplicated arbitrarily. Because any duplicated capability creates an alias, enforcing exclusive memory ownership for secure enclaves or revoking access across mutually distrusting domains requires trusting a privileged OS kernel or sweeping all of physical memory. Capstone introduces **linear capabilities**\u2014hardware-tagged pointers governed by linear logic that can be *moved* between registers or memory locations, *split* into disjoint sub-intervals, or *transferred* across domain transitions, but **never copied**.",
+      "token_count": 85
+    },
+    {
+      "chunk_id": "arxiv-2302.13863#chunk-02",
+      "concept_ids": [
+        "concept:enclave-linear-blast-chamber"
+      ],
+      "doc_id": "arxiv-2302.13863",
+      "heading": "Alias-Free Exclusive Enclaves in a Flat Linear Address Space",
+      "key_terms": [
+        {
+          "count": 5,
+          "term": "linear"
+        },
+        {
+          "count": 3,
+          "term": "capability"
+        },
+        {
+          "count": 2,
+          "term": "exclusive"
+        },
+        {
+          "count": 2,
+          "term": "flat"
+        },
+        {
+          "count": 2,
+          "term": "address"
+        },
+        {
+          "count": 2,
+          "term": "space"
+        },
+        {
+          "count": 2,
+          "term": "any"
+        },
+        {
+          "count": 2,
+          "term": "access"
+        },
+        {
+          "count": 2,
+          "term": "memory"
+        },
+        {
+          "count": 1,
+          "term": "alias-free"
+        },
+        {
+          "count": 1,
+          "term": "enclaves"
+        },
+        {
+          "count": 1,
+          "term": "because"
+        }
+      ],
+      "section_index": 2,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks > Language Models & Efficient Attention",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > Memory & Interconnects",
+        "Security & Resilience",
+        "Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "Deep Learning Architectures",
+        "Hardware & AI Security",
+        "Large Language Models & Attention Mechanisms",
+        "Memory Subsystems & Chiplets",
+        "Secure Enclaves, SASOS & Blast-Chamber Isolation",
+        "Semiconductor Engineering"
+      ],
+      "text": "Because a linear capability is guaranteed by the processor ISA not to alias with any other capability in the entire flat linear address space, holding a linear capability proves exclusive read/write access to that memory slice. Paired with hardware revocation trees (`mrev`) and sealed domain-invocation capabilities (`dom`), Capstone allows any compartment to spawn a zero-trust secure execution enclave or temporary blast chamber, delegate a linear memory buffer to it, and deterministically revoke access upon return\u2014without relying on page tables or trusting the host operating system.",
+      "token_count": 85
+    },
+    {
+      "chunk_id": "arxiv-2302.13863#chunk-03",
+      "concept_ids": [
+        "concept:enclave-linear-blast-chamber"
+      ],
+      "doc_id": "arxiv-2302.13863",
+      "heading": "Unified Substrate for Enclaves, Safe Allocators & OS Compartments",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "enclaves"
+        },
+        {
+          "count": 2,
+          "term": "safe"
+        },
+        {
+          "count": 1,
+          "term": "unified"
+        },
+        {
+          "count": 1,
+          "term": "substrate"
+        },
+        {
+          "count": 1,
+          "term": "allocators"
+        },
+        {
+          "count": 1,
+          "term": "os"
+        },
+        {
+          "count": 1,
+          "term": "compartments"
+        },
+        {
+          "count": 1,
+          "term": "prototyped"
+        },
+        {
+          "count": 1,
+          "term": "risc-v"
+        },
+        {
+          "count": 1,
+          "term": "capstone"
+        },
+        {
+          "count": 1,
+          "term": "demonstrates"
+        },
+        {
+          "count": 1,
+          "term": "six"
+        }
+      ],
+      "section_index": 3,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks > Language Models & Efficient Attention",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > Memory & Interconnects",
+        "Security & Resilience",
+        "Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "Deep Learning Architectures",
+        "Hardware & AI Security",
+        "Large Language Models & Attention Mechanisms",
+        "Memory Subsystems & Chiplets",
+        "Secure Enclaves, SASOS & Blast-Chamber Isolation",
+        "Semiconductor Engineering"
+      ],
+      "text": "Prototyped on RISC-V, Capstone demonstrates six composable isolation models in a single linear address space without a trusted kernel: mutually distrusting enclaves, nested sandboxes, preemptive thread scheduling, safe shared-memory zero-copy IPC, and hardware-enforced Rust-style borrow checking.",
+      "token_count": 36
     }
   ],
   "arxiv-2404.01833": [
@@ -7339,6 +8024,243 @@
       "token_count": 49
     }
   ],
+  "cambridge-2021-cherios-sasos": [
+    {
+      "chunk_id": "cambridge-2021-cherios-sasos#chunk-01",
+      "concept_ids": [
+        "concept:enclave-linear-blast-chamber"
+      ],
+      "doc_id": "cambridge-2021-cherios-sasos",
+      "heading": "Decoupling Address Translation from Protection in a Linear Address Space",
+      "key_terms": [
+        {
+          "count": 4,
+          "term": "address"
+        },
+        {
+          "count": 3,
+          "term": "operating"
+        },
+        {
+          "count": 2,
+          "term": "cherios"
+        },
+        {
+          "count": 2,
+          "term": "single-address-space"
+        },
+        {
+          "count": 2,
+          "term": "system"
+        },
+        {
+          "count": 2,
+          "term": "translation"
+        },
+        {
+          "count": 2,
+          "term": "protection"
+        },
+        {
+          "count": 2,
+          "term": "linear"
+        },
+        {
+          "count": 2,
+          "term": "space"
+        },
+        {
+          "count": 2,
+          "term": "systems"
+        },
+        {
+          "count": 2,
+          "term": "virtual"
+        },
+        {
+          "count": 1,
+          "term": "designing"
+        }
+      ],
+      "section_index": 1,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks > Language Models & Efficient Attention",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > Memory & Interconnects",
+        "Security & Resilience",
+        "Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "Deep Learning Architectures",
+        "Hardware & AI Security",
+        "Large Language Models & Attention Mechanisms",
+        "Memory Subsystems & Chiplets",
+        "Secure Enclaves, SASOS & Blast-Chamber Isolation",
+        "Semiconductor Engineering"
+      ],
+      "text": "Conventional operating systems conflate virtual address translation with memory protection by placing each process in a separate page-table hierarchy, incurring steep TLB shootdown, context-switch, and serialization costs when decomposing an OS into fine-grained zero-trust compartments. CheriOS implements a pure **Single-Address-Space Operating System (SASOS)** where all tasks, device drivers, file systems, network stacks, and nanokernel routines execute inside a single global linear virtual address space.",
+      "token_count": 64
+    },
+    {
+      "chunk_id": "cambridge-2021-cherios-sasos#chunk-02",
+      "concept_ids": [
+        "concept:enclave-linear-blast-chamber"
+      ],
+      "doc_id": "cambridge-2021-cherios-sasos",
+      "heading": "Zero-Trust Compartments & Temporal Quarantine Blast Chambers",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "temporal"
+        },
+        {
+          "count": 2,
+          "term": "quarantine"
+        },
+        {
+          "count": 2,
+          "term": "blast"
+        },
+        {
+          "count": 2,
+          "term": "every"
+        },
+        {
+          "count": 2,
+          "term": "memory"
+        },
+        {
+          "count": 2,
+          "term": "capability"
+        },
+        {
+          "count": 1,
+          "term": "zero-trust"
+        },
+        {
+          "count": 1,
+          "term": "compartments"
+        },
+        {
+          "count": 1,
+          "term": "chambers"
+        },
+        {
+          "count": 1,
+          "term": "cherios"
+        },
+        {
+          "count": 1,
+          "term": "numeric"
+        },
+        {
+          "count": 1,
+          "term": "integers"
+        }
+      ],
+      "section_index": 2,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks > Language Models & Efficient Attention",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > Memory & Interconnects",
+        "Security & Resilience",
+        "Security & Resilience > Memory Safety & Software Capabilities",
+        "Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "Deep Learning Architectures",
+        "Hardware & AI Security",
+        "Language & Runtime Memory Safety",
+        "Large Language Models & Attention Mechanisms",
+        "Memory Subsystems & Chiplets",
+        "Secure Enclaves, SASOS & Blast-Chamber Isolation",
+        "Semiconductor Engineering"
+      ],
+      "text": "In CheriOS, numeric integers cannot be dereferenced as pointers; every memory instruction requires an unforgeable hardware capability encoding exact base, length, permissions, and object-type seal. Every OS service and untrusted parser runs inside an isolated compartment ('blast chamber') holding only the minimal capabilities passed to it. Temporal memory safety is enforced via a hardware-accelerated quarantine bitmap that sweeps revoked heap regions before capability reuse.",
+      "token_count": 64
+    },
+    {
+      "chunk_id": "cambridge-2021-cherios-sasos#chunk-03",
+      "concept_ids": [
+        "concept:enclave-linear-blast-chamber"
+      ],
+      "doc_id": "cambridge-2021-cherios-sasos",
+      "heading": "Zero-Copy Cross-Domain Invocations Without Trusted Kernel Mediation",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "cross-domain"
+        },
+        {
+          "count": 2,
+          "term": "kernel"
+        },
+        {
+          "count": 1,
+          "term": "zero-copy"
+        },
+        {
+          "count": 1,
+          "term": "invocations"
+        },
+        {
+          "count": 1,
+          "term": "without"
+        },
+        {
+          "count": 1,
+          "term": "trusted"
+        },
+        {
+          "count": 1,
+          "term": "mediation"
+        },
+        {
+          "count": 1,
+          "term": "because"
+        },
+        {
+          "count": 1,
+          "term": "all"
+        },
+        {
+          "count": 1,
+          "term": "compartments"
+        },
+        {
+          "count": 1,
+          "term": "share"
+        },
+        {
+          "count": 1,
+          "term": "same"
+        }
+      ],
+      "section_index": 3,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks > Language Models & Efficient Attention",
+        "Security & Resilience",
+        "Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "Deep Learning Architectures",
+        "Hardware & AI Security",
+        "Large Language Models & Attention Mechanisms",
+        "Secure Enclaves, SASOS & Blast-Chamber Isolation"
+      ],
+      "text": "Because all compartments share the same linear address space, cross-domain RPC passes bounded capabilities in registers rather than copying buffers through a monolithic kernel, achieving order-of-magnitude faster compartmentalized I/O even when the OS services themselves are mutually untrusted.",
+      "token_count": 38
+    }
+  ],
   "note-2026-ai-security-trajectory-monitoring-report": [
     {
       "chunk_id": "note-2026-ai-security-trajectory-monitoring-report#chunk-01",
@@ -10895,6 +11817,418 @@
       "token_count": 27
     }
   ],
+  "research-secure-execution-enclaves-linear-address-spa": [
+    {
+      "chunk_id": "research-secure-execution-enclaves-linear-address-spa#chunk-01",
+      "concept_ids": [
+        "concept:enclave-linear-blast-chamber"
+      ],
+      "doc_id": "research-secure-execution-enclaves-linear-address-spa",
+      "heading": "Co-Designing Non-Speculative Enclaves & Linear Address Space OSes: Secure execution enclaves, linear address space, non-speculative execution in the enclaves, zero-trust blast chambers in a hardened custom operating system",
+      "key_terms": [
+        {
+          "count": 5,
+          "term": "execution"
+        },
+        {
+          "count": 5,
+          "term": "enclaves"
+        },
+        {
+          "count": 3,
+          "term": "linear"
+        },
+        {
+          "count": 3,
+          "term": "address"
+        },
+        {
+          "count": 3,
+          "term": "space"
+        },
+        {
+          "count": 3,
+          "term": "non-speculative"
+        },
+        {
+          "count": 3,
+          "term": "zero-trust"
+        },
+        {
+          "count": 3,
+          "term": "operating"
+        },
+        {
+          "count": 2,
+          "term": "secure"
+        },
+        {
+          "count": 2,
+          "term": "blast"
+        },
+        {
+          "count": 2,
+          "term": "chambers"
+        },
+        {
+          "count": 2,
+          "term": "hardened"
+        }
+      ],
+      "section_index": 1,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks > Language Models & Efficient Attention",
+        "Artificial Intelligence & Machine Learning > Reasoning, Agents & Retrieval",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification",
+        "Hardware & Semiconductor Systems > Memory & Interconnects",
+        "Security & Resilience",
+        "Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "Agentic Systems & Reasoning",
+        "Deep Learning Architectures",
+        "Electronic Design Automation",
+        "Hardware & AI Security",
+        "Large Language Models & Attention Mechanisms",
+        "Memory Subsystems & Chiplets",
+        "Secure Enclaves, SASOS & Blast-Chamber Isolation",
+        "Semiconductor Engineering"
+      ],
+      "text": "Traditional multi-address-space operating systems and commercial TEEs (such as Intel SGX) suffer from a dual vulnerability: (1) virtual-memory page-table switches impose heavy TLB shootdown and serialization penalties that discourage fine-grained zero-trust compartmentalization, while (2) out-of-order speculative execution leaks enclave secrets across page and cache boundaries via transient loads and microarchitectural side channels.",
+      "token_count": 52
+    },
+    {
+      "chunk_id": "research-secure-execution-enclaves-linear-address-spa#chunk-02",
+      "concept_ids": [
+        "concept:enclave-linear-blast-chamber"
+      ],
+      "doc_id": "research-secure-execution-enclaves-linear-address-spa",
+      "heading": "Four Architectural Pillars Synthesized in This Collection (Part 1)",
+      "key_terms": [
+        {
+          "count": 4,
+          "term": "operating"
+        },
+        {
+          "count": 4,
+          "term": "system"
+        },
+        {
+          "count": 3,
+          "term": "secure"
+        },
+        {
+          "count": 2,
+          "term": "isolation"
+        },
+        {
+          "count": 2,
+          "term": "arxiv-2302"
+        },
+        {
+          "count": 1,
+          "term": "four"
+        },
+        {
+          "count": 1,
+          "term": "architectural"
+        },
+        {
+          "count": 1,
+          "term": "pillars"
+        },
+        {
+          "count": 1,
+          "term": "synthesized"
+        },
+        {
+          "count": 1,
+          "term": "collection"
+        },
+        {
+          "count": 1,
+          "term": "part"
+        },
+        {
+          "count": 1,
+          "term": "primary"
+        }
+      ],
+      "section_index": 2,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks > Language Models & Efficient Attention",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification",
+        "Hardware & Semiconductor Systems > Memory & Interconnects",
+        "Security & Resilience",
+        "Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "Deep Learning Architectures",
+        "Electronic Design Automation",
+        "Hardware & AI Security",
+        "Large Language Models & Attention Mechanisms",
+        "Memory Subsystems & Chiplets",
+        "Secure Enclaves, SASOS & Blast-Chamber Isolation",
+        "Semiconductor Engineering"
+      ],
+      "text": "Primary literature in this synthesis \u2014 Sanctum: Minimal Hardware Extensions for Strong Software Isolation (usenix-2016-sanctum); MI6: Secure Enclaves in a Speculative Out-of-Order Processor (arxiv-1812.09822); ProSpeCT: Provably Secure Speculation for the Constant-Time Policy (arxiv-2302.12108); Capstone: A Capability-Based Foundation for Trustless Secure Memory Access (arxiv-2302.13863); CheriOS: Designing an Untrusted Single-Address-Space Capability Operating System (cambridge-2021-cherios-sasos); RedLeaf: Isolation and Communication in a Safe Operating System (usenix-osdi20-redleaf); Theseus: An Experiment in Operating System Structure and State Management (usenix-osdi20-theseus) \u2014 establishes a cohesive blueprint for a hardened custom operating system built around zero-trust blast chambers: - **1.",
+      "token_count": 91
+    },
+    {
+      "chunk_id": "research-secure-execution-enclaves-linear-address-spa#chunk-03",
+      "concept_ids": [
+        "concept:asi",
+        "concept:enclave-linear-blast-chamber"
+      ],
+      "doc_id": "research-secure-execution-enclaves-linear-address-spa",
+      "heading": "Four Architectural Pillars Synthesized in This Collection (Part 2)",
+      "key_terms": [
+        {
+          "count": 5,
+          "term": "linear"
+        },
+        {
+          "count": 2,
+          "term": "arxiv-2302"
+        },
+        {
+          "count": 2,
+          "term": "while"
+        },
+        {
+          "count": 2,
+          "term": "enclave"
+        },
+        {
+          "count": 2,
+          "term": "capabilities"
+        },
+        {
+          "count": 2,
+          "term": "address"
+        },
+        {
+          "count": 2,
+          "term": "space"
+        },
+        {
+          "count": 1,
+          "term": "four"
+        },
+        {
+          "count": 1,
+          "term": "architectural"
+        },
+        {
+          "count": 1,
+          "term": "pillars"
+        },
+        {
+          "count": 1,
+          "term": "synthesized"
+        },
+        {
+          "count": 1,
+          "term": "collection"
+        }
+      ],
+      "section_index": 3,
+      "taxonomy_paths": [
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification",
+        "Hardware & Semiconductor Systems > Memory & Interconnects",
+        "Security & Resilience",
+        "Security & Resilience > Runtime Fault Localization & Recovery",
+        "Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS"
+      ],
+      "technology_areas": [
+        "Electronic Design Automation",
+        "Hardware & AI Security",
+        "Memory Subsystems & Chiplets",
+        "Secure Enclaves, SASOS & Blast-Chamber Isolation",
+        "Self-Healing & Fault-Tolerant AI",
+        "Semiconductor Engineering"
+      ],
+      "text": "Non-Speculative Execution Inside Enclaves (`arxiv-1812.09822`, `arxiv-2302.12108`, `usenix-2016-sanctum`):** MI6 and Sanctum partition DRAM regions and LLC sets while hardware-blocking speculative loads from crossing enclave protection boundaries and executing a deterministic microarchitectural `purge` instruction on domain switches. ProSpeCT refines this further with pipeline secret-taint tracking so only secret-dependent enclave instructions execute non-speculatively at the ROB head while public code speculates at full out-of-order speed. - **2. Linear Capabilities in a Flat Linear Address Space (`arxiv-2302.13863`):** Capstone introduces move-only, non-aliasing *linear capabilities* and revocation trees (`mrev`) in a shared linear address space. Because hardware forbids copying a linear capability, exclusive memory ownership is guaranteed without trusting the OS kernel or page tables. - **3.",
+      "token_count": 111
+    },
+    {
+      "chunk_id": "research-secure-execution-enclaves-linear-address-spa#chunk-04",
+      "concept_ids": [
+        "concept:enclave-linear-blast-chamber"
+      ],
+      "doc_id": "research-secure-execution-enclaves-linear-address-spa",
+      "heading": "Four Architectural Pillars Synthesized in This Collection (Part 3)",
+      "key_terms": [
+        {
+          "count": 3,
+          "term": "address"
+        },
+        {
+          "count": 3,
+          "term": "linear"
+        },
+        {
+          "count": 3,
+          "term": "blast"
+        },
+        {
+          "count": 2,
+          "term": "space"
+        },
+        {
+          "count": 2,
+          "term": "chambers"
+        },
+        {
+          "count": 2,
+          "term": "domains"
+        },
+        {
+          "count": 1,
+          "term": "four"
+        },
+        {
+          "count": 1,
+          "term": "architectural"
+        },
+        {
+          "count": 1,
+          "term": "pillars"
+        },
+        {
+          "count": 1,
+          "term": "synthesized"
+        },
+        {
+          "count": 1,
+          "term": "collection"
+        },
+        {
+          "count": 1,
+          "term": "part"
+        }
+      ],
+      "section_index": 4,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks > Language Models & Efficient Attention",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification",
+        "Security & Resilience",
+        "Security & Resilience > Memory Safety & Software Capabilities",
+        "Security & Resilience > Runtime Fault Localization & Recovery",
+        "Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "Deep Learning Architectures",
+        "Electronic Design Automation",
+        "Hardware & AI Security",
+        "Language & Runtime Memory Safety",
+        "Large Language Models & Attention Mechanisms",
+        "Secure Enclaves, SASOS & Blast-Chamber Isolation",
+        "Self-Healing & Fault-Tolerant AI",
+        "Semiconductor Engineering"
+      ],
+      "text": "Single-Address-Space Capability Operating Systems (`cambridge-2021-cherios-sasos`):** CheriOS decouples virtual address translation from protection in a global 64-bit linear address space, isolating every OS service, driver, and user task in capability-bounded compartments with hardware-accelerated temporal quarantine. - **4. Zero-Trust Blast Chambers & Live Fault Recovery (`usenix-osdi20-redleaf`, `usenix-osdi20-theseus`):** RedLeaf and Theseus execute inside a single flat linear address space and enforce zero state-spill across fine-grained domains ('blast chambers') via linear exchange-heap ownership (`RRef<T>`) and bijective `MappedPages`, allowing a panicked or compromised blast chamber to be unwound and hot-restarted in microseconds without corrupting neighboring domains.",
+      "token_count": 91
+    },
+    {
+      "chunk_id": "research-secure-execution-enclaves-linear-address-spa#chunk-05",
+      "concept_ids": [
+        "concept:bit-flip-attack",
+        "concept:fil-c",
+        "concept:rowhammer"
+      ],
+      "doc_id": "research-secure-execution-enclaves-linear-address-spa",
+      "heading": "Cross-Graph Links to Software Capabilities & Formal Hardware Verification",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "software"
+        },
+        {
+          "count": 2,
+          "term": "formal"
+        },
+        {
+          "count": 2,
+          "term": "verification"
+        },
+        {
+          "count": 1,
+          "term": "cross-graph"
+        },
+        {
+          "count": 1,
+          "term": "links"
+        },
+        {
+          "count": 1,
+          "term": "capabilities"
+        },
+        {
+          "count": 1,
+          "term": "hardware"
+        },
+        {
+          "count": 1,
+          "term": "within"
+        },
+        {
+          "count": 1,
+          "term": "reading-db"
+        },
+        {
+          "count": 1,
+          "term": "cluster"
+        },
+        {
+          "count": 1,
+          "term": "connects"
+        },
+        {
+          "count": 1,
+          "term": "directly"
+        }
+      ],
+      "section_index": 5,
+      "taxonomy_paths": [
+        "Formal Methods & Automated Reasoning",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification",
+        "Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions",
+        "Hardware & Semiconductor Systems > Memory & Interconnects",
+        "Security & Resilience",
+        "Security & Resilience > Hardware Fault Attacks > Bit-Flip Attacks",
+        "Security & Resilience > Memory Safety & Software Capabilities",
+        "Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS"
+      ],
+      "technology_areas": [
+        "Adversarial Fault Injection",
+        "Automated Reasoning & Mathematical Logic",
+        "Electronic Design Automation",
+        "Formal Verification & Specification Languages",
+        "Hardware & AI Security",
+        "Language & Runtime Memory Safety",
+        "Memory Subsystems & Chiplets",
+        "Secure Enclaves, SASOS & Blast-Chamber Isolation",
+        "Semiconductor Engineering"
+      ],
+      "text": "Within `reading-db`, this cluster connects directly to software capability pointers (`fil-c-2025-invisicaps`), Rowhammer fault-injection analysis (`arxiv-2603.20445`), and formal SMT verification of speculative and enclave invariants (`arxiv-2208.03699`).",
+      "token_count": 25
+    }
+  ],
   "semieng-2026-bare-ai-monitors": [
     {
       "chunk_id": "semieng-2026-bare-ai-monitors#chunk-01",
@@ -11478,6 +12812,683 @@
       ],
       "text": "Combining inline memory controller telemetry with datapath AI Performance Counters (APCs) enables early anomaly detection before corrupted weights or pointer capability metadata propagate across UCIe die-to-die links.",
       "token_count": 27
+    }
+  ],
+  "usenix-2016-sanctum": [
+    {
+      "chunk_id": "usenix-2016-sanctum#chunk-01",
+      "concept_ids": [
+        "concept:asi",
+        "concept:enclave-linear-blast-chamber"
+      ],
+      "doc_id": "usenix-2016-sanctum",
+      "heading": "Threat Model & Limitations of Commercial Enclaves",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "sanctum"
+        },
+        {
+          "count": 2,
+          "term": "minimal"
+        },
+        {
+          "count": 2,
+          "term": "hardware"
+        },
+        {
+          "count": 2,
+          "term": "extensions"
+        },
+        {
+          "count": 2,
+          "term": "software"
+        },
+        {
+          "count": 2,
+          "term": "commercial"
+        },
+        {
+          "count": 2,
+          "term": "enclaves"
+        },
+        {
+          "count": 2,
+          "term": "execution"
+        },
+        {
+          "count": 1,
+          "term": "strong"
+        },
+        {
+          "count": 1,
+          "term": "isolation"
+        },
+        {
+          "count": 1,
+          "term": "threat"
+        },
+        {
+          "count": 1,
+          "term": "model"
+        }
+      ],
+      "section_index": 1,
+      "taxonomy_paths": [
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > Memory & Interconnects",
+        "Security & Resilience",
+        "Security & Resilience > Runtime Fault Localization & Recovery",
+        "Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS"
+      ],
+      "technology_areas": [
+        "Hardware & AI Security",
+        "Memory Subsystems & Chiplets",
+        "Secure Enclaves, SASOS & Blast-Chamber Isolation",
+        "Self-Healing & Fault-Tolerant AI",
+        "Semiconductor Engineering"
+      ],
+      "text": "Commercial Trusted Execution Environments (TEEs) such as Intel SGX protect enclave memory against direct reads and writes from a compromised operating system or hypervisor, but leave enclaves exposed to software side-channel attacks through shared Last-Level Cache (LLC) sets and OS-observable page-fault address traces. Sanctum introduces minimal, non-invasive hardware extensions to a RISC-V processor core (outside the main execution pipeline) coupled with a tiny, formally verifiable M-mode security monitor (<5,000 LoC).",
+      "token_count": 70
+    },
+    {
+      "chunk_id": "usenix-2016-sanctum#chunk-02",
+      "concept_ids": [
+        "concept:enclave-linear-blast-chamber"
+      ],
+      "doc_id": "usenix-2016-sanctum",
+      "heading": "Contiguous DRAM Regions, Cache Index Shifting & Per-Enclave Page Tables",
+      "key_terms": [
+        {
+          "count": 4,
+          "term": "dram"
+        },
+        {
+          "count": 3,
+          "term": "cache"
+        },
+        {
+          "count": 3,
+          "term": "enclave"
+        },
+        {
+          "count": 2,
+          "term": "contiguous"
+        },
+        {
+          "count": 2,
+          "term": "regions"
+        },
+        {
+          "count": 2,
+          "term": "page"
+        },
+        {
+          "count": 2,
+          "term": "sanctum"
+        },
+        {
+          "count": 2,
+          "term": "llc"
+        },
+        {
+          "count": 2,
+          "term": "os"
+        },
+        {
+          "count": 1,
+          "term": "index"
+        },
+        {
+          "count": 1,
+          "term": "shifting"
+        },
+        {
+          "count": 1,
+          "term": "per-enclave"
+        }
+      ],
+      "section_index": 2,
+      "taxonomy_paths": [
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > Memory & Interconnects",
+        "Security & Resilience",
+        "Security & Resilience > Memory Safety & Software Capabilities",
+        "Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS"
+      ],
+      "technology_areas": [
+        "Hardware & AI Security",
+        "Language & Runtime Memory Safety",
+        "Memory Subsystems & Chiplets",
+        "Secure Enclaves, SASOS & Blast-Chamber Isolation",
+        "Semiconductor Engineering"
+      ],
+      "text": "Sanctum partitions physical DRAM into equal-sized contiguous DRAM regions whose bit-slice maps directly to LLC cache sets. By assigning exclusive DRAM region bitmasks to each enclave and maintaining separate hardware page-table walker base pointers (`EPTBR` vs. OS `PTBR`) inside the enclave itself, Sanctum guarantees that an untrusted OS cannot observe enclave page faults or induce cross-domain LLC cache evictions.",
+      "token_count": 59
+    },
+    {
+      "chunk_id": "usenix-2016-sanctum#chunk-03",
+      "concept_ids": [
+        "concept:enclave-linear-blast-chamber"
+      ],
+      "doc_id": "usenix-2016-sanctum",
+      "heading": "Foundation for Non-Speculative Enclave Proofs",
+      "key_terms": [
+        {
+          "count": 1,
+          "term": "foundation"
+        },
+        {
+          "count": 1,
+          "term": "non-speculative"
+        },
+        {
+          "count": 1,
+          "term": "enclave"
+        },
+        {
+          "count": 1,
+          "term": "proofs"
+        },
+        {
+          "count": 1,
+          "term": "in-order"
+        },
+        {
+          "count": 1,
+          "term": "core"
+        },
+        {
+          "count": 1,
+          "term": "sanctum"
+        },
+        {
+          "count": 1,
+          "term": "achieves"
+        },
+        {
+          "count": 1,
+          "term": "provable"
+        },
+        {
+          "count": 1,
+          "term": "constant-time"
+        },
+        {
+          "count": 1,
+          "term": "trace-oblivious"
+        },
+        {
+          "count": 1,
+          "term": "isolation"
+        }
+      ],
+      "section_index": 3,
+      "taxonomy_paths": [
+        "Security & Resilience",
+        "Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS"
+      ],
+      "technology_areas": [
+        "Hardware & AI Security",
+        "Secure Enclaves, SASOS & Blast-Chamber Isolation"
+      ],
+      "text": "On an in-order core, Sanctum achieves provable constant-time and trace-oblivious isolation against a malicious kernel; it directly serves as the baseline architectural contract later extended to out-of-order speculative pipelines by MI6 (`arxiv-1812.09822`).",
+      "token_count": 32
+    }
+  ],
+  "usenix-osdi20-redleaf": [
+    {
+      "chunk_id": "usenix-osdi20-redleaf#chunk-01",
+      "concept_ids": [
+        "concept:enclave-linear-blast-chamber"
+      ],
+      "doc_id": "usenix-osdi20-redleaf",
+      "heading": "Zero-Trust Blast Chambers in a Single Linear Address Space",
+      "key_terms": [
+        {
+          "count": 3,
+          "term": "redleaf"
+        },
+        {
+          "count": 3,
+          "term": "system"
+        },
+        {
+          "count": 2,
+          "term": "isolation"
+        },
+        {
+          "count": 2,
+          "term": "operating"
+        },
+        {
+          "count": 2,
+          "term": "blast"
+        },
+        {
+          "count": 2,
+          "term": "single"
+        },
+        {
+          "count": 2,
+          "term": "linear"
+        },
+        {
+          "count": 2,
+          "term": "address"
+        },
+        {
+          "count": 2,
+          "term": "space"
+        },
+        {
+          "count": 1,
+          "term": "communication"
+        },
+        {
+          "count": 1,
+          "term": "safe"
+        },
+        {
+          "count": 1,
+          "term": "zero-trust"
+        }
+      ],
+      "section_index": 1,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks > Language Models & Efficient Attention",
+        "Hardware & Semiconductor Systems",
+        "Security & Resilience",
+        "Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "Deep Learning Architectures",
+        "Hardware & AI Security",
+        "Large Language Models & Attention Mechanisms",
+        "Secure Enclaves, SASOS & Blast-Chamber Isolation",
+        "Semiconductor Engineering"
+      ],
+      "text": "RedLeaf is a custom operating system designed from scratch in Rust that abandons hardware page-table isolation in favor of a **single flat linear address space** shared across the microkernel, device drivers, and user domains. To ensure that a panic, vulnerability, or Byzantine fault in an untrusted subsystem cannot corrupt the rest of the system, RedLeaf encapsulates each component inside a lightweight **fault-isolation domain (blast chamber)**.",
+      "token_count": 65
+    },
+    {
+      "chunk_id": "usenix-osdi20-redleaf#chunk-02",
+      "concept_ids": [
+        "concept:enclave-linear-blast-chamber"
+      ],
+      "doc_id": "usenix-osdi20-redleaf",
+      "heading": "Linear Ownership Transfer (`RRef<T>`) & Shared-Heap Isolation",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "linear"
+        },
+        {
+          "count": 2,
+          "term": "ownership"
+        },
+        {
+          "count": 2,
+          "term": "rref"
+        },
+        {
+          "count": 2,
+          "term": "isolation"
+        },
+        {
+          "count": 2,
+          "term": "domains"
+        },
+        {
+          "count": 2,
+          "term": "data"
+        },
+        {
+          "count": 2,
+          "term": "heap"
+        },
+        {
+          "count": 1,
+          "term": "transfer"
+        },
+        {
+          "count": 1,
+          "term": "shared-heap"
+        },
+        {
+          "count": 1,
+          "term": "memory"
+        },
+        {
+          "count": 1,
+          "term": "safety"
+        },
+        {
+          "count": 1,
+          "term": "alone"
+        }
+      ],
+      "section_index": 2,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks > Language Models & Efficient Attention",
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > Memory & Interconnects",
+        "Security & Resilience",
+        "Security & Resilience > Memory Safety & Software Capabilities",
+        "Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "Deep Learning Architectures",
+        "Hardware & AI Security",
+        "Language & Runtime Memory Safety",
+        "Large Language Models & Attention Mechanisms",
+        "Memory Subsystems & Chiplets",
+        "Secure Enclaves, SASOS & Blast-Chamber Isolation",
+        "Semiconductor Engineering"
+      ],
+      "text": "Memory safety alone does not provide fault isolation if crashing domains leave shared data structures in inconsistent states or hold dangling pointers. RedLeaf enforces a strict invariant: domains never share mutable references directly. Cross-domain communication over the flat linear address space occurs exclusively via `RRef<T>`\u2014linearly owned heap objects allocated on an exchange heap whose ownership is moved atomically across domain boundaries with zero data copying.",
+      "token_count": 65
+    },
+    {
+      "chunk_id": "usenix-osdi20-redleaf#chunk-03",
+      "concept_ids": [
+        "concept:enclave-linear-blast-chamber"
+      ],
+      "doc_id": "usenix-osdi20-redleaf",
+      "heading": "Sub-Microsecond Blast Containment & Transparent Recovery",
+      "key_terms": [
+        {
+          "count": 2,
+          "term": "blast"
+        },
+        {
+          "count": 1,
+          "term": "sub-microsecond"
+        },
+        {
+          "count": 1,
+          "term": "containment"
+        },
+        {
+          "count": 1,
+          "term": "transparent"
+        },
+        {
+          "count": 1,
+          "term": "recovery"
+        },
+        {
+          "count": 1,
+          "term": "every"
+        },
+        {
+          "count": 1,
+          "term": "cross-domain"
+        },
+        {
+          "count": 1,
+          "term": "invocation"
+        },
+        {
+          "count": 1,
+          "term": "traverses"
+        },
+        {
+          "count": 1,
+          "term": "automatically"
+        },
+        {
+          "count": 1,
+          "term": "generated"
+        },
+        {
+          "count": 1,
+          "term": "compiler"
+        }
+      ],
+      "section_index": 3,
+      "taxonomy_paths": [
+        "Hardware & Semiconductor Systems",
+        "Hardware & Semiconductor Systems > Memory & Interconnects",
+        "Security & Resilience",
+        "Security & Resilience > Runtime Fault Localization & Recovery",
+        "Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS"
+      ],
+      "technology_areas": [
+        "Hardware & AI Security",
+        "Memory Subsystems & Chiplets",
+        "Secure Enclaves, SASOS & Blast-Chamber Isolation",
+        "Self-Healing & Fault-Tolerant AI",
+        "Semiconductor Engineering"
+      ],
+      "text": "Every cross-domain invocation traverses an automatically generated compiler proxy that returns an explicit `RpcResult<T>`. When a blast chamber faults or violates an invariant, the RedLeaf nanokernel unwinds and reclaims only that domain's heap and linear `RRef` objects in microseconds, restarting high-throughput NVMe and 10GbE IXGBE driver domains transparently without dropping adjacent OS sessions.",
+      "token_count": 53
+    }
+  ],
+  "usenix-osdi20-theseus": [
+    {
+      "chunk_id": "usenix-osdi20-theseus#chunk-01",
+      "concept_ids": [
+        "concept:enclave-linear-blast-chamber"
+      ],
+      "doc_id": "usenix-osdi20-theseus",
+      "heading": "Single-Address-Space Intralingual OS Architecture",
+      "key_terms": [
+        {
+          "count": 3,
+          "term": "theseus"
+        },
+        {
+          "count": 3,
+          "term": "system"
+        },
+        {
+          "count": 2,
+          "term": "operating"
+        },
+        {
+          "count": 2,
+          "term": "management"
+        },
+        {
+          "count": 2,
+          "term": "single"
+        },
+        {
+          "count": 2,
+          "term": "linear"
+        },
+        {
+          "count": 2,
+          "term": "hardware"
+        },
+        {
+          "count": 1,
+          "term": "experiment"
+        },
+        {
+          "count": 1,
+          "term": "structure"
+        },
+        {
+          "count": 1,
+          "term": "state"
+        },
+        {
+          "count": 1,
+          "term": "single-address-space"
+        },
+        {
+          "count": 1,
+          "term": "intralingual"
+        }
+      ],
+      "section_index": 1,
+      "taxonomy_paths": [
+        "Hardware & Semiconductor Systems",
+        "Security & Resilience",
+        "Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS"
+      ],
+      "technology_areas": [
+        "Hardware & AI Security",
+        "Secure Enclaves, SASOS & Blast-Chamber Isolation",
+        "Semiconductor Engineering"
+      ],
+      "text": "Theseus is a custom hardened operating system executing entirely within a **single flat linear virtual address space** and a single hardware privilege level (Ring 0), decomposed into dozens of fine-grained, dynamically linked software cells. Instead of relying on expensive hardware rings or nested page tables, Theseus pushes isolation and resource lifecycle management into the compiler's linear/affine type system.",
+      "token_count": 58
+    },
+    {
+      "chunk_id": "usenix-osdi20-theseus#chunk-02",
+      "concept_ids": [
+        "concept:asi",
+        "concept:enclave-linear-blast-chamber"
+      ],
+      "doc_id": "usenix-osdi20-theseus",
+      "heading": "Bijective Linear Address Mappings (`MappedPages`) & State-Spill Freedom",
+      "key_terms": [
+        {
+          "count": 3,
+          "term": "linear"
+        },
+        {
+          "count": 3,
+          "term": "address"
+        },
+        {
+          "count": 3,
+          "term": "cell"
+        },
+        {
+          "count": 2,
+          "term": "mappedpages"
+        },
+        {
+          "count": 2,
+          "term": "state-spill"
+        },
+        {
+          "count": 2,
+          "term": "freedom"
+        },
+        {
+          "count": 2,
+          "term": "theseus"
+        },
+        {
+          "count": 1,
+          "term": "bijective"
+        },
+        {
+          "count": 1,
+          "term": "mappings"
+        },
+        {
+          "count": 1,
+          "term": "foundation"
+        },
+        {
+          "count": 1,
+          "term": "space"
+        },
+        {
+          "count": 1,
+          "term": "type"
+        }
+      ],
+      "section_index": 2,
+      "taxonomy_paths": [
+        "Artificial Intelligence & Machine Learning",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks",
+        "Artificial Intelligence & Machine Learning > Deep Neural Networks > Language Models & Efficient Attention",
+        "Security & Resilience",
+        "Security & Resilience > Runtime Fault Localization & Recovery",
+        "Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS"
+      ],
+      "technology_areas": [
+        "AI & Machine Learning",
+        "Deep Learning Architectures",
+        "Hardware & AI Security",
+        "Large Language Models & Attention Mechanisms",
+        "Secure Enclaves, SASOS & Blast-Chamber Isolation",
+        "Self-Healing & Fault-Tolerant AI"
+      ],
+      "text": "At the foundation of Theseus's linear address space is `MappedPages`, a linear type guaranteeing a strict one-to-one bijection between virtual address ranges and physical frames\u2014making double-mapping, aliasing, use-after-unmap, and bounds violations impossible at compile time. Furthermore, Theseus enforces **state-spill freedom**: no cell stores hidden bookkeeping state on behalf of another cell, turning every cell into a self-contained zero-trust blast chamber.",
+      "token_count": 60
+    },
+    {
+      "chunk_id": "usenix-osdi20-theseus#chunk-03",
+      "concept_ids": [
+        "concept:enclave-linear-blast-chamber"
+      ],
+      "doc_id": "usenix-osdi20-theseus",
+      "heading": "Live Blast-Chamber Unwinding & Hot-Swapping",
+      "key_terms": [
+        {
+          "count": 3,
+          "term": "cell"
+        },
+        {
+          "count": 1,
+          "term": "live"
+        },
+        {
+          "count": 1,
+          "term": "blast-chamber"
+        },
+        {
+          "count": 1,
+          "term": "unwinding"
+        },
+        {
+          "count": 1,
+          "term": "hot-swapping"
+        },
+        {
+          "count": 1,
+          "term": "when"
+        },
+        {
+          "count": 1,
+          "term": "exception"
+        },
+        {
+          "count": 1,
+          "term": "fault"
+        },
+        {
+          "count": 1,
+          "term": "occurs"
+        },
+        {
+          "count": 1,
+          "term": "inside"
+        },
+        {
+          "count": 1,
+          "term": "any"
+        },
+        {
+          "count": 1,
+          "term": "kernel"
+        }
+      ],
+      "section_index": 3,
+      "taxonomy_paths": [
+        "Security & Resilience",
+        "Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS"
+      ],
+      "technology_areas": [
+        "Hardware & AI Security",
+        "Secure Enclaves, SASOS & Blast-Chamber Isolation"
+      ],
+      "text": "When an exception or fault occurs inside any kernel or application cell, Theseus deterministically unwinds that cell's stack and linearly owned `MappedPages` resources, replaces or restarts the cell in place, and resumes execution without corrupting neighboring cells in the shared linear address space.",
+      "token_count": 43
     }
   ]
 }

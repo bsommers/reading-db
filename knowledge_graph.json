@@ -619,6 +619,96 @@
     {
       "predicate": "IN_CATEGORY",
       "properties": {},
+      "source": "chunk:arxiv-1812.09822#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1812.09822#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems--memory-and-interconnects"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1812.09822#chunk-01",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1812.09822#chunk-01",
+      "target": "taxonomy:security-and-resilience--secure-enclaves,-linear-capabilities-and-blast-chamber-os"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-1812.09822#chunk-01",
+      "target": "concept:enclave-linear-blast-chamber"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1812.09822#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1812.09822#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems--memory-and-interconnects"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1812.09822#chunk-02",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1812.09822#chunk-02",
+      "target": "taxonomy:security-and-resilience--secure-enclaves,-linear-capabilities-and-blast-chamber-os"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-1812.09822#chunk-02",
+      "target": "concept:enclave-linear-blast-chamber"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1812.09822#chunk-03",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1812.09822#chunk-03",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--reasoning,-agents-and-retrieval"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1812.09822#chunk-03",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1812.09822#chunk-03",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-1812.09822#chunk-03",
+      "target": "taxonomy:security-and-resilience--secure-enclaves,-linear-capabilities-and-blast-chamber-os"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
       "source": "chunk:arxiv-2201.04663#chunk-01",
       "target": "taxonomy:formal-methods-and-automated-reasoning"
     },
@@ -899,10 +989,256 @@
       "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification--formal-verification-languages-and-assertions"
     },
     {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2208.03699#chunk-03",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2208.03699#chunk-03",
+      "target": "taxonomy:security-and-resilience--secure-enclaves,-linear-capabilities-and-blast-chamber-os"
+    },
+    {
       "predicate": "MENTIONS_CONCEPT",
       "properties": {},
       "source": "chunk:arxiv-2208.03699#chunk-03",
       "target": "concept:uclid5"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2302.12108#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2302.12108#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems--memory-and-interconnects"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2302.12108#chunk-01",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2302.12108#chunk-01",
+      "target": "taxonomy:security-and-resilience--secure-enclaves,-linear-capabilities-and-blast-chamber-os"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2302.12108#chunk-01",
+      "target": "concept:enclave-linear-blast-chamber"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2302.12108#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2302.12108#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems--memory-and-interconnects"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2302.12108#chunk-02",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2302.12108#chunk-02",
+      "target": "taxonomy:security-and-resilience--secure-enclaves,-linear-capabilities-and-blast-chamber-os"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2302.12108#chunk-02",
+      "target": "concept:enclave-linear-blast-chamber"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2302.12108#chunk-03",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2302.12108#chunk-03",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2302.12108#chunk-03",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--language-models-and-efficient-attention"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2302.12108#chunk-03",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2302.12108#chunk-03",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2302.12108#chunk-03",
+      "target": "taxonomy:security-and-resilience--secure-enclaves,-linear-capabilities-and-blast-chamber-os"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2302.12108#chunk-03",
+      "target": "concept:enclave-linear-blast-chamber"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2302.13863#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2302.13863#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems--memory-and-interconnects"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2302.13863#chunk-01",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2302.13863#chunk-01",
+      "target": "taxonomy:security-and-resilience--memory-safety-and-software-capabilities"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2302.13863#chunk-01",
+      "target": "taxonomy:security-and-resilience--secure-enclaves,-linear-capabilities-and-blast-chamber-os"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2302.13863#chunk-01",
+      "target": "concept:enclave-linear-blast-chamber"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2302.13863#chunk-02",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2302.13863#chunk-02",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2302.13863#chunk-02",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--language-models-and-efficient-attention"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2302.13863#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2302.13863#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems--memory-and-interconnects"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2302.13863#chunk-02",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2302.13863#chunk-02",
+      "target": "taxonomy:security-and-resilience--secure-enclaves,-linear-capabilities-and-blast-chamber-os"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2302.13863#chunk-02",
+      "target": "concept:enclave-linear-blast-chamber"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2302.13863#chunk-03",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2302.13863#chunk-03",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2302.13863#chunk-03",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--language-models-and-efficient-attention"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2302.13863#chunk-03",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2302.13863#chunk-03",
+      "target": "taxonomy:hardware-and-semiconductor-systems--memory-and-interconnects"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2302.13863#chunk-03",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:arxiv-2302.13863#chunk-03",
+      "target": "taxonomy:security-and-resilience--secure-enclaves,-linear-capabilities-and-blast-chamber-os"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:arxiv-2302.13863#chunk-03",
+      "target": "concept:enclave-linear-blast-chamber"
     },
     {
       "predicate": "IN_CATEGORY",
@@ -4231,6 +4567,144 @@
     {
       "predicate": "IN_CATEGORY",
       "properties": {},
+      "source": "chunk:cambridge-2021-cherios-sasos#chunk-01",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:cambridge-2021-cherios-sasos#chunk-01",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:cambridge-2021-cherios-sasos#chunk-01",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--language-models-and-efficient-attention"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:cambridge-2021-cherios-sasos#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:cambridge-2021-cherios-sasos#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems--memory-and-interconnects"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:cambridge-2021-cherios-sasos#chunk-01",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:cambridge-2021-cherios-sasos#chunk-01",
+      "target": "taxonomy:security-and-resilience--secure-enclaves,-linear-capabilities-and-blast-chamber-os"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:cambridge-2021-cherios-sasos#chunk-01",
+      "target": "concept:enclave-linear-blast-chamber"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:cambridge-2021-cherios-sasos#chunk-02",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:cambridge-2021-cherios-sasos#chunk-02",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:cambridge-2021-cherios-sasos#chunk-02",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--language-models-and-efficient-attention"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:cambridge-2021-cherios-sasos#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:cambridge-2021-cherios-sasos#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems--memory-and-interconnects"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:cambridge-2021-cherios-sasos#chunk-02",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:cambridge-2021-cherios-sasos#chunk-02",
+      "target": "taxonomy:security-and-resilience--memory-safety-and-software-capabilities"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:cambridge-2021-cherios-sasos#chunk-02",
+      "target": "taxonomy:security-and-resilience--secure-enclaves,-linear-capabilities-and-blast-chamber-os"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:cambridge-2021-cherios-sasos#chunk-02",
+      "target": "concept:enclave-linear-blast-chamber"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:cambridge-2021-cherios-sasos#chunk-03",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:cambridge-2021-cherios-sasos#chunk-03",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:cambridge-2021-cherios-sasos#chunk-03",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--language-models-and-efficient-attention"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:cambridge-2021-cherios-sasos#chunk-03",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:cambridge-2021-cherios-sasos#chunk-03",
+      "target": "taxonomy:security-and-resilience--secure-enclaves,-linear-capabilities-and-blast-chamber-os"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:cambridge-2021-cherios-sasos#chunk-03",
+      "target": "concept:enclave-linear-blast-chamber"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
       "source": "chunk:note-2026-ai-security-trajectory-monitoring-report#chunk-01",
       "target": "taxonomy:security-and-resilience"
     },
@@ -6043,6 +6517,300 @@
     {
       "predicate": "IN_CATEGORY",
       "properties": {},
+      "source": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-01",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-01",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-01",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--language-models-and-efficient-attention"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-01",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--reasoning,-agents-and-retrieval"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems--memory-and-interconnects"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-01",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-01",
+      "target": "taxonomy:security-and-resilience--secure-enclaves,-linear-capabilities-and-blast-chamber-os"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-01",
+      "target": "concept:enclave-linear-blast-chamber"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-02",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-02",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-02",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--language-models-and-efficient-attention"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems--memory-and-interconnects"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-02",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-02",
+      "target": "taxonomy:security-and-resilience--secure-enclaves,-linear-capabilities-and-blast-chamber-os"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-02",
+      "target": "concept:enclave-linear-blast-chamber"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-03",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-03",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-03",
+      "target": "taxonomy:hardware-and-semiconductor-systems--memory-and-interconnects"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-03",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-03",
+      "target": "taxonomy:security-and-resilience--runtime-fault-localization-and-recovery"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-03",
+      "target": "taxonomy:security-and-resilience--secure-enclaves,-linear-capabilities-and-blast-chamber-os"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-03",
+      "target": "concept:asi"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-03",
+      "target": "concept:enclave-linear-blast-chamber"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-04",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-04",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-04",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--language-models-and-efficient-attention"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-04",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-04",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-04",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-04",
+      "target": "taxonomy:security-and-resilience--memory-safety-and-software-capabilities"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-04",
+      "target": "taxonomy:security-and-resilience--runtime-fault-localization-and-recovery"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-04",
+      "target": "taxonomy:security-and-resilience--secure-enclaves,-linear-capabilities-and-blast-chamber-os"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-04",
+      "target": "concept:enclave-linear-blast-chamber"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-05",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-05",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-05",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-05",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification--formal-verification-languages-and-assertions"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-05",
+      "target": "taxonomy:hardware-and-semiconductor-systems--memory-and-interconnects"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-05",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-05",
+      "target": "taxonomy:security-and-resilience--hardware-fault-attacks--bit-flip-attacks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-05",
+      "target": "taxonomy:security-and-resilience--memory-safety-and-software-capabilities"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-05",
+      "target": "taxonomy:security-and-resilience--secure-enclaves,-linear-capabilities-and-blast-chamber-os"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-05",
+      "target": "concept:bit-flip-attack"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-05",
+      "target": "concept:fil-c"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-05",
+      "target": "concept:rowhammer"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
       "source": "chunk:semieng-2026-bare-ai-monitors#chunk-01",
       "target": "taxonomy:hardware-and-semiconductor-systems"
     },
@@ -6505,6 +7273,324 @@
     {
       "predicate": "IN_CATEGORY",
       "properties": {},
+      "source": "chunk:usenix-2016-sanctum#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:usenix-2016-sanctum#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems--memory-and-interconnects"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:usenix-2016-sanctum#chunk-01",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:usenix-2016-sanctum#chunk-01",
+      "target": "taxonomy:security-and-resilience--runtime-fault-localization-and-recovery"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:usenix-2016-sanctum#chunk-01",
+      "target": "taxonomy:security-and-resilience--secure-enclaves,-linear-capabilities-and-blast-chamber-os"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:usenix-2016-sanctum#chunk-01",
+      "target": "concept:asi"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:usenix-2016-sanctum#chunk-01",
+      "target": "concept:enclave-linear-blast-chamber"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:usenix-2016-sanctum#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:usenix-2016-sanctum#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems--memory-and-interconnects"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:usenix-2016-sanctum#chunk-02",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:usenix-2016-sanctum#chunk-02",
+      "target": "taxonomy:security-and-resilience--memory-safety-and-software-capabilities"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:usenix-2016-sanctum#chunk-02",
+      "target": "taxonomy:security-and-resilience--secure-enclaves,-linear-capabilities-and-blast-chamber-os"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:usenix-2016-sanctum#chunk-02",
+      "target": "concept:enclave-linear-blast-chamber"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:usenix-2016-sanctum#chunk-03",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:usenix-2016-sanctum#chunk-03",
+      "target": "taxonomy:security-and-resilience--secure-enclaves,-linear-capabilities-and-blast-chamber-os"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:usenix-2016-sanctum#chunk-03",
+      "target": "concept:enclave-linear-blast-chamber"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:usenix-osdi20-redleaf#chunk-01",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:usenix-osdi20-redleaf#chunk-01",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:usenix-osdi20-redleaf#chunk-01",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--language-models-and-efficient-attention"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:usenix-osdi20-redleaf#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:usenix-osdi20-redleaf#chunk-01",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:usenix-osdi20-redleaf#chunk-01",
+      "target": "taxonomy:security-and-resilience--secure-enclaves,-linear-capabilities-and-blast-chamber-os"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:usenix-osdi20-redleaf#chunk-01",
+      "target": "concept:enclave-linear-blast-chamber"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:usenix-osdi20-redleaf#chunk-02",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:usenix-osdi20-redleaf#chunk-02",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:usenix-osdi20-redleaf#chunk-02",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--language-models-and-efficient-attention"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:usenix-osdi20-redleaf#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:usenix-osdi20-redleaf#chunk-02",
+      "target": "taxonomy:hardware-and-semiconductor-systems--memory-and-interconnects"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:usenix-osdi20-redleaf#chunk-02",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:usenix-osdi20-redleaf#chunk-02",
+      "target": "taxonomy:security-and-resilience--memory-safety-and-software-capabilities"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:usenix-osdi20-redleaf#chunk-02",
+      "target": "taxonomy:security-and-resilience--secure-enclaves,-linear-capabilities-and-blast-chamber-os"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:usenix-osdi20-redleaf#chunk-02",
+      "target": "concept:enclave-linear-blast-chamber"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:usenix-osdi20-redleaf#chunk-03",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:usenix-osdi20-redleaf#chunk-03",
+      "target": "taxonomy:hardware-and-semiconductor-systems--memory-and-interconnects"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:usenix-osdi20-redleaf#chunk-03",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:usenix-osdi20-redleaf#chunk-03",
+      "target": "taxonomy:security-and-resilience--runtime-fault-localization-and-recovery"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:usenix-osdi20-redleaf#chunk-03",
+      "target": "taxonomy:security-and-resilience--secure-enclaves,-linear-capabilities-and-blast-chamber-os"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:usenix-osdi20-redleaf#chunk-03",
+      "target": "concept:enclave-linear-blast-chamber"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:usenix-osdi20-theseus#chunk-01",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:usenix-osdi20-theseus#chunk-01",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:usenix-osdi20-theseus#chunk-01",
+      "target": "taxonomy:security-and-resilience--secure-enclaves,-linear-capabilities-and-blast-chamber-os"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:usenix-osdi20-theseus#chunk-01",
+      "target": "concept:enclave-linear-blast-chamber"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:usenix-osdi20-theseus#chunk-02",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:usenix-osdi20-theseus#chunk-02",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:usenix-osdi20-theseus#chunk-02",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--language-models-and-efficient-attention"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:usenix-osdi20-theseus#chunk-02",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:usenix-osdi20-theseus#chunk-02",
+      "target": "taxonomy:security-and-resilience--runtime-fault-localization-and-recovery"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:usenix-osdi20-theseus#chunk-02",
+      "target": "taxonomy:security-and-resilience--secure-enclaves,-linear-capabilities-and-blast-chamber-os"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:usenix-osdi20-theseus#chunk-02",
+      "target": "concept:asi"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:usenix-osdi20-theseus#chunk-02",
+      "target": "concept:enclave-linear-blast-chamber"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:usenix-osdi20-theseus#chunk-03",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "chunk:usenix-osdi20-theseus#chunk-03",
+      "target": "taxonomy:security-and-resilience--secure-enclaves,-linear-capabilities-and-blast-chamber-os"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "chunk:usenix-osdi20-theseus#chunk-03",
+      "target": "concept:enclave-linear-blast-chamber"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
       "source": "concept:activation-statistics",
       "target": "taxonomy:hardware-and-semiconductor-systems--ai-accelerators--built-in-performance-monitors"
     },
@@ -6759,6 +7845,30 @@
       "properties": {},
       "source": "concept:ecc",
       "target": "concept:rowhammer"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "concept:enclave-linear-blast-chamber",
+      "target": "taxonomy:security-and-resilience--secure-enclaves,-linear-capabilities-and-blast-chamber-os"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:enclave-linear-blast-chamber",
+      "target": "concept:fil-c"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:enclave-linear-blast-chamber",
+      "target": "concept:symbolic-execution"
+    },
+    {
+      "predicate": "RELATED_CONCEPT",
+      "properties": {},
+      "source": "concept:enclave-linear-blast-chamber",
+      "target": "concept:uclid5"
     },
     {
       "predicate": "IN_CATEGORY",
@@ -7885,6 +8995,168 @@
     {
       "predicate": "AFFILIATED_WITH",
       "properties": {},
+      "source": "doc:arxiv-1812.09822",
+      "target": "institution:massachusetts-institute-of-technology"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-1812.09822",
+      "target": "author:andrew-wright"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-1812.09822",
+      "target": "author:arvind"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-1812.09822",
+      "target": "author:ilia-lebedev"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-1812.09822",
+      "target": "author:sizhuo-zhang"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-1812.09822",
+      "target": "author:srinivas-devadas"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-1812.09822",
+      "target": "author:thomas-bourgeat"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:arxiv-1812.09822",
+      "target": "doc:arxiv-2208.03699"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:arxiv-1812.09822",
+      "target": "doc:usenix-2016-sanctum"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:arxiv-1812.09822",
+      "target": "chunk:arxiv-1812.09822#chunk-01"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:arxiv-1812.09822",
+      "target": "chunk:arxiv-1812.09822#chunk-02"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:arxiv-1812.09822",
+      "target": "chunk:arxiv-1812.09822#chunk-03"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-1812.09822",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-1812.09822",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--reasoning,-agents-and-retrieval"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-1812.09822",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-1812.09822",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-1812.09822",
+      "target": "taxonomy:hardware-and-semiconductor-systems--memory-and-interconnects"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-1812.09822",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-1812.09822",
+      "target": "taxonomy:security-and-resilience--secure-enclaves,-linear-capabilities-and-blast-chamber-os"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-1812.09822",
+      "target": "tech_area:agentic-systems-and-reasoning"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-1812.09822",
+      "target": "tech_area:ai-and-machine-learning"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-1812.09822",
+      "target": "tech_area:automated-reasoning-and-mathematical-logic"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-1812.09822",
+      "target": "tech_area:hardware-and-ai-security"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-1812.09822",
+      "target": "tech_area:memory-subsystems-and-chiplets"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-1812.09822",
+      "target": "tech_area:secure-enclaves,-sasos-and-blast-chamber-isolation"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-1812.09822",
+      "target": "tech_area:semiconductor-engineering"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:arxiv-1812.09822",
+      "target": "concept:enclave-linear-blast-chamber"
+    },
+    {
+      "predicate": "AFFILIATED_WITH",
+      "properties": {},
       "source": "doc:arxiv-2201.04663",
       "target": "institution:stanford-university"
     },
@@ -8255,6 +9527,12 @@
       "target": "taxonomy:security-and-resilience--memory-safety-and-software-capabilities"
     },
     {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2208.03699",
+      "target": "taxonomy:security-and-resilience--secure-enclaves,-linear-capabilities-and-blast-chamber-os"
+    },
+    {
       "predicate": "IN_TECH_AREA",
       "properties": {},
       "source": "doc:arxiv-2208.03699",
@@ -8312,6 +9590,12 @@
       "predicate": "IN_TECH_AREA",
       "properties": {},
       "source": "doc:arxiv-2208.03699",
+      "target": "tech_area:secure-enclaves,-sasos-and-blast-chamber-isolation"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2208.03699",
       "target": "tech_area:semiconductor-engineering"
     },
     {
@@ -8343,6 +9627,360 @@
       "properties": {},
       "source": "doc:arxiv-2208.03699",
       "target": "concept:uclid5"
+    },
+    {
+      "predicate": "AFFILIATED_WITH",
+      "properties": {},
+      "source": "doc:arxiv-2302.12108",
+      "target": "institution:inria"
+    },
+    {
+      "predicate": "AFFILIATED_WITH",
+      "properties": {},
+      "source": "doc:arxiv-2302.12108",
+      "target": "institution:ku-leuven"
+    },
+    {
+      "predicate": "AFFILIATED_WITH",
+      "properties": {},
+      "source": "doc:arxiv-2302.12108",
+      "target": "institution:universit\u00e9-paris-saclay-(cea-list)"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-2302.12108",
+      "target": "author:frank-piessens"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-2302.12108",
+      "target": "author:job-noorman"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-2302.12108",
+      "target": "author:lesly-ann-daniel"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-2302.12108",
+      "target": "author:m\u00e1rton-bogn\u00e1r"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-2302.12108",
+      "target": "author:s\u00e9bastien-bardin"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-2302.12108",
+      "target": "author:tamara-rezk"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:arxiv-2302.12108",
+      "target": "doc:arxiv-1812.09822"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:arxiv-2302.12108",
+      "target": "chunk:arxiv-2302.12108#chunk-01"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:arxiv-2302.12108",
+      "target": "chunk:arxiv-2302.12108#chunk-02"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:arxiv-2302.12108",
+      "target": "chunk:arxiv-2302.12108#chunk-03"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2302.12108",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2302.12108",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2302.12108",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--language-models-and-efficient-attention"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2302.12108",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2302.12108",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2302.12108",
+      "target": "taxonomy:hardware-and-semiconductor-systems--memory-and-interconnects"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2302.12108",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2302.12108",
+      "target": "taxonomy:security-and-resilience--secure-enclaves,-linear-capabilities-and-blast-chamber-os"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2302.12108",
+      "target": "tech_area:ai-and-machine-learning"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2302.12108",
+      "target": "tech_area:automated-reasoning-and-mathematical-logic"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2302.12108",
+      "target": "tech_area:deep-learning-architectures"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2302.12108",
+      "target": "tech_area:hardware-and-ai-security"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2302.12108",
+      "target": "tech_area:large-language-models-and-attention-mechanisms"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2302.12108",
+      "target": "tech_area:memory-subsystems-and-chiplets"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2302.12108",
+      "target": "tech_area:secure-enclaves,-sasos-and-blast-chamber-isolation"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2302.12108",
+      "target": "tech_area:semiconductor-engineering"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:arxiv-2302.12108",
+      "target": "concept:enclave-linear-blast-chamber"
+    },
+    {
+      "predicate": "AFFILIATED_WITH",
+      "properties": {},
+      "source": "doc:arxiv-2302.13863",
+      "target": "institution:national-university-of-singapore"
+    },
+    {
+      "predicate": "AFFILIATED_WITH",
+      "properties": {},
+      "source": "doc:arxiv-2302.13863",
+      "target": "institution:university-of-cambridge"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-2302.13863",
+      "target": "author:aditya-badole"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-2302.13863",
+      "target": "author:conrad-watt"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-2302.13863",
+      "target": "author:jason-zhijingcheng-yu"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-2302.13863",
+      "target": "author:prateek-saxena"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:arxiv-2302.13863",
+      "target": "author:trevor-e.-carlson"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:arxiv-2302.13863",
+      "target": "doc:arxiv-1812.09822"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:arxiv-2302.13863",
+      "target": "doc:usenix-2016-sanctum"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:arxiv-2302.13863",
+      "target": "chunk:arxiv-2302.13863#chunk-01"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:arxiv-2302.13863",
+      "target": "chunk:arxiv-2302.13863#chunk-02"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:arxiv-2302.13863",
+      "target": "chunk:arxiv-2302.13863#chunk-03"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2302.13863",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2302.13863",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2302.13863",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--language-models-and-efficient-attention"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2302.13863",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2302.13863",
+      "target": "taxonomy:hardware-and-semiconductor-systems--memory-and-interconnects"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2302.13863",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2302.13863",
+      "target": "taxonomy:security-and-resilience--memory-safety-and-software-capabilities"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:arxiv-2302.13863",
+      "target": "taxonomy:security-and-resilience--secure-enclaves,-linear-capabilities-and-blast-chamber-os"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2302.13863",
+      "target": "tech_area:ai-and-machine-learning"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2302.13863",
+      "target": "tech_area:deep-learning-architectures"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2302.13863",
+      "target": "tech_area:hardware-and-ai-security"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2302.13863",
+      "target": "tech_area:language-and-runtime-memory-safety"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2302.13863",
+      "target": "tech_area:large-language-models-and-attention-mechanisms"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2302.13863",
+      "target": "tech_area:memory-subsystems-and-chiplets"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2302.13863",
+      "target": "tech_area:secure-enclaves,-sasos-and-blast-chamber-isolation"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:arxiv-2302.13863",
+      "target": "tech_area:semiconductor-engineering"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:arxiv-2302.13863",
+      "target": "concept:enclave-linear-blast-chamber"
     },
     {
       "predicate": "AUTHORED_BY",
@@ -12389,6 +14027,174 @@
       "target": "concept:rowhammer"
     },
     {
+      "predicate": "AFFILIATED_WITH",
+      "properties": {},
+      "source": "doc:cambridge-2021-cherios-sasos",
+      "target": "institution:sri-international"
+    },
+    {
+      "predicate": "AFFILIATED_WITH",
+      "properties": {},
+      "source": "doc:cambridge-2021-cherios-sasos",
+      "target": "institution:university-of-cambridge"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:cambridge-2021-cherios-sasos",
+      "target": "author:lawrence-g.-esswood"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:cambridge-2021-cherios-sasos",
+      "target": "author:peter-g.-neumann"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:cambridge-2021-cherios-sasos",
+      "target": "author:robert-n.-m.-watson"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:cambridge-2021-cherios-sasos",
+      "target": "author:simon-w.-moore"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:cambridge-2021-cherios-sasos",
+      "target": "doc:fil-c-2025-invisicaps"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:cambridge-2021-cherios-sasos",
+      "target": "doc:usenix-2016-sanctum"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:cambridge-2021-cherios-sasos",
+      "target": "chunk:cambridge-2021-cherios-sasos#chunk-01"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:cambridge-2021-cherios-sasos",
+      "target": "chunk:cambridge-2021-cherios-sasos#chunk-02"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:cambridge-2021-cherios-sasos",
+      "target": "chunk:cambridge-2021-cherios-sasos#chunk-03"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:cambridge-2021-cherios-sasos",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:cambridge-2021-cherios-sasos",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:cambridge-2021-cherios-sasos",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--language-models-and-efficient-attention"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:cambridge-2021-cherios-sasos",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:cambridge-2021-cherios-sasos",
+      "target": "taxonomy:hardware-and-semiconductor-systems--memory-and-interconnects"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:cambridge-2021-cherios-sasos",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:cambridge-2021-cherios-sasos",
+      "target": "taxonomy:security-and-resilience--memory-safety-and-software-capabilities"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:cambridge-2021-cherios-sasos",
+      "target": "taxonomy:security-and-resilience--secure-enclaves,-linear-capabilities-and-blast-chamber-os"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:cambridge-2021-cherios-sasos",
+      "target": "tech_area:ai-and-machine-learning"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:cambridge-2021-cherios-sasos",
+      "target": "tech_area:deep-learning-architectures"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:cambridge-2021-cherios-sasos",
+      "target": "tech_area:hardware-and-ai-security"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:cambridge-2021-cherios-sasos",
+      "target": "tech_area:language-and-runtime-memory-safety"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:cambridge-2021-cherios-sasos",
+      "target": "tech_area:large-language-models-and-attention-mechanisms"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:cambridge-2021-cherios-sasos",
+      "target": "tech_area:memory-subsystems-and-chiplets"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:cambridge-2021-cherios-sasos",
+      "target": "tech_area:secure-enclaves,-sasos-and-blast-chamber-isolation"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:cambridge-2021-cherios-sasos",
+      "target": "tech_area:semiconductor-engineering"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:cambridge-2021-cherios-sasos",
+      "target": "concept:enclave-linear-blast-chamber"
+    },
+    {
       "predicate": "AUTHORED_BY",
       "properties": {},
       "source": "doc:note-2026-ai-security-trajectory-monitoring-report",
@@ -14819,6 +16625,318 @@
       "target": "concept:uclid5"
     },
     {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:research-secure-execution-enclaves-linear-address-spa",
+      "target": "author:reading-list-research-engine"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:research-secure-execution-enclaves-linear-address-spa",
+      "target": "doc:arxiv-1812.09822"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:research-secure-execution-enclaves-linear-address-spa",
+      "target": "doc:arxiv-2208.03699"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:research-secure-execution-enclaves-linear-address-spa",
+      "target": "doc:arxiv-2302.12108"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:research-secure-execution-enclaves-linear-address-spa",
+      "target": "doc:arxiv-2302.13863"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:research-secure-execution-enclaves-linear-address-spa",
+      "target": "doc:arxiv-2610.33748"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:research-secure-execution-enclaves-linear-address-spa",
+      "target": "doc:cambridge-2021-cherios-sasos"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:research-secure-execution-enclaves-linear-address-spa",
+      "target": "doc:note-2026-cross-layer-bitflip-synthesis"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:research-secure-execution-enclaves-linear-address-spa",
+      "target": "doc:research-formal-verification-languages-in-chip-and-se"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:research-secure-execution-enclaves-linear-address-spa",
+      "target": "doc:research-sat-and-smt-solvers-applications-in-software"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:research-secure-execution-enclaves-linear-address-spa",
+      "target": "doc:techpaper-2026-hbm-chiplet-resilience"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:research-secure-execution-enclaves-linear-address-spa",
+      "target": "doc:usenix-2016-sanctum"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:research-secure-execution-enclaves-linear-address-spa",
+      "target": "doc:usenix-osdi20-redleaf"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:research-secure-execution-enclaves-linear-address-spa",
+      "target": "doc:usenix-osdi20-theseus"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:research-secure-execution-enclaves-linear-address-spa",
+      "target": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-01"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:research-secure-execution-enclaves-linear-address-spa",
+      "target": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-02"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:research-secure-execution-enclaves-linear-address-spa",
+      "target": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-03"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:research-secure-execution-enclaves-linear-address-spa",
+      "target": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-04"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:research-secure-execution-enclaves-linear-address-spa",
+      "target": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-05"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:research-secure-execution-enclaves-linear-address-spa",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:research-secure-execution-enclaves-linear-address-spa",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:research-secure-execution-enclaves-linear-address-spa",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--language-models-and-efficient-attention"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:research-secure-execution-enclaves-linear-address-spa",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--reasoning,-agents-and-retrieval"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:research-secure-execution-enclaves-linear-address-spa",
+      "target": "taxonomy:formal-methods-and-automated-reasoning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:research-secure-execution-enclaves-linear-address-spa",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:research-secure-execution-enclaves-linear-address-spa",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:research-secure-execution-enclaves-linear-address-spa",
+      "target": "taxonomy:hardware-and-semiconductor-systems--eda-and-hardware-verification--formal-verification-languages-and-assertions"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:research-secure-execution-enclaves-linear-address-spa",
+      "target": "taxonomy:hardware-and-semiconductor-systems--memory-and-interconnects"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:research-secure-execution-enclaves-linear-address-spa",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:research-secure-execution-enclaves-linear-address-spa",
+      "target": "taxonomy:security-and-resilience--hardware-fault-attacks--bit-flip-attacks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:research-secure-execution-enclaves-linear-address-spa",
+      "target": "taxonomy:security-and-resilience--memory-safety-and-software-capabilities"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:research-secure-execution-enclaves-linear-address-spa",
+      "target": "taxonomy:security-and-resilience--runtime-fault-localization-and-recovery"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:research-secure-execution-enclaves-linear-address-spa",
+      "target": "taxonomy:security-and-resilience--secure-enclaves,-linear-capabilities-and-blast-chamber-os"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:research-secure-execution-enclaves-linear-address-spa",
+      "target": "tech_area:adversarial-fault-injection"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:research-secure-execution-enclaves-linear-address-spa",
+      "target": "tech_area:agentic-systems-and-reasoning"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:research-secure-execution-enclaves-linear-address-spa",
+      "target": "tech_area:ai-and-machine-learning"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:research-secure-execution-enclaves-linear-address-spa",
+      "target": "tech_area:automated-reasoning-and-mathematical-logic"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:research-secure-execution-enclaves-linear-address-spa",
+      "target": "tech_area:deep-learning-architectures"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:research-secure-execution-enclaves-linear-address-spa",
+      "target": "tech_area:electronic-design-automation"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:research-secure-execution-enclaves-linear-address-spa",
+      "target": "tech_area:formal-verification-and-specification-languages"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:research-secure-execution-enclaves-linear-address-spa",
+      "target": "tech_area:hardware-and-ai-security"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:research-secure-execution-enclaves-linear-address-spa",
+      "target": "tech_area:language-and-runtime-memory-safety"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:research-secure-execution-enclaves-linear-address-spa",
+      "target": "tech_area:large-language-models-and-attention-mechanisms"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:research-secure-execution-enclaves-linear-address-spa",
+      "target": "tech_area:memory-subsystems-and-chiplets"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:research-secure-execution-enclaves-linear-address-spa",
+      "target": "tech_area:secure-enclaves,-sasos-and-blast-chamber-isolation"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:research-secure-execution-enclaves-linear-address-spa",
+      "target": "tech_area:self-healing-and-fault-tolerant-ai"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:research-secure-execution-enclaves-linear-address-spa",
+      "target": "tech_area:semiconductor-engineering"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:research-secure-execution-enclaves-linear-address-spa",
+      "target": "concept:asi"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:research-secure-execution-enclaves-linear-address-spa",
+      "target": "concept:bit-flip-attack"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:research-secure-execution-enclaves-linear-address-spa",
+      "target": "concept:enclave-linear-blast-chamber"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:research-secure-execution-enclaves-linear-address-spa",
+      "target": "concept:fil-c"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:research-secure-execution-enclaves-linear-address-spa",
+      "target": "concept:rowhammer"
+    },
+    {
       "predicate": "AFFILIATED_WITH",
       "properties": {},
       "source": "doc:semieng-2026-bare-ai-monitors",
@@ -15419,6 +17537,492 @@
       "target": "concept:rowhammer"
     },
     {
+      "predicate": "AFFILIATED_WITH",
+      "properties": {},
+      "source": "doc:usenix-2016-sanctum",
+      "target": "institution:massachusetts-institute-of-technology"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:usenix-2016-sanctum",
+      "target": "author:ilia-lebedev"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:usenix-2016-sanctum",
+      "target": "author:srinivas-devadas"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:usenix-2016-sanctum",
+      "target": "author:victor-costan"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:usenix-2016-sanctum",
+      "target": "doc:arxiv-2208.03699"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:usenix-2016-sanctum",
+      "target": "chunk:usenix-2016-sanctum#chunk-01"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:usenix-2016-sanctum",
+      "target": "chunk:usenix-2016-sanctum#chunk-02"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:usenix-2016-sanctum",
+      "target": "chunk:usenix-2016-sanctum#chunk-03"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:usenix-2016-sanctum",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:usenix-2016-sanctum",
+      "target": "taxonomy:hardware-and-semiconductor-systems--memory-and-interconnects"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:usenix-2016-sanctum",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:usenix-2016-sanctum",
+      "target": "taxonomy:security-and-resilience--memory-safety-and-software-capabilities"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:usenix-2016-sanctum",
+      "target": "taxonomy:security-and-resilience--runtime-fault-localization-and-recovery"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:usenix-2016-sanctum",
+      "target": "taxonomy:security-and-resilience--secure-enclaves,-linear-capabilities-and-blast-chamber-os"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:usenix-2016-sanctum",
+      "target": "tech_area:hardware-and-ai-security"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:usenix-2016-sanctum",
+      "target": "tech_area:language-and-runtime-memory-safety"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:usenix-2016-sanctum",
+      "target": "tech_area:memory-subsystems-and-chiplets"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:usenix-2016-sanctum",
+      "target": "tech_area:secure-enclaves,-sasos-and-blast-chamber-isolation"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:usenix-2016-sanctum",
+      "target": "tech_area:self-healing-and-fault-tolerant-ai"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:usenix-2016-sanctum",
+      "target": "tech_area:semiconductor-engineering"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:usenix-2016-sanctum",
+      "target": "concept:asi"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:usenix-2016-sanctum",
+      "target": "concept:enclave-linear-blast-chamber"
+    },
+    {
+      "predicate": "AFFILIATED_WITH",
+      "properties": {},
+      "source": "doc:usenix-osdi20-redleaf",
+      "target": "institution:university-of-california,-irvine"
+    },
+    {
+      "predicate": "AFFILIATED_WITH",
+      "properties": {},
+      "source": "doc:usenix-osdi20-redleaf",
+      "target": "institution:vmware-research"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:usenix-osdi20-redleaf",
+      "target": "author:anton-burtsev"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:usenix-osdi20-redleaf",
+      "target": "author:dan-appel"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:usenix-osdi20-redleaf",
+      "target": "author:david-detweiler"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:usenix-osdi20-redleaf",
+      "target": "author:gerd-zellweger"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:usenix-osdi20-redleaf",
+      "target": "author:tianjiao-huang"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:usenix-osdi20-redleaf",
+      "target": "author:vikram-narayanan"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:usenix-osdi20-redleaf",
+      "target": "author:zhaofeng-li"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:usenix-osdi20-redleaf",
+      "target": "doc:cambridge-2021-cherios-sasos"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:usenix-osdi20-redleaf",
+      "target": "chunk:usenix-osdi20-redleaf#chunk-01"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:usenix-osdi20-redleaf",
+      "target": "chunk:usenix-osdi20-redleaf#chunk-02"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:usenix-osdi20-redleaf",
+      "target": "chunk:usenix-osdi20-redleaf#chunk-03"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:usenix-osdi20-redleaf",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:usenix-osdi20-redleaf",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:usenix-osdi20-redleaf",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--language-models-and-efficient-attention"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:usenix-osdi20-redleaf",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:usenix-osdi20-redleaf",
+      "target": "taxonomy:hardware-and-semiconductor-systems--memory-and-interconnects"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:usenix-osdi20-redleaf",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:usenix-osdi20-redleaf",
+      "target": "taxonomy:security-and-resilience--memory-safety-and-software-capabilities"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:usenix-osdi20-redleaf",
+      "target": "taxonomy:security-and-resilience--runtime-fault-localization-and-recovery"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:usenix-osdi20-redleaf",
+      "target": "taxonomy:security-and-resilience--secure-enclaves,-linear-capabilities-and-blast-chamber-os"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:usenix-osdi20-redleaf",
+      "target": "tech_area:ai-and-machine-learning"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:usenix-osdi20-redleaf",
+      "target": "tech_area:deep-learning-architectures"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:usenix-osdi20-redleaf",
+      "target": "tech_area:hardware-and-ai-security"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:usenix-osdi20-redleaf",
+      "target": "tech_area:language-and-runtime-memory-safety"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:usenix-osdi20-redleaf",
+      "target": "tech_area:large-language-models-and-attention-mechanisms"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:usenix-osdi20-redleaf",
+      "target": "tech_area:memory-subsystems-and-chiplets"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:usenix-osdi20-redleaf",
+      "target": "tech_area:secure-enclaves,-sasos-and-blast-chamber-isolation"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:usenix-osdi20-redleaf",
+      "target": "tech_area:self-healing-and-fault-tolerant-ai"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:usenix-osdi20-redleaf",
+      "target": "tech_area:semiconductor-engineering"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:usenix-osdi20-redleaf",
+      "target": "concept:enclave-linear-blast-chamber"
+    },
+    {
+      "predicate": "AFFILIATED_WITH",
+      "properties": {},
+      "source": "doc:usenix-osdi20-theseus",
+      "target": "institution:rice-university"
+    },
+    {
+      "predicate": "AFFILIATED_WITH",
+      "properties": {},
+      "source": "doc:usenix-osdi20-theseus",
+      "target": "institution:yale-university"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:usenix-osdi20-theseus",
+      "target": "author:kevin-boos"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:usenix-osdi20-theseus",
+      "target": "author:lin-zhong"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:usenix-osdi20-theseus",
+      "target": "author:namitha-liyanage"
+    },
+    {
+      "predicate": "AUTHORED_BY",
+      "properties": {},
+      "source": "doc:usenix-osdi20-theseus",
+      "target": "author:ramla-ijaz"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:usenix-osdi20-theseus",
+      "target": "doc:cambridge-2021-cherios-sasos"
+    },
+    {
+      "predicate": "CITES",
+      "properties": {},
+      "source": "doc:usenix-osdi20-theseus",
+      "target": "doc:usenix-osdi20-redleaf"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:usenix-osdi20-theseus",
+      "target": "chunk:usenix-osdi20-theseus#chunk-01"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:usenix-osdi20-theseus",
+      "target": "chunk:usenix-osdi20-theseus#chunk-02"
+    },
+    {
+      "predicate": "HAS_CHUNK",
+      "properties": {},
+      "source": "doc:usenix-osdi20-theseus",
+      "target": "chunk:usenix-osdi20-theseus#chunk-03"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:usenix-osdi20-theseus",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:usenix-osdi20-theseus",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:usenix-osdi20-theseus",
+      "target": "taxonomy:artificial-intelligence-and-machine-learning--deep-neural-networks--language-models-and-efficient-attention"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:usenix-osdi20-theseus",
+      "target": "taxonomy:hardware-and-semiconductor-systems"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:usenix-osdi20-theseus",
+      "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:usenix-osdi20-theseus",
+      "target": "taxonomy:security-and-resilience--runtime-fault-localization-and-recovery"
+    },
+    {
+      "predicate": "IN_CATEGORY",
+      "properties": {},
+      "source": "doc:usenix-osdi20-theseus",
+      "target": "taxonomy:security-and-resilience--secure-enclaves,-linear-capabilities-and-blast-chamber-os"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:usenix-osdi20-theseus",
+      "target": "tech_area:ai-and-machine-learning"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:usenix-osdi20-theseus",
+      "target": "tech_area:deep-learning-architectures"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:usenix-osdi20-theseus",
+      "target": "tech_area:hardware-and-ai-security"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:usenix-osdi20-theseus",
+      "target": "tech_area:large-language-models-and-attention-mechanisms"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:usenix-osdi20-theseus",
+      "target": "tech_area:secure-enclaves,-sasos-and-blast-chamber-isolation"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:usenix-osdi20-theseus",
+      "target": "tech_area:self-healing-and-fault-tolerant-ai"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "doc:usenix-osdi20-theseus",
+      "target": "tech_area:semiconductor-engineering"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:usenix-osdi20-theseus",
+      "target": "concept:asi"
+    },
+    {
+      "predicate": "MENTIONS_CONCEPT",
+      "properties": {},
+      "source": "doc:usenix-osdi20-theseus",
+      "target": "concept:enclave-linear-blast-chamber"
+    },
+    {
       "predicate": "IN_TECH_AREA",
       "properties": {},
       "source": "taxonomy:ai-policy,-governance-and-human-ai-systems",
@@ -15699,9 +18303,27 @@
       "properties": {},
       "source": "taxonomy:security-and-resilience--runtime-fault-localization-and-recovery",
       "target": "taxonomy:security-and-resilience"
+    },
+    {
+      "predicate": "IN_TECH_AREA",
+      "properties": {},
+      "source": "taxonomy:security-and-resilience--secure-enclaves,-linear-capabilities-and-blast-chamber-os",
+      "target": "tech_area:secure-enclaves,-sasos-and-blast-chamber-isolation"
+    },
+    {
+      "predicate": "SUBCATEGORY_OF",
+      "properties": {},
+      "source": "taxonomy:security-and-resilience--secure-enclaves,-linear-capabilities-and-blast-chamber-os",
+      "target": "taxonomy:security-and-resilience"
     }
   ],
   "nodes": [
+    {
+      "label": "Aditya Badole",
+      "node_id": "author:aditya-badole",
+      "node_type": "Author",
+      "properties": {}
+    },
     {
       "label": "Adwait Godbole",
       "node_id": "author:adwait-godbole",
@@ -15739,8 +18361,26 @@
       "properties": {}
     },
     {
+      "label": "Andrew Wright",
+      "node_id": "author:andrew-wright",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Anton Burtsev",
+      "node_id": "author:anton-burtsev",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
       "label": "Aritra Dasgupta",
       "node_id": "author:aritra-dasgupta",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Arvind",
+      "node_id": "author:arvind",
       "node_type": "Author",
       "properties": {}
     },
@@ -15817,6 +18457,18 @@
       "properties": {}
     },
     {
+      "label": "Conrad Watt",
+      "node_id": "author:conrad-watt",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Dan Appel",
+      "node_id": "author:dan-appel",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
       "label": "Daniele Coniglio",
       "node_id": "author:daniele-coniglio",
       "node_type": "Author",
@@ -15831,6 +18483,12 @@
     {
       "label": "Daoyuan Wu",
       "node_id": "author:daoyuan-wu",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "David Detweiler",
+      "node_id": "author:david-detweiler",
       "node_type": "Author",
       "properties": {}
     },
@@ -15895,8 +18553,20 @@
       "properties": {}
     },
     {
+      "label": "Frank Piessens",
+      "node_id": "author:frank-piessens",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
       "label": "Gerald Friedland",
       "node_id": "author:gerald-friedland",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Gerd Zellweger",
+      "node_id": "author:gerd-zellweger",
       "node_type": "Author",
       "properties": {}
     },
@@ -15961,6 +18631,12 @@
       "properties": {}
     },
     {
+      "label": "Ilia Lebedev",
+      "node_id": "author:ilia-lebedev",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
       "label": "Irene Finocchi",
       "node_id": "author:irene-finocchi",
       "node_type": "Author",
@@ -15973,6 +18649,12 @@
       "properties": {}
     },
     {
+      "label": "Jason Zhijingcheng Yu",
+      "node_id": "author:jason-zhijingcheng-yu",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
       "label": "Jiading Gai",
       "node_id": "author:jiading-gai",
       "node_type": "Author",
@@ -15981,6 +18663,12 @@
     {
       "label": "Jiali Wei",
       "node_id": "author:jiali-wei",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Job Noorman",
+      "node_id": "author:job-noorman",
       "node_type": "Author",
       "properties": {}
     },
@@ -16005,6 +18693,12 @@
     {
       "label": "Kevan Mah",
       "node_id": "author:kevan-mah",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Kevin Boos",
+      "node_id": "author:kevin-boos",
       "node_type": "Author",
       "properties": {}
     },
@@ -16045,8 +18739,26 @@
       "properties": {}
     },
     {
+      "label": "Lawrence G. Esswood",
+      "node_id": "author:lawrence-g.-esswood",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
       "label": "Lee et al.",
       "node_id": "author:lee-et-al.",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Lesly-Ann Daniel",
+      "node_id": "author:lesly-ann-daniel",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Lin Zhong",
+      "node_id": "author:lin-zhong",
       "node_type": "Author",
       "properties": {}
     },
@@ -16111,6 +18823,18 @@
       "properties": {}
     },
     {
+      "label": "M\u00e1rton Bogn\u00e1r",
+      "node_id": "author:m\u00e1rton-bogn\u00e1r",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Namitha Liyanage",
+      "node_id": "author:namitha-liyanage",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
       "label": "Narek Maloyan",
       "node_id": "author:narek-maloyan",
       "node_type": "Author",
@@ -16141,8 +18865,20 @@
       "properties": {}
     },
     {
+      "label": "Peter G. Neumann",
+      "node_id": "author:peter-g.-neumann",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
       "label": "Pranav Gaddamadugu",
       "node_id": "author:pranav-gaddamadugu",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Prateek Saxena",
+      "node_id": "author:prateek-saxena",
       "node_type": "Author",
       "properties": {}
     },
@@ -16171,8 +18907,20 @@
       "properties": {}
     },
     {
+      "label": "Ramla Ijaz",
+      "node_id": "author:ramla-ijaz",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
       "label": "Reading List Research Engine",
       "node_id": "author:reading-list-research-engine",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Robert N. M. Watson",
+      "node_id": "author:robert-n.-m.-watson",
       "node_type": "Author",
       "properties": {}
     },
@@ -16255,6 +19003,24 @@
       "properties": {}
     },
     {
+      "label": "Simon W. Moore",
+      "node_id": "author:simon-w.-moore",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Sizhuo Zhang",
+      "node_id": "author:sizhuo-zhang",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Srinivas Devadas",
+      "node_id": "author:srinivas-devadas",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
       "label": "Subhabrata Majumdar",
       "node_id": "author:subhabrata-majumdar",
       "node_type": "Author",
@@ -16291,8 +19057,50 @@
       "properties": {}
     },
     {
+      "label": "S\u00e9bastien Bardin",
+      "node_id": "author:s\u00e9bastien-bardin",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Tamara Rezk",
+      "node_id": "author:tamara-rezk",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
       "label": "Tasfia Nuzhat Ornee",
       "node_id": "author:tasfia-nuzhat-ornee",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Thomas Bourgeat",
+      "node_id": "author:thomas-bourgeat",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Tianjiao Huang",
+      "node_id": "author:tianjiao-huang",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Trevor E. Carlson",
+      "node_id": "author:trevor-e.-carlson",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Victor Costan",
+      "node_id": "author:victor-costan",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Vikram Narayanan",
+      "node_id": "author:vikram-narayanan",
       "node_type": "Author",
       "properties": {}
     },
@@ -16365,6 +19173,12 @@
     {
       "label": "Yuyang (Bernie) Wang",
       "node_id": "author:yuyang-(bernie)-wang",
+      "node_type": "Author",
+      "properties": {}
+    },
+    {
+      "label": "Zhaofeng Li",
+      "node_id": "author:zhaofeng-li",
       "node_type": "Author",
       "properties": {}
     },
@@ -16519,6 +19333,36 @@
       }
     },
     {
+      "label": "arxiv-1812.09822: Why Speculative Execution Breaks Enclave Isolation",
+      "node_id": "chunk:arxiv-1812.09822#chunk-01",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "arxiv-1812.09822#chunk-01",
+        "heading": "Why Speculative Execution Breaks Enclave Isolation",
+        "token_count": 61
+      }
+    },
+    {
+      "label": "arxiv-1812.09822: Enforcing Non-Speculative Boundaries & the `purge` Instruction",
+      "node_id": "chunk:arxiv-1812.09822#chunk-02",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "arxiv-1812.09822#chunk-02",
+        "heading": "Enforcing Non-Speculative Boundaries & the `purge` Instruction",
+        "token_count": 80
+      }
+    },
+    {
+      "label": "arxiv-1812.09822: Formal Indistinguishability & Performance Trade-off",
+      "node_id": "chunk:arxiv-1812.09822#chunk-03",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "arxiv-1812.09822#chunk-03",
+        "heading": "Formal Indistinguishability & Performance Trade-off",
+        "token_count": 38
+      }
+    },
+    {
       "label": "arxiv-2201.04663: Next-Generation DPLL(T) SMT Architecture",
       "node_id": "chunk:arxiv-2201.04663#chunk-01",
       "node_type": "SemanticChunk",
@@ -16576,6 +19420,66 @@
         "chunk_id": "arxiv-2208.03699#chunk-03",
         "heading": "Verification of Secure Architectures and Accelerators",
         "token_count": 22
+      }
+    },
+    {
+      "label": "arxiv-2302.12108: Selective Non-Speculative Execution Inside Enclaves",
+      "node_id": "chunk:arxiv-2302.12108#chunk-01",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "arxiv-2302.12108#chunk-01",
+        "heading": "Selective Non-Speculative Execution Inside Enclaves",
+        "token_count": 60
+      }
+    },
+    {
+      "label": "arxiv-2302.12108: Blocking Speculative Secret Propagation in the Pipeline",
+      "node_id": "chunk:arxiv-2302.12108#chunk-02",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "arxiv-2302.12108#chunk-02",
+        "heading": "Blocking Speculative Secret Propagation in the Pipeline",
+        "token_count": 64
+      }
+    },
+    {
+      "label": "arxiv-2302.12108: Provable Constant-Time Enclave Guarantees on RISC-V",
+      "node_id": "chunk:arxiv-2302.12108#chunk-03",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "arxiv-2302.12108#chunk-03",
+        "heading": "Provable Constant-Time Enclave Guarantees on RISC-V",
+        "token_count": 34
+      }
+    },
+    {
+      "label": "arxiv-2302.13863: From Copyable Capabilities to Hardware Linear Capabilities",
+      "node_id": "chunk:arxiv-2302.13863#chunk-01",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "arxiv-2302.13863#chunk-01",
+        "heading": "From Copyable Capabilities to Hardware Linear Capabilities",
+        "token_count": 85
+      }
+    },
+    {
+      "label": "arxiv-2302.13863: Alias-Free Exclusive Enclaves in a Flat Linear Address Space",
+      "node_id": "chunk:arxiv-2302.13863#chunk-02",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "arxiv-2302.13863#chunk-02",
+        "heading": "Alias-Free Exclusive Enclaves in a Flat Linear Address Space",
+        "token_count": 85
+      }
+    },
+    {
+      "label": "arxiv-2302.13863: Unified Substrate for Enclaves, Safe Allocators & OS Compartments",
+      "node_id": "chunk:arxiv-2302.13863#chunk-03",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "arxiv-2302.13863#chunk-03",
+        "heading": "Unified Substrate for Enclaves, Safe Allocators & OS Compartments",
+        "token_count": 36
       }
     },
     {
@@ -17349,6 +20253,36 @@
       }
     },
     {
+      "label": "cambridge-2021-cherios-sasos: Decoupling Address Translation from Protection in a Linear Address Space",
+      "node_id": "chunk:cambridge-2021-cherios-sasos#chunk-01",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "cambridge-2021-cherios-sasos#chunk-01",
+        "heading": "Decoupling Address Translation from Protection in a Linear Address Space",
+        "token_count": 64
+      }
+    },
+    {
+      "label": "cambridge-2021-cherios-sasos: Zero-Trust Compartments & Temporal Quarantine Blast Chambers",
+      "node_id": "chunk:cambridge-2021-cherios-sasos#chunk-02",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "cambridge-2021-cherios-sasos#chunk-02",
+        "heading": "Zero-Trust Compartments & Temporal Quarantine Blast Chambers",
+        "token_count": 64
+      }
+    },
+    {
+      "label": "cambridge-2021-cherios-sasos: Zero-Copy Cross-Domain Invocations Without Trusted Kernel Mediation",
+      "node_id": "chunk:cambridge-2021-cherios-sasos#chunk-03",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "cambridge-2021-cherios-sasos#chunk-03",
+        "heading": "Zero-Copy Cross-Domain Invocations Without Trusted Kernel Mediation",
+        "token_count": 38
+      }
+    },
+    {
       "label": "note-2026-ai-security-trajectory-monitoring-report: Question",
       "node_id": "chunk:note-2026-ai-security-trajectory-monitoring-report#chunk-01",
       "node_type": "SemanticChunk",
@@ -17839,6 +20773,56 @@
       }
     },
     {
+      "label": "research-secure-execution-enclaves-linear-address-spa: Co-Designing Non-Speculative Enclaves & Linear Address Space OSes: Secure execution enclaves, linear address space, non-speculative execution in the enclaves, zero-trust blast chambers in a hardened custom operating system",
+      "node_id": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-01",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "research-secure-execution-enclaves-linear-address-spa#chunk-01",
+        "heading": "Co-Designing Non-Speculative Enclaves & Linear Address Space OSes: Secure execution enclaves, linear address space, non-speculative execution in the enclaves, zero-trust blast chambers in a hardened custom operating system",
+        "token_count": 52
+      }
+    },
+    {
+      "label": "research-secure-execution-enclaves-linear-address-spa: Four Architectural Pillars Synthesized in This Collection (Part 1)",
+      "node_id": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-02",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "research-secure-execution-enclaves-linear-address-spa#chunk-02",
+        "heading": "Four Architectural Pillars Synthesized in This Collection (Part 1)",
+        "token_count": 91
+      }
+    },
+    {
+      "label": "research-secure-execution-enclaves-linear-address-spa: Four Architectural Pillars Synthesized in This Collection (Part 2)",
+      "node_id": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-03",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "research-secure-execution-enclaves-linear-address-spa#chunk-03",
+        "heading": "Four Architectural Pillars Synthesized in This Collection (Part 2)",
+        "token_count": 111
+      }
+    },
+    {
+      "label": "research-secure-execution-enclaves-linear-address-spa: Four Architectural Pillars Synthesized in This Collection (Part 3)",
+      "node_id": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-04",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "research-secure-execution-enclaves-linear-address-spa#chunk-04",
+        "heading": "Four Architectural Pillars Synthesized in This Collection (Part 3)",
+        "token_count": 91
+      }
+    },
+    {
+      "label": "research-secure-execution-enclaves-linear-address-spa: Cross-Graph Links to Software Capabilities & Formal Hardware Verification",
+      "node_id": "chunk:research-secure-execution-enclaves-linear-address-spa#chunk-05",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "research-secure-execution-enclaves-linear-address-spa#chunk-05",
+        "heading": "Cross-Graph Links to Software Capabilities & Formal Hardware Verification",
+        "token_count": 25
+      }
+    },
+    {
       "label": "semieng-2026-bare-ai-monitors: Research Brief Overview",
       "node_id": "chunk:semieng-2026-bare-ai-monitors#chunk-01",
       "node_type": "SemanticChunk",
@@ -17906,6 +20890,96 @@
         "chunk_id": "techpaper-2026-hbm-chiplet-resilience#chunk-02",
         "heading": "Co-Design of Memory Telemetry and Datapath Monitors",
         "token_count": 27
+      }
+    },
+    {
+      "label": "usenix-2016-sanctum: Threat Model & Limitations of Commercial Enclaves",
+      "node_id": "chunk:usenix-2016-sanctum#chunk-01",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "usenix-2016-sanctum#chunk-01",
+        "heading": "Threat Model & Limitations of Commercial Enclaves",
+        "token_count": 70
+      }
+    },
+    {
+      "label": "usenix-2016-sanctum: Contiguous DRAM Regions, Cache Index Shifting & Per-Enclave Page Tables",
+      "node_id": "chunk:usenix-2016-sanctum#chunk-02",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "usenix-2016-sanctum#chunk-02",
+        "heading": "Contiguous DRAM Regions, Cache Index Shifting & Per-Enclave Page Tables",
+        "token_count": 59
+      }
+    },
+    {
+      "label": "usenix-2016-sanctum: Foundation for Non-Speculative Enclave Proofs",
+      "node_id": "chunk:usenix-2016-sanctum#chunk-03",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "usenix-2016-sanctum#chunk-03",
+        "heading": "Foundation for Non-Speculative Enclave Proofs",
+        "token_count": 32
+      }
+    },
+    {
+      "label": "usenix-osdi20-redleaf: Zero-Trust Blast Chambers in a Single Linear Address Space",
+      "node_id": "chunk:usenix-osdi20-redleaf#chunk-01",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "usenix-osdi20-redleaf#chunk-01",
+        "heading": "Zero-Trust Blast Chambers in a Single Linear Address Space",
+        "token_count": 65
+      }
+    },
+    {
+      "label": "usenix-osdi20-redleaf: Linear Ownership Transfer (`RRef<T>`) & Shared-Heap Isolation",
+      "node_id": "chunk:usenix-osdi20-redleaf#chunk-02",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "usenix-osdi20-redleaf#chunk-02",
+        "heading": "Linear Ownership Transfer (`RRef<T>`) & Shared-Heap Isolation",
+        "token_count": 65
+      }
+    },
+    {
+      "label": "usenix-osdi20-redleaf: Sub-Microsecond Blast Containment & Transparent Recovery",
+      "node_id": "chunk:usenix-osdi20-redleaf#chunk-03",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "usenix-osdi20-redleaf#chunk-03",
+        "heading": "Sub-Microsecond Blast Containment & Transparent Recovery",
+        "token_count": 53
+      }
+    },
+    {
+      "label": "usenix-osdi20-theseus: Single-Address-Space Intralingual OS Architecture",
+      "node_id": "chunk:usenix-osdi20-theseus#chunk-01",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "usenix-osdi20-theseus#chunk-01",
+        "heading": "Single-Address-Space Intralingual OS Architecture",
+        "token_count": 58
+      }
+    },
+    {
+      "label": "usenix-osdi20-theseus: Bijective Linear Address Mappings (`MappedPages`) & State-Spill Freedom",
+      "node_id": "chunk:usenix-osdi20-theseus#chunk-02",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "usenix-osdi20-theseus#chunk-02",
+        "heading": "Bijective Linear Address Mappings (`MappedPages`) & State-Spill Freedom",
+        "token_count": 60
+      }
+    },
+    {
+      "label": "usenix-osdi20-theseus: Live Blast-Chamber Unwinding & Hot-Swapping",
+      "node_id": "chunk:usenix-osdi20-theseus#chunk-03",
+      "node_type": "SemanticChunk",
+      "properties": {
+        "chunk_id": "usenix-osdi20-theseus#chunk-03",
+        "heading": "Live Blast-Chamber Unwinding & Hot-Swapping",
+        "token_count": 43
       }
     },
     {
@@ -18026,6 +21100,16 @@
         "description": "Hardware memory redundancy codes whose overhead scales with the number of tolerated bit flips.",
         "taxonomy_path": "Security & Resilience > Runtime Fault Localization & Recovery",
         "technology_area": "Self-Healing & Fault-Tolerant AI"
+      }
+    },
+    {
+      "label": "Non-Speculative Enclaves, Linear Address Spaces & Zero-Trust OS Blast Chambers (MI6, Capstone, RedLeaf, Theseus)",
+      "node_id": "concept:enclave-linear-blast-chamber",
+      "node_type": "Concept",
+      "properties": {
+        "description": "Hardware/OS co-design combining non-speculative out-of-order enclaves (MI6, Sanctum, ProSpeCT), non-aliasing linear capabilities in a flat single address space (Capstone, CheriOS), and zero-trust fault-isolated OS blast chambers (RedLeaf, Theseus).",
+        "taxonomy_path": "Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS",
+        "technology_area": "Secure Enclaves, SASOS & Blast-Chamber Isolation"
       }
     },
     {
@@ -18325,6 +21409,35 @@
       }
     },
     {
+      "label": "MI6: Secure Enclaves in a Speculative Out-of-Order Processor",
+      "node_id": "doc:arxiv-1812.09822",
+      "node_type": "Document",
+      "properties": {
+        "doc_id": "arxiv-1812.09822",
+        "doc_type": "academic_paper",
+        "identifiers": {
+          "arxiv": "1812.09822",
+          "pdf_url": "https://arxiv.org/pdf/1812.09822",
+          "primary_category": "cs.AR",
+          "venue": "MICRO 2019"
+        },
+        "notes": "Proves that speculative execution breaks traditional enclave isolation and introduces hardware non-speculative cross-domain memory gates plus the microarchitectural `purge` instruction on an out-of-order RISC-V processor.",
+        "priority": "high",
+        "published_date": "2018-12-24",
+        "reading_status": "to-read",
+        "tags": [
+          "mi6",
+          "secure-enclaves",
+          "non-speculative",
+          "speculative-execution",
+          "out-of-order",
+          "purge-instruction",
+          "riscv"
+        ],
+        "url": "https://arxiv.org/abs/1812.09822"
+      }
+    },
+    {
       "label": "cvc5: A Versatile and Industrial-Strength SMT Solver",
       "node_id": "doc:arxiv-2201.04663",
       "node_type": "Document",
@@ -18376,6 +21489,64 @@
           "firrtl"
         ],
         "url": "https://arxiv.org/abs/2208.03699"
+      }
+    },
+    {
+      "label": "ProSpeCT: Provably Secure Speculation for the Constant-Time Policy",
+      "node_id": "doc:arxiv-2302.12108",
+      "node_type": "Document",
+      "properties": {
+        "doc_id": "arxiv-2302.12108",
+        "doc_type": "academic_paper",
+        "identifiers": {
+          "arxiv": "2302.12108",
+          "pdf_url": "https://arxiv.org/pdf/2302.12108",
+          "primary_category": "cs.CR",
+          "venue": "USENIX Security 2023"
+        },
+        "notes": "Hardware-software co-design on an out-of-order RISC-V processor that enforces strictly non-speculative execution for secret-tainted enclave data while allowing public data to execute speculatively at full speed.",
+        "priority": "high",
+        "published_date": "2023-02-23",
+        "reading_status": "to-read",
+        "tags": [
+          "prospect",
+          "non-speculative",
+          "speculative-execution",
+          "constant-time",
+          "secure-enclaves",
+          "riscv",
+          "taint-tracking"
+        ],
+        "url": "https://arxiv.org/abs/2302.12108"
+      }
+    },
+    {
+      "label": "Capstone: A Capability-Based Foundation for Trustless Secure Memory Access",
+      "node_id": "doc:arxiv-2302.13863",
+      "node_type": "Document",
+      "properties": {
+        "doc_id": "arxiv-2302.13863",
+        "doc_type": "academic_paper",
+        "identifiers": {
+          "arxiv": "2302.13863",
+          "pdf_url": "https://arxiv.org/pdf/2302.13863",
+          "primary_category": "cs.CR",
+          "venue": "USENIX Security 2023"
+        },
+        "notes": "Introduces hardware-enforced linear capabilities (move-only, non-aliasing pointers) and revocation trees over a flat linear address space, enabling zero-trust enclaves and blast chambers without a trusted OS kernel or hypervisor.",
+        "priority": "high",
+        "published_date": "2023-02-27",
+        "reading_status": "to-read",
+        "tags": [
+          "capstone",
+          "linear-capabilities",
+          "linear-address-space",
+          "secure-enclaves",
+          "zero-trust",
+          "cheri",
+          "riscv"
+        ],
+        "url": "https://arxiv.org/abs/2302.13863"
       }
     },
     {
@@ -19030,6 +22201,34 @@
       }
     },
     {
+      "label": "CheriOS: Designing an Untrusted Single-Address-Space Capability Operating System",
+      "node_id": "doc:cambridge-2021-cherios-sasos",
+      "node_type": "Document",
+      "properties": {
+        "doc_id": "cambridge-2021-cherios-sasos",
+        "doc_type": "academic_paper",
+        "identifiers": {
+          "tech_report": "UCAM-CL-TR-961",
+          "url": "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-961.html"
+        },
+        "notes": "Complete Single-Address-Space Operating System (SASOS) where all OS services, drivers, and user tasks share one flat linear address space and isolate every subsystem in capability-bounded zero-trust blast chambers.",
+        "priority": "high",
+        "published_date": "2021-09-01",
+        "reading_status": "to-read",
+        "tags": [
+          "cherios",
+          "single-address-space",
+          "sasos",
+          "linear-address-space",
+          "cheri",
+          "capabilities",
+          "zero-trust",
+          "blast-chambers"
+        ],
+        "url": "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-961.pdf"
+      }
+    },
+    {
       "label": "Personal Research Report: Trajectory Monitoring for Multi-Turn Escalation (Crescendo) and Endpoint AI Agent Security",
       "node_id": "doc:note-2026-ai-security-trajectory-monitoring-report",
       "node_type": "Document",
@@ -19361,6 +22560,34 @@
       }
     },
     {
+      "label": "Research Synthesis: Secure execution enclaves, linear address space, non-speculative execution in the enclaves, zero-trust blast chambers in a hardened custom operating system",
+      "node_id": "doc:research-secure-execution-enclaves-linear-address-spa",
+      "node_type": "Document",
+      "properties": {
+        "doc_id": "research-secure-execution-enclaves-linear-address-spa",
+        "doc_type": "note",
+        "identifiers": {
+          "research_topic": "Secure execution enclaves, linear address space, non-speculative execution in the enclaves, zero-trust blast chambers in a hardened custom operating system"
+        },
+        "notes": "Automated multi-paper synthesis and taxonomy bridge for topic: 'Secure execution enclaves, linear address space, non-speculative execution in the enclaves, zero-trust blast chambers in a hardened custom operating system'.",
+        "priority": "high",
+        "published_date": "2026-11-07",
+        "reading_status": "read",
+        "tags": [
+          "research-synthesis",
+          "secure-enclaves",
+          "non-speculative",
+          "linear-address-space",
+          "linear-capabilities",
+          "blast-chambers",
+          "zero-trust",
+          "sasos",
+          "custom-os"
+        ],
+        "url": "https://github.com/bsommers/reading-db"
+      }
+    },
+    {
       "label": "On-Chip Monitors Detect Bit-Flip Attacks in AI Accelerators (UF, UT Dallas, RPI)",
       "node_id": "doc:semieng-2026-bare-ai-monitors",
       "node_type": "Document",
@@ -19435,6 +22662,88 @@
       }
     },
     {
+      "label": "Sanctum: Minimal Hardware Extensions for Strong Software Isolation",
+      "node_id": "doc:usenix-2016-sanctum",
+      "node_type": "Document",
+      "properties": {
+        "doc_id": "usenix-2016-sanctum",
+        "doc_type": "academic_paper",
+        "identifiers": {
+          "iacr_eprint": "2015/564",
+          "usenix_url": "https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/costan",
+          "venue": "USENIX Security 2016"
+        },
+        "notes": "Foundational open-hardware (RISC-V Rocket) secure execution enclave architecture eliminating page-fault and LLC cache-timing side channels via DRAM region bitmasks and per-enclave page tables.",
+        "priority": "high",
+        "published_date": "2016-08-10",
+        "reading_status": "read",
+        "tags": [
+          "sanctum",
+          "secure-enclaves",
+          "riscv",
+          "cache-partitioning",
+          "dram-regions",
+          "security-monitor",
+          "formal-isolation"
+        ],
+        "url": "https://eprint.iacr.org/2015/564"
+      }
+    },
+    {
+      "label": "RedLeaf: Isolation and Communication in a Safe Operating System",
+      "node_id": "doc:usenix-osdi20-redleaf",
+      "node_type": "Document",
+      "properties": {
+        "doc_id": "usenix-osdi20-redleaf",
+        "doc_type": "academic_paper",
+        "identifiers": {
+          "isbn": "978-1-939133-19-9",
+          "venue": "USENIX OSDI 2020"
+        },
+        "notes": "Custom operating system in Rust running in a single flat linear address space without hardware page-table switches, isolating device drivers and kernel extensions inside recoverable zero-trust blast chambers.",
+        "priority": "high",
+        "published_date": "2020-11-04",
+        "reading_status": "to-read",
+        "tags": [
+          "redleaf",
+          "blast-chambers",
+          "zero-trust",
+          "linear-address-space",
+          "single-address-space",
+          "rust-os",
+          "fault-isolation"
+        ],
+        "url": "https://www.usenix.org/conference/osdi20/presentation/narayanan-vikram"
+      }
+    },
+    {
+      "label": "Theseus: An Experiment in Operating System Structure and State Management",
+      "node_id": "doc:usenix-osdi20-theseus",
+      "node_type": "Document",
+      "properties": {
+        "doc_id": "usenix-osdi20-theseus",
+        "doc_type": "academic_paper",
+        "identifiers": {
+          "isbn": "978-1-939133-19-9",
+          "venue": "USENIX OSDI 2020"
+        },
+        "notes": "Custom single-address-space, single-privilege-level operating system built from dozens of cell-level blast chambers with bijective linear virtual-to-physical mappings (`MappedPages`) and zero state spill.",
+        "priority": "high",
+        "published_date": "2020-11-04",
+        "reading_status": "to-read",
+        "tags": [
+          "theseus",
+          "single-address-space",
+          "linear-address-space",
+          "blast-chambers",
+          "zero-trust",
+          "intralingual-os",
+          "state-spill-freedom"
+        ],
+        "url": "https://www.usenix.org/conference/osdi20/presentation/boos"
+      }
+    },
+    {
       "label": "AI Hardware Governance & Verification Initiative",
       "node_id": "institution:ai-hardware-governance-and-verification-initiative",
       "node_type": "Institution",
@@ -19495,8 +22804,32 @@
       "properties": {}
     },
     {
+      "label": "Inria",
+      "node_id": "institution:inria",
+      "node_type": "Institution",
+      "properties": {}
+    },
+    {
+      "label": "KU Leuven",
+      "node_id": "institution:ku-leuven",
+      "node_type": "Institution",
+      "properties": {}
+    },
+    {
+      "label": "Massachusetts Institute of Technology",
+      "node_id": "institution:massachusetts-institute-of-technology",
+      "node_type": "Institution",
+      "properties": {}
+    },
+    {
       "label": "Montanus",
       "node_id": "institution:montanus",
+      "node_type": "Institution",
+      "properties": {}
+    },
+    {
+      "label": "National University of Singapore",
+      "node_id": "institution:national-university-of-singapore",
       "node_type": "Institution",
       "properties": {}
     },
@@ -19525,6 +22858,12 @@
       "properties": {}
     },
     {
+      "label": "Rice University",
+      "node_id": "institution:rice-university",
+      "node_type": "Institution",
+      "properties": {}
+    },
+    {
       "label": "Sapienza University of Rome",
       "node_id": "institution:sapienza-university-of-rome",
       "node_type": "Institution",
@@ -19539,6 +22878,12 @@
     {
       "label": "Software Security & Agentic Benchmarking Group",
       "node_id": "institution:software-security-and-agentic-benchmarking-group",
+      "node_type": "Institution",
+      "properties": {}
+    },
+    {
+      "label": "SRI International",
+      "node_id": "institution:sri-international",
       "node_type": "Institution",
       "properties": {}
     },
@@ -19563,6 +22908,18 @@
     {
       "label": "University of California, Berkeley",
       "node_id": "institution:university-of-california,-berkeley",
+      "node_type": "Institution",
+      "properties": {}
+    },
+    {
+      "label": "University of California, Irvine",
+      "node_id": "institution:university-of-california,-irvine",
+      "node_type": "Institution",
+      "properties": {}
+    },
+    {
+      "label": "University of Cambridge",
+      "node_id": "institution:university-of-cambridge",
       "node_type": "Institution",
       "properties": {}
     },
@@ -19611,6 +22968,24 @@
     {
       "label": "University of Trento",
       "node_id": "institution:university-of-trento",
+      "node_type": "Institution",
+      "properties": {}
+    },
+    {
+      "label": "Universit\u00e9 Paris-Saclay (CEA List)",
+      "node_id": "institution:universit\u00e9-paris-saclay-(cea-list)",
+      "node_type": "Institution",
+      "properties": {}
+    },
+    {
+      "label": "VMware Research",
+      "node_id": "institution:vmware-research",
+      "node_type": "Institution",
+      "properties": {}
+    },
+    {
+      "label": "Yale University",
+      "node_id": "institution:yale-university",
       "node_type": "Institution",
       "properties": {}
     },
@@ -19875,6 +23250,16 @@
       }
     },
     {
+      "label": "Secure Enclaves, Linear Capabilities & Blast-Chamber OS",
+      "node_id": "taxonomy:security-and-resilience--secure-enclaves,-linear-capabilities-and-blast-chamber-os",
+      "node_type": "TaxonomyCategory",
+      "properties": {
+        "description": "Hardware-isolated execution enclaves, non-speculative enclave execution (MI6, ProSpeCT), linear capability single-address-space OS (Capstone, CheriOS), and zero-trust blast-chamber operating systems (RedLeaf, Theseus).",
+        "ontologic_class_uri": "ontologic:SecureEnclavesLinearCapabilitiesAndBlastChamberOS",
+        "path": "Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS"
+      }
+    },
+    {
       "label": "Adversarial Fault Injection",
       "node_id": "tech_area:adversarial-fault-injection",
       "node_type": "TechnologyArea",
@@ -20007,6 +23392,12 @@
       "properties": {}
     },
     {
+      "label": "Secure Enclaves, SASOS & Blast-Chamber Isolation",
+      "node_id": "tech_area:secure-enclaves,-sasos-and-blast-chamber-isolation",
+      "node_type": "TechnologyArea",
+      "properties": {}
+    },
+    {
       "label": "Self-Healing & Fault-Tolerant AI",
       "node_id": "tech_area:self-healing-and-fault-tolerant-ai",
       "node_type": "TechnologyArea",
@@ -20032,7 +23423,7 @@
     }
   ],
   "summary": {
-    "edge_count": 2615,
-    "node_count": 427
+    "edge_count": 3051,
+    "node_count": 508
   }
 }

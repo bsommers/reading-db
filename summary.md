@@ -1,9 +1,9 @@
 # Reading List Knowledge Graph & Taxonomy Index
 
-- **Documents Indexed:** 47
-- **Semantic Chunks:** 151
-- **Knowledge Graph Nodes:** 427
-- **Knowledge Graph Edges:** 2615
+- **Documents Indexed:** 55
+- **Semantic Chunks:** 177
+- **Knowledge Graph Nodes:** 508
+- **Knowledge Graph Edges:** 3051
 
 ## 1. Indexed Documents & Tracking Status
 
@@ -56,6 +56,14 @@
 | `note-2026-ai-security-trajectory-monitoring-report` | `read` | `high` | `note` | Personal Research Report: Trajectory Monitoring for Multi-Turn Escalation (Crescendo) and Endpoint AI Agent Security | 2026-11-13 | `CITES` -> `arxiv-2404.01833`, `CITES` -> `arxiv-2602.11247`, `CITES` -> `arxiv-2602.16935`, `CITES` -> `arxiv-2606.01738`, `CITES` -> `arxiv-2606.03136`, `CITES` -> `arxiv-2601.00454`, `CITES` -> `arxiv-2605.01143`, `CITES` -> `arxiv-2605.04785`, `CITES` -> `arxiv-2607.19356`, `CITES` -> `arxiv-2508.00500`, `CITES` -> `arxiv-2506.10597`, `CITES` -> `arxiv-2604.23338`, `CITES` -> `arxiv-2601.17548`, `CITES` -> `note-2026-csa-agentjacking-mcp-sentry`, `CITES` -> `arxiv-2605.10901`, `CITES` -> `openreview-sec-bench-2025` |
 | `arxiv-2609.04540` | `to-read` | `high` | `academic_paper` | [Mitra-v2 Technical Report: Scaling Synthetic Pretraining for Tabular Foundation Models](https://arxiv.org/abs/2609.04540) | 2026-09-03 | — |
 | `amazon-science-2026-mitra-v2-tabular-foundation-models` | `to-read` | `high` | `technical_article` | [Mitra v2: Scaling synthetic pretraining for tabular foundation models](https://www.amazon.science/blog/mitra-v2-scaling-synthetic-pretraining-for-tabular-foundation-models) | 2026-09-03 | `REPORTS_ON` -> `arxiv-2609.04540`, `CITES` -> `arxiv-2609.04540` |
+| `usenix-2016-sanctum` | `read` | `high` | `academic_paper` | [Sanctum: Minimal Hardware Extensions for Strong Software Isolation](https://eprint.iacr.org/2015/564) | 2016-08-10 | `CITES` -> `arxiv-2208.03699` |
+| `arxiv-1812.09822` | `to-read` | `high` | `academic_paper` | [MI6: Secure Enclaves in a Speculative Out-of-Order Processor](https://arxiv.org/abs/1812.09822) | 2018-12-24 | `CITES` -> `usenix-2016-sanctum`, `CITES` -> `arxiv-2208.03699` |
+| `arxiv-2302.12108` | `to-read` | `high` | `academic_paper` | [ProSpeCT: Provably Secure Speculation for the Constant-Time Policy](https://arxiv.org/abs/2302.12108) | 2023-02-23 | `CITES` -> `arxiv-1812.09822` |
+| `arxiv-2302.13863` | `to-read` | `high` | `academic_paper` | [Capstone: A Capability-Based Foundation for Trustless Secure Memory Access](https://arxiv.org/abs/2302.13863) | 2023-02-27 | `CITES` -> `usenix-2016-sanctum`, `CITES` -> `arxiv-1812.09822` |
+| `cambridge-2021-cherios-sasos` | `to-read` | `high` | `academic_paper` | [CheriOS: Designing an Untrusted Single-Address-Space Capability Operating System](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-961.pdf) | 2021-09-01 | `CITES` -> `usenix-2016-sanctum`, `CITES` -> `fil-c-2025-invisicaps` |
+| `usenix-osdi20-redleaf` | `to-read` | `high` | `academic_paper` | [RedLeaf: Isolation and Communication in a Safe Operating System](https://www.usenix.org/conference/osdi20/presentation/narayanan-vikram) | 2020-11-04 | `CITES` -> `cambridge-2021-cherios-sasos` |
+| `usenix-osdi20-theseus` | `to-read` | `high` | `academic_paper` | [Theseus: An Experiment in Operating System Structure and State Management](https://www.usenix.org/conference/osdi20/presentation/boos) | 2020-11-04 | `CITES` -> `usenix-osdi20-redleaf`, `CITES` -> `cambridge-2021-cherios-sasos` |
+| `research-secure-execution-enclaves-linear-address-spa` | `read` | `high` | `note` | [Research Synthesis: Secure execution enclaves, linear address space, non-speculative execution in the enclaves, zero-trust blast chambers in a hardened custom operating system](https://github.com/bsommers/reading-db) | 2026-11-07 | `CITES` -> `usenix-2016-sanctum`, `CITES` -> `arxiv-1812.09822`, `CITES` -> `arxiv-2302.12108`, `CITES` -> `arxiv-2302.13863`, `CITES` -> `cambridge-2021-cherios-sasos`, `CITES` -> `usenix-osdi20-redleaf`, `CITES` -> `usenix-osdi20-theseus`, `CITES` -> `arxiv-2610.33748`, `CITES` -> `techpaper-2026-hbm-chiplet-resilience`, `CITES` -> `note-2026-cross-layer-bitflip-synthesis`, `CITES` -> `arxiv-2208.03699`, `CITES` -> `research-formal-verification-languages-in-chip-and-se`, `CITES` -> `research-sat-and-smt-solvers-applications-in-software` |
 
 ## 2. Conceptual Taxonomy & Document Graph
 
@@ -70,23 +78,24 @@ flowchart TD
     TAX6["Security & Resilience"]
     TAX7["Bit-Flip Attacks"]
     TAX8["Memory Safety & Software Capabilities"]
-    TAX9["Runtime Fault Localization & Recovery"]
-    TAX10["Artificial Intelligence & Machine Learning"]
-    TAX11["Deep Neural Networks"]
-    TAX12["Language Models & Efficient Attention"]
-    TAX13["Novel & State-Space Architectures"]
-    TAX14["Tabular Foundation Models & Synthetic Pretraining"]
-    TAX15["Reasoning, Agents & Retrieval"]
-    TAX16["Interpretability, Calibration & Evaluation"]
-    TAX17["Probabilistic, Diffusion & Multimodal Vision"]
-    TAX18["AI Alignment, Guardrails & Agent Security"]
-    TAX19["AI Policy, Governance & Human-AI Systems"]
-    TAX20["Formal Methods & Automated Reasoning"]
-    TAX21["Neuro-Symbolic Deduction & Guardrail Verification"]
-    TAX22["SAT & SMT Solvers"]
-    TAX23["Software Verification & Symbolic Execution"]
-    TAX24["Graph Theory Modulo Theories"]
-    TAX25["Knowledge Representation & Ontologies"]
+    TAX9["Secure Enclaves, Linear Capabilities & Blast-Chamber OS"]
+    TAX10["Runtime Fault Localization & Recovery"]
+    TAX11["Artificial Intelligence & Machine Learning"]
+    TAX12["Deep Neural Networks"]
+    TAX13["Language Models & Efficient Attention"]
+    TAX14["Novel & State-Space Architectures"]
+    TAX15["Tabular Foundation Models & Synthetic Pretraining"]
+    TAX16["Reasoning, Agents & Retrieval"]
+    TAX17["Interpretability, Calibration & Evaluation"]
+    TAX18["Probabilistic, Diffusion & Multimodal Vision"]
+    TAX19["AI Alignment, Guardrails & Agent Security"]
+    TAX20["AI Policy, Governance & Human-AI Systems"]
+    TAX21["Formal Methods & Automated Reasoning"]
+    TAX22["Neuro-Symbolic Deduction & Guardrail Verification"]
+    TAX23["SAT & SMT Solvers"]
+    TAX24["Software Verification & Symbolic Execution"]
+    TAX25["Graph Theory Modulo Theories"]
+    TAX26["Knowledge Representation & Ontologies"]
     TAX0 --> TAX1
     TAX1 --> TAX2
     TAX0 --> TAX3
@@ -95,33 +104,34 @@ flowchart TD
     TAX6 --> TAX7
     TAX6 --> TAX8
     TAX6 --> TAX9
-    TAX10 --> TAX11
+    TAX6 --> TAX10
     TAX11 --> TAX12
-    TAX11 --> TAX13
-    TAX11 --> TAX14
-    TAX10 --> TAX15
-    TAX10 --> TAX16
-    TAX10 --> TAX17
-    TAX6 --> TAX18
-    TAX20 --> TAX21
-    TAX20 --> TAX22
-    TAX22 --> TAX23
-    TAX22 --> TAX24
-    TAX20 --> TAX25
+    TAX12 --> TAX13
+    TAX12 --> TAX14
+    TAX12 --> TAX15
+    TAX11 --> TAX16
+    TAX11 --> TAX17
+    TAX11 --> TAX18
+    TAX6 --> TAX19
+    TAX21 --> TAX22
+    TAX21 --> TAX23
+    TAX23 --> TAX24
+    TAX23 --> TAX25
+    TAX21 --> TAX26
     DOC0["semieng-2026-bare-ai-monitors"]
     DOC0 -->|REPORTS_ON| DOC1
-    DOC0 -->|IN_CATEGORY| TAX13
+    DOC0 -->|IN_CATEGORY| TAX14
     DOC0 -->|IN_CATEGORY| TAX2
     DOC0 -->|IN_CATEGORY| TAX3
     DOC0 -->|IN_CATEGORY| TAX7
-    DOC0 -->|IN_CATEGORY| TAX9
+    DOC0 -->|IN_CATEGORY| TAX10
     DOC1["arxiv-2610.08739v2"]
-    DOC1 -->|IN_CATEGORY| TAX11
+    DOC1 -->|IN_CATEGORY| TAX12
     DOC1 -->|IN_CATEGORY| TAX2
     DOC1 -->|IN_CATEGORY| TAX4
     DOC1 -->|IN_CATEGORY| TAX3
     DOC1 -->|IN_CATEGORY| TAX7
-    DOC1 -->|IN_CATEGORY| TAX9
+    DOC1 -->|IN_CATEGORY| TAX10
     DOC2["arxiv-2610.33748"]
     DOC2 -->|IN_CATEGORY| TAX4
     DOC2 -->|IN_CATEGORY| TAX3
@@ -130,59 +140,60 @@ flowchart TD
     DOC3["techpaper-2026-hbm-chiplet-resilience"]
     DOC3 -->|CITES| DOC1
     DOC3 -->|CITES| DOC2
-    DOC3 -->|IN_CATEGORY| TAX11
+    DOC3 -->|IN_CATEGORY| TAX12
     DOC3 -->|IN_CATEGORY| TAX2
     DOC3 -->|IN_CATEGORY| TAX3
     DOC3 -->|IN_CATEGORY| TAX7
     DOC3 -->|IN_CATEGORY| TAX8
-    DOC3 -->|IN_CATEGORY| TAX9
+    DOC3 -->|IN_CATEGORY| TAX10
     DOC4["techpaper-2026-eda-formal-monitors"]
     DOC4 -->|CITES| DOC1
     DOC4 -->|CITES| DOC2
-    DOC4 -->|IN_CATEGORY| TAX11
+    DOC4 -->|IN_CATEGORY| TAX12
     DOC4 -->|IN_CATEGORY| TAX2
     DOC4 -->|IN_CATEGORY| TAX4
     DOC4 -->|IN_CATEGORY| TAX3
     DOC4 -->|IN_CATEGORY| TAX7
-    DOC4 -->|IN_CATEGORY| TAX9
+    DOC4 -->|IN_CATEGORY| TAX10
     DOC5["note-2026-cross-layer-bitflip-synthesis"]
     DOC5 -->|CITES| DOC1
     DOC5 -->|CITES| DOC2
     DOC5 -->|CITES| DOC0
-    DOC5 -->|IN_CATEGORY| TAX11
-    DOC5 -->|IN_CATEGORY| TAX25
+    DOC5 -->|IN_CATEGORY| TAX12
+    DOC5 -->|IN_CATEGORY| TAX26
     DOC5 -->|IN_CATEGORY| TAX2
     DOC5 -->|IN_CATEGORY| TAX4
     DOC5 -->|IN_CATEGORY| TAX3
     DOC5 -->|IN_CATEGORY| TAX7
     DOC5 -->|IN_CATEGORY| TAX8
-    DOC5 -->|IN_CATEGORY| TAX9
+    DOC5 -->|IN_CATEGORY| TAX10
     DOC6["arxiv-2208.03699"]
-    DOC6 -->|IN_CATEGORY| TAX23
+    DOC6 -->|IN_CATEGORY| TAX24
     DOC6 -->|IN_CATEGORY| TAX2
     DOC6 -->|IN_CATEGORY| TAX5
     DOC6 -->|IN_CATEGORY| TAX3
     DOC6 -->|IN_CATEGORY| TAX8
+    DOC6 -->|IN_CATEGORY| TAX9
     DOC7["arxiv-2503.19174"]
     DOC7 -->|CITES| DOC6
-    DOC7 -->|IN_CATEGORY| TAX15
-    DOC7 -->|IN_CATEGORY| TAX25
+    DOC7 -->|IN_CATEGORY| TAX16
+    DOC7 -->|IN_CATEGORY| TAX26
     DOC7 -->|IN_CATEGORY| TAX5
     DOC7 -->|IN_CATEGORY| TAX8
     DOC8["arxiv-2604.23100"]
     DOC8 -->|CITES| DOC7
-    DOC8 -->|IN_CATEGORY| TAX11
-    DOC8 -->|IN_CATEGORY| TAX15
-    DOC8 -->|IN_CATEGORY| TAX20
+    DOC8 -->|IN_CATEGORY| TAX12
+    DOC8 -->|IN_CATEGORY| TAX16
+    DOC8 -->|IN_CATEGORY| TAX21
     DOC8 -->|IN_CATEGORY| TAX1
     DOC8 -->|IN_CATEGORY| TAX5
     DOC8 -->|IN_CATEGORY| TAX3
-    DOC8 -->|IN_CATEGORY| TAX9
+    DOC8 -->|IN_CATEGORY| TAX10
     DOC9["arxiv-2609.26751"]
     DOC9 -->|CITES| DOC7
     DOC9 -->|CITES| DOC8
-    DOC9 -->|IN_CATEGORY| TAX11
-    DOC9 -->|IN_CATEGORY| TAX20
+    DOC9 -->|IN_CATEGORY| TAX12
+    DOC9 -->|IN_CATEGORY| TAX21
     DOC9 -->|IN_CATEGORY| TAX5
     DOC9 -->|IN_CATEGORY| TAX8
     DOC10["research-formal-verification-languages-in-chip-and-se"]
@@ -195,39 +206,39 @@ flowchart TD
     DOC10 -->|CITES| DOC2
     DOC10 -->|CITES| DOC4
     DOC10 -->|CITES| DOC5
-    DOC10 -->|IN_CATEGORY| TAX11
-    DOC10 -->|IN_CATEGORY| TAX15
-    DOC10 -->|IN_CATEGORY| TAX25
-    DOC10 -->|IN_CATEGORY| TAX22
+    DOC10 -->|IN_CATEGORY| TAX12
+    DOC10 -->|IN_CATEGORY| TAX16
+    DOC10 -->|IN_CATEGORY| TAX26
+    DOC10 -->|IN_CATEGORY| TAX23
     DOC10 -->|IN_CATEGORY| TAX2
     DOC10 -->|IN_CATEGORY| TAX5
     DOC10 -->|IN_CATEGORY| TAX3
     DOC10 -->|IN_CATEGORY| TAX7
     DOC10 -->|IN_CATEGORY| TAX8
     DOC11["arxiv-1402.4677"]
+    DOC11 -->|IN_CATEGORY| TAX26
     DOC11 -->|IN_CATEGORY| TAX25
-    DOC11 -->|IN_CATEGORY| TAX24
     DOC11 -->|IN_CATEGORY| TAX5
     DOC12["arxiv-2201.04663"]
     DOC12 -->|CITES| DOC11
     DOC12 -->|CITES| DOC6
+    DOC12 -->|IN_CATEGORY| TAX26
     DOC12 -->|IN_CATEGORY| TAX25
     DOC12 -->|IN_CATEGORY| TAX24
-    DOC12 -->|IN_CATEGORY| TAX23
     DOC12 -->|IN_CATEGORY| TAX5
     DOC13["arxiv-1610.00502"]
     DOC13 -->|CITES| DOC12
-    DOC13 -->|IN_CATEGORY| TAX23
+    DOC13 -->|IN_CATEGORY| TAX24
     DOC13 -->|IN_CATEGORY| TAX1
     DOC13 -->|IN_CATEGORY| TAX5
     DOC13 -->|IN_CATEGORY| TAX3
     DOC13 -->|IN_CATEGORY| TAX8
-    DOC13 -->|IN_CATEGORY| TAX9
+    DOC13 -->|IN_CATEGORY| TAX10
     DOC14["arxiv-1507.01763"]
     DOC14 -->|CITES| DOC11
     DOC14 -->|CITES| DOC12
-    DOC14 -->|IN_CATEGORY| TAX25
-    DOC14 -->|IN_CATEGORY| TAX22
+    DOC14 -->|IN_CATEGORY| TAX26
+    DOC14 -->|IN_CATEGORY| TAX23
     DOC14 -->|IN_CATEGORY| TAX5
     DOC15["research-sat-and-smt-solvers-applications-in-software"]
     DOC15 -->|CITES| DOC11
@@ -244,9 +255,9 @@ flowchart TD
     DOC15 -->|CITES| DOC8
     DOC15 -->|CITES| DOC9
     DOC15 -->|CITES| DOC10
+    DOC15 -->|IN_CATEGORY| TAX26
     DOC15 -->|IN_CATEGORY| TAX25
     DOC15 -->|IN_CATEGORY| TAX24
-    DOC15 -->|IN_CATEGORY| TAX23
     DOC15 -->|IN_CATEGORY| TAX1
     DOC15 -->|IN_CATEGORY| TAX5
     DOC15 -->|IN_CATEGORY| TAX3
@@ -255,55 +266,55 @@ flowchart TD
     DOC16 -->|CITES| DOC12
     DOC16 -->|CITES| DOC14
     DOC16 -->|CITES| DOC8
-    DOC16 -->|IN_CATEGORY| TAX11
-    DOC16 -->|IN_CATEGORY| TAX25
-    DOC16 -->|IN_CATEGORY| TAX21
+    DOC16 -->|IN_CATEGORY| TAX12
+    DOC16 -->|IN_CATEGORY| TAX26
     DOC16 -->|IN_CATEGORY| TAX22
+    DOC16 -->|IN_CATEGORY| TAX23
     DOC16 -->|IN_CATEGORY| TAX1
     DOC16 -->|IN_CATEGORY| TAX5
     DOC17["arxiv-2605.08605"]
     DOC17 -->|CITES| DOC12
     DOC17 -->|CITES| DOC13
     DOC17 -->|CITES| DOC16
-    DOC17 -->|IN_CATEGORY| TAX13
-    DOC17 -->|IN_CATEGORY| TAX21
+    DOC17 -->|IN_CATEGORY| TAX14
+    DOC17 -->|IN_CATEGORY| TAX22
     DOC18["arxiv-2605.10901"]
     DOC18 -->|CITES| DOC6
     DOC18 -->|CITES| DOC1
-    DOC18 -->|IN_CATEGORY| TAX12
-    DOC18 -->|IN_CATEGORY| TAX15
-    DOC18 -->|IN_CATEGORY| TAX21
+    DOC18 -->|IN_CATEGORY| TAX13
+    DOC18 -->|IN_CATEGORY| TAX16
+    DOC18 -->|IN_CATEGORY| TAX22
     DOC18 -->|IN_CATEGORY| TAX1
     DOC18 -->|IN_CATEGORY| TAX4
-    DOC18 -->|IN_CATEGORY| TAX18
+    DOC18 -->|IN_CATEGORY| TAX19
     DOC19["arxiv-2603.19163"]
     DOC19 -->|CITES| DOC11
-    DOC19 -->|IN_CATEGORY| TAX21
     DOC19 -->|IN_CATEGORY| TAX22
+    DOC19 -->|IN_CATEGORY| TAX23
     DOC19 -->|IN_CATEGORY| TAX1
     DOC19 -->|IN_CATEGORY| TAX5
     DOC19 -->|IN_CATEGORY| TAX3
     DOC20["arxiv-2607.22619"]
     DOC20 -->|CITES| DOC1
     DOC20 -->|CITES| DOC3
-    DOC20 -->|IN_CATEGORY| TAX19
+    DOC20 -->|IN_CATEGORY| TAX20
     DOC20 -->|IN_CATEGORY| TAX2
     DOC20 -->|IN_CATEGORY| TAX4
     DOC20 -->|IN_CATEGORY| TAX6
     DOC21["openreview-sec-bench-2025"]
     DOC21 -->|CITES| DOC13
     DOC21 -->|CITES| DOC2
-    DOC21 -->|IN_CATEGORY| TAX11
-    DOC21 -->|IN_CATEGORY| TAX15
-    DOC21 -->|IN_CATEGORY| TAX23
+    DOC21 -->|IN_CATEGORY| TAX12
+    DOC21 -->|IN_CATEGORY| TAX16
+    DOC21 -->|IN_CATEGORY| TAX24
     DOC21 -->|IN_CATEGORY| TAX4
-    DOC21 -->|IN_CATEGORY| TAX18
+    DOC21 -->|IN_CATEGORY| TAX19
     DOC22["arxiv-2509.25239"]
     DOC22 -->|CITES| DOC17
-    DOC22 -->|IN_CATEGORY| TAX13
-    DOC22 -->|IN_CATEGORY| TAX15
-    DOC22 -->|IN_CATEGORY| TAX21
-    DOC22 -->|IN_CATEGORY| TAX9
+    DOC22 -->|IN_CATEGORY| TAX14
+    DOC22 -->|IN_CATEGORY| TAX16
+    DOC22 -->|IN_CATEGORY| TAX22
+    DOC22 -->|IN_CATEGORY| TAX10
     DOC23["note-2026-kitsumiko-formal-neurosymbolic-bridge"]
     DOC23 -->|REPORTS_ON| DOC16
     DOC23 -->|REPORTS_ON| DOC17
@@ -315,91 +326,91 @@ flowchart TD
     DOC23 -->|CITES| DOC12
     DOC23 -->|CITES| DOC1
     DOC23 -->|CITES| DOC6
-    DOC23 -->|IN_CATEGORY| TAX13
-    DOC23 -->|IN_CATEGORY| TAX15
-    DOC23 -->|IN_CATEGORY| TAX25
-    DOC23 -->|IN_CATEGORY| TAX21
+    DOC23 -->|IN_CATEGORY| TAX14
+    DOC23 -->|IN_CATEGORY| TAX16
+    DOC23 -->|IN_CATEGORY| TAX26
     DOC23 -->|IN_CATEGORY| TAX22
+    DOC23 -->|IN_CATEGORY| TAX23
     DOC23 -->|IN_CATEGORY| TAX2
     DOC23 -->|IN_CATEGORY| TAX5
-    DOC23 -->|IN_CATEGORY| TAX18
+    DOC23 -->|IN_CATEGORY| TAX19
     DOC24["arxiv-2404.01833"]
-    DOC24 -->|IN_CATEGORY| TAX11
-    DOC24 -->|IN_CATEGORY| TAX17
+    DOC24 -->|IN_CATEGORY| TAX12
     DOC24 -->|IN_CATEGORY| TAX18
-    DOC24 -->|IN_CATEGORY| TAX9
+    DOC24 -->|IN_CATEGORY| TAX19
+    DOC24 -->|IN_CATEGORY| TAX10
     DOC25["arxiv-2506.10597"]
-    DOC25 -->|IN_CATEGORY| TAX11
-    DOC25 -->|IN_CATEGORY| TAX15
-    DOC25 -->|IN_CATEGORY| TAX25
-    DOC25 -->|IN_CATEGORY| TAX18
+    DOC25 -->|IN_CATEGORY| TAX12
+    DOC25 -->|IN_CATEGORY| TAX16
+    DOC25 -->|IN_CATEGORY| TAX26
+    DOC25 -->|IN_CATEGORY| TAX19
     DOC26["arxiv-2508.00500"]
-    DOC26 -->|IN_CATEGORY| TAX11
-    DOC26 -->|IN_CATEGORY| TAX15
-    DOC26 -->|IN_CATEGORY| TAX9
+    DOC26 -->|IN_CATEGORY| TAX12
+    DOC26 -->|IN_CATEGORY| TAX16
+    DOC26 -->|IN_CATEGORY| TAX10
     DOC27["arxiv-2601.00454"]
-    DOC27 -->|IN_CATEGORY| TAX11
-    DOC27 -->|IN_CATEGORY| TAX20
+    DOC27 -->|IN_CATEGORY| TAX12
+    DOC27 -->|IN_CATEGORY| TAX21
     DOC27 -->|IN_CATEGORY| TAX1
     DOC27 -->|IN_CATEGORY| TAX3
-    DOC27 -->|IN_CATEGORY| TAX18
+    DOC27 -->|IN_CATEGORY| TAX19
     DOC28["arxiv-2601.17548"]
-    DOC28 -->|IN_CATEGORY| TAX11
-    DOC28 -->|IN_CATEGORY| TAX17
-    DOC28 -->|IN_CATEGORY| TAX15
-    DOC28 -->|IN_CATEGORY| TAX25
-    DOC28 -->|IN_CATEGORY| TAX23
-    DOC28 -->|IN_CATEGORY| TAX1
+    DOC28 -->|IN_CATEGORY| TAX12
     DOC28 -->|IN_CATEGORY| TAX18
+    DOC28 -->|IN_CATEGORY| TAX16
+    DOC28 -->|IN_CATEGORY| TAX26
+    DOC28 -->|IN_CATEGORY| TAX24
+    DOC28 -->|IN_CATEGORY| TAX1
+    DOC28 -->|IN_CATEGORY| TAX19
     DOC29["arxiv-2602.11247"]
-    DOC29 -->|IN_CATEGORY| TAX11
-    DOC29 -->|IN_CATEGORY| TAX17
-    DOC29 -->|IN_CATEGORY| TAX15
-    DOC29 -->|IN_CATEGORY| TAX20
+    DOC29 -->|IN_CATEGORY| TAX12
     DOC29 -->|IN_CATEGORY| TAX18
+    DOC29 -->|IN_CATEGORY| TAX16
+    DOC29 -->|IN_CATEGORY| TAX21
+    DOC29 -->|IN_CATEGORY| TAX19
     DOC30["arxiv-2602.16935"]
-    DOC30 -->|IN_CATEGORY| TAX11
-    DOC30 -->|IN_CATEGORY| TAX25
+    DOC30 -->|IN_CATEGORY| TAX12
+    DOC30 -->|IN_CATEGORY| TAX26
     DOC30 -->|IN_CATEGORY| TAX1
-    DOC30 -->|IN_CATEGORY| TAX18
+    DOC30 -->|IN_CATEGORY| TAX19
     DOC30 -->|IN_CATEGORY| TAX8
     DOC31["arxiv-2604.23338"]
-    DOC31 -->|IN_CATEGORY| TAX19
-    DOC31 -->|IN_CATEGORY| TAX11
-    DOC31 -->|IN_CATEGORY| TAX15
-    DOC31 -->|IN_CATEGORY| TAX24
+    DOC31 -->|IN_CATEGORY| TAX20
+    DOC31 -->|IN_CATEGORY| TAX12
+    DOC31 -->|IN_CATEGORY| TAX16
+    DOC31 -->|IN_CATEGORY| TAX25
     DOC31 -->|IN_CATEGORY| TAX3
-    DOC31 -->|IN_CATEGORY| TAX18
+    DOC31 -->|IN_CATEGORY| TAX19
     DOC31 -->|IN_CATEGORY| TAX8
     DOC32["arxiv-2605.01143"]
-    DOC32 -->|IN_CATEGORY| TAX11
-    DOC32 -->|IN_CATEGORY| TAX15
-    DOC32 -->|IN_CATEGORY| TAX18
-    DOC32 -->|IN_CATEGORY| TAX9
+    DOC32 -->|IN_CATEGORY| TAX12
+    DOC32 -->|IN_CATEGORY| TAX16
+    DOC32 -->|IN_CATEGORY| TAX19
+    DOC32 -->|IN_CATEGORY| TAX10
     DOC33["arxiv-2605.04785"]
-    DOC33 -->|IN_CATEGORY| TAX12
-    DOC33 -->|IN_CATEGORY| TAX15
+    DOC33 -->|IN_CATEGORY| TAX13
+    DOC33 -->|IN_CATEGORY| TAX16
     DOC33 -->|IN_CATEGORY| TAX1
-    DOC33 -->|IN_CATEGORY| TAX18
+    DOC33 -->|IN_CATEGORY| TAX19
     DOC34["arxiv-2606.01738"]
-    DOC34 -->|IN_CATEGORY| TAX11
-    DOC34 -->|IN_CATEGORY| TAX15
-    DOC34 -->|IN_CATEGORY| TAX20
+    DOC34 -->|IN_CATEGORY| TAX12
+    DOC34 -->|IN_CATEGORY| TAX16
+    DOC34 -->|IN_CATEGORY| TAX21
     DOC34 -->|IN_CATEGORY| TAX1
-    DOC34 -->|IN_CATEGORY| TAX18
+    DOC34 -->|IN_CATEGORY| TAX19
     DOC34 -->|IN_CATEGORY| TAX8
     DOC35["arxiv-2606.03136"]
-    DOC35 -->|IN_CATEGORY| TAX11
-    DOC35 -->|IN_CATEGORY| TAX15
-    DOC35 -->|IN_CATEGORY| TAX20
-    DOC35 -->|IN_CATEGORY| TAX18
+    DOC35 -->|IN_CATEGORY| TAX12
+    DOC35 -->|IN_CATEGORY| TAX16
+    DOC35 -->|IN_CATEGORY| TAX21
+    DOC35 -->|IN_CATEGORY| TAX19
     DOC36["arxiv-2607.19356"]
-    DOC36 -->|IN_CATEGORY| TAX11
-    DOC36 -->|IN_CATEGORY| TAX9
+    DOC36 -->|IN_CATEGORY| TAX12
+    DOC36 -->|IN_CATEGORY| TAX10
     DOC37["note-2026-zenity-device-based-ai-security"]
-    DOC37 -->|IN_CATEGORY| TAX18
+    DOC37 -->|IN_CATEGORY| TAX19
     DOC38["note-2026-csa-agentjacking-mcp-sentry"]
-    DOC38 -->|IN_CATEGORY| TAX25
+    DOC38 -->|IN_CATEGORY| TAX26
     DOC38 -->|IN_CATEGORY| TAX6
     DOC39["note-2026-darkreading-ai-coding-tools-endpoint"]
     DOC39 -->|IN_CATEGORY| TAX6
@@ -408,7 +419,7 @@ flowchart TD
     DOC41["note-2026-lasso-securing-ai-on-endpoints"]
     DOC41 -->|IN_CATEGORY| TAX6
     DOC42["note-2026-backslash-agentic-endpoint-security-top7"]
-    DOC42 -->|IN_CATEGORY| TAX15
+    DOC42 -->|IN_CATEGORY| TAX16
     DOC42 -->|IN_CATEGORY| TAX6
     DOC43["research-ai-security-endpoint-perspective-and-trackin"]
     DOC43 -->|CITES| DOC24
@@ -433,11 +444,11 @@ flowchart TD
     DOC43 -->|CITES| DOC18
     DOC43 -->|CITES| DOC21
     DOC43 -->|CITES| DOC23
-    DOC43 -->|IN_CATEGORY| TAX11
-    DOC43 -->|IN_CATEGORY| TAX15
-    DOC43 -->|IN_CATEGORY| TAX20
+    DOC43 -->|IN_CATEGORY| TAX12
+    DOC43 -->|IN_CATEGORY| TAX16
+    DOC43 -->|IN_CATEGORY| TAX21
     DOC43 -->|IN_CATEGORY| TAX4
-    DOC43 -->|IN_CATEGORY| TAX18
+    DOC43 -->|IN_CATEGORY| TAX19
     DOC43 -->|IN_CATEGORY| TAX8
     DOC44["note-2026-ai-security-trajectory-monitoring-report"]
     DOC44 -->|CITES| DOC24
@@ -456,44 +467,113 @@ flowchart TD
     DOC44 -->|CITES| DOC38
     DOC44 -->|CITES| DOC18
     DOC44 -->|CITES| DOC21
-    DOC44 -->|IN_CATEGORY| TAX11
-    DOC44 -->|IN_CATEGORY| TAX15
-    DOC44 -->|IN_CATEGORY| TAX20
+    DOC44 -->|IN_CATEGORY| TAX12
+    DOC44 -->|IN_CATEGORY| TAX16
+    DOC44 -->|IN_CATEGORY| TAX21
     DOC44 -->|IN_CATEGORY| TAX2
     DOC44 -->|IN_CATEGORY| TAX4
     DOC44 -->|IN_CATEGORY| TAX3
-    DOC44 -->|IN_CATEGORY| TAX18
+    DOC44 -->|IN_CATEGORY| TAX19
     DOC45["arxiv-2609.04540"]
-    DOC45 -->|IN_CATEGORY| TAX12
-    DOC45 -->|IN_CATEGORY| TAX14
+    DOC45 -->|IN_CATEGORY| TAX13
+    DOC45 -->|IN_CATEGORY| TAX15
     DOC46["amazon-science-2026-mitra-v2-tabular-foundation-models"]
     DOC46 -->|REPORTS_ON| DOC45
     DOC46 -->|CITES| DOC45
-    DOC46 -->|IN_CATEGORY| TAX19
-    DOC46 -->|IN_CATEGORY| TAX12
-    DOC46 -->|IN_CATEGORY| TAX14
+    DOC46 -->|IN_CATEGORY| TAX20
+    DOC46 -->|IN_CATEGORY| TAX13
     DOC46 -->|IN_CATEGORY| TAX15
+    DOC46 -->|IN_CATEGORY| TAX16
+    DOC47["usenix-2016-sanctum"]
+    DOC47 -->|CITES| DOC6
+    DOC47 -->|IN_CATEGORY| TAX3
+    DOC47 -->|IN_CATEGORY| TAX8
+    DOC47 -->|IN_CATEGORY| TAX10
+    DOC47 -->|IN_CATEGORY| TAX9
+    DOC48["arxiv-1812.09822"]
+    DOC48 -->|CITES| DOC47
+    DOC48 -->|CITES| DOC6
+    DOC48 -->|IN_CATEGORY| TAX16
+    DOC48 -->|IN_CATEGORY| TAX21
+    DOC48 -->|IN_CATEGORY| TAX3
+    DOC48 -->|IN_CATEGORY| TAX9
+    DOC49["arxiv-2302.12108"]
+    DOC49 -->|CITES| DOC48
+    DOC49 -->|IN_CATEGORY| TAX13
+    DOC49 -->|IN_CATEGORY| TAX21
+    DOC49 -->|IN_CATEGORY| TAX3
+    DOC49 -->|IN_CATEGORY| TAX9
+    DOC50["arxiv-2302.13863"]
+    DOC50 -->|CITES| DOC47
+    DOC50 -->|CITES| DOC48
+    DOC50 -->|IN_CATEGORY| TAX13
+    DOC50 -->|IN_CATEGORY| TAX3
+    DOC50 -->|IN_CATEGORY| TAX8
+    DOC50 -->|IN_CATEGORY| TAX9
+    DOC51["cambridge-2021-cherios-sasos"]
+    DOC51 -->|CITES| DOC47
+    DOC51 -->|IN_CATEGORY| TAX13
+    DOC51 -->|IN_CATEGORY| TAX3
+    DOC51 -->|IN_CATEGORY| TAX8
+    DOC51 -->|IN_CATEGORY| TAX9
+    DOC52["usenix-osdi20-redleaf"]
+    DOC52 -->|CITES| DOC51
+    DOC52 -->|IN_CATEGORY| TAX13
+    DOC52 -->|IN_CATEGORY| TAX3
+    DOC52 -->|IN_CATEGORY| TAX8
+    DOC52 -->|IN_CATEGORY| TAX10
+    DOC52 -->|IN_CATEGORY| TAX9
+    DOC53["usenix-osdi20-theseus"]
+    DOC53 -->|CITES| DOC52
+    DOC53 -->|CITES| DOC51
+    DOC53 -->|IN_CATEGORY| TAX13
+    DOC53 -->|IN_CATEGORY| TAX0
+    DOC53 -->|IN_CATEGORY| TAX10
+    DOC53 -->|IN_CATEGORY| TAX9
+    DOC54["research-secure-execution-enclaves-linear-address-spa"]
+    DOC54 -->|CITES| DOC47
+    DOC54 -->|CITES| DOC48
+    DOC54 -->|CITES| DOC49
+    DOC54 -->|CITES| DOC50
+    DOC54 -->|CITES| DOC51
+    DOC54 -->|CITES| DOC52
+    DOC54 -->|CITES| DOC53
+    DOC54 -->|CITES| DOC2
+    DOC54 -->|CITES| DOC3
+    DOC54 -->|CITES| DOC5
+    DOC54 -->|CITES| DOC6
+    DOC54 -->|CITES| DOC10
+    DOC54 -->|CITES| DOC15
+    DOC54 -->|IN_CATEGORY| TAX13
+    DOC54 -->|IN_CATEGORY| TAX16
+    DOC54 -->|IN_CATEGORY| TAX21
+    DOC54 -->|IN_CATEGORY| TAX5
+    DOC54 -->|IN_CATEGORY| TAX3
+    DOC54 -->|IN_CATEGORY| TAX7
+    DOC54 -->|IN_CATEGORY| TAX8
+    DOC54 -->|IN_CATEGORY| TAX10
+    DOC54 -->|IN_CATEGORY| TAX9
 ```
 
 ## 3. Global Word Cloud (Top 15 Terms)
 
 | Term | Frequency | Normalized Weight |
 |---|---|---|
-| `formal` | 43 | 1.00 |
-| `security` | 43 | 1.00 |
-| `verification` | 41 | 0.95 |
-| `ai` | 38 | 0.88 |
-| `models` | 37 | 0.86 |
-| `agents` | 32 | 0.74 |
-| `attack` | 32 | 0.74 |
-| `evaluation` | 32 | 0.74 |
-| `context` | 31 | 0.72 |
-| `hardware` | 30 | 0.70 |
-| `model` | 30 | 0.70 |
-| `safety` | 30 | 0.70 |
-| `attacks` | 28 | 0.65 |
-| `smt` | 28 | 0.65 |
-| `multi-turn` | 27 | 0.63 |
+| `formal` | 48 | 1.00 |
+| `security` | 45 | 0.94 |
+| `hardware` | 44 | 0.92 |
+| `verification` | 43 | 0.90 |
+| `ai` | 38 | 0.79 |
+| `linear` | 38 | 0.79 |
+| `models` | 38 | 0.79 |
+| `memory` | 37 | 0.77 |
+| `execution` | 36 | 0.75 |
+| `agents` | 32 | 0.67 |
+| `attack` | 32 | 0.67 |
+| `context` | 32 | 0.67 |
+| `evaluation` | 32 | 0.67 |
+| `safety` | 32 | 0.67 |
+| `model` | 31 | 0.65 |
 
 ## 4. Semantic Chunks by Document
 
@@ -576,7 +656,7 @@ flowchart TD
   - **Taxonomy:** `Formal Methods & Automated Reasoning`; `Formal Methods & Automated Reasoning > SAT & SMT Solvers`; `Formal Methods & Automated Reasoning > SAT & SMT Solvers > Software Verification & Symbolic Execution`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`
 - **`arxiv-2208.03699#chunk-03` (Verification of Secure Architectures and Accelerators)** [22 words]
   - **Concepts:** `concept:uclid5`
-  - **Taxonomy:** `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > AI Accelerators`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`
+  - **Taxonomy:** `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > AI Accelerators`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`; `Security & Resilience`; `Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS`
 
 ### `arxiv-2503.19174` — AssertionForge: Enhancing Formal Verification Assertion Generation with Structured Representation of Specifications and RTL
 
@@ -1090,3 +1170,105 @@ flowchart TD
 - **`amazon-science-2026-mitra-v2-tabular-foundation-models#chunk-03` (Frontier Benchmark Results & Open-Source Ecosystem)** [55 words]
   - **Concepts:** `concept:tabular-foundation-models`
   - **Taxonomy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Artificial Intelligence & Machine Learning > Deep Neural Networks > Language Models & Efficient Attention`; `Artificial Intelligence & Machine Learning > Deep Neural Networks > Tabular Foundation Models & Synthetic Pretraining`
+
+### `usenix-2016-sanctum` — Sanctum: Minimal Hardware Extensions for Strong Software Isolation
+
+- **`usenix-2016-sanctum#chunk-01` (Threat Model & Limitations of Commercial Enclaves)** [70 words]
+  - **Concepts:** `concept:asi`, `concept:enclave-linear-blast-chamber`
+  - **Taxonomy:** `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > Memory & Interconnects`; `Security & Resilience`; `Security & Resilience > Runtime Fault Localization & Recovery`; `Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS`
+- **`usenix-2016-sanctum#chunk-02` (Contiguous DRAM Regions, Cache Index Shifting & Per-Enclave Page Tables)** [59 words]
+  - **Concepts:** `concept:enclave-linear-blast-chamber`
+  - **Taxonomy:** `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > Memory & Interconnects`; `Security & Resilience`; `Security & Resilience > Memory Safety & Software Capabilities`; `Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS`
+- **`usenix-2016-sanctum#chunk-03` (Foundation for Non-Speculative Enclave Proofs)** [32 words]
+  - **Concepts:** `concept:enclave-linear-blast-chamber`
+  - **Taxonomy:** `Security & Resilience`; `Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS`
+
+### `arxiv-1812.09822` — MI6: Secure Enclaves in a Speculative Out-of-Order Processor
+
+- **`arxiv-1812.09822#chunk-01` (Why Speculative Execution Breaks Enclave Isolation)** [61 words]
+  - **Concepts:** `concept:enclave-linear-blast-chamber`
+  - **Taxonomy:** `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > Memory & Interconnects`; `Security & Resilience`; `Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS`
+- **`arxiv-1812.09822#chunk-02` (Enforcing Non-Speculative Boundaries & the `purge` Instruction)** [80 words]
+  - **Concepts:** `concept:enclave-linear-blast-chamber`
+  - **Taxonomy:** `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > Memory & Interconnects`; `Security & Resilience`; `Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS`
+- **`arxiv-1812.09822#chunk-03` (Formal Indistinguishability & Performance Trade-off)** [38 words]
+  - **Concepts:** none
+  - **Taxonomy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Reasoning, Agents & Retrieval`; `Formal Methods & Automated Reasoning`; `Security & Resilience`; `Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS`
+
+### `arxiv-2302.12108` — ProSpeCT: Provably Secure Speculation for the Constant-Time Policy
+
+- **`arxiv-2302.12108#chunk-01` (Selective Non-Speculative Execution Inside Enclaves)** [60 words]
+  - **Concepts:** `concept:enclave-linear-blast-chamber`
+  - **Taxonomy:** `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > Memory & Interconnects`; `Security & Resilience`; `Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS`
+- **`arxiv-2302.12108#chunk-02` (Blocking Speculative Secret Propagation in the Pipeline)** [64 words]
+  - **Concepts:** `concept:enclave-linear-blast-chamber`
+  - **Taxonomy:** `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > Memory & Interconnects`; `Security & Resilience`; `Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS`
+- **`arxiv-2302.12108#chunk-03` (Provable Constant-Time Enclave Guarantees on RISC-V)** [34 words]
+  - **Concepts:** `concept:enclave-linear-blast-chamber`
+  - **Taxonomy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Artificial Intelligence & Machine Learning > Deep Neural Networks > Language Models & Efficient Attention`; `Formal Methods & Automated Reasoning`; `Security & Resilience`; `Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS`
+
+### `arxiv-2302.13863` — Capstone: A Capability-Based Foundation for Trustless Secure Memory Access
+
+- **`arxiv-2302.13863#chunk-01` (From Copyable Capabilities to Hardware Linear Capabilities)** [85 words]
+  - **Concepts:** `concept:enclave-linear-blast-chamber`
+  - **Taxonomy:** `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > Memory & Interconnects`; `Security & Resilience`; `Security & Resilience > Memory Safety & Software Capabilities`; `Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS`
+- **`arxiv-2302.13863#chunk-02` (Alias-Free Exclusive Enclaves in a Flat Linear Address Space)** [85 words]
+  - **Concepts:** `concept:enclave-linear-blast-chamber`
+  - **Taxonomy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Artificial Intelligence & Machine Learning > Deep Neural Networks > Language Models & Efficient Attention`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > Memory & Interconnects`; `Security & Resilience`; `Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS`
+- **`arxiv-2302.13863#chunk-03` (Unified Substrate for Enclaves, Safe Allocators & OS Compartments)** [36 words]
+  - **Concepts:** `concept:enclave-linear-blast-chamber`
+  - **Taxonomy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Artificial Intelligence & Machine Learning > Deep Neural Networks > Language Models & Efficient Attention`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > Memory & Interconnects`; `Security & Resilience`; `Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS`
+
+### `cambridge-2021-cherios-sasos` — CheriOS: Designing an Untrusted Single-Address-Space Capability Operating System
+
+- **`cambridge-2021-cherios-sasos#chunk-01` (Decoupling Address Translation from Protection in a Linear Address Space)** [64 words]
+  - **Concepts:** `concept:enclave-linear-blast-chamber`
+  - **Taxonomy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Artificial Intelligence & Machine Learning > Deep Neural Networks > Language Models & Efficient Attention`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > Memory & Interconnects`; `Security & Resilience`; `Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS`
+- **`cambridge-2021-cherios-sasos#chunk-02` (Zero-Trust Compartments & Temporal Quarantine Blast Chambers)** [64 words]
+  - **Concepts:** `concept:enclave-linear-blast-chamber`
+  - **Taxonomy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Artificial Intelligence & Machine Learning > Deep Neural Networks > Language Models & Efficient Attention`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > Memory & Interconnects`; `Security & Resilience`; `Security & Resilience > Memory Safety & Software Capabilities`; `Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS`
+- **`cambridge-2021-cherios-sasos#chunk-03` (Zero-Copy Cross-Domain Invocations Without Trusted Kernel Mediation)** [38 words]
+  - **Concepts:** `concept:enclave-linear-blast-chamber`
+  - **Taxonomy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Artificial Intelligence & Machine Learning > Deep Neural Networks > Language Models & Efficient Attention`; `Security & Resilience`; `Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS`
+
+### `usenix-osdi20-redleaf` — RedLeaf: Isolation and Communication in a Safe Operating System
+
+- **`usenix-osdi20-redleaf#chunk-01` (Zero-Trust Blast Chambers in a Single Linear Address Space)** [65 words]
+  - **Concepts:** `concept:enclave-linear-blast-chamber`
+  - **Taxonomy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Artificial Intelligence & Machine Learning > Deep Neural Networks > Language Models & Efficient Attention`; `Hardware & Semiconductor Systems`; `Security & Resilience`; `Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS`
+- **`usenix-osdi20-redleaf#chunk-02` (Linear Ownership Transfer (`RRef<T>`) & Shared-Heap Isolation)** [65 words]
+  - **Concepts:** `concept:enclave-linear-blast-chamber`
+  - **Taxonomy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Artificial Intelligence & Machine Learning > Deep Neural Networks > Language Models & Efficient Attention`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > Memory & Interconnects`; `Security & Resilience`; `Security & Resilience > Memory Safety & Software Capabilities`; `Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS`
+- **`usenix-osdi20-redleaf#chunk-03` (Sub-Microsecond Blast Containment & Transparent Recovery)** [53 words]
+  - **Concepts:** `concept:enclave-linear-blast-chamber`
+  - **Taxonomy:** `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > Memory & Interconnects`; `Security & Resilience`; `Security & Resilience > Runtime Fault Localization & Recovery`; `Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS`
+
+### `usenix-osdi20-theseus` — Theseus: An Experiment in Operating System Structure and State Management
+
+- **`usenix-osdi20-theseus#chunk-01` (Single-Address-Space Intralingual OS Architecture)** [58 words]
+  - **Concepts:** `concept:enclave-linear-blast-chamber`
+  - **Taxonomy:** `Hardware & Semiconductor Systems`; `Security & Resilience`; `Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS`
+- **`usenix-osdi20-theseus#chunk-02` (Bijective Linear Address Mappings (`MappedPages`) & State-Spill Freedom)** [60 words]
+  - **Concepts:** `concept:asi`, `concept:enclave-linear-blast-chamber`
+  - **Taxonomy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Artificial Intelligence & Machine Learning > Deep Neural Networks > Language Models & Efficient Attention`; `Security & Resilience`; `Security & Resilience > Runtime Fault Localization & Recovery`; `Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS`
+- **`usenix-osdi20-theseus#chunk-03` (Live Blast-Chamber Unwinding & Hot-Swapping)** [43 words]
+  - **Concepts:** `concept:enclave-linear-blast-chamber`
+  - **Taxonomy:** `Security & Resilience`; `Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS`
+
+### `research-secure-execution-enclaves-linear-address-spa` — Research Synthesis: Secure execution enclaves, linear address space, non-speculative execution in the enclaves, zero-trust blast chambers in a hardened custom operating system
+
+- **`research-secure-execution-enclaves-linear-address-spa#chunk-01` (Co-Designing Non-Speculative Enclaves & Linear Address Space OSes: Secure execution enclaves, linear address space, non-speculative execution in the enclaves, zero-trust blast chambers in a hardened custom operating system)** [52 words]
+  - **Concepts:** `concept:enclave-linear-blast-chamber`
+  - **Taxonomy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Artificial Intelligence & Machine Learning > Deep Neural Networks > Language Models & Efficient Attention`; `Artificial Intelligence & Machine Learning > Reasoning, Agents & Retrieval`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > Memory & Interconnects`; `Security & Resilience`; `Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS`
+- **`research-secure-execution-enclaves-linear-address-spa#chunk-02` (Four Architectural Pillars Synthesized in This Collection (Part 1))** [91 words]
+  - **Concepts:** `concept:enclave-linear-blast-chamber`
+  - **Taxonomy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Artificial Intelligence & Machine Learning > Deep Neural Networks > Language Models & Efficient Attention`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > Memory & Interconnects`; `Security & Resilience`; `Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS`
+- **`research-secure-execution-enclaves-linear-address-spa#chunk-03` (Four Architectural Pillars Synthesized in This Collection (Part 2))** [111 words]
+  - **Concepts:** `concept:asi`, `concept:enclave-linear-blast-chamber`
+  - **Taxonomy:** `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > Memory & Interconnects`; `Security & Resilience`; `Security & Resilience > Runtime Fault Localization & Recovery`; `Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS`
+- **`research-secure-execution-enclaves-linear-address-spa#chunk-04` (Four Architectural Pillars Synthesized in This Collection (Part 3))** [91 words]
+  - **Concepts:** `concept:enclave-linear-blast-chamber`
+  - **Taxonomy:** `Artificial Intelligence & Machine Learning`; `Artificial Intelligence & Machine Learning > Deep Neural Networks`; `Artificial Intelligence & Machine Learning > Deep Neural Networks > Language Models & Efficient Attention`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Security & Resilience`; `Security & Resilience > Memory Safety & Software Capabilities`; `Security & Resilience > Runtime Fault Localization & Recovery`; `Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS`
+- **`research-secure-execution-enclaves-linear-address-spa#chunk-05` (Cross-Graph Links to Software Capabilities & Formal Hardware Verification)** [25 words]
+  - **Concepts:** `concept:bit-flip-attack`, `concept:fil-c`, `concept:rowhammer`
+  - **Taxonomy:** `Formal Methods & Automated Reasoning`; `Hardware & Semiconductor Systems`; `Hardware & Semiconductor Systems > EDA & Hardware Verification`; `Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions`; `Hardware & Semiconductor Systems > Memory & Interconnects`; `Security & Resilience`; `Security & Resilience > Hardware Fault Attacks > Bit-Flip Attacks`; `Security & Resilience > Memory Safety & Software Capabilities`; `Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS`

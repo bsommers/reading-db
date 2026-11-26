@@ -608,6 +608,158 @@
         "weight": 0.2
       }
     ],
+    "arxiv-1812.09822": [
+      {
+        "count": 7,
+        "term": "enclave",
+        "weight": 1.0
+      },
+      {
+        "count": 6,
+        "term": "speculative",
+        "weight": 0.8571
+      },
+      {
+        "count": 4,
+        "term": "boundaries",
+        "weight": 0.5714
+      },
+      {
+        "count": 4,
+        "term": "mi6",
+        "weight": 0.5714
+      },
+      {
+        "count": 3,
+        "term": "caches",
+        "weight": 0.4286
+      },
+      {
+        "count": 3,
+        "term": "execution",
+        "weight": 0.4286
+      },
+      {
+        "count": 3,
+        "term": "instruction",
+        "weight": 0.4286
+      },
+      {
+        "count": 2,
+        "term": "branch",
+        "weight": 0.2857
+      },
+      {
+        "count": 2,
+        "term": "dram",
+        "weight": 0.2857
+      },
+      {
+        "count": 2,
+        "term": "formal",
+        "weight": 0.2857
+      },
+      {
+        "count": 2,
+        "term": "isolation",
+        "weight": 0.2857
+      },
+      {
+        "count": 2,
+        "term": "l1",
+        "weight": 0.2857
+      },
+      {
+        "count": 2,
+        "term": "loads",
+        "weight": 0.2857
+      },
+      {
+        "count": 2,
+        "term": "microarchitectural",
+        "weight": 0.2857
+      },
+      {
+        "count": 2,
+        "term": "mshrs",
+        "weight": 0.2857
+      },
+      {
+        "count": 2,
+        "term": "non-speculative",
+        "weight": 0.2857
+      },
+      {
+        "count": 2,
+        "term": "out-of-order",
+        "weight": 0.2857
+      },
+      {
+        "count": 2,
+        "term": "protection",
+        "weight": 0.2857
+      },
+      {
+        "count": 2,
+        "term": "purge",
+        "weight": 0.2857
+      },
+      {
+        "count": 2,
+        "term": "tlbs",
+        "weight": 0.2857
+      },
+      {
+        "count": 2,
+        "term": "transient",
+        "weight": 0.2857
+      },
+      {
+        "count": 1,
+        "term": "active",
+        "weight": 0.1429
+      },
+      {
+        "count": 1,
+        "term": "addresses",
+        "weight": 0.1429
+      },
+      {
+        "count": 1,
+        "term": "all",
+        "weight": 0.1429
+      },
+      {
+        "count": 1,
+        "term": "allocated",
+        "weight": 0.1429
+      },
+      {
+        "count": 1,
+        "term": "along",
+        "weight": 0.1429
+      },
+      {
+        "count": 1,
+        "term": "arithmetic",
+        "weight": 0.1429
+      },
+      {
+        "count": 1,
+        "term": "average",
+        "weight": 0.1429
+      },
+      {
+        "count": 1,
+        "term": "before",
+        "weight": 0.1429
+      },
+      {
+        "count": 1,
+        "term": "bitmap",
+        "weight": 0.1429
+      }
+    ],
     "arxiv-2201.04663": [
       {
         "count": 3,
@@ -910,6 +1062,310 @@
         "count": 1,
         "term": "enables",
         "weight": 0.25
+      }
+    ],
+    "arxiv-2302.12108": [
+      {
+        "count": 5,
+        "term": "enclave",
+        "weight": 1.0
+      },
+      {
+        "count": 4,
+        "term": "execution",
+        "weight": 0.8
+      },
+      {
+        "count": 4,
+        "term": "speculative",
+        "weight": 0.8
+      },
+      {
+        "count": 3,
+        "term": "out-of-order",
+        "weight": 0.6
+      },
+      {
+        "count": 3,
+        "term": "prospect",
+        "weight": 0.6
+      },
+      {
+        "count": 3,
+        "term": "secret",
+        "weight": 0.6
+      },
+      {
+        "count": 2,
+        "term": "address",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "any",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "constant-time",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "inside",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "instruction",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "memory",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "non-speculative",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "pipeline",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "public",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "risc-v",
+        "weight": 0.4
+      },
+      {
+        "count": 1,
+        "term": "access",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "all",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "arithmetic",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "attacks",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "becomes",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "binary",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "blocking",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "boom",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "branch",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "branches",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "buffer",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "calculations",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "classified",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "coarse",
+        "weight": 0.2
+      }
+    ],
+    "arxiv-2302.13863": [
+      {
+        "count": 10,
+        "term": "linear",
+        "weight": 1.0
+      },
+      {
+        "count": 5,
+        "term": "capabilities",
+        "weight": 0.5
+      },
+      {
+        "count": 5,
+        "term": "capability",
+        "weight": 0.5
+      },
+      {
+        "count": 5,
+        "term": "memory",
+        "weight": 0.5
+      },
+      {
+        "count": 4,
+        "term": "address",
+        "weight": 0.4
+      },
+      {
+        "count": 4,
+        "term": "enclaves",
+        "weight": 0.4
+      },
+      {
+        "count": 4,
+        "term": "space",
+        "weight": 0.4
+      },
+      {
+        "count": 3,
+        "term": "access",
+        "weight": 0.3
+      },
+      {
+        "count": 3,
+        "term": "any",
+        "weight": 0.3
+      },
+      {
+        "count": 3,
+        "term": "capstone",
+        "weight": 0.3
+      },
+      {
+        "count": 3,
+        "term": "exclusive",
+        "weight": 0.3
+      },
+      {
+        "count": 3,
+        "term": "hardware",
+        "weight": 0.3
+      },
+      {
+        "count": 2,
+        "term": "alias",
+        "weight": 0.2
+      },
+      {
+        "count": 2,
+        "term": "because",
+        "weight": 0.2
+      },
+      {
+        "count": 2,
+        "term": "but",
+        "weight": 0.2
+      },
+      {
+        "count": 2,
+        "term": "distrusting",
+        "weight": 0.2
+      },
+      {
+        "count": 2,
+        "term": "duplicated",
+        "weight": 0.2
+      },
+      {
+        "count": 2,
+        "term": "flat",
+        "weight": 0.2
+      },
+      {
+        "count": 2,
+        "term": "kernel",
+        "weight": 0.2
+      },
+      {
+        "count": 2,
+        "term": "mutually",
+        "weight": 0.2
+      },
+      {
+        "count": 2,
+        "term": "os",
+        "weight": 0.2
+      },
+      {
+        "count": 2,
+        "term": "safe",
+        "weight": 0.2
+      },
+      {
+        "count": 2,
+        "term": "secure",
+        "weight": 0.2
+      },
+      {
+        "count": 2,
+        "term": "trusting",
+        "weight": 0.2
+      },
+      {
+        "count": 2,
+        "term": "without",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "alias-free",
+        "weight": 0.1
+      },
+      {
+        "count": 1,
+        "term": "all",
+        "weight": 0.1
+      },
+      {
+        "count": 1,
+        "term": "allocators",
+        "weight": 0.1
+      },
+      {
+        "count": 1,
+        "term": "allow",
+        "weight": 0.1
+      },
+      {
+        "count": 1,
+        "term": "allows",
+        "weight": 0.1
       }
     ],
     "arxiv-2404.01833": [
@@ -4712,6 +5168,158 @@
         "weight": 0.25
       }
     ],
+    "cambridge-2021-cherios-sasos": [
+      {
+        "count": 5,
+        "term": "address",
+        "weight": 1.0
+      },
+      {
+        "count": 3,
+        "term": "compartments",
+        "weight": 0.6
+      },
+      {
+        "count": 3,
+        "term": "linear",
+        "weight": 0.6
+      },
+      {
+        "count": 3,
+        "term": "memory",
+        "weight": 0.6
+      },
+      {
+        "count": 3,
+        "term": "os",
+        "weight": 0.6
+      },
+      {
+        "count": 3,
+        "term": "space",
+        "weight": 0.6
+      },
+      {
+        "count": 2,
+        "term": "all",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "blast",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "capabilities",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "capability",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "cherios",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "cross-domain",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "every",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "inside",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "kernel",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "operating",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "protection",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "quarantine",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "systems",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "temporal",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "translation",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "untrusted",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "virtual",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "when",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "zero-trust",
+        "weight": 0.4
+      },
+      {
+        "count": 1,
+        "term": "achieving",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "base",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "because",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "before",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "bitmap",
+        "weight": 0.2
+      }
+    ],
     "note-2026-ai-security-trajectory-monitoring-report": [
       {
         "count": 13,
@@ -6688,6 +7296,158 @@
         "weight": 0.1429
       }
     ],
+    "research-secure-execution-enclaves-linear-address-spa": [
+      {
+        "count": 10,
+        "term": "linear",
+        "weight": 1.0
+      },
+      {
+        "count": 7,
+        "term": "address",
+        "weight": 0.7
+      },
+      {
+        "count": 7,
+        "term": "operating",
+        "weight": 0.7
+      },
+      {
+        "count": 6,
+        "term": "space",
+        "weight": 0.6
+      },
+      {
+        "count": 5,
+        "term": "blast",
+        "weight": 0.5
+      },
+      {
+        "count": 5,
+        "term": "enclaves",
+        "weight": 0.5
+      },
+      {
+        "count": 5,
+        "term": "system",
+        "weight": 0.5
+      },
+      {
+        "count": 4,
+        "term": "arxiv-2302",
+        "weight": 0.4
+      },
+      {
+        "count": 4,
+        "term": "capability",
+        "weight": 0.4
+      },
+      {
+        "count": 4,
+        "term": "chambers",
+        "weight": 0.4
+      },
+      {
+        "count": 4,
+        "term": "enclave",
+        "weight": 0.4
+      },
+      {
+        "count": 4,
+        "term": "execution",
+        "weight": 0.4
+      },
+      {
+        "count": 4,
+        "term": "secure",
+        "weight": 0.4
+      },
+      {
+        "count": 4,
+        "term": "speculative",
+        "weight": 0.4
+      },
+      {
+        "count": 4,
+        "term": "zero-trust",
+        "weight": 0.4
+      },
+      {
+        "count": 3,
+        "term": "architectural",
+        "weight": 0.3
+      },
+      {
+        "count": 3,
+        "term": "capabilities",
+        "weight": 0.3
+      },
+      {
+        "count": 3,
+        "term": "collection",
+        "weight": 0.3
+      },
+      {
+        "count": 3,
+        "term": "four",
+        "weight": 0.3
+      },
+      {
+        "count": 3,
+        "term": "hardware",
+        "weight": 0.3
+      },
+      {
+        "count": 3,
+        "term": "non-speculative",
+        "weight": 0.3
+      },
+      {
+        "count": 3,
+        "term": "out-of-order",
+        "weight": 0.3
+      },
+      {
+        "count": 3,
+        "term": "part",
+        "weight": 0.3
+      },
+      {
+        "count": 3,
+        "term": "pillars",
+        "weight": 0.3
+      },
+      {
+        "count": 3,
+        "term": "software",
+        "weight": 0.3
+      },
+      {
+        "count": 3,
+        "term": "synthesized",
+        "weight": 0.3
+      },
+      {
+        "count": 3,
+        "term": "while",
+        "weight": 0.3
+      },
+      {
+        "count": 2,
+        "term": "arxiv-1812",
+        "weight": 0.2
+      },
+      {
+        "count": 2,
+        "term": "boundaries",
+        "weight": 0.2
+      },
+      {
+        "count": 2,
+        "term": "cambridge-2021-cherios-sasos",
+        "weight": 0.2
+      }
+    ],
     "semieng-2026-bare-ai-monitors": [
       {
         "count": 3,
@@ -7143,158 +7903,614 @@
         "term": "enables",
         "weight": 0.2
       }
+    ],
+    "usenix-2016-sanctum": [
+      {
+        "count": 5,
+        "term": "enclave",
+        "weight": 1.0
+      },
+      {
+        "count": 4,
+        "term": "cache",
+        "weight": 0.8
+      },
+      {
+        "count": 4,
+        "term": "dram",
+        "weight": 0.8
+      },
+      {
+        "count": 4,
+        "term": "sanctum",
+        "weight": 0.8
+      },
+      {
+        "count": 3,
+        "term": "llc",
+        "weight": 0.6
+      },
+      {
+        "count": 2,
+        "term": "against",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "commercial",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "contiguous",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "core",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "directly",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "enclaves",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "execution",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "hardware",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "os",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "page",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "regions",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "sets",
+        "weight": 0.4
+      },
+      {
+        "count": 1,
+        "term": "achieves",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "address",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "architectural",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "arxiv-1812",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "assigning",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "attacks",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "base",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "baseline",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "bit-slice",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "bitmasks",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "but",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "cannot",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "compromised",
+        "weight": 0.2
+      }
+    ],
+    "usenix-osdi20-redleaf": [
+      {
+        "count": 5,
+        "term": "linear",
+        "weight": 1.0
+      },
+      {
+        "count": 4,
+        "term": "blast",
+        "weight": 0.8
+      },
+      {
+        "count": 4,
+        "term": "domains",
+        "weight": 0.8
+      },
+      {
+        "count": 4,
+        "term": "redleaf",
+        "weight": 0.8
+      },
+      {
+        "count": 3,
+        "term": "address",
+        "weight": 0.6
+      },
+      {
+        "count": 3,
+        "term": "domain",
+        "weight": 0.6
+      },
+      {
+        "count": 3,
+        "term": "heap",
+        "weight": 0.6
+      },
+      {
+        "count": 3,
+        "term": "isolation",
+        "weight": 0.6
+      },
+      {
+        "count": 3,
+        "term": "rref",
+        "weight": 0.6
+      },
+      {
+        "count": 3,
+        "term": "space",
+        "weight": 0.6
+      },
+      {
+        "count": 2,
+        "term": "chamber",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "cross-domain",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "data",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "fault",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "flat",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "invariant",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "objects",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "ownership",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "shared",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "single",
+        "weight": 0.4
+      },
+      {
+        "count": 2,
+        "term": "system",
+        "weight": 0.4
+      },
+      {
+        "count": 1,
+        "term": "10gbe",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "abandons",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "adjacent",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "allocated",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "alone",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "atomically",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "automatically",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "boundaries",
+        "weight": 0.2
+      },
+      {
+        "count": 1,
+        "term": "byzantine",
+        "weight": 0.2
+      }
+    ],
+    "usenix-osdi20-theseus": [
+      {
+        "count": 6,
+        "term": "cell",
+        "weight": 1.0
+      },
+      {
+        "count": 6,
+        "term": "linear",
+        "weight": 1.0
+      },
+      {
+        "count": 5,
+        "term": "address",
+        "weight": 0.8333
+      },
+      {
+        "count": 5,
+        "term": "theseus",
+        "weight": 0.8333
+      },
+      {
+        "count": 3,
+        "term": "mappedpages",
+        "weight": 0.5
+      },
+      {
+        "count": 3,
+        "term": "space",
+        "weight": 0.5
+      },
+      {
+        "count": 2,
+        "term": "cells",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "freedom",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "hardware",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "single",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "state-spill",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "system",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "type",
+        "weight": 0.3333
+      },
+      {
+        "count": 2,
+        "term": "virtual",
+        "weight": 0.3333
+      },
+      {
+        "count": 1,
+        "term": "affine",
+        "weight": 0.1667
+      },
+      {
+        "count": 1,
+        "term": "aliasing",
+        "weight": 0.1667
+      },
+      {
+        "count": 1,
+        "term": "another",
+        "weight": 0.1667
+      },
+      {
+        "count": 1,
+        "term": "any",
+        "weight": 0.1667
+      },
+      {
+        "count": 1,
+        "term": "application",
+        "weight": 0.1667
+      },
+      {
+        "count": 1,
+        "term": "architecture",
+        "weight": 0.1667
+      },
+      {
+        "count": 1,
+        "term": "behalf",
+        "weight": 0.1667
+      },
+      {
+        "count": 1,
+        "term": "between",
+        "weight": 0.1667
+      },
+      {
+        "count": 1,
+        "term": "bijection",
+        "weight": 0.1667
+      },
+      {
+        "count": 1,
+        "term": "bijective",
+        "weight": 0.1667
+      },
+      {
+        "count": 1,
+        "term": "blast",
+        "weight": 0.1667
+      },
+      {
+        "count": 1,
+        "term": "blast-chamber",
+        "weight": 0.1667
+      },
+      {
+        "count": 1,
+        "term": "bookkeeping",
+        "weight": 0.1667
+      },
+      {
+        "count": 1,
+        "term": "bounds",
+        "weight": 0.1667
+      },
+      {
+        "count": 1,
+        "term": "chamber",
+        "weight": 0.1667
+      },
+      {
+        "count": 1,
+        "term": "compile",
+        "weight": 0.1667
+      }
     ]
   },
   "global_word_cloud": [
     {
-      "count": 43,
+      "count": 48,
       "term": "formal",
       "weight": 1.0
     },
     {
-      "count": 43,
+      "count": 45,
       "term": "security",
-      "weight": 1.0
+      "weight": 0.9375
     },
     {
-      "count": 41,
+      "count": 44,
+      "term": "hardware",
+      "weight": 0.9167
+    },
+    {
+      "count": 43,
       "term": "verification",
-      "weight": 0.9535
+      "weight": 0.8958
     },
     {
       "count": 38,
       "term": "ai",
-      "weight": 0.8837
+      "weight": 0.7917
+    },
+    {
+      "count": 38,
+      "term": "linear",
+      "weight": 0.7917
+    },
+    {
+      "count": 38,
+      "term": "models",
+      "weight": 0.7917
     },
     {
       "count": 37,
-      "term": "models",
-      "weight": 0.8605
+      "term": "memory",
+      "weight": 0.7708
+    },
+    {
+      "count": 36,
+      "term": "execution",
+      "weight": 0.75
     },
     {
       "count": 32,
       "term": "agents",
-      "weight": 0.7442
+      "weight": 0.6667
     },
     {
       "count": 32,
       "term": "attack",
-      "weight": 0.7442
+      "weight": 0.6667
+    },
+    {
+      "count": 32,
+      "term": "context",
+      "weight": 0.6667
     },
     {
       "count": 32,
       "term": "evaluation",
-      "weight": 0.7442
+      "weight": 0.6667
+    },
+    {
+      "count": 32,
+      "term": "safety",
+      "weight": 0.6667
     },
     {
       "count": 31,
-      "term": "context",
-      "weight": 0.7209
-    },
-    {
-      "count": 30,
-      "term": "hardware",
-      "weight": 0.6977
-    },
-    {
-      "count": 30,
       "term": "model",
-      "weight": 0.6977
+      "weight": 0.6458
     },
     {
       "count": 30,
-      "term": "safety",
-      "weight": 0.6977
-    },
-    {
-      "count": 28,
       "term": "attacks",
-      "weight": 0.6512
+      "weight": 0.625
+    },
+    {
+      "count": 29,
+      "term": "smt",
+      "weight": 0.6042
     },
     {
       "count": 28,
-      "term": "smt",
-      "weight": 0.6512
+      "term": "software",
+      "weight": 0.5833
+    },
+    {
+      "count": 27,
+      "term": "address",
+      "weight": 0.5625
     },
     {
       "count": 27,
       "term": "multi-turn",
-      "weight": 0.6279
+      "weight": 0.5625
+    },
+    {
+      "count": 26,
+      "term": "not",
+      "weight": 0.5417
     },
     {
       "count": 24,
       "term": "language",
-      "weight": 0.5581
+      "weight": 0.5
     },
     {
-      "count": 24,
-      "term": "not",
-      "weight": 0.5581
+      "count": 23,
+      "term": "analysis",
+      "weight": 0.4792
+    },
+    {
+      "count": 23,
+      "term": "enclave",
+      "weight": 0.4792
     },
     {
       "count": 23,
       "term": "mechanism",
-      "weight": 0.5349
-    },
-    {
-      "count": 23,
-      "term": "memory",
-      "weight": 0.5349
+      "weight": 0.4792
     },
     {
       "count": 23,
       "term": "risk",
-      "weight": 0.5349
+      "weight": 0.4792
     },
     {
       "count": 23,
-      "term": "software",
-      "weight": 0.5349
+      "term": "space",
+      "weight": 0.4792
     },
     {
       "count": 22,
       "term": "agent",
-      "weight": 0.5116
-    },
-    {
-      "count": 22,
-      "term": "analysis",
-      "weight": 0.5116
+      "weight": 0.4583
     },
     {
       "count": 22,
       "term": "llm",
-      "weight": 0.5116
+      "weight": 0.4583
     },
     {
       "count": 22,
       "term": "problem",
-      "weight": 0.5116
-    },
-    {
-      "count": 21,
-      "term": "detection",
-      "weight": 0.4884
-    },
-    {
-      "count": 21,
-      "term": "execution",
-      "weight": 0.4884
-    },
-    {
-      "count": 21,
-      "term": "graph",
-      "weight": 0.4884
-    },
-    {
-      "count": 21,
-      "term": "statement",
-      "weight": 0.4884
-    },
-    {
-      "count": 20,
-      "term": "architecture",
-      "weight": 0.4651
+      "weight": 0.4583
     }
   ]
 }

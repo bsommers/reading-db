@@ -1,35 +1,36 @@
 # Conceptual Taxonomy & OntoLogic Class Hierarchy
 
-- **Total Taxonomy Categories:** 26
+- **Total Taxonomy Categories:** 27
 - **Top-Level Root Domains:** 5
-- **Canonical Concepts Cataloged:** 31
-- **Total Corpus Documents Indexed:** 47
+- **Canonical Concepts Cataloged:** 32
+- **Total Corpus Documents Indexed:** 55
 
 ## 1. Taxonomy Hierarchy Summary Table
 
 | Category Path | OntoLogic Class URI | Technology Area | Linked Docs | Linked Chunks |
 |---|---|---|---|---|
-| **Hardware & Semiconductor Systems** | `ontologic:HardwareSemiconductorSystems` | Semiconductor Engineering | 30 | 72 |
+| **Hardware & Semiconductor Systems** | `ontologic:HardwareSemiconductorSystems` | Semiconductor Engineering | 38 | 92 |
 | **Hardware & Semiconductor Systems > AI Accelerators** | `ontologic:AIAccelerators` | AI Hardware Accelerators | 21 | 37 |
 | **Hardware & Semiconductor Systems > AI Accelerators > Built-in Performance Monitors** | `ontologic:BuiltInPerformanceMonitors` | On-Chip Telemetry & Runtime Monitoring | 10 | 20 |
-| **Hardware & Semiconductor Systems > Memory & Interconnects** | `ontologic:MemoryAndInterconnects` | Memory Subsystems & Chiplets | 15 | 23 |
-| **Hardware & Semiconductor Systems > EDA & Hardware Verification** | `ontologic:EDAAndVerification` | Electronic Design Automation | 22 | 49 |
-| **Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions** | `ontologic:FormalVerificationLanguages` | Formal Verification & Specification Languages | 13 | 31 |
-| **Security & Resilience** | `ontologic:SecurityAndResilience` | Hardware & AI Security | 39 | 96 |
-| **Security & Resilience > Hardware Fault Attacks > Bit-Flip Attacks** | `ontologic:BitFlipAttacks` | Adversarial Fault Injection | 7 | 15 |
-| **Security & Resilience > Memory Safety & Software Capabilities** | `ontologic:MemorySafetySoftwareCapabilities` | Language & Runtime Memory Safety | 13 | 21 |
-| **Security & Resilience > Runtime Fault Localization & Recovery** | `ontologic:RuntimeFaultLocalizationRecovery` | Self-Healing & Fault-Tolerant AI | 12 | 16 |
-| **Artificial Intelligence & Machine Learning** | `ontologic:ArtificialIntelligenceMachineLearning` | AI & Machine Learning | 33 | 80 |
-| **Artificial Intelligence & Machine Learning > Deep Neural Networks** | `ontologic:DeepNeuralNetworks` | Deep Learning Architectures | 31 | 60 |
-| **Artificial Intelligence & Machine Learning > Deep Neural Networks > Language Models & Efficient Attention** | `ontologic:LanguageModelsAndAttention` | Large Language Models & Attention Mechanisms | 4 | 7 |
+| **Hardware & Semiconductor Systems > Memory & Interconnects** | `ontologic:MemoryAndInterconnects` | Memory Subsystems & Chiplets | 22 | 40 |
+| **Hardware & Semiconductor Systems > EDA & Hardware Verification** | `ontologic:EDAAndVerification` | Electronic Design Automation | 23 | 54 |
+| **Hardware & Semiconductor Systems > EDA & Hardware Verification > Formal Verification Languages & Assertions** | `ontologic:FormalVerificationLanguages` | Formal Verification & Specification Languages | 14 | 32 |
+| **Security & Resilience** | `ontologic:SecurityAndResilience` | Hardware & AI Security | 47 | 123 |
+| **Security & Resilience > Hardware Fault Attacks > Bit-Flip Attacks** | `ontologic:BitFlipAttacks` | Adversarial Fault Injection | 8 | 16 |
+| **Security & Resilience > Memory Safety & Software Capabilities** | `ontologic:MemorySafetySoftwareCapabilities` | Language & Runtime Memory Safety | 18 | 27 |
+| **Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS** | `ontologic:SecureEnclavesLinearCapabilitiesAndBlastChamberOS` | Secure Enclaves, SASOS & Blast-Chamber Isolation | 9 | 27 |
+| **Security & Resilience > Runtime Fault Localization & Recovery** | `ontologic:RuntimeFaultLocalizationRecovery` | Self-Healing & Fault-Tolerant AI | 16 | 21 |
+| **Artificial Intelligence & Machine Learning** | `ontologic:ArtificialIntelligenceMachineLearning` | AI & Machine Learning | 40 | 93 |
+| **Artificial Intelligence & Machine Learning > Deep Neural Networks** | `ontologic:DeepNeuralNetworks` | Deep Learning Architectures | 37 | 72 |
+| **Artificial Intelligence & Machine Learning > Deep Neural Networks > Language Models & Efficient Attention** | `ontologic:LanguageModelsAndAttention` | Large Language Models & Attention Mechanisms | 10 | 19 |
 | **Artificial Intelligence & Machine Learning > Deep Neural Networks > Novel & State-Space Architectures** | `ontologic:NovelAndStateSpaceArchitectures` | Alternative & State-Space Architectures | 4 | 6 |
 | **Artificial Intelligence & Machine Learning > Deep Neural Networks > Tabular Foundation Models & Synthetic Pretraining** | `ontologic:TabularFoundationModelsAndSyntheticPretraining` | Tabular Foundation Models & Synthetic Data | 2 | 6 |
-| **Artificial Intelligence & Machine Learning > Reasoning, Agents & Retrieval** | `ontologic:ReasoningAgentsAndRetrieval` | Agentic Systems & Reasoning | 20 | 27 |
+| **Artificial Intelligence & Machine Learning > Reasoning, Agents & Retrieval** | `ontologic:ReasoningAgentsAndRetrieval` | Agentic Systems & Reasoning | 22 | 29 |
 | **Artificial Intelligence & Machine Learning > Interpretability, Calibration & Evaluation** | `ontologic:InterpretabilityAndEvaluation` | Mechanistic Interpretability & Model Evaluation | 0 | 0 |
 | **Artificial Intelligence & Machine Learning > Probabilistic, Diffusion & Multimodal Vision** | `ontologic:ProbabilisticDiffusionAndVision` | Multimodal Vision & Probabilistic Generative Models | 3 | 3 |
 | **Security & Resilience > AI Alignment, Guardrails & Agent Security** | `ontologic:AIAlignmentAndAgentSecurity` | AI Alignment & Agentic Security | 17 | 36 |
 | **AI Policy, Governance & Human-AI Systems** | `ontologic:AIPolicyGovernanceAndHumanAI` | AI Governance, Policy & Human-AI Interaction | 3 | 4 |
-| **Formal Methods & Automated Reasoning** | `ontologic:FormalMethodsAutomatedReasoning` | Automated Reasoning & Mathematical Logic | 29 | 65 |
+| **Formal Methods & Automated Reasoning** | `ontologic:FormalMethodsAutomatedReasoning` | Automated Reasoning & Mathematical Logic | 32 | 68 |
 | **Formal Methods & Automated Reasoning > Neuro-Symbolic Deduction & Guardrail Verification** | `ontologic:NeuroSymbolicDeductionAndVerification` | Neuro-Symbolic Logic & Neural Verification | 6 | 17 |
 | **Formal Methods & Automated Reasoning > SAT & SMT Solvers** | `ontologic:SATAndSMTSolvers` | SAT & SMT Decision Procedures | 13 | 22 |
 | **Formal Methods & Automated Reasoning > SAT & SMT Solvers > Software Verification & Symbolic Execution** | `ontologic:SoftwareVerificationSymbolicExecution` | Software Verification & Program Analysis | 6 | 9 |
@@ -44,12 +45,15 @@
 - **Parent Category:** `Root Domain`
 - **Technology Area:** Semiconductor Engineering
 - **Description:** Integrated circuits, semiconductor manufacturing nodes, and hardware architectures.
-- **Linked Documents (30):**
+- **Linked Documents (38):**
   - [`arxiv-1402.4677`](index.html#doc=arxiv-1402.4677) — [MonoSAT: Modulo Theories for Graphs, Networks, and Geometry](https://arxiv.org/abs/1402.4677) (`academic_paper`, status: `read`, priority: `high`)
   - [`arxiv-1507.01763`](index.html#doc=arxiv-1507.01763) — [SAT and SMT-Based Automated Reasoning for Description Logics and Formal Ontologies](https://arxiv.org/abs/1507.01763) (`academic_paper`, status: `to-read`, priority: `high`)
   - [`arxiv-1610.00502`](index.html#doc=arxiv-1610.00502) — [A Survey of Symbolic Execution Techniques for Software Development and Verification](https://arxiv.org/abs/1610.00502) (`academic_paper`, status: `to-read`, priority: `high`)
+  - [`arxiv-1812.09822`](index.html#doc=arxiv-1812.09822) — [MI6: Secure Enclaves in a Speculative Out-of-Order Processor](https://arxiv.org/abs/1812.09822) (`academic_paper`, status: `to-read`, priority: `high`)
   - [`arxiv-2201.04663`](index.html#doc=arxiv-2201.04663) — [cvc5: A Versatile and Industrial-Strength SMT Solver](https://arxiv.org/abs/2201.04663) (`academic_paper`, status: `reading`, priority: `high`)
   - [`arxiv-2208.03699`](index.html#doc=arxiv-2208.03699) — [UCLID5: Multi-Modal Formal Modeling, Verification, and Synthesis](https://arxiv.org/abs/2208.03699) (`academic_paper`, status: `read`, priority: `high`)
+  - [`arxiv-2302.12108`](index.html#doc=arxiv-2302.12108) — [ProSpeCT: Provably Secure Speculation for the Constant-Time Policy](https://arxiv.org/abs/2302.12108) (`academic_paper`, status: `to-read`, priority: `high`)
+  - [`arxiv-2302.13863`](index.html#doc=arxiv-2302.13863) — [Capstone: A Capability-Based Foundation for Trustless Secure Memory Access](https://arxiv.org/abs/2302.13863) (`academic_paper`, status: `to-read`, priority: `high`)
   - [`arxiv-2503.19174`](index.html#doc=arxiv-2503.19174) — [AssertionForge: Enhancing Formal Verification Assertion Generation with Structured Representation of Specifications and RTL](https://arxiv.org/abs/2503.19174) (`academic_paper`, status: `reading`, priority: `high`)
   - [`arxiv-2601.00454`](index.html#doc=arxiv-2601.00454) — [Defensive M2S: Training Guardrail Models on Compressed Multi-turn Conversations](https://arxiv.org/abs/2601.00454) (`academic_paper`, status: `to-read`, priority: `medium`)
   - [`arxiv-2601.17548`](index.html#doc=arxiv-2601.17548) — [Prompt Injection Attacks on Agentic Coding Assistants: A Systematic Analysis of Vulnerabilities in Skills, Tools, and Protocol Ecosystems](https://arxiv.org/abs/2601.17548) (`academic_paper`, status: `to-read`, priority: `high`)
@@ -65,6 +69,7 @@
   - [`arxiv-2609.26751`](index.html#doc=arxiv-2609.26751) — [EquivSVA: A Formally Verified Dataset of Behavioral Assertions Across Equivalent RTL Implementations](https://arxiv.org/abs/2609.26751) (`academic_paper`, status: `to-read`, priority: `medium`)
   - [`arxiv-2610.08739v2`](index.html#doc=arxiv-2610.08739v2) — [BARE-AI: Bit-Flip Attack Resilience in AI Hardware through Built-in Performance Monitors](https://arxiv.org/abs/2610.08739v2) (`academic_paper`, status: `reading`, priority: `high`)
   - [`arxiv-2610.33748`](index.html#doc=arxiv-2610.33748) — [A Rowhammer attack on Fil-C's software capabilities](https://arxiv.org/abs/2610.33748) (`academic_paper`, status: `reading`, priority: `high`)
+  - [`cambridge-2021-cherios-sasos`](index.html#doc=cambridge-2021-cherios-sasos) — [CheriOS: Designing an Untrusted Single-Address-Space Capability Operating System](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-961.pdf) (`academic_paper`, status: `to-read`, priority: `high`)
   - [`note-2026-ai-security-trajectory-monitoring-report`](index.html#doc=note-2026-ai-security-trajectory-monitoring-report) — Personal Research Report: Trajectory Monitoring for Multi-Turn Escalation (Crescendo) and Endpoint AI Agent Security (`note`, status: `read`, priority: `high`)
   - [`note-2026-cross-layer-bitflip-synthesis`](index.html#doc=note-2026-cross-layer-bitflip-synthesis) — [Synthesis Note: Cross-Layer Bit-Flip Resilience Across AI Accelerators and Capability Runtimes](https://github.com/bsommers/reading-db) (`note`, status: `read`, priority: `high`)
   - [`note-2026-kitsumiko-formal-neurosymbolic-bridge`](index.html#doc=note-2026-kitsumiko-formal-neurosymbolic-bridge) — [Synthesis Note: Neuro-Symbolic Deduction, Formal Guardrail Certification, and Hardware-Verified AI (Curated from kitsumiko/papers)](https://github.com/kitsumiko/papers) (`note`, status: `read`, priority: `high`)
@@ -72,9 +77,13 @@
   - [`research-ai-security-endpoint-perspective-and-trackin`](index.html#doc=research-ai-security-endpoint-perspective-and-trackin) — [Research Synthesis: AI security: endpoint perspective, and tracking the trajectory of AI sessions, chats and transactions to detect crescendo and escalation attacks](https://github.com/bsommers/reading-db) (`note`, status: `read`, priority: `high`)
   - [`research-formal-verification-languages-in-chip-and-se`](index.html#doc=research-formal-verification-languages-in-chip-and-se) — [Research Synthesis: Formal verification languages in chip and semiconductor design](https://github.com/bsommers/reading-db) (`note`, status: `read`, priority: `high`)
   - [`research-sat-and-smt-solvers-applications-in-software`](index.html#doc=research-sat-and-smt-solvers-applications-in-software) — [Research Synthesis: SAT and SMT solvers applications in software development, graph analysis, and ontologies](https://github.com/bsommers/reading-db) (`note`, status: `read`, priority: `high`)
+  - [`research-secure-execution-enclaves-linear-address-spa`](index.html#doc=research-secure-execution-enclaves-linear-address-spa) — [Research Synthesis: Secure execution enclaves, linear address space, non-speculative execution in the enclaves, zero-trust blast chambers in a hardened custom operating system](https://github.com/bsommers/reading-db) (`note`, status: `read`, priority: `high`)
   - [`semieng-2026-bare-ai-monitors`](index.html#doc=semieng-2026-bare-ai-monitors) — [On-Chip Monitors Detect Bit-Flip Attacks in AI Accelerators (UF, UT Dallas, RPI)](https://semiengineering.com/on-chip-monitors-detect-bit-flip-attacks-in-ai-accelerators-uf-ut-dallas-rpi/) (`technical_article`, status: `read`, priority: `high`)
   - [`techpaper-2026-eda-formal-monitors`](index.html#doc=techpaper-2026-eda-formal-monitors) — [Pre-Silicon Formal Verification of On-Chip Telemetry Monitors Against Fault Injection](https://arxiv.org/abs/2610.08739v2) (`technical_paper`, status: `to-read`, priority: `medium`)
   - [`techpaper-2026-hbm-chiplet-resilience`](index.html#doc=techpaper-2026-hbm-chiplet-resilience) — [Cross-Layer Resilience for HBM and UCIe Chiplet AI Accelerators Under Targeted Bit-Flip Faults](https://semiengineering.com/) (`technical_paper`, status: `to-read`, priority: `medium`)
+  - [`usenix-2016-sanctum`](index.html#doc=usenix-2016-sanctum) — [Sanctum: Minimal Hardware Extensions for Strong Software Isolation](https://eprint.iacr.org/2015/564) (`academic_paper`, status: `read`, priority: `high`)
+  - [`usenix-osdi20-redleaf`](index.html#doc=usenix-osdi20-redleaf) — [RedLeaf: Isolation and Communication in a Safe Operating System](https://www.usenix.org/conference/osdi20/presentation/narayanan-vikram) (`academic_paper`, status: `to-read`, priority: `high`)
+  - [`usenix-osdi20-theseus`](index.html#doc=usenix-osdi20-theseus) — [Theseus: An Experiment in Operating System Structure and State Management](https://www.usenix.org/conference/osdi20/presentation/boos) (`academic_paper`, status: `to-read`, priority: `high`)
 
 ### AI Accelerators (`ontologic:AIAccelerators`)
 
@@ -129,22 +138,29 @@
 - **Parent Category:** `Hardware & Semiconductor Systems`
 - **Technology Area:** Memory Subsystems & Chiplets
 - **Description:** On-package memory, DRAM/SRAM subsystems, and die-to-die interconnects.
-- **Linked Documents (15):**
+- **Linked Documents (22):**
   - [`arxiv-1610.00502`](index.html#doc=arxiv-1610.00502) — [A Survey of Symbolic Execution Techniques for Software Development and Verification](https://arxiv.org/abs/1610.00502) (`academic_paper`, status: `to-read`, priority: `high`)
+  - [`arxiv-1812.09822`](index.html#doc=arxiv-1812.09822) — [MI6: Secure Enclaves in a Speculative Out-of-Order Processor](https://arxiv.org/abs/1812.09822) (`academic_paper`, status: `to-read`, priority: `high`)
   - [`arxiv-2208.03699`](index.html#doc=arxiv-2208.03699) — [UCLID5: Multi-Modal Formal Modeling, Verification, and Synthesis](https://arxiv.org/abs/2208.03699) (`academic_paper`, status: `read`, priority: `high`)
+  - [`arxiv-2302.12108`](index.html#doc=arxiv-2302.12108) — [ProSpeCT: Provably Secure Speculation for the Constant-Time Policy](https://arxiv.org/abs/2302.12108) (`academic_paper`, status: `to-read`, priority: `high`)
+  - [`arxiv-2302.13863`](index.html#doc=arxiv-2302.13863) — [Capstone: A Capability-Based Foundation for Trustless Secure Memory Access](https://arxiv.org/abs/2302.13863) (`academic_paper`, status: `to-read`, priority: `high`)
   - [`arxiv-2601.00454`](index.html#doc=arxiv-2601.00454) — [Defensive M2S: Training Guardrail Models on Compressed Multi-turn Conversations](https://arxiv.org/abs/2601.00454) (`academic_paper`, status: `to-read`, priority: `medium`)
   - [`arxiv-2603.19163`](index.html#doc=arxiv-2603.19163) — [cuGenOpt: A GPU-Accelerated General-Purpose Metaheuristic Framework for Combinatorial Optimization](https://arxiv.org/abs/2603.19163) (`academic_paper`, status: `to-read`, priority: `medium`)
   - [`arxiv-2604.23100`](index.html#doc=arxiv-2604.23100) — [ProofLoop: From Language to Logic — Bridging LLMs and Formal Representations for RTL Assertion Generation](https://arxiv.org/abs/2604.23100) (`academic_paper`, status: `to-read`, priority: `high`)
   - [`arxiv-2604.23338`](index.html#doc=arxiv-2604.23338) — [A Systematic Survey of Security Threats and Defenses in LLM-Based AI Agents: A Layered Attack Surface Framework](https://arxiv.org/abs/2604.23338) (`academic_paper`, status: `to-read`, priority: `medium`)
   - [`arxiv-2610.08739v2`](index.html#doc=arxiv-2610.08739v2) — [BARE-AI: Bit-Flip Attack Resilience in AI Hardware through Built-in Performance Monitors](https://arxiv.org/abs/2610.08739v2) (`academic_paper`, status: `reading`, priority: `high`)
   - [`arxiv-2610.33748`](index.html#doc=arxiv-2610.33748) — [A Rowhammer attack on Fil-C's software capabilities](https://arxiv.org/abs/2610.33748) (`academic_paper`, status: `reading`, priority: `high`)
+  - [`cambridge-2021-cherios-sasos`](index.html#doc=cambridge-2021-cherios-sasos) — [CheriOS: Designing an Untrusted Single-Address-Space Capability Operating System](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-961.pdf) (`academic_paper`, status: `to-read`, priority: `high`)
   - [`note-2026-ai-security-trajectory-monitoring-report`](index.html#doc=note-2026-ai-security-trajectory-monitoring-report) — Personal Research Report: Trajectory Monitoring for Multi-Turn Escalation (Crescendo) and Endpoint AI Agent Security (`note`, status: `read`, priority: `high`)
   - [`note-2026-cross-layer-bitflip-synthesis`](index.html#doc=note-2026-cross-layer-bitflip-synthesis) — [Synthesis Note: Cross-Layer Bit-Flip Resilience Across AI Accelerators and Capability Runtimes](https://github.com/bsommers/reading-db) (`note`, status: `read`, priority: `high`)
   - [`research-formal-verification-languages-in-chip-and-se`](index.html#doc=research-formal-verification-languages-in-chip-and-se) — [Research Synthesis: Formal verification languages in chip and semiconductor design](https://github.com/bsommers/reading-db) (`note`, status: `read`, priority: `high`)
   - [`research-sat-and-smt-solvers-applications-in-software`](index.html#doc=research-sat-and-smt-solvers-applications-in-software) — [Research Synthesis: SAT and SMT solvers applications in software development, graph analysis, and ontologies](https://github.com/bsommers/reading-db) (`note`, status: `read`, priority: `high`)
+  - [`research-secure-execution-enclaves-linear-address-spa`](index.html#doc=research-secure-execution-enclaves-linear-address-spa) — [Research Synthesis: Secure execution enclaves, linear address space, non-speculative execution in the enclaves, zero-trust blast chambers in a hardened custom operating system](https://github.com/bsommers/reading-db) (`note`, status: `read`, priority: `high`)
   - [`semieng-2026-bare-ai-monitors`](index.html#doc=semieng-2026-bare-ai-monitors) — [On-Chip Monitors Detect Bit-Flip Attacks in AI Accelerators (UF, UT Dallas, RPI)](https://semiengineering.com/on-chip-monitors-detect-bit-flip-attacks-in-ai-accelerators-uf-ut-dallas-rpi/) (`technical_article`, status: `read`, priority: `high`)
   - [`techpaper-2026-eda-formal-monitors`](index.html#doc=techpaper-2026-eda-formal-monitors) — [Pre-Silicon Formal Verification of On-Chip Telemetry Monitors Against Fault Injection](https://arxiv.org/abs/2610.08739v2) (`technical_paper`, status: `to-read`, priority: `medium`)
   - [`techpaper-2026-hbm-chiplet-resilience`](index.html#doc=techpaper-2026-hbm-chiplet-resilience) — [Cross-Layer Resilience for HBM and UCIe Chiplet AI Accelerators Under Targeted Bit-Flip Faults](https://semiengineering.com/) (`technical_paper`, status: `to-read`, priority: `medium`)
+  - [`usenix-2016-sanctum`](index.html#doc=usenix-2016-sanctum) — [Sanctum: Minimal Hardware Extensions for Strong Software Isolation](https://eprint.iacr.org/2015/564) (`academic_paper`, status: `read`, priority: `high`)
+  - [`usenix-osdi20-redleaf`](index.html#doc=usenix-osdi20-redleaf) — [RedLeaf: Isolation and Communication in a Safe Operating System](https://www.usenix.org/conference/osdi20/presentation/narayanan-vikram) (`academic_paper`, status: `to-read`, priority: `high`)
 
 ### EDA & Hardware Verification (`ontologic:EDAAndVerification`)
 
@@ -152,7 +168,7 @@
 - **Parent Category:** `Hardware & Semiconductor Systems`
 - **Technology Area:** Electronic Design Automation
 - **Description:** Electronic design automation, logic synthesis, formal semantics, and verification.
-- **Linked Documents (22):**
+- **Linked Documents (23):**
   - [`arxiv-1402.4677`](index.html#doc=arxiv-1402.4677) — [MonoSAT: Modulo Theories for Graphs, Networks, and Geometry](https://arxiv.org/abs/1402.4677) (`academic_paper`, status: `read`, priority: `high`)
   - [`arxiv-1507.01763`](index.html#doc=arxiv-1507.01763) — [SAT and SMT-Based Automated Reasoning for Description Logics and Formal Ontologies](https://arxiv.org/abs/1507.01763) (`academic_paper`, status: `to-read`, priority: `high`)
   - [`arxiv-1610.00502`](index.html#doc=arxiv-1610.00502) — [A Survey of Symbolic Execution Techniques for Software Development and Verification](https://arxiv.org/abs/1610.00502) (`academic_paper`, status: `to-read`, priority: `high`)
@@ -174,6 +190,7 @@
   - [`research-ai-security-endpoint-perspective-and-trackin`](index.html#doc=research-ai-security-endpoint-perspective-and-trackin) — [Research Synthesis: AI security: endpoint perspective, and tracking the trajectory of AI sessions, chats and transactions to detect crescendo and escalation attacks](https://github.com/bsommers/reading-db) (`note`, status: `read`, priority: `high`)
   - [`research-formal-verification-languages-in-chip-and-se`](index.html#doc=research-formal-verification-languages-in-chip-and-se) — [Research Synthesis: Formal verification languages in chip and semiconductor design](https://github.com/bsommers/reading-db) (`note`, status: `read`, priority: `high`)
   - [`research-sat-and-smt-solvers-applications-in-software`](index.html#doc=research-sat-and-smt-solvers-applications-in-software) — [Research Synthesis: SAT and SMT solvers applications in software development, graph analysis, and ontologies](https://github.com/bsommers/reading-db) (`note`, status: `read`, priority: `high`)
+  - [`research-secure-execution-enclaves-linear-address-spa`](index.html#doc=research-secure-execution-enclaves-linear-address-spa) — [Research Synthesis: Secure execution enclaves, linear address space, non-speculative execution in the enclaves, zero-trust blast chambers in a hardened custom operating system](https://github.com/bsommers/reading-db) (`note`, status: `read`, priority: `high`)
   - [`techpaper-2026-eda-formal-monitors`](index.html#doc=techpaper-2026-eda-formal-monitors) — [Pre-Silicon Formal Verification of On-Chip Telemetry Monitors Against Fault Injection](https://arxiv.org/abs/2610.08739v2) (`technical_paper`, status: `to-read`, priority: `medium`)
 
 ### Formal Verification Languages & Assertions (`ontologic:FormalVerificationLanguages`)
@@ -182,7 +199,7 @@
 - **Parent Category:** `Hardware & Semiconductor Systems > EDA & Hardware Verification`
 - **Technology Area:** Formal Verification & Specification Languages
 - **Description:** Hardware specification, assertion, and formal modeling languages (SVA, PSL, UCLID5, Kami, ChiselFV) and automated assertion synthesis.
-- **Linked Documents (13):**
+- **Linked Documents (14):**
   - [`arxiv-1402.4677`](index.html#doc=arxiv-1402.4677) — [MonoSAT: Modulo Theories for Graphs, Networks, and Geometry](https://arxiv.org/abs/1402.4677) (`academic_paper`, status: `read`, priority: `high`)
   - [`arxiv-1507.01763`](index.html#doc=arxiv-1507.01763) — [SAT and SMT-Based Automated Reasoning for Description Logics and Formal Ontologies](https://arxiv.org/abs/1507.01763) (`academic_paper`, status: `to-read`, priority: `high`)
   - [`arxiv-1610.00502`](index.html#doc=arxiv-1610.00502) — [A Survey of Symbolic Execution Techniques for Software Development and Verification](https://arxiv.org/abs/1610.00502) (`academic_paper`, status: `to-read`, priority: `high`)
@@ -196,6 +213,7 @@
   - [`note-2026-kitsumiko-formal-neurosymbolic-bridge`](index.html#doc=note-2026-kitsumiko-formal-neurosymbolic-bridge) — [Synthesis Note: Neuro-Symbolic Deduction, Formal Guardrail Certification, and Hardware-Verified AI (Curated from kitsumiko/papers)](https://github.com/kitsumiko/papers) (`note`, status: `read`, priority: `high`)
   - [`research-formal-verification-languages-in-chip-and-se`](index.html#doc=research-formal-verification-languages-in-chip-and-se) — [Research Synthesis: Formal verification languages in chip and semiconductor design](https://github.com/bsommers/reading-db) (`note`, status: `read`, priority: `high`)
   - [`research-sat-and-smt-solvers-applications-in-software`](index.html#doc=research-sat-and-smt-solvers-applications-in-software) — [Research Synthesis: SAT and SMT solvers applications in software development, graph analysis, and ontologies](https://github.com/bsommers/reading-db) (`note`, status: `read`, priority: `high`)
+  - [`research-secure-execution-enclaves-linear-address-spa`](index.html#doc=research-secure-execution-enclaves-linear-address-spa) — [Research Synthesis: Secure execution enclaves, linear address space, non-speculative execution in the enclaves, zero-trust blast chambers in a hardened custom operating system](https://github.com/bsommers/reading-db) (`note`, status: `read`, priority: `high`)
 
 ### Security & Resilience (`ontologic:SecurityAndResilience`)
 
@@ -203,9 +221,12 @@
 - **Parent Category:** `Root Domain`
 - **Technology Area:** Hardware & AI Security
 - **Description:** System security, adversarial threat modeling, and fault resilience.
-- **Linked Documents (39):**
+- **Linked Documents (47):**
   - [`arxiv-1610.00502`](index.html#doc=arxiv-1610.00502) — [A Survey of Symbolic Execution Techniques for Software Development and Verification](https://arxiv.org/abs/1610.00502) (`academic_paper`, status: `to-read`, priority: `high`)
+  - [`arxiv-1812.09822`](index.html#doc=arxiv-1812.09822) — [MI6: Secure Enclaves in a Speculative Out-of-Order Processor](https://arxiv.org/abs/1812.09822) (`academic_paper`, status: `to-read`, priority: `high`)
   - [`arxiv-2208.03699`](index.html#doc=arxiv-2208.03699) — [UCLID5: Multi-Modal Formal Modeling, Verification, and Synthesis](https://arxiv.org/abs/2208.03699) (`academic_paper`, status: `read`, priority: `high`)
+  - [`arxiv-2302.12108`](index.html#doc=arxiv-2302.12108) — [ProSpeCT: Provably Secure Speculation for the Constant-Time Policy](https://arxiv.org/abs/2302.12108) (`academic_paper`, status: `to-read`, priority: `high`)
+  - [`arxiv-2302.13863`](index.html#doc=arxiv-2302.13863) — [Capstone: A Capability-Based Foundation for Trustless Secure Memory Access](https://arxiv.org/abs/2302.13863) (`academic_paper`, status: `to-read`, priority: `high`)
   - [`arxiv-2404.01833`](index.html#doc=arxiv-2404.01833) — [Great, Now Write an Article About That: The Crescendo Multi-Turn LLM Jailbreak Attack](https://arxiv.org/abs/2404.01833) (`academic_paper`, status: `to-read`, priority: `high`)
   - [`arxiv-2503.19174`](index.html#doc=arxiv-2503.19174) — [AssertionForge: Enhancing Formal Verification Assertion Generation with Structured Representation of Specifications and RTL](https://arxiv.org/abs/2503.19174) (`academic_paper`, status: `reading`, priority: `high`)
   - [`arxiv-2506.10597`](index.html#doc=arxiv-2506.10597) — [SoK: Evaluating Jailbreak Guardrails for Large Language Models](https://arxiv.org/abs/2506.10597) (`academic_paper`, status: `to-read`, priority: `medium`)
@@ -227,6 +248,7 @@
   - [`arxiv-2609.26751`](index.html#doc=arxiv-2609.26751) — [EquivSVA: A Formally Verified Dataset of Behavioral Assertions Across Equivalent RTL Implementations](https://arxiv.org/abs/2609.26751) (`academic_paper`, status: `to-read`, priority: `medium`)
   - [`arxiv-2610.08739v2`](index.html#doc=arxiv-2610.08739v2) — [BARE-AI: Bit-Flip Attack Resilience in AI Hardware through Built-in Performance Monitors](https://arxiv.org/abs/2610.08739v2) (`academic_paper`, status: `reading`, priority: `high`)
   - [`arxiv-2610.33748`](index.html#doc=arxiv-2610.33748) — [A Rowhammer attack on Fil-C's software capabilities](https://arxiv.org/abs/2610.33748) (`academic_paper`, status: `reading`, priority: `high`)
+  - [`cambridge-2021-cherios-sasos`](index.html#doc=cambridge-2021-cherios-sasos) — [CheriOS: Designing an Untrusted Single-Address-Space Capability Operating System](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-961.pdf) (`academic_paper`, status: `to-read`, priority: `high`)
   - [`note-2026-ai-security-trajectory-monitoring-report`](index.html#doc=note-2026-ai-security-trajectory-monitoring-report) — Personal Research Report: Trajectory Monitoring for Multi-Turn Escalation (Crescendo) and Endpoint AI Agent Security (`note`, status: `read`, priority: `high`)
   - [`note-2026-backslash-agentic-endpoint-security-top7`](index.html#doc=note-2026-backslash-agentic-endpoint-security-top7) — [Top 7 Agentic Endpoint Security Companies CISOs Should Evaluate in 2026 (Backslash Security)](https://www.backslash.security/blog/top-7-agentic-endpoint-security-companies) (`note`, status: `to-read`, priority: `medium`)
   - [`note-2026-cross-layer-bitflip-synthesis`](index.html#doc=note-2026-cross-layer-bitflip-synthesis) — [Synthesis Note: Cross-Layer Bit-Flip Resilience Across AI Accelerators and Capability Runtimes](https://github.com/bsommers/reading-db) (`note`, status: `read`, priority: `high`)
@@ -240,9 +262,13 @@
   - [`research-ai-security-endpoint-perspective-and-trackin`](index.html#doc=research-ai-security-endpoint-perspective-and-trackin) — [Research Synthesis: AI security: endpoint perspective, and tracking the trajectory of AI sessions, chats and transactions to detect crescendo and escalation attacks](https://github.com/bsommers/reading-db) (`note`, status: `read`, priority: `high`)
   - [`research-formal-verification-languages-in-chip-and-se`](index.html#doc=research-formal-verification-languages-in-chip-and-se) — [Research Synthesis: Formal verification languages in chip and semiconductor design](https://github.com/bsommers/reading-db) (`note`, status: `read`, priority: `high`)
   - [`research-sat-and-smt-solvers-applications-in-software`](index.html#doc=research-sat-and-smt-solvers-applications-in-software) — [Research Synthesis: SAT and SMT solvers applications in software development, graph analysis, and ontologies](https://github.com/bsommers/reading-db) (`note`, status: `read`, priority: `high`)
+  - [`research-secure-execution-enclaves-linear-address-spa`](index.html#doc=research-secure-execution-enclaves-linear-address-spa) — [Research Synthesis: Secure execution enclaves, linear address space, non-speculative execution in the enclaves, zero-trust blast chambers in a hardened custom operating system](https://github.com/bsommers/reading-db) (`note`, status: `read`, priority: `high`)
   - [`semieng-2026-bare-ai-monitors`](index.html#doc=semieng-2026-bare-ai-monitors) — [On-Chip Monitors Detect Bit-Flip Attacks in AI Accelerators (UF, UT Dallas, RPI)](https://semiengineering.com/on-chip-monitors-detect-bit-flip-attacks-in-ai-accelerators-uf-ut-dallas-rpi/) (`technical_article`, status: `read`, priority: `high`)
   - [`techpaper-2026-eda-formal-monitors`](index.html#doc=techpaper-2026-eda-formal-monitors) — [Pre-Silicon Formal Verification of On-Chip Telemetry Monitors Against Fault Injection](https://arxiv.org/abs/2610.08739v2) (`technical_paper`, status: `to-read`, priority: `medium`)
   - [`techpaper-2026-hbm-chiplet-resilience`](index.html#doc=techpaper-2026-hbm-chiplet-resilience) — [Cross-Layer Resilience for HBM and UCIe Chiplet AI Accelerators Under Targeted Bit-Flip Faults](https://semiengineering.com/) (`technical_paper`, status: `to-read`, priority: `medium`)
+  - [`usenix-2016-sanctum`](index.html#doc=usenix-2016-sanctum) — [Sanctum: Minimal Hardware Extensions for Strong Software Isolation](https://eprint.iacr.org/2015/564) (`academic_paper`, status: `read`, priority: `high`)
+  - [`usenix-osdi20-redleaf`](index.html#doc=usenix-osdi20-redleaf) — [RedLeaf: Isolation and Communication in a Safe Operating System](https://www.usenix.org/conference/osdi20/presentation/narayanan-vikram) (`academic_paper`, status: `to-read`, priority: `high`)
+  - [`usenix-osdi20-theseus`](index.html#doc=usenix-osdi20-theseus) — [Theseus: An Experiment in Operating System Structure and State Management](https://www.usenix.org/conference/osdi20/presentation/boos) (`academic_paper`, status: `to-read`, priority: `high`)
 
 ### Bit-Flip Attacks (`ontologic:BitFlipAttacks`)
 
@@ -250,11 +276,12 @@
 - **Parent Category:** `Security & Resilience`
 - **Technology Area:** Adversarial Fault Injection
 - **Description:** Memory-level bit-flip perturbations (including Rowhammer) that corrupt weights or pointer metadata.
-- **Linked Documents (7):**
+- **Linked Documents (8):**
   - [`arxiv-2610.08739v2`](index.html#doc=arxiv-2610.08739v2) — [BARE-AI: Bit-Flip Attack Resilience in AI Hardware through Built-in Performance Monitors](https://arxiv.org/abs/2610.08739v2) (`academic_paper`, status: `reading`, priority: `high`)
   - [`arxiv-2610.33748`](index.html#doc=arxiv-2610.33748) — [A Rowhammer attack on Fil-C's software capabilities](https://arxiv.org/abs/2610.33748) (`academic_paper`, status: `reading`, priority: `high`)
   - [`note-2026-cross-layer-bitflip-synthesis`](index.html#doc=note-2026-cross-layer-bitflip-synthesis) — [Synthesis Note: Cross-Layer Bit-Flip Resilience Across AI Accelerators and Capability Runtimes](https://github.com/bsommers/reading-db) (`note`, status: `read`, priority: `high`)
   - [`research-formal-verification-languages-in-chip-and-se`](index.html#doc=research-formal-verification-languages-in-chip-and-se) — [Research Synthesis: Formal verification languages in chip and semiconductor design](https://github.com/bsommers/reading-db) (`note`, status: `read`, priority: `high`)
+  - [`research-secure-execution-enclaves-linear-address-spa`](index.html#doc=research-secure-execution-enclaves-linear-address-spa) — [Research Synthesis: Secure execution enclaves, linear address space, non-speculative execution in the enclaves, zero-trust blast chambers in a hardened custom operating system](https://github.com/bsommers/reading-db) (`note`, status: `read`, priority: `high`)
   - [`semieng-2026-bare-ai-monitors`](index.html#doc=semieng-2026-bare-ai-monitors) — [On-Chip Monitors Detect Bit-Flip Attacks in AI Accelerators (UF, UT Dallas, RPI)](https://semiengineering.com/on-chip-monitors-detect-bit-flip-attacks-in-ai-accelerators-uf-ut-dallas-rpi/) (`technical_article`, status: `read`, priority: `high`)
   - [`techpaper-2026-eda-formal-monitors`](index.html#doc=techpaper-2026-eda-formal-monitors) — [Pre-Silicon Formal Verification of On-Chip Telemetry Monitors Against Fault Injection](https://arxiv.org/abs/2610.08739v2) (`technical_paper`, status: `to-read`, priority: `medium`)
   - [`techpaper-2026-hbm-chiplet-resilience`](index.html#doc=techpaper-2026-hbm-chiplet-resilience) — [Cross-Layer Resilience for HBM and UCIe Chiplet AI Accelerators Under Targeted Bit-Flip Faults](https://semiengineering.com/) (`technical_paper`, status: `to-read`, priority: `medium`)
@@ -265,20 +292,42 @@
 - **Parent Category:** `Security & Resilience`
 - **Technology Area:** Language & Runtime Memory Safety
 - **Description:** Compiler and runtime memory-safety mechanisms, capability pointers, and bounds metadata.
-- **Linked Documents (13):**
+- **Linked Documents (18):**
   - [`arxiv-1610.00502`](index.html#doc=arxiv-1610.00502) — [A Survey of Symbolic Execution Techniques for Software Development and Verification](https://arxiv.org/abs/1610.00502) (`academic_paper`, status: `to-read`, priority: `high`)
   - [`arxiv-2208.03699`](index.html#doc=arxiv-2208.03699) — [UCLID5: Multi-Modal Formal Modeling, Verification, and Synthesis](https://arxiv.org/abs/2208.03699) (`academic_paper`, status: `read`, priority: `high`)
+  - [`arxiv-2302.13863`](index.html#doc=arxiv-2302.13863) — [Capstone: A Capability-Based Foundation for Trustless Secure Memory Access](https://arxiv.org/abs/2302.13863) (`academic_paper`, status: `to-read`, priority: `high`)
   - [`arxiv-2503.19174`](index.html#doc=arxiv-2503.19174) — [AssertionForge: Enhancing Formal Verification Assertion Generation with Structured Representation of Specifications and RTL](https://arxiv.org/abs/2503.19174) (`academic_paper`, status: `reading`, priority: `high`)
   - [`arxiv-2602.16935`](index.html#doc=arxiv-2602.16935) — [DeepContext: Stateful Real-Time Detection of Multi-Turn Adversarial Intent Drift in LLMs](https://arxiv.org/abs/2602.16935) (`academic_paper`, status: `to-read`, priority: `high`)
   - [`arxiv-2604.23338`](index.html#doc=arxiv-2604.23338) — [A Systematic Survey of Security Threats and Defenses in LLM-Based AI Agents: A Layered Attack Surface Framework](https://arxiv.org/abs/2604.23338) (`academic_paper`, status: `to-read`, priority: `medium`)
   - [`arxiv-2606.01738`](index.html#doc=arxiv-2606.01738) — [THRD: A Training-Free Multi-Turn Defense Framework for Jailbreak Attacks on Large Language Models](https://arxiv.org/abs/2606.01738) (`academic_paper`, status: `to-read`, priority: `high`)
   - [`arxiv-2609.26751`](index.html#doc=arxiv-2609.26751) — [EquivSVA: A Formally Verified Dataset of Behavioral Assertions Across Equivalent RTL Implementations](https://arxiv.org/abs/2609.26751) (`academic_paper`, status: `to-read`, priority: `medium`)
   - [`arxiv-2610.33748`](index.html#doc=arxiv-2610.33748) — [A Rowhammer attack on Fil-C's software capabilities](https://arxiv.org/abs/2610.33748) (`academic_paper`, status: `reading`, priority: `high`)
+  - [`cambridge-2021-cherios-sasos`](index.html#doc=cambridge-2021-cherios-sasos) — [CheriOS: Designing an Untrusted Single-Address-Space Capability Operating System](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-961.pdf) (`academic_paper`, status: `to-read`, priority: `high`)
   - [`note-2026-cross-layer-bitflip-synthesis`](index.html#doc=note-2026-cross-layer-bitflip-synthesis) — [Synthesis Note: Cross-Layer Bit-Flip Resilience Across AI Accelerators and Capability Runtimes](https://github.com/bsommers/reading-db) (`note`, status: `read`, priority: `high`)
   - [`research-ai-security-endpoint-perspective-and-trackin`](index.html#doc=research-ai-security-endpoint-perspective-and-trackin) — [Research Synthesis: AI security: endpoint perspective, and tracking the trajectory of AI sessions, chats and transactions to detect crescendo and escalation attacks](https://github.com/bsommers/reading-db) (`note`, status: `read`, priority: `high`)
   - [`research-formal-verification-languages-in-chip-and-se`](index.html#doc=research-formal-verification-languages-in-chip-and-se) — [Research Synthesis: Formal verification languages in chip and semiconductor design](https://github.com/bsommers/reading-db) (`note`, status: `read`, priority: `high`)
   - [`research-sat-and-smt-solvers-applications-in-software`](index.html#doc=research-sat-and-smt-solvers-applications-in-software) — [Research Synthesis: SAT and SMT solvers applications in software development, graph analysis, and ontologies](https://github.com/bsommers/reading-db) (`note`, status: `read`, priority: `high`)
+  - [`research-secure-execution-enclaves-linear-address-spa`](index.html#doc=research-secure-execution-enclaves-linear-address-spa) — [Research Synthesis: Secure execution enclaves, linear address space, non-speculative execution in the enclaves, zero-trust blast chambers in a hardened custom operating system](https://github.com/bsommers/reading-db) (`note`, status: `read`, priority: `high`)
   - [`techpaper-2026-hbm-chiplet-resilience`](index.html#doc=techpaper-2026-hbm-chiplet-resilience) — [Cross-Layer Resilience for HBM and UCIe Chiplet AI Accelerators Under Targeted Bit-Flip Faults](https://semiengineering.com/) (`technical_paper`, status: `to-read`, priority: `medium`)
+  - [`usenix-2016-sanctum`](index.html#doc=usenix-2016-sanctum) — [Sanctum: Minimal Hardware Extensions for Strong Software Isolation](https://eprint.iacr.org/2015/564) (`academic_paper`, status: `read`, priority: `high`)
+  - [`usenix-osdi20-redleaf`](index.html#doc=usenix-osdi20-redleaf) — [RedLeaf: Isolation and Communication in a Safe Operating System](https://www.usenix.org/conference/osdi20/presentation/narayanan-vikram) (`academic_paper`, status: `to-read`, priority: `high`)
+
+### Secure Enclaves, Linear Capabilities & Blast-Chamber OS (`ontologic:SecureEnclavesLinearCapabilitiesAndBlastChamberOS`)
+
+- **Full Hierarchy Path:** `Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS`
+- **Parent Category:** `Security & Resilience`
+- **Technology Area:** Secure Enclaves, SASOS & Blast-Chamber Isolation
+- **Description:** Hardware-isolated execution enclaves, non-speculative enclave execution (MI6, ProSpeCT), linear capability single-address-space OS (Capstone, CheriOS), and zero-trust blast-chamber operating systems (RedLeaf, Theseus).
+- **Linked Documents (9):**
+  - [`arxiv-1812.09822`](index.html#doc=arxiv-1812.09822) — [MI6: Secure Enclaves in a Speculative Out-of-Order Processor](https://arxiv.org/abs/1812.09822) (`academic_paper`, status: `to-read`, priority: `high`)
+  - [`arxiv-2208.03699`](index.html#doc=arxiv-2208.03699) — [UCLID5: Multi-Modal Formal Modeling, Verification, and Synthesis](https://arxiv.org/abs/2208.03699) (`academic_paper`, status: `read`, priority: `high`)
+  - [`arxiv-2302.12108`](index.html#doc=arxiv-2302.12108) — [ProSpeCT: Provably Secure Speculation for the Constant-Time Policy](https://arxiv.org/abs/2302.12108) (`academic_paper`, status: `to-read`, priority: `high`)
+  - [`arxiv-2302.13863`](index.html#doc=arxiv-2302.13863) — [Capstone: A Capability-Based Foundation for Trustless Secure Memory Access](https://arxiv.org/abs/2302.13863) (`academic_paper`, status: `to-read`, priority: `high`)
+  - [`cambridge-2021-cherios-sasos`](index.html#doc=cambridge-2021-cherios-sasos) — [CheriOS: Designing an Untrusted Single-Address-Space Capability Operating System](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-961.pdf) (`academic_paper`, status: `to-read`, priority: `high`)
+  - [`research-secure-execution-enclaves-linear-address-spa`](index.html#doc=research-secure-execution-enclaves-linear-address-spa) — [Research Synthesis: Secure execution enclaves, linear address space, non-speculative execution in the enclaves, zero-trust blast chambers in a hardened custom operating system](https://github.com/bsommers/reading-db) (`note`, status: `read`, priority: `high`)
+  - [`usenix-2016-sanctum`](index.html#doc=usenix-2016-sanctum) — [Sanctum: Minimal Hardware Extensions for Strong Software Isolation](https://eprint.iacr.org/2015/564) (`academic_paper`, status: `read`, priority: `high`)
+  - [`usenix-osdi20-redleaf`](index.html#doc=usenix-osdi20-redleaf) — [RedLeaf: Isolation and Communication in a Safe Operating System](https://www.usenix.org/conference/osdi20/presentation/narayanan-vikram) (`academic_paper`, status: `to-read`, priority: `high`)
+  - [`usenix-osdi20-theseus`](index.html#doc=usenix-osdi20-theseus) — [Theseus: An Experiment in Operating System Structure and State Management](https://www.usenix.org/conference/osdi20/presentation/boos) (`academic_paper`, status: `to-read`, priority: `high`)
 
 ### Runtime Fault Localization & Recovery (`ontologic:RuntimeFaultLocalizationRecovery`)
 
@@ -286,7 +335,7 @@
 - **Parent Category:** `Security & Resilience`
 - **Technology Area:** Self-Healing & Fault-Tolerant AI
 - **Description:** Online anomaly localization and statistical weight repair without full model retraining.
-- **Linked Documents (12):**
+- **Linked Documents (16):**
   - [`arxiv-1610.00502`](index.html#doc=arxiv-1610.00502) — [A Survey of Symbolic Execution Techniques for Software Development and Verification](https://arxiv.org/abs/1610.00502) (`academic_paper`, status: `to-read`, priority: `high`)
   - [`arxiv-2404.01833`](index.html#doc=arxiv-2404.01833) — [Great, Now Write an Article About That: The Crescendo Multi-Turn LLM Jailbreak Attack](https://arxiv.org/abs/2404.01833) (`academic_paper`, status: `to-read`, priority: `high`)
   - [`arxiv-2508.00500`](index.html#doc=arxiv-2508.00500) — [ProbGuard: Proactive Runtime Monitoring for LLM Agent Safety via Probabilistic Prediction](https://arxiv.org/abs/2508.00500) (`academic_paper`, status: `to-read`, priority: `medium`)
@@ -296,9 +345,13 @@
   - [`arxiv-2607.19356`](index.html#doc=arxiv-2607.19356) — [NEXUS: Structured Runtime Safety for Tool-Using LLM Agents](https://arxiv.org/abs/2607.19356) (`academic_paper`, status: `to-read`, priority: `high`)
   - [`arxiv-2610.08739v2`](index.html#doc=arxiv-2610.08739v2) — [BARE-AI: Bit-Flip Attack Resilience in AI Hardware through Built-in Performance Monitors](https://arxiv.org/abs/2610.08739v2) (`academic_paper`, status: `reading`, priority: `high`)
   - [`note-2026-cross-layer-bitflip-synthesis`](index.html#doc=note-2026-cross-layer-bitflip-synthesis) — [Synthesis Note: Cross-Layer Bit-Flip Resilience Across AI Accelerators and Capability Runtimes](https://github.com/bsommers/reading-db) (`note`, status: `read`, priority: `high`)
+  - [`research-secure-execution-enclaves-linear-address-spa`](index.html#doc=research-secure-execution-enclaves-linear-address-spa) — [Research Synthesis: Secure execution enclaves, linear address space, non-speculative execution in the enclaves, zero-trust blast chambers in a hardened custom operating system](https://github.com/bsommers/reading-db) (`note`, status: `read`, priority: `high`)
   - [`semieng-2026-bare-ai-monitors`](index.html#doc=semieng-2026-bare-ai-monitors) — [On-Chip Monitors Detect Bit-Flip Attacks in AI Accelerators (UF, UT Dallas, RPI)](https://semiengineering.com/on-chip-monitors-detect-bit-flip-attacks-in-ai-accelerators-uf-ut-dallas-rpi/) (`technical_article`, status: `read`, priority: `high`)
   - [`techpaper-2026-eda-formal-monitors`](index.html#doc=techpaper-2026-eda-formal-monitors) — [Pre-Silicon Formal Verification of On-Chip Telemetry Monitors Against Fault Injection](https://arxiv.org/abs/2610.08739v2) (`technical_paper`, status: `to-read`, priority: `medium`)
   - [`techpaper-2026-hbm-chiplet-resilience`](index.html#doc=techpaper-2026-hbm-chiplet-resilience) — [Cross-Layer Resilience for HBM and UCIe Chiplet AI Accelerators Under Targeted Bit-Flip Faults](https://semiengineering.com/) (`technical_paper`, status: `to-read`, priority: `medium`)
+  - [`usenix-2016-sanctum`](index.html#doc=usenix-2016-sanctum) — [Sanctum: Minimal Hardware Extensions for Strong Software Isolation](https://eprint.iacr.org/2015/564) (`academic_paper`, status: `read`, priority: `high`)
+  - [`usenix-osdi20-redleaf`](index.html#doc=usenix-osdi20-redleaf) — [RedLeaf: Isolation and Communication in a Safe Operating System](https://www.usenix.org/conference/osdi20/presentation/narayanan-vikram) (`academic_paper`, status: `to-read`, priority: `high`)
+  - [`usenix-osdi20-theseus`](index.html#doc=usenix-osdi20-theseus) — [Theseus: An Experiment in Operating System Structure and State Management](https://www.usenix.org/conference/osdi20/presentation/boos) (`academic_paper`, status: `to-read`, priority: `high`)
 
 ### Artificial Intelligence & Machine Learning (`ontologic:ArtificialIntelligenceMachineLearning`)
 
@@ -306,8 +359,11 @@
 - **Parent Category:** `Root Domain`
 - **Technology Area:** AI & Machine Learning
 - **Description:** Machine learning models, training/inference pipelines, and statistical algorithms.
-- **Linked Documents (33):**
+- **Linked Documents (40):**
   - [`amazon-science-2026-mitra-v2-tabular-foundation-models`](index.html#doc=amazon-science-2026-mitra-v2-tabular-foundation-models) — [Mitra v2: Scaling synthetic pretraining for tabular foundation models](https://www.amazon.science/blog/mitra-v2-scaling-synthetic-pretraining-for-tabular-foundation-models) (`technical_article`, status: `to-read`, priority: `high`)
+  - [`arxiv-1812.09822`](index.html#doc=arxiv-1812.09822) — [MI6: Secure Enclaves in a Speculative Out-of-Order Processor](https://arxiv.org/abs/1812.09822) (`academic_paper`, status: `to-read`, priority: `high`)
+  - [`arxiv-2302.12108`](index.html#doc=arxiv-2302.12108) — [ProSpeCT: Provably Secure Speculation for the Constant-Time Policy](https://arxiv.org/abs/2302.12108) (`academic_paper`, status: `to-read`, priority: `high`)
+  - [`arxiv-2302.13863`](index.html#doc=arxiv-2302.13863) — [Capstone: A Capability-Based Foundation for Trustless Secure Memory Access](https://arxiv.org/abs/2302.13863) (`academic_paper`, status: `to-read`, priority: `high`)
   - [`arxiv-2404.01833`](index.html#doc=arxiv-2404.01833) — [Great, Now Write an Article About That: The Crescendo Multi-Turn LLM Jailbreak Attack](https://arxiv.org/abs/2404.01833) (`academic_paper`, status: `to-read`, priority: `high`)
   - [`arxiv-2503.19174`](index.html#doc=arxiv-2503.19174) — [AssertionForge: Enhancing Formal Verification Assertion Generation with Structured Representation of Specifications and RTL](https://arxiv.org/abs/2503.19174) (`academic_paper`, status: `reading`, priority: `high`)
   - [`arxiv-2506.10597`](index.html#doc=arxiv-2506.10597) — [SoK: Evaluating Jailbreak Guardrails for Large Language Models](https://arxiv.org/abs/2506.10597) (`academic_paper`, status: `to-read`, priority: `medium`)
@@ -330,6 +386,7 @@
   - [`arxiv-2609.04540`](index.html#doc=arxiv-2609.04540) — [Mitra-v2 Technical Report: Scaling Synthetic Pretraining for Tabular Foundation Models](https://arxiv.org/abs/2609.04540) (`academic_paper`, status: `to-read`, priority: `high`)
   - [`arxiv-2609.26751`](index.html#doc=arxiv-2609.26751) — [EquivSVA: A Formally Verified Dataset of Behavioral Assertions Across Equivalent RTL Implementations](https://arxiv.org/abs/2609.26751) (`academic_paper`, status: `to-read`, priority: `medium`)
   - [`arxiv-2610.08739v2`](index.html#doc=arxiv-2610.08739v2) — [BARE-AI: Bit-Flip Attack Resilience in AI Hardware through Built-in Performance Monitors](https://arxiv.org/abs/2610.08739v2) (`academic_paper`, status: `reading`, priority: `high`)
+  - [`cambridge-2021-cherios-sasos`](index.html#doc=cambridge-2021-cherios-sasos) — [CheriOS: Designing an Untrusted Single-Address-Space Capability Operating System](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-961.pdf) (`academic_paper`, status: `to-read`, priority: `high`)
   - [`note-2026-ai-security-trajectory-monitoring-report`](index.html#doc=note-2026-ai-security-trajectory-monitoring-report) — Personal Research Report: Trajectory Monitoring for Multi-Turn Escalation (Crescendo) and Endpoint AI Agent Security (`note`, status: `read`, priority: `high`)
   - [`note-2026-backslash-agentic-endpoint-security-top7`](index.html#doc=note-2026-backslash-agentic-endpoint-security-top7) — [Top 7 Agentic Endpoint Security Companies CISOs Should Evaluate in 2026 (Backslash Security)](https://www.backslash.security/blog/top-7-agentic-endpoint-security-companies) (`note`, status: `to-read`, priority: `medium`)
   - [`note-2026-cross-layer-bitflip-synthesis`](index.html#doc=note-2026-cross-layer-bitflip-synthesis) — [Synthesis Note: Cross-Layer Bit-Flip Resilience Across AI Accelerators and Capability Runtimes](https://github.com/bsommers/reading-db) (`note`, status: `read`, priority: `high`)
@@ -337,9 +394,12 @@
   - [`openreview-sec-bench-2025`](index.html#doc=openreview-sec-bench-2025) — [SEC-bench: Automated Benchmarking of LLM Agents on Real-World Software Security Tasks](https://openreview.net/pdf?id=QQhQIqons0) (`academic_paper`, status: `to-read`, priority: `high`)
   - [`research-ai-security-endpoint-perspective-and-trackin`](index.html#doc=research-ai-security-endpoint-perspective-and-trackin) — [Research Synthesis: AI security: endpoint perspective, and tracking the trajectory of AI sessions, chats and transactions to detect crescendo and escalation attacks](https://github.com/bsommers/reading-db) (`note`, status: `read`, priority: `high`)
   - [`research-formal-verification-languages-in-chip-and-se`](index.html#doc=research-formal-verification-languages-in-chip-and-se) — [Research Synthesis: Formal verification languages in chip and semiconductor design](https://github.com/bsommers/reading-db) (`note`, status: `read`, priority: `high`)
+  - [`research-secure-execution-enclaves-linear-address-spa`](index.html#doc=research-secure-execution-enclaves-linear-address-spa) — [Research Synthesis: Secure execution enclaves, linear address space, non-speculative execution in the enclaves, zero-trust blast chambers in a hardened custom operating system](https://github.com/bsommers/reading-db) (`note`, status: `read`, priority: `high`)
   - [`semieng-2026-bare-ai-monitors`](index.html#doc=semieng-2026-bare-ai-monitors) — [On-Chip Monitors Detect Bit-Flip Attacks in AI Accelerators (UF, UT Dallas, RPI)](https://semiengineering.com/on-chip-monitors-detect-bit-flip-attacks-in-ai-accelerators-uf-ut-dallas-rpi/) (`technical_article`, status: `read`, priority: `high`)
   - [`techpaper-2026-eda-formal-monitors`](index.html#doc=techpaper-2026-eda-formal-monitors) — [Pre-Silicon Formal Verification of On-Chip Telemetry Monitors Against Fault Injection](https://arxiv.org/abs/2610.08739v2) (`technical_paper`, status: `to-read`, priority: `medium`)
   - [`techpaper-2026-hbm-chiplet-resilience`](index.html#doc=techpaper-2026-hbm-chiplet-resilience) — [Cross-Layer Resilience for HBM and UCIe Chiplet AI Accelerators Under Targeted Bit-Flip Faults](https://semiengineering.com/) (`technical_paper`, status: `to-read`, priority: `medium`)
+  - [`usenix-osdi20-redleaf`](index.html#doc=usenix-osdi20-redleaf) — [RedLeaf: Isolation and Communication in a Safe Operating System](https://www.usenix.org/conference/osdi20/presentation/narayanan-vikram) (`academic_paper`, status: `to-read`, priority: `high`)
+  - [`usenix-osdi20-theseus`](index.html#doc=usenix-osdi20-theseus) — [Theseus: An Experiment in Operating System Structure and State Management](https://www.usenix.org/conference/osdi20/presentation/boos) (`academic_paper`, status: `to-read`, priority: `high`)
 
 ### Deep Neural Networks (`ontologic:DeepNeuralNetworks`)
 
@@ -347,8 +407,10 @@
 - **Parent Category:** `Artificial Intelligence & Machine Learning`
 - **Technology Area:** Deep Learning Architectures
 - **Description:** Deep neural network architectures including CNNs, Vision Transformers, and Large Language Models.
-- **Linked Documents (31):**
+- **Linked Documents (37):**
   - [`amazon-science-2026-mitra-v2-tabular-foundation-models`](index.html#doc=amazon-science-2026-mitra-v2-tabular-foundation-models) — [Mitra v2: Scaling synthetic pretraining for tabular foundation models](https://www.amazon.science/blog/mitra-v2-scaling-synthetic-pretraining-for-tabular-foundation-models) (`technical_article`, status: `to-read`, priority: `high`)
+  - [`arxiv-2302.12108`](index.html#doc=arxiv-2302.12108) — [ProSpeCT: Provably Secure Speculation for the Constant-Time Policy](https://arxiv.org/abs/2302.12108) (`academic_paper`, status: `to-read`, priority: `high`)
+  - [`arxiv-2302.13863`](index.html#doc=arxiv-2302.13863) — [Capstone: A Capability-Based Foundation for Trustless Secure Memory Access](https://arxiv.org/abs/2302.13863) (`academic_paper`, status: `to-read`, priority: `high`)
   - [`arxiv-2404.01833`](index.html#doc=arxiv-2404.01833) — [Great, Now Write an Article About That: The Crescendo Multi-Turn LLM Jailbreak Attack](https://arxiv.org/abs/2404.01833) (`academic_paper`, status: `to-read`, priority: `high`)
   - [`arxiv-2506.10597`](index.html#doc=arxiv-2506.10597) — [SoK: Evaluating Jailbreak Guardrails for Large Language Models](https://arxiv.org/abs/2506.10597) (`academic_paper`, status: `to-read`, priority: `medium`)
   - [`arxiv-2508.00500`](index.html#doc=arxiv-2508.00500) — [ProbGuard: Proactive Runtime Monitoring for LLM Agent Safety via Probabilistic Prediction](https://arxiv.org/abs/2508.00500) (`academic_paper`, status: `to-read`, priority: `medium`)
@@ -370,15 +432,19 @@
   - [`arxiv-2609.04540`](index.html#doc=arxiv-2609.04540) — [Mitra-v2 Technical Report: Scaling Synthetic Pretraining for Tabular Foundation Models](https://arxiv.org/abs/2609.04540) (`academic_paper`, status: `to-read`, priority: `high`)
   - [`arxiv-2609.26751`](index.html#doc=arxiv-2609.26751) — [EquivSVA: A Formally Verified Dataset of Behavioral Assertions Across Equivalent RTL Implementations](https://arxiv.org/abs/2609.26751) (`academic_paper`, status: `to-read`, priority: `medium`)
   - [`arxiv-2610.08739v2`](index.html#doc=arxiv-2610.08739v2) — [BARE-AI: Bit-Flip Attack Resilience in AI Hardware through Built-in Performance Monitors](https://arxiv.org/abs/2610.08739v2) (`academic_paper`, status: `reading`, priority: `high`)
+  - [`cambridge-2021-cherios-sasos`](index.html#doc=cambridge-2021-cherios-sasos) — [CheriOS: Designing an Untrusted Single-Address-Space Capability Operating System](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-961.pdf) (`academic_paper`, status: `to-read`, priority: `high`)
   - [`note-2026-ai-security-trajectory-monitoring-report`](index.html#doc=note-2026-ai-security-trajectory-monitoring-report) — Personal Research Report: Trajectory Monitoring for Multi-Turn Escalation (Crescendo) and Endpoint AI Agent Security (`note`, status: `read`, priority: `high`)
   - [`note-2026-cross-layer-bitflip-synthesis`](index.html#doc=note-2026-cross-layer-bitflip-synthesis) — [Synthesis Note: Cross-Layer Bit-Flip Resilience Across AI Accelerators and Capability Runtimes](https://github.com/bsommers/reading-db) (`note`, status: `read`, priority: `high`)
   - [`note-2026-kitsumiko-formal-neurosymbolic-bridge`](index.html#doc=note-2026-kitsumiko-formal-neurosymbolic-bridge) — [Synthesis Note: Neuro-Symbolic Deduction, Formal Guardrail Certification, and Hardware-Verified AI (Curated from kitsumiko/papers)](https://github.com/kitsumiko/papers) (`note`, status: `read`, priority: `high`)
   - [`openreview-sec-bench-2025`](index.html#doc=openreview-sec-bench-2025) — [SEC-bench: Automated Benchmarking of LLM Agents on Real-World Software Security Tasks](https://openreview.net/pdf?id=QQhQIqons0) (`academic_paper`, status: `to-read`, priority: `high`)
   - [`research-ai-security-endpoint-perspective-and-trackin`](index.html#doc=research-ai-security-endpoint-perspective-and-trackin) — [Research Synthesis: AI security: endpoint perspective, and tracking the trajectory of AI sessions, chats and transactions to detect crescendo and escalation attacks](https://github.com/bsommers/reading-db) (`note`, status: `read`, priority: `high`)
   - [`research-formal-verification-languages-in-chip-and-se`](index.html#doc=research-formal-verification-languages-in-chip-and-se) — [Research Synthesis: Formal verification languages in chip and semiconductor design](https://github.com/bsommers/reading-db) (`note`, status: `read`, priority: `high`)
+  - [`research-secure-execution-enclaves-linear-address-spa`](index.html#doc=research-secure-execution-enclaves-linear-address-spa) — [Research Synthesis: Secure execution enclaves, linear address space, non-speculative execution in the enclaves, zero-trust blast chambers in a hardened custom operating system](https://github.com/bsommers/reading-db) (`note`, status: `read`, priority: `high`)
   - [`semieng-2026-bare-ai-monitors`](index.html#doc=semieng-2026-bare-ai-monitors) — [On-Chip Monitors Detect Bit-Flip Attacks in AI Accelerators (UF, UT Dallas, RPI)](https://semiengineering.com/on-chip-monitors-detect-bit-flip-attacks-in-ai-accelerators-uf-ut-dallas-rpi/) (`technical_article`, status: `read`, priority: `high`)
   - [`techpaper-2026-eda-formal-monitors`](index.html#doc=techpaper-2026-eda-formal-monitors) — [Pre-Silicon Formal Verification of On-Chip Telemetry Monitors Against Fault Injection](https://arxiv.org/abs/2610.08739v2) (`technical_paper`, status: `to-read`, priority: `medium`)
   - [`techpaper-2026-hbm-chiplet-resilience`](index.html#doc=techpaper-2026-hbm-chiplet-resilience) — [Cross-Layer Resilience for HBM and UCIe Chiplet AI Accelerators Under Targeted Bit-Flip Faults](https://semiengineering.com/) (`technical_paper`, status: `to-read`, priority: `medium`)
+  - [`usenix-osdi20-redleaf`](index.html#doc=usenix-osdi20-redleaf) — [RedLeaf: Isolation and Communication in a Safe Operating System](https://www.usenix.org/conference/osdi20/presentation/narayanan-vikram) (`academic_paper`, status: `to-read`, priority: `high`)
+  - [`usenix-osdi20-theseus`](index.html#doc=usenix-osdi20-theseus) — [Theseus: An Experiment in Operating System Structure and State Management](https://www.usenix.org/conference/osdi20/presentation/boos) (`academic_paper`, status: `to-read`, priority: `high`)
 
 ### Language Models & Efficient Attention (`ontologic:LanguageModelsAndAttention`)
 
@@ -386,11 +452,17 @@
 - **Parent Category:** `Artificial Intelligence & Machine Learning > Deep Neural Networks`
 - **Technology Area:** Large Language Models & Attention Mechanisms
 - **Description:** Large language model pretraining, scaling laws, tokenization, KV-cache compression, and efficient attention mechanisms.
-- **Linked Documents (4):**
+- **Linked Documents (10):**
   - [`amazon-science-2026-mitra-v2-tabular-foundation-models`](index.html#doc=amazon-science-2026-mitra-v2-tabular-foundation-models) — [Mitra v2: Scaling synthetic pretraining for tabular foundation models](https://www.amazon.science/blog/mitra-v2-scaling-synthetic-pretraining-for-tabular-foundation-models) (`technical_article`, status: `to-read`, priority: `high`)
+  - [`arxiv-2302.12108`](index.html#doc=arxiv-2302.12108) — [ProSpeCT: Provably Secure Speculation for the Constant-Time Policy](https://arxiv.org/abs/2302.12108) (`academic_paper`, status: `to-read`, priority: `high`)
+  - [`arxiv-2302.13863`](index.html#doc=arxiv-2302.13863) — [Capstone: A Capability-Based Foundation for Trustless Secure Memory Access](https://arxiv.org/abs/2302.13863) (`academic_paper`, status: `to-read`, priority: `high`)
   - [`arxiv-2605.04785`](index.html#doc=arxiv-2605.04785) — [AgentTrust: Runtime Safety Evaluation and Interception for AI Agent Tool Use](https://arxiv.org/abs/2605.04785) (`academic_paper`, status: `to-read`, priority: `medium`)
   - [`arxiv-2605.10901`](index.html#doc=arxiv-2605.10901) — [Beyond Red-Teaming: Formal Guarantees of LLM Guardrail Classifiers](https://arxiv.org/abs/2605.10901) (`academic_paper`, status: `to-read`, priority: `high`)
   - [`arxiv-2609.04540`](index.html#doc=arxiv-2609.04540) — [Mitra-v2 Technical Report: Scaling Synthetic Pretraining for Tabular Foundation Models](https://arxiv.org/abs/2609.04540) (`academic_paper`, status: `to-read`, priority: `high`)
+  - [`cambridge-2021-cherios-sasos`](index.html#doc=cambridge-2021-cherios-sasos) — [CheriOS: Designing an Untrusted Single-Address-Space Capability Operating System](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-961.pdf) (`academic_paper`, status: `to-read`, priority: `high`)
+  - [`research-secure-execution-enclaves-linear-address-spa`](index.html#doc=research-secure-execution-enclaves-linear-address-spa) — [Research Synthesis: Secure execution enclaves, linear address space, non-speculative execution in the enclaves, zero-trust blast chambers in a hardened custom operating system](https://github.com/bsommers/reading-db) (`note`, status: `read`, priority: `high`)
+  - [`usenix-osdi20-redleaf`](index.html#doc=usenix-osdi20-redleaf) — [RedLeaf: Isolation and Communication in a Safe Operating System](https://www.usenix.org/conference/osdi20/presentation/narayanan-vikram) (`academic_paper`, status: `to-read`, priority: `high`)
+  - [`usenix-osdi20-theseus`](index.html#doc=usenix-osdi20-theseus) — [Theseus: An Experiment in Operating System Structure and State Management](https://www.usenix.org/conference/osdi20/presentation/boos) (`academic_paper`, status: `to-read`, priority: `high`)
 
 ### Novel & State-Space Architectures (`ontologic:NovelAndStateSpaceArchitectures`)
 
@@ -420,8 +492,9 @@
 - **Parent Category:** `Artificial Intelligence & Machine Learning`
 - **Technology Area:** Agentic Systems & Reasoning
 - **Description:** Chain-of-thought and latent reasoning, autonomous multi-agent orchestration, tool use, and retrieval-augmented generation (RAG).
-- **Linked Documents (20):**
+- **Linked Documents (22):**
   - [`amazon-science-2026-mitra-v2-tabular-foundation-models`](index.html#doc=amazon-science-2026-mitra-v2-tabular-foundation-models) — [Mitra v2: Scaling synthetic pretraining for tabular foundation models](https://www.amazon.science/blog/mitra-v2-scaling-synthetic-pretraining-for-tabular-foundation-models) (`technical_article`, status: `to-read`, priority: `high`)
+  - [`arxiv-1812.09822`](index.html#doc=arxiv-1812.09822) — [MI6: Secure Enclaves in a Speculative Out-of-Order Processor](https://arxiv.org/abs/1812.09822) (`academic_paper`, status: `to-read`, priority: `high`)
   - [`arxiv-2503.19174`](index.html#doc=arxiv-2503.19174) — [AssertionForge: Enhancing Formal Verification Assertion Generation with Structured Representation of Specifications and RTL](https://arxiv.org/abs/2503.19174) (`academic_paper`, status: `reading`, priority: `high`)
   - [`arxiv-2506.10597`](index.html#doc=arxiv-2506.10597) — [SoK: Evaluating Jailbreak Guardrails for Large Language Models](https://arxiv.org/abs/2506.10597) (`academic_paper`, status: `to-read`, priority: `medium`)
   - [`arxiv-2508.00500`](index.html#doc=arxiv-2508.00500) — [ProbGuard: Proactive Runtime Monitoring for LLM Agent Safety via Probabilistic Prediction](https://arxiv.org/abs/2508.00500) (`academic_paper`, status: `to-read`, priority: `medium`)
@@ -441,6 +514,7 @@
   - [`openreview-sec-bench-2025`](index.html#doc=openreview-sec-bench-2025) — [SEC-bench: Automated Benchmarking of LLM Agents on Real-World Software Security Tasks](https://openreview.net/pdf?id=QQhQIqons0) (`academic_paper`, status: `to-read`, priority: `high`)
   - [`research-ai-security-endpoint-perspective-and-trackin`](index.html#doc=research-ai-security-endpoint-perspective-and-trackin) — [Research Synthesis: AI security: endpoint perspective, and tracking the trajectory of AI sessions, chats and transactions to detect crescendo and escalation attacks](https://github.com/bsommers/reading-db) (`note`, status: `read`, priority: `high`)
   - [`research-formal-verification-languages-in-chip-and-se`](index.html#doc=research-formal-verification-languages-in-chip-and-se) — [Research Synthesis: Formal verification languages in chip and semiconductor design](https://github.com/bsommers/reading-db) (`note`, status: `read`, priority: `high`)
+  - [`research-secure-execution-enclaves-linear-address-spa`](index.html#doc=research-secure-execution-enclaves-linear-address-spa) — [Research Synthesis: Secure execution enclaves, linear address space, non-speculative execution in the enclaves, zero-trust blast chambers in a hardened custom operating system](https://github.com/bsommers/reading-db) (`note`, status: `read`, priority: `high`)
 
 ### Interpretability, Calibration & Evaluation (`ontologic:InterpretabilityAndEvaluation`)
 
@@ -504,12 +578,14 @@
 - **Parent Category:** `Root Domain`
 - **Technology Area:** Automated Reasoning & Mathematical Logic
 - **Description:** Boolean satisfiability (SAT), Satisfiability Modulo Theories (SMT), automated theorem proving, and formal decision procedures.
-- **Linked Documents (29):**
+- **Linked Documents (32):**
   - [`arxiv-1402.4677`](index.html#doc=arxiv-1402.4677) — [MonoSAT: Modulo Theories for Graphs, Networks, and Geometry](https://arxiv.org/abs/1402.4677) (`academic_paper`, status: `read`, priority: `high`)
   - [`arxiv-1507.01763`](index.html#doc=arxiv-1507.01763) — [SAT and SMT-Based Automated Reasoning for Description Logics and Formal Ontologies](https://arxiv.org/abs/1507.01763) (`academic_paper`, status: `to-read`, priority: `high`)
   - [`arxiv-1610.00502`](index.html#doc=arxiv-1610.00502) — [A Survey of Symbolic Execution Techniques for Software Development and Verification](https://arxiv.org/abs/1610.00502) (`academic_paper`, status: `to-read`, priority: `high`)
+  - [`arxiv-1812.09822`](index.html#doc=arxiv-1812.09822) — [MI6: Secure Enclaves in a Speculative Out-of-Order Processor](https://arxiv.org/abs/1812.09822) (`academic_paper`, status: `to-read`, priority: `high`)
   - [`arxiv-2201.04663`](index.html#doc=arxiv-2201.04663) — [cvc5: A Versatile and Industrial-Strength SMT Solver](https://arxiv.org/abs/2201.04663) (`academic_paper`, status: `reading`, priority: `high`)
   - [`arxiv-2208.03699`](index.html#doc=arxiv-2208.03699) — [UCLID5: Multi-Modal Formal Modeling, Verification, and Synthesis](https://arxiv.org/abs/2208.03699) (`academic_paper`, status: `read`, priority: `high`)
+  - [`arxiv-2302.12108`](index.html#doc=arxiv-2302.12108) — [ProSpeCT: Provably Secure Speculation for the Constant-Time Policy](https://arxiv.org/abs/2302.12108) (`academic_paper`, status: `to-read`, priority: `high`)
   - [`arxiv-2503.19174`](index.html#doc=arxiv-2503.19174) — [AssertionForge: Enhancing Formal Verification Assertion Generation with Structured Representation of Specifications and RTL](https://arxiv.org/abs/2503.19174) (`academic_paper`, status: `reading`, priority: `high`)
   - [`arxiv-2506.10597`](index.html#doc=arxiv-2506.10597) — [SoK: Evaluating Jailbreak Guardrails for Large Language Models](https://arxiv.org/abs/2506.10597) (`academic_paper`, status: `to-read`, priority: `medium`)
   - [`arxiv-2509.25239`](index.html#doc=arxiv-2509.25239) — [A Formal Comparison Between Chain of Thought and Latent Thought](https://arxiv.org/abs/2509.25239) (`academic_paper`, status: `to-read`, priority: `medium`)
@@ -534,6 +610,7 @@
   - [`research-ai-security-endpoint-perspective-and-trackin`](index.html#doc=research-ai-security-endpoint-perspective-and-trackin) — [Research Synthesis: AI security: endpoint perspective, and tracking the trajectory of AI sessions, chats and transactions to detect crescendo and escalation attacks](https://github.com/bsommers/reading-db) (`note`, status: `read`, priority: `high`)
   - [`research-formal-verification-languages-in-chip-and-se`](index.html#doc=research-formal-verification-languages-in-chip-and-se) — [Research Synthesis: Formal verification languages in chip and semiconductor design](https://github.com/bsommers/reading-db) (`note`, status: `read`, priority: `high`)
   - [`research-sat-and-smt-solvers-applications-in-software`](index.html#doc=research-sat-and-smt-solvers-applications-in-software) — [Research Synthesis: SAT and SMT solvers applications in software development, graph analysis, and ontologies](https://github.com/bsommers/reading-db) (`note`, status: `read`, priority: `high`)
+  - [`research-secure-execution-enclaves-linear-address-spa`](index.html#doc=research-secure-execution-enclaves-linear-address-spa) — [Research Synthesis: Secure execution enclaves, linear address space, non-speculative execution in the enclaves, zero-trust blast chambers in a hardened custom operating system](https://github.com/bsommers/reading-db) (`note`, status: `read`, priority: `high`)
 
 ### Neuro-Symbolic Deduction & Guardrail Verification (`ontologic:NeuroSymbolicDeductionAndVerification`)
 
@@ -652,3 +729,4 @@
 | `concept:diffusion-multimodal` | **Diffusion Models, Probabilistic Programming & Multimodal Vision** | Multimodal Vision & Probabilistic Generative Models | `Artificial Intelligence & Machine Learning > Probabilistic, Diffusion & Multimodal Vision` | `concept:dnn` |
 | `concept:ai-policy-governance` | **AI Governance, Regulatory Frameworks & Human-AI Interaction** | AI Governance, Policy & Human-AI Interaction | `AI Policy, Governance & Human-AI Systems` | `concept:agentic-security` |
 | `concept:tabular-foundation-models` | **Tabular Foundation Models & Synthetic Causal Pretraining (Mitra-v2, TabPFN, AutoGluon)** | Tabular Foundation Models & Synthetic Data | `Artificial Intelligence & Machine Learning > Deep Neural Networks > Tabular Foundation Models & Synthetic Pretraining` | `concept:dnn`, `concept:flash-attention-llm` |
+| `concept:enclave-linear-blast-chamber` | **Non-Speculative Enclaves, Linear Address Spaces & Zero-Trust OS Blast Chambers (MI6, Capstone, RedLeaf, Theseus)** | Secure Enclaves, SASOS & Blast-Chamber Isolation | `Security & Resilience > Secure Enclaves, Linear Capabilities & Blast-Chamber OS` | `concept:fil-c`, `concept:uclid5`, `concept:symbolic-execution` |
